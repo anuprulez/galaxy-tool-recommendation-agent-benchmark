@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local configs and keys
+.env
+.env.*
+!.env.example
+
+# Generated metadata
+gtn_benchmark.egg-info/
+
+# Large datasets and outputs
+data/benchmark/
+data/raw_llm/
+data/datasets/
+
+# External checkouts
+training-material/
+
+.gemini
+backup_dataset/
+
+plan_*.md
