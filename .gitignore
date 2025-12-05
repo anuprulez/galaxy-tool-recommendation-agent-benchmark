@@ -12,9 +12,10 @@ __pycache__/
 gtn_benchmark.egg-info/
 
 # Large datasets and outputs
-data/benchmark/
 data/raw_llm/
+data/benchmark/
 data/datasets/
+
 
 # External checkouts
 training-material/

@@ -195,12 +195,16 @@ def main() -> None:
     for tutorial in tutorials:
         if args.resume and tutorial.tutorial_id in completed_tutorials:
             continue
-        tutorial_items = generate_queries_for_tutorial(
-            tutorial,
-            client,
-            raw_dir,
-            include_body=args.full_context,
-        )
+        try:
+            tutorial_items = generate_queries_for_tutorial(
+                tutorial,
+                client,
+                raw_dir,
+                include_body=args.full_context,
+            )
+        except Exception as exc:  # noqa: BLE001
+            LOGGER.error("Failed to generate tutorial %s: %s", tutorial.tutorial_id, exc)
+            continue
         all_items.extend(tutorial_items)
 
     if not all_items:

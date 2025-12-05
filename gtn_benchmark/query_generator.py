@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 from pathlib import Path
+import json
 from typing import Any
 
 from .io_utils import safe_filename, write_json
@@ -46,7 +47,9 @@ Write {requested_queries} diverse, natural-language questions aimed at getting G
 Requirements for each question:
 - Explicitly ask which Galaxy tool(s) or workflow step(s) to use; intent must be tool recommendation (not metrics interpretation or results explanation).
 - Assume the user does NOT know tool names; phrase questions as “which Galaxy tool should I use to …?” or “how do I do X in Galaxy?” (avoid naming a specific tool unless it’s unavoidable).
+- Mix question styles: include both science-first questions (“I have X data, how do I achieve Y?”) and tool-first questions (“Which Galaxy tool should I use to ...?”).
 - Target analytical steps that require choosing an analysis tool or workflow step (preprocessing, training, evaluation). Do NOT ask about data management/tagging/exporting or report interpretation-only questions.
+- For each question, specify which dataset(s) from the provided list it uses (filenames or paths).
 - Ground the question in the provided datasets (names/paths above) and the analysis goal; avoid generic questions with no data context.
 - Keep questions natural; you may name specific tools only when appropriate, otherwise ask for recommendations.
 - Avoid referencing GTN explicitly.
@@ -59,11 +62,18 @@ Return JSON in this shape:
       "id_suffix": "q01",
       "query": "How do I ...?",
       "difficulty": "easy|medium|hard",
-      "rationale": "Optional short note explaining what part of the tutorial this covers."
+      "rationale": "Optional short note explaining what part of the tutorial this covers.",
+      "tools": ["tool_id1", "tool_id2"],
+      "datasets": ["dataset_filename_or_path"],
+      "answer": "Short answer telling which tool(s) to use and why."
     }}
   ],
   "analysis_focus": "One short sentence describing what this analysis aims to accomplish"
 }}
+
+Examples (mix science-first and tool-first):
+- Science-first: "I have paired-end FASTQ reads for yeast. Which Galaxy tool should I use to trim adapters before mapping?" (tools: trim_galore)
+- Tool-first: "Which Galaxy tool should I use to align RNA-Seq reads in FASTQ format to a reference genome?" (tools: STAR or HISAT2)
 
 Ensure id_suffix values are sequential (q01, q02, ...).
 """
@@ -81,7 +91,24 @@ def generate_queries_for_tutorial(
     system_prompt = build_system_prompt()
     user_prompt = build_user_prompt(tutorial, tutorial.min_queries, include_body)
     LOGGER.info("Generating queries for %s", tutorial.tutorial_id)
-    response = client.generate_json(system_prompt, user_prompt)
+    response: dict[str, Any] | None = None
+    decode_attempts = 2
+    for attempt in range(1, decode_attempts + 1):
+        try:
+            response = client.generate_json(system_prompt, user_prompt)
+            break
+        except json.JSONDecodeError as exc:
+            LOGGER.warning(
+                "JSON decode failed for %s (attempt %s/%s): %s",
+                tutorial.tutorial_id,
+                attempt,
+                decode_attempts,
+                exc,
+            )
+            if attempt == decode_attempts:
+                return []
+    if response is None:
+        return []
     write_json(response, raw_path)
     payload = response.get("queries") or response.get("items")
     if not isinstance(payload, list):
@@ -98,25 +125,39 @@ def generate_queries_for_tutorial(
         if difficulty not in {"easy", "medium", "hard"}:
             difficulty = "medium"
         analysis_focus = response.get("analysis_focus") or tutorial.context_summary
+        rec_tools = []
+        tools_field = query_block.get("tools")
+        if isinstance(tools_field, list):
+            rec_tools = [str(t).strip() for t in tools_field if str(t).strip()]
+        if not rec_tools:
+            rec_tools = tutorial.tools
+        q_datasets: list[str] = []
+        q_ds_field = query_block.get("datasets")
+        if isinstance(q_ds_field, list):
+            q_datasets = [str(d).strip() for d in q_ds_field if str(d).strip()]
+        if not q_datasets:
+            q_datasets = tutorial.dataset_paths or tutorial.datasets
+        answer = query_block.get("answer")
         benchmark_items.append(
             BenchmarkItem(
                 id=f"{tutorial.short_name}-{suffix}",
                 tutorial_id=tutorial.tutorial_id,
                 query=query_text,
-                tools=tutorial.tools,
+                tools=rec_tools,
                 workflows=tutorial.workflows,
                 metadata={
                     "topic": tutorial.topic,
                     "tutorial_title": tutorial.title,
-                    "datasets": tutorial.datasets,
+                    "datasets": q_datasets or tutorial.datasets,
                     **({"dataset_paths": tutorial.dataset_paths} if tutorial.dataset_paths else {}),
-                    "dataset_count": tutorial.dataset_count,
+                    "dataset_count": len(q_datasets) if q_datasets else tutorial.dataset_count,
                     "difficulty": difficulty,
                     "context_summary": analysis_focus or tutorial.context_summary,
                     "priority": idx,  # 1 = first generated
                     "version": version,
                     **({"workflow_steps": tutorial.workflow_steps} if tutorial.workflow_steps else {}),
                     **({"rationale": rationale} if rationale else {}),
+                    **({"answer": answer} if answer else {}),
                 },
             )
         )
