@@ -19,8 +19,11 @@ data/datasets/
 
 # External checkouts
 training-material/
+GTN-data/
 
 .gemini
 backup_dataset/
 
 plan_*.md
+
+output/
