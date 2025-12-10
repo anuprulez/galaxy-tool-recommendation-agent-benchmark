@@ -15,6 +15,7 @@ gtn_benchmark.egg-info/
 data/raw_llm/
 data/benchmark/
 data/datasets/
+output/
 
 
 # External checkouts

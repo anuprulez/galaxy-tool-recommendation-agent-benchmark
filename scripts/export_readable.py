@@ -61,8 +61,11 @@ def write_markdown(items: List[Dict[str, Any]], output: Path) -> None:
         )
         for idx, item in enumerate(t_items, start=1):
             meta = item.get("metadata", {})
-            difficulty = meta.get("difficulty", "medium")
-            lines.append(f"{idx}. [{difficulty}] {item.get('id')}: {item.get('query')}")
+            q_tools = format_list(item.get("tools", []))
+            q_datasets = format_list(meta.get("dataset_paths") or meta.get("datasets") or [])
+            lines.append(f"{idx}. {item.get('id')}: {item.get('query')}")
+            lines.append(f"   - Tools: {q_tools}")
+            lines.append(f"   - Datasets: {q_datasets}")
         lines.append("")  # blank line between tutorials
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text("\n".join(lines), encoding="utf-8")
