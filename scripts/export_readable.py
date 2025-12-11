@@ -45,7 +45,6 @@ def write_markdown(items: List[Dict[str, Any]], output: Path) -> None:
         title = meta.get("tutorial_title") or tutorial_id
         topic = meta.get("topic", "N/A")
         tools = format_list(first.get("tools", []))
-        workflows = format_list(first.get("workflows", []))
         dataset_paths = meta.get("dataset_paths") or meta.get("datasets") or []
         dataset_count = meta.get("dataset_count") or len(dataset_paths)
         lines.extend(
@@ -53,7 +52,6 @@ def write_markdown(items: List[Dict[str, Any]], output: Path) -> None:
                 f"## {title} ({tutorial_id})",
                 f"- Topic: {topic}",
                 f"- Tools: {tools}",
-                f"- Workflows: {workflows}",
                 f"- Datasets ({dataset_count}): {format_list(dataset_paths)}",
                 "",
                 "Questions:",

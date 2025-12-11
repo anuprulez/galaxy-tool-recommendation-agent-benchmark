@@ -3,7 +3,6 @@
 ## A short introduction to Galaxy (topics/introduction/tutorials/galaxy-intro-short)
 - Topic: introduction
 - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72
-- Workflows: Galaxy-Workflow-galaxy-intro-short
 - Datasets (1): examples/datasets/introduction/galaxy-intro-short/mutant_R1.fastq
 
 Questions:
@@ -35,7 +34,6 @@ Questions:
 ## Quality Control (topics/sequence-analysis/tutorials/quality-control)
 - Topic: sequence-analysis
 - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
-- Workflows: quality_control.eu, quality_control
 - Datasets (2): examples/datasets/sequence-analysis/quality-control/GSM461177_untreat_paired_subset_1.fastq, examples/datasets/sequence-analysis/quality-control/GSM461177_untreat_paired_subset_2.fastq
 
 Questions:
@@ -79,7 +77,6 @@ Questions:
 ## Building the LORIS LLR6 PanCancer Model Using PyCaret (topics/statistics/tutorials/loris_model)
 - Topic: statistics
 - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
-- Workflows: main_workflow
 - Datasets (2): examples/datasets/statistics/loris_model/Chowell_train_Response.tsv, examples/datasets/statistics/loris_model/Chowell_test_Response.tsv
 
 Questions:
