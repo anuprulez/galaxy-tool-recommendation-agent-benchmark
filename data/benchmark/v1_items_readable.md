@@ -1,0 +1,5707 @@
+# GTN Benchmark Items (Readable)
+
+## Machine learning: classification and regression (topics/statistics/tutorials/classification_regression)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.8.1
+- Datasets (1): 2579649
+
+Questions:
+- **classification_regression-q011** — I have labeled samples and want a margin-based classifier that can handle non-linear boundaries. How should I approach this in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q012** — For a binary outcome prediction task, I need a robust classifier that works well with small feature sets. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q013** — Which Galaxy tool should I use to train a support vector classifier for my dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q014** — How do I run an SVM-style classification in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q021** — After training a classifier, I need ROC, PR, and confusion-matrix visuals to interpret performance. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q022** — I want interactive plots comparing precision/recall and other metrics for my classifier. How can I generate those?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q023** — Which Galaxy tool produces interactive ML performance plots for classification results?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q024** — How can I visualize classifier performance with Plotly-style dashboards in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q031** — I want to improve classification accuracy using an ensemble of trees. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q032** — For a noisy dataset, I want a model that averages multiple learners to stabilize predictions. How do I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q033** — Which Galaxy tool trains ensemble models like random forests for classification?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q034** — How do I fit an ensemble classifier in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2579649
+- **classification_regression-q041** — I need predicted-vs-actual and residual plots to assess a regression model. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q042** — To evaluate regression quality, I want interactive diagnostics rather than static plots. How can I generate them?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q043** — Which Galaxy tool creates interactive regression performance plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2579649
+- **classification_regression-q044** — How do I visualize regression errors and fit quality in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2579649
+
+## Clustering in Machine Learning (topics/statistics/tutorials/clustering_machinelearning)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.8.1
+- Datasets (1): 3813447
+
+Questions:
+- **clustering_machinelearning-q011** — I want to group unlabeled samples into clusters and compare several algorithms. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.8.1
+  - Datasets: 3813447
+- **clustering_machinelearning-q012** — I need to discover natural groupings in numeric features without labels. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.8.1
+  - Datasets: 3813447
+- **clustering_machinelearning-q013** — Which Galaxy tool performs numeric clustering like k-means or DBSCAN?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.8.1
+  - Datasets: 3813447
+- **clustering_machinelearning-q014** — How do I run clustering for continuous features in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.8.1
+  - Datasets: 3813447
+- **clustering_machinelearning-q021** — After clustering, I need a scatter plot colored by cluster assignments. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2
+  - Datasets: 3813447
+- **clustering_machinelearning-q022** — I want a 2D point plot to inspect cluster separation visually. How can I create it?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2
+  - Datasets: 3813447
+- **clustering_machinelearning-q023** — Which Galaxy tool generates ggplot2-style point plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2
+  - Datasets: 3813447
+- **clustering_machinelearning-q024** — How can I make a scatter plot for clustering results in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2
+  - Datasets: 3813447
+- **clustering_machinelearning-q031** — My clustering input is a CSV file; I need it as a tabular dataset first. What should I do?
+  - Tools: csv_to_tabular
+  - Datasets: 3813447
+- **clustering_machinelearning-q032** — I want to convert comma-separated numeric data into Galaxy tabular format before analysis. How?
+  - Tools: csv_to_tabular
+  - Datasets: 3813447
+- **clustering_machinelearning-q033** — Which Galaxy tool converts CSV to tabular format?
+  - Tools: csv_to_tabular
+  - Datasets: 3813447
+- **clustering_machinelearning-q034** — How do I reformat a CSV file into tabular in Galaxy?
+  - Tools: csv_to_tabular
+  - Datasets: 3813447
+
+## Unsupervised Analysis of Bone Marrow Cells with Flexynesis (topics/statistics/tutorials/flexynesis_unsupervised)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+- Datasets (1): 16287482
+
+Questions:
+- **flexynesis_unsupervised-q011** — I need to run an unsupervised deep-learning workflow to reveal structure in high-dimensional cell data. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q012** — For bone marrow single-cell profiles, I want a nonlinear embedding that captures hidden patterns. How can I run that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q013** — Which Galaxy tool performs Flexynesis-based unsupervised analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q014** — How do I run a Flexynesis model in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q021** — I need to prepare and transform Flexynesis outputs for downstream inspection. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q022** — Before plotting or interpretation, I want utility processing for Flexynesis results. How can I handle that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q023** — Which Galaxy tool provides Flexynesis utility functions for post-processing?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q024** — How do I manipulate Flexynesis output tables in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q031** — I need visualizations of the latent space and cluster structure from a Flexynesis run. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q032** — To interpret unsupervised results, I want dedicated plots of Flexynesis embeddings. How can I generate them?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q033** — Which Galaxy tool produces Flexynesis-specific plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Datasets: 16287482
+- **flexynesis_unsupervised-q034** — How do I visualize Flexynesis analysis results in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Datasets: 16287482
+
+## Train and Test a Deep learning image classifier with Galaxy-Ludwig (topics/statistics/tutorials/galaxy-ludwig)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+- Datasets (0): N/A
+
+Questions:
+- **galaxy-ludwig-q011** — I want to train a deep-learning image classifier and test it within Galaxy. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+  - Datasets: N/A
+- **galaxy-ludwig-q012** — For an image classification project, I need an end-to-end training and evaluation workflow. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+  - Datasets: N/A
+- **galaxy-ludwig-q013** — Which Galaxy tool runs Ludwig experiments for image classification?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+  - Datasets: N/A
+- **galaxy-ludwig-q014** — How do I launch a Ludwig training experiment in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+  - Datasets: N/A
+
+## Supervised Learning with Hyperdimensional Computing (topics/statistics/tutorials/hyperdimensional_computing)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.7+galaxy1
+- Datasets (1): zenodo.6467875
+
+Questions:
+- **hyperdimensional_computing-q011** — I want to apply hyperdimensional computing for supervised classification. How can I do this in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.7+galaxy1
+  - Datasets: zenodo.6467875
+- **hyperdimensional_computing-q012** — My task needs a lightweight classifier based on hyperdimensional representations. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.7+galaxy1
+  - Datasets: zenodo.6467875
+- **hyperdimensional_computing-q013** — Which Galaxy tool implements the chopin2 hyperdimensional classifier?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.7+galaxy1
+  - Datasets: zenodo.6467875
+- **hyperdimensional_computing-q014** — How do I run hyperdimensional computing classification in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.7+galaxy1
+  - Datasets: zenodo.6467875
+
+## Interval-Wise Testing for omics data (topics/statistics/tutorials/iwtomics)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
+- Datasets (1): zenodo.5589610
+
+Questions:
+- **iwtomics-q011** — I need to load omics curves and get an initial visualization before testing. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q012** — My first step is to import and inspect functional omics profiles. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q013** — Which Galaxy tool loads and plots IWTomics input data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q014** — How do I perform the initial load-and-plot step for IWTomics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q021** — I want to perform interval-wise statistical testing between two omics groups and plot results. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_testandplot/iwtomics_testandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q022** — To detect significant regions across curves, I need the main IWT test with visualization. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_testandplot/iwtomics_testandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q023** — Which Galaxy tool runs IWTomics testing and produces plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_testandplot/iwtomics_testandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q024** — How do I execute interval-wise tests with IWTomics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_testandplot/iwtomics_testandplot/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q031** — I need plots with custom scales to compare omics curves across conditions. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_plotwithscale/iwtomics_plotwithscale/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q032** — After testing, I want scaled visualizations tailored to my data range. How can I generate them?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_plotwithscale/iwtomics_plotwithscale/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q033** — Which Galaxy tool creates IWTomics plots with custom scales?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_plotwithscale/iwtomics_plotwithscale/1.0.0.0
+  - Datasets: zenodo.5589610
+- **iwtomics-q034** — How do I produce scaled plots for IWTomics outputs in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_plotwithscale/iwtomics_plotwithscale/1.0.0.0
+  - Datasets: zenodo.5589610
+
+## Building the LORIS LLR6 PanCancer Model Using PyCaret (topics/statistics/tutorials/loris_model)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+- Datasets (1): 13885908
+
+Questions:
+- **loris_model-q011** — I want to compare multiple classification models and pick the best performer automatically. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+  - Datasets: 13885908
+- **loris_model-q012** — For a cancer prediction dataset, I need an automated model comparison across algorithms. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+  - Datasets: 13885908
+- **loris_model-q013** — Which Galaxy tool runs PyCaret-style model comparison?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+  - Datasets: 13885908
+- **loris_model-q014** — How do I compare many ML models at once in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+  - Datasets: 13885908
+
+## Basics of machine learning (topics/statistics/tutorials/machinelearning)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
+- Datasets (1): 1468039
+
+Questions:
+- **machinelearning-q011** — I want a straightforward supervised classifier for a binary label problem in Galaxy. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
+  - Datasets: 1468039
+- **machinelearning-q012** — For a small feature table, I need a classic margin-based classifier to start with. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
+  - Datasets: 1468039
+- **machinelearning-q013** — Which Galaxy tool provides a standard SVM classifier?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
+  - Datasets: 1468039
+- **machinelearning-q014** — How do I fit an SVM model in Galaxy for a basic ML task?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
+  - Datasets: 1468039
+
+## Text-mining with the SimText toolset (topics/statistics/tutorials/text-mining_simtext)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+- Datasets (1): zenodo.4638516
+
+Questions:
+- **text-mining_simtext-q011** — I need to retrieve PubMed records for a set of biomedical queries to start a text-mining analysis. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q012** — To build a literature corpus, I want to run multiple keyword searches against PubMed. How can I do this in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q013** — Which Galaxy tool fetches PubMed articles from a list of queries?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q014** — How do I run multi-query PubMed retrieval in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q021** — After collecting PMIDs, I want a matrix of entities from PubTator to analyze co-occurrences. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pmids_to_pubtator_matrix/pmids_to_pubtator_matrix/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q022** — I need to convert a list of PMIDs into a PubTator annotation matrix for downstream text mining. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pmids_to_pubtator_matrix/pmids_to_pubtator_matrix/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q023** — Which Galaxy tool transforms PMIDs into a PubTator matrix?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pmids_to_pubtator_matrix/pmids_to_pubtator_matrix/0.0.2
+  - Datasets: zenodo.4638516
+- **text-mining_simtext-q024** — How do I generate a PubTator annotation matrix in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pmids_to_pubtator_matrix/pmids_to_pubtator_matrix/0.0.2
+  - Datasets: zenodo.4638516
+
+## Age prediction using machine learning (topics/statistics/tutorials/age-prediction-with-ml)
+- Topic: statistics
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.8.1
+- Datasets (1): 2545213
+
+Questions:
+- **age-prediction-with-ml-q011** — I need to chain preprocessing and regression steps for age prediction into one reusable workflow. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q012** — My model requires scaling and feature selection before training; I want this as a single pipeline. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q013** — Which Galaxy tool lets me build a scikit-learn pipeline for age prediction?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q014** — How do I assemble preprocessing and model steps into a pipeline in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q021** — I want to tune regression hyperparameters using cross-validation. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q022** — To find the best model settings for age prediction, I need CV-based search. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q023** — Which Galaxy tool performs hyperparameter search with cross-validation?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q024** — How do I run grid or random search CV in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q031** — I want an ensemble regressor to improve age prediction accuracy. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q032** — For regression with complex patterns, I need a forest/boosting approach. How can I run that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q033** — Which Galaxy tool trains ensemble regression models?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q034** — How do I fit an ensemble regressor in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.8.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q041** — After training the age model, I need diagnostic plots to assess fit quality. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q042** — I want interactive plots showing predicted vs observed ages and residuals. How can I generate them?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q043** — Which Galaxy tool generates regression performance plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q044** — How do I visualize regression results with interactive plots in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q051** — I need a parallel-coordinates plot to inspect feature patterns related to age. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_parallel_coordinates_plot/plotly_parallel_coordinates_plot/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q052** — To explore high-dimensional features in the age model, I want an interactive parallel-coordinates view. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_parallel_coordinates_plot/plotly_parallel_coordinates_plot/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q053** — Which Galaxy tool creates parallel-coordinates plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_parallel_coordinates_plot/plotly_parallel_coordinates_plot/0.1
+  - Datasets: 2545213
+- **age-prediction-with-ml-q054** — How do I build a parallel-coordinates visualization in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_parallel_coordinates_plot/plotly_parallel_coordinates_plot/0.1
+  - Datasets: 2545213
+
+## A Docker-based interactive Jupyterlab powered by GPU for artificial intelligence in Galaxy (topics/statistics/tutorials/gpu_jupyter_lab)
+- Topic: statistics
+- Tools: Filter1
+- Datasets (1): 6091361
+
+Questions:
+- **gpu_jupyter_lab-q011** — I need to filter rows from a dataset based on a condition before running analysis in JupyterLab. What should I do?
+  - Tools: Filter1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q012** — Before launching the notebook workflow, I want to subset my table by a criterion. How can I do that in Galaxy?
+  - Tools: Filter1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q013** — Which Galaxy tool filters tabular rows by a condition?
+  - Tools: Filter1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q014** — How do I apply a row filter to a dataset in Galaxy?
+  - Tools: Filter1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q021** — I want to keep only specific columns from a table before sending it to a notebook. What should I do?
+  - Tools: Cut1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q022** — To simplify an input table, I need to extract a subset of columns. How can I do that in Galaxy?
+  - Tools: Cut1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q023** — Which Galaxy tool lets me select specific columns from a tabular file?
+  - Tools: Cut1
+  - Datasets: 6091361
+- **gpu_jupyter_lab-q024** — How do I cut a table down to selected columns in Galaxy?
+  - Tools: Cut1
+  - Datasets: 6091361
+
+## Ocean's variables study (topics/climate/tutorials/ocean-variables)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
+- Datasets (0): N/A
+
+Questions:
+- **ocean-variables-q011** — I have scattered oceanographic measurements and need a gridded field to analyze spatial patterns. How should I proceed?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **ocean-variables-q012** — For climate studies, I want to interpolate irregular ocean variable samples onto a regular grid. What can I run in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **ocean-variables-q013** — Which Galaxy tool performs full analysis and gridding for ocean variable datasets?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **ocean-variables-q014** — How can I run a divand-style interpolation for ocean variables in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+
+## Including a new topic (topics/contributing/tutorials/create-new-topic)
+- Topic: contributing
+- Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+- Datasets (0): N/A
+
+Questions:
+- **create-new-topic-q011** — I need to demonstrate a sequence similarity search for a new tutorial topic. What should I use in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-topic-q012** — For a new training topic, I want to include an example that finds homologous sequences from a query. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-topic-q013** — Which Galaxy tool should I use to run a BLAST search for a sequence?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-topic-q014** — How can I perform a sequence similarity search in Galaxy for a tutorial example?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+
+## Learning about one gene across biological resources and formats (topics/data-science/tutorials/online-resources-gene)
+- Topic: data-science
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+- Datasets (1): 8304465
+
+Questions:
+- **online-resources-gene-q011** — I have a protein sequence from a gene of interest and want to find homologs across databases. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 8304465
+- **online-resources-gene-q012** — While investigating a single gene, I need to search for similar proteins to infer function. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 8304465
+- **online-resources-gene-q013** — Which Galaxy tool performs a protein sequence similarity search against a database?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 8304465
+- **online-resources-gene-q014** — How do I run a BLASTP-style search in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 8304465
+
+## Creating metadata using Ecological Metadata Language (EML) standard with EML Assembly Line functionalities (topics/ecology/tutorials/MetaShARK_tutorial)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+- Datasets (1): 10663465
+
+Questions:
+- **MetaShARK_tutorial-q011** — I need to generate an EML metadata file describing an ecological dataset. How should I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+  - Datasets: 10663465
+- **MetaShARK_tutorial-q012** — To publish ecological data, I want to build rich EML metadata with standardized fields. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+  - Datasets: 10663465
+- **MetaShARK_tutorial-q013** — Which Galaxy tool can create EML metadata from template inputs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+  - Datasets: 10663465
+- **MetaShARK_tutorial-q014** — How do I build an Ecological Metadata Language document in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+  - Datasets: 10663465
+
+## Cleaning GBIF data using OpenRefine (topics/ecology/tutorials/openrefine_gbif)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+- Datasets (0): N/A
+
+Questions:
+- **openrefine_gbif-q011** — I need to clean GBIF records by standardizing text fields using regular expressions. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **openrefine_gbif-q012** — To fix inconsistent species names, I want a find/replace step driven by regex rules. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **openrefine_gbif-q013** — Which Galaxy tool lets me apply regex-based find and replace on tabular data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **openrefine_gbif-q014** — How do I run a regex find/replace operation in Galaxy to clean records?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+
+## Identifying Mycorrhizal Fungi from ITS2 sequencing using LotuS2 (topics/microbiome/tutorials/lotus2-identifying-fungi)
+- Topic: microbiome
+- Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
+- Datasets (1): 13710591
+
+Questions:
+- **lotus2-identifying-fungi-q011** — I have ITS2 amplicon reads and need to identify fungal taxa and generate OTU/ASV tables. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
+  - Datasets: 13710591
+- **lotus2-identifying-fungi-q012** — For mycorrhizal fungi profiling, I want a pipeline that processes ITS2 reads and assigns taxonomy. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
+  - Datasets: 13710591
+- **lotus2-identifying-fungi-q013** — Which Galaxy tool provides an end-to-end ITS2 analysis workflow for fungi?
+  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
+  - Datasets: 13710591
+- **lotus2-identifying-fungi-q014** — How do I run a LotuS2-style ITS2 pipeline in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
+  - Datasets: 13710591
+
+## Comparing inferred cell compositions using MuSiC deconvolution (topics/single-cell/tutorials/bulk-music-4-compare)
+- Topic: single-cell
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
+- Datasets (1): 7319925
+
+Questions:
+- **bulk-music-4-compare-q011** — I have two deconvolution results and want to compare inferred cell-type proportions across conditions. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
+  - Datasets: 7319925
+- **bulk-music-4-compare-q012** — To evaluate how different reference sets affect MuSiC outputs, I need a comparison of cell composition estimates. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
+  - Datasets: 7319925
+- **bulk-music-4-compare-q013** — Which Galaxy tool compares MuSiC deconvolution outputs between runs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
+  - Datasets: 7319925
+- **bulk-music-4-compare-q014** — How do I compare inferred cell compositions in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
+  - Datasets: 7319925
+
+## Visualization of RNA-Seq results with Volcano Plot (topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot)
+- Topic: transcriptomics
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.7
+- Datasets (1): 2529117
+
+Questions:
+- **rna-seq-viz-with-volcanoplot-q011** — I have differential expression results and need a volcano plot to highlight significant genes. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.7
+  - Datasets: 2529117
+- **rna-seq-viz-with-volcanoplot-q012** — To visualize log fold changes against adjusted p-values, I want a standard volcano plot. How can I make it in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.7
+  - Datasets: 2529117
+- **rna-seq-viz-with-volcanoplot-q013** — Which Galaxy tool creates volcano plots from RNA-seq differential results?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.7
+  - Datasets: 2529117
+- **rna-seq-viz-with-volcanoplot-q014** — How do I generate a volcano plot in Galaxy for RNA-seq analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.7
+  - Datasets: 2529117
+
+## Visualization of RNA-Seq results with Volcano Plot in R (topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r)
+- Topic: transcriptomics
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
+- Datasets (1): 2529117
+
+Questions:
+- **rna-seq-viz-with-volcanoplot-r-q011** — I want to customize a volcano plot by adjusting colors, labels, and point categories. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
+  - Datasets: 2529117
+- **rna-seq-viz-with-volcanoplot-r-q012** — For RNA-seq results, I need a volcano plot with highlighted genes and custom styling. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
+  - Datasets: 2529117
+- **rna-seq-viz-with-volcanoplot-r-q013** — Which Galaxy tool lets me customize volcano plot styling for RNA-seq results?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
+  - Datasets: 2529117
+- **rna-seq-viz-with-volcanoplot-r-q014** — How can I create a volcano plot with custom labels and colors in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
+  - Datasets: 2529117
+
+## Querying the University of Bradford GDC Beacon Database for Copy Number Variants (CNVs) (topics/variant-analysis/tutorials/beacon_cnv_query)
+- Topic: variant-analysis
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+- Datasets (1): 10658688
+
+Questions:
+- **beacon_cnv_query-q011** — I need to query a Beacon database to find CNVs overlapping a genomic region. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Datasets: 10658688
+- **beacon_cnv_query-q012** — For a set of CNV criteria, I want to search a Beacon server and retrieve matching records. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Datasets: 10658688
+- **beacon_cnv_query-q013** — Which Galaxy tool can query Beacon v2 for copy number variants?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Datasets: 10658688
+- **beacon_cnv_query-q014** — How do I run a CNV query against a Beacon database in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Datasets: 10658688
+
+## Genomic Data Visualisation with JBrowse (topics/visualisation/tutorials/jbrowse)
+- Topic: visualisation
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+- Datasets (1): zenodo.3591856
+
+Questions:
+- **jbrowse-q011** — I want to explore genomic tracks interactively and inspect features along a reference genome. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.3591856
+- **jbrowse-q012** — I need to load multiple annotation and coverage tracks into a genome browser for visual inspection. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.3591856
+- **jbrowse-q013** — Which Galaxy tool provides an interactive genome browser for visualizing tracks?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.3591856
+- **jbrowse-q014** — How do I open genomic tracks in a browser view within Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.3591856
+
+## Assembly of the mitochondrial genome from PacBio HiFi reads (topics/assembly/tutorials/mitochondrion-assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3+galaxy0
+- Datasets (1): 13345315
+
+Questions:
+- **mitochondrion-assembly-q011** — I have PacBio HiFi reads and want to assemble the mitochondrial genome. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3+galaxy0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q012** — To build a mitochondrial assembly and get circular contigs, I need a specialized assembler. How can I run that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3+galaxy0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q013** — Which Galaxy tool is used for assembling mitochondrial genomes from HiFi reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3+galaxy0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q014** — How do I run a mitochondrial assembly workflow in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3+galaxy0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q021** — After assembly, I want to compress the output files for sharing or storage. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q022** — I need to package large assembly results into a compressed archive. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q023** — Which Galaxy tool compresses files into a standard archive?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
+  - Datasets: 13345315
+- **mitochondrion-assembly-q024** — How do I compress assembly outputs in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
+  - Datasets: 13345315
+
+## RAD-Seq to construct genetic maps (topics/ecology/tutorials/genetic-map-rad-seq)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+- Datasets (1): zenodo.1219888
+
+Questions:
+- **genetic-map-rad-seq-q011** — I want to call SNPs from RAD-Seq reads and build a de novo genetic map. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q012** — To assemble loci and call variants from RAD sequencing without a reference, I need a de novo pipeline. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q013** — Which Galaxy tool performs the Stacks de novo map workflow for RAD-Seq?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q014** — How do I run a de novo RAD-Seq SNP calling workflow in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q021** — After SNP calling, I need genotype and haplotype summaries suitable for genetic map construction. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_genotypes/stacks_genotypes/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q022** — I want to export genotypes from my RAD-Seq analysis for downstream linkage mapping. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_genotypes/stacks_genotypes/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q023** — Which Galaxy tool generates genotype tables from Stacks outputs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_genotypes/stacks_genotypes/1.46.0
+  - Datasets: zenodo.1219888
+- **genetic-map-rad-seq-q024** — How do I extract genotypes for genetic mapping in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_genotypes/stacks_genotypes/1.46.0
+  - Datasets: zenodo.1219888
+
+## Phylogenetic analysis for bacterial comparative genomics (topics/evolution/tutorials/bacterial-comparative-genomics)
+- Topic: evolution
+- Tools: upload1
+- Datasets (1): 1
+
+Questions:
+- **bacterial-comparative-genomics-q011** — I need to bring multiple bacterial genome files into Galaxy to start a phylogenetic workflow. What should I do?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q012** — Before building a tree, I want to upload my alignment or sequences into Galaxy. How can I do that?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q013** — Which Galaxy tool should I use to import local files into my history?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q014** — How do I upload sequence data into Galaxy for comparative genomics?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q021** — I have a multiple sequence alignment and want a fast approximate phylogenetic tree. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q022** — To compare bacterial genomes, I need a rapid maximum-likelihood tree from an alignment. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q023** — Which Galaxy tool builds a FastTree phylogeny from an alignment?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
+  - Datasets: 1
+- **bacterial-comparative-genomics-q024** — How do I generate a quick phylogenetic tree in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
+  - Datasets: 1
+
+## Very Short Introductions: QC (topics/introduction/tutorials/vsi_qc)
+- Topic: introduction
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+- Datasets (1): 10870107
+
+Questions:
+- **vsi_qc-q011** — I need to trim adapters and filter low-quality reads from sequencing data. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+  - Datasets: 10870107
+- **vsi_qc-q012** — Before downstream analysis, I want to clean Illumina reads and remove poor-quality bases. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+  - Datasets: 10870107
+- **vsi_qc-q013** — Which Galaxy tool performs read trimming and quality filtering in one step?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+  - Datasets: 10870107
+- **vsi_qc-q014** — How do I run fast read QC and trimming in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+  - Datasets: 10870107
+- **vsi_qc-q021** — I have multiple QC reports and want a single summary report. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: 10870107
+- **vsi_qc-q022** — After running read QC on many samples, I need a combined summary dashboard. How can I generate it?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: 10870107
+- **vsi_qc-q023** — Which Galaxy tool aggregates QC outputs into one report?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: 10870107
+- **vsi_qc-q024** — How do I create a MultiQC-style summary in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: 10870107
+
+## Finding the muon stopping site with pymuon-suite in Galaxy (topics/materials-science/tutorials/muon-stopping-sites-muairss-uep)
+- Topic: materials-science
+- Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
+- Datasets (1): 10219558
+
+Questions:
+- **muon-stopping-sites-muairss-uep-q011** — I want to refine candidate muon sites by optimizing the electrostatic potential. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q012** — To locate the most stable muon stopping site, I need an optimization step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q013** — Which Galaxy tool optimizes muon stopping sites using electrostatic potential?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q014** — How do I run UEP optimization for muon stopping sites in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q021** — I have muAIRSS simulation outputs and need to parse them into usable stopping site candidates. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q022** — To analyze muon stopping site results, I need a reader that extracts energies and coordinates. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q023** — Which Galaxy tool reads muAIRSS outputs for muon stopping site analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
+  - Datasets: 10219558
+- **muon-stopping-sites-muairss-uep-q024** — How do I parse muAIRSS results in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
+  - Datasets: 10219558
+
+## Calculating α and β diversity from microbiome taxonomic data (topics/microbiome/tutorials/diversity)
+- Topic: microbiome
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
+- Datasets (1): 13150694
+
+Questions:
+- **diversity-q011** — I want to compute within-sample diversity metrics like Shannon or Simpson for taxonomic profiles. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q012** — To summarize alpha diversity across microbiome samples, I need a tool that calculates standard indices. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q013** — Which Galaxy tool calculates alpha diversity metrics from taxonomic counts?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q014** — How do I compute alpha diversity in Galaxy for microbiome data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q021** — I need to compare community composition between samples using beta diversity distances. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q022** — To quantify differences between microbiome samples, I want Bray-Curtis or Jaccard distances. How can I compute them?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q023** — Which Galaxy tool computes beta diversity distances from taxonomic profiles?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
+  - Datasets: 13150694
+- **diversity-q024** — How do I calculate beta diversity in Galaxy for microbiome datasets?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
+  - Datasets: 13150694
+
+## MaxQuant and MSstats for the analysis of TMT data (topics/proteomics/tutorials/maxquant-msstats-tmt)
+- Topic: proteomics
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy2
+- Datasets (1): 5195800
+
+Questions:
+- **maxquant-msstats-tmt-q011** — I need to identify and quantify proteins from TMT-labeled DDA runs. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy2
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q012** — For TMT proteomics, I want database searching and reporter ion quantification in one step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy2
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q013** — Which Galaxy tool runs MaxQuant for TMT data analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy2
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q014** — How do I perform TMT quantification with MaxQuant in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy2
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q021** — I want to perform differential protein abundance testing on TMT results. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy0
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q022** — After MaxQuant, I need statistical analysis and plots for TMT comparisons. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy0
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q023** — Which Galaxy tool performs MSstatsTMT analysis for TMT proteomics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy0
+  - Datasets: 5195800
+- **maxquant-msstats-tmt-q024** — How do I run statistical testing on TMT data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy0
+  - Datasets: 5195800
+
+## Screening assembled genomes for contamination using NCBI FCS (topics/sequence-analysis/tutorials/ncbi-fcs)
+- Topic: sequence-analysis
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
+- Datasets (1): 10932013
+
+Questions:
+- **ncbi-fcs-q011** — I want to identify non-host contamination in a genome assembly using NCBI FCS. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q012** — To classify contigs by taxonomic origin and flag contaminants, I need a screening step. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q013** — Which Galaxy tool runs NCBI FCS-GX contamination screening?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q014** — How do I screen assemblies for foreign organism contamination in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q021** — I need to screen an assembled genome for adapter and vector contamination. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q022** — Before submission, I want to detect and trim adapter contamination in assembly contigs. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q023** — Which Galaxy tool checks assemblies for adapter/vector contamination?
+  - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
+  - Datasets: 10932013
+- **ncbi-fcs-q024** — How do I run an adapter contamination screen in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
+  - Datasets: 10932013
+
+## Microbial Variant Calling (topics/variant-analysis/tutorials/microbial-variants)
+- Topic: variant-analysis
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/3.2
+- Datasets (1): zenodo.582600
+
+Questions:
+- **microbial-variants-q011** — I have bacterial reads and a reference genome and need to call SNPs. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/3.2
+  - Datasets: zenodo.582600
+- **microbial-variants-q012** — To identify variants between a microbial isolate and reference, I want an automated variant-calling pipeline. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/3.2
+  - Datasets: zenodo.582600
+- **microbial-variants-q013** — Which Galaxy tool performs rapid microbial variant calling from reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/3.2
+  - Datasets: zenodo.582600
+- **microbial-variants-q014** — How do I call SNPs for a bacterial genome in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/3.2
+  - Datasets: zenodo.582600
+- **microbial-variants-q021** — After variant calling, I want to inspect SNPs in the context of aligned reads and annotations. How can I do that?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/0.7.0.3
+  - Datasets: zenodo.582600
+- **microbial-variants-q022** — I need a genome browser view to explore variants along the reference. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/0.7.0.3
+  - Datasets: zenodo.582600
+- **microbial-variants-q023** — Which Galaxy tool provides an interactive genome browser for viewing variants?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/0.7.0.3
+  - Datasets: zenodo.582600
+- **microbial-variants-q024** — How do I visualize variant tracks in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/0.7.0.3
+  - Datasets: zenodo.582600
+
+## Single Cell Proteomics data analysis with bioconductor-scp (topics/proteomics/tutorials/bioconductor-scp)
+- Topic: proteomics
+- Tools: Grouping1
+- Datasets (1): 14650887
+
+Questions:
+- **bioconductor-scp-q011** — I need to group single-cell proteomics samples by condition before downstream analysis. What should I do?
+  - Tools: Grouping1
+  - Datasets: 14650887
+- **bioconductor-scp-q012** — Before running the scp workflow, I want to aggregate samples into meaningful groups. How can I prepare that?
+  - Tools: Grouping1
+  - Datasets: 14650887
+- **bioconductor-scp-q013** — Which Galaxy step should I use to group samples into conditions?
+  - Tools: Grouping1
+  - Datasets: 14650887
+- **bioconductor-scp-q014** — How can I create grouped sample sets for single-cell proteomics in Galaxy?
+  - Tools: Grouping1
+  - Datasets: 14650887
+- **bioconductor-scp-q021** — I want to analyze single-cell proteomics data and perform scp-specific QC and modeling. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
+  - Datasets: 14650887
+- **bioconductor-scp-q022** — To process a single-cell proteomics experiment end-to-end, I need a dedicated scp analysis workflow. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
+  - Datasets: 14650887
+- **bioconductor-scp-q023** — Which Galaxy tool runs the bioconductor-scp analysis for single-cell proteomics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
+  - Datasets: 14650887
+- **bioconductor-scp-q024** — How do I execute an scp analysis workflow in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
+  - Datasets: 14650887
+
+## De Bruijn Graph Assembly (topics/assembly/tutorials/debruijn-graph-assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/2.2.6
+- Datasets (1): zenodo.582600
+
+Questions:
+- **debruijn-graph-assembly-q011** — I want to assemble short reads with Velvet and automatically tune k-mer parameters. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/2.2.6
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q012** — To build a De Bruijn graph assembly, I need an automated parameter sweep for Velvet. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/2.2.6
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q013** — Which Galaxy tool optimizes Velvet assembly parameters automatically?
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/2.2.6
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q014** — How do I run Velvet with automatic k-mer optimization in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/2.2.6
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q021** — I need a de novo genome assembly from Illumina reads using a modern assembler. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/spades/spades/3.12.0+galaxy1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q022** — For short-read assembly, I want to run SPAdes to build contigs. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/spades/spades/3.12.0+galaxy1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q023** — Which Galaxy tool runs the SPAdes assembler for de novo assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/spades/spades/3.12.0+galaxy1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q024** — How do I assemble reads with SPAdes in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/spades/spades/3.12.0+galaxy1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q031** — After assembly, I want basic contig statistics like N50 and total length. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q032** — To summarize my assembled contigs, I need quick FASTA statistics. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q033** — Which Galaxy tool computes basic FASTA assembly statistics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.1
+  - Datasets: zenodo.582600
+- **debruijn-graph-assembly-q034** — How do I get N50 and length summaries for a FASTA file in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.1
+  - Datasets: zenodo.582600
+
+## Tree thinking for tuberculosis evolution and epidemiology (topics/evolution/tutorials/mtb_phylogeny)
+- Topic: evolution
+- Tools: upload1
+- Datasets (1): 6010176
+
+Questions:
+- **mtb_phylogeny-q011** — I want to upload a multiple sequence alignment to build a TB phylogeny. What should I do?
+  - Tools: upload1
+  - Datasets: 6010176
+- **mtb_phylogeny-q012** — Before phylogenetic analysis, I need my alignment file in Galaxy. How can I import it?
+  - Tools: upload1
+  - Datasets: 6010176
+- **mtb_phylogeny-q013** — Which Galaxy tool should I use to upload local files to my history?
+  - Tools: upload1
+  - Datasets: 6010176
+- **mtb_phylogeny-q014** — How do I bring an alignment file into Galaxy for phylogeny work?
+  - Tools: upload1
+  - Datasets: 6010176
+- **mtb_phylogeny-q021** — I need a maximum-likelihood tree for MTB isolates from an alignment. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.4+galaxy2
+  - Datasets: 6010176
+- **mtb_phylogeny-q022** — To infer TB evolutionary relationships, I want a robust ML phylogeny. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.4+galaxy2
+  - Datasets: 6010176
+- **mtb_phylogeny-q023** — Which Galaxy tool builds a maximum-likelihood phylogenetic tree from an alignment?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.4+galaxy2
+  - Datasets: 6010176
+- **mtb_phylogeny-q024** — How do I run RAxML to infer a phylogeny in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.4+galaxy2
+  - Datasets: 6010176
+- **mtb_phylogeny-q031** — I need to fix sequence IDs or rename labels in an alignment before tree building. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
+  - Datasets: 6010176
+- **mtb_phylogeny-q032** — To standardize sample names, I want a find/replace step on text lines. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
+  - Datasets: 6010176
+- **mtb_phylogeny-q033** — Which Galaxy tool replaces text within lines using simple rules?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
+  - Datasets: 6010176
+- **mtb_phylogeny-q034** — How do I perform line-wise text replacement in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
+  - Datasets: 6010176
+
+## Genome annotation with Prokka (topics/genome-annotation/tutorials/annotation-with-prokka)
+- Topic: genome-annotation
+- Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
+- Datasets (1): zenodo.1156405
+
+Questions:
+- **annotation-with-prokka-q011** — I have a bacterial genome assembly and need a rapid gene annotation. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q012** — To annotate CDS, rRNAs, and tRNAs in a prokaryotic genome, I want an automated pipeline. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q013** — Which Galaxy tool performs rapid prokaryotic genome annotation?
+  - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q014** — How do I run Prokka-style annotation in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q021** — After annotation, I want to visualize genes and features along the genome. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q022** — I need a genome browser view to inspect annotated features. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q023** — Which Galaxy tool provides an interactive genome browser for annotations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: zenodo.1156405
+- **annotation-with-prokka-q024** — How do I load annotations into a genome browser in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: zenodo.1156405
+
+## Refining Genome Annotations with Apollo (eukaryotes) (topics/genome-annotation/tutorials/apollo-euk)
+- Topic: genome-annotation
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+- Datasets (1): 6920962
+
+Questions:
+- **apollo-euk-q011** — I need to visually inspect existing gene models before manual curation. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: 6920962
+- **apollo-euk-q012** — To review annotations along genomic coordinates, I want a genome browser view. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: 6920962
+- **apollo-euk-q013** — Which Galaxy tool provides a genome browser view for annotations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: 6920962
+- **apollo-euk-q014** — How do I visualize gene models in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: 6920962
+- **apollo-euk-q021** — I want to push curated gene models into an Apollo instance for manual refinement. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q022** — To update annotations in Apollo, I need a tool that creates or updates features. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q023** — Which Galaxy tool creates or updates annotations in Apollo?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q024** — How do I send curated features to Apollo from Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q031** — I want to open the Apollo interface directly inside Galaxy for manual editing. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q032** — To curate annotations interactively, I need an embedded Apollo viewer. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q033** — Which Galaxy tool opens Apollo in an embedded view?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
+  - Datasets: 6920962
+- **apollo-euk-q034** — How do I launch Apollo from within Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
+  - Datasets: 6920962
+
+## Bacterial genome quality control (topics/genome-annotation/tutorials/bacterial-genome-quality-control)
+- Topic: genome-annotation
+- Tools: upload1
+- Datasets (1): 1
+
+Questions:
+- **bacterial-genome-quality-control-q011** — I need to upload multiple bacterial genomes for quality assessment. What should I do?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q012** — Before QC, I want to bring assembled genomes into Galaxy. How can I upload them?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q013** — Which Galaxy tool should I use to upload genome FASTA files?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q014** — How do I import genome assemblies into Galaxy for QC?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q021** — I need completeness and contamination estimates for bacterial genomes. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.0.2+galaxy0
+  - Datasets: 1
+- **bacterial-genome-quality-control-q022** — To assess genome quality using marker genes, I want an automated QC tool. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.0.2+galaxy0
+  - Datasets: 1
+- **bacterial-genome-quality-control-q023** — Which Galaxy tool computes genome completeness and contamination?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.0.2+galaxy0
+  - Datasets: 1
+- **bacterial-genome-quality-control-q024** — How do I run CheckM2-style QC in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.0.2+galaxy0
+  - Datasets: 1
+- **bacterial-genome-quality-control-q031** — I want to dereplicate a set of bacterial genomes and keep representative high-quality assemblies. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.5.0+galaxy1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q032** — To remove redundant genomes and cluster by similarity, I need a dereplication step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.5.0+galaxy1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q033** — Which Galaxy tool performs genome dereplication and clustering?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.5.0+galaxy1
+  - Datasets: 1
+- **bacterial-genome-quality-control-q034** — How do I run dRep dereplication in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.5.0+galaxy1
+  - Datasets: 1
+
+## Bacterial pangenomics (topics/genome-annotation/tutorials/bacterial-pangenomics)
+- Topic: genome-annotation
+- Tools: upload1
+- Datasets (1): 1
+
+Questions:
+- **bacterial-pangenomics-q011** — I need to upload multiple bacterial genomes to build a pangenome. What should I do?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-pangenomics-q012** — Before pangenome analysis, I want my genome assemblies in Galaxy. How can I import them?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-pangenomics-q013** — Which Galaxy tool should I use to upload genome FASTA files?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-pangenomics-q014** — How do I bring genome assemblies into Galaxy for pangenome work?
+  - Tools: upload1
+  - Datasets: 1
+- **bacterial-pangenomics-q021** — I want to compute the pangenome and classify genes as core or accessory. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q022** — To build a pangenome graph and gene families from multiple genomes, I need a dedicated tool. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q023** — Which Galaxy tool builds a bacterial pangenome with PPanGGOLiN?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q024** — How do I run PPanGGOLiN to compute a pangenome in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q031** — I need multiple sequence alignments for gene families from the pangenome. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q032** — After building the pangenome, I want to align representative gene clusters. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q033** — Which Galaxy tool performs PPanGGOLiN MSA on gene families?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
+  - Datasets: 1
+- **bacterial-pangenomics-q034** — How do I generate pangenome MSAs in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
+  - Datasets: 1
+
+## Tracking of mitochondria and capturing mitoflashes (topics/imaging/tutorials/detection-of-mitoflashes)
+- Topic: imaging
+- Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
+- Datasets (1): 14071552
+
+Questions:
+- **detection-of-mitoflashes-q011** — I need to detect fluorescent spots corresponding to mitochondria in time-lapse images. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q012** — To identify candidate mitoflash events, I want a 2D spot detection step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q013** — Which Galaxy tool detects 2D spots in microscopy images?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q014** — How do I run spot detection on fluorescence images in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q021** — I want to link detected spots across frames to track mitochondria over time. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q022** — To build trajectories from spot detections, I need a nearest-neighbor association step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q023** — Which Galaxy tool associates points across frames for tracking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q024** — How do I link spot detections into tracks in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q031** — I need to fit intensity curves over time to quantify mitoflash dynamics. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q032** — To measure rise and decay parameters of flashes, I want to fit curves to time series. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q033** — Which Galaxy tool performs curve fitting on time-series measurements?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
+  - Datasets: 14071552
+- **detection-of-mitoflashes-q034** — How do I fit curves to mitoflash intensity data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
+  - Datasets: 14071552
+
+## Clinical Metaproteomics 5: Data Interpretation (topics/microbiome/tutorials/clinical-mp-5-data-interpretation)
+- Topic: microbiome
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+- Datasets (1): zenodo.10105821
+
+Questions:
+- **clinical-mp-5-data-interpretation-q011** — I want to interpret peptide lists by mapping them to taxonomic and functional annotations. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q012** — To summarize metaproteomics peptides into taxonomic profiles, I need a peptide-based analysis step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q013** — Which Galaxy tool provides peptide-to-taxon functional summaries for metaproteomics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q014** — How do I run a Unipept-style analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q021** — I need to extract rows matching specific taxa or functions from a results table. What should I use?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q022** — To focus on a subset of entries, I want to filter a table by text patterns. How can I do that in Galaxy?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q023** — Which Galaxy tool filters lines in a text table by a pattern?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q024** — How do I grep for specific keywords in a results table in Galaxy?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q031** — I want to perform statistical testing for differential abundance in metaproteomics. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q032** — To compare protein abundances across conditions, I need MSstats-style analysis. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q033** — Which Galaxy tool runs MSstatsTMT-style statistical analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q034** — How do I perform differential abundance testing in Galaxy for metaproteomics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+
+## Clinical Metaproteomics 5: Data Interpretation (topics/proteomics/tutorials/clinical-mp-5-data-interpretation)
+- Topic: proteomics
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+- Datasets (1): zenodo.10105821
+
+Questions:
+- **clinical-mp-5-data-interpretation-q011** — I need to annotate metaproteomics peptides with taxonomy and function to interpret community profiles. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q012** — To turn peptide lists into functional/taxonomic summaries, I want a peptide-annotation step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q013** — Which Galaxy tool supports peptide-based taxonomic annotation for metaproteomics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q014** — How do I run Unipept peptide annotation in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q021** — I want to extract only the peptides matching a specific organism from a table. What should I do?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q022** — To focus on a subset of hits, I need to filter rows by keyword. How can I do that in Galaxy?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q023** — Which Galaxy tool searches and filters lines in a text table?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q024** — How do I grep for specific taxa in a results table in Galaxy?
+  - Tools: Grep1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q031** — I want to test for differential protein abundance between conditions in a metaproteomics study. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q032** — To compare protein-level signals across groups, I need MSstats-style statistical analysis. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q033** — Which Galaxy tool runs MSstatsTMT for proteomics differential analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+- **clinical-mp-5-data-interpretation-q034** — How do I perform MSstats-based statistical testing in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
+  - Datasets: zenodo.10105821
+
+## Multiomics data analysis using MultiGSEA (topics/proteomics/tutorials/multiGSEA-tutorial)
+- Topic: proteomics
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
+- Datasets (1): 14216972
+
+Questions:
+- **multiGSEA-tutorial-q011** — I want to run gene set enrichment across multiple omics layers simultaneously. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q012** — To integrate transcriptomics and proteomics in one enrichment analysis, I need a multi-omics GSEA tool. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q013** — Which Galaxy tool performs multi-omics GSEA?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q014** — How do I run MultiGSEA analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q021** — I need to filter my input tables to keep only features passing a threshold before enrichment. What should I do?
+  - Tools: Filter1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q022** — To remove low-confidence entries from a results table, I want a row filter step. How can I do that in Galaxy?
+  - Tools: Filter1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q023** — Which Galaxy tool filters rows based on conditions?
+  - Tools: Filter1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q024** — How do I apply a filter to a tabular dataset in Galaxy?
+  - Tools: Filter1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q031** — I need to extract entries matching specific pathways from a long list. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q032** — To focus on a subset of gene sets, I want to keep lines matching patterns. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q033** — Which Galaxy tool greps matching lines from a text file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
+  - Datasets: 14216972
+- **multiGSEA-tutorial-q034** — How do I extract pattern-matching rows in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
+  - Datasets: 14216972
+
+## NCBI BLAST+ against the MAdLand (topics/sequence-analysis/tutorials/ncbi-blast-against-the-madland)
+- Topic: sequence-analysis
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+- Datasets (1): 7524427
+
+Questions:
+- **ncbi-blast-against-the-madland-q011** — I have a protein query and want to find similar proteins in a reference database. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q012** — To annotate a protein by homology, I need a protein-protein similarity search. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q013** — Which Galaxy tool performs protein BLAST searches?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q014** — How do I run a BLASTP search in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q021** — I have nucleotide sequences and want to search translated protein databases. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q022** — To detect coding potential and homology, I need a translated nucleotide search. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q023** — Which Galaxy tool runs BLASTX searches?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q024** — How do I perform a translated nucleotide-to-protein search in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q031** — I need a faster alternative to BLAST for large protein searches. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q032** — To quickly align protein sequences against a large database, I want a high-speed aligner. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q033** — Which Galaxy tool provides DIAMOND-based protein alignments?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
+  - Datasets: 7524427
+- **ncbi-blast-against-the-madland-q034** — How do I run a fast protein similarity search in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
+  - Datasets: 7524427
+
+## SARS-CoV-2 Viral Sample Alignment and Variant Visualization (topics/sequence-analysis/tutorials/sars-with-galaxy-on-anvil)
+- Topic: sequence-analysis
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+- Datasets (1): zenodo.8115178
+
+Questions:
+- **sars-with-galaxy-on-anvil-q011** — I need to assess read quality for SARS-CoV-2 sequencing data before alignment. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q012** — Before mapping viral reads, I want QC reports on base quality and adapters. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q013** — Which Galaxy tool generates basic read QC reports?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q014** — How do I run FastQC-style analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q021** — I want to align SARS-CoV-2 reads to a reference genome. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q022** — To map viral sequencing reads for variant inspection, I need a short-read aligner. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q023** — Which Galaxy tool aligns reads to a reference using BWA-MEM?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q024** — How do I map reads to a reference genome in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q031** — After alignment, I want to visualize coverage and variants along the SARS-CoV-2 genome. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q032** — To inspect mapped reads in genomic context, I need a genome browser view. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q033** — Which Galaxy tool provides a genome browser for alignment visualization?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.8115178
+- **sars-with-galaxy-on-anvil-q034** — How do I view aligned reads in a genome browser within Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.8115178
+
+## Bulk RNA Deconvolution with MuSiC (topics/single-cell/tutorials/bulk-music)
+- Topic: single-cell
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
+- Datasets (1): 5719228
+
+Questions:
+- **bulk-music-q011** — I need to build an expression set object from bulk RNA and single-cell reference data. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q012** — To prepare MuSiC inputs, I want to construct an ExpressionSet. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q013** — Which Galaxy tool constructs an ExpressionSet for MuSiC?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q014** — How do I create an ExpressionSet in Galaxy for deconvolution?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q021** — I want to estimate cell-type proportions in bulk RNA-seq using MuSiC. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q022** — To deconvolve bulk expression into cell-type fractions, I need the MuSiC algorithm. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q023** — Which Galaxy tool performs MuSiC deconvolution on bulk RNA-seq?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q024** — How do I run MuSiC deconvolution in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q031** — I need to inspect and summarize the ExpressionSet before deconvolution. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q032** — To check the structure of my MuSiC input object, I want an inspection step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q033** — Which Galaxy tool inspects an ExpressionSet for MuSiC?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+- **bulk-music-q034** — How do I review ExpressionSet contents in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
+  - Datasets: 5719228
+
+## Understanding Barcodes (topics/single-cell/tutorials/scrna-umis)
+- Topic: single-cell
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Datasets (1): 2573177
+
+Questions:
+- **scrna-umis-q011** — I need to check read quality for a scRNA-seq dataset before barcode processing. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Datasets: 2573177
+- **scrna-umis-q012** — Before UMI extraction, I want QC metrics like per-base quality and adapter content. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Datasets: 2573177
+- **scrna-umis-q013** — Which Galaxy tool generates read QC reports for sequencing data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Datasets: 2573177
+- **scrna-umis-q014** — How do I run FastQC on scRNA-seq reads in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Datasets: 2573177
+- **scrna-umis-q021** — I want to keep only reads with a specific set of barcodes. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
+  - Datasets: 2573177
+- **scrna-umis-q022** — To filter sequences by an allowed list of IDs, I need a read-selection step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
+  - Datasets: 2573177
+- **scrna-umis-q023** — Which Galaxy tool filters sequences by a list of IDs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
+  - Datasets: 2573177
+- **scrna-umis-q024** — How do I select reads by ID in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
+  - Datasets: 2573177
+- **scrna-umis-q031** — I need to extract cell barcodes and UMIs from read sequences. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/1.1.6+galaxy0
+  - Datasets: 2573177
+- **scrna-umis-q032** — To parse UMI tags and barcode sequences, I want an extraction step before alignment. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/1.1.6+galaxy0
+  - Datasets: 2573177
+- **scrna-umis-q033** — Which Galaxy tool extracts UMIs and barcodes from reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/1.1.6+galaxy0
+  - Datasets: 2573177
+- **scrna-umis-q034** — How do I run UMI-tools extract in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/1.1.6+galaxy0
+  - Datasets: 2573177
+
+## Designing plasmids encoding predicted pathways by using the BASIC assembly method (topics/synthetic-biology/tutorials/basic_assembly_analysis)
+- Topic: synthetic-biology
+- Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+- Datasets (1): 6123887
+
+Questions:
+- **basic_assembly_analysis-q011** — I need to select enzyme candidates for a biosynthetic pathway design. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q012** — To identify possible biocatalysts for pathway steps, I want an enzyme recommendation tool. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q013** — Which Galaxy tool suggests enzymes for pathway steps?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q014** — How do I run Selenzyme-style enzyme selection in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q021** — I want to design DNA parts for BASIC assembly of a pathway construct. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Datasets: 6123887
+- **basic_assembly_analysis-q022** — To generate an assembly plan with standardized linkers, I need a BASIC design step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Datasets: 6123887
+- **basic_assembly_analysis-q023** — Which Galaxy tool designs BASIC assembly constructs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Datasets: 6123887
+- **basic_assembly_analysis-q024** — How do I run rpBASICDesign in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Datasets: 6123887
+- **basic_assembly_analysis-q031** — I need robotic instructions and assembly recipes for BASIC DNA assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q032** — To generate wet-lab protocols and automation scripts from my design, I want a DNA-Bot step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q033** — Which Galaxy tool generates DNA-Bot instructions for BASIC assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Datasets: 6123887
+- **basic_assembly_analysis-q034** — How do I produce automated assembly scripts in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Datasets: 6123887
+
+## GO Enrichment Analysis (topics/transcriptomics/tutorials/goenrichment)
+- Topic: transcriptomics
+- Tools: Filter1
+- Datasets (1): 2565417
+
+Questions:
+- **goenrichment-q011** — I need to filter a gene list to keep only significant hits before enrichment. What should I do?
+  - Tools: Filter1
+  - Datasets: 2565417
+- **goenrichment-q012** — To prepare input for GO analysis, I want to subset genes by a threshold. How can I do that in Galaxy?
+  - Tools: Filter1
+  - Datasets: 2565417
+- **goenrichment-q013** — Which Galaxy tool filters rows from a gene table by condition?
+  - Tools: Filter1
+  - Datasets: 2565417
+- **goenrichment-q014** — How do I apply a filter to a gene list in Galaxy?
+  - Tools: Filter1
+  - Datasets: 2565417
+- **goenrichment-q021** — I want to test whether biological processes are overrepresented in my gene list. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
+  - Datasets: 2565417
+- **goenrichment-q022** — To perform GO enrichment on a set of differentially expressed genes, I need an enrichment tool. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
+  - Datasets: 2565417
+- **goenrichment-q023** — Which Galaxy tool runs GO enrichment analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
+  - Datasets: 2565417
+- **goenrichment-q024** — How do I perform GO enrichment in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
+  - Datasets: 2565417
+- **goenrichment-q031** — I want to summarize GO terms into broader GO Slim categories. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
+  - Datasets: 2565417
+- **goenrichment-q032** — To reduce a long list of GO terms into higher-level categories, I need a GO Slim mapping step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
+  - Datasets: 2565417
+- **goenrichment-q033** — Which Galaxy tool maps GO terms to GO Slim categories?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
+  - Datasets: 2565417
+- **goenrichment-q034** — How do I run GO Slimmer in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
+  - Datasets: 2565417
+
+## Nitrate DMQC for autonomous platforms such as Argo floats (topics/climate/tutorials/ocean_qcv_analysis)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
+- Datasets (0): N/A
+
+Questions:
+- **ocean_qcv_analysis-q011** — I need to harmonize in-situ nitrate measurements into a standardized NetCDF format. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
+  - Datasets: N/A
+- **ocean_qcv_analysis-q012** — To prepare float data for DMQC, I want to convert raw in-situ records to NetCDF. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
+  - Datasets: N/A
+- **ocean_qcv_analysis-q013** — Which Galaxy tool harmonizes in-situ data to NetCDF?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
+  - Datasets: N/A
+- **ocean_qcv_analysis-q014** — How do I convert float measurements into standardized NetCDF in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
+  - Datasets: N/A
+- **ocean_qcv_analysis-q021** — I need to open and explore oceanographic datasets with Ocean Data View during QC. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q022** — To visualize and edit DMQC data interactively, I want an ODV step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q023** — Which Galaxy tool runs Ocean Data View for DMQC workflows?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q024** — How do I open ODV within Galaxy for QC analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q031** — I want to capture ODV session outputs and keep a history of QC steps. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q032** — To save ODV-derived results for audit and reproducibility, I need a history export step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q033** — Which Galaxy tool records ODV history outputs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q034** — How do I export ODV history files in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q041** — I need to calibrate biogeochemical sensor data for nitrate DMQC. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q042** — To correct sensor drift and bias in float nitrate data, I want a calibration step. How can I do that in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q043** — Which Galaxy tool performs biogeochemical calibration for float data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
+  - Datasets: N/A
+- **ocean_qcv_analysis-q044** — How do I run a nitrate calibration step in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
+  - Datasets: N/A
+
+## Running molecular dynamics simulations using NAMD (topics/computational-chemistry/tutorials/md-simulation-namd)
+- Topic: computational-chemistry
+- Tools: setup
+- Datasets (1): 3234841
+
+Questions:
+- **md-simulation-namd-q011** — I need to set up a molecular dynamics system with coordinates, topology, and parameters. What should I do?
+  - Tools: setup
+  - Datasets: 3234841
+- **md-simulation-namd-q012** — Before simulation, I want to prepare the NAMD input system and configuration files. How can I do that in Galaxy?
+  - Tools: setup
+  - Datasets: 3234841
+- **md-simulation-namd-q013** — Which Galaxy step prepares MD system inputs for NAMD?
+  - Tools: setup
+  - Datasets: 3234841
+- **md-simulation-namd-q014** — How do I set up an MD simulation system in Galaxy?
+  - Tools: setup
+  - Datasets: 3234841
+- **md-simulation-namd-q021** — I want to energy-minimize my system before starting dynamics. What should I run?
+  - Tools: minimizer
+  - Datasets: 3234841
+- **md-simulation-namd-q022** — To relieve bad contacts in the structure, I need a minimization step. How can I do that in Galaxy?
+  - Tools: minimizer
+  - Datasets: 3234841
+- **md-simulation-namd-q023** — Which Galaxy tool runs energy minimization for NAMD simulations?
+  - Tools: minimizer
+  - Datasets: 3234841
+- **md-simulation-namd-q024** — How do I perform an MD minimization step in Galaxy?
+  - Tools: minimizer
+  - Datasets: 3234841
+- **md-simulation-namd-q031** — I need an equilibration run in the NVT ensemble after minimization. What should I use?
+  - Tools: namd_nvt
+  - Datasets: 3234841
+- **md-simulation-namd-q032** — To equilibrate at constant volume and temperature, I want an NVT MD step. How can I do that in Galaxy?
+  - Tools: namd_nvt
+  - Datasets: 3234841
+- **md-simulation-namd-q033** — Which Galaxy tool runs an NVT simulation with NAMD?
+  - Tools: namd_nvt
+  - Datasets: 3234841
+- **md-simulation-namd-q034** — How do I perform an NVT equilibration in Galaxy?
+  - Tools: namd_nvt
+  - Datasets: 3234841
+- **md-simulation-namd-q041** — I want a production run at constant pressure and temperature (NPT). What should I run?
+  - Tools: namd_npt
+  - Datasets: 3234841
+- **md-simulation-namd-q042** — To equilibrate and sample under NPT conditions, I need a pressure-controlled MD step. How can I do that in Galaxy?
+  - Tools: namd_npt
+  - Datasets: 3234841
+- **md-simulation-namd-q043** — Which Galaxy tool runs an NPT simulation with NAMD?
+  - Tools: namd_npt
+  - Datasets: 3234841
+- **md-simulation-namd-q044** — How do I execute an NPT MD run in Galaxy?
+  - Tools: namd_npt
+  - Datasets: 3234841
+
+## ERGA post-assembly QC (topics/assembly/tutorials/ERGA-post-assembly-QC)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+- Datasets (8): 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+
+Questions:
+- **ERGA-post-assembly-QC-q011** — I have a collection of assembly QC outputs and need to collapse it into a single dataset for downstream steps. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q021** — Which Galaxy tool should I use to align HiFi reads back to an assembly for coverage assessment?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q031** — I need fast protein-based taxonomic assignment of contigs to flag contamination. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q041** — Which tool checks assembly completeness using BUSCO lineage datasets?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.7.1+galaxy0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q051** — I want a blob plot to visualize GC content and coverage for contigs to spot contamination. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/blobtoolkit/blobtoolkit/4.0.7+galaxy2
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q061** — Which Galaxy tool counts k-mers from reads for genome profiling?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q071** — I need genome size and heterozygosity estimates from k-mer counts. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/genomescope/genomescope/2.0+galaxy2
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q081** — Which tool computes assembly QV and k-mer completeness from meryl databases?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/merqury/merqury/1.3+galaxy2
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q091** — I want quick assembly stats like total length and N50 from a FASTA. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.6+galaxy0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q101** — Which aligner should I use to map Hi-C reads to the assembly for scaffolding QC?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.2.1+galaxy0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q111** — I need to detect and remove contamination in an assembly based on taxonomic signals. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy0
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q121** — Which tool converts a BAM of Hi-C alignments into a Pretext contact map file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_map/pretext_map/0.1.9+galaxy1
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q131** — I want to render a static image snapshot from a Pretext map. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_snapshot/pretext_snapshot/0.0.3+galaxy1
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q141** — Which Galaxy tool creates an image of an assembly graph from FASTG/GFA?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q151** — I need ploidy inference from k-mer pairs to assess genome composition. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxy-australia/smudgeplot/smudgeplot/0.2.5+galaxy+2
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q161** — Which tool can find and replace text in a tabular file to fix metadata labels?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/1.1.4
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+- **ERGA-post-assembly-QC-q171** — I want alignment statistics like insert size and coverage summaries from a BAM. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.4
+  - Datasets: 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
+
+## Decontamination of a genome assembly (topics/assembly/tutorials/assembly-decontamination)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.3+galaxy1
+- Datasets (1): 13367433
+
+Questions:
+- **assembly-decontamination-q011** — I need to edit contig names or columns using a sed-style substitution in a table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.3+galaxy1
+  - Datasets: 13367433
+- **assembly-decontamination-q021** — Which tool masks low-complexity regions in nucleotide sequences before BLAST?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_dustmasker_wrapper/2.14.1+galaxy2
+  - Datasets: 13367433
+- **assembly-decontamination-q031** — I want taxonomic classification of contigs to identify contaminants. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
+  - Datasets: 13367433
+- **assembly-decontamination-q041** — Which Galaxy tool should I use to select specific columns from a tabular contamination report?
+  - Tools: Cut1
+  - Datasets: 13367433
+- **assembly-decontamination-q051** — I need to filter a table to keep only contigs above a threshold. What should I use?
+  - Tools: Filter1
+  - Datasets: 13367433
+- **assembly-decontamination-q061** — Which tool runs BLASTN against a nucleotide database to check contig origin?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.14.1+galaxy2
+  - Datasets: 13367433
+- **assembly-decontamination-q071** — I want to parse BLAST results to extract mitochondrial hits for removal. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/parse_mito_blast/parse_mito_blast/1.0.2+galaxy0
+  - Datasets: 13367433
+- **assembly-decontamination-q081** — Which tool can concatenate multiple text files into one list of contigs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.3+galaxy1
+  - Datasets: 13367433
+- **assembly-decontamination-q091** — I need assembly statistics after removing contaminants. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.6+galaxy0
+  - Datasets: 13367433
+
+## Genome Assembly Quality Control (topics/assembly/tutorials/assembly-quality-control)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy0
+- Datasets (2): 5702408, 6947782
+
+Questions:
+- **assembly-quality-control-q011** — I need standard assembly QC metrics like N50, misassemblies, and GC content. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy0
+  - Datasets: 5702408, 6947782
+- **assembly-quality-control-q021** — Which Galaxy tool assesses gene completeness with BUSCO?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.3.2+galaxy0
+  - Datasets: 5702408, 6947782
+- **assembly-quality-control-q031** — I want k-mer counting from reads for later QV analysis. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
+  - Datasets: 5702408, 6947782
+- **assembly-quality-control-q041** — Which tool computes assembly QV and completeness using k-mers?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/merqury/merqury/1.3+galaxy2
+  - Datasets: 5702408, 6947782
+- **assembly-quality-control-q051** — I need a dot-plot style visual comparison between assemblies. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chromeister/chromeister/1.5.a+galaxy1
+  - Datasets: 5702408, 6947782
+
+## Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads (topics/assembly/tutorials/assembly-with-preprocessing)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1
+- Datasets (1): 3732359
+
+Questions:
+- **assembly-with-preprocessing-q011** — I need to convert aligned reads in BAM to FASTQ for assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q021** — Which tool collapses a dataset collection into a single dataset for downstream tools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q031** — I want to downsample reads to a smaller subset for quick testing. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_sample/1.3.2
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q041** — Which tool assembles bacterial genomes from Illumina reads using Unicycler?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.8.0
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q051** — I want summary stats from an assembly graph before visualization. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy1
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q061** — Which tool performs read trimming and quality filtering for Illumina FASTQ?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.19.5+galaxy1
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q071** — I need to filter assembled contigs by length. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_filter_by_length/fasta_filter_by_length/1.2
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q081** — Which tool generates an image of the assembly graph?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy2
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q091** — I want quality plots for long reads to assess read length and quality. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.25.0+galaxy1
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q101** — Which aligner should I use to map reads to a reference quickly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy1
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q111** — I need a single report summarizing QC results from multiple tools. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.7
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q121** — Which tool should I use to map reads to the human genome to remove contamination?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3+galaxy0
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q131** — I need to filter BAM alignments by flags or mapping quality. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.9+galaxy1
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q141** — Which tool summarizes alignment metrics from a BAM?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2
+  - Datasets: 3732359
+- **assembly-with-preprocessing-q151** — I want to download FASTQ reads from SRA accessions. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.4+galaxy1
+  - Datasets: 3732359
+
+## Chloroplast genome assembly (topics/assembly/tutorials/chloroplast-assembly)
+- Topic: assembly
+- Tools: upload1
+- Datasets (3): zenodo.3567224, zenodo.3600662, 3567224
+
+Questions:
+- **chloroplast-assembly-q011** — I need to upload long-read FASTQ files into Galaxy. What should I use?
+  - Tools: upload1
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q021** — Which tool generates QC plots for nanopore reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q031** — I want to assemble a chloroplast genome from long reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6+galaxy0
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q041** — Which tool gives summary info from an assembly graph?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy1
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q051** — I need a graph image of the assembly to inspect repeats. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy2
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q061** — Which tool aligns short reads to the assembly for polishing?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q071** — I want to polish an assembly with aligned Illumina reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q081** — Which tool computes FASTA contig stats like N50 and length?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q091** — I need to annotate the chloroplast assembly with genes. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+- **chloroplast-assembly-q101** — Which tool lets me visualize the annotated genome in a genome browser?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
+  - Datasets: zenodo.3567224, zenodo.3600662, 3567224
+
+## Making sense of a newly assembled genome (topics/assembly/tutorials/ecoli_comparison)
+- Topic: assembly
+- Tools: Cut1
+- Datasets (2): 1306128, 3382053
+
+Questions:
+- **ecoli_comparison-q011** — I need to keep only specific columns from a comparison table. What should I use?
+  - Tools: Cut1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q021** — Which Galaxy tool should I use to upload reference and assembly files?
+  - Tools: upload1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q031** — I want to filter contigs below a length threshold. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_filter_by_length/fasta_filter_by_length/1.2
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q041** — Which tool replaces text within each line of a file to clean headers?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q051** — I need pairwise genome alignment to compare my assembly with a reference. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/lastz/lastz_wrapper_2/1.3.2
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q061** — Which tool collapses a dataset collection into one file for downstream steps?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q071** — I want to randomly subsample rows from a large table for a quick check. What should I run?
+  - Tools: random_lines1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q081** — Which Galaxy tool filters rows in a tabular file using a condition?
+  - Tools: Filter1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q091** — I need summary statistics (mean, count) grouped by a column. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q101** — Which Galaxy tool finds or filters lines by a text pattern?
+  - Tools: Grep1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q111** — I need to concatenate multiple text files into one. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q121** — Which tool merges columns from multiple tabular files side by side?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q131** — I want to concatenate datasets in order into a single file. What should I use?
+  - Tools: cat1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q141** — Which tool adds a constant or row index column to a table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.0
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q151** — I need to replace values in a specific column of a table. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q161** — Which tool computes sequence lengths for each FASTA entry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q171** — I want to sort a tabular file while preserving the header line. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q181** — Which tool sorts BED intervals by coordinate?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.27.0.0
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q191** — I need the complement of BED intervals against a reference. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.27.0.0
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q201** — Which tool lets me visualize genome annotations and alignments in a browser?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.8+galaxy1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q211** — I want to convert alignment output into Circos links. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_aln_to_links/0.69.8+galaxy7
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q221** — Which tool converts intervals into Circos tiles for visualization?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_interval_to_tiles/0.69.8+galaxy7
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q231** — I need to render a Circos plot to compare genome structure. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q241** — Which tool intersects two BED files to find overlapping regions?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.27.0.2
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q251** — I want to join two tables by a shared key column. What should I use?
+  - Tools: join1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q261** — Which tool applies sed-style substitutions to edit a text file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1
+  - Datasets: 1306128, 3382053
+- **ecoli_comparison-q271** — I need to filter lines in a file using a grep pattern. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 1306128, 3382053
+
+## An Introduction to Genome Assembly (topics/assembly/tutorials/general-introduction)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+- Datasets (2): zenodo.582600, 582600
+
+Questions:
+- **general-introduction-q011** — I need basic read quality reports for paired-end FASTQ files. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: zenodo.582600, 582600
+- **general-introduction-q021** — Which tool aggregates multiple QC reports into a single summary?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: zenodo.582600, 582600
+- **general-introduction-q031** — I need to interlace paired-end reads into a single file for assembly. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2.0.1+galaxy0
+  - Datasets: zenodo.582600, 582600
+- **general-introduction-q041** — Which tool prepares hash files for a Velvet assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/velvet/velveth/1.2.10.3
+  - Datasets: zenodo.582600, 582600
+- **general-introduction-q051** — I want to build contigs using Velvet after velveth. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/velvet/velvetg/1.2.10.2
+  - Datasets: zenodo.582600, 582600
+- **general-introduction-q061** — Which tool evaluates assembly quality metrics like N50 and misassemblies?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: zenodo.582600, 582600
+
+## Genome assembly using PacBio data (topics/assembly/tutorials/hifi-assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.25.0+galaxy0
+- Datasets (0): N/A
+
+Questions:
+- **hifi-assembly-q011** — I want a primary assembly from PacBio HiFi reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.25.0+galaxy0
+  - Datasets: N/A
+- **hifi-assembly-q021** — Which tool converts a GFA assembly graph into FASTA contigs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gfa_to_fa/gfa_to_fa/0.1.2
+  - Datasets: N/A
+- **hifi-assembly-q031** — I need an alternative long-read assembler for HiFi data. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9+galaxy0
+  - Datasets: N/A
+- **hifi-assembly-q041** — Which tool should I use to compute assembly metrics for the HiFi assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.0.2+galaxy3
+  - Datasets: N/A
+- **hifi-assembly-q051** — I want to measure gene completeness on the assembled genome. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy0
+  - Datasets: N/A
+- **hifi-assembly-q061** — Which tool provides quick FASTA length statistics for the assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Datasets: N/A
+
+## Hybrid genome assembly - Nanopore and Illumina (topics/assembly/tutorials/hybrid_denovo_assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy1
+- Datasets (2): zenodo.15756327, 15756328
+
+Questions:
+- **hybrid_denovo_assembly-q011** — I need to assess completeness of a hybrid assembly using BUSCO. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy1
+  - Datasets: zenodo.15756327, 15756328
+- **hybrid_denovo_assembly-q021** — Which tool assembles long nanopore reads into contigs using Flye?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
+  - Datasets: zenodo.15756327, 15756328
+- **hybrid_denovo_assembly-q031** — I want assembly statistics after the hybrid assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy0
+  - Datasets: zenodo.15756327, 15756328
+- **hybrid_denovo_assembly-q041** — Which aligner maps Illumina reads to the draft assembly for polishing?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Datasets: zenodo.15756327, 15756328
+- **hybrid_denovo_assembly-q051** — I need to polish a draft assembly using aligned short reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
+  - Datasets: zenodo.15756327, 15756328
+- **hybrid_denovo_assembly-q061** — Which tool performs hybrid assembly combining short and long reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.5.1+galaxy0
+  - Datasets: zenodo.15756327, 15756328
+- **hybrid_denovo_assembly-q071** — I want a combined QC report for multiple sequencing read checks. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4
+  - Datasets: zenodo.15756327, 15756328
+
+## Large genome assembly and polishing (topics/assembly/tutorials/largegenome)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.26+galaxy0
+- Datasets (2): zenodo.7055935, 7055935
+
+Questions:
+- **largegenome-q011** — I need to align long reads back to a large genome assembly for polishing. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.26+galaxy0
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q021** — Which tool performs consensus polishing with long-read alignments?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.5.0+galaxy1
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q031** — I want neural-network polishing of a nanopore assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/medaka_consensus_pipeline/medaka_consensus_pipeline/1.7.2+galaxy1
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q041** — Which tool provides fast assembly length statistics from FASTA?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q051** — I need gene completeness metrics for a large genome assembly. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.5.0+galaxy0
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q061** — Which tool should I use for detailed assembly QC metrics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q071** — I want k-mer counting to build a genome profile. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q081** — Which tool estimates genome size and heterozygosity from k-mer counts?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/genomescope/genomescope/2.0+galaxy2
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q091** — I need read length and quality plots for long-read data. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.42.0+galaxy1
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q101** — Which tool generates per-base quality reports for raw reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy0
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q111** — I want to aggregate QC outputs across multiple samples into one report. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q121** — Which tool performs adapter trimming and quality filtering for reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy0
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q131** — I need long-read assembly of a large genome. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.3+galaxy0
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q141** — Which tool renders a visual image of an assembly graph?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
+  - Datasets: zenodo.7055935, 7055935
+- **largegenome-q151** — I want a simple bar chart plot from a tabular summary. What should I use?
+  - Tools: barchart_gnuplot
+  - Datasets: zenodo.7055935, 7055935
+
+## Assembly of metagenomic sequencing data (topics/assembly/tutorials/metagenomics-assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
+- Datasets (1): 7818827
+
+Questions:
+- **metagenomics-assembly-q011** — I need to assemble metagenomic short reads into contigs using MEGAHIT. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
+  - Datasets: 7818827
+- **metagenomics-assembly-q021** — Which tool performs metagenomic assembly using metaSPAdes?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
+  - Datasets: 7818827
+- **metagenomics-assembly-q031** — I want assembly QC metrics for metagenomic contigs. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy0
+  - Datasets: 7818827
+- **metagenomics-assembly-q041** — Which tool estimates contig coverage by mapping reads back to assemblies?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
+  - Datasets: 7818827
+- **metagenomics-assembly-q051** — I need to map reads to assemblies to quantify coverage. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
+  - Datasets: 7818827
+- **metagenomics-assembly-q061** — Which tool converts MEGAHIT contigs to a FASTG graph for visualization?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit_contig2fastg/megahit_contig2fastg/1.1.3+galaxy10
+  - Datasets: 7818827
+- **metagenomics-assembly-q071** — I want to visualize the assembly graph as an image. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy4
+  - Datasets: 7818827
+- **metagenomics-assembly-q081** — Which tool provides stats from a FASTG/GFA assembly graph?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy2
+  - Datasets: 7818827
+- **metagenomics-assembly-q091** — I need to merge columns from a collection of per-sample coverage tables. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
+  - Datasets: 7818827
+- **metagenomics-assembly-q101** — Which tool trims adapters from metagenomic reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.0+galaxy0
+  - Datasets: 7818827
+- **metagenomics-assembly-q111** — I need to filter BAM alignments by length or quality for coverage analysis. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ngsutils_bam_filter/ngsutils_bam_filter/0.5.9
+  - Datasets: 7818827
+- **metagenomics-assembly-q121** — Which tool converts or filters BAM files using bamtools operations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools/bamtools/2.5.1+galaxy0
+  - Datasets: 7818827
+- **metagenomics-assembly-q131** — I want a random subset of reads or rows from a large file for a quick test. What should I use?
+  - Tools: random_lines1
+  - Datasets: 7818827
+- **metagenomics-assembly-q141** — Which tool filters rows in a tabular file based on numeric criteria?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/2.0.0
+  - Datasets: 7818827
+- **metagenomics-assembly-q151** — I need to remove duplicate rows from a table. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Datasets: 7818827
+- **metagenomics-assembly-q161** — Which tool concatenates multiple text files into one?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 7818827
+- **metagenomics-assembly-q171** — I need to extract reads matching a list of sequence IDs. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
+  - Datasets: 7818827
+- **metagenomics-assembly-q181** — Which tool generates basic QC reports for raw sequencing reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: 7818827
+
+## Genome Assembly of a bacterial genome (MRSA) sequenced using Illumina MiSeq (topics/assembly/tutorials/mrsa-illumina)
+- Topic: assembly
+- Tools: upload1
+- Datasets (1): 10669812
+
+Questions:
+- **mrsa-illumina-q011** — I need to upload Illumina FASTQ files into Galaxy. What should I use?
+  - Tools: upload1
+  - Datasets: 10669812
+- **mrsa-illumina-q021** — Which tool runs FastQC-like QC at scale using Falco?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Datasets: 10669812
+- **mrsa-illumina-q031** — I need adapter trimming and quality filtering for Illumina reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+  - Datasets: 10669812
+- **mrsa-illumina-q041** — Which tool assembles bacterial genomes from Illumina reads using Shovill?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/shovill/shovill/1.1.0+galaxy2
+  - Datasets: 10669812
+- **mrsa-illumina-q051** — I want basic statistics about an assembly graph. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/2022.09+galaxy2
+  - Datasets: 10669812
+- **mrsa-illumina-q061** — Which tool renders an image of the assembly graph?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
+  - Datasets: 10669812
+- **mrsa-illumina-q071** — I need assembly QC metrics after Shovill. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: 10669812
+- **mrsa-illumina-q081** — Which tool provides per-base quality plots for raw reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy0
+  - Datasets: 10669812
+
+## Genome Assembly of MRSA from Oxford Nanopore MinION data (and optionally Illumina data) (topics/assembly/tutorials/mrsa-nanopore)
+- Topic: assembly
+- Tools: upload1
+- Datasets (1): 10669812
+
+Questions:
+- **mrsa-nanopore-q011** — I need to upload nanopore FASTQ data into Galaxy. What should I use?
+  - Tools: upload1
+  - Datasets: 10669812
+- **mrsa-nanopore-q021** — Which tool generates QC reports for sequencing reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy0
+  - Datasets: 10669812
+- **mrsa-nanopore-q031** — I want to trim and filter reads before assembly. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
+  - Datasets: 10669812
+- **mrsa-nanopore-q041** — Which tool filters long reads by quality and length?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong/0.2.1+galaxy0
+  - Datasets: 10669812
+- **mrsa-nanopore-q051** — I need read length and quality plots for nanopore data. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.41.0+galaxy0
+  - Datasets: 10669812
+- **mrsa-nanopore-q061** — Which tool trims nanopore adapters and chimeras?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
+  - Datasets: 10669812
+- **mrsa-nanopore-q071** — I want to assemble the MRSA genome from long reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.1+galaxy0
+  - Datasets: 10669812
+- **mrsa-nanopore-q081** — Which tool generates an image of the assembly graph for inspection?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
+  - Datasets: 10669812
+- **mrsa-nanopore-q091** — I need assembly QC metrics for the nanopore assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: 10669812
+- **mrsa-nanopore-q101** — Which aligner maps Illumina reads to the assembly for polishing?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.2.1+galaxy1
+  - Datasets: 10669812
+- **mrsa-nanopore-q111** — I want to polish an assembly using paired short reads. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/polypolish/polypolish/0.5.0+galaxy2
+  - Datasets: 10669812
+
+## Unicycler Assembly (topics/assembly/tutorials/unicycler-assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
+- Datasets (2): zenodo.940733, 940733
+
+Questions:
+- **unicycler-assembly-q011** — I need QC summaries for paired-end reads prior to assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
+  - Datasets: zenodo.940733, 940733
+- **unicycler-assembly-q021** — Which tool assembles bacterial genomes using Unicycler?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.8.0
+  - Datasets: zenodo.940733, 940733
+- **unicycler-assembly-q031** — I want to summarize QC results from multiple tools in one report. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.7
+  - Datasets: zenodo.940733, 940733
+- **unicycler-assembly-q041** — Which tool evaluates contig statistics for an assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.0.2+galaxy0
+  - Datasets: zenodo.940733, 940733
+- **unicycler-assembly-q051** — I need prokaryotic genome annotation after assembly. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5
+  - Datasets: zenodo.940733, 940733
+
+## Vertebrate genome assembly using HiFi, Bionano and Hi-C data - Step by Step (topics/assembly/tutorials/vgp_genome_assembly)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.4+galaxy0
+- Datasets (3): 5550653, 5887339, 6098306
+
+Questions:
+- **vgp_genome_assembly-q011** — I need to trim adapters from HiFi read data before assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.4+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q021** — Which tool counts k-mers from reads for genome profiling?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q031** — I want to estimate genome size and heterozygosity from k-mer counts. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/genomescope/genomescope/2.0+galaxy2
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q041** — Which tool assembles HiFi reads into primary and alternate haplotigs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.19.8+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q051** — I need summary stats for large assemblies like N50 and total length. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.6+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q061** — Which tool joins columns from a collection of per-sample metrics tables?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q071** — I need to filter a text file by pattern to select specific rows. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q081** — Which tool evaluates gene completeness for the assembly?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.5.0+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q091** — I want QV and k-mer completeness metrics for the assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/merqury/merqury/1.3+galaxy3
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q101** — Which tool adds a derived column to a table using a formula?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q111** — I need to extract specific columns from a tabular file. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q121** — Which tool collapses a dataset collection into a single dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q131** — I want to align reads or contigs quickly for scaffolding steps. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q141** — Which tool removes haplotypic duplications from assemblies?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/purge_dups/purge_dups/1.2.6+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q151** — I need to concatenate multiple datasets into one file. What should I use?
+  - Tools: cat1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q161** — Which tool scaffolds assemblies using Bionano optical maps?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bionano_scaffold/bionano_scaffold/3.7.0+galaxy3
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q171** — I need to align Hi-C reads to the assembly for scaffolding. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.2.1+galaxy1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q181** — Which tool flags contamination and misassemblies using taxonomic evidence?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q191** — I want to create a Pretext contact map file from Hi-C alignments. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_map/pretext_map/0.1.9+galaxy0
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q201** — Which tool makes a static snapshot image from a Pretext map?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_snapshot/pretext_snapshot/0.0.3+galaxy1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q211** — I need Hi-C based scaffolding to improve chromosome-scale assembly. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/yahs/yahs/1.2a.2+galaxy1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q221** — Which tool converts a GFA graph to FASTA contigs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gfa_to_fa/gfa_to_fa/0.1.2
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q231** — I want detailed assembly QC metrics for the final assembly. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.0.2+galaxy4
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q241** — Which tool can find and replace text patterns in a metadata table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/1.1.3
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q251** — I need to replace specific characters across a file, like spaces to tabs. What should I use?
+  - Tools: Convert characters1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q261** — Which tool converts BAM alignments to BED format for downstream steps?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.30.0+galaxy2
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q271** — I need to sort a tabular file by a column for downstream processing. What should I use?
+  - Tools: sort1
+  - Datasets: 5550653, 5887339, 6098306
+- **vgp_genome_assembly-q281** — Which tool performs Hi-C scaffolding using SALSA?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/salsa/salsa/2.3+galaxy2
+  - Datasets: 5550653, 5887339, 6098306
+
+## Analyse Argo data (topics/climate/tutorials/argo_pangeo)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+- Datasets (0): N/A
+
+Questions:
+- **argo_pangeo-q011** — I need to download Argo float data for a region and time range. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+  - Datasets: N/A
+- **argo_pangeo-q021** — Which tool inspects metadata of a NetCDF dataset in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
+  - Datasets: N/A
+- **argo_pangeo-q031** — I want to list coordinate variables and dimensions from a NetCDF file. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
+  - Datasets: N/A
+- **argo_pangeo-q041** — Which tool extracts a time series at a point from an ocean dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/timeseries_extraction/timeseries_extraction/2022.3.0+galaxy0
+  - Datasets: N/A
+
+## Getting your hands-on climate data (topics/climate/tutorials/climate-101)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability/0.1.4
+- Datasets (3): zenodo.3776500, 15349982, 3776500
+
+Questions:
+- **climate-101-q011** — I need to fetch climate indicators from the Climate Data Store for analysis. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability/0.1.4
+  - Datasets: zenodo.3776500, 15349982, 3776500
+- **climate-101-q021** — Which tool generates climate stripes visualizations from temperature time series?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.1
+  - Datasets: zenodo.3776500, 15349982, 3776500
+- **climate-101-q031** — I want to filter rows in a CSV by a text pattern. What should I use?
+  - Tools: Grep1
+  - Datasets: zenodo.3776500, 15349982, 3776500
+- **climate-101-q041** — Which tool computes grouped statistics like mean or sum on a table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
+  - Datasets: zenodo.3776500, 15349982, 3776500
+- **climate-101-q051** — I need to compute a derived column using an awk expression. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.1
+  - Datasets: zenodo.3776500, 15349982, 3776500
+- **climate-101-q061** — Which tool produces climate map plots from gridded data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps/1.2.1
+  - Datasets: zenodo.3776500, 15349982, 3776500
+- **climate-101-q071** — I need a quick scatter/point plot from a tabular climate dataset. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy1
+  - Datasets: zenodo.3776500, 15349982, 3776500
+
+## Getting your hands-on earth data (topics/climate/tutorials/earth_system)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+- Datasets (0): N/A
+
+Questions:
+- **earth_system-q011** — I need to retrieve Argo float observations for ocean analysis. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+  - Datasets: N/A
+- **earth_system-q021** — Which tool accesses Climate Data Store ERA5 data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0
+  - Datasets: N/A
+- **earth_system-q031** — I want marine biodiversity occurrence records from OBIS. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
+  - Datasets: N/A
+- **earth_system-q041** — Which tool retrieves species occurrence data from multiple biodiversity sources?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
+  - Datasets: N/A
+
+## Functionally Assembled Terrestrial Ecosystem Simulator (FATES) (topics/climate/tutorials/fates)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1
+- Datasets (4): zenodo.4108341, zenodo.4126404, 4108341, 4126404
+
+Questions:
+- **fates-q011** — I need to run a FATES ecosystem model simulation in Galaxy. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1
+  - Datasets: zenodo.4108341, zenodo.4126404, 4108341, 4126404
+- **fates-q021** — Which tool inspects metadata for a NetCDF output from the model?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/0.15.1
+  - Datasets: zenodo.4108341, zenodo.4126404, 4108341, 4126404
+- **fates-q031** — I want to subset variables and time ranges from a NetCDF file. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/0.15.1
+  - Datasets: zenodo.4108341, zenodo.4126404, 4108341, 4126404
+- **fates-q041** — Which tool can replace text patterns in a tabular configuration file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/1.1.3
+  - Datasets: zenodo.4108341, zenodo.4126404, 4108341, 4126404
+- **fates-q051** — I need a quick point plot from model output data. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2
+  - Datasets: zenodo.4108341, zenodo.4126404, 4108341, 4126404
+
+## Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools (topics/climate/tutorials/pangeo)
+- Topic: climate
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/0.15.1
+- Datasets (2): zenodo.5805953, 5805953
+
+Questions:
+- **pangeo-q011** — I want to inspect metadata from a NetCDF dataset in Galaxy. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/0.15.1
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q021** — Which tool shows coordinate dimensions and ranges in a NetCDF file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/0.18.2+galaxy0
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q031** — I need a quick map plot of a gridded climate variable. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/0.18.2+galaxy0
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q041** — Which tool rewrites NetCDF files after subsetting or processing?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_netcdf2netcdf/xarray_netcdf2netcdf/0.18.2+galaxy0
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q051** — I want to assemble multiple images into a single montage. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_montage/graphicsmagick_image_montage/1.3.31+galaxy1
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q061** — Which tool selects specific variables or time ranges from a NetCDF dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/0.15.1
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q071** — I need a scatter/point plot from tabular climate data. What should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q081** — Which tool applies regex find/replace on a specific column?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-q091** — I want to generate climate stripes from a temperature time series. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.1
+  - Datasets: zenodo.5805953, 5805953
+
+## Using the VGP workflows to assemble a vertebrate genome with HiFi and Hi-C (topics/assembly/tutorials/vgp_workflow_training)
+- Topic: assembly
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+- Datasets (4): zenodo.5887339, 5550653, 5887339, 6098306
+
+Questions:
+- **vgp_workflow_training-q011** — In the context of Using the VGP workflows to assemble a vertebrate genome with HiFi and Hi-C, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
+- **vgp_workflow_training-q012** — My goal is to complete Using the VGP workflows to assemble a vertebrate genome with HiFi and Hi-C; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
+- **vgp_workflow_training-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Using the VGP workflows to assemble a vertebrate genome with HiFi and Hi-C?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
+- **vgp_workflow_training-q014** — How can I run an analysis step from the tutorial for Using the VGP workflows to assemble a vertebrate genome with HiFi and Hi-C in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
+  - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
+
+## Pangeo Notebook in Galaxy - Introduction to Xarray (topics/climate/tutorials/pangeo-notebook)
+- Topic: climate
+- Tools: interactive_tool_pangeo_notebook
+- Datasets (2): zenodo.5805953, 5805953
+
+Questions:
+- **pangeo-notebook-q011** — In the context of Pangeo Notebook in Galaxy - Introduction to Xarray, I need to analyze data in a Pangeo Notebook. What should I use?
+  - Tools: interactive_tool_pangeo_notebook
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-notebook-q012** — My goal is to complete Pangeo Notebook in Galaxy - Introduction to Xarray; I need to analyze data in a Pangeo Notebook. What should I do?
+  - Tools: interactive_tool_pangeo_notebook
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-notebook-q013** — Which Galaxy tool should I use to analyze data in a Pangeo Notebook in Pangeo Notebook in Galaxy - Introduction to Xarray?
+  - Tools: interactive_tool_pangeo_notebook
+  - Datasets: zenodo.5805953, 5805953
+- **pangeo-notebook-q014** — How can I analyze data in a Pangeo Notebook for Pangeo Notebook in Galaxy - Introduction to Xarray in Galaxy?
+  - Tools: interactive_tool_pangeo_notebook
+  - Datasets: zenodo.5805953, 5805953
+
+## Sentinel 5P data visualisation (topics/climate/tutorials/sentinel5_data)
+- Topic: climate
+- Tools: interactive_tool_copernicus_notebook
+- Datasets (0): N/A
+
+Questions:
+- **sentinel5_data-q011** — In the context of Sentinel 5P data visualisation, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: interactive_tool_copernicus_notebook
+  - Datasets: N/A
+- **sentinel5_data-q012** — My goal is to complete Sentinel 5P data visualisation; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: interactive_tool_copernicus_notebook
+  - Datasets: N/A
+- **sentinel5_data-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Sentinel 5P data visualisation?
+  - Tools: interactive_tool_copernicus_notebook
+  - Datasets: N/A
+- **sentinel5_data-q014** — How can I run an analysis step from the tutorial for Sentinel 5P data visualisation in Galaxy?
+  - Tools: interactive_tool_copernicus_notebook
+  - Datasets: N/A
+- **sentinel5_data-q021** — In the context of Sentinel 5P data visualisation, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: interactive_tool_panoply
+  - Datasets: N/A
+- **sentinel5_data-q022** — My goal is to complete Sentinel 5P data visualisation; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: interactive_tool_panoply
+  - Datasets: N/A
+- **sentinel5_data-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Sentinel 5P data visualisation?
+  - Tools: interactive_tool_panoply
+  - Datasets: N/A
+- **sentinel5_data-q024** — How can I run an analysis step from the tutorial for Sentinel 5P data visualisation in Galaxy?
+  - Tools: interactive_tool_panoply
+  - Datasets: N/A
+- **sentinel5_data-q031** — In the context of Sentinel 5P data visualisation, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: interactive_tool_copernicus
+  - Datasets: N/A
+- **sentinel5_data-q032** — My goal is to complete Sentinel 5P data visualisation; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: interactive_tool_copernicus
+  - Datasets: N/A
+- **sentinel5_data-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Sentinel 5P data visualisation?
+  - Tools: interactive_tool_copernicus
+  - Datasets: N/A
+- **sentinel5_data-q034** — How can I run an analysis step from the tutorial for Sentinel 5P data visualisation in Galaxy?
+  - Tools: interactive_tool_copernicus
+  - Datasets: N/A
+
+## Analysis of molecular dynamics simulations (topics/computational-chemistry/tutorials/analysis-md-simulations)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
+- Datasets (2): zenodo.2537734, 2537734
+
+Questions:
+- **analysis-md-simulations-q011** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q012** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q014** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q021** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q022** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q024** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q031** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/0.1.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q032** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/0.1.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/0.1.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q034** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/0.1.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q041** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q042** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q044** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q051** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q052** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q054** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.19
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q061** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q062** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q064** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q071** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q072** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q074** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q081** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q082** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q084** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q091** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q092** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q094** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q101** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q102** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q104** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q111** — In the context of Analysis of molecular dynamics simulations, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q112** — My goal is to complete Analysis of molecular dynamics simulations; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Analysis of molecular dynamics simulations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+- **analysis-md-simulations-q114** — How can I run an analysis step from the tutorial for Analysis of molecular dynamics simulations in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 2537734, zenodo.2537734
+
+## Protein-ligand docking (topics/computational-chemistry/tutorials/cheminformatics)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
+- Datasets (0): N/A
+
+Questions:
+- **cheminformatics-q011** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
+  - Datasets: N/A
+- **cheminformatics-q012** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
+  - Datasets: N/A
+- **cheminformatics-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
+  - Datasets: N/A
+- **cheminformatics-q014** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
+  - Datasets: N/A
+- **cheminformatics-q021** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Datasets: N/A
+- **cheminformatics-q022** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Datasets: N/A
+- **cheminformatics-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Datasets: N/A
+- **cheminformatics-q024** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Datasets: N/A
+- **cheminformatics-q031** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Datasets: N/A
+- **cheminformatics-q032** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Datasets: N/A
+- **cheminformatics-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Datasets: N/A
+- **cheminformatics-q034** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Datasets: N/A
+- **cheminformatics-q041** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Datasets: N/A
+- **cheminformatics-q042** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Datasets: N/A
+- **cheminformatics-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Datasets: N/A
+- **cheminformatics-q044** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Datasets: N/A
+- **cheminformatics-q051** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Datasets: N/A
+- **cheminformatics-q052** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Datasets: N/A
+- **cheminformatics-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Datasets: N/A
+- **cheminformatics-q054** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Datasets: N/A
+- **cheminformatics-q061** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Datasets: N/A
+- **cheminformatics-q062** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Datasets: N/A
+- **cheminformatics-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Datasets: N/A
+- **cheminformatics-q064** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Datasets: N/A
+- **cheminformatics-q071** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Datasets: N/A
+- **cheminformatics-q072** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Datasets: N/A
+- **cheminformatics-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Datasets: N/A
+- **cheminformatics-q074** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Datasets: N/A
+- **cheminformatics-q081** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/0.2.0
+  - Datasets: N/A
+- **cheminformatics-q082** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/0.2.0
+  - Datasets: N/A
+- **cheminformatics-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/0.2.0
+  - Datasets: N/A
+- **cheminformatics-q084** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/0.2.0
+  - Datasets: N/A
+- **cheminformatics-q091** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
+  - Datasets: N/A
+- **cheminformatics-q092** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
+  - Datasets: N/A
+- **cheminformatics-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
+  - Datasets: N/A
+- **cheminformatics-q094** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
+  - Datasets: N/A
+- **cheminformatics-q101** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/0.4
+  - Datasets: N/A
+- **cheminformatics-q102** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/0.4
+  - Datasets: N/A
+- **cheminformatics-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/0.4
+  - Datasets: N/A
+- **cheminformatics-q104** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/0.4
+  - Datasets: N/A
+- **cheminformatics-q111** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **cheminformatics-q112** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **cheminformatics-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **cheminformatics-q114** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **cheminformatics-q121** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q122** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q124** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q131** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q132** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q134** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q141** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **cheminformatics-q142** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **cheminformatics-q143** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **cheminformatics-q144** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **cheminformatics-q151** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q152** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q153** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q154** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q161** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q162** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q163** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q164** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q171** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/3.1.4.2+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q172** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/3.1.4.2+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q173** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/3.1.4.2+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q174** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/3.1.4.2+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q181** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q182** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q183** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q184** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q191** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q192** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q193** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q194** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q201** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q202** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q203** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q204** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
+  - Datasets: N/A
+- **cheminformatics-q211** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q212** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q213** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q214** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q221** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/1.0.0
+  - Datasets: N/A
+- **cheminformatics-q222** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/1.0.0
+  - Datasets: N/A
+- **cheminformatics-q223** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/1.0.0
+  - Datasets: N/A
+- **cheminformatics-q224** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/1.0.0
+  - Datasets: N/A
+- **cheminformatics-q231** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.5
+  - Datasets: N/A
+- **cheminformatics-q232** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.5
+  - Datasets: N/A
+- **cheminformatics-q233** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.5
+  - Datasets: N/A
+- **cheminformatics-q234** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.5
+  - Datasets: N/A
+- **cheminformatics-q241** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering/1.5
+  - Datasets: N/A
+- **cheminformatics-q242** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering/1.5
+  - Datasets: N/A
+- **cheminformatics-q243** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering/1.5
+  - Datasets: N/A
+- **cheminformatics-q244** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering/1.5
+  - Datasets: N/A
+- **cheminformatics-q251** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.5.1
+  - Datasets: N/A
+- **cheminformatics-q252** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.5.1
+  - Datasets: N/A
+- **cheminformatics-q253** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.5.1
+  - Datasets: N/A
+- **cheminformatics-q254** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.5.1
+  - Datasets: N/A
+- **cheminformatics-q261** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sdf_to_tab/sdf_to_tab/2020.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q262** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sdf_to_tab/sdf_to_tab/2020.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q263** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sdf_to_tab/sdf_to_tab/2020.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q264** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sdf_to_tab/sdf_to_tab/2020.03.4+galaxy0
+  - Datasets: N/A
+- **cheminformatics-q271** — In the context of Protein-ligand docking, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: N/A
+- **cheminformatics-q272** — My goal is to complete Protein-ligand docking; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: N/A
+- **cheminformatics-q273** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein-ligand docking?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: N/A
+- **cheminformatics-q274** — How can I run an analysis step from the tutorial for Protein-ligand docking in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: N/A
+
+## Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring (topics/computational-chemistry/tutorials/covid19-docking)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1
+- Datasets (2): zenodo.3730474, 3730474
+
+Questions:
+- **covid19-docking-q011** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q012** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q014** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q021** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q022** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q024** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q031** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/0.1.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q032** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/0.1.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/0.1.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q034** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/0.1.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q041** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q042** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q044** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/0.1
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q051** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q052** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q054** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q061** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.4
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q062** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.4
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.4
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q064** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/0.1.4
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q071** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q072** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q074** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q081** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: xchem_pose_scoring
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q082** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: xchem_pose_scoring
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: xchem_pose_scoring
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q084** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: xchem_pose_scoring
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q091** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.3
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q092** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.3
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.3
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q094** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/0.2.3
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q101** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q102** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q104** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q111** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q112** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q114** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q121** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q122** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q124** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q131** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q132** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q134** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q141** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q142** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q143** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q144** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q151** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q152** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q153** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q154** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/0.1.5
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q161** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q162** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q163** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q164** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q171** — In the context of Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q172** — My goal is to complete Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q173** — Which Galaxy tool should I use to run an analysis step from the tutorial in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+- **covid19-docking-q174** — How can I run an analysis step from the tutorial for Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/2020.03.4+galaxy0
+  - Datasets: 3730474, zenodo.3730474
+
+## High Throughput Molecular Dynamics and Analysis (topics/computational-chemistry/tutorials/htmd-analysis)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2019.1.4
+- Datasets (1): 3813283
+
+Questions:
+- **htmd-analysis-q011** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q012** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q014** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q021** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.3.2
+  - Datasets: 3813283
+- **htmd-analysis-q022** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.3.2
+  - Datasets: 3813283
+- **htmd-analysis-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.3.2
+  - Datasets: 3813283
+- **htmd-analysis-q024** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.3.2
+  - Datasets: 3813283
+- **htmd-analysis-q031** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q032** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q034** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q041** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q042** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q044** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q051** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q052** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q054** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q061** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.20
+  - Datasets: 3813283
+- **htmd-analysis-q062** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.20
+  - Datasets: 3813283
+- **htmd-analysis-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.20
+  - Datasets: 3813283
+- **htmd-analysis-q064** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/0.20
+  - Datasets: 3813283
+- **htmd-analysis-q071** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca_visualize/bio3d_pca_visualize/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q072** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca_visualize/bio3d_pca_visualize/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca_visualize/bio3d_pca_visualize/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q074** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca_visualize/bio3d_pca_visualize/2.3.4
+  - Datasets: 3813283
+- **htmd-analysis-q081** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/vmd_hbonds/vmd_hbonds/1.9.3
+  - Datasets: 3813283
+- **htmd-analysis-q082** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/vmd_hbonds/vmd_hbonds/1.9.3
+  - Datasets: 3813283
+- **htmd-analysis-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/vmd_hbonds/vmd_hbonds/1.9.3
+  - Datasets: 3813283
+- **htmd-analysis-q084** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/vmd_hbonds/vmd_hbonds/1.9.3
+  - Datasets: 3813283
+- **htmd-analysis-q091** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 3813283
+- **htmd-analysis-q092** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 3813283
+- **htmd-analysis-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 3813283
+- **htmd-analysis-q094** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 3813283
+- **htmd-analysis-q101** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 3813283
+- **htmd-analysis-q102** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 3813283
+- **htmd-analysis-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 3813283
+- **htmd-analysis-q104** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 3813283
+- **htmd-analysis-q111** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q112** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q114** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q121** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q122** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q124** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/2.4.2.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q131** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/19.11
+  - Datasets: 3813283
+- **htmd-analysis-q132** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/19.11
+  - Datasets: 3813283
+- **htmd-analysis-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/19.11
+  - Datasets: 3813283
+- **htmd-analysis-q134** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/19.11
+  - Datasets: 3813283
+- **htmd-analysis-q141** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q142** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q143** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q144** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0
+  - Datasets: 3813283
+- **htmd-analysis-q151** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q152** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q153** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q154** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q161** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q162** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q163** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q164** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2019.1.4
+  - Datasets: 3813283
+- **htmd-analysis-q171** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2019.1.4.1
+  - Datasets: 3813283
+- **htmd-analysis-q172** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2019.1.4.1
+  - Datasets: 3813283
+- **htmd-analysis-q173** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2019.1.4.1
+  - Datasets: 3813283
+- **htmd-analysis-q174** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2019.1.4.1
+  - Datasets: 3813283
+- **htmd-analysis-q181** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q182** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q183** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q184** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q191** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q192** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q193** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q194** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q201** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.3+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q202** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.3+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q203** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.3+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q204** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.3+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q211** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q212** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q213** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q214** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.2.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q221** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q222** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q223** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q224** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q231** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q232** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q233** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q234** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q241** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q242** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q243** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q244** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q251** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q252** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q253** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q254** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2020.4+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q261** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q262** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q263** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q264** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 3813283
+- **htmd-analysis-q271** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q272** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q273** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q274** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q281** — In the context of High Throughput Molecular Dynamics and Analysis, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q282** — My goal is to complete High Throughput Molecular Dynamics and Analysis; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q283** — Which Galaxy tool should I use to run an analysis step from the tutorial in High Throughput Molecular Dynamics and Analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
+  - Datasets: 3813283
+- **htmd-analysis-q284** — How can I run an analysis step from the tutorial for High Throughput Molecular Dynamics and Analysis in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
+  - Datasets: 3813283
+
+## Running molecular dynamics simulations using GROMACS (topics/computational-chemistry/tutorials/md-simulation-gromacs)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+- Datasets (2): zenodo.2598415, 2598415
+
+Questions:
+- **md-simulation-gromacs-q011** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q012** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q014** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q021** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q022** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q024** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q031** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q032** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q034** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q041** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q042** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q044** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q051** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q052** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q054** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q061** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q062** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q064** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q071** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q072** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q074** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.2+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q081** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q082** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q084** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q091** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q092** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q094** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q101** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q102** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q104** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q111** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q112** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q114** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.4+galaxy0
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q121** — In the context of Running molecular dynamics simulations using GROMACS, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q122** — My goal is to complete Running molecular dynamics simulations using GROMACS; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Running molecular dynamics simulations using GROMACS?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+- **md-simulation-gromacs-q124** — How can I run an analysis step from the tutorial for Running molecular dynamics simulations using GROMACS in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.4+galaxy1
+  - Datasets: 2598415, zenodo.2598415
+
+## Data management in Medicinal Chemistry (topics/computational-chemistry/tutorials/med-chem-data)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+- Datasets (0): N/A
+
+Questions:
+- **med-chem-data-q011** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q012** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q014** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q021** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **med-chem-data-q022** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **med-chem-data-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **med-chem-data-q024** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
+  - Datasets: N/A
+- **med-chem-data-q031** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q032** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q034** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q041** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q042** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q044** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q051** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q052** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q054** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q061** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q062** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q064** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
+  - Datasets: N/A
+- **med-chem-data-q071** — In the context of Data management in Medicinal Chemistry, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **med-chem-data-q072** — My goal is to complete Data management in Medicinal Chemistry; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **med-chem-data-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data management in Medicinal Chemistry?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+- **med-chem-data-q074** — How can I run an analysis step from the tutorial for Data management in Medicinal Chemistry in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
+  - Datasets: N/A
+
+## Protein target prediction of a bioactive ligand with Align-it and ePharmaLib (topics/computational-chemistry/tutorials/zauberkugel)
+- Topic: computational-chemistry
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
+- Datasets (2): 6055897, 6055897>
+
+Questions:
+- **zauberkugel-q011** — In the context of Protein target prediction of a bioactive ligand with Align-it and ePharmaLib, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q012** — My goal is to complete Protein target prediction of a bioactive ligand with Align-it and ePharmaLib; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q014** — How can I run an analysis step from the tutorial for Protein target prediction of a bioactive ligand with Align-it and ePharmaLib in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q021** — In the context of Protein target prediction of a bioactive ligand with Align-it and ePharmaLib, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q022** — My goal is to complete Protein target prediction of a bioactive ligand with Align-it and ePharmaLib; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q024** — How can I run an analysis step from the tutorial for Protein target prediction of a bioactive ligand with Align-it and ePharmaLib in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q031** — In the context of Protein target prediction of a bioactive ligand with Align-it and ePharmaLib, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q032** — My goal is to complete Protein target prediction of a bioactive ligand with Align-it and ePharmaLib; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q034** — How can I run an analysis step from the tutorial for Protein target prediction of a bioactive ligand with Align-it and ePharmaLib in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q041** — In the context of Protein target prediction of a bioactive ligand with Align-it and ePharmaLib, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q042** — My goal is to complete Protein target prediction of a bioactive ligand with Align-it and ePharmaLib; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q044** — How can I run an analysis step from the tutorial for Protein target prediction of a bioactive ligand with Align-it and ePharmaLib in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q051** — In the context of Protein target prediction of a bioactive ligand with Align-it and ePharmaLib, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q052** — My goal is to complete Protein target prediction of a bioactive ligand with Align-it and ePharmaLib; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q054** — How can I run an analysis step from the tutorial for Protein target prediction of a bioactive ligand with Align-it and ePharmaLib in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q061** — In the context of Protein target prediction of a bioactive ligand with Align-it and ePharmaLib, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: sort1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q062** — My goal is to complete Protein target prediction of a bioactive ligand with Align-it and ePharmaLib; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: sort1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+  - Tools: sort1
+  - Datasets: 6055897, 6055897>
+- **zauberkugel-q064** — How can I run an analysis step from the tutorial for Protein target prediction of a bioactive ligand with Align-it and ePharmaLib in Galaxy?
+  - Tools: sort1
+  - Datasets: 6055897, 6055897>
+
+## Creating a new tutorial (topics/contributing/tutorials/create-new-tutorial)
+- Topic: contributing
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.1
+- Datasets (0): N/A
+
+Questions:
+- **create-new-tutorial-q011** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q012** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q014** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q021** — In the context of Creating a new tutorial, I need to trim adapters from sequencing reads. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5
+  - Datasets: N/A
+- **create-new-tutorial-q022** — My goal is to complete Creating a new tutorial; I need to trim adapters from sequencing reads. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5
+  - Datasets: N/A
+- **create-new-tutorial-q023** — Which Galaxy tool should I use to trim adapters from sequencing reads in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5
+  - Datasets: N/A
+- **create-new-tutorial-q024** — How can I trim adapters from sequencing reads for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5
+  - Datasets: N/A
+- **create-new-tutorial-q031** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q032** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q034** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q041** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3
+  - Datasets: N/A
+- **create-new-tutorial-q042** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3
+  - Datasets: N/A
+- **create-new-tutorial-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3
+  - Datasets: N/A
+- **create-new-tutorial-q044** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3
+  - Datasets: N/A
+- **create-new-tutorial-q051** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: random_lines1
+  - Datasets: N/A
+- **create-new-tutorial-q052** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: random_lines1
+  - Datasets: N/A
+- **create-new-tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: random_lines1
+  - Datasets: N/A
+- **create-new-tutorial-q054** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: random_lines1
+  - Datasets: N/A
+- **create-new-tutorial-q061** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.1
+  - Datasets: N/A
+- **create-new-tutorial-q062** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.1
+  - Datasets: N/A
+- **create-new-tutorial-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.1
+  - Datasets: N/A
+- **create-new-tutorial-q064** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.1
+  - Datasets: N/A
+- **create-new-tutorial-q071** — In the context of Creating a new tutorial, I need to filter rows in a tabular dataset by a condition. What should I use?
+  - Tools: Filter1
+  - Datasets: N/A
+- **create-new-tutorial-q072** — My goal is to complete Creating a new tutorial; I need to filter rows in a tabular dataset by a condition. What should I do?
+  - Tools: Filter1
+  - Datasets: N/A
+- **create-new-tutorial-q073** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Creating a new tutorial?
+  - Tools: Filter1
+  - Datasets: N/A
+- **create-new-tutorial-q074** — How can I filter rows in a tabular dataset by a condition for Creating a new tutorial in Galaxy?
+  - Tools: Filter1
+  - Datasets: N/A
+- **create-new-tutorial-q081** — In the context of Creating a new tutorial, I need to select specific columns from a tabular file. What should I use?
+  - Tools: Cut1
+  - Datasets: N/A
+- **create-new-tutorial-q082** — My goal is to complete Creating a new tutorial; I need to select specific columns from a tabular file. What should I do?
+  - Tools: Cut1
+  - Datasets: N/A
+- **create-new-tutorial-q083** — Which Galaxy tool should I use to select specific columns from a tabular file in Creating a new tutorial?
+  - Tools: Cut1
+  - Datasets: N/A
+- **create-new-tutorial-q084** — How can I select specific columns from a tabular file for Creating a new tutorial in Galaxy?
+  - Tools: Cut1
+  - Datasets: N/A
+- **create-new-tutorial-q091** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q092** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q094** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q101** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q102** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q104** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1
+  - Datasets: N/A
+- **create-new-tutorial-q111** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q112** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q114** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q121** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
+  - Datasets: N/A
+- **create-new-tutorial-q122** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
+  - Datasets: N/A
+- **create-new-tutorial-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
+  - Datasets: N/A
+- **create-new-tutorial-q124** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
+  - Datasets: N/A
+- **create-new-tutorial-q131** — In the context of Creating a new tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q132** — My goal is to complete Creating a new tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating a new tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.1.0
+  - Datasets: N/A
+- **create-new-tutorial-q134** — How can I run an analysis step from the tutorial for Creating a new tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.1.0
+  - Datasets: N/A
+
+## Creating content in Markdown (topics/contributing/tutorials/create-new-tutorial-content)
+- Topic: contributing
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
+- Datasets (0): N/A
+
+Questions:
+- **create-new-tutorial-content-q011** — In the context of Creating content in Markdown, I need to summarize QC reports from multiple tools. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
+  - Datasets: N/A
+- **create-new-tutorial-content-q012** — My goal is to complete Creating content in Markdown; I need to summarize QC reports from multiple tools. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
+  - Datasets: N/A
+- **create-new-tutorial-content-q013** — Which Galaxy tool should I use to summarize QC reports from multiple tools in Creating content in Markdown?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
+  - Datasets: N/A
+- **create-new-tutorial-content-q014** — How can I summarize QC reports from multiple tools for Creating content in Markdown in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
+  - Datasets: N/A
+- **create-new-tutorial-content-q021** — In the context of Creating content in Markdown, I need to upload data into my Galaxy history. What should I use?
+  - Tools: upload1
+  - Datasets: N/A
+- **create-new-tutorial-content-q022** — My goal is to complete Creating content in Markdown; I need to upload data into my Galaxy history. What should I do?
+  - Tools: upload1
+  - Datasets: N/A
+- **create-new-tutorial-content-q023** — Which Galaxy tool should I use to upload data into my Galaxy history in Creating content in Markdown?
+  - Tools: upload1
+  - Datasets: N/A
+- **create-new-tutorial-content-q024** — How can I upload data into my Galaxy history for Creating content in Markdown in Galaxy?
+  - Tools: upload1
+  - Datasets: N/A
+- **create-new-tutorial-content-q031** — In the context of Creating content in Markdown, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-tutorial-content-q032** — My goal is to complete Creating content in Markdown; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-tutorial-content-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating content in Markdown?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-tutorial-content-q034** — How can I run an analysis step from the tutorial for Creating content in Markdown in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Datasets: N/A
+- **create-new-tutorial-content-q041** — In the context of Creating content in Markdown, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/mz_to_sqlite/mz_to_sqlite/2.0.4+galaxy1`
+  - Datasets: N/A
+- **create-new-tutorial-content-q042** — My goal is to complete Creating content in Markdown; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/mz_to_sqlite/mz_to_sqlite/2.0.4+galaxy1`
+  - Datasets: N/A
+- **create-new-tutorial-content-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Creating content in Markdown?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/mz_to_sqlite/mz_to_sqlite/2.0.4+galaxy1`
+  - Datasets: N/A
+- **create-new-tutorial-content-q044** — How can I run an analysis step from the tutorial for Creating content in Markdown in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/mz_to_sqlite/mz_to_sqlite/2.0.4+galaxy1`
+  - Datasets: N/A
+
+## Data Manipulation Olympics (topics/data-science/tutorials/data-manipulation-olympics)
+- Topic: data-science
+- Tools: wc_gnu
+- Datasets (2): zenodo.6803028, 6803028
+
+Questions:
+- **data-manipulation-olympics-q011** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: wc_gnu
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q012** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: wc_gnu
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: wc_gnu
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q014** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: wc_gnu
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q021** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: tabular_to_csv
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q022** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: tabular_to_csv
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: tabular_to_csv
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q024** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: tabular_to_csv
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q031** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q032** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q034** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q041** — In the context of Data Manipulation Olympics, I need to filter rows in a tabular dataset by a condition. What should I use?
+  - Tools: Filter1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q042** — My goal is to complete Data Manipulation Olympics; I need to filter rows in a tabular dataset by a condition. What should I do?
+  - Tools: Filter1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q043** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Data Manipulation Olympics?
+  - Tools: Filter1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q044** — How can I filter rows in a tabular dataset by a condition for Data Manipulation Olympics in Galaxy?
+  - Tools: Filter1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q051** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Count1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q052** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Count1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: Count1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q054** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: Count1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q061** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q062** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q064** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q071** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q072** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q074** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q081** — In the context of Data Manipulation Olympics, I need to select specific columns from a tabular file. What should I use?
+  - Tools: Cut1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q082** — My goal is to complete Data Manipulation Olympics; I need to select specific columns from a tabular file. What should I do?
+  - Tools: Cut1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q083** — Which Galaxy tool should I use to select specific columns from a tabular file in Data Manipulation Olympics?
+  - Tools: Cut1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q084** — How can I select specific columns from a tabular file for Data Manipulation Olympics in Galaxy?
+  - Tools: Cut1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q091** — In the context of Data Manipulation Olympics, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q092** — My goal is to complete Data Manipulation Olympics; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q093** — Which Galaxy tool should I use to find and replace patterns in a text table in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q094** — How can I find and replace patterns in a text table for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q101** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q102** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q104** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q111** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q112** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q114** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q121** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: join1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q122** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: join1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: join1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q124** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: join1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q131** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Remove beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q132** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Remove beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: Remove beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q134** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: Remove beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q141** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q142** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q143** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q144** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q151** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: cat1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q152** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: cat1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q153** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: cat1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q154** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: cat1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q161** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Show beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q162** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Show beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q163** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: Show beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q164** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: Show beginning1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q171** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q172** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q173** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q174** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q181** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_wc}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q182** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_wc}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q183** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_wc}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q184** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_wc}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q191** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_sort}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q192** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_sort}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q193** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_sort}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q194** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_sort}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q201** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_filter}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q202** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_filter}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q203** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_filter}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q204** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_filter}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q211** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_count}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q212** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_count}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q213** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_count}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q214** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_count}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q221** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_datamash}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q222** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_datamash}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q223** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_datamash}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q224** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_datamash}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q231** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Grouping1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q232** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Grouping1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q233** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: Grouping1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q234** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: Grouping1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q241** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_compute}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q242** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_compute}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q243** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_compute}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q244** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_compute}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q251** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_replace_text_column}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q252** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_replace_text_column}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q253** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_replace_text_column}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q254** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_replace_text_column}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q261** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_replace_text_line}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q262** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_replace_text_line}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q263** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_replace_text_line}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q264** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_replace_text_line}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q271** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_join}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q272** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_join}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q273** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_join}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q274** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_join}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q281** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_cat}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q282** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_cat}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q283** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_cat}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q284** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_cat}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q291** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_remove_beginning}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q292** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_remove_beginning}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q293** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_remove_beginning}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q294** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_remove_beginning}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q301** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_select_first}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q302** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_select_first}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q303** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_select_first}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q304** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_select_first}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q311** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_remove_columns_by_header}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q312** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_remove_columns_by_header}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q313** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_remove_columns_by_header}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q314** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_remove_columns_by_header}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q321** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_cut_columns}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q322** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_cut_columns}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q323** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_cut_columns}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q324** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_cut_columns}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q331** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_cut_advanced}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q332** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_cut_advanced}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q333** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_cut_advanced}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q334** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_cut_advanced}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q341** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_paste}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q342** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_paste}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q343** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_paste}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q344** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_paste}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q351** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_split}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q352** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_split}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q353** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_split}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q354** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_split}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q361** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: {{version_unique}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q362** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: {{version_unique}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q363** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: {{version_unique}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q364** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: {{version_unique}}
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q371** — In the context of Data Manipulation Olympics, I need to upload data into my Galaxy history. What should I use?
+  - Tools: upload1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q372** — My goal is to complete Data Manipulation Olympics; I need to upload data into my Galaxy history. What should I do?
+  - Tools: upload1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q373** — Which Galaxy tool should I use to upload data into my Galaxy history in Data Manipulation Olympics?
+  - Tools: upload1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q374** — How can I upload data into my Galaxy history for Data Manipulation Olympics in Galaxy?
+  - Tools: upload1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q381** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q382** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q383** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q384** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q391** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q392** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q393** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q394** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q401** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q402** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q403** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q404** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q411** — In the context of Data Manipulation Olympics, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q412** — My goal is to complete Data Manipulation Olympics; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q413** — Which Galaxy tool should I use to find and replace patterns in a text table in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q414** — How can I find and replace patterns in a text table for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q421** — In the context of Data Manipulation Olympics, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q422** — My goal is to complete Data Manipulation Olympics; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q423** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data Manipulation Olympics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Datasets: 6803028, zenodo.6803028
+- **data-manipulation-olympics-q424** — How can I run an analysis step from the tutorial for Data Manipulation Olympics in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Datasets: 6803028, zenodo.6803028
+
+## Introduction to Digital Humanities in Galaxy (topics/digital-humanities/tutorials/introduction_to_dh)
+- Topic: digital-humanities
+- Tools: Remove beginning1
+- Datasets (3): zenodo.17053220, 17053220, 17053220
+
+Questions:
+- **introduction_to_dh-q011** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q012** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q014** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q021** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q022** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q024** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q031** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q032** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q034** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q041** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: wc_gnu
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q042** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: wc_gnu
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: wc_gnu
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q044** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: wc_gnu
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q051** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q052** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q054** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q061** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q062** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q064** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q071** — In the context of Introduction to Digital Humanities in Galaxy, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q072** — My goal is to complete Introduction to Digital Humanities in Galaxy; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Introduction to Digital Humanities in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+- **introduction_to_dh-q074** — How can I run an analysis step from the tutorial for Introduction to Digital Humanities in Galaxy in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.17053220, 17053220, 17053220
+
+## OpenRefine Tutorial for researching cultural data (topics/digital-humanities/tutorials/open-refine-tutorial)
+- Topic: digital-humanities
+- Tools: Cut1
+- Datasets (3): zenodo.17047254, 17047254, 17047254
+
+Questions:
+- **open-refine-tutorial-q011** — In the context of OpenRefine Tutorial for researching cultural data, I need to select specific columns from a tabular file. What should I use?
+  - Tools: Cut1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q012** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to select specific columns from a tabular file. What should I do?
+  - Tools: Cut1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q013** — Which Galaxy tool should I use to select specific columns from a tabular file in OpenRefine Tutorial for researching cultural data?
+  - Tools: Cut1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q014** — How can I select specific columns from a tabular file for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: Cut1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q021** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q022** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q024** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q031** — In the context of OpenRefine Tutorial for researching cultural data, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q032** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q033** — Which Galaxy tool should I use to find and replace patterns in a text table in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q034** — How can I find and replace patterns in a text table for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q041** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q042** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q044** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q051** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q052** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q054** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: Remove beginning1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q061** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q062** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q064** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q071** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: barchart_gnuplot
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q072** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: barchart_gnuplot
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: barchart_gnuplot
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q074** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: barchart_gnuplot
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q081** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q082** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q084** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q091** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: param_value_from_file
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q092** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: param_value_from_file
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: param_value_from_file
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q094** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: param_value_from_file
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q101** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compose_text_param/compose_text_param/0.1.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q102** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compose_text_param/compose_text_param/0.1.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compose_text_param/compose_text_param/0.1.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q104** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compose_text_param/compose_text_param/0.1.1
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q111** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q112** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q114** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q121** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q122** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q124** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q131** — In the context of OpenRefine Tutorial for researching cultural data, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: interactive_tool_openrefine
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q132** — My goal is to complete OpenRefine Tutorial for researching cultural data; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: interactive_tool_openrefine
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in OpenRefine Tutorial for researching cultural data?
+  - Tools: interactive_tool_openrefine
+  - Datasets: zenodo.17047254, 17047254, 17047254
+- **open-refine-tutorial-q134** — How can I run an analysis step from the tutorial for OpenRefine Tutorial for researching cultural data in Galaxy?
+  - Tools: interactive_tool_openrefine
+  - Datasets: zenodo.17047254, 17047254, 17047254
+
+## Text-Mining Differences in Chinese Newspaper Articles (topics/digital-humanities/tutorials/text_mining_chinese)
+- Topic: digital-humanities
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy0
+- Datasets (3): zenodo.14899614, 14899614, 14899614
+
+Questions:
+- **text_mining_chinese-q011** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q012** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q014** — How can I run an analysis step from the tutorial for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q021** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q022** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q024** — How can I run an analysis step from the tutorial for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q031** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to filter rows in a tabular dataset by a condition. What should I use?
+  - Tools: Filter1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q032** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to filter rows in a tabular dataset by a condition. What should I do?
+  - Tools: Filter1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q033** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: Filter1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q034** — How can I filter rows in a tabular dataset by a condition for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: Filter1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q041** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q042** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q044** — How can I run an analysis step from the tutorial for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q051** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to select specific columns from a tabular file. What should I use?
+  - Tools: Cut1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q052** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to select specific columns from a tabular file. What should I do?
+  - Tools: Cut1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q053** — Which Galaxy tool should I use to select specific columns from a tabular file in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: Cut1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q054** — How can I select specific columns from a tabular file for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: Cut1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q061** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q062** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q064** — How can I run an analysis step from the tutorial for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q071** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q072** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q074** — How can I run an analysis step from the tutorial for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q081** — In the context of Text-Mining Differences in Chinese Newspaper Articles, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: sort1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q082** — My goal is to complete Text-Mining Differences in Chinese Newspaper Articles; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: sort1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Text-Mining Differences in Chinese Newspaper Articles?
+  - Tools: sort1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+- **text_mining_chinese-q084** — How can I run an analysis step from the tutorial for Text-Mining Differences in Chinese Newspaper Articles in Galaxy?
+  - Tools: sort1
+  - Datasets: zenodo.14899614, 14899614, 14899614
+
+## Data submission using ENA upload Tool (topics/ecology/tutorials/ENA_Biodiv_submission)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+- Datasets (0): N/A
+
+Questions:
+- **ENA_Biodiv_submission-q011** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q012** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q014** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q021** — In the context of Data submission using ENA upload Tool, I need to assess read quality. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q022** — My goal is to complete Data submission using ENA upload Tool; I need to assess read quality. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q023** — Which Galaxy tool should I use to assess read quality in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q024** — How can I assess read quality for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q031** — In the context of Data submission using ENA upload Tool, I need to summarize QC reports from multiple tools. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q032** — My goal is to complete Data submission using ENA upload Tool; I need to summarize QC reports from multiple tools. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q033** — Which Galaxy tool should I use to summarize QC reports from multiple tools in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q034** — How can I summarize QC reports from multiple tools for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q041** — In the context of Data submission using ENA upload Tool, I need to trim adapters from sequencing reads. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.8+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q042** — My goal is to complete Data submission using ENA upload Tool; I need to trim adapters from sequencing reads. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.8+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q043** — Which Galaxy tool should I use to trim adapters from sequencing reads in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.8+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q044** — How can I trim adapters from sequencing reads for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.8+galaxy0
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q051** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q052** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q054** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q061** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q062** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q064** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q071** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q072** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q074** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q081** — In the context of Data submission using ENA upload Tool, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q082** — My goal is to complete Data submission using ENA upload Tool; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q083** — Which Galaxy tool should I use to find and replace patterns in a text table in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q084** — How can I find and replace patterns in a text table for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q091** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Paste1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q092** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Paste1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: Paste1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q094** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: Paste1
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q101** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q102** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q104** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q111** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.14.1+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q112** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.14.1+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.14.1+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q114** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.14.1+galaxy2
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q121** — In the context of Data submission using ENA upload Tool, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q122** — My goal is to complete Data submission using ENA upload Tool; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Data submission using ENA upload Tool?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Datasets: N/A
+- **ENA_Biodiv_submission-q124** — How can I run an analysis step from the tutorial for Data submission using ENA upload Tool in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Datasets: N/A
+
+## Ecoregionalization workflow tutorial (topics/ecology/tutorials/Ecoregionalization_tutorial)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
+- Datasets (0): N/A
+
+Questions:
+- **Ecoregionalization_tutorial-q011** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q012** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q014** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q021** — In the context of Ecoregionalization workflow tutorial, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q022** — My goal is to complete Ecoregionalization workflow tutorial; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q023** — Which Galaxy tool should I use to find and replace patterns in a text table in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q024** — How can I find and replace patterns in a text table for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q031** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q032** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q034** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q041** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q042** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q044** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q051** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: interactive_tool_jupyter_notebook
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q052** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: interactive_tool_jupyter_notebook
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: interactive_tool_jupyter_notebook
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q054** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: interactive_tool_jupyter_notebook
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q061** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q062** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q064** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q071** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q072** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q074** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q081** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q082** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q084** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q091** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q092** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q094** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q101** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q102** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q104** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q111** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q112** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q114** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q121** — In the context of Ecoregionalization workflow tutorial, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q122** — My goal is to complete Ecoregionalization workflow tutorial; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Ecoregionalization workflow tutorial?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Datasets: N/A
+- **Ecoregionalization_tutorial-q124** — How can I run an analysis step from the tutorial for Ecoregionalization workflow tutorial in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Datasets: N/A
+
+## Metabarcoding/eDNA through Obitools (topics/ecology/tutorials/Obitools-metabarcoding)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+- Datasets (1): 5932108
+
+Questions:
+- **Obitools-metabarcoding-q011** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q012** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q013** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q014** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q021** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q022** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q024** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q031** — In the context of Metabarcoding/eDNA through Obitools, I need to assess read quality. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q032** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to assess read quality. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q033** — Which Galaxy tool should I use to assess read quality in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q034** — How can I assess read quality for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q041** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q042** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q044** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q051** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q052** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q053** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q054** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q061** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: wc_gnu
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q062** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: wc_gnu
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q063** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: wc_gnu
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q064** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: wc_gnu
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q071** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q072** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q074** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q081** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q082** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q084** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q091** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q092** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q093** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q094** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q101** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q102** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q104** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q111** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q112** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q114** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q121** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.10.1+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q122** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.10.1+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.10.1+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q124** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.10.1+galaxy0
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q131** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.7
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q132** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.7
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.7
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q134** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.7
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q141** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q142** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q143** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q144** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q151** — In the context of Metabarcoding/eDNA through Obitools, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: join1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q152** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: join1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q153** — Which Galaxy tool should I use to run an analysis step from the tutorial in Metabarcoding/eDNA through Obitools?
+  - Tools: join1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q154** — How can I run an analysis step from the tutorial for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: join1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q161** — In the context of Metabarcoding/eDNA through Obitools, I need to select specific columns from a tabular file. What should I use?
+  - Tools: Cut1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q162** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to select specific columns from a tabular file. What should I do?
+  - Tools: Cut1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q163** — Which Galaxy tool should I use to select specific columns from a tabular file in Metabarcoding/eDNA through Obitools?
+  - Tools: Cut1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q164** — How can I select specific columns from a tabular file for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: Cut1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q171** — In the context of Metabarcoding/eDNA through Obitools, I need to filter rows in a tabular dataset by a condition. What should I use?
+  - Tools: Filter1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q172** — My goal is to complete Metabarcoding/eDNA through Obitools; I need to filter rows in a tabular dataset by a condition. What should I do?
+  - Tools: Filter1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q173** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Metabarcoding/eDNA through Obitools?
+  - Tools: Filter1
+  - Datasets: 5932108
+- **Obitools-metabarcoding-q174** — How can I filter rows in a tabular dataset by a condition for Metabarcoding/eDNA through Obitools in Galaxy?
+  - Tools: Filter1
+  - Datasets: 5932108
+
+## Compute and analyze biodiversity metrics with PAMPA toolsuite (topics/ecology/tutorials/PAMPA-toolsuite-tutorial)
+- Topic: ecology
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+- Datasets (4): zenodo.1324204, zenodo.4264936, 1324204, 4264936
+
+Questions:
+- **PAMPA-toolsuite-tutorial-q011** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q012** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q013** — Which Galaxy tool should I use to find and replace patterns in a text table in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q014** — How can I find and replace patterns in a text table for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q021** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q022** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q023** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q024** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q031** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q032** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q033** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q034** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q041** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: Count1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q042** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: Count1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q043** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: Count1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q044** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: Count1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q051** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to filter rows in a tabular dataset by a condition. What should I use?
+  - Tools: Filter1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q052** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to filter rows in a tabular dataset by a condition. What should I do?
+  - Tools: Filter1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q053** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: Filter1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q054** — How can I filter rows in a tabular dataset by a condition for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: Filter1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q061** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q062** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q063** — Which Galaxy tool should I use to find and replace patterns in a text table in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q064** — How can I find and replace patterns in a text table for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q071** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q072** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q073** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q074** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q081** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q082** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q083** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q084** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q091** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to find and replace patterns in a text table. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q092** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to find and replace patterns in a text table. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q093** — Which Galaxy tool should I use to find and replace patterns in a text table in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q094** — How can I find and replace patterns in a text table for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q101** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q102** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q103** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q104** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q111** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q112** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q113** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q114** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q121** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q122** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q123** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q124** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q131** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q132** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q133** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q134** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q141** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q142** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q143** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q144** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q151** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q152** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q153** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q154** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q161** — In the context of Compute and analyze biodiversity metrics with PAMPA toolsuite, I need to run an analysis step from the tutorial. What should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q162** — My goal is to complete Compute and analyze biodiversity metrics with PAMPA toolsuite; I need to run an analysis step from the tutorial. What should I do?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q163** — Which Galaxy tool should I use to run an analysis step from the tutorial in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
+- **PAMPA-toolsuite-tutorial-q164** — How can I run an analysis step from the tutorial for Compute and analyze biodiversity metrics with PAMPA toolsuite in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
+  - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
