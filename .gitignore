@@ -13,7 +13,6 @@ gtn_benchmark.egg-info/
 
 # Large datasets and outputs
 data/raw_llm/
-data/benchmark/
 data/datasets/
 output/
 
