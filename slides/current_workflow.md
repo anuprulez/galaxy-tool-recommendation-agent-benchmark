@@ -1,8 +1,8 @@
 # Query & Agent Workflow (Slide Notes)
 
 ## 1. How we build the query set
-- The Codex agent (Jetstream/OpenAI LLM) generates science-first and tool-first variants per tutorial by ingesting the tutorial ID/topic/datasets plus a fixed template that asks for both request styles; each response becomes a query in `V1_items*.jsonl`, and we keep the metadata fields (`query_type`, dataset references, tool focus) so downstream steps know which style is being evaluated.
-- All batches are merged into `V1_items.{jsonl,md}` before scoring; the current set holds **5,152 total queries**.
+- we use the Codex coding agent to generate science-first and tool-first variants per tutorial by ingesting the tutorial ID/topic/datasets plus a fixed template that asks for both request styles; each response becomes a query in `data/benchmark/v1_items.jsonl`, and we keep the metadata fields (`query_type`, dataset references, tool focus) so downstream steps know which style is being evaluated.
+- All batches are merged into `v1_items.{jsonl,md}` before scoring; the current set holds **5,152 total queries**.
 - Example pairs from *topics/climate/tutorials/ocean-variables*:
   - **Science-first**: “I have scattered oceanographic measurements and need a gridded field to analyze spatial patterns. How should I proceed?” (`ocean-variables-q011`, dataset “Ocean’s variables study”, expected tool `divand_full_analysis`).
   - **Tool-first**: “Which Galaxy tool performs full analysis and gridding for ocean variable datasets?” (`ocean-variables-q013`, same expected tool).
