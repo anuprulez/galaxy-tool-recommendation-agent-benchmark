@@ -27,3 +27,10 @@ backup_dataset/
 plan_*.md
 
 output/
+
+tmp_stats/
+data/datasets_preview/
+
+data/benchmark/query_overrides.json
+data/benchmark/v0_summary.yaml
+
