@@ -142,8 +142,10 @@ def write_table(df: pd.DataFrame, out_path: Path, fmt: str = "tsv") -> None:
     return df
 
 
-from __future__ import annotations
 import re
+import xml.etree.ElementTree as ET
+from markdown import markdown
+from bs4 import BeautifulSoup
 
 def _extract_help_from_xml(xml_text: str) -> str | None:
     # 1) Try XML parsing first (robust to nested tags inside <help>)
@@ -168,6 +170,14 @@ def _extract_help_from_xml(xml_text: str) -> str | None:
     inner = inner.strip()
     return inner if inner else None
 
+def _clean_text(text: str) -> str:
+    # Replace multiple whitespace with single space, strip leading/trailing whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+    html = markdown(text)
+    help_text = BeautifulSoup(html, "html.parser").get_text("\n")
+    return help_text.strip()
+
+
 def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "https://usegalaxy.eu", timeout: int = 30):
     """
     For each Galaxy tool_id in `df[tool_id_col]`, fetch the raw tool XML via:
@@ -187,21 +197,29 @@ def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "htt
     tool_ids = df[tool_id_col].astype(str).tolist()
     out = []
 
-
-
     with requests.Session() as s:
         # Optional: identify yourself politely
         s.headers.update({"User-Agent": "tool-help-scraper/1.0"})
-        for tid in tool_ids:
+        for tidx, tid in enumerate(tool_ids):
             url = f"{base_url.rstrip('/')}/api/tools/{tid}/raw_tool_source"
             try:
                 r = s.get(url, timeout=timeout)
                 if not r.ok or not r.text:
                     out.append(None)
                     continue
-                out.append(_extract_help_from_xml(r.text))
+                help_text = _extract_help_from_xml(r.text)
+                #md = open("input.md", "r", encoding="utf-8").read()
+                help_text = _clean_text(help_text)
+                
+                print(f"Tool id: {tid}, tool help text: {help_text}")
+                print()
+                print()
+                out.append(help_text)
             except Exception:
                 out.append(None)
+            if (tidx + 1) % 10 == 0:
+                print(f"  Fetched help text for {tidx + 1}/{len(tool_ids)} tools...")
+                break
 
     return out
 
@@ -230,7 +248,10 @@ def main() -> int:
     write_tools_json(tools_only, Path(args.out_json))
     df_tools = write_table(df, Path(args.out_table), fmt=args.table_format)
 
-    fetch_tool_help_texts(df_tools)
+    lst_help = fetch_tool_help_texts(df_tools)
+    print(lst_help)
+    df_tools["help_text"] = lst_help
+    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
 
     print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
     print(f"Wrote {len(df)} rows -> {args.out_table} ({args.table_format.upper()})")
