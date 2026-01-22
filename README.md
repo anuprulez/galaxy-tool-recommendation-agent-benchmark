@@ -13,7 +13,7 @@ A key goal of this project is to build a large set of realistic queries **genera
    source .venv/bin/activate
    pip install -e .
    ```
-2. (Optional) Copy `.env.example` to `.env` and set `OPENAI_API_KEY` if you plan to run `scripts/generate_llm_predictions.py`.
+No API keys are required for the core workflow.
 
 ## Current status
 
@@ -21,6 +21,18 @@ A key goal of this project is to build a large set of realistic queries **genera
 - **Tool universe (usegalaxy.org)**: `data/tool_catalog/` contains snapshots of installed tools and indices for building candidate tool sets.
 - **Ground truth expansion**: we are actively expanding each item’s acceptable answers (multiple tools can be correct) using conservative, rule-driven alternatives.
 - **LLM-generation scripts**: earlier LLM-API-based query generation scripts are no longer part of the workflow and are being cleaned up.
+
+## Key challenge: datasets vs tools in tutorials
+
+GTN tutorials often include:
+
+- **Concrete dataset links / filenames / accessions** used for teaching, which we intentionally avoid mentioning in query text to keep queries generalizable.
+- **Tool mentions that are not stable identifiers**, e.g. step labels in workflows, UI display names, or version-pinned tool IDs that do not match what is installed on a target server.
+
+This project addresses the challenge by:
+
+- Writing queries that describe the **user intent** (tool-recommendation) without naming datasets or the target tool.
+- Normalizing and expanding ground truth tools against the **usegalaxy.org installed tool universe** (`data/tool_catalog/`), so answers are runnable and auditable.
 
 ## Workflow (high level)
 
@@ -61,7 +73,7 @@ Build/update the catalog from usegalaxy.org:
 ## Expanding ground truth (multiple acceptable tools)
 
 Rule files live in `data/tool_catalog/alternative_rules_*.json`.
-Apply scripts mutate `data/benchmark/v1_items.jsonl` in-place and annotate `metadata.ground_truth_alternatives_source`.
+The expansion scripts mutate `data/benchmark/v1_items.jsonl` in-place and annotate `metadata.ground_truth_alternatives_source`.
 
 Examples:
 
@@ -74,11 +86,6 @@ Examples:
 After any update, regenerate the readable export:
 
 `python3 scripts/export_readable.py --input data/benchmark/v1_items.jsonl --output data/benchmark/v1_items_readable.md`
-
-## LLM predictions (optional)
-
-`scripts/generate_llm_predictions.py` can generate ranked tool predictions for each query.
-It uses `data/tool_catalog/*index.json` to expand candidate tools and requires `OPENAI_API_KEY`.
 
 ## Repo layout
 
