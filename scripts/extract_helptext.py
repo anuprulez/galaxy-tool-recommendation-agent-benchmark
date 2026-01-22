@@ -139,6 +139,71 @@ def write_table(df: pd.DataFrame, out_path: Path, fmt: str = "tsv") -> None:
         df.to_csv(out_path, index=False)
     else:
         df.to_csv(out_path, sep="\t", index=False)
+    return df
+
+
+from __future__ import annotations
+import re
+
+def _extract_help_from_xml(xml_text: str) -> str | None:
+    # 1) Try XML parsing first (robust to nested tags inside <help>)
+    try:
+        root = ET.fromstring(xml_text)
+        help_el = root.find(".//help")
+        if help_el is not None:
+            # Collect all text within <help>, including nested tags
+            txt = "".join(help_el.itertext()).strip()
+            return txt if txt else None
+    except Exception:
+        pass
+
+    # 2) Fallback: regex extraction (handles malformed XML in rare cases)
+    m = re.search(r"<help\b[^>]*>(.*?)</help>", xml_text, flags=re.IGNORECASE | re.DOTALL)
+    if not m:
+        return None
+    inner = m.group(1)
+    # Remove any tags inside help and unescape basic entities
+    inner = re.sub(r"<[^>]+>", "", inner)
+    inner = inner.replace("&lt;", "<").replace("&gt;", ">").replace("&amp;", "&")
+    inner = inner.strip()
+    return inner if inner else None
+
+def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "https://usegalaxy.eu", timeout: int = 30):
+    """
+    For each Galaxy tool_id in `df[tool_id_col]`, fetch the raw tool XML via:
+        {base_url}/api/tools/{tool_id}/raw_tool_source
+    and extract the text inside <help>...</help>.
+
+    Returns
+    -------
+    list[str | None]
+        A list aligned to df rows. Each element is the extracted help text (str),
+        or None if missing/unavailable/unparseable.
+    """
+    import re
+    import requests
+    import xml.etree.ElementTree as ET
+
+    tool_ids = df[tool_id_col].astype(str).tolist()
+    out = []
+
+
+
+    with requests.Session() as s:
+        # Optional: identify yourself politely
+        s.headers.update({"User-Agent": "tool-help-scraper/1.0"})
+        for tid in tool_ids:
+            url = f"{base_url.rstrip('/')}/api/tools/{tid}/raw_tool_source"
+            try:
+                r = s.get(url, timeout=timeout)
+                if not r.ok or not r.text:
+                    out.append(None)
+                    continue
+                out.append(_extract_help_from_xml(r.text))
+            except Exception:
+                out.append(None)
+
+    return out
 
 
 def main() -> int:
@@ -163,7 +228,9 @@ def main() -> int:
     df, tools_only = tools_to_dataframe(payload)
 
     write_tools_json(tools_only, Path(args.out_json))
-    write_table(df, Path(args.out_table), fmt=args.table_format)
+    df_tools = write_table(df, Path(args.out_table), fmt=args.table_format)
+
+    fetch_tool_help_texts(df_tools)
 
     print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
     print(f"Wrote {len(df)} rows -> {args.out_table} ({args.table_format.upper()})")
