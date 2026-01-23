@@ -34,7 +34,7 @@ import extract_embeddings
 
 
 DEFAULT_URL = "https://usegalaxy.eu/api/tools"
-n_tools = 50
+n_tools = 3500
 K = 5
 similarity_threshold = 0.5
 
