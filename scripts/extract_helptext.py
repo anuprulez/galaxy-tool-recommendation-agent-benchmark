@@ -23,6 +23,7 @@ import pandas as pd
 import requests
 
 DEFAULT_URL = "https://usegalaxy.eu/api/tools"
+n_tools = 100
 
 
 def fetch_json(url: str, timeout: int = 120) -> Any:
@@ -93,6 +94,7 @@ def tools_to_dataframe(payload: Any) -> Tuple[pd.DataFrame, List[Dict[str, Any]]
     records: List[Dict[str, str]] = []
     tools_only: List[Dict[str, Any]] = []
     seen_ids = set()
+    n_tl = 0
 
     for tool_obj, sec_id, sec_name in iter_tool_objects(payload):
         tid = str(tool_obj.get("id", "")).strip()
@@ -110,6 +112,10 @@ def tools_to_dataframe(payload: Any) -> Tuple[pd.DataFrame, List[Dict[str, Any]]
                 "panel_section_name": str(sec_name or ""),
             }
         )
+        n_tl += 1
+        if n_tl == n_tools:
+            print(f"  Processed {n_tl} tools...")
+            break
 
     df = pd.DataFrame.from_records(
         records,
@@ -198,7 +204,6 @@ def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "htt
     out = []
 
     with requests.Session() as s:
-        # Optional: identify yourself politely
         s.headers.update({"User-Agent": "tool-help-scraper/1.0"})
         for tidx, tid in enumerate(tool_ids):
             url = f"{base_url.rstrip('/')}/api/tools/{tid}/raw_tool_source"
@@ -208,16 +213,14 @@ def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "htt
                     out.append(None)
                     continue
                 help_text = _extract_help_from_xml(r.text)
-                #md = open("input.md", "r", encoding="utf-8").read()
                 help_text = _clean_text(help_text)
-                
                 print(f"Tool id: {tid}, tool help text: {help_text}")
                 print()
                 print()
                 out.append(help_text)
             except Exception:
                 out.append(None)
-            if (tidx + 1) % 10 == 0:
+            if tidx == n_tools:
                 print(f"  Fetched help text for {tidx + 1}/{len(tool_ids)} tools...")
                 break
 
@@ -233,7 +236,7 @@ def main() -> int:
         help="Optional: path to a previously downloaded /api/tools JSON (skips HTTP).",
     )
     ap.add_argument("--out-json", default="../data/tools_only.json", help="Output JSON (tools only)")
-    ap.add_argument("--out-table", default="../data/tools.tsv", help="Output table (TSV/CSV)")
+    ap.add_argument("--out-table", default="../data/tools_metadata.tsv", help="Output table (TSV/CSV)")
     ap.add_argument("--table-format", choices=["tsv", "csv"], default="tsv", help="Table format")
     ap.add_argument("--timeout", type=int, default=120, help="HTTP timeout seconds")
     args = ap.parse_args()

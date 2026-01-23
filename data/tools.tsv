@@ -1492,7 +1492,7 @@ toolshed.g2.bx.psu.edu/repos/imgteam/split_labelmap/ip_split_labelmap/0.2-3	Spli
 toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy2	Starting Modules	Load images and metadata	imaging	Imaging
 toolshed.g2.bx.psu.edu/repos/imgteam/imagecoordinates_flipaxis/imagecoordinates_flipaxis/0.1	Switch axis coordinates	Switches the axes of an image and flips the y axis.	imaging	Imaging
 toolshed.g2.bx.psu.edu/repos/imgteam/imagecoordinates_flipaxis/imagecoordinates_flipaxis/0.1-2	Switch axis coordinates		imaging	Imaging
-toolshed.g2.bx.psu.edu/repos/iuc/tesseract/tesseract/5.5.2+galaxy1	Tesseract	Optical Character Recognition	imaging	Imaging
+toolshed.g2.bx.psu.edu/repos/iuc/tesseract/tesseract/5.5.2+galaxy2	Tesseract	Optical Character Recognition	imaging	Imaging
 toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0	Threshold image	with scikit-image	imaging	Imaging
 toolshed.g2.bx.psu.edu/repos/bgruening/cp_tile/cp_tile/3.1.9+galaxy0	Tile	with CellProfiler	imaging	Imaging
 toolshed.g2.bx.psu.edu/repos/bgruening/cp_track_objects/cp_track_objects/3.1.9+galaxy1	TrackObjects	with CellProfiler	imaging	Imaging
