@@ -8,9 +8,9 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2409",
       "operation_0338",
-      "operation_2422"
+      "operation_2422",
+      "operation_2409"
     ],
     "edam_topics": [
       "topic_3071"
@@ -45,9 +45,9 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2409",
       "operation_0338",
-      "operation_2422"
+      "operation_2422",
+      "operation_2409"
     ],
     "edam_topics": [
       "topic_3071"
@@ -82,17 +82,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_3431",
-      "operation_2429",
       "operation_0252",
       "operation_0416",
-      "operation_0224"
+      "operation_2429"
     ],
     "edam_topics": [
-      "topic_0154",
-      "topic_0621",
+      "topic_3489",
       "topic_2830",
-      "topic_3489"
+      "topic_0621",
+      "topic_0154"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -224,17 +224,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -266,15 +266,15 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_3431",
+      "operation_3219",
       "operation_3196",
-      "operation_3219"
+      "operation_3431",
+      "operation_2422"
     ],
     "edam_topics": [
-      "topic_0080",
       "topic_3168",
-      "topic_3489"
+      "topic_3489",
+      "topic_0080"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -306,17 +306,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
       "operation_3431",
-      "operation_2421",
-      "operation_3778"
+      "operation_3778",
+      "operation_2422",
+      "operation_2421"
     ],
     "edam_topics": [
+      "topic_3068",
       "topic_0080",
       "topic_0121",
       "topic_0621",
-      "topic_3520",
-      "topic_3068"
+      "topic_3520"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -377,14 +377,14 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_0337",
-      "operation_2423"
+      "operation_2423",
+      "operation_0337"
     ],
     "edam_topics": [
       "topic_0769",
+      "topic_3050",
       "topic_3922",
-      "topic_0121",
-      "topic_3050"
+      "topic_0121"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -416,17 +416,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -458,17 +458,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -500,17 +500,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -542,17 +542,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -584,17 +584,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -626,17 +626,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -668,17 +668,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -710,17 +710,17 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0308",
       "operation_3431",
-      "operation_3761",
-      "operation_0224"
+      "operation_3761"
     ],
     "edam_topics": [
-      "topic_3473",
+      "topic_3366",
       "topic_3325",
       "topic_3489",
-      "topic_3366",
-      "topic_0602"
+      "topic_0602",
+      "topic_3473"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -752,10 +752,10 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0362",
-      "operation_3431",
       "operation_3208",
-      "operation_0224"
+      "operation_3431"
     ],
     "edam_topics": [
       "topic_3325",
@@ -791,10 +791,10 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0362",
-      "operation_3431",
       "operation_3208",
-      "operation_0224"
+      "operation_3431"
     ],
     "edam_topics": [
       "topic_3325",
@@ -830,10 +830,10 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_0362",
-      "operation_3431",
       "operation_3208",
-      "operation_0224"
+      "operation_3431"
     ],
     "edam_topics": [
       "topic_3325",
@@ -869,16 +869,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_0346",
       "operation_3431",
-      "operation_0310"
+      "operation_0310",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
-      "topic_0219",
-      "topic_3512",
       "topic_3511",
-      "topic_0749"
+      "topic_0749",
+      "topic_0219",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -910,16 +910,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_0346",
       "operation_3431",
-      "operation_0310"
+      "operation_0310",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
-      "topic_0219",
-      "topic_3512",
       "topic_3511",
-      "topic_0749"
+      "topic_0749",
+      "topic_0219",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -951,16 +951,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_0346",
       "operation_3431",
-      "operation_0310"
+      "operation_0310",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
-      "topic_0219",
-      "topic_3512",
       "topic_3511",
-      "topic_0749"
+      "topic_0749",
+      "topic_0219",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -992,16 +992,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_0346",
       "operation_3431",
-      "operation_0310"
+      "operation_0310",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
-      "topic_0219",
-      "topic_3512",
       "topic_3511",
-      "topic_0749"
+      "topic_0749",
+      "topic_0219",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -1033,16 +1033,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_0346",
       "operation_3431",
-      "operation_0310"
+      "operation_0310",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
-      "topic_0219",
-      "topic_3512",
       "topic_3511",
-      "topic_0749"
+      "topic_0749",
+      "topic_0219",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -1074,22 +1074,22 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
       "operation_0305",
-      "operation_0362"
+      "operation_0362",
+      "operation_2422"
     ],
     "edam_topics": [
-      "topic_0122",
+      "topic_3518",
+      "topic_3068",
       "topic_0085",
+      "topic_0089",
+      "topic_0122",
       "topic_0121",
       "topic_0797",
-      "topic_0128",
       "topic_2259",
-      "topic_0622",
-      "topic_3068",
-      "topic_3518",
-      "topic_0089",
-      "topic_0602"
+      "topic_0602",
+      "topic_0128",
+      "topic_0622"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -1121,19 +1121,19 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_2414",
-      "operation_0346",
       "operation_0492",
-      "operation_0224"
+      "operation_0224",
+      "operation_2414",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
+      "topic_0091",
       "topic_0080",
-      "topic_0078",
       "topic_3325",
-      "topic_1775",
       "topic_0602",
-      "topic_0091"
+      "topic_1775",
+      "topic_0078"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -1165,16 +1165,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
+      "operation_0224",
       "operation_3436",
-      "operation_3431",
-      "operation_0224"
+      "operation_3431"
     ],
     "edam_topics": [
-      "topic_0607",
-      "topic_3325",
+      "topic_0625",
       "topic_3366",
-      "topic_3263",
-      "topic_0625"
+      "topic_3325",
+      "topic_0607",
+      "topic_3263"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -1228,13 +1228,13 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_3431"
+      "operation_3431",
+      "operation_2422"
     ],
     "edam_topics": [
       "topic_3168",
-      "topic_3512",
-      "topic_0091"
+      "topic_0091",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -1638,16 +1638,16 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2422",
-      "operation_0346",
       "operation_3431",
-      "operation_0310"
+      "operation_0310",
+      "operation_2422",
+      "operation_0346"
     ],
     "edam_topics": [
-      "topic_0219",
-      "topic_3512",
       "topic_3511",
-      "topic_0749"
+      "topic_0749",
+      "topic_0219",
+      "topic_3512"
     ],
     "hidden": "",
     "is_workflow_compatible": true,
@@ -2511,8 +2511,8 @@
     "labels": [],
     "icon": null,
     "edam_operations": [
-      "operation_2409",
-      "operation_0335"
+      "operation_0335",
+      "operation_2409"
     ],
     "edam_topics": [],
     "hidden": "",
