@@ -16,14 +16,27 @@ from __future__ import annotations
 
 import argparse
 import json
+from math import dist
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pandas as pd
+import numpy as np
+from sklearn.neighbors import NearestNeighbors
 import requests
 
+import re
+import xml.etree.ElementTree as ET
+from markdown import markdown
+from bs4 import BeautifulSoup
+
+import extract_embeddings
+
+
 DEFAULT_URL = "https://usegalaxy.eu/api/tools"
-n_tools = 100
+n_tools = 1000
+K = 5
+similarity_threshold = 0.5
 
 
 def fetch_json(url: str, timeout: int = 120) -> Any:
@@ -147,12 +160,6 @@ def write_table(df: pd.DataFrame, out_path: Path, fmt: str = "tsv") -> None:
         df.to_csv(out_path, sep="\t", index=False)
     return df
 
-
-import re
-import xml.etree.ElementTree as ET
-from markdown import markdown
-from bs4 import BeautifulSoup
-
 def _extract_help_from_xml(xml_text: str) -> str | None:
     # 1) Try XML parsing first (robust to nested tags inside <help>)
     try:
@@ -248,11 +255,50 @@ def main() -> int:
     lst_help = fetch_tool_help_texts(df_tools)
     print(lst_help)
     df_tools["help_text"] = lst_help
-    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
+    
 
     print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
     print(f"Wrote {len(df)} rows -> {args.out_table} ({args.table_format.upper()})")
-    return 0
+    
+    # extract embeddings for help texts
+    embeddings = extract_embeddings.get_sentence_embeddings(df_tools['help_text'].fillna("").tolist())
+
+    df_tools["embeddings"] = embeddings
+
+    print("Finding nearest neighbors...")
+
+    # parse embeddings: string -> list -> numpy array
+    X = df_tools["embeddings"].to_list()
+
+    # fit KNN (ask for K+1 because first neighbor is often the row itself)
+    nn = NearestNeighbors(n_neighbors=K+1, metric="cosine").fit(X)
+    distances, indices = nn.kneighbors(X)
+
+    print(distances)
+    print()
+    # build neighbor tool_ids, skipping self
+    tool_ids = df_tools["tool_id"].astype(str).to_list()
+    knn_tool_ids = []
+    for i, neigh_idx in enumerate(indices):
+        tool_distances = distances[i]
+        print(tool_distances)
+        neigh_idx = [j for j in neigh_idx if j != i][:K]
+        print(neigh_idx)
+        print(f"tool id: {tool_ids[i]}")
+        #neighbours = []
+        '''for idx, k in enumerate(neigh_idx):
+            if tool_distances[idx+1] >= similarity_threshold:
+                print(f"Neighbor tool id: {tool_ids[k]}, distance: {tool_distances[idx+1]}")
+                #knn_tool_ids.append(tool_ids[k])
+                neighbours.append((tool_ids[k]))
+        knn_tool_ids.append(neighbours)'''
+        neighbours = [tool_ids[j] for j in neigh_idx]
+        print(neighbours)
+        knn_tool_ids.append(neighbours)
+        print("-----------------")
+    df_tools["knn_tool_ids"] = [json.dumps(x) for x in knn_tool_ids]
+
+    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
 
 
 if __name__ == "__main__":
