@@ -34,7 +34,7 @@ import extract_embeddings
 
 
 DEFAULT_URL = "https://usegalaxy.eu/api/tools"
-n_tools = 1000
+n_tools = 50
 K = 5
 similarity_threshold = 0.5
 
@@ -255,7 +255,7 @@ def main() -> int:
     lst_help = fetch_tool_help_texts(df_tools)
     print(lst_help)
     df_tools["help_text"] = lst_help
-    
+    tool_ids = df_tools["tool_id"].astype(str).to_list()
 
     print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
     print(f"Wrote {len(df)} rows -> {args.out_table} ({args.table_format.upper()})")
@@ -270,8 +270,46 @@ def main() -> int:
     # parse embeddings: string -> list -> numpy array
     X = df_tools["embeddings"].to_list()
 
+    # 3) Normalize rows (cosine sim = dot of normalized vectors)
+    X /= (np.linalg.norm(X, axis=1, keepdims=True) + 1e-12)
+
+    # 4) All-vs-all cosine similarity (N, N)
+    S = X @ X.T
+
+    # 5) Top-K neighbors per row (exclude self)
+    top_ids = []
+    top_sims = []
+
+    n = S.shape[0]
+    k = min(K, n - 1)
+
+    for i in range(n):
+        sims = S[i].copy()
+        sims[i] = -np.inf  # exclude self
+
+        # fast top-k selection (unsorted), then sort those k
+        idx = np.argpartition(sims, -k)[-k:]
+        idx = idx[np.argsort(sims[idx])[::-1]]
+
+        top_ids.append([tool_ids[j] for j in idx])
+        top_sims.append([float(sims[j]) for j in idx])
+
+    df_tools["topk_neighbor_tool_ids"] = [json.dumps(x) for x in top_ids]
+    df_tools["topk_cosine_sims"] = [json.dumps(x) for x in top_sims]
+
+    df_outcome = df_tools[["tool_id", "help_text", "topk_neighbor_tool_ids", "topk_cosine_sims"]]
+
+    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
+    write_table(df_outcome, Path("data/tools_helptext_knn.tsv"), fmt=args.table_format)
+
+    for i, item in enumerate(top_ids):
+        print(f"Tool ID: {tool_ids[i]}")
+        print(f"Top-{K} nearest neighbor tool IDs: {item}")
+        print(f"Top-{K} cosine similarities: {top_sims[i]}")
+        print("--------------------------------------------------")
+
     # fit KNN (ask for K+1 because first neighbor is often the row itself)
-    nn = NearestNeighbors(n_neighbors=K+1, metric="cosine").fit(X)
+    '''nn = NearestNeighbors(n_neighbors=K+1, metric="cosine").fit(X)
     distances, indices = nn.kneighbors(X)
 
     print(distances)
@@ -285,20 +323,16 @@ def main() -> int:
         neigh_idx = [j for j in neigh_idx if j != i][:K]
         print(neigh_idx)
         print(f"tool id: {tool_ids[i]}")
-        #neighbours = []
-        '''for idx, k in enumerate(neigh_idx):
-            if tool_distances[idx+1] >= similarity_threshold:
-                print(f"Neighbor tool id: {tool_ids[k]}, distance: {tool_distances[idx+1]}")
-                #knn_tool_ids.append(tool_ids[k])
-                neighbours.append((tool_ids[k]))
-        knn_tool_ids.append(neighbours)'''
         neighbours = [tool_ids[j] for j in neigh_idx]
         print(neighbours)
         knn_tool_ids.append(neighbours)
         print("-----------------")
     df_tools["knn_tool_ids"] = [json.dumps(x) for x in knn_tool_ids]
 
+    df_outcome = df_tools[["tool_id", "help_text", "knn_tool_ids"]]
+
     write_table(df_tools, Path(args.out_table), fmt=args.table_format)
+    write_table(df_outcome, Path("data/tools_helptext_knn.tsv"), fmt=args.table_format)'''
 
 
 if __name__ == "__main__":
