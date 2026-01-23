@@ -1,0 +1,3070 @@
+[
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_gene/18.14.0+galaxy0",
+    "name": "NCBI Datasets Gene",
+    "version": "18.14.0+galaxy0",
+    "description": "download gene sequences and metadata",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2409",
+      "operation_0338",
+      "operation_2422"
+    ],
+    "edam_topics": [
+      "topic_3071"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_datasets",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_datasets",
+      "owner": "iuc",
+      "changeset_revision": "bc18e25d4204",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_datasets%2Fdatasets_download_gene%2F18.14.0%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_genome/18.14.0+galaxy0",
+    "name": "NCBI Datasets Genomes",
+    "version": "18.14.0+galaxy0",
+    "description": "download genome sequence, annotation and metadata",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2409",
+      "operation_0338",
+      "operation_2422"
+    ],
+    "edam_topics": [
+      "topic_3071"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_datasets",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_datasets",
+      "owner": "iuc",
+      "changeset_revision": "bc18e25d4204",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_datasets%2Fdatasets_download_genome%2F18.14.0%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1",
+    "name": "IEDB",
+    "version": "2.15.3+galaxy1",
+    "description": "MHC Binding prediction",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_3431",
+      "operation_2429",
+      "operation_0252",
+      "operation_0416",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_0154",
+      "topic_0621",
+      "topic_2830",
+      "topic_3489"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "iedb",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "iedb_api",
+      "owner": "iuc",
+      "changeset_revision": "8c6526a46319",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fiedb_api%2Fiedb_api%2F2.15.3%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4",
+    "name": "Protein Database Downloader",
+    "version": "0.3.4",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "dbbuilder",
+      "owner": "galaxyp",
+      "changeset_revision": "983bf725dfc2",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Fdbbuilder%2Fdbbuilder%2F0.3.4",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1",
+    "name": "Faster Download and Extract Reads in FASTQ",
+    "version": "3.1.1+galaxy1",
+    "description": "format from NCBI SRA",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0335"
+    ],
+    "edam_topics": [
+      "topic_0622",
+      "topic_0091"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "sra-tools",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "sra_tools",
+      "owner": "iuc",
+      "changeset_revision": "8848455c0270",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Ffasterq_dump%2F3.1.1%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/sam_dump/3.1.1+galaxy1",
+    "name": "Download and Extract Reads in BAM",
+    "version": "3.1.1+galaxy1",
+    "description": "format from NCBI SRA",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0335"
+    ],
+    "edam_topics": [
+      "topic_0622",
+      "topic_0091"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "sra-tools",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "sra_tools",
+      "owner": "iuc",
+      "changeset_revision": "8848455c0270",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Fsam_dump%2F3.1.1%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.8+galaxy0",
+    "name": "NCBI Accession Download",
+    "version": "0.2.8+galaxy0",
+    "description": "Download sequences from GenBank/RefSeq by accession through the NCBI ENTREZ API",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_acc_download",
+      "owner": "iuc",
+      "changeset_revision": "e063168e0a81",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_acc_download%2Fncbi_acc_download%2F0.2.8%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/sra_pileup/2.10.3",
+    "name": "Download and Generate Pileup Format",
+    "version": "2.10.3",
+    "description": "from NCBI SRA",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_3431",
+      "operation_3196",
+      "operation_3219"
+    ],
+    "edam_topics": [
+      "topic_0080",
+      "topic_3168",
+      "topic_3489"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "sra",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "sra_tools",
+      "owner": "iuc",
+      "changeset_revision": "f5ea3ce9b9b0",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Fsra_pileup%2F2.10.3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0",
+    "name": "UniProt",
+    "version": "2.5.0",
+    "description": "download proteome as XML or fasta",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_3431",
+      "operation_2421",
+      "operation_3778"
+    ],
+    "edam_topics": [
+      "topic_0080",
+      "topic_0121",
+      "topic_0621",
+      "topic_3520",
+      "topic_3068"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "uniprot",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "uniprotxml_downloader",
+      "owner": "galaxyp",
+      "changeset_revision": "4ddc8da62671",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Funiprotxml_downloader%2Funiprotxml_downloader%2F2.5.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/1.2.2",
+    "name": "Get species occurrences data",
+    "version": "1.2.2",
+    "description": "from GBIF, OBIS, ALA, iNAT and others",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [
+      "topic_0610",
+      "topic_3050"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "spocc_occ",
+      "owner": "ecology",
+      "changeset_revision": "f64b3c1a80a6",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fspocc_occ%2Fspocc_occ%2F1.2.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1",
+    "name": "Unipept",
+    "version": "6.2.4+galaxy1",
+    "description": "retrieve taxonomy for peptides",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0337",
+      "operation_2423"
+    ],
+    "edam_topics": [
+      "topic_0769",
+      "topic_3922",
+      "topic_0121",
+      "topic_3050"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "unipept",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "unipept",
+      "owner": "galaxyp",
+      "changeset_revision": "4edfc76f8a29",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Funipept%2Funipept%2F6.2.4%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_esearch/ncbi_eutils_esearch/1.2",
+    "name": "NCBI ESearch",
+    "version": "1.2",
+    "description": "search NCBI Databases by text query",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_esearch",
+      "owner": "iuc",
+      "changeset_revision": "30150bd36c9a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_esearch%2Fncbi_eutils_esearch%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_egquery/ncbi_eutils_egquery/1.2",
+    "name": "NCBI EGQuery",
+    "version": "1.2",
+    "description": "Provides the number of records retrieved in all Entrez databases by a single text query.",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_egquery",
+      "owner": "iuc",
+      "changeset_revision": "28f69754ddc5",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_egquery%2Fncbi_eutils_egquery%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_ecitmatch/ncbi_eutils_ecitmatch/1.2",
+    "name": "NCBI ECitMatch",
+    "version": "1.2",
+    "description": "search NCBI for citations in PubMed",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_ecitmatch",
+      "owner": "iuc",
+      "changeset_revision": "732a52c18758",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_ecitmatch%2Fncbi_eutils_ecitmatch%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_epost/ncbi_eutils_epost/1.2",
+    "name": "NCBI EPost",
+    "version": "1.2",
+    "description": "post UIDs to NCBI History Server",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_epost",
+      "owner": "iuc",
+      "changeset_revision": "196b8dd07896",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_epost%2Fncbi_eutils_epost%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_elink/ncbi_eutils_elink/1.2",
+    "name": "NCBI ELink",
+    "version": "1.2",
+    "description": "link UIDs from one database to another",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_elink",
+      "owner": "iuc",
+      "changeset_revision": "2791c731fc65",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_elink%2Fncbi_eutils_elink%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_einfo/ncbi_eutils_einfo/1.2",
+    "name": "NCBI EInfo",
+    "version": "1.2",
+    "description": "fetch NCBI database metadata",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_einfo",
+      "owner": "iuc",
+      "changeset_revision": "5b1dc5936af2",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_einfo%2Fncbi_eutils_einfo%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_esummary/ncbi_eutils_esummary/1.2",
+    "name": "NCBI ESummary",
+    "version": "1.2",
+    "description": "fetch summary of history/ids",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_esummary",
+      "owner": "iuc",
+      "changeset_revision": "c8d4ea6376a7",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_esummary%2Fncbi_eutils_esummary%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_eutils_efetch/ncbi_eutils_efetch/1.2",
+    "name": "NCBI EFetch",
+    "version": "1.2",
+    "description": "fetch records from NCBI",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0308",
+      "operation_3431",
+      "operation_3761",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3473",
+      "topic_3325",
+      "topic_3489",
+      "topic_3366",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ncbi_resources",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ncbi_eutils_efetch",
+      "owner": "iuc",
+      "changeset_revision": "0fc65a60436f",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_eutils_efetch%2Fncbi_eutils_efetch%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/earlhaminst/ensembl_get_sequences/get_sequences/1.0.0",
+    "name": "Get sequences by Ensembl ID",
+    "version": "1.0.0",
+    "description": "using REST API",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0362",
+      "operation_3431",
+      "operation_3208",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3325",
+      "topic_0622"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ensembl",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ensembl_get_sequences",
+      "owner": "earlhaminst",
+      "changeset_revision": "c79ce2342f1e",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fearlhaminst%2Fensembl_get_sequences%2Fget_sequences%2F1.0.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/earlhaminst/ensembl_get_genetree/get_genetree/1.0.0",
+    "name": "Get gene tree by Ensembl ID",
+    "version": "1.0.0",
+    "description": "using REST API",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0362",
+      "operation_3431",
+      "operation_3208",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3325",
+      "topic_0622"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ensembl",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ensembl_get_genetree",
+      "owner": "earlhaminst",
+      "changeset_revision": "667fd2d7a350",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fearlhaminst%2Fensembl_get_genetree%2Fget_genetree%2F1.0.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/earlhaminst/ensembl_get_feature_info/get_feature_info/1.0.0",
+    "name": "Get features by Ensembl ID",
+    "version": "1.0.0",
+    "description": "using REST API",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0362",
+      "operation_3431",
+      "operation_3208",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_3325",
+      "topic_0622"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ensembl",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ensembl_get_feature_info",
+      "owner": "earlhaminst",
+      "changeset_revision": "37cdb55f5258",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fearlhaminst%2Fensembl_get_feature_info%2Fget_feature_info%2F1.0.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/enasearch_search_data/enasearch_search_data/0.1.1.0",
+    "name": "Search ENA data",
+    "version": "0.1.1.0",
+    "description": "given a query",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0346",
+      "operation_3431",
+      "operation_0310"
+    ],
+    "edam_topics": [
+      "topic_0219",
+      "topic_3512",
+      "topic_3511",
+      "topic_0749"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ena",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "enasearch_search_data",
+      "owner": "iuc",
+      "changeset_revision": "6e692d5a5599",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fenasearch_search_data%2Fenasearch_search_data%2F0.1.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/enasearch_retrieve_data/enasearch_retrieve_data/0.1.1.0",
+    "name": "Retrieve ENA data",
+    "version": "0.1.1.0",
+    "description": "(other than taxon and project)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0346",
+      "operation_3431",
+      "operation_0310"
+    ],
+    "edam_topics": [
+      "topic_0219",
+      "topic_3512",
+      "topic_3511",
+      "topic_0749"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ena",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "enasearch_retrieve_data",
+      "owner": "iuc",
+      "changeset_revision": "0719cfc3ebcb",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fenasearch_retrieve_data%2Fenasearch_retrieve_data%2F0.1.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/enasearch_retrieve_taxons/enasearch_retrieve_taxons/0.1.1.0",
+    "name": "Retrieve ENA taxon data",
+    "version": "0.1.1.0",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0346",
+      "operation_3431",
+      "operation_0310"
+    ],
+    "edam_topics": [
+      "topic_0219",
+      "topic_3512",
+      "topic_3511",
+      "topic_0749"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ena",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "enasearch_retrieve_taxons",
+      "owner": "iuc",
+      "changeset_revision": "8881ac3eebd7",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fenasearch_retrieve_taxons%2Fenasearch_retrieve_taxons%2F0.1.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/enasearch_retrieve_analysis_report/enasearch_retrieve_analysis_report/0.1.1.0",
+    "name": "Retrieve an analysis report",
+    "version": "0.1.1.0",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0346",
+      "operation_3431",
+      "operation_0310"
+    ],
+    "edam_topics": [
+      "topic_0219",
+      "topic_3512",
+      "topic_3511",
+      "topic_0749"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ena",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "enasearch_retrieve_analysis_report",
+      "owner": "iuc",
+      "changeset_revision": "a5f787bfe69e",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fenasearch_retrieve_analysis_report%2Fenasearch_retrieve_analysis_report%2F0.1.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/enasearch_retrieve_run_report/enasearch_retrieve_run_report/0.1.1.0",
+    "name": "Retrieve a run report",
+    "version": "0.1.1.0",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0346",
+      "operation_3431",
+      "operation_0310"
+    ],
+    "edam_topics": [
+      "topic_0219",
+      "topic_3512",
+      "topic_3511",
+      "topic_0749"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ena",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "enasearch_retrieve_run_report",
+      "owner": "iuc",
+      "changeset_revision": "ccc0e55c9e16",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fenasearch_retrieve_run_report%2Fenasearch_retrieve_run_report%2F0.1.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ebi_search_rest_results/ebi_search_rest_results/0.1.1",
+    "name": "EBI Search",
+    "version": "0.1.1",
+    "description": "to obtain search results on resources and services hosted at the EBI",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0305",
+      "operation_0362"
+    ],
+    "edam_topics": [
+      "topic_0122",
+      "topic_0085",
+      "topic_0121",
+      "topic_0797",
+      "topic_0128",
+      "topic_2259",
+      "topic_0622",
+      "topic_3068",
+      "topic_3518",
+      "topic_0089",
+      "topic_0602"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ebi_search",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ebi_search_rest_results",
+      "owner": "iuc",
+      "changeset_revision": "42d5e40fcd0b",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Febi_search_rest_results%2Febi_search_rest_results%2F0.1.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ebi_metagenomics_run_downloader/ebi_metagenomics_run_downloader/0.1.0",
+    "name": "Download run data",
+    "version": "0.1.0",
+    "description": "from EBI Metagenomics database",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_2414",
+      "operation_0346",
+      "operation_0492",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_0080",
+      "topic_0078",
+      "topic_3325",
+      "topic_1775",
+      "topic_0602",
+      "topic_0091"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ebi_tools",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ebi_metagenomics_run_downloader",
+      "owner": "iuc",
+      "changeset_revision": "a1ef6c88ee37",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Febi_metagenomics_run_downloader%2Febi_metagenomics_run_downloader%2F0.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ega_download_client/pyega3/5.0.2+galaxy0",
+    "name": "EGA Download Client",
+    "version": "5.0.2+galaxy0",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_3436",
+      "operation_3431",
+      "operation_0224"
+    ],
+    "edam_topics": [
+      "topic_0607",
+      "topic_3325",
+      "topic_3366",
+      "topic_3263",
+      "topic_0625"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ega",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ega_download_client",
+      "owner": "iuc",
+      "changeset_revision": "7d87a9d58aa1",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fega_download_client%2Fpyega3%2F5.0.2%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "upload1",
+    "name": "Upload File",
+    "version": "1.1.7",
+    "description": "from your computer",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0224"
+    ],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": false,
+    "xrefs": [],
+    "link": "/tool_runner?tool_id=upload1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/pysradb_search/pysradb_search/1.4.2+galaxy2",
+    "name": "pysradb search",
+    "version": "1.4.2+galaxy2",
+    "description": "sequence metadata from SRA/ENA",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_3431"
+    ],
+    "edam_topics": [
+      "topic_3168",
+      "topic_3512",
+      "topic_0091"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "pysradb",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "pysradb_search",
+      "owner": "iuc",
+      "changeset_revision": "b91e1e70f3a1",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fpysradb_search%2Fpysradb_search%2F1.4.2%2Bgalaxy2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fastq_dump/3.1.1+galaxy1",
+    "name": "Download and Extract Reads in FASTQ",
+    "version": "3.1.1+galaxy1",
+    "description": "format from NCBI SRA",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0335"
+    ],
+    "edam_topics": [
+      "topic_0622",
+      "topic_0091"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "sra-tools",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "sra_tools",
+      "owner": "iuc",
+      "changeset_revision": "8848455c0270",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Ffastq_dump%2F3.1.1%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/query_impc/query_impc/0.9.0",
+    "name": "IMPC",
+    "version": "0.9.0",
+    "description": "query tool",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "query_impc",
+      "owner": "iuc",
+      "changeset_revision": "d319dc5f3ea8",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fquery_impc%2Fquery_impc%2F0.9.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0",
+    "name": "Argo data access",
+    "version": "0.1.15+galaxy0",
+    "description": "for global ocean in situ observing system",
+    "labels": [
+      "ocean"
+    ],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "argo_getdata",
+      "owner": "ecology",
+      "changeset_revision": "4b84de936c51",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fargo_getdata%2Fargo_getdata%2F0.1.15%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2",
+    "name": "OBIS occurences",
+    "version": "0.0.2",
+    "description": "retrieve data",
+    "labels": [
+      "marine"
+    ],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [
+      "topic_0610",
+      "topic_3050"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "obis_data",
+      "owner": "ecology",
+      "changeset_revision": "5bae75c49f2e",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fobis_data%2Fobis_data%2F0.0.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/iabiodiv_smartbiodiv_med_environ/iabiodiv_smartbiodiv_med_environ/0.1.0",
+    "name": "Adds environment variables",
+    "version": "0.1.0",
+    "description": "From Copernicus and etopo given geolocalized and timestamped observations",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "iabiodiv_smartbiodiv_med_environ",
+      "owner": "ecology",
+      "changeset_revision": "ca00b2eabdf3",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fiabiodiv_smartbiodiv_med_environ%2Fiabiodiv_smartbiodiv_med_environ%2F0.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/sdmpredictors_list_layers/sdmpredictors_list_layers/0.2.15+galaxy0",
+    "name": "SdmPredictors List Layers",
+    "version": "0.2.15+galaxy0",
+    "description": "from environmental predictors for species distribution modeling",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "sdmpredictors_list_layers",
+      "owner": "ecology",
+      "changeset_revision": "f20914d71c9d",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fsdmpredictors_list_layers%2Fsdmpredictors_list_layers%2F0.2.15%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/retrieve_bold/retrieve_bold/1.3.0+galaxy0",
+    "name": "Retrieve bold",
+    "version": "1.3.0+galaxy0",
+    "description": "Functions to search in Bold and download the available sequences of each subtaxa (get_fasta)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "retrieve_bold",
+      "owner": "ecology",
+      "changeset_revision": "0608a259f2da",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fretrieve_bold%2Fretrieve_bold%2F1.3.0%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/copernicusmarine/copernicusmarine/1.3.3+galaxy2",
+    "name": "Copernicus Marine Data Store",
+    "version": "1.3.3+galaxy2",
+    "description": "retrieve marine data",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "copernicusmarine",
+      "owner": "ecology",
+      "changeset_revision": "87ae77f2bd5a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fcopernicusmarine%2Fcopernicusmarine%2F1.3.3%2Bgalaxy2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1",
+    "name": "fastq-dl",
+    "version": "3.0.1+galaxy1",
+    "description": "Download FASTQ files from ENA",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "fastq_dl",
+      "owner": "iuc",
+      "changeset_revision": "41635d6d4738",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffastq_dl%2Ffastq_dl%2F3.0.1%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/wormsmeasurements/WormsMeasurements/0.1.2",
+    "name": "Enrich dataset with WoRMS",
+    "version": "0.1.2",
+    "description": "Enrich dataset with measurement type data from WoRMS",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "wormsmeasurements",
+      "owner": "ecology",
+      "changeset_revision": "6f75ab89587a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fwormsmeasurements%2FWormsMeasurements%2F0.1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/openalex_explorer/openalex_explorer/0.1.0+galaxy0",
+    "name": "OpenAlex explorer",
+    "version": "0.1.0+galaxy0",
+    "description": "Fetch citing papers from OpenAlex using DOI, openAlex ID, or title",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "openalex_explorer",
+      "owner": "iuc",
+      "changeset_revision": "7a27a48d57c0",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fopenalex_explorer%2Fopenalex_explorer%2F0.1.0%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/ecology/xarray_import_data/xarray_import_data/0.1.0",
+    "name": "Xarray Import Data",
+    "version": "0.1.0",
+    "description": "Import a dataset from an OPeNDAP URL and convert it to a local NetCDF file using xarray.",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "xarray_import_data",
+      "owner": "ecology",
+      "changeset_revision": "f1b185fc409a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fxarray_import_data%2Fxarray_import_data%2F0.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "lftp",
+    "name": "downloads",
+    "version": "4.9.2",
+    "description": "via lftps",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "link": "/tool_runner?tool_id=lftp",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "microbial_import1",
+    "name": "Get Microbial Data",
+    "version": "1.0.0",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_0224"
+    ],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "link": "/tool_runner?tool_id=microbial_import1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "get_data",
+    "panel_section_name": "Get Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/0.9.0+galaxy0",
+    "name": "ENA Upload tool",
+    "version": "0.9.0+galaxy0",
+    "description": "Submission of (meta)data to the European Nucleotide Archive (ENA)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2422",
+      "operation_0346",
+      "operation_3431",
+      "operation_0310"
+    ],
+    "edam_topics": [
+      "topic_0219",
+      "topic_3512",
+      "topic_3511",
+      "topic_0749"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "ena",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "ena_upload",
+      "owner": "iuc",
+      "changeset_revision": "7ca4ed416391",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fena_upload%2Fena_upload%2F0.9.0%2Bgalaxy0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "send_data",
+    "panel_section_name": "Send Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/imgteam/curl_post/curl_post/0.0.2",
+    "name": "cURL",
+    "version": "0.0.2",
+    "description": "send cURL POST requests",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "curl_post",
+      "owner": "imgteam",
+      "changeset_revision": "7f9434fc9d4c",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fimgteam%2Fcurl_post%2Fcurl_post%2F0.0.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "send_data",
+    "panel_section_name": "Send Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/ena_webin_cli/ena_webin_cli/9.0.1+galaxy1",
+    "name": "ENA Webin CLI",
+    "version": "9.0.1+galaxy1",
+    "description": "Submission of consensus sequences to the European Nucleotide Archive (ENA)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "ena_webin_cli",
+      "owner": "iuc",
+      "changeset_revision": "361a6693aa25",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fena_webin_cli%2Fena_webin_cli%2F9.0.1%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "send_data",
+    "panel_section_name": "Send Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "export_remote",
+    "name": "Export datasets",
+    "version": "0.1.0",
+    "description": "to repositories",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "link": "/tool_runner?tool_id=export_remote",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "send_data",
+    "panel_section_name": "Send Data",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4",
+    "name": "Split file",
+    "version": "0.4",
+    "description": "according to the values of a column",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "split_file_on_column",
+      "owner": "bgruening",
+      "changeset_revision": "37a53100b67e",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsplit_file_on_column%2Ftp_split_on_column%2F0.4",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "collection_operations",
+    "panel_section_name": "Collection Operations",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2",
+    "name": "Split file",
+    "version": "0.5.2",
+    "description": "to dataset collection",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "split_file_to_collection",
+      "owner": "bgruening",
+      "changeset_revision": "2dae863c8f42",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsplit_file_to_collection%2Fsplit_file_to_collection%2F0.5.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "collection_operations",
+    "panel_section_name": "Collection Operations",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0",
+    "name": "Collapse Collection",
+    "version": "5.1.0",
+    "description": "into single dataset in order of the collection",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "collapse_collections",
+      "owner": "nml",
+      "changeset_revision": "90981f86000f",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fcollapse_collections%2Fcollapse_dataset%2F5.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "collection_operations",
+    "panel_section_name": "Collection Operations",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy2",
+    "name": "Unzip",
+    "version": "6.0+galaxy2",
+    "description": "Unzip a file",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "unzip",
+      "owner": "imgteam",
+      "changeset_revision": "06eac2d1a8a9",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fimgteam%2Funzip%2Funzip%2F6.0%2Bgalaxy2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "collection_operations",
+    "panel_section_name": "Collection Operations",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2",
+    "name": "Extract element identifiers",
+    "version": "0.0.2",
+    "description": "of a list collection",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "collection_element_identifiers",
+      "owner": "iuc",
+      "changeset_revision": "d3c07d270a50",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcollection_element_identifiers%2Fcollection_element_identifiers%2F0.0.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "collection_operations",
+    "panel_section_name": "Collection Operations",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3",
+    "name": "Column join",
+    "version": "0.0.3",
+    "description": "on multiple datasets",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "collection_column_join",
+      "owner": "iuc",
+      "changeset_revision": "3ddd99c7efee",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcollection_column_join%2Fcollection_column_join%2F0.0.3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "join__subtract_and_group",
+    "panel_section_name": "Join, Subtract and Group",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "__SAMPLE_SHEET_TO_TABULAR__",
+    "name": "Sample sheet to tabular",
+    "version": "1.0.0",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_3359"
+    ],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "link": "/tool_runner?tool_id=__SAMPLE_SHEET_TO_TABULAR__",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "collection_operations",
+    "panel_section_name": "Collection Operations",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/devteam/dna_filtering/histogram_rpy/1.0.3",
+    "name": "Histogram",
+    "version": "1.0.3",
+    "description": "of a numeric column",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "dna_filtering",
+      "owner": "devteam",
+      "changeset_revision": "549d2cb4c6f2",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fdna_filtering%2Fhistogram_rpy%2F1.0.3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1",
+    "name": "Compute",
+    "version": "2.1",
+    "description": "on rows",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "column_maker",
+      "owner": "devteam",
+      "changeset_revision": "aff5135563c6",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fcolumn_maker%2FAdd_a_column1%2F2.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1",
+    "name": "diff",
+    "version": "3.10+galaxy1",
+    "description": "analyzes two files and generates an unidiff text file with information about the differences and an optional Html report",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "diff",
+      "owner": "bgruening",
+      "changeset_revision": "be2d899bf34a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdiff%2Fdiff%2F3.10%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2",
+    "name": "Replace column",
+    "version": "0.2",
+    "description": "by values which are defined in a convert file",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "replace_column_by_key_value_file",
+      "owner": "bgruening",
+      "changeset_revision": "d533e4b75800",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Freplace_column_by_key_value_file%2Freplace_column_with_key_value_file%2F0.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/add_line_to_file/add_line_to_file/0.1.0",
+    "name": "Add line to file",
+    "version": "0.1.0",
+    "description": "writes a line of text at the begining or end of a text file.",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "add_line_to_file",
+      "owner": "bgruening",
+      "changeset_revision": "8e251055b1a9",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fadd_line_to_file%2Fadd_line_to_file%2F0.1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0",
+    "name": "Add input name as column",
+    "version": "0.2.0",
+    "description": "to an existing tabular file",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "add_input_name_as_column",
+      "owner": "mvdbeek",
+      "changeset_revision": "3284b72eef56",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmvdbeek%2Fadd_input_name_as_column%2FaddName%2F0.2.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2",
+    "name": "Merge Columns",
+    "version": "1.0.2",
+    "description": "together",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "merge_cols",
+      "owner": "devteam",
+      "changeset_revision": "dd40b1e9eebe",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fmerge_cols%2FmergeCols1%2F1.0.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/imgteam/imagecoordinates_flipaxis/imagecoordinates_flipaxis/0.1",
+    "name": "Switch axis coordinates",
+    "version": "0.1",
+    "description": "Switches the axes of an image and flips the y axis.",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_3443"
+    ],
+    "edam_topics": [
+      "topic_3382",
+      "topic_0091"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "galaxy_image_analysis",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "imagecoordinates_flipaxis",
+      "owner": "imgteam",
+      "changeset_revision": "f8f1100d0701",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fimgteam%2Fimagecoordinates_flipaxis%2Fimagecoordinates_flipaxis%2F0.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "imaging",
+    "panel_section_name": "Imaging",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2",
+    "name": "Table Compute",
+    "version": "1.2.4+galaxy2",
+    "description": "computes operations on table data",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "table_compute",
+      "owner": "iuc",
+      "changeset_revision": "cd36d6e45e29",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ftable_compute%2Ftable_compute%2F1.2.4%2Bgalaxy2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3",
+    "name": "Column Regex Find And Replace",
+    "version": "1.0.3",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "regex_find_replace",
+      "owner": "galaxyp",
+      "changeset_revision": "503bcd6ebe4b",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Fregex_find_replace%2FregexColumn1%2F1.0.3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3",
+    "name": "Regex Find And Replace",
+    "version": "1.0.3",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "regex_find_replace",
+      "owner": "galaxyp",
+      "changeset_revision": "503bcd6ebe4b",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Fregex_find_replace%2Fregex1%2F1.0.3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1",
+    "name": "Join two files",
+    "version": "1.0.1",
+    "description": "on column allowing a small difference",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "join_files_on_column_fuzzy",
+      "owner": "bgruening",
+      "changeset_revision": "22ec3c1a20cd",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fjoin_files_on_column_fuzzy%2Fjoin_files_on_column_fuzzy%2F1.0.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy3",
+    "name": "Replace",
+    "version": "9.5+galaxy3",
+    "description": "parts of text",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_find_and_replace%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2",
+    "name": "Query Tabular",
+    "version": "3.3.2",
+    "description": "using sqlite sql",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "query_tabular",
+      "owner": "iuc",
+      "changeset_revision": "cf4397560712",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fquery_tabular%2Fquery_tabular%2F3.3.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/earlhaminst/replace_chromosome_names/replace_chromosome_names/0.1",
+    "name": "Replace chromosome names",
+    "version": "0.1",
+    "description": "in a tabular dataset using a mapping table",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "replace_chromosome_names",
+      "owner": "earlhaminst",
+      "changeset_revision": "6c0373cc070f",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fearlhaminst%2Freplace_chromosome_names%2Freplace_chromosome_names%2F0.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/sqlite_to_tabular/sqlite_to_tabular/2.0.0",
+    "name": "SQLite to tabular",
+    "version": "2.0.0",
+    "description": "for SQL query",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "sqlite_to_tabular",
+      "owner": "iuc",
+      "changeset_revision": "b722161a845a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsqlite_to_tabular%2Fsqlite_to_tabular%2F2.0.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3",
+    "name": "Replace Text",
+    "version": "9.5+galaxy3",
+    "description": "in entire line",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_replace_in_line%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1",
+    "name": "Filter Tabular",
+    "version": "3.3.1",
+    "description": "",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "filter_tabular",
+      "owner": "iuc",
+      "changeset_revision": "90f657745fea",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffilter_tabular%2Ffilter_tabular%2F3.3.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/jq/jq/1.0",
+    "name": "JQ",
+    "version": "1.0",
+    "description": "process JSON",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "jq",
+      "owner": "iuc",
+      "changeset_revision": "5ff75eb1a893",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fjq%2Fjq%2F1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/reshape2_cast/cast/1.4.2",
+    "name": "cast",
+    "version": "1.4.2",
+    "description": "expand combinations of variables:values to columnar format",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "reshape2_cast",
+      "owner": "iuc",
+      "changeset_revision": "d3b66a3a08ca",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Freshape2_cast%2Fcast%2F1.4.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy3",
+    "name": "Replace Text",
+    "version": "9.5+galaxy3",
+    "description": "in a specific column",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_replace_in_column%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/reshape2_melt/melt/1.4.2",
+    "name": "melt",
+    "version": "1.4.2",
+    "description": "collapse combinations of variables:values to single lines",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "reshape2_melt",
+      "owner": "iuc",
+      "changeset_revision": "317ed0ee8bf2",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Freshape2_melt%2Fmelt%2F1.4.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/gff3_rebase/gff3.rebase/1.2",
+    "name": "Rebase GFF3 features",
+    "version": "1.2",
+    "description": "against parent features",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [
+      "operation_2409",
+      "operation_0335"
+    ],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "gff3_rebase",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "gff3_rebase",
+      "owner": "iuc",
+      "changeset_revision": "f7ad5e69aa60",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fgff3_rebase%2Fgff3.rebase%2F1.2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/devteam/cluster/gops_cluster_1/1.0.0",
+    "name": "Cluster",
+    "version": "1.0.0",
+    "description": "the intervals of a dataset",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [
+      "topic_0080"
+    ],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "bx-python",
+        "type": "bio.tools"
+      },
+      {
+        "value": "bx-python",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "cluster",
+      "owner": "devteam",
+      "changeset_revision": "a126ec6ea0e4",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fcluster%2Fgops_cluster_1%2F1.0.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "operate_on_genomic_intervals",
+    "panel_section_name": "Operate on Genomic Intervals",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy3",
+    "name": "Text reformatting",
+    "version": "9.5+galaxy3",
+    "description": "with awk",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_awk_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0",
+    "name": "Remove columns",
+    "version": "1.0",
+    "description": "by heading",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "column_remove_by_header",
+      "owner": "iuc",
+      "changeset_revision": "2040e4c2750a",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcolumn_remove_by_header%2Fcolumn_remove_by_header%2F1.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/column_order_header_sort/column_order_header_sort/0.0.1",
+    "name": "Sort Column Order",
+    "version": "0.0.1",
+    "description": "by heading",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "column_order_header_sort",
+      "owner": "iuc",
+      "changeset_revision": "6ae9724caf4d",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcolumn_order_header_sort%2Fcolumn_order_header_sort%2F0.0.1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tac/9.5+galaxy3",
+    "name": "tac",
+    "version": "9.5+galaxy3",
+    "description": "reverse a file (reverse cat)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_tac%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3",
+    "name": "Advanced Cut",
+    "version": "9.5+galaxy3",
+    "description": "columns from a table (cut)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cut_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3",
+    "name": "Join",
+    "version": "9.5+galaxy3",
+    "description": "two files",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_easyjoin_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3",
+    "name": "Concatenate datasets",
+    "version": "9.5+galaxy3",
+    "description": "tail-to-head (cat)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cat%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_multijoin_tool/9.5+galaxy3",
+    "name": "Multi-Join",
+    "version": "9.5+galaxy3",
+    "description": "(combine multiple files)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_multijoin_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3",
+    "name": "Unique lines",
+    "version": "9.5+galaxy3",
+    "description": "assuming sorted input file",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_uniq_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy3",
+    "name": "Select last",
+    "version": "9.5+galaxy3",
+    "description": "lines from a dataset (tail)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_tail_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_rows/9.5+galaxy3",
+    "name": "Sort a row",
+    "version": "9.5+galaxy3",
+    "description": "according to their columns",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sort_rows%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3",
+    "name": "Sort",
+    "version": "9.5+galaxy3",
+    "description": "data in ascending or descending order",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sort_header_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy3",
+    "name": "Search in textfiles",
+    "version": "9.5+galaxy3",
+    "description": "(grep)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_grep_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_unfold_column_tool/9.5+galaxy3",
+    "name": "Unfold",
+    "version": "9.5+galaxy3",
+    "description": "columns from a table",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_unfold_column_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy3",
+    "name": "Text transformation",
+    "version": "9.5+galaxy3",
+    "description": "with sed",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sed_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_text_file_with_recurring_lines/9.5+galaxy3",
+    "name": "Create text file",
+    "version": "9.5+galaxy3",
+    "description": "with recurring lines",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_text_file_with_recurring_lines%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3",
+    "name": "Select first",
+    "version": "9.5+galaxy3",
+    "description": "lines from a dataset (head)",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_head_tool%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy3",
+    "name": "Unique",
+    "version": "9.5+galaxy3",
+    "description": "occurrences of each record",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "text_processing",
+      "owner": "bgruening",
+      "changeset_revision": "ab83aa685821",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sorted_uniq%2F9.5%2Bgalaxy3",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/kellrott/regex_replace/regex_replace/1.0.0",
+    "name": "Regex Replace",
+    "version": "1.0.0",
+    "description": "Regular Expression replacement using the Python re module",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [],
+    "tool_shed_repository": {
+      "name": "regex_replace",
+      "owner": "kellrott",
+      "changeset_revision": "9a77d5fca67c",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fkellrott%2Fregex_replace%2Fregex_replace%2F1.0.0",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "text_manipulation",
+    "panel_section_name": "Text Manipulation",
+    "form_style": "regular"
+  }
+]
