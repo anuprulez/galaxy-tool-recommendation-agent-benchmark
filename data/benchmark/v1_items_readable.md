@@ -13,7 +13,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q013** — I want to search a genome assembly against a protein database using translated nucleotide-to-protein alignment and collect similarity hits for taxonomic annotation. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q014** — I want to assess genome assembly completeness using lineage-specific sets of conserved single-copy orthologs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
