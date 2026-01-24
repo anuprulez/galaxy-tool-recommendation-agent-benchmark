@@ -19019,46 +19019,46 @@ Questions:
 
 ## Deep Learning (Part 3) - Convolutional neural networks (CNN) (topics/statistics/tutorials/CNN)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0
 - Datasets (1): 4697906
 
 Questions:
 - **statistics-CNN-q011** — Which Galaxy tool would you recommend to perform `sklearn_to_categorical`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0
   - Datasets: 4697906
 - **statistics-CNN-q012** — What Galaxy tool should I run for `Create a deep learning model architecture`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
   - Datasets: 4697906
 - **statistics-CNN-q013** — What Galaxy tool should I run for `Create deep learning model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0
   - Datasets: 4697906
 - **statistics-CNN-q014** — What Galaxy tool should I run for `Deep learning training and evaluation`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0
   - Datasets: 4697906
 - **statistics-CNN-q015** — What Galaxy tool should I run for `Model Prediction`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0
   - Datasets: 4697906
 - **statistics-CNN-q016** — Which Galaxy tool should I use to run `Machine Learning Visualization Extension`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex/1.0.11.0
   - Datasets: 4697906
 
 ## Deep Learning (Part 1) - Feedforward neural networks (FNN) (topics/statistics/tutorials/FNN)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
 - Datasets (3): 4660497, X_test.tsv, X_train.tsv
 
 Questions:
 - **statistics-FNN-q011** — What Galaxy tool should I run for `Create a deep learning model architecture`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
   - Datasets: 4660497, X_test.tsv, X_train.tsv
 - **statistics-FNN-q012** — Which Galaxy tool should I use to run `Create deep learning model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0
   - Datasets: 4660497, X_test.tsv, X_train.tsv
 - **statistics-FNN-q013** — Which Galaxy tool would you recommend to perform `keras_train_and_eval`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0
   - Datasets: 4660497, X_test.tsv, X_train.tsv
 - **statistics-FNN-q014** — Which Galaxy tool should I use to run `Model Prediction`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0
   - Datasets: 4660497, X_test.tsv, X_train.tsv
 - **statistics-FNN-q015** — Which Galaxy tool would you recommend to perform `plotly_regression_performance_plots`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
@@ -19066,21 +19066,21 @@ Questions:
 
 ## Deep Learning (Part 2) - Recurrent neural networks (RNN) (topics/statistics/tutorials/RNN)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
 - Datasets (3): 4477881, X_test.tsv, X_train.tsv
 
 Questions:
 - **statistics-RNN-q011** — Which Galaxy tool should I use to run `Create a deep learning model architecture`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
   - Datasets: 4477881, X_test.tsv, X_train.tsv
 - **statistics-RNN-q012** — Which Galaxy tool should I use to run `Create deep learning model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0
   - Datasets: 4477881, X_test.tsv, X_train.tsv
 - **statistics-RNN-q013** — Which Galaxy tool would you recommend to perform `keras_train_and_eval`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0
   - Datasets: 4477881, X_test.tsv, X_train.tsv
 - **statistics-RNN-q014** — What Galaxy tool should I run for `Model Prediction`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0
   - Datasets: 4477881, X_test.tsv, X_train.tsv
 - **statistics-RNN-q015** — What Galaxy tool should I run for `Machine Learning Visualization Extension`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex/1.0.11.0
@@ -19128,21 +19128,21 @@ Questions:
 
 ## Age prediction using machine learning (topics/statistics/tutorials/age-prediction-with-ml)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0
 - Datasets (3): 2545213, 2545213#.XEWTJ9-YVa0, training_data_normal.tsv
 
 Questions:
 - **statistics-age-prediction-with-ml-q011** — What Galaxy tool should I run for `Pipeline builder`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0
   - Datasets: 2545213, training_data_normal.tsv, 2545213#.XEWTJ9-YVa0
 - **statistics-age-prediction-with-ml-q012** — Which Galaxy tool would you recommend to perform `Hyperparameter search`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0
   - Datasets: 2545213, training_data_normal.tsv, 2545213#.XEWTJ9-YVa0
 - **statistics-age-prediction-with-ml-q013** — Which Galaxy tool would you recommend to perform `Parallel coordinates plot`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_parallel_coordinates_plot/plotly_parallel_coordinates_plot/0.2
   - Datasets: 2545213, training_data_normal.tsv, 2545213#.XEWTJ9-YVa0
 - **statistics-age-prediction-with-ml-q014** — Which Galaxy tool should I use to run `Ensemble methods for classification and regression`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0
   - Datasets: 2545213, training_data_normal.tsv, 2545213#.XEWTJ9-YVa0
 - **statistics-age-prediction-with-ml-q015** — What Galaxy tool should I run for `Plot actual vs predicted curves and residual plots of tabular data`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
@@ -19150,49 +19150,49 @@ Questions:
 
 ## Classification in Machine Learning (topics/statistics/tutorials/classification_machinelearning)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0
 - Datasets (3): 3738729, test_rows_labels.csv, train_rows.csv
 
 Questions:
 - **statistics-classification_machinelearning-q011** — Which Galaxy tool should I use to run `Generalized linear models for classification and regression`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q012** — What Galaxy tool should I run for `Plot confusion matrix, precision, recall and ROC and AUC curves`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.4, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.4
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q013** — Which Galaxy tool should I use to run `Nearest Neighbors Classification`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_nn_classifier/sklearn_nn_classifier/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_nn_classifier/sklearn_nn_classifier/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q014** — What Galaxy tool should I run for `Support vector machines (SVMs)`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q015** — Which Galaxy tool would you recommend to perform `sklearn_ensemble`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q016** — Which Galaxy tool should I use to run `Pipeline builder`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q017** — What Galaxy tool should I run for `Hyperparameter search`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q018** — What Galaxy tool should I run for `Remove beginning`?
-  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: Remove_beginning1
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 
 ## Machine learning: classification and regression (topics/statistics/tutorials/classification_regression)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
 - Datasets (3): 2579649, breast-w_targets.tsv, breast-w_test.tsv
 
 Questions:
 - **statistics-classification_regression-q011** — Which Galaxy tool should I use to run `Support vector machines (SVMs) for classification`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
   - Datasets: 2579649, breast-w_targets.tsv, breast-w_test.tsv
 - **statistics-classification_regression-q012** — What Galaxy tool should I run for `Plot confusion matrix, precision, recall and ROC and AUC curves`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.4
   - Datasets: 2579649, breast-w_targets.tsv, breast-w_test.tsv
 - **statistics-classification_regression-q013** — Which Galaxy tool should I use to run `Ensemble methods for classification and regression`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0
   - Datasets: 2579649, breast-w_targets.tsv, breast-w_test.tsv
 - **statistics-classification_regression-q014** — Which Galaxy tool would you recommend to perform `Plot actual vs predicted curves and residual plots`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
@@ -19200,15 +19200,15 @@ Questions:
 
 ## Clustering in Machine Learning (topics/statistics/tutorials/clustering_machinelearning)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.11.0
 - Datasets (3): 3813447, circles.csv, iris.csv
 
 Questions:
 - **statistics-clustering_machinelearning-q011** — Which Galaxy tool should I use to run `Numeric Clustering`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.11.0
   - Datasets: 3813447, iris.csv, circles.csv
 - **statistics-clustering_machinelearning-q012** — Which Galaxy tool would you recommend to perform `Scatterplot with ggplot2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 3813447, iris.csv, circles.csv
 
 ## Prepare Data from CbioPortal for Flexynesis Integration (topics/statistics/tutorials/flexynesis_cbio_import)
@@ -19333,19 +19333,19 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 5702887
 - **statistics-fruit_360-q012** — Which Galaxy tool should I use to run `To categorical`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0
   - Datasets: 5702887
 - **statistics-fruit_360-q013** — What Galaxy tool should I run for `Create a deep learning model architecture`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
   - Datasets: 5702887
 - **statistics-fruit_360-q014** — What Galaxy tool should I run for `Create deep learning model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0
   - Datasets: 5702887
 - **statistics-fruit_360-q015** — What Galaxy tool should I run for `Deep learning training and evaluation`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0
   - Datasets: 5702887
 - **statistics-fruit_360-q016** — Which Galaxy tool would you recommend to perform `model_prediction`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0
   - Datasets: 5702887
 - **statistics-fruit_360-q017** — Which Galaxy tool would you recommend to perform `ml_visualization_ex`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex/1.0.11.0
@@ -19394,37 +19394,37 @@ Questions:
 
 ## Supervised Learning with Hyperdimensional Computing (topics/statistics/tutorials/hyperdimensional_computing)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.9.post1+galaxy0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.9.post1+galaxy0
 - Datasets (3): zenodo.6467875, 7806264):, RA__ThomasAM__species.csv
 
 Questions:
 - **statistics-hyperdimensional_computing-q011** — Which Galaxy tool would you recommend to perform `chopin2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.9.post1+galaxy0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chopin2/chopin2/1.0.9.post1+galaxy0
   - Datasets: zenodo.6467875, 7806264):, RA__ThomasAM__species.csv
 
 ## Introduction to deep learning (topics/statistics/tutorials/intro_deep_learning)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
 - Datasets (3): 3706539, X_test.tsv, X_train.tsv
 
 Questions:
 - **statistics-intro_deep_learning-q011** — What Galaxy tool should I run for `Create a deep learning model architecture using Keras`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
   - Datasets: 3706539, X_test.tsv, X_train.tsv
 - **statistics-intro_deep_learning-q012** — What Galaxy tool should I run for `Create deep learning model with an optimizer, loss function and fit parameters`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0
   - Datasets: 3706539, X_test.tsv, X_train.tsv
 - **statistics-intro_deep_learning-q013** — Which Galaxy tool should I use to run `Deep learning training and evaluation conduct deep training and evaluation`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0
   - Datasets: 3706539, X_test.tsv, X_train.tsv
 - **statistics-intro_deep_learning-q014** — Which Galaxy tool should I use to run `Create deep learning model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0
   - Datasets: 3706539, X_test.tsv, X_train.tsv
 - **statistics-intro_deep_learning-q015** — What Galaxy tool should I run for `Model Prediction predicts on new data using a preffited model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0
   - Datasets: 3706539, X_test.tsv, X_train.tsv
 - **statistics-intro_deep_learning-q016** — Which Galaxy tool would you recommend to perform `Deep learning training and evaluation`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0
   - Datasets: 3706539, X_test.tsv, X_train.tsv
 
 ## Interval-Wise Testing for omics data (topics/statistics/tutorials/iwtomics)
@@ -19455,37 +19455,37 @@ Questions:
 
 ## Basics of machine learning (topics/statistics/tutorials/machinelearning)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
 - Datasets (3): breast-w_test.tsv, breast-w_train.tsv, 1468039
 
 Questions:
 - **statistics-machinelearning-q011** — Which Galaxy tool would you recommend to perform `sklearn_svm_classifier`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0
   - Datasets: 1468039, breast-w_train.tsv, breast-w_test.tsv
 
 ## Regression in Machine Learning (topics/statistics/tutorials/regression_machinelearning)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0
 - Datasets (3): 2545213, test_rows_labels.csv, train_rows.csv
 
 Questions:
 - **statistics-regression_machinelearning-q011** — Which Galaxy tool would you recommend to perform `sklearn_generalized_linear`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear/1.0.11.0
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 - **statistics-regression_machinelearning-q012** — Which Galaxy tool would you recommend to perform `plotly_regression_performance_plots`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 - **statistics-regression_machinelearning-q013** — Which Galaxy tool should I use to run `Ensemble methods for classification and regression`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 - **statistics-regression_machinelearning-q014** — What Galaxy tool should I run for `Pipeline builder`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline/1.0.11.0
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 - **statistics-regression_machinelearning-q015** — What Galaxy tool should I run for `Hyperparameter search`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 - **statistics-regression_machinelearning-q016** — Which Galaxy tool would you recommend to perform `Remove beginning of a file`?
-  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.3
+  - Tools: Remove_beginning1
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 
 ## Text-mining with the SimText toolset (topics/statistics/tutorials/text-mining_simtext)
@@ -19607,7 +19607,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/1.1.6+galaxy0
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q014** — What Galaxy tool should I run for `RNA STAR`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy1
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q015** — What Galaxy tool should I run for `UMI-tools deduplicate`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup/umi_tools_dedup/1.1.6+galaxy0
