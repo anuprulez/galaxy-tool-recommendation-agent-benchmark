@@ -1696,7 +1696,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q050** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
@@ -1708,7 +1708,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q054** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
@@ -1733,76 +1733,76 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q015** — Which Galaxy tool would you recommend to perform `ctb_change_title`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q016** — Which Galaxy tool would you recommend to perform `ctb_change_title`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q018** — Which Galaxy tool would you recommend to perform `ctb_change_title`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q019** — Which Galaxy tool would you recommend to perform `ctb_obgrep`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q020** — Which Galaxy tool would you recommend to perform `ctb_obgrep`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q022** — Which Galaxy tool would you recommend to perform `ctb_obgrep`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q023** — Which Galaxy tool would you recommend to perform `ctb_remDuplicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q024** — Which Galaxy tool would you recommend to perform `ctb_remDuplicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q026** — Which Galaxy tool would you recommend to perform `ctb_remDuplicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q027** — Which Galaxy tool would you recommend to perform `ctb_remIons`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q028** — Which Galaxy tool would you recommend to perform `ctb_remIons`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q030** — Which Galaxy tool would you recommend to perform `ctb_remIons`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q031** — Which Galaxy tool would you recommend to perform `ctb_filter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q032** — Which Galaxy tool would you recommend to perform `ctb_filter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q034** — Which Galaxy tool would you recommend to perform `ctb_filter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q035** — Which Galaxy tool would you recommend to perform `ctb_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q036** — Which Galaxy tool would you recommend to perform `ctb_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q038** — Which Galaxy tool would you recommend to perform `ctb_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q039** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
@@ -1853,16 +1853,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q055** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q056** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q058** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q059** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
@@ -1961,28 +1961,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q091** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q092** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q093** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q094** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
 - **computational-chemistry-cheminformatics-q095** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q096** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q097** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q098** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q099** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
