@@ -3297,7 +3297,7 @@ Questions:
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q041** — Which Galaxy tool should I use to select specific columns from a tabular file in Data Manipulation Olympics?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q042** — Which Galaxy tool would you recommend to perform `Cut1`?
   - Tools: Cut1
@@ -3351,16 +3351,16 @@ Questions:
   - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q059** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q060** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q061** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q062** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q063** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
@@ -3387,40 +3387,40 @@ Questions:
   - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q071** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q072** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q073** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q074** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q075** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q076** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q077** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q078** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q079** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
-  - Tools: {{version_wc}}
+  - Tools: wc_gnu
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q080** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
-  - Tools: {{version_wc}}
+  - Tools: wc_gnu
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q081** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_wc}}
+  - Tools: wc_gnu
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q082** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
-  - Tools: {{version_wc}}
+  - Tools: wc_gnu
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q083** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
@@ -3495,82 +3495,82 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q107** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
-  - Tools: {{version_replace_text_column}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q108** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
-  - Tools: {{version_replace_text_column}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q109** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_replace_text_column}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q110** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
-  - Tools: {{version_replace_text_column}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q111** — Which Galaxy tool would you recommend to perform `{{version_replace_text_line}}`?
-  - Tools: {{version_replace_text_line}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q112** — Which Galaxy tool would you recommend to perform `{{version_replace_text_line}}`?
-  - Tools: {{version_replace_text_line}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q113** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_replace_text_line}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q114** — Which Galaxy tool would you recommend to perform `{{version_replace_text_line}}`?
-  - Tools: {{version_replace_text_line}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q115** — Which Galaxy tool would you recommend to perform `{{version_join}}`?
-  - Tools: {{version_join}}
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q116** — Which Galaxy tool would you recommend to perform `{{version_join}}`?
-  - Tools: {{version_join}}
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q117** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_join}}
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q118** — Which Galaxy tool would you recommend to perform `{{version_join}}`?
-  - Tools: {{version_join}}
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q119** — Which Galaxy tool would you recommend to perform `{{version_cat}}`?
-  - Tools: {{version_cat}}
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q120** — Which Galaxy tool would you recommend to perform `{{version_cat}}`?
-  - Tools: {{version_cat}}
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q121** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_cat}}
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q122** — Which Galaxy tool would you recommend to perform `{{version_cat}}`?
-  - Tools: {{version_cat}}
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q123** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q124** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q125** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q126** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q127** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q128** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q129** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q130** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q131** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
-  - Tools: {{version_remove_columns_by_header}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q132** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
-  - Tools: {{version_remove_columns_by_header}}
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q133** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
   - Tools: {{version_remove_columns_by_header}}
