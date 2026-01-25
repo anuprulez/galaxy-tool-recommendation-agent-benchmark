@@ -9412,16 +9412,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/funannotate_annotate/funannotate_annotate/1.8.17+galaxy5
   - Datasets: 7867921
 - **genome-annotation-funannotate-q031** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-funannotate-q032** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-funannotate-q033** — Which Galaxy tool opens JBrowse for genome visualization?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-funannotate-q034** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-funannotate-q035** — Which Galaxy tool would you recommend to perform `funannotate_compare`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/funannotate_compare/funannotate_compare/1.8.15+galaxy5
@@ -9570,16 +9570,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_view/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_view/2.0.8
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q023** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q024** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q025** — Which Galaxy tool cuts specified columns from a dataset?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q026** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q027** — Which Galaxy tool would you recommend to perform `join1`?
   - Tools: join1
