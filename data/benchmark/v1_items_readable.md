@@ -8758,45 +8758,45 @@ Questions:
 
 ## Dataset construction for bacterial comparative genomics (topics/genome-annotation/tutorials/bacterial-comparative-genomics-dataset-construction)
 - Topic: genome-annotation
-- Tools: Cut1
+- Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
 - Datasets (1): 1
 
 Questions:
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q011** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q012** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q013** — Which Galaxy tool cuts selected columns from a table?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q014** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q015** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q016** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q017** — Which Galaxy tool concatenates datasets (cat)?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q018** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q019** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q020** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q021** — Which Galaxy tool sorts a dataset by column values?
-  - Tools: sort1
+  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q022** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q023** — Which Galaxy tool would you recommend to perform `bg_uniq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
@@ -8811,16 +8811,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q027** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q028** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q029** — Which Galaxy tool trims the beginning of a file?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q030** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q031** — Which Galaxy tool would you recommend to perform `datasets_download_genome`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_genome/18.13.0+galaxy0
