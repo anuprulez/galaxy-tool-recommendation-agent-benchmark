@@ -10073,16 +10073,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q035** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q036** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q037** — Which Galaxy tool trims the beginning of a file?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q038** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q039** — Which Galaxy tool would you recommend to perform `openbabel_remDuplicates`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
@@ -10200,16 +10200,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/3.2.3+galaxy0
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q023** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q024** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q025** — Which Galaxy tool cuts columns from a table?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q026** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q027** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
