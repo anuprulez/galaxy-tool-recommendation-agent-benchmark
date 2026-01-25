@@ -1387,7 +1387,7 @@ Questions:
   - Tools: __EXTRACT_DATASET__
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
 - **climate-fates-q017** — Which Galaxy tool should I use to run `Scatterplot w ggplot2`?
-  - Tools: Scatterplot_w_ggplot2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
 - **climate-fates-q018** — Which Galaxy tool would you recommend to perform `ctsm_fates`?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1.1
@@ -1588,7 +1588,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q014** — Which Galaxy tool would you recommend to perform `mdanalysis_rdf`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
@@ -1600,7 +1600,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q018** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
@@ -1612,7 +1612,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q022** — Which Galaxy tool would you recommend to perform `mdanalysis_ramachandran_plot`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0
@@ -1624,7 +1624,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q026** — Which Galaxy tool would you recommend to perform `mdanalysis_distance`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0
@@ -1636,7 +1636,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q030** — Which Galaxy tool would you recommend to perform `mdanalysis_dihedral`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0
@@ -1648,7 +1648,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q034** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
@@ -1660,7 +1660,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q038** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
@@ -1672,7 +1672,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q042** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
@@ -1684,7 +1684,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 - **computational-chemistry-analysis-md-simulations-q046** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
