@@ -8373,16 +8373,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 10572227
 - **genome-annotation-amr-gene-detection-q023** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
 - **genome-annotation-amr-gene-detection-q024** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
 - **genome-annotation-amr-gene-detection-q025** — Which Galaxy tool provides basic grep filtering?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
 - **genome-annotation-amr-gene-detection-q026** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
 - **genome-annotation-amr-gene-detection-q027** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
@@ -8526,21 +8526,21 @@ Questions:
 
 ## Genome annotation with Maker (short) (topics/genome-annotation/tutorials/annotation-with-maker-short)
 - Topic: genome-annotation
-- Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0
+- Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
 - Datasets (1): zenodo.4406623
 
 Questions:
 - **genome-annotation-annotation-with-maker-short-q011** — Which Galaxy tool would you recommend to perform `fasta-stats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q012** — Which Galaxy tool would you recommend to perform `fasta-stats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q013** — Which Galaxy tool produces FASTA statistics for assemblies?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q014** — Which Galaxy tool would you recommend to perform `fasta-stats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q015** — Which Galaxy tool would you recommend to perform `busco`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
