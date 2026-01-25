@@ -6789,28 +6789,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q035** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q036** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q037** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q038** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q039** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q040** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q041** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
   - Tools: Grep1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q042** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q043** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
