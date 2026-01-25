@@ -2951,47 +2951,47 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q027** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q028** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q030** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q031** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q032** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q034** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6055897, 6055897>
 
 ## Including a new topic (topics/contributing/tutorials/create-new-topic)
 - Topic: contributing
-- Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
 - Datasets (1): None
 
 Questions:
 - **contributing-create-new-topic-q011** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41`?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 - **contributing-create-new-topic-q012** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41`?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 - **contributing-create-new-topic-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Including a new topic?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 - **contributing-create-new-topic-q014** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41`?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 
 ## Creating a new guide (topics/contributing/tutorials/create-new-tutorial)
@@ -3025,16 +3025,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: None
 - **contributing-create-new-tutorial-q019** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q020** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Creating a new guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q022** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q023** — Which Galaxy tool would you recommend to perform `bowtie2`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
@@ -3061,16 +3061,16 @@ Questions:
   - Tools: random_lines1
   - Datasets: None
 - **contributing-create-new-tutorial-q031** — Which Galaxy tool would you recommend to perform `bam_to_sam`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: None
 - **contributing-create-new-tutorial-q032** — Which Galaxy tool would you recommend to perform `bam_to_sam`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: None
 - **contributing-create-new-tutorial-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Creating a new guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: None
 - **contributing-create-new-tutorial-q034** — Which Galaxy tool would you recommend to perform `bam_to_sam`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: None
 - **contributing-create-new-tutorial-q035** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
@@ -3085,16 +3085,16 @@ Questions:
   - Tools: Filter1
   - Datasets: None
 - **contributing-create-new-tutorial-q039** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q040** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q041** — Which Galaxy tool should I use to select specific columns from a tabular file in Creating a new guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q042** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: None
 - **contributing-create-new-tutorial-q043** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
@@ -3109,28 +3109,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q047** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q048** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Creating a new guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q050** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q051** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q052** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Creating a new guide?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q054** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q055** — Which Galaxy tool would you recommend to perform `seqtk_subseq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0
@@ -3188,16 +3188,16 @@ Questions:
   - Tools: upload1
   - Datasets: None
 - **contributing-create-new-tutorial-content-q019** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41`?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 - **contributing-create-new-tutorial-content-q020** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41`?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 - **contributing-create-new-tutorial-content-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Creating content in Markdown?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 - **contributing-create-new-tutorial-content-q022** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41`?
-  - Tools: toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/7538e2bfcd41
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
 
 ## Data Manipulation Olympics (topics/data-science/tutorials/data-manipulation-olympics)
