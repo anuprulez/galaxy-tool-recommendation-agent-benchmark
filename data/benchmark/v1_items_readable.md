@@ -7446,16 +7446,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 1324070
 - **epigenetics-formation_of_super-structures_on_xi-q079** — Which Galaxy tool would you recommend to perform `Filter1`?
-  - Tools: Filter1
+  - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
 - **epigenetics-formation_of_super-structures_on_xi-q080** — Which Galaxy tool would you recommend to perform `Filter1`?
-  - Tools: Filter1
+  - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
 - **epigenetics-formation_of_super-structures_on_xi-q081** — Which Galaxy tool filters tabular rows using a simple expression?
-  - Tools: Filter1
+  - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
 - **epigenetics-formation_of_super-structures_on_xi-q082** — Which Galaxy tool would you recommend to perform `Filter1`?
-  - Tools: Filter1
+  - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
 
 ## Hi-C analysis of Drosophila melanogaster cells using HiCExplorer (topics/epigenetics/tutorials/hicexplorer)
@@ -7599,21 +7599,21 @@ Questions:
 
 ## DNA Methylation data analysis (topics/epigenetics/tutorials/methylation-seq)
 - Topic: epigenetics
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
 - Datasets (1): 557099
 
 Questions:
 - **epigenetics-methylation-seq-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q013** — Which Galaxy tool generates FastQC reports for raw reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q015** — Which Galaxy tool would you recommend to perform `bwameth`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwameth/bwameth/0.2.9+galaxy0
