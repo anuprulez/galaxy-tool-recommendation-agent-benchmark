@@ -5840,203 +5840,203 @@ Questions:
 - **ecology-ref-based-rad-seq-q016** — I want to do a simple search-and-replace across every line in a text file to standardize labels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q017** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q017** — Which Galaxy tool should I use to replace a fixed substring in each line of a text file (for example, relabeling entries in a log file)?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q018** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q018** — Which Galaxy tool can replace text across entire lines so I can rename identifiers or labels in a text file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q019** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **ecology-ref-based-rad-seq-q019** — I need to extract only the lines that match a regular expression from a text file. Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q020** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **ecology-ref-based-rad-seq-q020** — I want to filter a log file to keep only rows whose content matches a pattern. Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q021** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q021** — Which Galaxy tool should I use to select lines matching a pattern (regex) from a text dataset and discard the rest?
   - Tools: Grep1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q022** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **ecology-ref-based-rad-seq-q022** — Which Galaxy tool can search for a pattern and output only the matching lines from a file?
   - Tools: Grep1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q023** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-ref-based-rad-seq-q023** — I want per-sample quality-control reports for short-read sequencing data (per-base quality, GC content, overrepresented sequences). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q024** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-ref-based-rad-seq-q024** — I need to assess raw read quality and potential issues (like adapters or low-quality cycles) before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q025** — Which Galaxy tool should I use to assess read quality in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q025** — Which Galaxy tool should I run to generate read QC reports for a collection of FASTQ files and inspect quality profiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q026** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-ref-based-rad-seq-q026** — Which Galaxy tool can produce detailed read-quality summaries from FASTQ files?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q027** — Which Galaxy tool would you recommend to perform `bwa`?
+- **ecology-ref-based-rad-seq-q027** — I need to map short reads to a reference genome and produce a BAM alignment file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q028** — Which Galaxy tool would you recommend to perform `bwa`?
+- **ecology-ref-based-rad-seq-q028** — I want to align single-end reads to a reference genome as part of a RAD-seq workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q029** — Which Galaxy tool should I use to align reads to a reference genome in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q029** — Which Galaxy tool should I use to align short reads against a reference genome and output BAM alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q030** — Which Galaxy tool would you recommend to perform `bwa`?
+- **ecology-ref-based-rad-seq-q030** — Which Galaxy tool can perform fast short-read alignment to a reference genome for downstream SNP calling?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q031** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **ecology-ref-based-rad-seq-q031** — I have many per-sample QC reports and want a single combined summary report with plots across all samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q032** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **ecology-ref-based-rad-seq-q032** — I need to aggregate quality-control outputs from multiple tools into one interactive report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q033** — Which Galaxy tool should I use to summarize QC reports from multiple tools in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q033** — Which Galaxy tool should I run to summarize QC results across multiple samples in one report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q034** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **ecology-ref-based-rad-seq-q034** — Which Galaxy tool can combine multiple QC reports into a unified HTML summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q035** — Which Galaxy tool would you recommend to perform `addValue`?
+- **ecology-ref-based-rad-seq-q035** — I need to add a new column containing the same constant value for every row in a tabular dataset. Which Galaxy tool should I use?
   - Tools: addValue
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q036** — Which Galaxy tool would you recommend to perform `addValue`?
+- **ecology-ref-based-rad-seq-q036** — I want to create a new first column containing a constant string for each row in a table. Which Galaxy tool should I use?
   - Tools: addValue
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q037** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q037** — Which Galaxy tool should I use to add a constant-value column to a table before further formatting?
   - Tools: addValue
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q038** — Which Galaxy tool would you recommend to perform `addValue`?
+- **ecology-ref-based-rad-seq-q038** — Which Galaxy tool can add the same value to each row/line in a dataset?
   - Tools: addValue
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q039** — Which Galaxy tool would you recommend to perform `cat1`?
+- **ecology-ref-based-rad-seq-q039** — I need to concatenate several text datasets into a single file (tail-to-head). Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q040** — Which Galaxy tool would you recommend to perform `cat1`?
+- **ecology-ref-based-rad-seq-q040** — I want to merge multiple intermediate text files into one dataset while preserving order. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q041** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q041** — Which Galaxy tool should I use to concatenate multiple datasets into one output file?
   - Tools: cat1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q042** — Which Galaxy tool would you recommend to perform `cat1`?
+- **ecology-ref-based-rad-seq-q042** — Which Galaxy tool can combine multiple datasets by appending them one after another?
   - Tools: cat1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q043** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **ecology-ref-based-rad-seq-q043** — I need to extract specific columns from a delimited table and discard the rest. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q044** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **ecology-ref-based-rad-seq-q044** — I want to keep only a selected set of columns from a tabular file to build a simplified table. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q045** — Which Galaxy tool should I use to select specific columns from a tabular file in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q045** — Which Galaxy tool should I use to select a subset of columns from a tabular file?
   - Tools: Cut1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q046** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **ecology-ref-based-rad-seq-q046** — Which Galaxy tool can cut out selected columns from a CSV/TSV and output a reduced table?
   - Tools: Cut1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q047** — Which Galaxy tool would you recommend to perform `Convert characters1`?
-  - Tools: Convert_characters1
+- **ecology-ref-based-rad-seq-q047** — I need to normalize a delimited text file by converting specific characters (for example spaces or commas) into tab separators. Which Galaxy tool should I use?
+  - Tools: Convert characters1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q048** — Which Galaxy tool would you recommend to perform `Convert characters1`?
-  - Tools: Convert_characters1
+- **ecology-ref-based-rad-seq-q048** — I want to replace one delimiter with another across a whole file so it becomes a clean tabular dataset. Which Galaxy tool should I use?
+  - Tools: Convert characters1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q049** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
-  - Tools: Convert_characters1
+- **ecology-ref-based-rad-seq-q049** — Which Galaxy tool should I use to convert delimiters/characters in a text file so it becomes a clean tabular dataset?
+  - Tools: Convert characters1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q050** — Which Galaxy tool would you recommend to perform `Convert characters1`?
-  - Tools: Convert_characters1
+- **ecology-ref-based-rad-seq-q050** — Which Galaxy tool can convert characters in a dataset (for example, replacing spaces with tabs)?
+  - Tools: Convert characters1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q051** — Which Galaxy tool would you recommend to perform `regex_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kellrott/regex_replace/regex_replace/1.0.0
+- **ecology-ref-based-rad-seq-q051** — I need a regex-based find-and-replace on a text file to remove a delimiter pattern (for example, replacing 'prefix	' with 'prefix'). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q052** — Which Galaxy tool would you recommend to perform `regex_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kellrott/regex_replace/regex_replace/1.0.0
+- **ecology-ref-based-rad-seq-q052** — I want to use capture groups in a regex replacement to rewrite identifiers in a text file. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q053** — Which Galaxy tool should I use to find and replace patterns in a text table in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kellrott/regex_replace/regex_replace/1.0.0
+- **ecology-ref-based-rad-seq-q053** — Which Galaxy tool should I use to apply a regular-expression substitution across a text dataset (including capture groups)?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q054** — Which Galaxy tool would you recommend to perform `regex_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kellrott/regex_replace/regex_replace/1.0.0
+- **ecology-ref-based-rad-seq-q054** — Which Galaxy tool can run regex find/replace on each line to reformat identifiers?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q055** — Which Galaxy tool would you recommend to perform `stacks_refmap`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_refmap/stacks_refmap/1.46.0
+- **ecology-ref-based-rad-seq-q055** — I have RAD-seq reads already aligned to a reference genome and want to build loci and call SNPs using a reference-based RAD-seq pipeline. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q056** — Which Galaxy tool would you recommend to perform `stacks_refmap`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_refmap/stacks_refmap/1.46.0
+- **ecology-ref-based-rad-seq-q056** — I need to run a reference-based RAD-seq workflow that groups reads into loci and produces catalog files given BAM alignments and a population map. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q057** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_refmap/stacks_refmap/1.46.0
+- **ecology-ref-based-rad-seq-q057** — Which Galaxy tool should I use if I need an interactive environment to run a reference-based RAD-seq SNP calling pipeline from mapped reads?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q058** — Which Galaxy tool would you recommend to perform `stacks_refmap`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_refmap/stacks_refmap/1.46.0
+- **ecology-ref-based-rad-seq-q058** — Which Galaxy tool should I use to run custom scripts for reference-based RAD-seq locus assembly and SNP calling?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q059** — Which Galaxy tool would you recommend to perform `stacks_populations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-ref-based-rad-seq-q059** — I want to compute population genomics statistics and export variant outputs from reference-based RAD-seq loci/SNP calls. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q060** — Which Galaxy tool would you recommend to perform `stacks_populations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-ref-based-rad-seq-q060** — I need to calculate per-population summary statistics from RAD-seq SNP data and produce tabular outputs for filtering and plotting. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q061** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-ref-based-rad-seq-q061** — Which Galaxy tool should I use to run custom code to compute population genetics statistics from RAD-seq variant calls?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q062** — Which Galaxy tool would you recommend to perform `stacks_populations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-ref-based-rad-seq-q062** — Which Galaxy tool should I use if I need an interactive environment to compute population-genetics summaries from RAD-seq data?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q063** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **ecology-ref-based-rad-seq-q063** — I want basic descriptive statistics (min, max, mean, standard deviation) for a numeric column in a table. Which Galaxy tool should I use?
   - Tools: Summary_Statistics1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q064** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **ecology-ref-based-rad-seq-q064** — I need summary statistics for one or more numeric columns in a tabular dataset. Which Galaxy tool should I use?
   - Tools: Summary_Statistics1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q065** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q065** — Which Galaxy tool should I use to compute descriptive summary statistics for a table column?
   - Tools: Summary_Statistics1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q066** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **ecology-ref-based-rad-seq-q066** — Which Galaxy tool can generate summary statistics for numeric data in a tabular file?
   - Tools: Summary_Statistics1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q067** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q067** — I need to sort a tabular file by a column but keep the header line at the top. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q068** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q068** — I want to sort a table while preserving the header row and output a properly sorted dataset. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q069** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q069** — Which Galaxy tool should I use to sort a dataset by a column and keep the header intact?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q070** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q070** — Which Galaxy tool can sort a tabular dataset while preserving its header line?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q071** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-ref-based-rad-seq-q071** — I need to count how many times each distinct value appears in a column (frequency table). Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q072** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-ref-based-rad-seq-q072** — I want to count occurrences of each unique value in a specific column of a tabular file. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q073** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q073** — Which Galaxy tool should I use to compute counts per category from a tabular dataset?
   - Tools: Count1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q074** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-ref-based-rad-seq-q074** — Which Galaxy tool can tally unique values in a column and report their counts?
   - Tools: Count1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q075** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-ref-based-rad-seq-q075** — I need to filter a tabular dataset using a simple expression on one or more columns. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q076** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-ref-based-rad-seq-q076** — I want to keep only rows that satisfy a condition (for example, a numeric threshold) in a table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q077** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in RAD-Seq Reference-based data analysis?
+- **ecology-ref-based-rad-seq-q077** — Which Galaxy tool should I use to subset a table based on column-based filter conditions?
   - Tools: Filter1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q078** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-ref-based-rad-seq-q078** — Which Galaxy tool can filter rows in a tabular dataset by an expression?
   - Tools: Filter1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q079** — Which Galaxy tool would you recommend to perform `bwa_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_wrapper/1.2.3
+- **ecology-ref-based-rad-seq-q079** — I need to align a set of short reads against a reference genome as part of a RAD-seq workflow and produce BAM outputs. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q080** — Which Galaxy tool would you recommend to perform `bwa_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_wrapper/1.2.3
+- **ecology-ref-based-rad-seq-q080** — I want to map demultiplexed RAD-seq reads to a reference genome for downstream loci/SNP analysis. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q081** — Which Galaxy tool should I use to align reads to a reference genome in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_wrapper/1.2.3
+- **ecology-ref-based-rad-seq-q081** — Which Galaxy tool should I use to perform short-read alignment to a reference genome and generate BAM alignments?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q082** — Which Galaxy tool would you recommend to perform `bwa_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_wrapper/1.2.3
+- **ecology-ref-based-rad-seq-q082** — Which Galaxy tool can map short reads to a reference genome efficiently for downstream variant analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.1134547, 1134547
 
 ## Regional GAM (topics/ecology/tutorials/regionalGAM)
@@ -6045,107 +6045,107 @@ Questions:
 - Datasets (2): zenodo.1324204, 1324204
 
 Questions:
-- **ecology-regionalGAM-q011** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-regionalGAM-q011** — I need to filter a tabular dataset to keep rows where a column equals a specific value (for example, selecting one species). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q012** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-regionalGAM-q012** — I want to subset a table by keeping only rows matching a condition on one column. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q013** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Regional GAM?
+- **ecology-regionalGAM-q013** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition (for example selecting one category or species)?
   - Tools: Filter1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q014** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-regionalGAM-q014** — Which Galaxy tool can filter a table using a simple expression on its columns?
   - Tools: Filter1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q015** — Which Galaxy tool would you recommend to perform `Paste1`?
+- **ecology-regionalGAM-q015** — I need to combine two tabular files side by side (column-wise) by row order. Which Galaxy tool should I use?
   - Tools: Paste1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q016** — Which Galaxy tool would you recommend to perform `Paste1`?
+- **ecology-regionalGAM-q016** — I want to paste multiple tabular files as columns to reconstruct a table split across datasets. Which Galaxy tool should I use?
   - Tools: Paste1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q017** — Which Galaxy tool should I use to paste two files side by side into a single table?
   - Tools: Paste1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q018** — Which Galaxy tool would you recommend to perform `Paste1`?
+- **ecology-regionalGAM-q018** — Which Galaxy tool can merge multiple datasets column-wise by row order?
   - Tools: Paste1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q019** — Which Galaxy tool would you recommend to perform `csv2tab_R`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/csv_to_tabular/csv2tab_R/0.1
+- **ecology-regionalGAM-q019** — I need to convert a comma-separated values (CSV) file into a tabular format usable by downstream Galaxy tools. Which Galaxy tool should I use?
+  - Tools: csv_to_tabular
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q020** — Which Galaxy tool would you recommend to perform `csv2tab_R`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/csv_to_tabular/csv2tab_R/0.1
+- **ecology-regionalGAM-q020** — I want to parse a CSV with quoted text fields and output a clean tabular dataset. Which Galaxy tool should I use?
+  - Tools: csv_to_tabular
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/csv_to_tabular/csv2tab_R/0.1
+- **ecology-regionalGAM-q021** — Which Galaxy tool should I use to convert CSV data into a tabular dataset in Galaxy?
+  - Tools: csv_to_tabular
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q022** — Which Galaxy tool would you recommend to perform `csv2tab_R`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/csv_to_tabular/csv2tab_R/0.1
+- **ecology-regionalGAM-q022** — Which Galaxy tool can transform CSV into a tabular dataset?
+  - Tools: csv_to_tabular
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q023** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-regionalGAM-q023** — I need to clean a specific column in a table by applying a regex-based find/replace (for example removing quotes or prefixes). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q024** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-regionalGAM-q024** — I want to standardize values in one column using regular-expression substitutions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q025** — Which Galaxy tool should I use to find and replace patterns in a text table in Regional GAM?
+- **ecology-regionalGAM-q025** — Which Galaxy tool should I use to perform regex find/replace on a specific column of a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q026** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-regionalGAM-q026** — Which Galaxy tool can apply regex transformations to values in one table column?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q027** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-regionalGAM-q027** — I need to count how many times each distinct value appears in a column (frequency table). Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q028** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-regionalGAM-q028** — I want to count occurrences of each unique value in a column of a table. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q029** — Which Galaxy tool should I use to tally values in a column and report their counts?
   - Tools: Count1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q030** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-regionalGAM-q030** — Which Galaxy tool can compute counts per category from a tabular dataset?
   - Tools: Count1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q031** — Which Galaxy tool would you recommend to perform `tab2csv_R`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/tabular_to_csv/tab2csv_R/0.1
+- **ecology-regionalGAM-q031** — I need to convert a tab-delimited table back to CSV for compatibility with another tool. Which Galaxy tool should I use?
+  - Tools: tabular_to_csv
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q032** — Which Galaxy tool would you recommend to perform `tab2csv_R`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/tabular_to_csv/tab2csv_R/0.1
+- **ecology-regionalGAM-q032** — I want to export a Galaxy tabular dataset as a CSV file with commas and quotes as needed. Which Galaxy tool should I use?
+  - Tools: tabular_to_csv
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/tabular_to_csv/tab2csv_R/0.1
+- **ecology-regionalGAM-q033** — Which Galaxy tool should I use to convert tabular data into CSV format?
+  - Tools: tabular_to_csv
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q034** — Which Galaxy tool would you recommend to perform `tab2csv_R`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/tabular_to_csv/tab2csv_R/0.1
+- **ecology-regionalGAM-q034** — Which Galaxy tool can turn a tabular dataset into a CSV file?
+  - Tools: tabular_to_csv
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q035** — Which Galaxy tool would you recommend to perform `flight-curve`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/regionalgam/flight-curve/1.0.0
+- **ecology-regionalGAM-q035** — I want to model yearly phenology (flight curve) from count data using a generalized additive model and predict missing observations. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q036** — Which Galaxy tool would you recommend to perform `flight-curve`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/regionalgam/flight-curve/1.0.0
+- **ecology-regionalGAM-q036** — I need to fit a GAM-based flight-curve model to species count data across sites and years to visualize phenology. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/regionalgam/flight-curve/1.0.0
+- **ecology-regionalGAM-q037** — Which Galaxy tool should I use if I need an interactive R environment to run GAM-based phenology modeling and generate a flight curve?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q038** — Which Galaxy tool would you recommend to perform `flight-curve`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/mnhn65mo/regionalgam/flight-curve/1.0.0
+- **ecology-regionalGAM-q038** — Which Galaxy tool should I use to run custom R code for flight-curve/phenology modeling from count tables?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q039** — Which Galaxy tool would you recommend to perform `mergeCols1`?
+- **ecology-regionalGAM-q039** — I need to merge multiple columns into a single column (for example combining year and week into one identifier). Which Galaxy tool should I use?
   - Tools: mergeCols1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q040** — Which Galaxy tool would you recommend to perform `mergeCols1`?
+- **ecology-regionalGAM-q040** — I want to concatenate several columns into one combined column in a tabular dataset. Which Galaxy tool should I use?
   - Tools: mergeCols1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q041** — Which Galaxy tool should I use to merge columns together into one column?
   - Tools: mergeCols1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q042** — Which Galaxy tool would you recommend to perform `mergeCols1`?
+- **ecology-regionalGAM-q042** — Which Galaxy tool can combine columns from a table into a single merged column?
   - Tools: mergeCols1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q043** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **ecology-regionalGAM-q043** — I need to remove the first line(s) of a file (for example dropping a header row before plotting). Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q044** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **ecology-regionalGAM-q044** — Which Galaxy tool can remove a specified number of lines from the beginning of a dataset?
+  - Tools: Remove beginning1
   - Datasets: 1324204, zenodo.1324204
 - **ecology-regionalGAM-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
   - Tools: Remove_beginning1
