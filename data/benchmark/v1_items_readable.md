@@ -6378,7 +6378,7 @@ Questions:
   - Tools: Filter1
   - Datasets: None
 - **ecology-species-distribution-modeling-q025** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Species distribution modeling?
-  - Tools: Filter1
+  - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: None
 - **ecology-species-distribution-modeling-q026** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
