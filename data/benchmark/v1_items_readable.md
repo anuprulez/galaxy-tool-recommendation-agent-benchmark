@@ -5505,78 +5505,78 @@ Questions:
 - **ecology-ndvi_openeo-q016** — I need to explore and visualize NDVI time series interactively by writing custom notebook code. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-ndvi_openeo-q017** — Which Galaxy tool should I use to run an analysis step from the guide in From NDVI data with OpenEO to time series visualisation with Holoviews?
-  - Tools: interactive_tool_holoviz
+- **ecology-ndvi_openeo-q017** — Which Galaxy tool should I use to build interactive time-series visualizations from NDVI results using custom notebook code?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-ndvi_openeo-q018** — Which Galaxy tool would you recommend to perform `interactive_tool_holoviz`?
-  - Tools: interactive_tool_holoviz
+- **ecology-ndvi_openeo-q018** — Which Galaxy tool should I use if I want to explore and visualize satellite-derived NDVI time series interactively in a notebook environment?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 
 ## Obis marine indicators (topics/ecology/tutorials/obisindicators)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (1): None
 
 Questions:
-- **ecology-obisindicators-q011** — Which Galaxy tool would you recommend to perform `obis_data`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
+- **ecology-obisindicators-q011** — I need to download marine species occurrence records from the OBIS database for a geographic region (and optional taxon filters). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q012** — Which Galaxy tool would you recommend to perform `obis_data`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
+- **ecology-obisindicators-q012** — I want to query the OBIS API and retrieve occurrence records as a table for downstream biodiversity analysis. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Obis marine indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
+- **ecology-obisindicators-q013** — Which Galaxy tool should I use to programmatically fetch marine occurrence records from OBIS for a bounding box and optional filters?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q014** — Which Galaxy tool would you recommend to perform `obis_data`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
+- **ecology-obisindicators-q014** — Which Galaxy tool should I use to download OBIS occurrence data into a clean tabular dataset for further analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q015** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q015** — I need to clean an occurrence table by keeping only a specific set of columns (coordinates, species, and record counts). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q016** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q016** — I want to extract a subset of columns from a CSV/TSV table and discard everything else. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Obis marine indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q017** — Which Galaxy tool should I use to select a list of columns from a tabular dataset (for example, keeping latitude/longitude/species/count columns only)?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q018** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q018** — Which Galaxy tool can keep only selected columns in a tabular file (TSV/CSV) in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q019** — Which Galaxy tool would you recommend to perform `obisindicators`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q019** — I want to compute marine biodiversity indicators (for example Shannon and Simpson diversity) from gridded occurrence data and generate outputs for mapping. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q020** — Which Galaxy tool would you recommend to perform `obisindicators`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q020** — I need to calculate biodiversity indices from marine occurrence records and visualize the results on a spatial grid. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Obis marine indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q021** — Which Galaxy tool should I use to compute multiple marine biodiversity indicators from occurrence data (richness and diversity indices) and export them for mapping?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q022** — Which Galaxy tool would you recommend to perform `obisindicators`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q022** — Which Galaxy tool should I use to compute diversity indicators from OBIS occurrence records and generate tables or maps of those indicators?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q023** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q023** — I need to keep only the relevant columns from an OBIS occurrence table to prepare it for biodiversity indicator calculations. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q024** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q024** — I want to extract coordinate and species columns from a table so it can be gridded and mapped later. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Obis marine indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q025** — Which Galaxy tool should I use to select and reorder columns in a table before running biodiversity analyses?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q026** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-obisindicators-q026** — Which Galaxy tool should I use to keep only the columns I care about from a CSV/TSV file and drop the rest?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3, Cut1
   - Datasets: None
-- **ecology-obisindicators-q027** — Which Galaxy tool would you recommend to perform `obisindicators`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q027** — I want to calculate several diversity indicators on marine occurrence data (for example ES50 and Hill numbers) and visualize them on a grid. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q028** — Which Galaxy tool would you recommend to perform `obisindicators`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q028** — I need to compute richness and diversity metrics from marine occurrence records and output results suitable for mapping. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Obis marine indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q029** — Which Galaxy tool should I use to compute multiple biodiversity indicators (e.g., Shannon and Simpson) from occurrence data and generate spatial outputs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-obisindicators-q030** — Which Galaxy tool would you recommend to perform `obisindicators`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obisindicators/obisindicators/0.0.2
+- **ecology-obisindicators-q030** — Which Galaxy tool should I use to calculate biodiversity indicators from marine occurrence records and export the results for visualization?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 
 ## Cleaning GBIF data using OpenRefine (topics/ecology/tutorials/openrefine_gbif)
@@ -5585,260 +5585,260 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **ecology-openrefine_gbif-q011** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-openrefine_gbif-q011** — I need to clean and standardize text fields in a tabular dataset by applying regular-expression find/replace rules. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: None
-- **ecology-openrefine_gbif-q012** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-openrefine_gbif-q012** — I want to edit values in a table by removing unwanted substrings and normalizing patterns using regular-expression substitutions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: None
 - **ecology-openrefine_gbif-q013** — Which Galaxy tool lets me apply regex-based find and replace on tabular data?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: None
-- **ecology-openrefine_gbif-q014** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-openrefine_gbif-q014** — Which Galaxy tool should I use to transform text columns using regular expressions (find/replace) when cleaning tabular records?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: None
 
 ## Phylodiversity analysis quick guide (topics/ecology/tutorials/phylodiversity_workflow)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylogenetic_occupancy_matcher/phylogenetic_occupancy_matcher/1.0+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (3): zenodo.15601932, 15601932, 15601932
 
 Questions:
-- **ecology-phylodiversity_workflow-q011** — Which Galaxy tool would you recommend to perform `phylogenetic_occupancy_matcher`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylogenetic_occupancy_matcher/phylogenetic_occupancy_matcher/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q011** — I have a phylogenetic tree in Newick format and an occupancy table of species-by-grid presence. I need to match and synchronize them so species labels line up. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q012** — Which Galaxy tool would you recommend to perform `phylogenetic_occupancy_matcher`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylogenetic_occupancy_matcher/phylogenetic_occupancy_matcher/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q012** — I need to combine a Newick tree with an occupancy table by matching species names and keeping only the shared taxa. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Phylodiversity analysis quick guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylogenetic_occupancy_matcher/phylogenetic_occupancy_matcher/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q013** — Which Galaxy tool should I use to match a phylogeny file with an occupancy matrix so downstream phylogenetic diversity metrics can be computed?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q014** — Which Galaxy tool would you recommend to perform `phylogenetic_occupancy_matcher`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylogenetic_occupancy_matcher/phylogenetic_occupancy_matcher/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q014** — Which Galaxy tool should I use to reconcile taxa names between a phylogenetic tree and an occupancy dataset and output matched data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q015** — Which Galaxy tool would you recommend to perform `crsconverter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/crsconverter/crsconverter/1.1+galaxy0
+- **ecology-phylodiversity_workflow-q015** — I need to reproject a shapefile to a specific coordinate reference system (for example WGS84) for downstream spatial analysis. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q016** — Which Galaxy tool would you recommend to perform `crsconverter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/crsconverter/crsconverter/1.1+galaxy0
+- **ecology-phylodiversity_workflow-q016** — I want to convert a vector dataset (shapefile) to a different coordinate reference system and export it again as a shapefile. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Phylodiversity analysis quick guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/crsconverter/crsconverter/1.1+galaxy0
+- **ecology-phylodiversity_workflow-q017** — Which Galaxy tool should I use to transform the coordinate reference system of a shapefile to a required projection for a workflow?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q018** — Which Galaxy tool would you recommend to perform `crsconverter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/crsconverter/crsconverter/1.1+galaxy0
+- **ecology-phylodiversity_workflow-q018** — Which Galaxy tool should I use to reproject spatial vector data before running biodiversity or endemism mapping?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q019** — Which Galaxy tool would you recommend to perform `phylo_index`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylo_index/phylo_index/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q019** — I want to compute phylogenetic diversity indices from a phylogenetic tree and an occupancy table, using randomization to assess significance. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q020** — Which Galaxy tool would you recommend to perform `phylo_index`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylo_index/phylo_index/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q020** — I need to compute phylogenetic diversity metrics for grid cells given a tree and an occupancy matrix, with a fixed random seed for reproducibility. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Phylodiversity analysis quick guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylo_index/phylo_index/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q021** — Which Galaxy tool should I use to calculate phylogenetic diversity indices from a matched tree and occupancy dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q022** — Which Galaxy tool would you recommend to perform `phylo_index`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/phylo_index/phylo_index/1.0+galaxy0
+- **ecology-phylodiversity_workflow-q022** — Which Galaxy tool should I use to compute phylogenetic diversity per site from a tree and occupancy data for later mapping?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q023** — Which Galaxy tool would you recommend to perform `estimate_endem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/estimate_endem/estimate_endem/0.1.0+galaxy0
+- **ecology-phylodiversity_workflow-q023** — I want to estimate phylogenetic endemism and produce a spatial output using a phylogeny, occupancy table, and a shapefile. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q024** — Which Galaxy tool would you recommend to perform `estimate_endem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/estimate_endem/estimate_endem/0.1.0+galaxy0
+- **ecology-phylodiversity_workflow-q024** — I need to compute endemism indices and derive phyloregions from a phylogeny, occupancy data, and spatial polygons. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Phylodiversity analysis quick guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/estimate_endem/estimate_endem/0.1.0+galaxy0
+- **ecology-phylodiversity_workflow-q025** — Which Galaxy tool should I use to compute endemism-based phyloregions and output a shapefile with clustered regions?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
-- **ecology-phylodiversity_workflow-q026** — Which Galaxy tool would you recommend to perform `estimate_endem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/estimate_endem/estimate_endem/0.1.0+galaxy0
+- **ecology-phylodiversity_workflow-q026** — Which Galaxy tool should I use to estimate endemism metrics and generate a spatial layer for visualization?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 15601932, zenodo.15601932, 15601932
 
 ## Preparing genomic data for phylogeny reconstruction (topics/ecology/tutorials/phylogeny-data-prep)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
 - Datasets (2): zenodo.6610704, 6610704
 
 Questions:
-- **ecology-phylogeny-data-prep-q011** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-phylogeny-data-prep-q011** — I need to replace a fixed string in each line of a text file (for example, editing FASTA headers) without changing the rest of the line. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q012** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-phylogeny-data-prep-q012** — I want to perform simple per-line text substitution in a file (search and replace) as a preprocessing step. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-phylogeny-data-prep-q013** — Which Galaxy tool should I use to replace or edit part of every line in a text file (for example, adjusting FASTA header prefixes)?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q014** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-phylogeny-data-prep-q014** — Which Galaxy tool should I use for line-by-line text replacement in a plain-text dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q015** — Which Galaxy tool would you recommend to perform `repeatmasker_wrapper`?
+- **ecology-phylogeny-data-prep-q015** — I need to soft-mask repetitive elements in a genome sequence to improve downstream gene prediction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q016** — Which Galaxy tool would you recommend to perform `repeatmasker_wrapper`?
+- **ecology-phylogeny-data-prep-q016** — I want to identify and mask repeats in a genomic FASTA so annotation tools can handle repeat-rich regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q017** — Which Galaxy tool should I use to screen a genome for repetitive elements and produce a repeat-masked output sequence?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q018** — Which Galaxy tool would you recommend to perform `repeatmasker_wrapper`?
+- **ecology-phylogeny-data-prep-q018** — Which Galaxy tool should I use for repeat masking of genomic sequences before annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q019** — Which Galaxy tool would you recommend to perform `funannotate_predict`?
+- **ecology-phylogeny-data-prep-q019** — I need to predict protein-coding genes and produce genome annotation outputs from a eukaryotic genome assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/funannotate_predict/funannotate_predict/1.8.17+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q020** — Which Galaxy tool would you recommend to perform `funannotate_predict`?
+- **ecology-phylogeny-data-prep-q020** — I want to run an ab initio genome annotation pipeline to predict genes and proteins from a genome FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/funannotate_predict/funannotate_predict/1.8.17+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q021** — Which Galaxy tool should I use to perform eukaryotic gene prediction and produce annotated gene models from a genome assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/funannotate_predict/funannotate_predict/1.8.17+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q022** — Which Galaxy tool would you recommend to perform `funannotate_predict`?
+- **ecology-phylogeny-data-prep-q022** — Which Galaxy tool should I use to annotate a genome by predicting protein-coding genes and producing protein sequences for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/funannotate_predict/funannotate_predict/1.8.17+galaxy0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q023** — Which Galaxy tool would you recommend to perform `glimmer_gbk_to_orf`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/glimmer_gbk_to_orf/glimmer_gbk_to_orf/3.02
+- **ecology-phylogeny-data-prep-q023** — I have annotated GenBank files and need to extract translated protein sequences into a FASTA file programmatically. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q024** — Which Galaxy tool would you recommend to perform `glimmer_gbk_to_orf`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/glimmer_gbk_to_orf/glimmer_gbk_to_orf/3.02
+- **ecology-phylogeny-data-prep-q024** — I want to parse GenBank annotations and produce a multi-FASTA of predicted proteins for downstream ortholog analysis. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/glimmer_gbk_to_orf/glimmer_gbk_to_orf/3.02
+- **ecology-phylogeny-data-prep-q025** — Which Galaxy tool should I use if I need a notebook environment to extract proteins from GenBank annotations and output FASTA sequences?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q026** — Which Galaxy tool would you recommend to perform `glimmer_gbk_to_orf`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/glimmer_gbk_to_orf/glimmer_gbk_to_orf/3.02
+- **ecology-phylogeny-data-prep-q026** — Which Galaxy tool should I use to run custom code that converts GenBank annotations into protein FASTA sequences?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q027** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-phylogeny-data-prep-q027** — I need to rewrite FASTA headers by applying a regular-expression substitution (for example, adding a sample prefix to each identifier). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q028** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-phylogeny-data-prep-q028** — I want to use a regex to capture parts of a header line and replace it with a standardized identifier across a FASTA file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q029** — Which Galaxy tool should I use to find and replace patterns in a text table in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q029** — Which Galaxy tool should I use to apply regex-based find-and-replace on a text dataset (such as renaming FASTA headers) in bulk?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q030** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-phylogeny-data-prep-q030** — Which Galaxy tool should I use for regular-expression find/replace to clean up identifiers across many lines of a file?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q031** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **ecology-phylogeny-data-prep-q031** — I have a collection of FASTA files and need to combine them into a single dataset for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q032** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **ecology-phylogeny-data-prep-q032** — I want to collapse a dataset collection into one merged file so it is easier to run downstream tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q033** — Which Galaxy tool should I use to concatenate all items in a dataset collection into a single dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q034** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **ecology-phylogeny-data-prep-q034** — Which Galaxy tool can merge a collection of datasets into one dataset (collapsing a collection)?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q035** — Which Galaxy tool would you recommend to perform `proteinortho`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho/proteinortho/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q035** — I need to identify orthologous proteins across multiple proteomes and output orthogroups. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q036** — Which Galaxy tool would you recommend to perform `proteinortho`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho/proteinortho/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q036** — I want to find single-copy orthologs shared across several genomes to prepare for phylogeny reconstruction. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho/proteinortho/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q037** — Which Galaxy tool should I use if I need a notebook environment to run orthology inference across multiple proteomes and produce an orthogroups table?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q038** — Which Galaxy tool would you recommend to perform `proteinortho`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho/proteinortho/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q038** — Which Galaxy tool should I use to run custom code for ortholog detection and generate orthogroup assignments across samples?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q039** — Which Galaxy tool would you recommend to perform `busco`?
+- **ecology-phylogeny-data-prep-q039** — I want to assess genome assembly completeness using conserved single-copy orthologs and get BUSCO scores. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q040** — Which Galaxy tool would you recommend to perform `busco`?
+- **ecology-phylogeny-data-prep-q040** — I need to run BUSCO on a genome or proteome to estimate completeness and duplication rates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q041** — Which Galaxy tool should I use to compute BUSCO completeness metrics for a genome assembly before downstream analyses?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q042** — Which Galaxy tool would you recommend to perform `busco`?
+- **ecology-phylogeny-data-prep-q042** — Which Galaxy tool should I use to evaluate an assembly or annotation using BUSCO lineage datasets and get completeness reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q043** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-phylogeny-data-prep-q043** — I need to filter rows in a tabular file based on a logical condition (for example, selecting rows where specific columns meet criteria). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q044** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-phylogeny-data-prep-q044** — I want to subset a table by applying a column-based filter expression. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q045** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q045** — Which Galaxy tool should I use to keep only rows that satisfy a condition (for example, selecting orthogroups present in all samples)?
   - Tools: Filter1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q046** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-phylogeny-data-prep-q046** — Which Galaxy tool should I use to filter a tabular dataset using an expression on one or more columns?
   - Tools: Filter1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q047** — Which Galaxy tool would you recommend to perform `proteinortho_grab_proteins`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho_grab_proteins/proteinortho_grab_proteins/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q047** — I have an orthogroups table and a combined protein FASTA, and need to extract one FASTA per orthogroup containing the sequences for each sample. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q048** — Which Galaxy tool would you recommend to perform `proteinortho_grab_proteins`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho_grab_proteins/proteinortho_grab_proteins/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q048** — I need to retrieve protein sequences for each ortholog group from a multi-FASTA dataset and output a collection of per-group FASTA files. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho_grab_proteins/proteinortho_grab_proteins/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q049** — Which Galaxy tool should I use if I need a notebook environment to extract ortholog-group sequences from a combined FASTA using an orthogroups table?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q050** — Which Galaxy tool would you recommend to perform `proteinortho_grab_proteins`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/proteinortho_grab_proteins/proteinortho_grab_proteins/6.0.14+galaxy2.9.1
+- **ecology-phylogeny-data-prep-q050** — Which Galaxy tool should I use to run custom code that splits a multi-FASTA into per-orthogroup FASTA files based on a mapping table?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q051** — Which Galaxy tool would you recommend to perform `clustalw`?
+- **ecology-phylogeny-data-prep-q051** — I need to perform multiple sequence alignment of orthologous protein sequences and output an aligned FASTA for phylogenetic analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/clustalw/clustalw/2.1+galaxy1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q052** — Which Galaxy tool would you recommend to perform `clustalw`?
+- **ecology-phylogeny-data-prep-q052** — I want to align a set of protein sequences (multiple sequence alignment) to prepare a phylogeny. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/clustalw/clustalw/2.1+galaxy1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q053** — Which Galaxy tool should I use to create a multiple sequence alignment of proteins in FASTA format?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/clustalw/clustalw/2.1+galaxy1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q054** — Which Galaxy tool would you recommend to perform `clustalw`?
+- **ecology-phylogeny-data-prep-q054** — Which Galaxy tool should I use to align ortholog protein sequences across samples before building a phylogenetic tree?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/clustalw/clustalw/2.1+galaxy1
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q055** — Which Galaxy tool would you recommend to perform `clipkit`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/clipkit/clipkit/0.1.0
+- **ecology-phylogeny-data-prep-q055** — I need to trim a multiple sequence alignment by removing uninformative or highly gapped columns before phylogenetic inference. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q056** — Which Galaxy tool would you recommend to perform `clipkit`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/clipkit/clipkit/0.1.0
+- **ecology-phylogeny-data-prep-q056** — I want to clean a multiple sequence alignment by selecting informative sites and dropping noisy alignment positions. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/clipkit/clipkit/0.1.0
+- **ecology-phylogeny-data-prep-q057** — Which Galaxy tool should I use if I need a notebook environment to trim an MSA and output a filtered alignment for phylogenetic analysis?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q058** — Which Galaxy tool would you recommend to perform `clipkit`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/clipkit/clipkit/0.1.0
+- **ecology-phylogeny-data-prep-q058** — Which Galaxy tool should I use to run custom code that trims a protein alignment for phylogeny reconstruction?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q059** — Which Galaxy tool would you recommend to perform `phykit_alignment_based`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/phykit/phykit_alignment_based/0.1.0
+- **ecology-phylogeny-data-prep-q059** — I want to compute alignment-based statistics (for example number of variable sites and alignment length) from a multiple sequence alignment. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q060** — Which Galaxy tool would you recommend to perform `phykit_alignment_based`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/phykit/phykit_alignment_based/0.1.0
+- **ecology-phylogeny-data-prep-q060** — I need summary metrics for a multiple sequence alignment to assess its quality before phylogenetic inference. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q061** — Which Galaxy tool should I use to run an analysis step from the guide in Preparing genomic data for phylogeny reconstruction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/phykit/phykit_alignment_based/0.1.0
+- **ecology-phylogeny-data-prep-q061** — Which Galaxy tool should I use if I need a notebook environment to compute alignment statistics on a multiple sequence alignment?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q062** — Which Galaxy tool would you recommend to perform `phykit_alignment_based`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/padge/phykit/phykit_alignment_based/0.1.0
+- **ecology-phylogeny-data-prep-q062** — Which Galaxy tool should I use to run custom scripts that compute alignment-based summary statistics for phylogenetics?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
 
 ## RAD-Seq Reference-based data analysis (topics/ecology/tutorials/ref-based-rad-seq)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (2): zenodo.1134547, 1134547
 
 Questions:
-- **ecology-ref-based-rad-seq-q011** — Which Galaxy tool would you recommend to perform `stacks_procrad`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-ref-based-rad-seq-q011** — I need to demultiplex RAD-seq reads by barcode, filter reads based on restriction enzyme cut sites, and optionally discard low-quality reads. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q012** — Which Galaxy tool would you recommend to perform `stacks_procrad`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-ref-based-rad-seq-q012** — I want to preprocess RAD-seq data by rescuing barcodes, filtering ambiguous tags, and producing a log of retained and discarded reads. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q013** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-ref-based-rad-seq-q013** — Which Galaxy tool should I use if I need a notebook environment to implement RAD-seq demultiplexing and quality filtering based on barcodes and cut sites?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q014** — Which Galaxy tool would you recommend to perform `stacks_procrad`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-ref-based-rad-seq-q014** — Which Galaxy tool should I use to run custom code that performs RAD-seq demultiplexing and produces cleaned per-sample FASTQ outputs?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q015** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q015** — I need to replace a substring in each line of a log or text file to label different parameter settings. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q016** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+- **ecology-ref-based-rad-seq-q016** — I want to do a simple search-and-replace across every line in a text file to standardize labels. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
 - **ecology-ref-based-rad-seq-q017** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq Reference-based data analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
