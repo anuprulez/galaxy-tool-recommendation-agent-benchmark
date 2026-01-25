@@ -446,12 +446,12 @@ Questions:
 
 ## Making sense of a newly assembled genome (topics/assembly/tutorials/ecoli_comparison)
 - Topic: assembly
-- Tools: Cut1
+- Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
 - Datasets (4): GCA_000005845.2_ASM584v2, 1306128, 3382053, genomes_proks.txt
 
 Questions:
 - **assembly-ecoli_comparison-q011** — Which Galaxy tool should I use to run `Cut`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q012** — What Galaxy tool should I run for `Upload`?
   - Tools: upload1
@@ -478,19 +478,19 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q020** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q021** — What Galaxy tool should I run for `Collapse Collection`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q022** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q023** — Which Galaxy tool should I use to run `Merge Columns together`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q024** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q025** — What Galaxy tool should I run for `Add column to an existing dataset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1
@@ -529,7 +529,7 @@ Questions:
   - Tools: join1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q037** — Which Galaxy tool would you recommend to perform `select lines`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q038** — Which Galaxy tool would you recommend to perform `Rules`?
   - Tools: Rules
@@ -541,7 +541,7 @@ Questions:
   - Tools: Circos: Alignments to links
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q041** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q042** — Which Galaxy tool should I use to upload reference and assembly files?
   - Tools: upload1
@@ -568,16 +568,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q050** — Which Galaxy tool finds or filters lines by a text pattern?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q051** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q052** — Which Galaxy tool would you recommend to perform `mergeCols1`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q053** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q054** — Which Galaxy tool would you recommend to perform `addValue`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1
@@ -616,10 +616,10 @@ Questions:
   - Tools: join1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q066** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 - **assembly-ecoli_comparison-q067** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 
 ## An Introduction to Genome Assembly (topics/assembly/tutorials/general-introduction)
