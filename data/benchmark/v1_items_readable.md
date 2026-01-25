@@ -1023,7 +1023,7 @@ Questions:
   - Tools: upload1
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q023** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q024** — Which Galaxy tool would you recommend to perform `fastp`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
@@ -1055,12 +1055,12 @@ Questions:
 
 ## Unicycler Assembly (topics/assembly/tutorials/unicycler-assembly)
 - Topic: assembly
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
 - Datasets (3): zenodo.940733, 940733, illumina_f.fq
 
 Questions:
 - **assembly-unicycler-assembly-q011** — Which Galaxy tool would you recommend to perform `FastQC`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
 - **assembly-unicycler-assembly-q012** — Which Galaxy tool would you recommend to perform `MultiQC`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
@@ -1075,7 +1075,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.940733, 940733, illumina_f.fq
 - **assembly-unicycler-assembly-q016** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
 - **assembly-unicycler-assembly-q017** — Which Galaxy tool would you recommend to perform `unicycler`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.5.1+galaxy0
@@ -1115,7 +1115,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q017** — What Galaxy tool should I run for `Search in textfiles`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q018** — Which Galaxy tool should I use to run `Busco`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
@@ -1127,7 +1127,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q021** — What Galaxy tool should I run for `Advanced Cut`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q022** — Which Galaxy tool should I use to run `Collapse Collection`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
@@ -1139,7 +1139,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/purge_dups/purge_dups/1.2.6+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q025** — Which Galaxy tool should I use to run `Concatenate datasets`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q026** — What Galaxy tool should I run for `Bionano Hybrid Scaffold`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bionano_scaffold/bionano_scaffold/3.7.0+galaxy3
@@ -1178,7 +1178,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q038** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q039** — Which Galaxy tool would you recommend to perform `busco`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
@@ -1190,7 +1190,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q042** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q043** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
@@ -1202,7 +1202,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/purge_dups/purge_dups/1.2.6+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q046** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q047** — Which Galaxy tool would you recommend to perform `bionano_scaffold`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bionano_scaffold/bionano_scaffold/3.7.0+galaxy3
@@ -1229,7 +1229,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q055** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q056** — Which Galaxy tool would you recommend to perform `Convert characters1`?
   - Tools: Convert_characters1
@@ -1307,7 +1307,7 @@ Questions:
   - Tools: interactive_tool_panoply
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 - **climate-climate-101-q012** — Which Galaxy tool should I use to run `Select lines that match an expression`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 - **climate-climate-101-q013** — Which Galaxy tool would you recommend to perform `Datamash`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
@@ -1328,7 +1328,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 - **climate-climate-101-q019** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 - **climate-climate-101-q020** — Which Galaxy tool would you recommend to perform `datamash_ops`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
