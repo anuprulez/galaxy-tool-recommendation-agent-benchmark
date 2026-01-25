@@ -2064,16 +2064,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/2020.03.4+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q015** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q016** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q018** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q019** — Which Galaxy tool would you recommend to perform `ctb_frankenstein_ligand`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
@@ -2088,16 +2088,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q023** — Which Galaxy tool would you recommend to perform `rdock_rbcavity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q024** — Which Galaxy tool would you recommend to perform `rdock_rbcavity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q026** — Which Galaxy tool would you recommend to perform `rdock_rbcavity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q027** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
@@ -2112,16 +2112,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q031** — Which Galaxy tool would you recommend to perform `rdock_rbdock`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q032** — Which Galaxy tool would you recommend to perform `rdock_rbdock`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q034** — Which Galaxy tool would you recommend to perform `rdock_rbdock`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q035** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
@@ -2172,16 +2172,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/enumerate_charges/enumerate_charges/2020.03.4+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q051** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q052** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q054** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q055** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
@@ -2208,28 +2208,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q063** — Which Galaxy tool would you recommend to perform `rxdock_rbcavity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q064** — Which Galaxy tool would you recommend to perform `rxdock_rbcavity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q065** — Which Galaxy tool should I use to run an analysis step from the guide in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q066** — Which Galaxy tool would you recommend to perform `rxdock_rbcavity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbcavity/rxdock_rbcavity/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbcavity/rdock_rbcavity/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q067** — Which Galaxy tool would you recommend to perform `rxdock_rbdock`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q068** — Which Galaxy tool would you recommend to perform `rxdock_rbdock`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q069** — Which Galaxy tool should I use to run an analysis step from the guide in Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q070** — Which Galaxy tool would you recommend to perform `rxdock_rbdock`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rxdock_rbdock/rxdock_rbdock/2013.1.1_148c5bd1+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q071** — Which Galaxy tool would you recommend to perform `xchem_transfs_scoring`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0
