@@ -4528,94 +4528,94 @@ Questions:
 - **ecology-Obitools-metabarcoding-q048** — Which Galaxy tool would you recommend to generate a contingency table / basic statistics over values stored in FASTA/FASTQ record annotations?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+- **ecology-Obitools-metabarcoding-q049** — I have sequences whose headers contain annotation attributes (e.g., a per-record count) and I want a summary table of how many records fall into each value. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q050** — Which Galaxy tool would you recommend to perform `obi_stat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+- **ecology-Obitools-metabarcoding-q050** — I need to compute basic statistics over values stored in FASTA/FASTQ header annotations and output a small contingency table for downstream filtering. Which Galaxy tool would you recommend?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q051** — Which Galaxy tool would you recommend to perform `obi_clean`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+- **ecology-Obitools-metabarcoding-q051** — I want to denoise amplicon sequencing reads to correct PCR/sequencing errors and infer true sequence variants. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/q2d2/qiime2__dada2__denoise_single/qiime2__dada2__denoise_single/2025.10.0+q2galaxy.2025.10.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q052** — Which Galaxy tool would you recommend to perform `obi_clean`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+- **ecology-Obitools-metabarcoding-q052** — Which Galaxy tool would you recommend for amplicon denoising (error-correction) so I end up with high-confidence sequence variants?
+  - Tools: toolshed.g2.bx.psu.edu/repos/q2d2/qiime2__dada2__denoise_single/qiime2__dada2__denoise_single/2025.10.0+q2galaxy.2025.10.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+- **ecology-Obitools-metabarcoding-q053** — I need to remove likely PCR/sequencing artefacts from amplicon reads and keep the high-abundance representative sequences. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/q2d2/qiime2__dada2__denoise_single/qiime2__dada2__denoise_single/2025.10.0+q2galaxy.2025.10.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q054** — Which Galaxy tool would you recommend to perform `obi_clean`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_clean/obi_clean/1.2.13
+- **ecology-Obitools-metabarcoding-q054** — How can I perform denoising on amplicon reads in Galaxy to reduce spurious variants and retain the most plausible biological sequences? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/q2d2/qiime2__dada2__denoise_single/qiime2__dada2__denoise_single/2025.10.0+q2galaxy.2025.10.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q055** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
+- **ecology-Obitools-metabarcoding-q055** — I need to search nucleotide sequences against a nucleotide reference database to find the closest matches for taxonomic or functional identification. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q056** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
+- **ecology-Obitools-metabarcoding-q056** — Which Galaxy tool would you recommend to run a nucleotide-vs-nucleotide similarity search (BLASTN) and get the top hit per query sequence?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q057** — I want to align a set of DNA sequences against a nucleotide database and export a tabular hits table for downstream filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q058** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
+- **ecology-Obitools-metabarcoding-q058** — How can I perform a BLASTN search of DNA sequences against a FASTA database in Galaxy and keep only the best match? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q059** — Which Galaxy tool would you recommend to perform `seq_filter_by_id`?
+- **ecology-Obitools-metabarcoding-q059** — I have a FASTA file and a list of sequence identifiers from a separate table, and I want to keep only the matching sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q060** — Which Galaxy tool would you recommend to perform `seq_filter_by_id`?
+- **ecology-Obitools-metabarcoding-q060** — Which Galaxy tool would you recommend to filter a sequence dataset by a list of IDs provided in a tabular file (keeping only positive matches)?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q061** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q061** — I need to subset a FASTA/FASTQ dataset based on IDs found in a results table (e.g., keep sequences that had database hits). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q062** — Which Galaxy tool would you recommend to perform `seq_filter_by_id`?
+- **ecology-Obitools-metabarcoding-q062** — How can I extract only sequences whose identifiers appear in a given column of a tabular file? Which Galaxy tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.9
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q063** — Which Galaxy tool would you recommend to perform `obi_tab`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+- **ecology-Obitools-metabarcoding-q063** — I have a FASTA file and want to convert it into a tabular format (one row per record with identifier and sequence) so it is easier to inspect and join with other tables. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q064** — Which Galaxy tool would you recommend to perform `obi_tab`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+- **ecology-Obitools-metabarcoding-q064** — Which Galaxy tool would you recommend to convert a FASTA dataset into a simple tabular table for easier viewing and downstream joins?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q065** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+- **ecology-Obitools-metabarcoding-q065** — I need to turn a FASTA file into a tabular dataset so I can work with record identifiers and metadata in a spreadsheet-like format. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q066** — Which Galaxy tool would you recommend to perform `obi_tab`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_tab/obi_tab/1.2.13
+- **ecology-Obitools-metabarcoding-q066** — How can I convert a FASTA file to a tabular representation in Galaxy for downstream filtering and joining? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q067** — Which Galaxy tool would you recommend to perform `join1`?
+- **ecology-Obitools-metabarcoding-q067** — I want to join two tabular datasets side-by-side using a shared key column and fill missing matches with a constant value. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q068** — Which Galaxy tool would you recommend to perform `join1`?
+- **ecology-Obitools-metabarcoding-q068** — Which Galaxy tool would you recommend to merge two tables by a matching field (left-join style) while filling empty columns with NA?
   - Tools: join1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q069** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q069** — I need to combine two tabular files on a specific column so that columns from both appear in a single output table. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q070** — Which Galaxy tool would you recommend to perform `join1`?
+- **ecology-Obitools-metabarcoding-q070** — How can I join two datasets on selected columns (table join) in Galaxy and keep unmatched rows with placeholder values? Which tool would you recommend?
   - Tools: join1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q071** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **ecology-Obitools-metabarcoding-q071** — I have a wide tabular dataset and want to extract only a subset of columns for a compact summary table. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q072** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **ecology-Obitools-metabarcoding-q072** — Which Galaxy tool would you recommend to select and reorder specific columns from a table by column number?
   - Tools: Cut1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q073** — Which Galaxy tool should I use to select specific columns from a tabular file in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q073** — I need to keep only a chosen set of columns from a tabular file (dropping the rest). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q074** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **ecology-Obitools-metabarcoding-q074** — How can I extract a few relevant columns from a large table in Galaxy to create a smaller report-friendly table? Which tool would you recommend?
   - Tools: Cut1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q075** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-Obitools-metabarcoding-q075** — I need to filter rows in a tabular dataset using a boolean expression on one or more numeric columns (e.g., keep rows where any count exceeds a threshold). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q076** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-Obitools-metabarcoding-q076** — Which Galaxy tool would you recommend to apply a simple filter condition (like c3>1000 or c4>1000) to keep only matching rows in a table?
   - Tools: Filter1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q077** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q077** — I want to remove rows from a table that do not satisfy a specified condition on columns (with optional header skipping). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q078** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-Obitools-metabarcoding-q078** — How can I filter a tabular file in Galaxy using straightforward expressions over columns to keep only significant records? Which tool would you recommend?
   - Tools: Filter1
   - Datasets: 5932108
 
@@ -4625,196 +4625,196 @@ Questions:
 - Datasets (4): zenodo.1324204, zenodo.4264936, 1324204, 4264936
 
 Questions:
-- **ecology-PAMPA-toolsuite-tutorial-q011** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-PAMPA-toolsuite-tutorial-q011** — I need to perform a regex-based find/replace on values in a specific column of a tabular dataset (e.g., normalize column names or fix formatting). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q012** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-PAMPA-toolsuite-tutorial-q012** — Which Galaxy tool would you recommend to apply a regular-expression replacement to selected cells in one column of a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q013** — Which Galaxy tool should I use to find and replace patterns in a text table in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q013** — I want to clean inconsistencies in a single column of a tabular file using regex substitutions (including multiple rules). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q014** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-PAMPA-toolsuite-tutorial-q014** — How can I do column-specific regex find-and-replace in a table in Galaxy to standardize values? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q015** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **ecology-PAMPA-toolsuite-tutorial-q015** — I need to concatenate multiple tabular files into a single dataset while keeping the order of records. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q016** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **ecology-PAMPA-toolsuite-tutorial-q016** — Which Galaxy tool would you recommend to append several datasets tail-to-head to create one combined file?
   - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q017** — I want to combine several input files into one by simple concatenation (no joining on keys). Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q018** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **ecology-PAMPA-toolsuite-tutorial-q018** — How can I concatenate multiple datasets into a single output dataset in Galaxy? Which tool would you recommend?
   - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q019** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q019** — I need to concatenate two columns in a tabular file to create a new composite key (e.g., year + site) for later joins. Which Galaxy tool should I use?
+  - Tools: mergeCols1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q020** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q020** — Which Galaxy tool would you recommend to merge multiple columns into one combined column by concatenation (row-by-row)?
+  - Tools: mergeCols1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q021** — I want to build a single identifier column by joining values from two existing columns in a table. Which Galaxy tool should I use?
+  - Tools: mergeCols1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q022** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q022** — How can I create a new column by concatenating values from selected columns in a tabular dataset? Which Galaxy tool would you recommend?
+  - Tools: mergeCols1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q023** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-PAMPA-toolsuite-tutorial-q023** — I want to count how many times each unique line/record occurs in a dataset to detect duplicates or repeated headers. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q024** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-PAMPA-toolsuite-tutorial-q024** — Which Galaxy tool would you recommend to compute the frequency of each distinct record (count occurrences) in a file?
   - Tools: Count1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q025** — I need a table of unique records and their occurrence counts so I can spot duplicates. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q026** — Which Galaxy tool would you recommend to perform `Count1`?
+- **ecology-PAMPA-toolsuite-tutorial-q026** — How can I count occurrences of each distinct row/line in a dataset in Galaxy? Which tool would you recommend?
   - Tools: Count1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q027** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-PAMPA-toolsuite-tutorial-q027** — I have a tabular dataset and want to keep/remove rows based on a simple condition (e.g., remove duplicated header rows or keep specific surveys). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q028** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-PAMPA-toolsuite-tutorial-q028** — Which Galaxy tool would you recommend to filter a table using an expression over columns so I can clean a combined dataset before analysis?
   - Tools: Filter1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q029** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q029** — I need to filter tabular records by a simple rule to clean a dataset (e.g., retain only valid values and drop duplicates). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q030** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-PAMPA-toolsuite-tutorial-q030** — How can I filter rows from a table using simple expressions in Galaxy as part of data cleaning? Which tool would you recommend?
   - Tools: Filter1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q031** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-PAMPA-toolsuite-tutorial-q031** — I need to apply regex-based find/replace across entire lines of a text/tabular file to rename headers or standardize column names. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q032** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-PAMPA-toolsuite-tutorial-q032** — Which Galaxy tool would you recommend to do global regex find-and-replace on a dataset (line-wise substitutions)?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q033** — Which Galaxy tool should I use to find and replace patterns in a text table in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q033** — I want to clean a dataset by running several regex replacements over the whole file (e.g., normalize field names). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q034** — Which Galaxy tool would you recommend to perform `regex1`?
+- **ecology-PAMPA-toolsuite-tutorial-q034** — How can I perform file-wide regex substitutions in Galaxy to standardize a text or tabular dataset? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q035** — Which Galaxy tool would you recommend to perform `pampa_presabs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q035** — I have ecological survey observations and want to compute a per-species presence/absence table (and keep abundance/counts as well) by year and sampling location. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q036** — Which Galaxy tool would you recommend to perform `pampa_presabs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q036** — Which Galaxy tool would you recommend to turn multi-survey observation tables into presence/absence summaries per species and observation unit?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q037** — I need to derive presence/absence indicators from species count observations across multiple surveys and sites. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q038** — Which Galaxy tool would you recommend to perform `pampa_presabs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q038** — How can I compute a presence/absence table from ecological survey records (year, site, species, counts) in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q039** — Which Galaxy tool would you recommend to perform `pampa_communitymetrics`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q039** — I have community survey data with species counts and want to compute standard diversity indices (e.g., richness, Shannon, Simpson) per year and sampling site. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q040** — Which Galaxy tool would you recommend to perform `pampa_communitymetrics`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q040** — Which Galaxy tool would you recommend to calculate community-level biodiversity metrics from a table of species abundances across observation units?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q041** — I need to compute multiple community diversity metrics from ecological survey counts and output a tidy table by time and location. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q042** — Which Galaxy tool would you recommend to perform `pampa_communitymetrics`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q042** — How can I compute common community metrics (richness and diversity indices) from species count data in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q043** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-PAMPA-toolsuite-tutorial-q043** — I need to add a pattern-based prefix/suffix or replace missing values in one column using regex rules. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q044** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-PAMPA-toolsuite-tutorial-q044** — Which Galaxy tool would you recommend for column-wise regex editing (e.g., replacing blanks with NA) in a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q045** — Which Galaxy tool should I use to find and replace patterns in a text table in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q045** — I want to use regex rules to edit only one column (not the whole row) in a table so downstream tools see standardized values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q046** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-PAMPA-toolsuite-tutorial-q046** — How can I apply one or more regex replacements to a chosen column in a tabular dataset in Galaxy? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q047** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q047** — I have a wide table and need an advanced column-selection tool that can keep/discard fields with options for delimiters and headers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q048** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q048** — Which Galaxy tool would you recommend to keep only selected fields from a tabular dataset when I need advanced cut options (delimiter/header handling)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q049** — I want to drop unneeded columns from a table and keep only specific fields for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q050** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q050** — How can I perform an advanced cut operation on a tabular dataset (selecting fields with header-aware options) in Galaxy? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q051** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q051** — I need to sort a tabular dataset by a chosen column (e.g., alphabetical or numeric sorting) and optionally output unique values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q052** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q052** — Which Galaxy tool would you recommend to sort a table by a specific field and remove duplicate rows if needed?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q053** — I want to order a dataset by one column to prepare it for downstream analysis and optionally keep only unique records. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q054** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q054** — How can I sort a tabular dataset (with header awareness) by a selected column in Galaxy? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q055** — Which Galaxy tool would you recommend to perform `pampa_glmcomm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q055** — I want to fit a generalized linear (mixed) model for a community-level response (e.g., species richness) using predictors like year and site and an optional random effect. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q056** — Which Galaxy tool would you recommend to perform `pampa_glmcomm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q056** — Which Galaxy tool would you recommend to run GLM/GLMM analyses on community metrics with grouping by survey and effects such as year and location?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q057** — I need to model a community biodiversity metric over time and space with a GLM/GLMM, accounting for site as a random effect. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q058** — Which Galaxy tool would you recommend to perform `pampa_glmcomm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q058** — How can I fit GLM/GLMM models to community-level ecological metrics (with fixed and random effects) in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q059** — Which Galaxy tool would you recommend to perform `pampa_glmsp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q059** — I want to fit a generalized linear (mixed) model for species-level population data (abundance/presence) with predictors like year and site. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q060** — Which Galaxy tool would you recommend to perform `pampa_glmsp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q060** — Which Galaxy tool would you recommend to run GLM/GLMM analyses on per-species population metrics across years and locations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q061** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q061** — I need to model population trends for a single species using survey data and a GLM/GLMM framework. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q062** — Which Galaxy tool would you recommend to perform `pampa_glmsp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q062** — How can I compute GLM/GLMM models for population metrics (per species) using covariates such as year and sampling site in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q063** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **ecology-PAMPA-toolsuite-tutorial-q063** — I need to transpose a tabular dataset (swap rows and columns) to make model outputs easier to read and plot. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q064** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **ecology-PAMPA-toolsuite-tutorial-q064** — Which Galaxy tool would you recommend to transpose a table so that columns become rows and vice versa?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q065** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q065** — I want to pivot a tabular output by transposing it because the output has many columns and few rows. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q066** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **ecology-PAMPA-toolsuite-tutorial-q066** — How can I transpose a tabular dataset in Galaxy to improve readability of summary/model results? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q067** — Which Galaxy tool would you recommend to perform `pampa_plotglm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q067** — I have GLM/GLMM results and want to generate time-series style plots of fitted effects (with confidence intervals) to interpret trends. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q068** — Which Galaxy tool would you recommend to perform `pampa_plotglm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q068** — Which Galaxy tool would you recommend to visualize GLM results from ecological models as publication-ready plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q069** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q069** — I need to plot modeled trends (e.g., year effects) from GLM outputs and compare across groups/surveys. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q070** — Which Galaxy tool would you recommend to perform `pampa_plotglm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2
+- **ecology-PAMPA-toolsuite-tutorial-q070** — How can I create plots from GLM/GLMM output tables (effects over time and/or site) in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q071** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q071** — I need to join two tabular files on a key column, with convenient options for matching and formatting the output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q072** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q072** — Which Galaxy tool would you recommend for an easy table join operation that merges two datasets by a shared field?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q073** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
+- **ecology-PAMPA-toolsuite-tutorial-q073** — I want to combine two tables by matching a common identifier column to build a unified dataset for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
-- **ecology-PAMPA-toolsuite-tutorial-q074** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **ecology-PAMPA-toolsuite-tutorial-q074** — How can I perform a user-friendly join of two tabular datasets on a key column in Galaxy? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
 
@@ -4824,22 +4824,22 @@ Questions:
 - Datasets (2): zenodo.10572227, 10572227
 
 Questions:
-- **ecology-bacterial-isolate-species-contamination-checking-q011** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **ecology-bacterial-isolate-species-contamination-checking-q011** — I have shotgun sequencing reads from a bacterial isolate and want to classify them taxonomically to detect unexpected species or contamination. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q012** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **ecology-bacterial-isolate-species-contamination-checking-q012** — Which Galaxy tool would you recommend for fast k-mer based taxonomic classification of sequencing reads against a Kraken database?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Checking expected species and contamination in bacterial isolate?
+- **ecology-bacterial-isolate-species-contamination-checking-q013** — I need to identify the taxonomic composition of a sequencing dataset and get a report of reads assigned to taxa. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q014** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **ecology-bacterial-isolate-species-contamination-checking-q014** — How can I run a taxonomic classifier on reads in Galaxy to profile potential contaminants in an isolate sample? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q015** — Which Galaxy tool would you recommend to perform `est_abundance`?
+- **ecology-bacterial-isolate-species-contamination-checking-q015** — I have a taxonomic classification report from a k-mer classifier and want to estimate species/genus abundances with corrected read counts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q016** — Which Galaxy tool would you recommend to perform `est_abundance`?
+- **ecology-bacterial-isolate-species-contamination-checking-q016** — Which Galaxy tool would you recommend to refine a Kraken-style report into quantitative abundance estimates at a chosen taxonomic level?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
 - **ecology-bacterial-isolate-species-contamination-checking-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Checking expected species and contamination in bacterial isolate?
