@@ -4842,284 +4842,284 @@ Questions:
 - **ecology-bacterial-isolate-species-contamination-checking-q016** — Which Galaxy tool would you recommend to refine a Kraken-style report into quantitative abundance estimates at a chosen taxonomic level?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Checking expected species and contamination in bacterial isolate?
+- **ecology-bacterial-isolate-species-contamination-checking-q017** — I have a taxonomic classification report from a k-mer classifier and want to re-estimate abundances at a chosen taxonomic rank. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q018** — Which Galaxy tool would you recommend to perform `est_abundance`?
+- **ecology-bacterial-isolate-species-contamination-checking-q018** — After a metagenomic read classification step, I want to convert the classification output into an estimated abundance table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q019** — Which Galaxy tool would you recommend to perform `recentrifuge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0
+- **ecology-bacterial-isolate-species-contamination-checking-q019** — I want an interactive report to explore and compare taxonomic classification profiles and spot low-abundance contaminants. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0, interactive_tool_pavian
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q020** — Which Galaxy tool would you recommend to perform `recentrifuge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0
+- **ecology-bacterial-isolate-species-contamination-checking-q020** — I need to visualize a metagenomic classification report interactively to detect potential cross-sample contamination. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0, interactive_tool_pavian
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Checking expected species and contamination in bacterial isolate?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0
+- **ecology-bacterial-isolate-species-contamination-checking-q021** — I want to generate an interactive taxonomy exploration dashboard from classification reports and inspect minority organisms. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0, interactive_tool_pavian
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q022** — Which Galaxy tool would you recommend to perform `recentrifuge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0
+- **ecology-bacterial-isolate-species-contamination-checking-q022** — I have multiple taxonomic classification reports and want an interactive comparison and visualization in Galaxy. Which tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0, interactive_tool_pavian
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q023** — Which Galaxy tool would you recommend to perform `upload1`?
+- **ecology-bacterial-isolate-species-contamination-checking-q023** — I need to import local files into a new Galaxy history before running analysis. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q024** — Which Galaxy tool would you recommend to perform `upload1`?
+- **ecology-bacterial-isolate-species-contamination-checking-q024** — What Galaxy tool should I use to upload files from my computer into my history?
   - Tools: upload1
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q025** — Which Galaxy tool should I use to upload data into my Galaxy history in Checking expected species and contamination in bacterial isolate?
+- **ecology-bacterial-isolate-species-contamination-checking-q025** — I want to start an analysis by bringing input files into Galaxy (FASTQ/TSV/etc.). Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q026** — Which Galaxy tool would you recommend to perform `upload1`?
+- **ecology-bacterial-isolate-species-contamination-checking-q026** — Which Galaxy tool lets me upload data into my history (from local disk or from a URL)?
   - Tools: upload1
   - Datasets: 10572227, zenodo.10572227
 
 ## Biodiversity data exploration (topics/ecology/tutorials/biodiversity-data-exploration)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_anonymization/tool_anonymization/0.0.0
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (1): 6107457
 
 Questions:
-- **ecology-biodiversity-data-exploration-q011** — Which Galaxy tool would you recommend to perform `tool_anonymization`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_anonymization/tool_anonymization/0.0.0
+- **ecology-biodiversity-data-exploration-q011** — I need to anonymize latitude/longitude coordinates in an ecology table before sharing it. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q012** — Which Galaxy tool would you recommend to perform `tool_anonymization`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_anonymization/tool_anonymization/0.0.0
+- **ecology-biodiversity-data-exploration-q012** — How can I spatially anonymize sampling coordinates (jitter/shift) in a tabular dataset in Galaxy? Which tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_anonymization/tool_anonymization/0.0.0
+- **ecology-biodiversity-data-exploration-q013** — I want to obscure exact sampling locations in a biodiversity dataset by modifying coordinate columns while keeping overall spatial patterns. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q014** — Which Galaxy tool would you recommend to perform `tool_anonymization`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_anonymization/tool_anonymization/0.0.0
+- **ecology-biodiversity-data-exploration-q014** — Which Galaxy tool should I use to anonymize geographic coordinates in a table of species observations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q015** — Which Galaxy tool would you recommend to perform `ecology_homogeneity_normality`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_homogeneity_normality/ecology_homogeneity_normality/0.0.0
+- **ecology-biodiversity-data-exploration-q015** — I want to check whether abundance values are normally distributed and whether variances are homogeneous across groups, and get diagnostic plots. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q016** — Which Galaxy tool would you recommend to perform `ecology_homogeneity_normality`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_homogeneity_normality/ecology_homogeneity_normality/0.0.0
+- **ecology-biodiversity-data-exploration-q016** — Which Galaxy tool can run normality and homoscedasticity tests (for example Kolmogorov–Smirnov and Levene) and produce Q-Q plots and boxplots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_homogeneity_normality/ecology_homogeneity_normality/0.0.0
+- **ecology-biodiversity-data-exploration-q017** — I need to assess distribution assumptions for an ecological abundance table (normality and equal variances) before choosing statistical tests. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q018** — Which Galaxy tool would you recommend to perform `ecology_homogeneity_normality`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_homogeneity_normality/ecology_homogeneity_normality/0.0.0
+- **ecology-biodiversity-data-exploration-q018** — What Galaxy tool should I use to test normality and homogeneity of variance for species abundance data and generate diagnostic plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q019** — Which Galaxy tool would you recommend to perform `ecology_link_between_var`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_link_between_var/ecology_link_between_var/0.0.0
+- **ecology-biodiversity-data-exploration-q019** — I want to check autocorrelation in a numeric variable and get an autocorrelation function plot in Galaxy. Which tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q020** — Which Galaxy tool would you recommend to perform `ecology_link_between_var`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_link_between_var/ecology_link_between_var/0.0.0
+- **ecology-biodiversity-data-exploration-q020** — Which Galaxy tool can help me explore relationships between variables, including autocorrelation and correlation/collinearity diagnostics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_link_between_var/ecology_link_between_var/0.0.0
+- **ecology-biodiversity-data-exploration-q021** — I need to evaluate collinearity between numeric variables (optionally per species) and generate correlation plots. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q022** — Which Galaxy tool would you recommend to perform `ecology_link_between_var`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_link_between_var/ecology_link_between_var/0.0.0
+- **ecology-biodiversity-data-exploration-q022** — What Galaxy tool should I use to explore variable links (autocorrelation and collinearity) in a tabular ecology dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q023** — Which Galaxy tool would you recommend to perform `ecology_presence_abs_abund`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_presence_abs_abund/ecology_presence_abs_abund/0.0.0
+- **ecology-biodiversity-data-exploration-q023** — I want to map abundances of taxa across sampling coordinates (latitude/longitude) and generate an abundance map. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q024** — Which Galaxy tool would you recommend to perform `ecology_presence_abs_abund`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_presence_abs_abund/ecology_presence_abs_abund/0.0.0
+- **ecology-biodiversity-data-exploration-q024** — Which Galaxy tool can summarize presence/absence and abundance patterns (maps, barplots, rarefaction curves) from a table of observations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_presence_abs_abund/ecology_presence_abs_abund/0.0.0
+- **ecology-biodiversity-data-exploration-q025** — I need to visualize where taxa occur and how abundant they are across locations, including rarefaction-style summaries. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q026** — Which Galaxy tool would you recommend to perform `ecology_presence_abs_abund`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_presence_abs_abund/ecology_presence_abs_abund/0.0.0
+- **ecology-biodiversity-data-exploration-q026** — What Galaxy tool should I use to produce abundance and presence/absence visualizations from an ecological observations table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q027** — Which Galaxy tool would you recommend to perform `ecology_stat_presence_abs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_stat_presence_abs/ecology_stat_presence_abs/0.0.0
+- **ecology-biodiversity-data-exploration-q027** — I want a boxplot/dispersion view of a numeric variable by species and a plot of co-absence correlations between species. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q028** — Which Galaxy tool would you recommend to perform `ecology_stat_presence_abs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_stat_presence_abs/ecology_stat_presence_abs/0.0.0
+- **ecology-biodiversity-data-exploration-q028** — Which Galaxy tool can compute and visualize correlations of species absence (co-absence) along with abundance dispersion summaries?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_stat_presence_abs/ecology_stat_presence_abs/0.0.0
+- **ecology-biodiversity-data-exploration-q029** — I need to assess how dispersed abundance values are and whether species absences are correlated across sites and time. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q030** — Which Galaxy tool would you recommend to perform `ecology_stat_presence_abs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_stat_presence_abs/ecology_stat_presence_abs/0.0.0
+- **ecology-biodiversity-data-exploration-q030** — What Galaxy tool should I use for presence–absence statistics, including co-absence correlation visualization?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q031** — Which Galaxy tool would you recommend to perform `ecology_beta_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_beta_diversity/ecology_beta_diversity/0.0.0
+- **ecology-biodiversity-data-exploration-q031** — I want to compute beta-diversity diagnostics such as local and species contributions to beta diversity and visualize them across space and time. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q032** — Which Galaxy tool would you recommend to perform `ecology_beta_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_beta_diversity/ecology_beta_diversity/0.0.0
+- **ecology-biodiversity-data-exploration-q032** — Which Galaxy tool can calculate local and species contributions to beta diversity from abundance observations and produce summary plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_beta_diversity/ecology_beta_diversity/0.0.0
+- **ecology-biodiversity-data-exploration-q033** — I need to quantify beta diversity and identify taxa or sites contributing most to it, with spatial visualizations. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q034** — Which Galaxy tool would you recommend to perform `ecology_beta_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecology_beta_diversity/ecology_beta_diversity/0.0.0
+- **ecology-biodiversity-data-exploration-q034** — What Galaxy tool should I use to compute local and species contributions to beta diversity and generate beta-diversity visualizations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q035** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **ecology-biodiversity-data-exploration-q035** — I have a tabular file with a metadata header block and need to drop the first N lines to get a clean table. Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q036** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **ecology-biodiversity-data-exploration-q036** — Which Galaxy tool can remove a fixed number of lines from the beginning of a dataset?
+  - Tools: Remove beginning1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: Remove_beginning1
+- **ecology-biodiversity-data-exploration-q037** — I need to strip a few header/comment lines from the top of a text file before downstream parsing. Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q038** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **ecology-biodiversity-data-exploration-q038** — What Galaxy tool should I use to remove the leading lines from a dataset so only the data table remains?
+  - Tools: Remove beginning1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q039** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-biodiversity-data-exploration-q039** — I need to keep only specific columns from a tabular dataset (like selecting fields from a TSV). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q040** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-biodiversity-data-exploration-q040** — Which Galaxy tool should I use to extract a subset of columns from a table and discard the rest?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Biodiversity data exploration?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-biodiversity-data-exploration-q041** — I want to select columns by index from a tabular file to build a simplified table. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q042** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- **ecology-biodiversity-data-exploration-q042** — What Galaxy tool can extract chosen columns from a table (TSV/CSV) in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q043** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-biodiversity-data-exploration-q043** — I want to use a regular expression to rewrite values in one column of a tabular dataset (for example, extract a year from a date). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q044** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-biodiversity-data-exploration-q044** — Which Galaxy tool can apply regex find-and-replace to a specific column in a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q045** — Which Galaxy tool should I use to find and replace patterns in a text table in Biodiversity data exploration?
+- **ecology-biodiversity-data-exploration-q045** — I need to clean a tabular column with a regex substitution while leaving other columns unchanged. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q046** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **ecology-biodiversity-data-exploration-q046** — What Galaxy tool should I use for column-wise regex replacement in a TSV/CSV file?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6107457
 
 ## Champs blocs indicators (topics/ecology/tutorials/champs-blocs)
 - Topic: ecology
-- Tools: cb_ivr
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (1): None
 
 Questions:
-- **ecology-champs-blocs-q011** — Which Galaxy tool would you recommend to perform `cb_ivr`?
-  - Tools: cb_ivr
+- **ecology-champs-blocs-q011** — I need to compute an IVR-style ecological indicator from field survey tables and generate plots. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q012** — Which Galaxy tool would you recommend to perform `cb_ivr`?
-  - Tools: cb_ivr
+- **ecology-champs-blocs-q012** — Which Galaxy tool should I use to calculate an ecological indicator index from survey data and output summary tables and figures?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Champs blocs indicators?
-  - Tools: cb_ivr
+- **ecology-champs-blocs-q013** — I want to reproduce an indicator computation workflow for boulder-field monitoring using custom R code. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q014** — Which Galaxy tool would you recommend to perform `cb_ivr`?
-  - Tools: cb_ivr
+- **ecology-champs-blocs-q014** — What Galaxy tool should I use for running an indicator-calculation script on tabular ecology survey data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q015** — Which Galaxy tool would you recommend to perform `cb_qecb`?
-  - Tools: cb_qecb
+- **ecology-champs-blocs-q015** — I need to compute a QECB ecological quality indicator from multiple input tables and generate summary outputs. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q016** — Which Galaxy tool would you recommend to perform `cb_qecb`?
-  - Tools: cb_qecb
+- **ecology-champs-blocs-q016** — Which Galaxy tool should I use to run an R-based computation of an ecological quality coefficient from survey datasets?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Champs blocs indicators?
-  - Tools: cb_qecb
+- **ecology-champs-blocs-q017** — I want to calculate a habitat quality indicator that outputs both plots and a results table from input CSV files. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q018** — Which Galaxy tool would you recommend to perform `cb_qecb`?
-  - Tools: cb_qecb
+- **ecology-champs-blocs-q018** — What Galaxy tool should I use for custom indicator computation where I need to join multiple input tables and produce plots?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q019** — Which Galaxy tool would you recommend to perform `cb_eco`?
-  - Tools: cb_eco
+- **ecology-champs-blocs-q019** — I want to compute an overall ecological status indicator from intermediate indicator outputs and produce a results table. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q020** — Which Galaxy tool would you recommend to perform `cb_eco`?
-  - Tools: cb_eco
+- **ecology-champs-blocs-q020** — Which Galaxy tool should I use to run a downstream ecological status calculation step based on a previously computed indicator dataset?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Champs blocs indicators?
-  - Tools: cb_eco
+- **ecology-champs-blocs-q021** — I need to generate summary plots and an ecological status table from an indicator-analysis output. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q022** — Which Galaxy tool would you recommend to perform `cb_eco`?
-  - Tools: cb_eco
+- **ecology-champs-blocs-q022** — What Galaxy tool should I use for custom R analysis that takes an intermediate object from a previous step and outputs a final indicator table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q023** — Which Galaxy tool would you recommend to perform `cb_ivr`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_ivr/cb_ivr/0.0.0
+- **ecology-champs-blocs-q023** — I need to compute an IVR indicator and produce both a results table and plots from survey inputs. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q024** — Which Galaxy tool would you recommend to perform `cb_ivr`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_ivr/cb_ivr/0.0.0
+- **ecology-champs-blocs-q024** — Which Galaxy tool should I use to calculate site-level indicator scores from a CSV and export both plots and processed data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Champs blocs indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_ivr/cb_ivr/0.0.0
+- **ecology-champs-blocs-q025** — I want to run an R workflow to compute indicator values and save intermediate objects for downstream steps. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q026** — Which Galaxy tool would you recommend to perform `cb_ivr`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_ivr/cb_ivr/0.0.0
+- **ecology-champs-blocs-q026** — What Galaxy tool should I use for an R-based ecological indicator calculation that outputs a table plus figures?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q027** — Which Galaxy tool would you recommend to perform `cb_dissim`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_dissim/cb_dissim/0.0.0
+- **ecology-champs-blocs-q027** — I need to compute dissimilarity between ecological samples (for example Bray–Curtis) from a tabular community dataset and visualize the result. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q028** — Which Galaxy tool would you recommend to perform `cb_dissim`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_dissim/cb_dissim/0.0.0
+- **ecology-champs-blocs-q028** — Which Galaxy tool should I use to calculate a dissimilarity matrix and generate plots from species abundance or presence/absence data?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Champs blocs indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_dissim/cb_dissim/0.0.0
+- **ecology-champs-blocs-q029** — I want to quantify how different sampling sites are and get a dissimilarity output table plus figures. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q030** — Which Galaxy tool would you recommend to perform `cb_dissim`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_dissim/cb_dissim/0.0.0
+- **ecology-champs-blocs-q030** — What Galaxy tool should I use to run dissimilarity analysis for ecological community data and produce visualizations?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q031** — Which Galaxy tool would you recommend to perform `cb_div`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_div/cb_div/0.0.0
+- **ecology-champs-blocs-q031** — I want to compute diversity indices (for example Shannon or Simpson) for ecological survey data and generate plots. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q032** — Which Galaxy tool would you recommend to perform `cb_div`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_div/cb_div/0.0.0
+- **ecology-champs-blocs-q032** — Which Galaxy tool should I use to calculate biodiversity/diversity indicators from a community table and output summary graphics?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Champs blocs indicators?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_div/cb_div/0.0.0
+- **ecology-champs-blocs-q033** — I need to derive diversity metrics per site from tabular data and visualize them. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q034** — Which Galaxy tool would you recommend to perform `cb_div`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/cb_div/cb_div/0.0.0
+- **ecology-champs-blocs-q034** — What Galaxy tool should I use for diversity-indicator calculation and plotting in Galaxy?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 
 ## RAD-Seq de-novo data analysis (topics/ecology/tutorials/de-novo-rad-seq)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (2): zenodo.1134547, 1134547
 
 Questions:
-- **ecology-de-novo-rad-seq-q011** — Which Galaxy tool would you recommend to perform `stacks_procrad`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-de-novo-rad-seq-q011** — I need to run a custom command-line step to demultiplex RAD-seq reads by barcode and clean them inside Galaxy. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q012** — Which Galaxy tool would you recommend to perform `stacks_procrad`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-de-novo-rad-seq-q012** — Which Galaxy tool provides a programmable environment where I can run custom RAD-seq demultiplexing and read-cleaning commands?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q013** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq de-novo data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-de-novo-rad-seq-q013** — I want to execute a non-wrapped RAD-seq processing workflow (demultiplex and quality filtering) and capture outputs in Galaxy. Which tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q014** — Which Galaxy tool would you recommend to perform `stacks_procrad`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_procrad/stacks_procrad/1.46.0
+- **ecology-de-novo-rad-seq-q014** — What Galaxy tool should I use when I need to run custom shell or Python commands for RAD-seq demultiplexing and filtering?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q015** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-de-novo-rad-seq-q015** — I want to generate per-base quality reports for sequencing reads and get an HTML summary with diagnostic plots. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q016** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-de-novo-rad-seq-q016** — Which Galaxy tool should I use to assess raw read quality and detect adapter or quality issues before RAD-seq processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q017** — Which Galaxy tool should I use to assess read quality in RAD-Seq de-novo data analysis?
+- **ecology-de-novo-rad-seq-q017** — I need to assess sequencing read quality (per-base quality, GC content, overrepresented sequences). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q018** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-de-novo-rad-seq-q018** — What Galaxy tool should I use to run read quality control and produce diagnostic plots and reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q019** — Which Galaxy tool would you recommend to perform `stacks_denovomap`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+- **ecology-de-novo-rad-seq-q019** — I need to run a custom command-line de novo RAD locus assembly and SNP calling workflow across multiple individuals inside Galaxy. Which tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q020** — Which Galaxy tool would you recommend to perform `stacks_denovomap`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+- **ecology-de-novo-rad-seq-q020** — Which Galaxy tool should I use when I need an interactive environment to run a de novo RAD-seq pipeline that builds loci and calls variants?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q021** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq de-novo data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+- **ecology-de-novo-rad-seq-q021** — I want to execute a non-wrapped multi-sample variant discovery pipeline for RAD-seq (de novo assembly of loci) within Galaxy. Which tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q022** — Which Galaxy tool would you recommend to perform `stacks_denovomap`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_denovomap/stacks_denovomap/1.46.0
+- **ecology-de-novo-rad-seq-q022** — What Galaxy tool provides an interactive workspace to run custom RAD-seq locus assembly and SNP calling commands?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q023** — Which Galaxy tool would you recommend to perform `stacks_populations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-de-novo-rad-seq-q023** — I need to compute population genetics summary statistics (for example F-statistics) from a RAD-seq variant dataset using custom commands. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q024** — Which Galaxy tool would you recommend to perform `stacks_populations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-de-novo-rad-seq-q024** — Which Galaxy tool should I use to run a custom population-genomics statistics step on RAD-seq loci/variants and produce tabular outputs?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q025** — Which Galaxy tool should I use to run an analysis step from the guide in RAD-Seq de-novo data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-de-novo-rad-seq-q025** — I want to calculate per-locus and per-population summary statistics from RAD-seq data using command-line scripts in Galaxy. Which tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q026** — Which Galaxy tool would you recommend to perform `stacks_populations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stacks_populations/stacks_populations/1.46.0
+- **ecology-de-novo-rad-seq-q026** — What Galaxy tool should I use if I need an interactive environment to run population-genetics calculations on RAD-seq results?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
 
 ## Taxonomic Analysis of eDNA (topics/ecology/tutorials/eDNA-taxonomic-analysis)
@@ -5128,47 +5128,47 @@ Questions:
 - Datasets (3): zenodo.15367390, 15367390, 15367390
 
 Questions:
-- **ecology-eDNA-taxonomic-analysis-q011** — Which Galaxy tool would you recommend to perform `fastp`?
+- **ecology-eDNA-taxonomic-analysis-q011** — I need to perform quality control and filtering on paired-end amplicon reads, producing HTML/JSON reports. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q012** — Which Galaxy tool would you recommend to perform `fastp`?
+- **ecology-eDNA-taxonomic-analysis-q012** — Which Galaxy tool can quickly trim and filter FASTQ reads and generate quality-control reports in one step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Taxonomic Analysis of eDNA?
+- **ecology-eDNA-taxonomic-analysis-q013** — I want to quality-filter sequencing reads (adapter trimming and quality trimming) before taxonomic identification. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q014** — Which Galaxy tool would you recommend to perform `fastp`?
+- **ecology-eDNA-taxonomic-analysis-q014** — What Galaxy tool should I use for fast read QC and trimming with summary reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q015** — Which Galaxy tool would you recommend to perform `cshl_fastq_to_fasta`?
+- **ecology-eDNA-taxonomic-analysis-q015** — I need to convert quality-filtered FASTQ reads into FASTA format for downstream similarity searching. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q016** — Which Galaxy tool would you recommend to perform `cshl_fastq_to_fasta`?
+- **ecology-eDNA-taxonomic-analysis-q016** — Which Galaxy tool should I use to convert FASTQ to FASTA while optionally filtering sequences with ambiguous bases?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Taxonomic Analysis of eDNA?
+- **ecology-eDNA-taxonomic-analysis-q017** — I want to transform sequencing reads from FASTQ to FASTA and simplify identifiers to reduce file size. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q018** — Which Galaxy tool would you recommend to perform `cshl_fastq_to_fasta`?
+- **ecology-eDNA-taxonomic-analysis-q018** — What Galaxy tool should I use to convert FASTQ reads into FASTA for downstream alignment or similarity-search tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q019** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
+- **ecology-eDNA-taxonomic-analysis-q019** — I want to search short DNA sequences against a nucleotide reference database to identify likely taxa. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q020** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
+- **ecology-eDNA-taxonomic-analysis-q020** — Which Galaxy tool should I use to run a nucleotide similarity search against a chosen database and get tabular hits?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Taxonomic Analysis of eDNA?
+- **ecology-eDNA-taxonomic-analysis-q021** — I need a local nucleotide similarity search in Galaxy to assign taxonomy to environmental DNA sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q022** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
+- **ecology-eDNA-taxonomic-analysis-q022** — What Galaxy tool should I use for nucleotide sequence similarity searching and producing tabular match results for taxonomic assignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q023** — Which Galaxy tool would you recommend to perform `Count1`?
-  - Tools: Count1
+- **ecology-eDNA-taxonomic-analysis-q023** — I have a tabular search result and want to count how many times each unique value appears in a specific column (for example, a top-hit scientific name). Which Galaxy tool should I use?
+  - Tools: Count1, Grouping1
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q024** — Which Galaxy tool would you recommend to perform `Count1`?
-  - Tools: Count1
+- **ecology-eDNA-taxonomic-analysis-q024** — Which Galaxy tool should I use to tally unique values in one column of a TSV and report counts for each value?
+  - Tools: Count1, Grouping1
   - Datasets: 15367390, zenodo.15367390, 15367390
 - **ecology-eDNA-taxonomic-analysis-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Taxonomic Analysis of eDNA?
   - Tools: Count1
