@@ -3899,17 +3899,17 @@ Questions:
 - **digital-humanities-open-refine-tutorial-q034** — Which Galaxy tool would you recommend to perform `datamash_ops`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q035** — Which Galaxy tool would you recommend to perform `barchart_gnuplot`?
-  - Tools: barchart_gnuplot
+- **digital-humanities-open-refine-tutorial-q035** — I have a tabular summary with categories and counts and want to create a bar chart visualization. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q036** — Which Galaxy tool would you recommend to perform `barchart_gnuplot`?
-  - Tools: barchart_gnuplot
+- **digital-humanities-open-refine-tutorial-q036** — Which Galaxy tool would you recommend for plotting a bar chart from a frequency table (e.g., year vs count)?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q037** — Which Galaxy tool should I use to run an analysis step from the guide in OpenRefine guide for researching cultural data?
-  - Tools: barchart_gnuplot
+- **digital-humanities-open-refine-tutorial-q037** — I want to visualize counts per group from a tabular dataset as a bar chart and customize the plot. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q038** — Which Galaxy tool would you recommend to perform `barchart_gnuplot`?
-  - Tools: barchart_gnuplot
+- **digital-humanities-open-refine-tutorial-q038** — How can I generate a bar chart plot from a two-column table (label and value) in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
 - **digital-humanities-open-refine-tutorial-q039** — Which Galaxy tool would you recommend to perform `tp_head_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
@@ -3959,29 +3959,29 @@ Questions:
 - **digital-humanities-open-refine-tutorial-q054** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q055** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+- **digital-humanities-open-refine-tutorial-q055** — I want to generate a word cloud image from a column of short text descriptions (optionally removing stopwords). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q056** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+- **digital-humanities-open-refine-tutorial-q056** — Which Galaxy tool would you recommend to create a word cloud visualization from text so I can quickly inspect prominent terms?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q057** — Which Galaxy tool should I use to run an analysis step from the guide in OpenRefine guide for researching cultural data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+- **digital-humanities-open-refine-tutorial-q057** — I need an interactive environment in Galaxy to build a word cloud from text data and adjust visualization parameters. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q058** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy2
+- **digital-humanities-open-refine-tutorial-q058** — I want to create a word cloud from cleaned text and explore the effect of different filtering settings. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q059** — Which Galaxy tool would you recommend to perform `interactive_tool_openrefine`?
-  - Tools: interactive_tool_openrefine
+- **digital-humanities-open-refine-tutorial-q059** — I need an interactive environment in Galaxy to iteratively clean and transform a tabular dataset (e.g., standardize values, split columns, and do find/replace). Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q060** — Which Galaxy tool would you recommend to perform `interactive_tool_openrefine`?
-  - Tools: interactive_tool_openrefine
+- **digital-humanities-open-refine-tutorial-q060** — Which Galaxy tool would you recommend if I want to do exploratory, manual data cleaning and transformations on a table in an interactive workspace?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q061** — Which Galaxy tool should I use to run an analysis step from the guide in OpenRefine guide for researching cultural data?
-  - Tools: interactive_tool_openrefine
+- **digital-humanities-open-refine-tutorial-q061** — I want a notebook-style environment in Galaxy where I can iteratively clean, validate, and reshape a tabular dataset. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q062** — Which Galaxy tool would you recommend to perform `interactive_tool_openrefine`?
-  - Tools: interactive_tool_openrefine
+- **digital-humanities-open-refine-tutorial-q062** — I need to interactively clean a table and apply transformations step by step, with the ability to rerun and refine. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.17047254, 17047254, 17047254
 
 ## Text-Mining Differences in Chinese Newspaper Articles (topics/digital-humanities/tutorials/text_mining_chinese)
@@ -4062,48 +4062,48 @@ Questions:
 - **digital-humanities-text_mining_chinese-q034** — Which Galaxy tool would you recommend to perform `datamash_ops`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q035** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+- **digital-humanities-text_mining_chinese-q035** — I want to generate a word cloud from tokenized text so I can quickly see the most prominent characters or terms. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q036** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+- **digital-humanities-text_mining_chinese-q036** — Which Galaxy tool would you recommend to create a word cloud visualization from a text corpus for quick exploratory analysis?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Text-Mining Differences in Chinese Newspaper Articles?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+- **digital-humanities-text_mining_chinese-q037** — I need an interactive environment in Galaxy to create and customize a word cloud from text (including non-Latin scripts). Which tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q038** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1
+- **digital-humanities-text_mining_chinese-q038** — I want to build a word cloud from text data and tune display parameters to compare prominent terms. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q039** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+- **digital-humanities-text_mining_chinese-q039** — I have a tabular file with a frequency column and want to sort rows by that column to rank the most frequent entries first. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q040** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+- **digital-humanities-text_mining_chinese-q040** — Which Galaxy tool would you recommend to sort a dataset by a chosen column (e.g., sort by counts to see the top results)?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Text-Mining Differences in Chinese Newspaper Articles?
-  - Tools: sort1
+- **digital-humanities-text_mining_chinese-q041** — I need to sort a tabular dataset on a specific column to make the highest-frequency records appear at the top. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q042** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+- **digital-humanities-text_mining_chinese-q042** — How can I sort a table by a specific column in Galaxy so I can inspect the largest values first? Which tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: zenodo.14899614, 14899614, 14899614
 
 ## Data submission using ENA upload Tool (topics/ecology/tutorials/ENA_Biodiv_submission)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (1): None
 
 Questions:
-- **ecology-ENA_Biodiv_submission-q011** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+- **ecology-ENA_Biodiv_submission-q011** — I have ABI Sanger sequencing trace files (AB1 format) and need to convert them into FASTQ reads for downstream analysis. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q012** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+- **ecology-ENA_Biodiv_submission-q012** — Which Galaxy tool would you recommend to convert AB1 trace files into FASTQ so I can treat them like standard sequencing reads?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Data submission using ENA upload Tool?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+- **ecology-ENA_Biodiv_submission-q013** — I need an environment in Galaxy where I can programmatically parse AB1 trace files and export FASTQ. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q014** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
+- **ecology-ENA_Biodiv_submission-q014** — I want to convert Sanger trace files (AB1) to FASTQ and verify the output. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 - **ecology-ENA_Biodiv_submission-q015** — Which Galaxy tool would you recommend to perform `falco`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
