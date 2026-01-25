@@ -8131,16 +8131,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0
   - Datasets: 6010176
 - **evolution-mtb_transmission-q043** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q044** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q045** — Which Galaxy tool concatenates datasets (cat)?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q046** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q047** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
@@ -8203,16 +8203,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/clustering_from_distmat/clustering_from_distmat/1.1.1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q067** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q068** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q069** — Which Galaxy tool provides basic grep filtering?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q070** — Which Galaxy tool would you recommend to perform `Grep1`?
-  - Tools: Grep1
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q071** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
