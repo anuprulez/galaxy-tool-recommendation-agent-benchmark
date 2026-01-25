@@ -9690,16 +9690,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q063** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q064** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q065** — Which Galaxy tool concatenates datasets (cat)?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q066** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
 - **genome-annotation-gene-centric-q067** — Which Galaxy tool would you recommend to perform `orfipy`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/orfipy/orfipy/0.0.4+galaxy2
@@ -9781,16 +9781,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q027** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-helixer-q028** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-helixer-q029** — Which Galaxy tool opens JBrowse for genome visualization?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-helixer-q030** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
 - **genome-annotation-helixer-q031** — Which Galaxy tool would you recommend to perform `omark`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
@@ -9805,16 +9805,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 7867921
 - **genome-annotation-helixer-q035** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q036** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q037** — Which Galaxy tool corresponds to the view/iuc jcvi_gff_stats for GFF summaries?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q038** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 
 ## From small to large-scale genome comparison (topics/genome-annotation/tutorials/hpc-for-lsgc)
