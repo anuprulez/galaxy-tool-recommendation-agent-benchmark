@@ -3572,70 +3572,70 @@ Questions:
 - **data-science-data-manipulation-olympics-q132** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q133** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_remove_columns_by_header}}
+- **data-science-data-manipulation-olympics-q133** — I have a tabular file with a header row and want to drop specific columns by their column names. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q134** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
-  - Tools: {{version_remove_columns_by_header}}
+- **data-science-data-manipulation-olympics-q134** — I need to remove one or more columns from a table by specifying the header names. Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q135** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
+- **data-science-data-manipulation-olympics-q135** — I want to extract a subset of columns from a table by specifying column numbers (no header names). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q136** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
+- **data-science-data-manipulation-olympics-q136** — How can I reorder and select columns from a tabular dataset when I only know their positions (e.g., keep columns 1, 3, and 5)? Which Galaxy tool would you recommend?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q137** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q138** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
+- **data-science-data-manipulation-olympics-q138** — I need to keep only certain columns from a tabular file by column index and optionally change their order. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q139** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
-  - Tools: Cut1
+- **data-science-data-manipulation-olympics-q139** — I need more control when selecting columns from a table (e.g., delimiter and header-handling options) than a basic cut-by-number tool provides. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q140** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
-  - Tools: Cut1
+- **data-science-data-manipulation-olympics-q140** — Which Galaxy tool would you recommend to select and reorder columns from a delimited table when I also need extra options like handling headers and custom delimiters?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q141** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q142** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
-  - Tools: Cut1
+- **data-science-data-manipulation-olympics-q142** — I want to extract columns from a table but need advanced options beyond just listing column numbers. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q143** — Which Galaxy tool would you recommend to perform `{{version_paste}}`?
-  - Tools: {{version_paste}}
+- **data-science-data-manipulation-olympics-q143** — I have two tabular files with the same row order and want to combine them side-by-side to add columns. Which Galaxy tool should I use?
+  - Tools: Paste1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q144** — Which Galaxy tool would you recommend to perform `{{version_paste}}`?
-  - Tools: {{version_paste}}
+- **data-science-data-manipulation-olympics-q144** — How can I merge two tables by simply pasting their columns next to each other (assuming both files have matching rows in the same order)? Which Galaxy tool would you recommend?
+  - Tools: Paste1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q145** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_paste}}
+- **data-science-data-manipulation-olympics-q145** — I want to add one or more columns from a second file to a table, assuming both datasets have the same number of rows and are aligned. Which Galaxy tool should I use?
+  - Tools: Paste1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q146** — Which Galaxy tool would you recommend to perform `{{version_paste}}`?
-  - Tools: {{version_paste}}
+- **data-science-data-manipulation-olympics-q146** — Which Galaxy tool should I use to combine two datasets into a single table by placing them next to each other (row-by-row)?
+  - Tools: Paste1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q147** — Which Galaxy tool would you recommend to perform `{{version_split}}`?
-  - Tools: {{version_split}}
+- **data-science-data-manipulation-olympics-q147** — I want to split a tabular dataset into multiple output files based on the values in one column (e.g., one file per group/category). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q148** — Which Galaxy tool would you recommend to perform `{{version_split}}`?
-  - Tools: {{version_split}}
+- **data-science-data-manipulation-olympics-q148** — Which Galaxy tool would you recommend to split a table into separate datasets grouped by a column value?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q149** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: {{version_split}}
+- **data-science-data-manipulation-olympics-q149** — I need to generate one output file per unique value in a chosen column of a table. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q150** — Which Galaxy tool would you recommend to perform `{{version_split}}`?
-  - Tools: {{version_split}}
+- **data-science-data-manipulation-olympics-q150** — How can I split a dataset into multiple files according to groups defined by a specific column? Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q151** — Which Galaxy tool would you recommend to perform `{{version_unique}}`?
+- **data-science-data-manipulation-olympics-q151** — I have a table with duplicate rows and want to keep a single occurrence per unique record (remove duplicates). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q152** — Which Galaxy tool would you recommend to perform `{{version_unique}}`?
+- **data-science-data-manipulation-olympics-q152** — Which Galaxy tool would you recommend to deduplicate a dataset by collapsing identical rows into unique records?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q153** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q154** — Which Galaxy tool would you recommend to perform `{{version_unique}}`?
+- **data-science-data-manipulation-olympics-q154** — I need to filter out repeated records so that each row appears only once in the output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q155** — Which Galaxy tool would you recommend to perform `upload1`?
@@ -3732,21 +3732,21 @@ Questions:
 
 ## Introduction to Digital Humanities in Galaxy (topics/digital-humanities/tutorials/introduction_to_dh)
 - Topic: digital-humanities
-- Tools: Remove_beginning1
+- Tools: Remove beginning1
 - Datasets (3): zenodo.17053220, 17053220, 17053220
 
 Questions:
-- **digital-humanities-introduction_to_dh-q011** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **digital-humanities-introduction_to_dh-q011** — I need to delete the first line of a text file (e.g., remove an unwanted header). Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q012** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **digital-humanities-introduction_to_dh-q012** — How can I remove the first N lines from a dataset in Galaxy? Which tool would you recommend?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Introduction to Digital Humanities in Galaxy?
-  - Tools: Remove_beginning1
+- **digital-humanities-introduction_to_dh-q013** — I want to drop a fixed number of lines from the start of a file before downstream processing. Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q014** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **digital-humanities-introduction_to_dh-q014** — Which Galaxy tool should I use to strip off the first line(s) of a dataset while keeping the rest unchanged?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17053220, 17053220, 17053220
 - **digital-humanities-introduction_to_dh-q015** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
@@ -3784,17 +3784,17 @@ Questions:
 - **digital-humanities-introduction_to_dh-q026** — Which Galaxy tool would you recommend to perform `wc_gnu`?
   - Tools: wc_gnu
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q027** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+- **digital-humanities-introduction_to_dh-q027** — I want to generate a word cloud image from a text document to quickly see the most frequent words (optionally excluding stopwords). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q028** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+- **digital-humanities-introduction_to_dh-q028** — Which Galaxy tool would you recommend for creating a word cloud visualization from a text dataset so I can explore prominent terms?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Introduction to Digital Humanities in Galaxy?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+- **digital-humanities-introduction_to_dh-q029** — I need an interactive environment in Galaxy where I can create and customize a word cloud from text. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17053220, 17053220, 17053220
-- **digital-humanities-introduction_to_dh-q030** — Which Galaxy tool would you recommend to perform `wordcloud`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy4
+- **digital-humanities-introduction_to_dh-q030** — I want to build a word cloud from a cleaned text file and tune visualization settings. Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: zenodo.17053220, 17053220, 17053220
 - **digital-humanities-introduction_to_dh-q031** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
@@ -3875,17 +3875,17 @@ Questions:
 - **digital-humanities-open-refine-tutorial-q026** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q027** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **digital-humanities-open-refine-tutorial-q027** — After sorting a table, I want to remove the first row because it is an outlier or unwanted record. Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q028** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **digital-humanities-open-refine-tutorial-q028** — I need to delete the first line from a dataset (e.g., to drop a bad record at the top). Which Galaxy tool would you recommend?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q029** — Which Galaxy tool should I use to run an analysis step from the guide in OpenRefine guide for researching cultural data?
-  - Tools: Remove_beginning1
+- **digital-humanities-open-refine-tutorial-q029** — Which Galaxy tool should I use if I need to remove a fixed number of lines from the start of a file?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q030** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+- **digital-humanities-open-refine-tutorial-q030** — I want to strip the first line(s) from a file while keeping the remaining rows. Which Galaxy tool should I use?
+  - Tools: Remove beginning1
   - Datasets: zenodo.17047254, 17047254, 17047254
 - **digital-humanities-open-refine-tutorial-q031** — Which Galaxy tool would you recommend to perform `datamash_ops`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
