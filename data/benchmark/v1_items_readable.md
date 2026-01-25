@@ -13,7 +13,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q013** — I want to search a genome assembly against a protein database using translated nucleotide-to-protein alignment and collect similarity hits for taxonomic annotation. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q014** — I want to assess genome assembly completeness using lineage-specific sets of conserved single-copy orthologs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
@@ -37,7 +37,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.11+galaxy0
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q021** — I need to align Hi-C reads to a reference assembly to prepare inputs for generating a Hi-C contact map. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q022** — I have separately aligned Hi-C forward and reverse reads and need to filter and merge them into a single alignment suitable for contact-map generation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1
@@ -103,7 +103,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxy-australia/smudgeplot/smudgeplot/0.2.5+galaxy3
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q043** — I need to perform a simple find-and-replace text substitution across a dataset (for example, replace a delimiter character in identifiers). Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q044** — I have an alignment BAM file and want a detailed summary of mapping statistics (read counts, flags, insert-size metrics, etc.). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8
@@ -111,12 +111,12 @@ Questions:
 
 ## Decontamination of a genome assembly (topics/assembly/tutorials/assembly-decontamination)
 - Topic: assembly
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
 - Datasets (2): 13367433, Contaminated_assembly.fasta
 
 Questions:
 - **assembly-assembly-decontamination-q011** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q012** — Which Galaxy tool would you recommend to perform `ncbi_dustmasker_wrapper`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_dustmasker_wrapper/2.16.0+galaxy0
@@ -125,7 +125,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q014** — Which Galaxy tool should I use to run `Cut`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q015** — Which Galaxy tool should I use to run `Filter`?
   - Tools: Filter1
@@ -137,13 +137,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/parse_mito_blast/parse_mito_blast/1.0.2+galaxy0
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q018** — What Galaxy tool should I run for `Concatenate datasets`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q019** — What Galaxy tool should I run for `gfastats`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.11+galaxy0
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q020** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q021** — Which Galaxy tool would you recommend to perform `ncbi_dustmasker_wrapper`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_dustmasker_wrapper/2.16.0+galaxy0
@@ -152,7 +152,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q023** — Which Galaxy tool should I use to select specific columns from a tabular contamination report?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q024** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
@@ -164,7 +164,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/parse_mito_blast/parse_mito_blast/1.0.2+galaxy0
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q027** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13367433, Contaminated_assembly.fasta
 - **assembly-assembly-decontamination-q028** — Which Galaxy tool would you recommend to perform `gfastats`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.11+galaxy0
@@ -3121,16 +3121,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
 - **contributing-create-new-tutorial-q051** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: None
 - **contributing-create-new-tutorial-q052** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: None
 - **contributing-create-new-tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Creating a new guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: None
 - **contributing-create-new-tutorial-q054** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: None
 - **contributing-create-new-tutorial-q055** — Which Galaxy tool would you recommend to perform `seqtk_subseq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0
@@ -3399,16 +3399,16 @@ Questions:
   - Tools: Show_beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q075** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q076** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q077** — Which Galaxy tool should I use to run an analysis step from the guide in Data Manipulation Olympics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q078** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q079** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
   - Tools: {{version_wc}}
@@ -4638,16 +4638,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
 - **ecology-PAMPA-toolsuite-tutorial-q015** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
 - **ecology-PAMPA-toolsuite-tutorial-q016** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
 - **ecology-PAMPA-toolsuite-tutorial-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Compute and analyze biodiversity metrics with PAMPA toolsuite?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
 - **ecology-PAMPA-toolsuite-tutorial-q018** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: zenodo.4264936, 4264936, zenodo.1324204, 1324204
 - **ecology-PAMPA-toolsuite-tutorial-q019** — Which Galaxy tool would you recommend to perform `mergeCols1`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
@@ -8083,16 +8083,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q027** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q028** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q029** — Which Galaxy tool provides sed-style text editing?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q030** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
 - **evolution-mtb_transmission-q031** — Which Galaxy tool would you recommend to perform `tb_profiler_profile`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
@@ -8131,16 +8131,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0
   - Datasets: 6010176
 - **evolution-mtb_transmission-q043** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q044** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q045** — Which Galaxy tool concatenates datasets (cat)?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q046** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: cat1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q047** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
