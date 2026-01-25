@@ -4225,17 +4225,17 @@ Questions:
 - **ecology-ENA_Biodiv_submission-q054** — Which Galaxy tool would you recommend to perform `ncbi_blastn_wrapper`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q055** — Which Galaxy tool would you recommend to perform `bg_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+- **ecology-ENA_Biodiv_submission-q055** — I have a tabular results file and want to extract the unique identifiers from a specific column (e.g., get the unique values in column 1). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q056** — Which Galaxy tool would you recommend to perform `bg_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+- **ecology-ENA_Biodiv_submission-q056** — Which Galaxy tool would you recommend to deduplicate values in a column of a tabular dataset and output only the unique entries?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Data submission using ENA upload Tool?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+- **ecology-ENA_Biodiv_submission-q057** — I need a list of unique IDs from a tabular file by selecting one column and removing duplicates. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q058** — Which Galaxy tool would you recommend to perform `bg_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+- **ecology-ENA_Biodiv_submission-q058** — How can I compute the set of unique values for a chosen column in a table in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None
 
 ## Ecoregionalization workflow guide (topics/ecology/tutorials/Ecoregionalization_tutorial)
@@ -4280,17 +4280,17 @@ Questions:
 - **ecology-Ecoregionalization_tutorial-q022** — Which Galaxy tool would you recommend to perform `filter_tabular`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q023** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-Ecoregionalization_tutorial-q023** — I need to concatenate multiple columns in a tabular file into a single combined column (e.g., build a taxonomy identifier from several fields). Which Galaxy tool should I use?
+  - Tools: mergeCols1
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q024** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-Ecoregionalization_tutorial-q024** — Which Galaxy tool would you recommend to merge several columns together into one new column by concatenation?
+  - Tools: mergeCols1
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-Ecoregionalization_tutorial-q025** — I want to combine multiple categorical fields into one string column (joining values across columns for each row). Which Galaxy tool should I use?
+  - Tools: mergeCols1
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q026** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2
+- **ecology-Ecoregionalization_tutorial-q026** — How can I create a new column by joining the contents of multiple existing columns row-by-row? Which Galaxy tool would you recommend?
+  - Tools: mergeCols1
   - Datasets: None
 - **ecology-Ecoregionalization_tutorial-q027** — Which Galaxy tool would you recommend to perform `interactive_tool_jupyter_notebook`?
   - Tools: interactive_tool_jupyter_notebook
@@ -4304,139 +4304,139 @@ Questions:
 - **ecology-Ecoregionalization_tutorial-q030** — Which Galaxy tool would you recommend to perform `interactive_tool_jupyter_notebook`?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q031** — Which Galaxy tool would you recommend to perform `ecoregion_GeoNearestNeighbor`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q031** — I have an environmental table (latitude/longitude + predictors) and an occurrences table (latitude/longitude) and want to merge them by matching each occurrence to the nearest environmental point. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q032** — Which Galaxy tool would you recommend to perform `ecoregion_GeoNearestNeighbor`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q032** — Which Galaxy tool would you recommend to join two tables by geographic proximity (nearest-neighbor match on lat/long) so I can attach environmental variables to occurrence points?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q033** — I need to perform a nearest-neighbor merge between two tabular datasets using latitude/longitude coordinates (WGS84). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q034** — Which Galaxy tool would you recommend to perform `ecoregion_GeoNearestNeighbor`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_geonearestneighbor/ecoregion_GeoNearestNeighbor/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q034** — How can I merge an occurrences table with an environmental grid table by taking the closest coordinate match for each row? Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q035** — Which Galaxy tool would you recommend to perform `ecoregion_brt_analysis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q035** — I want to train a boosted decision-tree model for species distribution (presence/absence vs environmental predictors) and generate probability predictions across an environmental grid. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q036** — Which Galaxy tool would you recommend to perform `ecoregion_brt_analysis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q036** — Which Galaxy tool would you recommend to build a boosted regression trees (gradient boosting) model for ecological prediction and output per-location probabilities?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q037** — I need to fit a species distribution model using boosted regression trees and produce prediction maps for multiple taxa. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q038** — Which Galaxy tool would you recommend to perform `ecoregion_brt_analysis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_brt_analysis/ecoregion_brt_analysis/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q038** — How can I run a boosted-tree based species distribution modeling workflow (train models + generate predictions) in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q039** — Which Galaxy tool would you recommend to perform `ecoregion_taxa_seeker`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q039** — I have prediction outputs for many taxa and want to summarize which taxa produced valid models and generate cleaned taxa lists for downstream analysis. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q040** — Which Galaxy tool would you recommend to perform `ecoregion_taxa_seeker`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q040** — Which Galaxy tool would you recommend to produce a per-taxon summary (model obtained, occurrence counts) and export a cleaned taxa list from prediction results?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q041** — I need to generate a curated list of taxa that have successful prediction models, including a cleaned version of taxa names (removing placeholders like "_sp"). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q042** — Which Galaxy tool would you recommend to perform `ecoregion_taxa_seeker`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_taxa_seeker/ecoregion_taxa_seeker/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q042** — How can I turn a collection of per-taxon prediction outputs into summary tables and taxa lists for later clustering steps? Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q043** — Which Galaxy tool would you recommend to perform `ecoregion_cluster_estimate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q043** — I want to determine the optimal number of clusters using a silhouette index curve and also produce the matrices needed for partition-based clustering. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q044** — Which Galaxy tool would you recommend to perform `ecoregion_cluster_estimate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q044** — Which Galaxy tool would you recommend to evaluate different k values for clustering using the silhouette index and prepare a data matrix for clustering?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q045** — I need to compute a silhouette-based score over a range of cluster counts to pick an appropriate k for partitioning my data. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q046** — Which Galaxy tool would you recommend to perform `ecoregion_cluster_estimate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_cluster_estimate/ecoregion_cluster_estimate/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q046** — How can I estimate the best number of clusters for a large ecological dataset and generate the intermediate files needed for clustering? Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q047** — Which Galaxy tool would you recommend to perform `ecoregion_clara_cluster`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q047** — I need to cluster a large dataset into k groups using a k-medoids approach suitable for large data (CLARA/PAM) and output cluster assignments for each coordinate. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q048** — Which Galaxy tool would you recommend to perform `ecoregion_clara_cluster`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q048** — Which Galaxy tool would you recommend to run CLARA (Partition Around Medoids for large datasets) clustering and produce cluster labels for each observation?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q049** — I want to assign each location to an ecoregion cluster using a k-medoids clustering method designed for large datasets. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q050** — Which Galaxy tool would you recommend to perform `ecoregion_clara_cluster`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_clara_cluster/ecoregion_clara_cluster/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q050** — How can I perform partitioning around medoids (CLARA) clustering in Galaxy and export a table of coordinates with cluster IDs? Which Galaxy tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q051** — Which Galaxy tool would you recommend to perform `ecoregion_eco_map`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q051** — I have latitude/longitude coordinates with assigned cluster labels and want to render an ecoregion map colored by cluster. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q052** — Which Galaxy tool would you recommend to perform `ecoregion_eco_map`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q052** — Which Galaxy tool would you recommend to plot a map from a table of coordinates and ecoregion cluster IDs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q053** — I need to visualize ecoregions by mapping cluster assignments onto geographic coordinates. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q054** — Which Galaxy tool would you recommend to perform `ecoregion_eco_map`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ecoregion_eco_map/ecoregion_eco_map/0.1.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q054** — How can I generate a simple ecoregion map from a dataset of points and cluster numbers in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q055** — Which Galaxy tool would you recommend to perform `unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q055** — I downloaded a ZIP archive that contains multiple files and need to unpack it into individual datasets in Galaxy. Which Galaxy tool should I use?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q056** — Which Galaxy tool would you recommend to perform `unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q056** — Which Galaxy tool would you recommend to extract the contents of a compressed archive (e.g., .zip) into a directory/collection of files?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Ecoregionalization workflow guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q057** — I need to extract a downloaded archive so I can access a specific file inside it for downstream processing. Which Galaxy tool should I use?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q058** — Which Galaxy tool would you recommend to perform `unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+- **ecology-Ecoregionalization_tutorial-q058** — How can I unpack an archive dataset (zip/tar) into its component files in Galaxy? Which tool would you recommend?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: None
 
 ## Creating metadata using Ecological Metadata Language (EML) standard with EML Assembly Line functionalities (topics/ecology/tutorials/MetaShARK_tutorial)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (1): 10663465
 
 Questions:
-- **ecology-MetaShARK_tutorial-q011** — Which Galaxy tool would you recommend to perform `makeeml`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+- **ecology-MetaShARK_tutorial-q011** — I need to generate an EML (Ecological Metadata Language) metadata XML file describing a dataset and its associated data tables. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10663465
-- **ecology-MetaShARK_tutorial-q012** — Which Galaxy tool would you recommend to perform `makeeml`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+- **ecology-MetaShARK_tutorial-q012** — Which Galaxy tool would you recommend for programmatically creating an EML metadata document for an ecological dataset package?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10663465
-- **ecology-MetaShARK_tutorial-q013** — Which Galaxy tool can create EML metadata from template inputs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+- **ecology-MetaShARK_tutorial-q013** — I want to build EML metadata for a dataset (including links to multiple associated files) in a reproducible way. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10663465
-- **ecology-MetaShARK_tutorial-q014** — Which Galaxy tool would you recommend to perform `makeeml`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/makeeml/makeeml/0.1.1+galaxy1
+- **ecology-MetaShARK_tutorial-q014** — How can I create or regenerate an EML metadata file inside Galaxy when I need fine-grained control over the XML content? Which tool would you recommend?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10663465
 
 ## Metabarcoding/eDNA through Obitools (topics/ecology/tutorials/Obitools-metabarcoding)
 - Topic: ecology
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/flash/flash/1.2.11.4, toolshed.g2.bx.psu.edu/repos/iuc/pear/iuc_pear/0.9.6.4
 - Datasets (1): 5932108
 
 Questions:
-- **ecology-Obitools-metabarcoding-q011** — Which Galaxy tool would you recommend to perform `obi_illumina_pairend`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+- **ecology-Obitools-metabarcoding-q011** — I have paired-end reads with expected overlap and want to merge each pair into a single consensus sequence. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/flash/flash/1.2.11.4, toolshed.g2.bx.psu.edu/repos/iuc/pear/iuc_pear/0.9.6.4
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q012** — Which Galaxy tool would you recommend to perform `obi_illumina_pairend`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+- **ecology-Obitools-metabarcoding-q012** — Which Galaxy tool would you recommend to assemble overlapping paired-end Illumina reads into merged reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/flash/flash/1.2.11.4, toolshed.g2.bx.psu.edu/repos/iuc/pear/iuc_pear/0.9.6.4
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+- **ecology-Obitools-metabarcoding-q013** — I need to join paired-end reads by overlap to recover the reconstructed amplicon sequence before filtering/demultiplexing. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/flash/flash/1.2.11.4, toolshed.g2.bx.psu.edu/repos/iuc/pear/iuc_pear/0.9.6.4
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q014** — Which Galaxy tool would you recommend to perform `obi_illumina_pairend`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_illumina_pairend/obi_illumina_pairend/1.2.13
+- **ecology-Obitools-metabarcoding-q014** — How can I merge overlapping forward and reverse reads into a single read in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/flash/flash/1.2.11.4, toolshed.g2.bx.psu.edu/repos/iuc/pear/iuc_pear/0.9.6.4
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q015** — Which Galaxy tool would you recommend to perform `unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+- **ecology-Obitools-metabarcoding-q015** — I have a ZIP archive of sequencing files and need to extract the FASTQ files inside for downstream processing. Which Galaxy tool should I use?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q016** — Which Galaxy tool would you recommend to perform `unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+- **ecology-Obitools-metabarcoding-q016** — Which Galaxy tool would you recommend to unpack a downloaded archive containing multiple sequencing files into separate datasets?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+- **ecology-Obitools-metabarcoding-q017** — I need to extract an archive dataset so the contained files can be used as inputs to other tools. Which Galaxy tool should I use?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q018** — Which Galaxy tool would you recommend to perform `unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
+- **ecology-Obitools-metabarcoding-q018** — How can I extract the contents of a .zip archive into a directory/collection in Galaxy? Which tool would you recommend?
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: 5932108
 - **ecology-Obitools-metabarcoding-q019** — Which Galaxy tool would you recommend to perform `fastqc`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
@@ -4462,17 +4462,17 @@ Questions:
 - **ecology-Obitools-metabarcoding-q026** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q027** — Which Galaxy tool would you recommend to perform `obi_grep`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+- **ecology-Obitools-metabarcoding-q027** — I need to filter a FASTQ/FASTA file to keep only records whose headers match specific patterns or attributes (a grep-like selection). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqkit_grep/seqkit_grep/2.12.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q028** — Which Galaxy tool would you recommend to perform `obi_grep`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+- **ecology-Obitools-metabarcoding-q028** — Which Galaxy tool would you recommend to select a subset of sequences from a FASTQ/FASTA dataset based on a pattern match on sequence names/headers?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqkit_grep/seqkit_grep/2.12.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+- **ecology-Obitools-metabarcoding-q029** — I want to discard reads that fail a header-based condition (e.g., keep only records tagged as successfully merged). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqkit_grep/seqkit_grep/2.12.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q030** — Which Galaxy tool would you recommend to perform `obi_grep`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_grep/obi_grep/1.2.13
+- **ecology-Obitools-metabarcoding-q030** — How can I perform grep-style filtering on a sequence dataset in Galaxy (selecting records that match one or more patterns)? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqkit_grep/seqkit_grep/2.12.0+galaxy0
   - Datasets: 5932108
 - **ecology-Obitools-metabarcoding-q031** — Which Galaxy tool would you recommend to perform `wc_gnu`?
   - Tools: wc_gnu
@@ -4486,47 +4486,47 @@ Questions:
 - **ecology-Obitools-metabarcoding-q034** — Which Galaxy tool would you recommend to perform `wc_gnu`?
   - Tools: wc_gnu
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q035** — Which Galaxy tool would you recommend to perform `obi_ngsfilter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+- **ecology-Obitools-metabarcoding-q035** — I need to demultiplex sequencing reads into samples using barcode sequences (with a barcode mapping file). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/cshl_fastx_barcode_splitter/1.0.1+galaxy2
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q036** — Which Galaxy tool would you recommend to perform `obi_ngsfilter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+- **ecology-Obitools-metabarcoding-q036** — Which Galaxy tool would you recommend for splitting a FASTQ dataset into per-sample outputs based on barcodes/adapters at the start of reads?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/cshl_fastx_barcode_splitter/1.0.1+galaxy2
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+- **ecology-Obitools-metabarcoding-q037** — I have amplicon reads with sample-specific tags and want to assign reads to samples (demultiplex) using a barcode file. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/cshl_fastx_barcode_splitter/1.0.1+galaxy2
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q038** — Which Galaxy tool would you recommend to perform `obi_ngsfilter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_ngsfilter/obi_ngsfilter/1.2.13
+- **ecology-Obitools-metabarcoding-q038** — How can I demultiplex reads by barcode in Galaxy so that each sample gets its own dataset? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/cshl_fastx_barcode_splitter/1.0.1+galaxy2
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q039** — Which Galaxy tool would you recommend to perform `obi_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+- **ecology-Obitools-metabarcoding-q039** — I want to dereplicate identical sequences to unique sequences and compute abundance counts for each unique sequence. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/vsearch/vsearch_dereplication/2.8.3.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q040** — Which Galaxy tool would you recommend to perform `obi_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+- **ecology-Obitools-metabarcoding-q040** — Which Galaxy tool would you recommend to collapse duplicate sequences into unique sequences while keeping track of how many times each sequence occurs?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/vsearch/vsearch_dereplication/2.8.3.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+- **ecology-Obitools-metabarcoding-q041** — I need to generate a non-redundant set of sequences (dereplication) with per-sequence counts for metabarcoding analysis. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/vsearch/vsearch_dereplication/2.8.3.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q042** — Which Galaxy tool would you recommend to perform `obi_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_uniq/obi_uniq/1.2.13
+- **ecology-Obitools-metabarcoding-q042** — How can I dereplicate a FASTA/FASTQ dataset to unique sequences and output their abundances in Galaxy? Which tool would you recommend?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/vsearch/vsearch_dereplication/2.8.3.0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q043** — Which Galaxy tool would you recommend to perform `obi_annotate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+- **ecology-Obitools-metabarcoding-q043** — I need to programmatically edit sequence-record annotations/attributes (e.g., keep only selected key=value tags like count and sample). Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q044** — Which Galaxy tool would you recommend to perform `obi_annotate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+- **ecology-Obitools-metabarcoding-q044** — Which Galaxy tool would you recommend to transform and clean metadata stored in FASTA/FASTQ headers (retain only specific attributes)?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+- **ecology-Obitools-metabarcoding-q045** — I want to remove or keep specific annotation fields from sequence headers in a reproducible way. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q046** — Which Galaxy tool would you recommend to perform `obi_annotate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_annotate/obi_annotate/1.2.13
+- **ecology-Obitools-metabarcoding-q046** — How can I manipulate sequence header attributes (add/remove/keep selected tags) using code inside Galaxy? Which tool would you recommend?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q047** — Which Galaxy tool would you recommend to perform `obi_stat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+- **ecology-Obitools-metabarcoding-q047** — I need to compute summary statistics (e.g., counts per category) from an attribute stored in sequence record annotations. Which Galaxy tool should I use?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q048** — Which Galaxy tool would you recommend to perform `obi_stat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
+- **ecology-Obitools-metabarcoding-q048** — Which Galaxy tool would you recommend to generate a contingency table / basic statistics over values stored in FASTA/FASTQ record annotations?
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 5932108
 - **ecology-Obitools-metabarcoding-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/obi_stat/obi_stat/1.2.13
