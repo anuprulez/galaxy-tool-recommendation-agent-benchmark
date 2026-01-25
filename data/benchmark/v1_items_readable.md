@@ -6488,7 +6488,7 @@ Questions:
   - Tools: Filter1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q013** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in ATAC-Seq data analysis?
-  - Tools: Filter1
+  - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q014** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
@@ -6500,7 +6500,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q017** — Which Galaxy tool should I use to assess read quality in ATAC-Seq data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q018** — Which Galaxy tool would you recommend to perform `fastqc`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
@@ -6512,7 +6512,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q021** — Which Galaxy tool should I use to trim adapters from sequencing reads in ATAC-Seq data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q022** — Which Galaxy tool would you recommend to perform `cutadapt`?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
@@ -6656,7 +6656,7 @@ Questions:
   - Tools: Cut1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q069** — Which Galaxy tool should I use to select specific columns from a tabular file in ATAC-Seq data analysis?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q070** — Which Galaxy tool would you recommend to perform `Cut1`?
   - Tools: Cut1
@@ -6747,7 +6747,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q021** — Which Galaxy tool should I use to assess read quality in CUT&RUN data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q022** — Which Galaxy tool would you recommend to perform `falco`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
