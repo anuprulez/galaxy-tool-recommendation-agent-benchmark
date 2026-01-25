@@ -7724,35 +7724,35 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q051** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
-  - Tools: wig_to_bigWig
+  - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q052** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
-  - Tools: wig_to_bigWig
+  - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q053** — Which Galaxy tool converts WIG to bigWig format?
-  - Tools: wig_to_bigWig
+  - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q054** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
-  - Tools: wig_to_bigWig
+  - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
 
 ## Identification of the binding sites of the T-cell acute lymphocytic leukemia protein 1 (TAL1) (topics/epigenetics/tutorials/tal1-binding-site-identification)
 - Topic: epigenetics
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
 - Datasets (1): zenodo.197100
 
 Questions:
 - **epigenetics-tal1-binding-site-identification-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
 - **epigenetics-tal1-binding-site-identification-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
 - **epigenetics-tal1-binding-site-identification-q013** — Which Galaxy tool generates a FastQC report for raw reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
 - **epigenetics-tal1-binding-site-identification-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
 - **epigenetics-tal1-binding-site-identification-q015** — Which Galaxy tool would you recommend to perform `trimmomatic`?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
