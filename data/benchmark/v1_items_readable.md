@@ -721,7 +721,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
 - **assembly-hybrid_denovo_assembly-q014** — Which Galaxy tool would you recommend to perform `bwa_mem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
 - **assembly-hybrid_denovo_assembly-q015** — What Galaxy tool should I run for `Pilon`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
@@ -742,7 +742,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
 - **assembly-hybrid_denovo_assembly-q021** — Which Galaxy tool would you recommend to perform `bwa_mem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
 - **assembly-hybrid_denovo_assembly-q022** — Which Galaxy tool would you recommend to perform `pilon`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
@@ -788,7 +788,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
 - **assembly-largegenome-q020** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
 - **assembly-largegenome-q021** — Which Galaxy tool would you recommend to perform `multiqc`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
@@ -885,13 +885,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 7818827
 - **assembly-metagenomics-assembly-q035** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 7818827
 - **assembly-metagenomics-assembly-q036** — Which Galaxy tool would you recommend to perform `seqtk_subseq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0
   - Datasets: 7818827
 - **assembly-metagenomics-assembly-q037** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 7818827
 
 ## Assembly of the mitochondrial genome from PacBio HiFi reads (topics/assembly/tutorials/mitochondrion-assembly)
@@ -938,7 +938,7 @@ Questions:
   - Tools: upload1
   - Datasets: 10669812
 - **assembly-mrsa-illumina-q012** — Which Galaxy tool would you recommend to perform `falco`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 10669812
 - **assembly-mrsa-illumina-q013** — What Galaxy tool should I run for `fastp`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
@@ -959,7 +959,7 @@ Questions:
   - Tools: upload1
   - Datasets: 10669812
 - **assembly-mrsa-illumina-q019** — Which Galaxy tool would you recommend to perform `falco`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 10669812
 - **assembly-mrsa-illumina-q020** — Which Galaxy tool would you recommend to perform `fastp`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
@@ -977,7 +977,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 10669812
 - **assembly-mrsa-illumina-q025** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
 
 ## Genome Assembly of MRSA from Oxford Nanopore MinION data (and optionally Illumina data) (topics/assembly/tutorials/mrsa-nanopore)
@@ -990,7 +990,7 @@ Questions:
   - Tools: upload1
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q013** — What Galaxy tool should I run for `fastp`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
