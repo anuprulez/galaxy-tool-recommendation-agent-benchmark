@@ -18009,7 +18009,7 @@ Questions:
   - Tools: Cut1
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q013** — Which Galaxy tool should I use to run `Regex Find And Replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.2
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q014** — Which Galaxy tool should I use to run `Add line to file`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/add_line_to_file/add_line_to_file/0.1.0
@@ -18018,16 +18018,16 @@ Questions:
   - Tools: join1
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q016** — What Galaxy tool should I run for `Advanced Cut`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q017** — Which Galaxy tool would you recommend to perform `scanpy_read_10x`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.9.3+galaxy0
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q018** — What Galaxy tool should I run for `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q019** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0+galaxy2
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q020** — Which Galaxy tool would you recommend to perform `music_construct_eset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
@@ -18036,20 +18036,20 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_manipulate_eset/music_manipulate_eset/0.1.1+galaxy4
   - Datasets: (see source)
 - **single-cell-bulk-music-2-preparescref-q022** — Which Galaxy tool should I use to run `Text transformation`?
-  - Tools: Text transformation
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: (see source)
 
 ## Bulk matrix to ESet | Creating the bulk RNA-seq dataset for deconvolution (topics/single-cell/tutorials/bulk-music-3-preparebulk)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
 - Datasets (1): 7319173
 
 Questions:
 - **single-cell-bulk-music-3-preparebulk-q011** — Which Galaxy tool should I use to run `Advanced Cut`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - Datasets: 7319173
 - **single-cell-bulk-music-3-preparebulk-q012** — Which Galaxy tool should I use to run `Regex Find And Replace`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.2
   - Datasets: 7319173
 - **single-cell-bulk-music-3-preparebulk-q013** — Which Galaxy tool would you recommend to perform `column_remove_by_header`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
@@ -18061,7 +18061,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_manipulate_eset/music_manipulate_eset/0.1.1+galaxy4
   - Datasets: 7319173
 - **single-cell-bulk-music-3-preparebulk-q016** — Which Galaxy tool would you recommend to perform `Text transformation`?
-  - Tools: Text transformation
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 7319173
 
 ## Comparing inferred cell compositions using MuSiC deconvolution (topics/single-cell/tutorials/bulk-music-4-compare)
@@ -18085,30 +18085,30 @@ Questions:
 
 ## Pseudobulk Analysis with Decoupler and EdgeR (topics/single-cell/tutorials/pseudobulk-analysis)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
 - Datasets (1): 15275834
 
 Questions:
 - **single-cell-pseudobulk-analysis-q011** — What Galaxy tool should I run for `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q012** — What Galaxy tool should I run for `Decoupler pseudo-bulk`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/decoupler_pseudobulk/decoupler_pseudobulk/1.4.0+galaxy9
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/decoupler_pseudobulk/decoupler_pseudobulk/1.4.0+galaxy9, toolshed.g2.bx.psu.edu/repos/ebi-gxa/decoupler_pseudobulk/decoupler_pseudobulk/1.4.0+galaxy8
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q013** — What Galaxy tool should I run for `Replace Text`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q014** — What Galaxy tool should I run for `Remove columns`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q015** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.3+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q016** — What Galaxy tool should I run for `Text Reformatting`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.3+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q017** — What Galaxy tool should I run for `edgeR`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/edger/edger/3.36.0+galaxy7
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/edger/edger/3.36.0+galaxy7, toolshed.g2.bx.psu.edu/repos/iuc/edger/edger/3.36.0+galaxy5
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q018** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
   - Tools: __EXTRACT_DATASET__
@@ -18120,22 +18120,22 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q021** — I need a tool that can perform `Manipulate AnnData`.Which Galaxy tool would you recommend?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q022** — Which Galaxy tool should I use to run `Replace Text: Sample Metadata Step`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q023** — Which Galaxy tool would you recommend to perform `Replace Text: Count Matrix`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q024** — Which Galaxy tool would you recommend to perform `Replace Text: Creating Factor File`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q025** — What Galaxy tool should I run for `Remove Columns: Gene Metadata`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 15275834
 - **single-cell-pseudobulk-analysis-q026** — Which Galaxy tool should I use to run `Text Reformatting: Creating a Contrast File for edgeR`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.3+galaxy1
   - Datasets: 15275834
 
 ## Scanpy Parameter Iterator (topics/single-cell/tutorials/scanpy_parameter_iterator)
@@ -18148,38 +18148,38 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_parameter_iterator/scanpy_parameter_iterator/0.0.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q012** — What Galaxy tool should I run for `Scanpy ComputeGraph`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q013** — What Galaxy tool should I run for `Scanpy RunTSNE`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.8.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q014** — What Galaxy tool should I run for `Scanpy RunUMAP`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.8.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q015** — Which Galaxy tool would you recommend to perform `scanpy_find_cluster`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.8.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q016** — Which Galaxy tool would you recommend to perform `scanpy_plot_embed`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.8.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q017** — Which Galaxy tool should I use to run `Scanpy RunPCA`?
-  - Tools: Scanpy RunPCA
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca/1.9.3+galaxy0
   - Datasets: 8011681
 
 ## Multi-sample batch correction with Harmony and SnapATAC2 (topics/single-cell/tutorials/scatac-batch-correction-snapatac2)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4, toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.3
 - Datasets (1): 12683310
 
 Questions:
 - **single-cell-scatac-batch-correction-snapatac2-q011** — Which Galaxy tool should I use to run `Compute sequence length`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4, toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.3
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q012** — What Galaxy tool should I run for `SnapATAC2 Preprocessing`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.6.4+galaxy1
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q013** — Which Galaxy tool would you recommend to perform `snapatac2_plotting`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.6.4+galaxy1
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q014** — What Galaxy tool should I run for `Extract element from collection`?
   - Tools: __EXTRACT_DATASET__
@@ -18188,101 +18188,101 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q016** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q017** — Which Galaxy tool would you recommend to perform `__FILTER_FROM_FILE__`?
   - Tools: __FILTER_FROM_FILE__
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q018** — What Galaxy tool should I run for `Manipulate AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.3+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q019** — Which Galaxy tool would you recommend to perform `anndata_inspect`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.3+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q020** — Which Galaxy tool should I use to run `SnapATAC2 Clustering`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.6.4+galaxy1
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q021** — Which Galaxy tool would you recommend to perform `snapatac2_peaks_and_motif`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.6.4+galaxy1
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q022** — Which Galaxy tool would you recommend to perform `pp.import_data`?
-  - Tools: pp.import_data
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q023** — Which Galaxy tool would you recommend to perform `metrics.tsse`?
-  - Tools: metrics.tsse
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q024** — Which Galaxy tool should I use to run `pp.filter_cells`?
-  - Tools: pp.filter_cells
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q025** — Which Galaxy tool should I use to run `pp.add_tile_matrix`?
-  - Tools: pp.add_tile_matrix
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q026** — Which Galaxy tool should I use to run `pp.select_features`?
-  - Tools: pp.select_features
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q027** — Which Galaxy tool should I use to run `pp.scrublet`?
-  - Tools: pp.scrublet
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q028** — What Galaxy tool should I run for `pp.filter_doublets`?
-  - Tools: pp.filter_doublets
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q029** — Which Galaxy tool should I use to run `Extract dataset`?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q030** — Which Galaxy tool would you recommend to perform `tl.spectral`?
-  - Tools: tl.spectral
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q031** — Which Galaxy tool should I use to run `tl.umap`?
-  - Tools: tl.umap
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q032** — What Galaxy tool should I run for `pp.harmony`?
-  - Tools: pp.harmony
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q033** — What Galaxy tool should I run for `pp.knn`?
-  - Tools: pp.knn
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
 - **single-cell-scatac-batch-correction-snapatac2-q034** — What Galaxy tool should I run for `tl.leiden`?
-  - Tools: tl.leiden
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12683310
 
 ## Pre-processing of 10X Single-Cell ATAC-seq Datasets (topics/single-cell/tutorials/scatac-preprocessing-tenx)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.10.1+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.10.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.9.0+galaxy1
 - Datasets (3): 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 
 Questions:
 - **single-cell-scatac-preprocessing-tenx-q011** — Which Galaxy tool should I use to run `Sinto barcode`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.10.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.10.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.9.0+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q012** — Which Galaxy tool should I use to run `FastQC`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q013** — Which Galaxy tool should I use to run `BWA-MEM`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q014** — Which Galaxy tool would you recommend to perform `sinto_fragments`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_fragments/sinto_fragments/0.10.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_fragments/sinto_fragments/0.10.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/sinto_fragments/sinto_fragments/0.9.0+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q015** — Which Galaxy tool should I use to run `bedtools SortBED`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.30.0+galaxy2
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q016** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.1.20160309.6
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q017** — What Galaxy tool should I run for `Unique occurrences of each record`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q018** — Which Galaxy tool should I use to run `Build count matrix with EpiScanpy`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/episcanpy_build_matrix/episcanpy_build_matrix/0.3.2+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q019** — Which Galaxy tool should I use to run `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q020** — What Galaxy tool should I run for `scATAC-seq Preprocessing with EpiScanpy`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/episcanpy_preprocess/episcanpy_preprocess/0.3.2+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q021** — What Galaxy tool should I run for `Plot with scanpy`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.7.1+galaxy0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 - **single-cell-scatac-preprocessing-tenx-q022** — What Galaxy tool should I run for `Map with BWA-MEM`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
@@ -18296,27 +18296,27 @@ Questions:
 
 ## Single-cell ATAC-seq standard processing with SnapATAC2 (topics/single-cell/tutorials/scatac-standard-processing-snapatac2)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4, toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.3
 - Datasets (1): 12707159
 
 Questions:
 - **single-cell-scatac-standard-processing-snapatac2-q011** — What Galaxy tool should I run for `Compute sequence length`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4, toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q012** — What Galaxy tool should I run for `Map with BWA-MEM`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.18
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q013** — Which Galaxy tool should I use to run `SnapATAC2 Preprocessing`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.6.4+galaxy1
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q014** — Which Galaxy tool should I use to run `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.3+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q015** — Which Galaxy tool would you recommend to perform `snapatac2_plotting`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.6.4+galaxy1
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q016** — What Galaxy tool should I run for `SnapATAC2 Clustering`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.6.4+galaxy1
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q017** — What Galaxy tool should I run for `Filter`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3

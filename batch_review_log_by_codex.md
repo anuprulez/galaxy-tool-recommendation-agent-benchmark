@@ -184,3 +184,14 @@ Notes:
     - `trimal`, `quicktree`, `ete_treeviewer`
     - `varvamp`
     - `hca_matrix_downloader`
+
+## Batch 0056 (5501–5600)
+- Status: **expanded** (version-drift fixes + placeholder normalization)
+- Date: 2026-01-26
+- Summary:
+  - Normalized several placeholder/non-tool entries to runnable, snapshot-installed tools:
+    - `Text transformation` → `tp_find_and_replace`
+    - `Scanpy RunPCA` → `scanpy_run_pca`
+    - `Show_beginning1` → `Show beginning1`
+    - SnapATAC2 step placeholders (`pp.*`, `metrics.*`, `tl.*`) → `snapatac2_preprocessing` or `snapatac2_clustering` (as appropriate)
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common utilities (regex find/replace, Advanced Cut, AnnData tools, etc.).
