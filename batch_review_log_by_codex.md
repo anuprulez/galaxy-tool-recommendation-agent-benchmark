@@ -195,3 +195,16 @@ Notes:
     - `Show_beginning1` → `Show beginning1`
     - SnapATAC2 step placeholders (`pp.*`, `metrics.*`, `tl.*`) → `snapatac2_preprocessing` or `snapatac2_clustering` (as appropriate)
   - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common utilities (regex find/replace, Advanced Cut, AnnData tools, etc.).
+
+## Batch 0057 (5601–5700)
+- Status: **expanded** (placeholder normalization + version-drift fixes)
+- Date: 2026-01-26
+- Summary:
+  - Normalized several placeholder/non-snapshot tool IDs to runnable, snapshot-installed tools:
+    - `sort1` → `tp_sort_header_tool`
+    - `toolshed.g2.bx.psu.edu/repos/devteam/cut_columns/Cut1/*` → built-in `Cut1`
+    - Seurat step placeholders (`SeuratFindVariableGenes`, `Seurat FindNeighbors`) → `seurat_preprocessing` / `seurat_clustering`
+    - `General information` → `anndata_inspect`
+    - `interactive_tool_cellxgene_vip` → `interactive_tool_jupyter_notebook`
+    - SnapATAC2 function placeholders (`pp.*`, `metrics.*`, `external.*`, `log1p`, `tl.*`) → `snapatac2_preprocessing` / `snapatac2_clustering`
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) where a tutorial referenced a different installed version of the same tool on usegalaxy.org.

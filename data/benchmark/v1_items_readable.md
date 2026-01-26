@@ -18319,76 +18319,76 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.6.4+galaxy1
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q017** — What Galaxy tool should I run for `Filter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.9.6+galaxy3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q018** — Which Galaxy tool would you recommend to perform `scanpy_normalize`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.9.6+galaxy3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q019** — Which Galaxy tool should I use to run `Inspect and manipulate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.9.6+galaxy3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q020** — Which Galaxy tool should I use to run `AnnData Operations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1, toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q021** — Which Galaxy tool would you recommend to perform `snapatac2_peaks_and_motif`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.8.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.6.4+galaxy1
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q022** — Which Galaxy tool should I use to run `Plot with Scanpy`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.9.6+galaxy3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q023** — What Galaxy tool should I run for `Cut columns`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cut_columns/Cut1/1.0.2
+  - Tools: Cut1
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q024** — Which Galaxy tool would you recommend to perform `replace_column_with_key_value_file`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q025** — What Galaxy tool should I run for `Manipulate AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.3+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q026** — Which Galaxy tool would you recommend to perform `pp.make_fragment_file`?
-  - Tools: pp.make_fragment_file
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q027** — Which Galaxy tool should I use to run `pp.import_data`?
-  - Tools: pp.import_data
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q028** — What Galaxy tool should I run for `metrics.tsse`?
-  - Tools: metrics.tsse
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q029** — What Galaxy tool should I run for `pp.filter_cells`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.9.6+galaxy3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q030** — Which Galaxy tool would you recommend to perform `pp.add_tile_matrix`?
-  - Tools: pp.add_tile_matrix
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q031** — Which Galaxy tool would you recommend to perform `pp.select_features`?
-  - Tools: pp.select_features
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q032** — Which Galaxy tool should I use to run `pp.scrublet`?
-  - Tools: pp.scrublet
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q033** — Which Galaxy tool would you recommend to perform `pp.filter_doublets`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.9.6+galaxy3
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q034** — Which Galaxy tool would you recommend to perform `tl.spectral`?
-  - Tools: tl.spectral
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q035** — Which Galaxy tool should I use to run `tl.umap`?
-  - Tools: tl.umap
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q036** — Which Galaxy tool would you recommend to perform `pp.knn`?
-  - Tools: pp.knn
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q037** — Which Galaxy tool should I use to run `tl.leiden`?
-  - Tools: tl.leiden
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q038** — Which Galaxy tool would you recommend to perform `pp.make_gene_matrix`?
-  - Tools: pp.make_gene_matrix
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q039** — Which Galaxy tool should I use to run `log1p`?
-  - Tools: log1p
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 - **single-cell-scatac-standard-processing-snapatac2-q040** — Which Galaxy tool would you recommend to perform `external.pp.magic`?
-  - Tools: external.pp.magic
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 
 ## Filter, plot, and explore single cell RNA-seq data with Seurat (topics/single-cell/tutorials/scrna-case_FilterPlotandExplore_SeuratTools)
@@ -18434,10 +18434,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_markers/seurat_find_markers/4.0.4+galaxy0
   - Datasets: 7053673
 - **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q023** — What Galaxy tool should I run for `SeuratFindVariableGenes`?
-  - Tools: SeuratFindVariableGenes
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seurat_preprocessing/seurat_preprocessing/5.0+galaxy0
   - Datasets: 7053673
 - **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q024** — Which Galaxy tool would you recommend to perform `Seurat FindNeighbors`?
-  - Tools: Seurat FindNeighbors
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seurat_clustering/seurat_clustering/5.0+galaxy0
   - Datasets: 7053673
 
 ## Generating a single cell matrix using Alevin (topics/single-cell/tutorials/scrna-case_alevin)
@@ -18450,7 +18450,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/gtf2gene_list/_ensembl_gtf2gene_list/1.52.0+galaxy0
   - Datasets: 4574153
 - **single-cell-scrna-case_alevin-q012** — Which Galaxy tool should I use to run `Alevin`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.10.1+galaxy4
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.10.1+galaxy4, toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.10.1+galaxy2
   - Datasets: 4574153
 - **single-cell-scrna-case_alevin-q013** — Which Galaxy tool should I use to run `Droplet barcode rank plot`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/droplet_barcode_plot/_dropletBarcodePlot/1.6.1+galaxy2
@@ -18474,26 +18474,26 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sceasy_convert/sceasy_convert/0.0.7+galaxy2
   - Datasets: 4574153
 - **single-cell-scrna-case_alevin-q020** — Which Galaxy tool should I use to run `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 4574153
 - **single-cell-scrna-case_alevin-q021** — What Galaxy tool should I run for `Manipulate AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 4574153
 
 ## Combining single cell datasets after pre-processing (topics/single-cell/tutorials/scrna-case_alevin-combine-datasets)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
 - Datasets (2): 10852529, 15090813
 
 Questions:
 - **single-cell-scrna-case_alevin-combine-datasets-q011** — Which Galaxy tool should I use to run `Manipulate AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 15090813, 10852529
 - **single-cell-scrna-case_alevin-combine-datasets-q012** — Which Galaxy tool should I use to run `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 15090813, 10852529
 - **single-cell-scrna-case_alevin-combine-datasets-q013** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy0
   - Datasets: 15090813, 10852529
 - **single-cell-scrna-case_alevin-combine-datasets-q014** — Which Galaxy tool should I use to run `Cut columns from a table`?
   - Tools: Cut1
@@ -18502,13 +18502,13 @@ Questions:
   - Tools: Paste1
   - Datasets: 15090813, 10852529
 - **single-cell-scrna-case_alevin-combine-datasets-q016** — Which Galaxy tool should I use to run `General information`?
-  - Tools: General information
-  - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q017** — What Galaxy tool should I run for `Inspect AnnData: Key-indexed observations annotation (obs)`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
   - Datasets: 15090813, 10852529
+- **single-cell-scrna-case_alevin-combine-datasets-q017** — What Galaxy tool should I run for `Inspect AnnData: Key-indexed observations annotation (obs)`?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.3+galaxy0
+  - Datasets: 15090813, 10852529
 - **single-cell-scrna-case_alevin-combine-datasets-q018** — Which Galaxy tool should I use to run `Manipulate AnnData - Add new annotations`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.3+galaxy0
   - Datasets: 15090813, 10852529
 
 ## Filter, plot and explore single-cell RNA-seq data with Scanpy (topics/single-cell/tutorials/scrna-case_basic-pipeline)
@@ -18521,41 +18521,41 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q012** — Which Galaxy tool would you recommend to perform `scanpy_inspect`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy2
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q013** — Which Galaxy tool should I use to run `Inspect AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q014** — What Galaxy tool should I run for `Scanpy plot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy2
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q015** — Which Galaxy tool would you recommend to perform `scanpy_filter`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q016** — What Galaxy tool should I run for `Scanpy normalize`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy0
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q017** — Which Galaxy tool should I use to run `Scanpy Inspect and manipulate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy1
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q018** — Which Galaxy tool would you recommend to perform `anndata_manipulate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q019** — Which Galaxy tool would you recommend to perform `scanpy_cluster_reduce_dimension`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy2
   - Datasets: 15092468
 - **single-cell-scrna-case_basic-pipeline-q020** — What Galaxy tool should I run for `Interactive CELLxGENE VIP Environment`?
-  - Tools: interactive_tool_cellxgene_vip
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 15092468
 
 ## Removing the effects of the cell cycle (topics/single-cell/tutorials/scrna-case_cell-cycle)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.7.1+galaxy0
 - Datasets (1): 
 
 Questions:
 - **single-cell-scrna-case_cell-cycle-q011** — What Galaxy tool should I run for `Inspect and manipulate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.7.1+galaxy0
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q012** — Which Galaxy tool would you recommend to perform `scanpy_regress_variable`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_regress_variable/scanpy_regress_variable/1.9.3+galaxy0
@@ -18564,28 +18564,28 @@ Questions:
   - Tools: cat1
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q014** — What Galaxy tool should I run for `Add column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1, toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.0
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q015** — Which Galaxy tool would you recommend to perform `anndata_inspect`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q016** — What Galaxy tool should I run for `Table Compute`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy0
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q017** — What Galaxy tool should I run for `Join`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q018** — What Galaxy tool should I run for `Sort`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q019** — What Galaxy tool should I run for `Manipulate AnnData`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q020** — Which Galaxy tool would you recommend to perform `scanpy_cluster_reduce_dimension`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.7.1+galaxy0
   - Datasets: 
 - **single-cell-scrna-case_cell-cycle-q021** — What Galaxy tool should I run for `Plot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.7.1+galaxy1
   - Datasets: 
 
 ## Inferring single cell trajectories with Monocle3 (topics/single-cell/tutorials/scrna-case_monocle3-trajectories)
@@ -18624,24 +18624,24 @@ Questions:
 
 ## Inferring single cell trajectories with Scanpy (topics/single-cell/tutorials/scrna-case_trajectories)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1
 - Datasets (1): 7075718
 
 Questions:
 - **single-cell-scrna-case_trajectories-q011** — Which Galaxy tool would you recommend to perform `anndata_manipulate`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1
   - Datasets: 7075718
 - **single-cell-scrna-case_trajectories-q012** — Which Galaxy tool should I use to run `Scanpy RunFDG`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_fdg/scanpy_run_fdg/1.9.3+galaxy0
   - Datasets: 7075718
 - **single-cell-scrna-case_trajectories-q013** — Which Galaxy tool should I use to run `Scanpy PlotEmbed`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.8.1+galaxy9
   - Datasets: 7075718
 - **single-cell-scrna-case_trajectories-q014** — Which Galaxy tool would you recommend to perform `scanpy_run_diffmap`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_diffmap/scanpy_run_diffmap/1.9.3+galaxy0
   - Datasets: 7075718
 - **single-cell-scrna-case_trajectories-q015** — Which Galaxy tool should I use to run `Scanpy ComputeGraph`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+galaxy9
   - Datasets: 7075718
 - **single-cell-scrna-case_trajectories-q016** — What Galaxy tool should I run for `Scanpy ComputeGraph`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
