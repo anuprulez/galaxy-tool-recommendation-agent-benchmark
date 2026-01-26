@@ -89,6 +89,34 @@ Scope and rules used for each batch:
     - `toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2`
   - Because the above tool IDs are not verifiable in the snapshot, no same-intent alternatives were added for them.
 
+## Batch 0036 (3501–3600)
+- Status: **expanded** (with **flags**)
+- Date: 2026-01-25
+- Expansion summary:
+  - Added snapshot-verified alternative installed versions for:
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2`
+- Flags / notes:
+  - Tool IDs referenced in this batch but **not present** in the local usegalaxy.org snapshot:
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2`
+    - IDR tool:
+      - `toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45`
+    - CellProfiler tools (many `cp_*`), e.g.
+      - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy2`
+      - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2`
+      - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy1`
+  - `__EXTRACT_DATASET__` is present in the snapshot (Galaxy internal tool), so no expansion was needed.
+
 ## Batch 0040 (3901–4000)
 - Status: **expanded**
 - Date: 2026-01-25
