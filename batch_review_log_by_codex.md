@@ -221,3 +221,19 @@ Notes:
     - `scater_plot_*` / `Scater: PCA plot` → `scanpy_plot`
     - `Scater: filter SCE` → `scanpy_filter_cells`
   - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
+
+## Batch 0059 (5801–5900)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Mapped non-installed, tutorial-specific tools to runnable usegalaxy.org tools:
+    - PAPAA PanCancer tools (`pancancer_*`) → `interactive_tool_jupyter_notebook` (no server-installed equivalent in the snapshot)
+    - Flexynesis tools (`flexynesis*`) → `interactive_tool_rstudio_bioconductor` (no server-installed equivalent in the snapshot)
+    - `TabPFN` → `tabular_learner` (closest available tabular ML alternative)
+    - `PyCaret Model Comparison` → `tabular_learner` (closest available model-comparison alternative)
+    - `Ludwig Experiment` (non-installed wrapper) → `goeckslab/ludwig_experiment`
+    - IWTomics step placeholders (`Load, Smooth and Plot`, `Test and Plot`, `Plot with Threshold on Test Scale`) → `iwtomics_*` tools
+  - Normalized built-in tool ID spellings:
+    - `Remove_beginning1` → `Remove beginning1`
+    - `Show_beginning1` → `Show beginning1`
+  - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).

@@ -19088,42 +19088,42 @@ Questions:
 
 ## PAPAA PI3K_OG: PanCancer Aberrant Pathway Activity Analysis (topics/statistics/tutorials/aberrant_pi3k_pathway_analysis)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_classifier/pancancer_classifier/0.1.9
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (3): 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 
 Questions:
 - **statistics-aberrant_pi3k_pathway_analysis-q011** — What Galaxy tool should I run for `PAPAA: PanCancer classifier`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_classifier/pancancer_classifier/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q012** — Which Galaxy tool should I use to run `PAPAA: PanCancer within disease analysis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_within_disease_analysis/pancancer_within_disease_analysis/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q013** — Which Galaxy tool should I use to run `PAPAA: PanCancer compare within models`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_compare_within_models/pancancer_compare_within_models/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q014** — Which Galaxy tool should I use to run `PAPAA: PanCancer apply weights`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_apply_weights/pancancer_apply_weights/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q015** — Which Galaxy tool should I use to run `PAPAA: PanCancer visualize decisions`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_visualize_decisions/pancancer_visualize_decisions/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q016** — Which Galaxy tool would you recommend to perform `pancancer_map_mutation_class`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_map_mutation_class/pancancer_map_mutation_class/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q017** — Which Galaxy tool should I use to run `PAPAA: PanCancer alternative genes pathwaymapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_alternative_genes_pathwaymapper/pancancer_alternative_genes_pathwaymapper/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q018** — Which Galaxy tool should I use to run `PAPAA: PanCancer pathway count heatmaps`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_pathway_count_heatmaps/pancancer_pathway_count_heatmaps/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q019** — What Galaxy tool should I run for `PAPAA: PanCancer targene summary figures`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_targene_summary_figures/pancancer_targene_summary_figures/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q020** — What Galaxy tool should I run for `PAPAA: PanCancer targene cell line predictions`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_targene_cell_line_predictions/pancancer_targene_cell_line_predictions/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 - **statistics-aberrant_pi3k_pathway_analysis-q021** — What Galaxy tool should I run for `PAPAA: PanCancer external sample status prediction`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/vijay/pancancer_external_sample_status_prediction/pancancer_external_sample_status_prediction/0.1.9
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 4306639, CCLE_DepMap_18Q1_maf_20180207.txt.gz, CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
 
 ## Age prediction using machine learning (topics/statistics/tutorials/age-prediction-with-ml)
@@ -19176,7 +19176,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 - **statistics-classification_machinelearning-q018** — What Galaxy tool should I run for `Remove beginning`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 3738729, train_rows.csv, test_rows_labels.csv
 
 ## Machine learning: classification and regression (topics/statistics/tutorials/classification_regression)
@@ -19213,12 +19213,12 @@ Questions:
 
 ## Prepare Data from CbioPortal for Flexynesis Integration (topics/statistics/tutorials/flexynesis_cbio_import)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_cbioportal_import/flexynesis_cbioportal_import/0.2.20+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (1): 16287482
 
 Questions:
 - **statistics-flexynesis_cbio_import-q011** — Which Galaxy tool should I use to run `Flexynesis cBioPortal import`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_cbioportal_import/flexynesis_cbioportal_import/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 - **statistics-flexynesis_cbio_import-q012** — What Galaxy tool should I run for `Extract dataset`?
   - Tools: __EXTRACT_DATASET__
@@ -19233,20 +19233,20 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 16287482
 - **statistics-flexynesis_cbio_import-q016** — Which Galaxy tool would you recommend to perform `flexynesis_utils`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 - **statistics-flexynesis_cbio_import-q017** — Which Galaxy tool should I use to run `Flexynesis utils`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 
 ## Modeling Breast Cancer Subtypes with Flexynesis (topics/statistics/tutorials/flexynesis_classification)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (3): 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 
 Questions:
 - **statistics-flexynesis_classification-q011** — Which Galaxy tool would you recommend to perform `flexynesis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 - **statistics-flexynesis_classification-q012** — Which Galaxy tool should I use to run `Extract dataset`?
   - Tools: __EXTRACT_DATASET__
@@ -19255,7 +19255,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 - **statistics-flexynesis_classification-q014** — Which Galaxy tool should I use to run `Flexynesis plot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 - **statistics-flexynesis_classification-q015** — Which Galaxy tool would you recommend to perform `table_compute`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2
@@ -19264,7 +19264,7 @@ Questions:
   - Tools: join1
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 - **statistics-flexynesis_classification-q017** — Which Galaxy tool should I use to run `Select first`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 - **statistics-flexynesis_classification-q018** — Which Galaxy tool should I use to run `Advanced Cut`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
@@ -19276,17 +19276,17 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 - **statistics-flexynesis_classification-q021** — What Galaxy tool should I run for `Tabular data prediction using TabPFN`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/tabpfn/tabpfn/2.0.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.4
   - Datasets: 16287482, train_cna_brca.tabular, train_gex_brca.tabular
 
 ## Identifing Survival Markers of Brain tumor with Flexynesis (topics/statistics/tutorials/flexynesis_survival)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (3): 16287482, train_clin_lgggbm.tabular, train_mut_lgggbm.tabular
 
 Questions:
 - **statistics-flexynesis_survival-q011** — Which Galaxy tool should I use to run `Flexynesis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482, train_mut_lgggbm.tabular, train_clin_lgggbm.tabular
 - **statistics-flexynesis_survival-q012** — What Galaxy tool should I run for `Extract dataset`?
   - Tools: __EXTRACT_DATASET__
@@ -19301,26 +19301,26 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
   - Datasets: 16287482, train_mut_lgggbm.tabular, train_clin_lgggbm.tabular
 - **statistics-flexynesis_survival-q016** — Which Galaxy tool should I use to run `Flexynesis plot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482, train_mut_lgggbm.tabular, train_clin_lgggbm.tabular
 
 ## Unsupervised Analysis of Bone Marrow Cells with Flexynesis (topics/statistics/tutorials/flexynesis_unsupervised)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
 - Datasets (1): 16287482
 
 Questions:
 - **statistics-flexynesis_unsupervised-q011** — What Galaxy tool should I run for `Flexynesis`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 - **statistics-flexynesis_unsupervised-q012** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 16287482
 - **statistics-flexynesis_unsupervised-q013** — What Galaxy tool should I run for `Flexynesis utils`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_utils/flexynesis_utils/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 - **statistics-flexynesis_unsupervised-q014** — What Galaxy tool should I run for `Flexynesis plot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis_plot/flexynesis_plot/0.2.20+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 
 ## Image classification in Galaxy with fruit 360 dataset (topics/statistics/tutorials/fruit_360)
@@ -19353,12 +19353,12 @@ Questions:
 
 ## Train and Test a Deep learning image classifier with Galaxy-Ludwig (topics/statistics/tutorials/galaxy-ludwig)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+- Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/ludwig_experiment/ludwig_experiment/0.10.1+3
 - Datasets (3): mnist_images.zip, mnist_dataset.csv, config.yaml
 
 Questions:
 - **statistics-galaxy-ludwig-q011** — Which Galaxy tool should I use to run `Ludwig Experiment`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/ludwig_applications/ludwig_experiment/2024.0.10.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/ludwig_experiment/ludwig_experiment/0.10.1+3
   - Datasets: mnist_images.zip, mnist_dataset.csv, config.yaml
 
 ## A Docker-based interactive Jupyterlab powered by GPU for artificial intelligence in Galaxy (topics/statistics/tutorials/gpu_jupyter_lab)
@@ -19429,28 +19429,28 @@ Questions:
 
 ## Interval-Wise Testing for omics data (topics/statistics/tutorials/iwtomics)
 - Topic: statistics
-- Tools: Load, Smooth and Plot
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
 - Datasets (3): zenodo.5589610, Control.bed, ETn_fixed.bed
 
 Questions:
 - **statistics-iwtomics-q011** — What Galaxy tool should I run for `Load, Smooth and Plot`?
-  - Tools: Load, Smooth and Plot
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_loadandplot/iwtomics_loadandplot/1.0.0.0
   - Datasets: zenodo.5589610, ETn_fixed.bed, Control.bed
 - **statistics-iwtomics-q012** — Which Galaxy tool would you recommend to perform `Test and Plot`?
-  - Tools: Test and Plot
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_testandplot/iwtomics_testandplot/1.0.0.0
   - Datasets: zenodo.5589610, ETn_fixed.bed, Control.bed
 - **statistics-iwtomics-q013** — What Galaxy tool should I run for `Plot with Threshold on Test Scale`?
-  - Tools: Plot with Threshold on Test Scale
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iwtomics_plotwithscale/iwtomics_plotwithscale/1.0.0.0
   - Datasets: zenodo.5589610, ETn_fixed.bed, Control.bed
 
 ## Building the LORIS LLR6 PanCancer Model Using PyCaret (topics/statistics/tutorials/loris_model)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+- Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.4
 - Datasets (3): 13885908, Chowell_test_Response.tsv, Chowell_train_Response.tsv
 
 Questions:
 - **statistics-loris_model-q011** — What Galaxy tool should I run for `PyCaret Model Comparison`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/paulo_lyra_jr/pycaret_model_comparison/PyCaret_Model_Comparison/2024.3.3.2+0
+  - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.4
   - Datasets: 13885908, Chowell_train_Response.tsv, Chowell_test_Response.tsv
 
 ## Basics of machine learning (topics/statistics/tutorials/machinelearning)
