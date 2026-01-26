@@ -47,6 +47,48 @@ Scope and rules used for each batch:
     - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy1`
   - Snapshot contains internal alternatives related to archives (e.g., `CONVERTER_archive_to_directory`, `__UNZIP_COLLECTION__`), but these were not added because they are not clearly same-intent replacements for a single-file unzip tool.
 
+## Batch 0035 (3401–3500)
+- Status: **expanded** (with **flags**)
+- Date: 2026-01-25
+- Expansion summary:
+  - Added snapshot-verified alternative installed versions for:
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3` ↔
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2`
+    - `toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0` ↔
+      `toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2`,
+      `toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1`,
+      `toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0`
+- Flags / notes:
+  - Tool IDs referenced in this batch but **not present** in the local usegalaxy.org snapshot:
+    - CellProfiler tools (many `cp_*`), e.g.
+      - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy1`
+      - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_track_objects/cp_track_objects/3.1.9+galaxy0`
+      - `toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0`
+    - OMERO suite tools, e.g.
+      - `toolshed.g2.bx.psu.edu/repos/ufz/omero_import/omero_import/5.18.0+galaxy3`
+      - `toolshed.g2.bx.psu.edu/repos/ufz/omero_metadata_import/omero_metadata_import/5.18.0+galaxy3`
+      - `toolshed.g2.bx.psu.edu/repos/ufz/omero_roi_import/omero_roi_import/5.18.0+galaxy4`
+      - `toolshed.g2.bx.psu.edu/repos/ufz/omero_get_id/omero_get_id/5.18.0+galaxy0`
+      - `toolshed.g2.bx.psu.edu/repos/ufz/omero_get_value/omero_get_value/5.18.0+galaxy0`
+      - `toolshed.g2.bx.psu.edu/repos/ufz/omero_filter/omero_filter/5.18.0+galaxy0`
+    - `toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1`
+    - `toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2`
+  - Because the above tool IDs are not verifiable in the snapshot, no same-intent alternatives were added for them.
+
 ## Batch 0040 (3901–4000)
 - Status: **expanded**
 - Date: 2026-01-25

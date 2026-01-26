@@ -11158,21 +11158,21 @@ Questions:
 
 ## Parameter tuning and optimization - Evaluating nuclei segmentation with Galaxy (topics/imaging/tutorials/parameter-tuning)
 - Topic: imaging
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
 - Datasets (1): None
 
 Questions:
 - **imaging-parameter-tuning-q011** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
 - **imaging-parameter-tuning-q012** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
 - **imaging-parameter-tuning-q013** — Which Galaxy tool splits files on a column?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
 - **imaging-parameter-tuning-q014** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
 - **imaging-parameter-tuning-q015** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
   - Tools: param_value_from_file
@@ -11187,40 +11187,40 @@ Questions:
   - Tools: param_value_from_file
   - Datasets: None
 - **imaging-parameter-tuning-q019** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
 - **imaging-parameter-tuning-q020** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
 - **imaging-parameter-tuning-q021** — Which Galaxy tool runs ip_filter_standard?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
 - **imaging-parameter-tuning-q022** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
 - **imaging-parameter-tuning-q023** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
 - **imaging-parameter-tuning-q024** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
 - **imaging-parameter-tuning-q025** — Which Galaxy tool performs 2D histogram equalization?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
 - **imaging-parameter-tuning-q026** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
 - **imaging-parameter-tuning-q027** — Which Galaxy tool would you recommend to perform `ip_threshold`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
 - **imaging-parameter-tuning-q028** — Which Galaxy tool would you recommend to perform `ip_threshold`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
 - **imaging-parameter-tuning-q029** — Which Galaxy tool runs 2D auto-thresholding?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
 - **imaging-parameter-tuning-q030** — Which Galaxy tool would you recommend to perform `ip_threshold`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
 - **imaging-parameter-tuning-q031** — Which Galaxy tool would you recommend to perform `ip_segmetrics`?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2
@@ -11235,16 +11235,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2
   - Datasets: None
 - **imaging-parameter-tuning-q035** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
 - **imaging-parameter-tuning-q036** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
 - **imaging-parameter-tuning-q037** — Which Galaxy tool collapses dataset collections?
-  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
 - **imaging-parameter-tuning-q038** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
 
 ## Using BioImage.IO models for image analysis in Galaxy (topics/imaging/tutorials/process-image-bioimageio)
