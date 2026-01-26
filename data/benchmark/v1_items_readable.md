@@ -14845,28 +14845,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q019** — Which Galaxy tool would you recommend to perform `quast`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q020** — To generate the QUAST metrics across contig sets, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q021** — Which Galaxy tool produces the QUAST comparison report for our metagenomic assemblies?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q022** — Which Galaxy tool would you recommend to perform `quast`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q023** — Which Galaxy tool would you recommend to perform `bowtie2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q024** — To align the same read collection against the MEGAHIT contigs, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q025** — Which Galaxy tool is responsible for the Bowtie2 mapping step described for coverage estimation?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q026** — Which Galaxy tool would you recommend to perform `bowtie2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
 - **microbiome-metagenomics-assembly-q027** — Which Galaxy tool would you recommend to perform `coverm_contig`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
@@ -14900,28 +14900,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q015** — Which Galaxy tool would you recommend to perform `samtools_sort`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q016** — To produce coordinate-sorted BAMs for downstream binning tools, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q017** — Which Galaxy tool sorts BAM alignments produced by Bowtie2?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q018** — Which Galaxy tool would you recommend to perform `samtools_sort`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q019** — Which Galaxy tool would you recommend to perform `binette`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q020** — Which Galaxy tool would you recommend to perform `binette`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q021** — Which Galaxy tool corresponds to the Binette hybrid refinement step described here?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q022** — Which Galaxy tool would you recommend to perform `binette`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
 - **microbiome-metagenomics-binning-q023** — Which Galaxy tool would you recommend to perform `checkm_lineage_wf`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm_lineage_wf/checkm_lineage_wf/1.2.4+galaxy2
@@ -14950,21 +14950,21 @@ Questions:
 
 ## Query an annotated mobile genetic element database to identify and annotate genetic elements (e.g. plasmids) in metagenomics data (topics/microbiome/tutorials/metaplasmidome_query)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
 - Datasets (1): 14501567'
 
 Questions:
 - **microbiome-metaplasmidome_query-q011** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
 - **microbiome-metaplasmidome_query-q012** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
 - **microbiome-metaplasmidome_query-q013** — Which Galaxy tool performs the minimap2 alignment step for plasmid discovery?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
 - **microbiome-metaplasmidome_query-q014** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
 - **microbiome-metaplasmidome_query-q015** — Which Galaxy tool would you recommend to perform `Cut1`?
   - Tools: Cut1
@@ -15034,52 +15034,52 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q015** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q016** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q017** — Which Galaxy tool compiles FastQC logs into a single MultiQC report?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q019** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q020** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q021** — Which Galaxy tool provides the Cutadapt trimming step described in the ASaiM workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q022** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q023** — Which Galaxy tool would you recommend to perform `sortmerna`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q024** — Which Galaxy tool would you recommend to perform `sortmerna`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q025** — Which Galaxy tool corresponds to the SortMeRNA step described in the preprocessing workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q026** — Which Galaxy tool would you recommend to perform `sortmerna`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q027** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q028** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q029** — Which Galaxy tool produces the interlaced FastQ dataset described in ASaiM preprocessing?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-q030** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 
 ## Metatranscriptomics analysis using microbiome RNA-seq data (short) (topics/microbiome/tutorials/metatranscriptomics-short)
@@ -15101,46 +15101,46 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q015** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q016** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q017** — Which Galaxy tool corresponds to the MultiQC aggregation in the short guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q019** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q020** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q021** — Which Galaxy tool performs the Cutadapt trimming embedded in the condensed pipeline?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q022** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/cutadapt/cutadapt/4.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q023** — Which Galaxy tool would you recommend to perform `sortmerna`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q024** — Which Galaxy tool would you recommend to perform `sortmerna`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q025** — Which Galaxy tool implements the SortMeRNA step inside the short workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q026** — Which Galaxy tool would you recommend to perform `sortmerna`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sortmerna/sortmerna/4.0.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q027** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q028** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q029** — Which Galaxy tool corresponds to the FastQ interlacer step referenced in the short guide?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4

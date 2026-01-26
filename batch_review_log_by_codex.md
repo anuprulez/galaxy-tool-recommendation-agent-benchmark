@@ -57,3 +57,16 @@ Notes:
     - `microbiome-clinical-mp-3-verification-q019`–`q022`
 - Flags:
   - `lotus2` tool IDs referenced in `microbiome-lotus2-identifying-fungi-q011`–`q012` are not present in the local usegalaxy.org snapshot; no snapshot-verified alternative was added.
+
+## Batch 0047 (4601–4700)
+- Status: **expanded** (version-drift fixes + snapshot tool normalization)
+- Date: 2026-01-26
+- Summary:
+  - Replaced non-snapshot tool IDs with snapshot-installed, same-intent equivalents:
+    - Cutadapt: `devteam/cutadapt` → `lparsons/cutadapt` (metatranscriptomics and metatranscriptomics-short trimming steps)
+    - SortMeRNA: `iuc/sortmerna` → `rnateam/sortmerna/bg_sortmerna` (rRNA filtering steps)
+    - FASTQ interlacing: `fastq_interlacer` → `fastq_paired_end_interlacer` (paired-end interlacing steps)
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common metagenomics steps:
+    - `quast`, `bowtie2`, `samtools_sort`, `binette`, `minimap2`, `multiqc`
+- Flags:
+  - `lotus2` tool IDs referenced in `microbiome-lotus2-identifying-fungi-q013`–`q014` are not present in the local usegalaxy.org snapshot; no snapshot-verified alternative was added.
