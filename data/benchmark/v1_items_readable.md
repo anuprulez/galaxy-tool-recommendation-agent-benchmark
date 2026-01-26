@@ -10782,16 +10782,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/mesmer/mesmer/0.12.3+galaxy3
   - Datasets: zenodo.7622545
 - **imaging-multiplex-tissue-imaging-TMA-q027** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
 - **imaging-multiplex-tissue-imaging-TMA-q028** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
 - **imaging-multiplex-tissue-imaging-TMA-q029** — Which Galaxy tool runs bfconvert (ip_convertimage)?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
 - **imaging-multiplex-tissue-imaging-TMA-q030** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
 - **imaging-multiplex-tissue-imaging-TMA-q031** — Which Galaxy tool would you recommend to perform `quantification`?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/quantification/quantification/1.6.0+galaxy0
