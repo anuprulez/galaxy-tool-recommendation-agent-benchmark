@@ -20202,7 +20202,7 @@ Questions:
   - Tools: Cut1
   - Datasets: questions:, oncotarget.5232
 - **transcriptomics-rna-seq-analysis-clustering-viz-q015** — Which Galaxy tool should I use to run `goseq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.44.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0
   - Datasets: questions:, oncotarget.5232
 - **transcriptomics-rna-seq-analysis-clustering-viz-q016** — Which Galaxy tool should I use to run `Filter data on any column using simple expressions`?
   - Tools: Filter1
@@ -20214,7 +20214,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/Multivariate/2.3.10
   - Datasets: questions:, oncotarget.5232
 - **transcriptomics-rna-seq-analysis-clustering-viz-q019** — Which Galaxy tool should I use to run `heatmap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.1.3.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.3.0+galaxy0
   - Datasets: questions:, oncotarget.5232
 - **transcriptomics-rna-seq-analysis-clustering-viz-q020** — Which Galaxy tool should I use to run `filter`?
   - Tools: Filter1
@@ -20225,27 +20225,27 @@ Questions:
 
 ## 2: RNA-seq counts to genes (topics/transcriptomics/tutorials/rna-seq-counts-to-genes)
 - Topic: transcriptomics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
 - Datasets (3): 4273218, countdata.tsv, factordata.tsv
 
 Questions:
 - **transcriptomics-rna-seq-counts-to-genes-q011** — Which Galaxy tool should I use to run `Cut columns from a table (cut)`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 - **transcriptomics-rna-seq-counts-to-genes-q012** — Which Galaxy tool would you recommend to perform `Replace Text in entire line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 - **transcriptomics-rna-seq-counts-to-genes-q013** — Which Galaxy tool would you recommend to perform `Cut`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 - **transcriptomics-rna-seq-counts-to-genes-q014** — What Galaxy tool should I run for `Replace Text`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 - **transcriptomics-rna-seq-counts-to-genes-q015** — Which Galaxy tool would you recommend to perform `Merge Columns together`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
+  - Tools: mergeCols1
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 - **transcriptomics-rna-seq-counts-to-genes-q016** — What Galaxy tool should I run for `Merge Columns`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
+  - Tools: mergeCols1
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 - **transcriptomics-rna-seq-counts-to-genes-q017** — Which Galaxy tool should I use to run `annotateMyIDs`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0
@@ -20279,10 +20279,10 @@ Questions:
   - Tools: join1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-genes-to-pathways-q017** — Which Galaxy tool should I use to run `goseq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.44.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-genes-to-pathways-q018** — What Galaxy tool should I run for `Sort data in ascending or descending order`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-genes-to-pathways-q019** — What Galaxy tool should I run for `Cut`?
   - Tools: Cut1
@@ -20291,7 +20291,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fgsea/fgsea/1.8.0+galaxy1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-genes-to-pathways-q021** — What Galaxy tool should I run for `Sort`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-genes-to-pathways-q022** — Which Galaxy tool would you recommend to perform `Cut columns from a table (cut)`?
   - Tools: Cut1
@@ -20350,10 +20350,10 @@ Questions:
   - Tools: Filter1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-viz-with-heatmap2-q012** — Which Galaxy tool should I use to run `Sort`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-viz-with-heatmap2-q013** — Which Galaxy tool should I use to run `Select first`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-viz-with-heatmap2-q014** — Which Galaxy tool should I use to run `Join two Datasets side by side on a specified field`?
   - Tools: join1
@@ -20362,7 +20362,7 @@ Questions:
   - Tools: Cut1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-viz-with-heatmap2-q016** — What Galaxy tool should I run for `heatmap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.1.3.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.3.0+galaxy0
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-viz-with-heatmap2-q017** — Which Galaxy tool should I use to run `Transpose`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
@@ -20376,40 +20376,40 @@ Questions:
 
 ## Visualization of RNA-Seq results with Volcano Plot (topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot)
 - Topic: transcriptomics
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
 - Datasets (1): 2529117
 
 Questions:
 - **transcriptomics-rna-seq-viz-with-volcanoplot-q011** — Which Galaxy tool would you recommend to perform `volcanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 - **transcriptomics-rna-seq-viz-with-volcanoplot-q012** — Which Galaxy tool would you recommend to perform `volcanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 - **transcriptomics-rna-seq-viz-with-volcanoplot-q013** — Which Galaxy tool creates volcano plots from RNA-seq differential results?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 - **transcriptomics-rna-seq-viz-with-volcanoplot-q014** — Which Galaxy tool would you recommend to perform `volcanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 
 ## Visualization of RNA-Seq results with Volcano Plot in R (topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r)
 - Topic: transcriptomics
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
 - Datasets (1): 2529117
 
 Questions:
 - **transcriptomics-rna-seq-viz-with-volcanoplot-r-q011** — Which Galaxy tool would you recommend to perform `volcanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 - **transcriptomics-rna-seq-viz-with-volcanoplot-r-q012** — Which Galaxy tool would you recommend to perform `volcanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 - **transcriptomics-rna-seq-viz-with-volcanoplot-r-q013** — Which Galaxy tool lets me customize volcano plot styling for RNA-seq results?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 - **transcriptomics-rna-seq-viz-with-volcanoplot-r-q014** — Which Galaxy tool would you recommend to perform `volcanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0
   - Datasets: 2529117
 
 ## Small Non-coding RNA Clustering using BlockClust (topics/transcriptomics/tutorials/small_ncrna_clustering)
@@ -20425,7 +20425,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/blockclust/blockclust/1.1.1
   - Datasets: 1491876, GSM769512.bam
 - **transcriptomics-small_ncrna_clustering-q013** — Which Galaxy tool should I use to run `Sort`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 1491876, GSM769512.bam
 - **transcriptomics-small_ncrna_clustering-q014** — Which Galaxy tool should I use to run `blockbuster`?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/blockbuster/blockbuster/0.1.2
@@ -20441,7 +20441,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 826906, zenodo.826906, 1324070
 - **transcriptomics-srna-q012** — Which Galaxy tool should I use to run `FASTQ Groomer`?
-  - Tools: FASTQ Groomer
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
   - Datasets: 826906, zenodo.826906, 1324070
 - **transcriptomics-srna-q013** — Which Galaxy tool should I use to run `Trim Galore!`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
@@ -20490,10 +20490,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/vapor/vapor/1.0.3+galaxy0
   - Datasets: (see source)
 - **variant-analysis-aiv-analysis-q014** — What Galaxy tool should I run for `Replace parts of text`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy3
   - Datasets: (see source)
 - **variant-analysis-aiv-analysis-q015** — Which Galaxy tool should I use to run `Select first lines from a dataset`?
-  - Tools: Show_beginning1
+  - Tools: Show beginning1
   - Datasets: (see source)
 - **variant-analysis-aiv-analysis-q016** — Which Galaxy tool would you recommend to perform `seqtk_subseq`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0
@@ -20542,7 +20542,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q013** — Which Galaxy tool should I use to run `Replace Text in entire line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q014** — What Galaxy tool should I run for `Download and Extract Reads in FASTQ format from NCBI SRA`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fastq_dump/3.1.1+galaxy1

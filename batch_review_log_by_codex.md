@@ -267,3 +267,16 @@ Notes:
     - `IGV` (external in tutorial) → `jbrowse2`
     - `Select last` → built-in `Show tail1`
   - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
+
+## Batch 0062 (6101–6200)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Removed non-latest tool versions from `tools[]` and aligned to the usegalaxy.org “latest index”.
+  - Normalized placeholder/built-in tool labels to snapshot IDs:
+    - `Show_beginning1` → `Show beginning1`
+    - `FASTQ Groomer` (string placeholder) → `devteam/fastq_groomer`
+    - `devteam/merge_cols/mergeCols1/*` → built-in `mergeCols1`
+  - Updated several visualization + text utilities to snapshot-latest versions:
+    - `volcanoplot`, `heatmap2`, `goseq`, `tp_cut_tool`, `tp_replace_in_line`, `tp_sort_header_tool`, `tp_find_and_replace`
+  - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
