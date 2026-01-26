@@ -112,3 +112,12 @@ Notes:
   - Several tutorial tool IDs in this batch are not present in the local usegalaxy.org snapshot (kept as-is; no snapshot-verified alternatives added), including:
     - `bioconductor_scp` (`proteomics-bioconductor-scp-q023`–`q026`)
     - multiple `proteore_*` tools used in `proteomics-biomarker_selection-*`
+
+## Batch 0051 (5001–5100)
+- Status: **expanded** (version-drift fixes + built-in ID normalization)
+- Date: 2026-01-26
+- Summary:
+  - Normalized a built-in tool ID mismatch to the snapshot-installed spelling:
+    - `Remove_beginning1` → `Remove beginning1` (clinical MP discovery/verification rows in this batch)
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
+    - `filter_tabular`, `query_tabular`, `msconvert`, `maxquant`, `unipept`

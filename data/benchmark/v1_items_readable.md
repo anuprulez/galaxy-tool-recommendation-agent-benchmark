@@ -16147,28 +16147,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q059** — Which Galaxy tool would you recommend to perform `filter_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q060** — Which Galaxy tool would you recommend to perform `filter_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q061** — Which Galaxy tool would you recommend to perform `filter_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q062** — Which Galaxy tool would you recommend to perform `filter_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q063** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q064** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q065** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q066** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q067** — Which Galaxy tool would you recommend to perform `Cut1`?
   - Tools: Cut1
@@ -16219,16 +16219,16 @@ Questions:
   - Tools: Grep1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q083** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q084** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q085** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q086** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q087** — Which Galaxy tool would you recommend to perform `Grouping1`?
   - Tools: Grouping1
@@ -16243,16 +16243,16 @@ Questions:
   - Tools: Grouping1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q091** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q092** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q093** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q094** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q095** — Which Galaxy tool would you recommend to perform `Grouping1`?
   - Tools: Grouping1
@@ -16286,28 +16286,28 @@ Questions:
   - Tools: Cut1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q015** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q016** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q017** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q018** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q019** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q020** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q021** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q022** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q023** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
@@ -16358,16 +16358,16 @@ Questions:
   - Tools: Filter1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q039** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q040** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q041** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q042** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q043** — Which Galaxy tool would you recommend to perform `Grouping1`?
   - Tools: Grouping1
@@ -16382,35 +16382,35 @@ Questions:
   - Tools: Grouping1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q047** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0, toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.4.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q048** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0, toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.4.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q049** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0, toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.4.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-3-verification-q050** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0, toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.4.0
   - Datasets: zenodo.10105821
 
 ## Clinical Metaproteomics 4: Quantitation (topics/proteomics/tutorials/clinical-mp-4-quantitation)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
 - Datasets (1): zenodo.10105821
 
 Questions:
 - **proteomics-clinical-mp-4-quantitation-q011** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-4-quantitation-q012** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-4-quantitation-q013** — Which Galaxy tool invocation uses the Quantitation Database, experimental design template, and RAW dataset collection so the workflow outputs Protein Groups, mqpar.xml, Peptides, Evidence, and MSMS tables for analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-4-quantitation-q014** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-4-quantitation-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
   - Tools: Grep1
@@ -16451,15 +16451,15 @@ Questions:
 
 ## Clinical Metaproteomics 5: Data Interpretation (topics/proteomics/tutorials/clinical-mp-5-data-interpretation)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
 - Datasets (1): zenodo.10105821
 
 Questions:
 - **proteomics-clinical-mp-5-data-interpretation-q011** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q012** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q013** — Which Galaxy tool would you recommend to perform `maxquant`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
