@@ -14144,28 +14144,28 @@ Questions:
   - Tools: param_value_from_file
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q023** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q024** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q025** — Which Galaxy tool runs Open Babel compound conversion?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q026** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q027** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q028** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q029** — Which Galaxy tool is Concatenate datasets tail-to-head (cat)?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q030** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q031** — Which Galaxy tool would you recommend to perform `ctb_im_conformers`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_conformers/ctb_im_conformers/1.1.4+galaxy0
@@ -14242,57 +14242,57 @@ Questions:
 
 ## Identification of the micro-organisms in a beer using Nanopore sequencing (topics/microbiome/tutorials/beer-data-analysis)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
 - Datasets (1): zenodo.7093173
 
 Questions:
 - **microbiome-beer-data-analysis-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q013** — Which Galaxy tool runs FASTQC?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q015** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q016** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q017** — Which Galaxy tool runs Porechop?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q018** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q019** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q020** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q021** — Which Galaxy tool is fastp?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q022** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q023** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q024** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q025** — Which Galaxy tool runs Kraken2?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q026** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q027** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
@@ -14307,16 +14307,16 @@ Questions:
   - Tools: Filter1
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q031** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q032** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q033** — Which Galaxy tool runs krakentools_kreport2krona?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q034** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
 - **microbiome-beer-data-analysis-q035** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
@@ -14405,16 +14405,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/4.0.41+galaxy1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-2-discovery-q015** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-2-discovery-q016** — To turn the vendor RAW collection into MGF with peak picking enabled, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-2-discovery-q017** — Which Galaxy tool transforms Thermo RAW spectra into mascot generic format (MGF) for downstream searching?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-2-discovery-q018** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-2-discovery-q019** — Which Galaxy tool would you recommend to perform `search_gui`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
