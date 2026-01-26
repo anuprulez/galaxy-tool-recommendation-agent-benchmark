@@ -208,3 +208,16 @@ Notes:
     - `interactive_tool_cellxgene_vip` → `interactive_tool_jupyter_notebook`
     - SnapATAC2 function placeholders (`pp.*`, `metrics.*`, `external.*`, `log1p`, `tl.*`) → `snapatac2_preprocessing` / `snapatac2_clustering`
   - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) where a tutorial referenced a different installed version of the same tool on usegalaxy.org.
+
+## Batch 0058 (5701–5800)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Replaced non-snapshot placeholder/broken tool IDs with snapshot-installed equivalents:
+    - `imgteam/unzip` → `CONVERTER_archive_to_directory`
+    - `Table Compute` (string) → `toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute`
+  - For scater QC steps that are not installed on usegalaxy.org, mapped to the closest installed single-cell tooling:
+    - `Scater: Calculate QC metrics` → `anndata_ops`
+    - `scater_plot_*` / `Scater: PCA plot` → `scanpy_plot`
+    - `Scater: filter SCE` → `scanpy_filter_cells`
+  - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).

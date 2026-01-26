@@ -18728,12 +18728,12 @@ Questions:
 
 ## Converting NCBI Data to the AnnData Format (topics/single-cell/tutorials/scrna-ncbi-anndata)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+- Tools: CONVERTER_archive_to_directory
 - Datasets (1): 10101768
 
 Questions:
 - **single-cell-scrna-ncbi-anndata-q011** — Which Galaxy tool should I use to run `Unzip`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: 10101768
 - **single-cell-scrna-ncbi-anndata-q012** — Which Galaxy tool should I use to run `Import Anndata`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import/0.10.9+galaxy2
@@ -18920,21 +18920,21 @@ Questions:
 
 ## Single-cell quality control with scater (topics/single-cell/tutorials/scrna-scater-qc)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/scater_create_qcmetric_ready_sce/scater_create_qcmetric_ready_sce/1.12.2
+- Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1
 - Datasets (3): 3386291, annotation.txt, counts.txt
 
 Questions:
 - **single-cell-scrna-scater-qc-q011** — Which Galaxy tool should I use to run `Scater: Calculate QC metrics`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scater_create_qcmetric_ready_sce/scater_create_qcmetric_ready_sce/1.12.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1
   - Datasets: 3386291, annotation.txt, counts.txt
 - **single-cell-scrna-scater-qc-q012** — Which Galaxy tool would you recommend to perform `scater_plot_dist_scatter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_dist_scatter/scater_plot_dist_scatter/1.12.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
   - Datasets: 3386291, annotation.txt, counts.txt
 - **single-cell-scrna-scater-qc-q013** — What Galaxy tool should I run for `Scater: filter SCE`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scater_filter/scater_filter/1.12.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells/1.9.3+galaxy0
   - Datasets: 3386291, annotation.txt, counts.txt
 - **single-cell-scrna-scater-qc-q014** — Which Galaxy tool should I use to run `Scater: PCA plot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_pca/scater_plot_pca/1.12.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
   - Datasets: 3386291, annotation.txt, counts.txt
 
 ## Clustering 3K PBMCs with Seurat (topics/single-cell/tutorials/scrna-seurat-pbmc3k)
@@ -18971,7 +18971,7 @@ Questions:
   - Tools: csv_to_tabular
   - Datasets: 3581213
 - **single-cell-scrna-seurat-pbmc3k-q020** — Which Galaxy tool should I use to run `Table Compute`?
-  - Tools: Table Compute
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2
   - Datasets: 3581213
 
 ## Understanding Barcodes (topics/single-cell/tutorials/scrna-umis)
