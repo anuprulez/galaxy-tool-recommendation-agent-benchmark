@@ -12774,16 +12774,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: zenodo.1025586
 - **introduction-galaxy-intro-peaks2genes-q043** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.1025586
 - **introduction-galaxy-intro-peaks2genes-q044** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.1025586
 - **introduction-galaxy-intro-peaks2genes-q045** — Which Galaxy tool cuts columns from a dataset?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.1025586
 - **introduction-galaxy-intro-peaks2genes-q046** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.1025586
 
 ## A short introduction to Galaxy (topics/introduction/tutorials/galaxy-intro-short)
