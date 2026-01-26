@@ -181,12 +181,44 @@ Scope and rules used for each batch:
     - `cat1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2`
     - `Cut1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2`
 
-## Batch 0038–0039 (3701–3900)
-- Status: **flag**
-- Date: 2026-01-25
-- Notes:
-  - A scan found multiple items using `Cut1` and `cat1` that likely support the same-intent Toolshed alternatives above.
-  - Also observed ID mismatches vs snapshot for:
+## Batch 0038 (3701–3800)
+- Status: **expanded** (with **flags**)
+- Date: 2026-01-26
+- Expansion summary:
+  - Added snapshot-verified alternative installed versions for:
+    - `toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1` ↔
+      `toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0`,
+      `toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6`
+    - `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0` ↔
+      `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2`
+    - `toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3` ↔
+      `toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1`
+  - Added snapshot-verified same-intent alternatives between built-in and Toolshed text tools:
+    - `Cut1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2`
+    - `cat1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1`,
+      `cat1`
+- Flags / notes:
+  - Observed benchmark ↔ snapshot ID mismatch for built-ins:
     - benchmark: `Remove_beginning1` / `Show_beginning1`
     - snapshot: `Remove beginning1` / `Show beginning1`
-  - These batches were not yet fully re-reviewed and backfilled as edits at the time this entry was created.
+    - Kept the benchmark IDs but added the snapshot-valid variants as acceptable alternatives.
+  - Template placeholders in tools lists are not verifiable tool IDs and were left unchanged, e.g.:
+    - `{{version_wc}}`, `{{version_replace_text_column}}`, `{{version_replace_text_line}}`, `{{version_join}}`, `{{version_cat}}`, `{{version_remove_columns_by_header}}`, `{{version_paste}}`
+
+## Batch 0039 (3801–3900)
+- Status: **flag**
+- Date: 2026-01-26
+- Notes:
+  - Pending manual review and expansion.

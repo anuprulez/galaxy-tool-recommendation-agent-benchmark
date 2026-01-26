@@ -11912,46 +11912,46 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q037** — Which Galaxy tool adds a calculated column?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q038** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q039** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q040** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q041** — Which Galaxy tool cuts columns from a dataset?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q042** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q043** — Which Galaxy tool would you recommend to perform `regexColumn1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q044** — Which Galaxy tool would you recommend to perform `regexColumn1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q045** — Which Galaxy tool runs regexColumn1?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q046** — Which Galaxy tool would you recommend to perform `regexColumn1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q047** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q048** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q049** — Which Galaxy tool splits files on a column?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q050** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q051** — Which Galaxy tool would you recommend to perform `join1`?
   - Tools: join1
@@ -11966,64 +11966,64 @@ Questions:
   - Tools: join1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q055** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q056** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q057** — Which Galaxy tool removes the beginning of a file?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q058** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q059** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q060** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q061** — Which Galaxy tool performs sorted uniq?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q062** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q063** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q064** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q065** — Which Galaxy tool concatenates datasets (cat)?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q066** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q067** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q068** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q069** — Which Galaxy tool shows the beginning of a dataset?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q070** — Which Galaxy tool would you recommend to perform `Show beginning1`?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q071** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q072** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q073** — Which Galaxy tool runs tp_cat?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q074** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q075** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
   - Tools: {{version_wc}}
@@ -12038,16 +12038,16 @@ Questions:
   - Tools: {{version_wc}}
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q079** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q080** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q081** — Which Galaxy tool corresponds to {{version_sort}}?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q082** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q083** — Which Galaxy tool would you recommend to perform `{{version_filter}}`?
   - Tools: Filter1
@@ -12074,16 +12074,16 @@ Questions:
   - Tools: Count1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q091** — Which Galaxy tool would you recommend to perform `{{version_datamash}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q092** — Which Galaxy tool would you recommend to perform `{{version_datamash}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q093** — Which Galaxy tool corresponds to {{version_datamash}}?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q094** — Which Galaxy tool would you recommend to perform `{{version_datamash}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q095** — Which Galaxy tool would you recommend to perform `Grouping1`?
   - Tools: Grouping1
@@ -12098,16 +12098,16 @@ Questions:
   - Tools: Grouping1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q099** — Which Galaxy tool would you recommend to perform `{{version_compute}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q100** — Which Galaxy tool would you recommend to perform `{{version_compute}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q101** — Which Galaxy tool corresponds to {{version_compute}}?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q102** — Which Galaxy tool would you recommend to perform `{{version_compute}}`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q103** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
   - Tools: {{version_replace_text_column}}
@@ -12158,28 +12158,28 @@ Questions:
   - Tools: {{version_cat}}
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q119** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q120** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q121** — Which Galaxy tool corresponds to {{version_remove_beginning}}?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q122** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
-  - Tools: Remove_beginning1
+  - Tools: Remove_beginning1, Remove beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q123** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q124** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q125** — Which Galaxy tool corresponds to {{version_select_first}}?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q126** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
-  - Tools: Show_beginning1
+  - Tools: Show_beginning1, Show beginning1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q127** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
   - Tools: {{version_remove_columns_by_header}}
@@ -12194,22 +12194,22 @@ Questions:
   - Tools: {{version_remove_columns_by_header}}
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q131** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q132** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q133** — Which Galaxy tool corresponds to {{version_cut_columns}}?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q134** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q135** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q136** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q137** — Which Galaxy tool corresponds to {{version_cut_advanced}}?
   - Tools: Cut1
