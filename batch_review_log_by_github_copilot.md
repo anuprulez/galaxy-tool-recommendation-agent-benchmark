@@ -178,6 +178,17 @@ Scope and rules used for each batch:
 - Commit: `e5451ff`
 - Expansion summary:
   - Added verified Toolshed alternatives for built-in text processing tools:
+
+## Batch 0043 (4201–4300)
+- Status: **expanded** (with **flags**)
+- Date: 2026-01-26
+- Expansion summary:
+  - Fixed a common “version drift” issue where `metadata.tool_focus` points to an installed Toolshed ID, but the corresponding `tools[]` list only contains a different installed version.
+  - Approach: if `metadata.tool_focus` is present in the local usegalaxy.org snapshot (`data/tool_catalog/usegalaxy_org_all_tools.jsonl`) and missing from `tools[]`, append it as an acceptable alternative (without removing existing benchmark tool IDs).
+  - Total records updated in this batch: 62/100.
+- Flags / notes:
+  - There remain 10 records in this batch where `metadata.tool_focus` is missing from `tools[]` and also not present in the local snapshot (no safe expansion possible under the rules):
+    - `metabolomics-mfassignr-q015` … `metabolomics-mfassignr-q024`
     - `cat1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2`
     - `Cut1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2`
 
