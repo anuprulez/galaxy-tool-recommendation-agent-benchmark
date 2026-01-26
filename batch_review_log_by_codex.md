@@ -121,3 +121,17 @@ Notes:
     - `Remove_beginning1` → `Remove beginning1` (clinical MP discovery/verification rows in this batch)
   - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
     - `filter_tabular`, `query_tabular`, `msconvert`, `maxquant`, `unipept`
+
+## Batch 0052 (5101–5200)
+- Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
+- Date: 2026-01-26
+- Summary:
+  - Normalized composite upload to the snapshot-installed upload tool:
+    - `composite_upload` → `upload1` (MSI loading steps in this batch)
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
+    - `maxquant`, `unipept`, `dbbuilder`, OpenMS `DecoyDatabase`, EncyclopeDIA helpers
+  - Normalized `metadata.tool_focus` when the previous focus version was not present in the snapshot (same tool base).
+- Flags:
+  - MSI/Cardinal-related tool IDs referenced in this batch are not present in the local usegalaxy.org snapshot; kept as-is and did not add snapshot-verified alternatives:
+    - `cardinal_quality_report` (`proteomics-mass-spectrometry-imaging-loading-exploring-data-q015`–`q018`)
+    - `MSI mz images` (`proteomics-mass-spectrometry-imaging-loading-exploring-data-q019`–`q022`)

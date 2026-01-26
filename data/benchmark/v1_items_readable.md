@@ -16462,10 +16462,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q013** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q014** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
   - Tools: Grep1
@@ -16480,16 +16480,16 @@ Questions:
   - Tools: Grep1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q019** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q020** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q021** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q022** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q023** — Which Galaxy tool would you recommend to perform `msstatstmt`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
@@ -16504,16 +16504,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q027** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q028** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q029** — Which Galaxy tool supports peptide-based taxonomic annotation for metaproteomics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q030** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-5-data-interpretation-q031** — Which Galaxy tool would you recommend to perform `Grep1`?
   - Tools: Grep1
@@ -16676,21 +16676,21 @@ Questions:
 
 ## Mass spectrometry imaging: Loading and exploring MSI data (topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data)
 - Topic: proteomics
-- Tools: composite_upload
+- Tools: upload1
 - Datasets (1): zenodo.1560645
 
 Questions:
 - **proteomics-mass-spectrometry-imaging-loading-exploring-data-q011** — Which Galaxy tool would you recommend to perform `composite_upload`?
-  - Tools: composite_upload
+  - Tools: upload1
   - Datasets: zenodo.1560645
 - **proteomics-mass-spectrometry-imaging-loading-exploring-data-q012** — Which Galaxy tool would you recommend to perform `composite_upload`?
-  - Tools: composite_upload
+  - Tools: upload1
   - Datasets: zenodo.1560645
 - **proteomics-mass-spectrometry-imaging-loading-exploring-data-q013** — Which Galaxy tool would you recommend to perform `composite_upload`?
-  - Tools: composite_upload
+  - Tools: upload1
   - Datasets: zenodo.1560645
 - **proteomics-mass-spectrometry-imaging-loading-exploring-data-q014** — Which Galaxy tool would you recommend to perform `composite_upload`?
-  - Tools: composite_upload
+  - Tools: upload1
   - Datasets: zenodo.1560645
 - **proteomics-mass-spectrometry-imaging-loading-exploring-data-q015** — Which Galaxy tool would you recommend to perform `MSI Qualitycontrol`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.2
@@ -16719,21 +16719,21 @@ Questions:
 
 ## Label-free data analysis using MaxQuant (topics/proteomics/tutorials/maxquant-label-free)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
 - Datasets (4): 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 
 Questions:
 - **proteomics-maxquant-label-free-q011** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q012** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q013** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q014** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q015** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
@@ -16748,16 +16748,16 @@ Questions:
   - Tools: Filter1
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q019** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q020** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q021** — Which Galaxy tool would you recommend to perform `Filter data on any column using simple expressions`?
   - Tools: Filter1
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 - **proteomics-maxquant-label-free-q022** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.10.43+galaxy3
   - Datasets: 3774452, Protein_database.fasta, Sample1.raw, Sample2.raw
 
 ## MaxQuant and MSstats for the analysis of label-free data (topics/proteomics/tutorials/maxquant-msstats-dda-lfq)
