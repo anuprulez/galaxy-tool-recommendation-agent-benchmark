@@ -13182,137 +13182,137 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q041** — Which Galaxy tool runs ramclustr?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.0+galaxy7
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q042** — Which Galaxy tool would you recommend to perform `ramclustr`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.0+galaxy7
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q043** — Which Galaxy tool would you recommend to perform `riassigner`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q044** — Which Galaxy tool would you recommend to perform `riassigner`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q045** — Which Galaxy tool runs riassigner?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q046** — Which Galaxy tool would you recommend to perform `riassigner`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q047** — Which Galaxy tool would you recommend to perform `matchms_similarity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q048** — Which Galaxy tool would you recommend to perform `matchms_similarity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q049** — Which Galaxy tool runs matchms_similarity?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q050** — Which Galaxy tool would you recommend to perform `matchms_similarity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q051** — Which Galaxy tool would you recommend to perform `matchms_formatter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q052** — Which Galaxy tool would you recommend to perform `matchms_formatter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q053** — Which Galaxy tool runs matchms_formatter?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q054** — Which Galaxy tool would you recommend to perform `matchms_formatter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q055** — Which Galaxy tool would you recommend to perform `ramclustr_define_experiment`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q056** — Which Galaxy tool would you recommend to perform `ramclustr_define_experiment`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q057** — Which Galaxy tool runs ramclustr_define_experiment?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q058** — Which Galaxy tool would you recommend to perform `ramclustr_define_experiment`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q059** — Which Galaxy tool would you recommend to perform `matchms_filtering`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q060** — Which Galaxy tool would you recommend to perform `matchms_filtering`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q061** — Which Galaxy tool runs matchms_filtering?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q062** — Which Galaxy tool would you recommend to perform `matchms_filtering`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q063** — Which Galaxy tool would you recommend to perform `waveica`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q064** — Which Galaxy tool would you recommend to perform `waveica`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q065** — Which Galaxy tool runs waveica?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
 - **metabolomics-gc_ms_with_xcms-q066** — Which Galaxy tool would you recommend to perform `waveica`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
 
 ## Mass spectrometry: GC-MS analysis with the metaMS package (topics/metabolomics/tutorials/gcms)
 - Topic: metabolomics
-- Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
 - Datasets (1): 16538501
 
 Questions:
 - **metabolomics-gcms-q011** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
 - **metabolomics-gcms-q012** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
 - **metabolomics-gcms-q013** — Which Galaxy tool runs msnbase_readmsdata?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
 - **metabolomics-gcms-q014** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
 - **metabolomics-gcms-q015** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q016** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q017** — Which Galaxy tool runs abims_xcms_xcmsSet?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q018** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q019** — Which Galaxy tool would you recommend to perform `xcms_merge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q020** — Which Galaxy tool would you recommend to perform `xcms_merge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q021** — Which Galaxy tool runs xcms_merge?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q022** — Which Galaxy tool would you recommend to perform `xcms_merge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q023** — Which Galaxy tool would you recommend to perform `xcms_export_samplemetadata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q024** — Which Galaxy tool would you recommend to perform `xcms_export_samplemetadata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q025** — Which Galaxy tool runs xcms_export_samplemetadata?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q026** — Which Galaxy tool would you recommend to perform `xcms_export_samplemetadata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q027** — Which Galaxy tool would you recommend to perform `metams_runGC`?
   - Tools: toolshed.g2.bx.psu.edu/repos/yguitton/metams_rungc/metams_runGC/3.0.0+metaMS1.24.0-galaxy0
@@ -13327,71 +13327,71 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/yguitton/metams_rungc/metams_runGC/3.0.0+metaMS1.24.0-galaxy0
   - Datasets: 16538501
 - **metabolomics-gcms-q031** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q032** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q033** — Which Galaxy tool runs abims_xcms_group?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q034** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q035** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q036** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q037** — Which Galaxy tool runs abims_xcms_fillPeaks?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q038** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q039** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q040** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q041** — Which Galaxy tool runs xcms_plot_chromatogram?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
 - **metabolomics-gcms-q042** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
 
 ## Mass spectrometry: LC-MS analysis (topics/metabolomics/tutorials/lcms)
 - Topic: metabolomics
-- Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+- Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
 - Datasets (1): 3244991
 
 Questions:
 - **metabolomics-lcms-q011** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q012** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q013** — Which Galaxy tool runs abims_xcms_fillPeaks?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q014** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q015** — Which Galaxy tool would you recommend to perform `abims_CAMERA_annotateDiffreport`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q016** — Which Galaxy tool would you recommend to perform `abims_CAMERA_annotateDiffreport`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q017** — Which Galaxy tool runs CAMERA annotateDiffreport?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q018** — Which Galaxy tool would you recommend to perform `abims_CAMERA_annotateDiffreport`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q019** — Which Galaxy tool would you recommend to perform `Batch_correction`?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
@@ -13454,46 +13454,46 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2018-10-01
   - Datasets: 3244991
 - **metabolomics-lcms-q039** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
 - **metabolomics-lcms-q040** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
 - **metabolomics-lcms-q041** — Which Galaxy tool runs msnbase_readmsdata?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
 - **metabolomics-lcms-q042** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
 - **metabolomics-lcms-q043** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q044** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q045** — Which Galaxy tool runs abims_xcms_xcmsSet?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q046** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q047** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q048** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q049** — Which Galaxy tool runs xcms_plot_chromatogram?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q050** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q051** — Which Galaxy tool would you recommend to perform `xcms_merge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q052** — Which Galaxy tool would you recommend to perform `xcms_merge`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q053** — Which Galaxy tool runs xcms_merge?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3

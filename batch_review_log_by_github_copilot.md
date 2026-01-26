@@ -252,3 +252,16 @@ Scope and rules used for each batch:
     - benchmark: `Remove_beginning1`
     - snapshot: `Remove beginning1`
     - Kept the benchmark IDs but added the snapshot-valid variants as acceptable alternatives.
+
+## Batch 0042 (4101–4200)
+- Status: **expanded** (with **flags**)
+- Date: 2026-01-26
+- Expansion summary:
+  - Added a snapshot-verified same-intent alternative for `matchms_similarity` queries by including the installed tool that provides “matchMS similarity” on usegalaxy.org:
+    - `toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0`
+  - Total records updated in this batch: 4/100.
+- Flags / notes:
+  - Observed benchmark ↔ snapshot ID mismatch for matchMS similarity:
+    - benchmark: `toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0` (not found in the local snapshot)
+    - snapshot: `toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0`
+    - Kept the benchmark ID and added the snapshot-valid alternative.
