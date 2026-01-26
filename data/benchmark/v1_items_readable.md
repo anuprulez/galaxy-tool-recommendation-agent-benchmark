@@ -12872,16 +12872,16 @@ Questions:
   - Tools: gene2exon1
   - Datasets: None
 - **introduction-galaxy-intro-strands-q027** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **introduction-galaxy-intro-strands-q028** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **introduction-galaxy-intro-strands-q029** — Which Galaxy tool concatenates datasets (cat)?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 - **introduction-galaxy-intro-strands-q030** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: None
 
 ## How to reproduce published Galaxy analyses (topics/introduction/tutorials/galaxy-reproduce)
@@ -12927,16 +12927,16 @@ Questions:
   - Tools: Remove_beginning1
   - Datasets: 1319069
 - **introduction-galaxy-reproduce-q023** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1319069
 - **introduction-galaxy-reproduce-q024** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1319069
 - **introduction-galaxy-reproduce-q025** — Which Galaxy tool cuts columns from a dataset?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1319069
 - **introduction-galaxy-reproduce-q026** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1319069
 - **introduction-galaxy-reproduce-q027** — Which Galaxy tool would you recommend to perform `Grouping1`?
   - Tools: Grouping1
