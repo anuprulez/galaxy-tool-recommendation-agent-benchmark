@@ -168,3 +168,19 @@ Notes:
   - Several tutorial tool IDs in this batch are not present in the local usegalaxy.org snapshot (kept as-is; no snapshot-verified alternatives added), including:
     - multiple OpenMS tools such as `ConsensusID`, `IDConflictResolver`, `FileFilter`, `FileMerger`, `PeakPickerHiRes`, `XTandemAdapter`, `FidoAdapter`, `FileInfo`, `TextExporter`, `MultiplexResolver`
     - `pdaug_*` tools used in peptide library data analysis
+
+## Batch 0055 (5401–5500)
+- Status: **expanded** (version-drift fixes + built-in ID normalization; several tools flagged)
+- Date: 2026-01-26
+- Summary:
+  - Normalized a built-in tool ID mismatch to the snapshot-installed spelling:
+    - `Remove_beginning1` → `Remove beginning1`
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common sequence-analysis tools, including:
+    - `seqtk_subseq`, `bowtie2`, `samtools_stats`, `bamFilter`, `jbrowse`
+    - NCBI BLAST+ wrappers (`blastp`, `blastx`) and `DIAMOND`
+  - Normalized `metadata.tool_focus` when the previous focus version was not present in the snapshot (same tool base).
+- Flags:
+  - Several tutorial tool IDs in this batch are not present in the local usegalaxy.org snapshot (kept as-is; no snapshot-verified alternatives added), including:
+    - `trimal`, `quicktree`, `ete_treeviewer`
+    - `varvamp`
+    - `hca_matrix_downloader`

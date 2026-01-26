@@ -17579,7 +17579,7 @@ Questions:
   - Tools: __UNZIP_COLLECTION__
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q019** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q020** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?
   - Tools: __ZIP_COLLECTION__
@@ -17587,98 +17587,98 @@ Questions:
 
 ## Mapping (topics/sequence-analysis/tutorials/mapping)
 - Topic: sequence-analysis
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.4.2+galaxy0
 - Datasets (2): wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 
 Questions:
 - **sequence-analysis-mapping-q011** — Which Galaxy tool would you recommend to perform `bowtie2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.4.2+galaxy0
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 - **sequence-analysis-mapping-q012** — Which Galaxy tool would you recommend to perform `samtools_stats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 - **sequence-analysis-mapping-q013** — Which Galaxy tool would you recommend to perform `bamFilter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3, toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy2
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 - **sequence-analysis-mapping-q014** — Which Galaxy tool would you recommend to perform `bamFilter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.5
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 - **sequence-analysis-mapping-q015** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy0
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 
 ## NCBI BLAST+ against the MAdLand (topics/sequence-analysis/tutorials/ncbi-blast-against-the-madland)
 - Topic: sequence-analysis
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
 - Datasets (2): 7524427, query.faa
 
 Questions:
 - **sequence-analysis-ncbi-blast-against-the-madland-q011** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q012** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q013** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q014** — Which Galaxy tool would you recommend to perform `bg_diamond`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q015** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q016** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q017** — Which Galaxy tool performs protein BLAST searches?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q018** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q019** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q020** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q021** — Which Galaxy tool runs BLASTX searches?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q022** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q023** — Which Galaxy tool would you recommend to perform `bg_diamond`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q024** — Which Galaxy tool would you recommend to perform `bg_diamond`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q025** — Which Galaxy tool provides DIAMOND-based protein alignments?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
 - **sequence-analysis-ncbi-blast-against-the-madland-q026** — Which Galaxy tool would you recommend to perform `bg_diamond`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
 
 ## Screening assembled genomes for contamination using NCBI FCS (topics/sequence-analysis/tutorials/ncbi-fcs)
 - Topic: sequence-analysis
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
 - Datasets (2): 10932013, FCS_combo_test.fa
 
 Questions:
 - **sequence-analysis-ncbi-fcs-q011** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q012** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q013** — Which Galaxy tool runs NCBI FCS-GX contamination screening?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q014** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q015** — Which Galaxy tool would you recommend to perform `ncbi_fcs_adaptor`?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
@@ -17693,16 +17693,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q019** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q020** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q021** — Which Galaxy tool would you recommend to perform `ncbi_fcs_adaptor`?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 - **sequence-analysis-ncbi-fcs-q022** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 
 ## Quality and contamination control in bacterial isolate using Illumina MiSeq (topics/sequence-analysis/tutorials/quality-contamination-control)
@@ -17718,13 +17718,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
 - **sequence-analysis-quality-contamination-control-q013** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy0
   - Datasets: 10669812
 - **sequence-analysis-quality-contamination-control-q014** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 10669812
 - **sequence-analysis-quality-contamination-control-q015** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/2.9+galaxy0
   - Datasets: 10669812
 - **sequence-analysis-quality-contamination-control-q016** — Which Galaxy tool would you recommend to perform `kraken2`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0
@@ -17740,13 +17740,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastqe/fastqe/0.3.1+galaxy0
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
 - **sequence-analysis-quality-control-q012** — Which Galaxy tool would you recommend to perform `cutadapt`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0, toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.9+galaxy1
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
 - **sequence-analysis-quality-control-q013** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
 - **sequence-analysis-quality-control-q014** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9+galaxy1
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
 
 ## SARS-CoV-2 Viral Sample Alignment and Variant Visualization (topics/sequence-analysis/tutorials/sars-with-galaxy-on-anvil)
@@ -17759,49 +17759,49 @@ Questions:
   - Tools: upload1
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q013** — Which Galaxy tool would you recommend to perform `bwa_mem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q014** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q015** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q016** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q017** — Which Galaxy tool generates basic read QC reports?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q018** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q019** — Which Galaxy tool would you recommend to perform `bwa_mem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q020** — Which Galaxy tool would you recommend to perform `bwa_mem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q021** — Which Galaxy tool aligns reads to a reference using BWA-MEM?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q022** — Which Galaxy tool would you recommend to perform `bwa_mem`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q023** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q024** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q025** — Which Galaxy tool provides a genome browser for alignment visualization?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 - **sequence-analysis-sars-with-galaxy-on-anvil-q026** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 
 ## Identification and Evolutionary Analysis of Transcription-Associated Proteins (topics/sequence-analysis/tutorials/tapscan-streptophyte-algae)
@@ -17823,13 +17823,13 @@ Questions:
   - Tools: Cut1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q015** — Which Galaxy tool would you recommend to perform `Filter1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q016** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/filter_by_fasta_ids/filter_by_fasta_ids/2.3
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q017** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2, toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q018** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trimal/trimal/1.5.0+galaxy1
@@ -17838,7 +17838,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quicktree/quicktree/2.5+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q020** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.3.6+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q021** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ete_treeviewer/ete_treeviewer/3.1.3+galaxy0
@@ -17854,13 +17854,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: degapseq20/5.0.0
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 - **sequence-analysis-viral_primer_design-q012** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2, toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy1
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 - **sequence-analysis-viral_primer_design-q013** — Which Galaxy tool would you recommend to perform `varvamp`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varvamp/varvamp/1.2.2+galaxy0
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 - **sequence-analysis-viral_primer_design-q014** — Which Galaxy tool would you recommend to perform `ncbi_makeblastdb`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.14.1+galaxy2
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 - **sequence-analysis-viral_primer_design-q015** — Which Galaxy tool would you recommend to perform `ncbi_makeblastdb`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varvamp/varvamp/1.2.2+galaxy0
@@ -17879,16 +17879,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q013** — Which Galaxy tool would you recommend to perform `regexColumn1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.3+galaxy1
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q014** — Which Galaxy tool would you recommend to perform `regexColumn1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q015** — Which Galaxy tool would you recommend to perform `scanpy_read_10x`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.9.3+galaxy0
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q016** — Which Galaxy tool would you recommend to perform `scanpy_read_10x`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1, toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q017** — Which Galaxy tool would you recommend to perform `hca_matrix_downloader`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader/v0.0.4+galaxy0
@@ -17899,12 +17899,12 @@ Questions:
 
 ## GO Enrichment Analysis on Single-Cell RNA-Seq Data (topics/single-cell/tutorials/GO-enrichment)
 - Topic: single-cell
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
 - Datasets (4): GO annotations for Mus musculus, background gene set), 13461890 (GO OBO, marker gene lists
 
 Questions:
 - **single-cell-GO-enrichment-q011** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
   - Datasets: 13461890 (GO OBO, GO annotations for Mus musculus, marker gene lists, background gene set)
 - **single-cell-GO-enrichment-q012** — Which Galaxy tool would you recommend to perform `Cut1`?
   - Tools: Cut1
@@ -17926,19 +17926,19 @@ Questions:
   - Tools: Count1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 - **single-cell-bulk-deconvolution-evaluate-q012** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.8+galaxy1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 - **single-cell-bulk-deconvolution-evaluate-q013** — To run the evaluation multiple times in parallel (subjects A and B), I want to duplicate key inputs into dataset collections so the workflows can operate on collections cleanly. What Galaxy tool duplicates a file into a collection for repeated evaluation runs?
   - Tools: __DUPLICATE_FILE_TO_COLLECTION__
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 - **single-cell-bulk-deconvolution-evaluate-q014** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 - **single-cell-bulk-deconvolution-evaluate-q015** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 - **single-cell-bulk-deconvolution-evaluate-q016** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_violin/ggplot2_violin/3.4.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_violin/ggplot2_violin/3.4.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_violin/ggplot2_violin/3.4.0+galaxy1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 
 ## Bulk RNA Deconvolution with MuSiC (topics/single-cell/tutorials/bulk-music)
