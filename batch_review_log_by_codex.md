@@ -135,3 +135,22 @@ Notes:
   - MSI/Cardinal-related tool IDs referenced in this batch are not present in the local usegalaxy.org snapshot; kept as-is and did not add snapshot-verified alternatives:
     - `cardinal_quality_report` (`proteomics-mass-spectrometry-imaging-loading-exploring-data-q015`–`q018`)
     - `MSI mz images` (`proteomics-mass-spectrometry-imaging-loading-exploring-data-q019`–`q022`)
+
+## Batch 0053 (5201–5300)
+- Status: **expanded** (version-drift fixes + snapshot tool normalization; several tools flagged)
+- Date: 2026-01-26
+- Summary:
+  - Normalized several non-snapshot tool IDs/placeholders to snapshot-installed equivalents:
+    - `datamash_ops` tool ID path typo fixed (`.../datamash_ops/datamash_ops/datamash_ops/...` → `.../datamash_ops/datamash_ops/...`)
+    - `collections_build_list` → `__BUILD_LIST__`
+    - `Select` placeholder for `collapse_dataset` → `toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0`
+    - `Filter` placeholder → `Filter1`
+    - `galaxyp/query_tabular` → `iuc/query_tabular`
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
+    - `maxquant`, `msstatstmt`, `msconvert`, `query_tabular`, `datamash_ops`
+  - Normalized `metadata.tool_focus` when the previous focus version was not present in the snapshot (same tool base).
+- Flags:
+  - Several tutorial tool IDs in this batch are not present in the local usegalaxy.org snapshot (kept as-is; no snapshot-verified alternatives added), including:
+    - `multigsea` (`proteomics-multiGSEA-tutorial-q011`–`q018`)
+    - `metaquantome_*` tools (`proteomics-metaquantome-*`)
+    - `pdaug_*` tools (`proteomics-ml-modeling-of-anti-cancer-peptides-*`)

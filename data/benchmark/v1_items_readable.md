@@ -16818,7 +16818,7 @@ Questions:
   - Tools: Summary_Statistics1
   - Datasets: None, input_protein_database.fasta, input_annotation_file.tabular, input_comparison_matrix.tabular, Experiment105_metast_cSCC1.raw, … (19 raw files)
 - **proteomics-maxquant-msstats-dda-lfq-q028** — Which Galaxy tool would you recommend to perform `datamash_ops`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None, input_protein_database.fasta, input_annotation_file.tabular, input_comparison_matrix.tabular, Experiment105_metast_cSCC1.raw, … (19 raw files)
 - **proteomics-maxquant-msstats-dda-lfq-q029** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
   - Tools: Summary_Statistics1
@@ -16833,10 +16833,10 @@ Questions:
   - Tools: Filter1
   - Datasets: None, input_protein_database.fasta, input_annotation_file.tabular, input_comparison_matrix.tabular, Experiment105_metast_cSCC1.raw, … (19 raw files)
 - **proteomics-maxquant-msstats-dda-lfq-q033** — Which Galaxy tool would you recommend to perform `datamash_ops`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None, input_protein_database.fasta, input_annotation_file.tabular, input_comparison_matrix.tabular, Experiment105_metast_cSCC1.raw, … (19 raw files)
 - **proteomics-maxquant-msstats-dda-lfq-q034** — Which Galaxy tool would you recommend to perform `datamash_ops`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: None, input_protein_database.fasta, input_annotation_file.tabular, input_comparison_matrix.tabular, Experiment105_metast_cSCC1.raw, … (19 raw files)
 - **proteomics-maxquant-msstats-dda-lfq-q035** — Which Galaxy tool would you recommend to perform `upload1`?
   - Tools: upload1
@@ -16899,27 +16899,27 @@ Questions:
 
 ## Metaproteomics guide (topics/proteomics/tutorials/metaproteomics)
 - Topic: proteomics
-- Tools: collections_build_list
+- Tools: __BUILD_LIST__
 - Datasets (4): 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 
 Questions:
 - **proteomics-metaproteomics-q011** — Which Galaxy tool would you recommend to perform `collections_build_list`?
-  - Tools: collections_build_list
+  - Tools: __BUILD_LIST__
   - Datasets: 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 - **proteomics-metaproteomics-q012** — Which Galaxy tool would you recommend to perform `search_gui`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/3.3.10.1
   - Datasets: 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 - **proteomics-metaproteomics-q013** — Which Galaxy tool would you recommend to perform `search_gui`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/1.16.36.3
   - Datasets: 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 - **proteomics-metaproteomics-q014** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0
   - Datasets: 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 - **proteomics-metaproteomics-q015** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.3.0
   - Datasets: 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 - **proteomics-metaproteomics-q016** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0
   - Datasets: 2016_Jan_12_QE2_45.mgf, 2016_Jan_12_QE2_46.mgf, 2016_Jan_12_QE2_47.mgf, FASTA_Bering_Strait_Trimmed_metapeptides_cRAP.fasta
 
 ## metaQuantome 1: Data creation (topics/proteomics/tutorials/metaquantome-data-creation)
@@ -16935,7 +16935,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: zenodo.4037137
 - **proteomics-metaquantome-data-creation-q013** — Which Galaxy tool would you recommend to perform `search_gui`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/3.3.10.1
   - Datasets: zenodo.4037137
 - **proteomics-metaquantome-data-creation-q014** — Which Galaxy tool would you recommend to perform `peptide_shaker`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
@@ -17050,16 +17050,16 @@ Questions:
   - Tools: Filter1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
 - **proteomics-multiGSEA-tutorial-q023** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
 - **proteomics-multiGSEA-tutorial-q024** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
 - **proteomics-multiGSEA-tutorial-q025** — Which Galaxy tool greps matching lines from a text file?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
 - **proteomics-multiGSEA-tutorial-q026** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
 
 ## Neoantigen 2: Database merge and FragPipe discovery (topics/proteomics/tutorials/neoantigen-fragpipe-discovery)
@@ -17072,16 +17072,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-fragpipe-discovery-q012** — Which Galaxy tool would you recommend to perform `fragpipe`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe/23.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe/23.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe/23.0+galaxy0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-fragpipe-discovery-q013** — Which Galaxy tool would you recommend to perform `fragpipe_manifest_generator`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe_manifest_generator/23.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe_manifest_generator/23.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe_manifest_generator/23.0+galaxy0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-fragpipe-discovery-q014** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-fragpipe-discovery-q015** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
-  - Tools: Select
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-fragpipe-discovery-q016** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
@@ -17097,19 +17097,19 @@ Questions:
   - Tools: CONVERTER_gz_to_uncompressed
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-fusion-database-generation-q012** — Which Galaxy tool would you recommend to perform `CONVERTER_gz_to_uncompressed`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.10b+galaxy4
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-fusion-database-generation-q013** — Which Galaxy tool would you recommend to perform `arriba_get_filters`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/arriba_get_filters/arriba_get_filters/2.5.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/arriba_get_filters/arriba_get_filters/2.5.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/arriba_get_filters/arriba_get_filters/2.4.0+galaxy1
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-fusion-database-generation-q014** — Which Galaxy tool would you recommend to perform `arriba_get_filters`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/arriba/arriba/2.5.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/arriba/arriba/2.5.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/arriba/arriba/2.4.0+galaxy1
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-fusion-database-generation-q015** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.2
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-fusion-database-generation-q016** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.1
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-fusion-database-generation-q017** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
@@ -17120,24 +17120,24 @@ Questions:
 
 ## Neoantigen 5b: IEDB binding Validated Neopeptides (topics/proteomics/tutorials/neoantigen-hla-binding-novel-peptides)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.2
 - Datasets (2): FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 
 Questions:
 - **proteomics-neoantigen-hla-binding-novel-peptides-q011** — Which Galaxy tool would you recommend to perform `iedb_api`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.2
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 - **proteomics-neoantigen-hla-binding-novel-peptides-q012** — Which Galaxy tool would you recommend to perform `Filter`?
-  - Tools: Filter
+  - Tools: Filter1
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 - **proteomics-neoantigen-hla-binding-novel-peptides-q013** — Which Galaxy tool would you recommend to perform `iedb_api`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.2
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 - **proteomics-neoantigen-hla-binding-novel-peptides-q014** — Which Galaxy tool would you recommend to perform `table_compute`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy0
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 - **proteomics-neoantigen-hla-binding-novel-peptides-q015** — Which Galaxy tool would you recommend to perform `table_compute`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 
 ## Neoantigen 1b: Non-Reference-Database-Generation (topics/proteomics/tutorials/neoantigen-non-reference-database-generation)
@@ -17150,7 +17150,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-non-reference-database-generation-q012** — Which Galaxy tool would you recommend to perform `hisat2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.10+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.10+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.6+galaxy0
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 - **proteomics-neoantigen-non-reference-database-generation-q013** — Which Galaxy tool would you recommend to perform `fasta2tab`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.0
@@ -17173,12 +17173,12 @@ Questions:
 
 ## Neoantigen 3: PepQuery2 Verification (topics/proteomics/tutorials/neoantigen-peptide-verification)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
 - Datasets (4): HUMAN_CRAP.fasta, Human-TaxID.txt, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
 
 Questions:
 - **proteomics-neoantigen-peptide-verification-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-peptide-verification-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
