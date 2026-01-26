@@ -20563,66 +20563,66 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/vcf2tsv/vcf2tsv/1.0.0_rc3+galaxy0
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q020** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy3
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q021** — Which Galaxy tool should I use to run `Replace Text in a specific column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy3
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q022** — Which Galaxy tool would you recommend to perform `Filter1`?
   - Tools: Filter1
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q023** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.5.1+galaxy2
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q024** — Which Galaxy tool would you recommend to perform `VCFtoTab-delimited`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/vcf2tsv/vcf2tsv/1.0.0_rc3+galaxy0
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q025** — Which Galaxy tool should I use to run `Text reformatting with awk:`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy3
   - Datasets: (see source)
 - **variant-analysis-baculovirus-isolate-variation-q026** — I need a tool that can perform `Histogram with ggplot2`.Which Galaxy tool would you recommend?
-  - Tools: Histogram_with_ggplot2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_histogram/ggplot2_histogram/3.5.1+galaxy1
   - Datasets: (see source)
 
 ## Querying the University of Bradford GDC Beacon Database for Copy Number Variants (CNVs) (topics/variant-analysis/tutorials/beacon_cnv_query)
 - Topic: variant-analysis
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (1): 10658688
 
 Questions:
 - **variant-analysis-beacon_cnv_query-q011** — Which Galaxy tool would you recommend to perform `beacon2_cnv`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688
 - **variant-analysis-beacon_cnv_query-q012** — Which Galaxy tool would you recommend to perform `beacon2_cnv`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688
 - **variant-analysis-beacon_cnv_query-q013** — Which Galaxy tool can query Beacon v2 for copy number variants?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688
 - **variant-analysis-beacon_cnv_query-q014** — Which Galaxy tool would you recommend to perform `beacon2_cnv`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688
 
 ## Working with Beacon V2: A Comprehensive Guide to Creating, Uploading, and Searching for Variants with Beacons (topics/variant-analysis/tutorials/beaconise_1000hg)
 - Topic: variant-analysis
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/cnv_vcf2json/cnv_vcf2json/1.1.0+galaxy0.1
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (3): 10658688, 10658688):, HG00096.cnv.vcf
 
 Questions:
 - **variant-analysis-beaconise_1000hg-q011** — Which Galaxy tool would you recommend to perform `cnv_vcf2json`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/cnv_vcf2json/cnv_vcf2json/1.1.0+galaxy0.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688, 10658688):, HG00096.cnv.vcf
 - **variant-analysis-beaconise_1000hg-q012** — Which Galaxy tool would you recommend to perform `cnv_phenopacket`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/cnv_phenopacket/cnv_phenopacket/1.0.2+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688, 10658688):, HG00096.cnv.vcf
 - **variant-analysis-beaconise_1000hg-q013** — What Galaxy tool should I run for `Beacon2 Import`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_import/beacon2_import/2.1.1+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688, 10658688):, HG00096.cnv.vcf
 - **variant-analysis-beaconise_1000hg-q014** — Which Galaxy tool should I use to run `CNV VCF2JSON`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/cnv_vcf2json/cnv_vcf2json/1.1.o+galaxy0.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688, 10658688):, HG00096.cnv.vcf
 - **variant-analysis-beaconise_1000hg-q015** — What Galaxy tool should I run for `Beacon2 CNV`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/beacon2_cnv/beacon2_cnv/2.1.1+galaxy0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10658688, 10658688):, HG00096.cnv.vcf
 
 ## Calling variants in diploid systems (topics/variant-analysis/tutorials/dip)
@@ -20644,7 +20644,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_load/gemini_load/0.20.1+galaxy2
   - Datasets: zenodo.60520
 - **variant-analysis-dip-q015** — What Galaxy tool should I run for `GEMINI database info`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_db_info/gemini_db_info/0.20.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.60520
 - **variant-analysis-dip-q016** — What Galaxy tool should I run for `GEMINI query`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
@@ -20736,26 +20736,26 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_inheritance/gemini_inheritance/0.20.1
   - Datasets: zenodo.3054169, 3054169):, father_R1.fq.gz
 - **variant-analysis-exome-seq-q023** — What Galaxy tool should I run for `GEMINI annotate`?
-  - Tools: GEMINI annotate
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_annotate/gemini_annotate/0.20.1+galaxy2
   - Datasets: zenodo.3054169, 3054169):, father_R1.fq.gz
 - **variant-analysis-exome-seq-q024** — Which Galaxy tool would you recommend to perform `GEMINI amend`?
-  - Tools: GEMINI amend
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_load/gemini_load/0.20.1+galaxy2
   - Datasets: zenodo.3054169, 3054169):, father_R1.fq.gz
 - **variant-analysis-exome-seq-q025** — Which Galaxy tool would you recommend to perform `GEMINI database info`?
-  - Tools: GEMINI database info
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.3054169, 3054169):, father_R1.fq.gz
 - **variant-analysis-exome-seq-q026** — What Galaxy tool should I run for `GEMINI query`?
-  - Tools: GEMINI query
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.3054169, 3054169):, father_R1.fq.gz
 
 ## Mapping and molecular identification of phenotype-causing mutations (topics/variant-analysis/tutorials/mapping-by-sequencing)
 - Topic: variant-analysis
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy3
 - Datasets (3): zenodo.1098033, Ler_mapping_strain.bam, outcrossed_F2.bam
 
 Questions:
 - **variant-analysis-mapping-by-sequencing-q011** — What Galaxy tool should I run for `Replace parts of text`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy3
   - Datasets: zenodo.1098033, Ler_mapping_strain.bam, outcrossed_F2.bam
 - **variant-analysis-mapping-by-sequencing-q012** — Which Galaxy tool should I use to run `MiModD Variant Calling`?
   - Tools: toolshed.g2.bx.psu.edu/repos/wolma/mimodd_main/mimodd_varcall/0.1.9
@@ -20770,7 +20770,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/wolma/mimodd_main/mimodd_vcf_filter/0.1.9
   - Datasets: zenodo.1098033, Ler_mapping_strain.bam, outcrossed_F2.bam
 - **variant-analysis-mapping-by-sequencing-q016** — What Galaxy tool should I run for `MiModD File Information`?
-  - Tools: MiModD File Information
+  - Tools: toolshed.g2.bx.psu.edu/repos/wolma/mimodd_main/mimodd_info/0.1.9
   - Datasets: zenodo.1098033, Ler_mapping_strain.bam, outcrossed_F2.bam
 - **variant-analysis-mapping-by-sequencing-q017** — What Galaxy tool should I run for `MiModD Report Variants`?
   - Tools: toolshed.g2.bx.psu.edu/repos/wolma/mimodd_main/mimodd_varreport/0.1.9
@@ -20902,7 +20902,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: SRR15145274_1.fastq.gz, SRR15145274_2.fastq.gz, SRR15145276_1.fastq.gz
 - **variant-analysis-pox-tiled-amplicon-q024** — Which Galaxy tool should I use to run `faToVcf`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_fatovcf/fatovcf/482+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_fatovcf/fatovcf/448+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_fatovcf/fatovcf/482+galaxy0
   - Datasets: SRR15145274_1.fastq.gz, SRR15145274_2.fastq.gz, SRR15145276_1.fastq.gz
 - **variant-analysis-pox-tiled-amplicon-q025** — Which Galaxy tool should I use to run `MiModD File Information`?
   - Tools: toolshed.g2.bx.psu.edu/repos/wolma/mimodd_main/mimodd_info/0.1.9
@@ -20921,7 +20921,7 @@ Questions:
   - Tools: Grep1
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
 - **variant-analysis-sars-cov-2-q013** — Which Galaxy tool should I use to run `Advanced Cut`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
 - **variant-analysis-sars-cov-2-q014** — What Galaxy tool should I run for `Faster Download and Extract Reads in FASTQ`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1

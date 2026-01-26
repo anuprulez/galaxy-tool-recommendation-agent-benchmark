@@ -280,3 +280,20 @@ Notes:
   - Updated several visualization + text utilities to snapshot-latest versions:
     - `volcanoplot`, `heatmap2`, `goseq`, `tp_cut_tool`, `tp_replace_in_line`, `tp_sort_header_tool`, `tp_find_and_replace`
   - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
+
+## Batch 0063 (6201–6300)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Removed non-latest tool versions from `tools[]` and aligned to the usegalaxy.org “latest index”.
+  - Normalized placeholder/non-tool entries to snapshot-installed tools:
+    - `Histogram_with_ggplot2` → `ggplot2_histogram`
+    - `MiModD File Information` → `mimodd_info`
+    - `GEMINI annotate` → `gemini_annotate`
+    - `GEMINI amend` → `gemini_load` (closest installed way to update PED is to rebuild the DB)
+    - `GEMINI database info` / `gemini_db_info` → `gemini_query`
+    - `GEMINI query` → `gemini_query`
+  - Beacon2 CNV + related CNV helper tools are not installed on usegalaxy.org; mapped to `interactive_tool_jupyter_notebook` as the runnable fallback.
+  - Updated common variant-analysis utilities to snapshot-latest versions:
+    - `tp_awk_tool`, `tp_replace_in_column`, `ggplot2_point`, `ucsc_fatovcf`, `tp_find_and_replace`, `tp_cut_tool`
+  - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
