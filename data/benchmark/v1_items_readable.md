@@ -19859,22 +19859,22 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/transdecoder/transdecoder/5.5.0+galaxy2
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q023** — Which Galaxy tool should I use to run `Diamond`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q024** — Which Galaxy tool should I use to run `SignalP 3.0`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/tmhmm_and_signalp/signalp3/0.0.20
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/interproscan/interproscan/5.59-91.0+galaxy3
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q025** — Which Galaxy tool should I use to run `TMHMM 2.0`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/tmhmm_and_signalp/tmhmm2/0.0.17
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/interproscan/interproscan/5.59-91.0+galaxy3
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q026** — What Galaxy tool should I run for `hmmscan`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hmmer_hmmscan/hmmer_hmmscan/3.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/interproscan/interproscan/5.59-91.0+galaxy3
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q027** — Which Galaxy tool would you recommend to perform `Trinotate`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinotate/trinotate/3.2.2+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q028** — Which Galaxy tool would you recommend to perform `Describe samples and replicates`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/describe_samples/describe_samples/2.8.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q029** — Which Galaxy tool should I use to run `RNASeq samples quality check`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_samples_qccheck/trinity_samples_qccheck/2.15.1+galaxy0
@@ -19883,10 +19883,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_run_de_analysis/trinity_run_de_analysis/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q031** — Which Galaxy tool would you recommend to perform `Extract and cluster differentially expressed transcripts`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_analyze_diff_expr/trinity_analyze_diff_expr/2.8.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q032** — What Galaxy tool should I run for `Partition genes into expression clusters`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_define_clusters_by_cutting_tree/trinity_define_clusters_by_cutting_tree/2.8.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 
 ## GO Enrichment Analysis (topics/transcriptomics/tutorials/goenrichment)
@@ -19979,7 +19979,7 @@ Questions:
   - Tools: Filter1
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
 - **transcriptomics-mirna-target-finder-q021** — Which Galaxy tool would you recommend to perform `sort1`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
 - **transcriptomics-mirna-target-finder-q022** — Which Galaxy tool would you recommend to perform `salmon`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon/1.10.1+galaxy4
@@ -20032,10 +20032,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q015** — Which Galaxy tool should I use to run `RNA STAR`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy1
   - Datasets: 6457007
 - **transcriptomics-ref-based-q016** — Which Galaxy tool would you recommend to perform `jbrowse2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q017** — What Galaxy tool should I run for `MarkDuplicates`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
@@ -20056,7 +20056,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q023** — What Galaxy tool should I run for `pyGenomeTracks`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.9+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q024** — What Galaxy tool should I run for `Infer Experiment`?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0
@@ -20065,7 +20065,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q026** — What Galaxy tool should I run for `Remove beginning`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 6457007
 - **transcriptomics-ref-based-q027** — What Galaxy tool should I run for `Cut`?
   - Tools: Cut1
@@ -20074,7 +20074,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/length_and_gc_content/length_and_gc_content/0.1.2
   - Datasets: 6457007
 - **transcriptomics-ref-based-q029** — What Galaxy tool should I run for `Sort`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 6457007
 - **transcriptomics-ref-based-q030** — Which Galaxy tool would you recommend to perform `deseq2`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2
@@ -20083,13 +20083,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
   - Datasets: 6457007
 - **transcriptomics-ref-based-q032** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6457007
 - **transcriptomics-ref-based-q033** — Which Galaxy tool would you recommend to perform `__TAG_FROM_FILE__`?
   - Tools: __TAG_FROM_FILE__
   - Datasets: 6457007
 - **transcriptomics-ref-based-q034** — What Galaxy tool should I run for `Search in textfiles`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy3
   - Datasets: 6457007
 - **transcriptomics-ref-based-q035** — What Galaxy tool should I run for `Filter collecion`?
   - Tools: __FILTER_FROM_FILE__
@@ -20107,7 +20107,7 @@ Questions:
   - Tools: join1
   - Datasets: 6457007
 - **transcriptomics-ref-based-q040** — Which Galaxy tool should I use to run `heatmap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.1.3.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.3.0+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q041** — What Galaxy tool should I run for `Table Compute`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2
@@ -20122,7 +20122,7 @@ Questions:
   - Tools: __EXTRACT_DATASET__
   - Datasets: 6457007
 - **transcriptomics-ref-based-q045** — Which Galaxy tool should I use to run `goseq`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.44.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q046** — Which Galaxy tool would you recommend to perform `Grouping1`?
   - Tools: Grouping1
@@ -20137,13 +20137,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dexseq/dexseq/1.48.0+galaxy1
   - Datasets: 6457007
 - **transcriptomics-ref-based-q050** — Which Galaxy tool should I use to run `IGV`?
-  - Tools: IGV
+  - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: 6457007
 - **transcriptomics-ref-based-q051** — What Galaxy tool should I run for `Select last`?
-  - Tools: Select last
+  - Tools: Show tail1
   - Datasets: 6457007
 - **transcriptomics-ref-based-q052** — What Galaxy tool should I run for `Replace Text`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6457007
 - **transcriptomics-ref-based-q053** — What Galaxy tool should I run for `Annotate`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1

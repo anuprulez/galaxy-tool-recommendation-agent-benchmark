@@ -251,3 +251,19 @@ Notes:
     - de-novo RNA-seq: `Rename` (UI rename) → `__SET_METADATA__`, `Viz` (track browser) → `jbrowse2`
   - For GTN tutorials whose tools are not installed on usegalaxy.org (SimText + SynBio toolchain), mapped steps to `interactive_tool_jupyter_notebook` as the runnable fallback.
   - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
+
+## Batch 0061 (6001–6100)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Removed non-latest tool versions from `tools[]` and aligned to the usegalaxy.org “latest index”.
+  - Full de-novo RNA-seq tutorial: mapped non-installed annotation utilities to a runnable server tool:
+    - `SignalP 3.0`, `TMHMM 2.0`, `hmmscan` → `interproscan`
+  - Full de-novo RNA-seq tutorial: mapped non-installed Trinity helper steps to `interactive_tool_jupyter_notebook`:
+    - `Describe samples and replicates`, `Extract and cluster differentially expressed transcripts`, `Partition genes into expression clusters`
+  - Normalized common placeholder/built-in tool labels:
+    - `sort1` → `tp_sort_header_tool`
+    - `Remove_beginning1` → `Remove beginning1`
+    - `IGV` (external in tutorial) → `jbrowse2`
+    - `Select last` → built-in `Show tail1`
+  - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
