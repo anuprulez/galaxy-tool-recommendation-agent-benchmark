@@ -17187,7 +17187,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-peptide-verification-q014** — Which Galaxy tool would you recommend to perform `tab2fasta`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.14.1+galaxy2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
 - **proteomics-neoantigen-peptide-verification-q015** — Which Galaxy tool would you recommend to perform `pepquery2`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
@@ -17301,12 +17301,12 @@ Questions:
 
 ## Peptide and Protein ID using OpenMS tools (topics/proteomics/tutorials/protein-id-oms)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
 - Datasets (3): Human_database_including_decoys_%28cRAP_added%29.fasta, qExactive01819.raw, qExactive01819_profile.mzml
 
 Questions:
 - **proteomics-protein-id-oms-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
 - **proteomics-protein-id-oms-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_peakpickerhires/PeakPickerHiRes/2.3.0
@@ -17341,12 +17341,12 @@ Questions:
 
 ## Peptide and Protein ID using SearchGUI and PeptideShaker (topics/proteomics/tutorials/protein-id-sg-ps)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
 - Datasets (3): Human_database_%28cRAP_and_Mycoplasma_added%29.fasta, qExactive01819.raw, qExactive01819_profile.mzml
 
 Questions:
 - **proteomics-protein-id-sg-ps-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
 - **proteomics-protein-id-sg-ps-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_fileinfo/FileInfo/2.6+galaxy0
@@ -17398,7 +17398,7 @@ Questions:
   - Tools: Summary_Statistics1
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
 - **proteomics-protein-quant-sil-q019** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/1.1.0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
 - **proteomics-protein-quant-sil-q020** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.4
@@ -17406,18 +17406,18 @@ Questions:
 
 ## Proteogenomics 1: Database Creation (topics/proteomics/tutorials/proteogenomics-dbcreation)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy0
 - Datasets (1): zenodo.1489208
 
 Questions:
 - **proteomics-proteogenomics-dbcreation-q011** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy0
   - Datasets: zenodo.1489208
 - **proteomics-proteogenomics-dbcreation-q012** — Which Galaxy tool would you recommend to perform `hisat2`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1
   - Datasets: zenodo.1489208
 - **proteomics-proteogenomics-dbcreation-q013** — Which Galaxy tool would you recommend to perform `freebayes`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.10+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.10+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.9+galaxy0
   - Datasets: zenodo.1489208
 - **proteomics-proteogenomics-dbcreation-q014** — Which Galaxy tool would you recommend to perform `custom_pro_db`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/custom_pro_db/custom_pro_db/1.22.0
@@ -17496,7 +17496,7 @@ Questions:
   - Tools: upload1
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
 - **proteomics-secretome-prediction-q012** — Which Galaxy tool would you recommend to perform `Join`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.0.0
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
 - **proteomics-secretome-prediction-q013** — Which Galaxy tool would you recommend to perform `wolf_psort`?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/tmhmm_and_signalp/wolf_psort/0.0.8
@@ -17521,16 +17521,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_degap_seqs/mothur_degap_seqs/1.39.5.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 - **sequence-analysis-Manage_AB1_Sanger-q013** — Which Galaxy tool would you recommend to perform `filter_by_fasta_ids`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 - **sequence-analysis-Manage_AB1_Sanger-q014** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 - **sequence-analysis-Manage_AB1_Sanger-q015** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_trimfq/1.5+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_trimfq/1.5+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_trimfq/1.3.1
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 - **sequence-analysis-Manage_AB1_Sanger-q016** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 - **sequence-analysis-Manage_AB1_Sanger-q017** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
@@ -17545,7 +17545,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/qiime_align_seqs/qiime_align_seqs/1.9.1.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 - **sequence-analysis-Manage_AB1_Sanger-q021** — Which Galaxy tool would you recommend to perform `qiime_align_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.10.1+galaxy2
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 
 ## Removal of human reads from SARS-CoV-2 sequencing data (topics/sequence-analysis/tutorials/human-reads-removal)
@@ -17561,19 +17561,19 @@ Questions:
   - Tools: collections_build_list
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q013** — Which Galaxy tool would you recommend to perform `trimmomatic`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2, toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.38.0
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q014** — Which Galaxy tool would you recommend to perform `trimmomatic`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q015** — Which Galaxy tool would you recommend to perform `samtools_fastx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.22+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.22+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q016** — Which Galaxy tool would you recommend to perform `samtools_fastx`?
   - Tools: Grep1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q017** — Which Galaxy tool would you recommend to perform `samtools_fastx`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q018** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?
   - Tools: __UNZIP_COLLECTION__

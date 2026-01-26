@@ -154,3 +154,17 @@ Notes:
     - `multigsea` (`proteomics-multiGSEA-tutorial-q011`–`q018`)
     - `metaquantome_*` tools (`proteomics-metaquantome-*`)
     - `pdaug_*` tools (`proteomics-ml-modeling-of-anti-cancer-peptides-*`)
+
+## Batch 0054 (5301–5400)
+- Status: **expanded** (version-drift fixes; several tools flagged)
+- Date: 2026-01-26
+- Summary:
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) where the same tool is installed in multiple versions, including:
+    - NCBI BLAST+ `blastp` wrapper
+    - `msconvert`
+    - several OpenMS tools that are present in the snapshot (e.g., `FeatureFinderMultiplex`, `MSGFPlusAdapter`, `PeptideIndexer`, `IDMapper`, `FalseDiscoveryRate`)
+  - Normalized `metadata.tool_focus` when the previous focus version was not present in the snapshot (same tool base).
+- Flags:
+  - Several tutorial tool IDs in this batch are not present in the local usegalaxy.org snapshot (kept as-is; no snapshot-verified alternatives added), including:
+    - multiple OpenMS tools such as `ConsensusID`, `IDConflictResolver`, `FileFilter`, `FileMerger`, `PeakPickerHiRes`, `XTandemAdapter`, `FidoAdapter`, `FileInfo`, `TextExporter`, `MultiplexResolver`
+    - `pdaug_*` tools used in peptide library data analysis
