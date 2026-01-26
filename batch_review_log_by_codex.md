@@ -95,3 +95,20 @@ Notes:
     - `OpenSwathWorkflow` (`proteomics-DIA_Analysis_OSW-q015`–`q018`)
     - `diapysef` (`proteomics-DIA_lib_OSW-q015`–`q018`)
     - `OpenSwathAssayGenerator` / `OpenSwathDecoyGenerator` (`proteomics-DIA_lib_OSW-q019`–`q025`)
+
+## Batch 0050 (4901–5000)
+- Status: **expanded** (version-drift fixes + one runnable alternative)
+- Date: 2026-01-26
+- Summary:
+  - Fixed “version drift” for snapshot-present tools by adding alternate installed versions to `tools[]` (with manual notes), including:
+    - Advanced Cut (`tp_cut_tool`) (`proteomics-biomarker_selection-q023`–`q026`)
+    - `msconvert` (`proteomics-clinical-mp-2-discovery-q031`–`q034`)
+  - Normalized `metadata.tool_focus` to the snapshot-installed UniProt XML downloader version:
+    - `proteomics-clinical-mp-1-database-generation-q011`–`q014`
+    - `proteomics-clinical-mp-2-discovery-q011`–`q014`
+  - Added a runnable Galaxy alternative for Venn diagram generation:
+    - `Jvenn` ↔ `venn_list` (`proteomics-biomarker_selection-q019`–`q022`)
+- Flags:
+  - Several tutorial tool IDs in this batch are not present in the local usegalaxy.org snapshot (kept as-is; no snapshot-verified alternatives added), including:
+    - `bioconductor_scp` (`proteomics-bioconductor-scp-q023`–`q026`)
+    - multiple `proteore_*` tools used in `proteomics-biomarker_selection-*`

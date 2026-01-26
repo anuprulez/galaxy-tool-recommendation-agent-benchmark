@@ -15869,28 +15869,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.05
   - Datasets: None
 - **proteomics-biomarker_selection-q019** — Which Galaxy tool would you recommend to perform `Jvenn`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18
+  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
 - **proteomics-biomarker_selection-q020** — Which Galaxy tool would you recommend to perform `Jvenn`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18
+  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
 - **proteomics-biomarker_selection-q021** — Which Galaxy tool creates the Venn diagram by taking the IHC and filtered RNAseq lists, naming them `heart IHC` and `heart RNAseq`, and writing the intersecting IDs to a text output?
-  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18
+  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
 - **proteomics-biomarker_selection-q022** — Which Galaxy tool would you recommend to perform `Jvenn`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18
+  - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
 - **proteomics-biomarker_selection-q023** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
 - **proteomics-biomarker_selection-q024** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
 - **proteomics-biomarker_selection-q025** — Which Galaxy tool executes the `tp_cut_tool` cut operation on the Venn text file, choosing `fields` and `Column: 3` so the biomarker IDs are in a single column for filtering?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
 - **proteomics-biomarker_selection-q026** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
 - **proteomics-biomarker_selection-q027** — Which Galaxy tool would you recommend to perform `rna_abbased_data`?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07
@@ -16063,16 +16063,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/4.0.41+galaxy1
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q031** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q032** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q033** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q034** — Which Galaxy tool would you recommend to perform `msconvert`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-2-discovery-q035** — Which Galaxy tool would you recommend to perform `search_gui`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
