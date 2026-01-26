@@ -14508,35 +14508,35 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q027** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q028** — To assign protein accessions to the PepQuery-verified peptides using SQL, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q029** — Which Galaxy tool runs the Query Tabular join between the verified list and peptide report?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q030** — Which Galaxy tool would you recommend to perform `query_tabular`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 
 ## Clinical Metaproteomics 4: Quantitation (topics/microbiome/tutorials/clinical-mp-4-quantitation)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
 - Datasets (1): zenodo.10105821
 
 Questions:
 - **microbiome-clinical-mp-4-quantitation-q011** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-4-quantitation-q012** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-4-quantitation-q013** — Which Galaxy tool performs the quantitation workflow that consumes the quantitation FASTA, design table, and RAW files?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-4-quantitation-q014** — Which Galaxy tool would you recommend to perform `maxquant`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-4-quantitation-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
   - Tools: Grep1
@@ -14589,21 +14589,21 @@ Questions:
 
 ## Clinical Metaproteomics 5: Data Interpretation (topics/microbiome/tutorials/clinical-mp-5-data-interpretation)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
 - Datasets (1): zenodo.10105821
 
 Questions:
 - **microbiome-clinical-mp-5-data-interpretation-q011** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-5-data-interpretation-q012** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-5-data-interpretation-q013** — Which Galaxy tool provides peptide-to-taxon functional summaries for metaproteomics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-5-data-interpretation-q014** — Which Galaxy tool would you recommend to perform `unipept`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-5-data-interpretation-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
   - Tools: Grep1
@@ -14632,167 +14632,167 @@ Questions:
 
 ## Building an amplicon sequence variant (ASV) table from 16S data using DADA2 (topics/microbiome/tutorials/dada-16S)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
 - Datasets (1): zenodo.800651
 
 Questions:
 - **microbiome-dada-16S-q011** — Which Galaxy tool would you recommend to perform `dada2_plotQualityProfile`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q012** — I want to visualize quality for the forward and reverse F3D reads to decide filtering parameters. Which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q013** — Which Galaxy tool generates dada2_plotQualityProfile plots for the raw FASTQ inputs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q014** — Which Galaxy tool would you recommend to perform `dada2_plotQualityProfile`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q015** — Which Galaxy tool would you recommend to perform `dada2_filterAndTrim`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q016** — Which Galaxy tool would you recommend to perform `dada2_filterAndTrim`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q017** — Which Galaxy tool filters and trims paired-end reads according to dada2 best practices?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q018** — Which Galaxy tool would you recommend to perform `dada2_filterAndTrim`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q019** — Which Galaxy tool would you recommend to perform `dada2_dada`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q020** — Which Galaxy tool would you recommend to perform `dada2_dada`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q021** — Which Galaxy tool runs the dada2_dada inference on filtered paired-end reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q022** — Which Galaxy tool would you recommend to perform `dada2_dada`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q023** — Which Galaxy tool would you recommend to perform `dada2_mergePairs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q024** — To guarantee consistent overlap merging for our V4 reads, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q025** — Which Galaxy tool handles merging the forward/reverse dada2 outputs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q026** — Which Galaxy tool would you recommend to perform `dada2_mergePairs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q027** — Which Galaxy tool would you recommend to perform `dada2_makeSequenceTable`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q028** — To tabulate sequence abundances per sample before removeBimeraDenovo, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q029** — Which Galaxy tool constructs the sequence table matrix from merged pairs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
 - **microbiome-dada-16S-q030** — Which Galaxy tool would you recommend to perform `dada2_makeSequenceTable`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
 
 ## Calculating α and β diversity from microbiome taxonomic data (topics/microbiome/tutorials/diversity)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
 - Datasets (1): 13150694
 
 Questions:
 - **microbiome-diversity-q011** — Which Galaxy tool would you recommend to perform `krakentools_alpha_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q012** — Which Galaxy tool would you recommend to perform `krakentools_alpha_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q013** — Which Galaxy tool calculates alpha diversity metrics from taxonomic counts?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q014** — Which Galaxy tool would you recommend to perform `krakentools_alpha_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q015** — Which Galaxy tool would you recommend to perform `krakentools_beta_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q016** — Which Galaxy tool would you recommend to perform `krakentools_beta_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q017** — Which Galaxy tool computes beta diversity distances from taxonomic profiles?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
 - **microbiome-diversity-q018** — Which Galaxy tool would you recommend to perform `krakentools_beta_diversity`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
 
 ## Analyses of metagenomics data - The global picture (topics/microbiome/tutorials/general-tutorial)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
 - Datasets (1): zenodo.815875
 
 Questions:
 - **microbiome-general-tutorial-q011** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q012** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q013** — Which Galaxy tool merges FASTA files for a multisample mothur analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q014** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q015** — Which Galaxy tool would you recommend to perform `mothur_make_group`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q016** — To manually assign the merged FASTA entries to `pampa` or `anguil`, which Galaxy tool fits?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q017** — Which Galaxy tool creates a mothur group file from specified FASTAs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q018** — Which Galaxy tool would you recommend to perform `mothur_make_group`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q019** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q020** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q021** — Which Galaxy tool corresponds to the Unique.seqs command in mothur?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q022** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q023** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q024** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q025** — Which Galaxy tool runs the mothur Screen.seqs command on the unique fasta?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q026** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q027** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q028** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q029** — Which Galaxy tool corresponds to the mothur Align.seqs step described here?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
 - **microbiome-general-tutorial-q030** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
 
 ## Identifying Mycorrhizal Fungi from ITS2 sequencing using LotuS2 (topics/microbiome/tutorials/lotus2-identifying-fungi)

@@ -41,3 +41,19 @@ Notes:
     - UniProt XML downloader (`microbiome-clinical-mp-1-database-generation-q011`–`q014`)
 - Flags:
   - `xtb_molecular_optimization` tool IDs referenced in `metabolomics-qcxms-predictions-q035`–`q038` are not present in the local usegalaxy.org snapshot; no snapshot-verified alternative was added.
+
+## Batch 0046 (4501–4600)
+- Status: **expanded** (version-drift fixes)
+- Date: 2026-01-26
+- Summary:
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common microbiome/proteomics steps, including:
+    - `query_tabular` (`microbiome-clinical-mp-3-verification-q027`–`q030`)
+    - `maxquant` (`microbiome-clinical-mp-4-quantitation-q011`–`q014`)
+    - `unipept` (`microbiome-clinical-mp-5-data-interpretation-q011`–`q014`)
+    - DADA2 steps (`microbiome-dada-16S-*`: PlotQualityProfile, FilterAndTrim, dada, MergePairs, MakeSequenceTable)
+    - Mothur preprocessing steps (`microbiome-general-tutorial-*`: MergeFiles, MakeGroup, UniqueSeqs, AlignSeqs, ScreenSeqs)
+    - KrakenTools alpha/beta diversity (`microbiome-diversity-*`)
+  - Normalized `metadata.tool_focus` for PepQuery2 verification steps where the previous focus version was not present in the snapshot:
+    - `microbiome-clinical-mp-3-verification-q019`–`q022`
+- Flags:
+  - `lotus2` tool IDs referenced in `microbiome-lotus2-identifying-fungi-q011`–`q012` are not present in the local usegalaxy.org snapshot; no snapshot-verified alternative was added.
