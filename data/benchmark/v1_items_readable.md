@@ -15143,41 +15143,41 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q029** — Which Galaxy tool corresponds to the FastQ interlacer step referenced in the short guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 - **microbiome-metatranscriptomics-short-q030** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_interlacer/fastq_interlacer/1.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 
 ## MGnify v5.0 Amplicon Pipeline (topics/microbiome/tutorials/mgnify-amplicon)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
 - Datasets (1): 13710235
 
 Questions:
 - **microbiome-mgnify-amplicon-q011** — Which Galaxy tool would you recommend to perform `fastq_dl`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q012** — Which Galaxy tool would you recommend to perform `fastq_dl`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q013** — Which Galaxy tool corresponds to the fastq-dl download step in this pipeline?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q014** — Which Galaxy tool would you recommend to perform `fastq_dl`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q015** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q016** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q017** — Which Galaxy tool represents the fastp cleanup stage for MGnify input reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q018** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
 - **microbiome-mgnify-amplicon-q019** — Which Galaxy tool would you recommend to perform `infernal_cmsearch`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.4+galaxy0
@@ -15218,33 +15218,33 @@ Questions:
 
 ## 16S Microbial Analysis with mothur (extended) (topics/microbiome/tutorials/mothur-miseq-sop)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
 - Datasets (1): zenodo.800651
 
 Questions:
 - **microbiome-mothur-miseq-sop-q011** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q012** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q013** — Which Galaxy tool runs the Merge.files command described in the SOP?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q014** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q015** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q016** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q017** — Which Galaxy tool executes the Unique.seqs step from the guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q018** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q019** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
@@ -15259,16 +15259,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q023** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q024** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q025** — Which Galaxy tool handles the Screen.seqs step for alignment filtering?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q026** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q027** — Which Galaxy tool would you recommend to perform `mothur_filter_seqs`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0
@@ -15326,16 +15326,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-short-q023** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-short-q024** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-short-q025** — Which Galaxy tool represents the Screen.seqs call in the short version?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-short-q026** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-short-q027** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
@@ -15352,130 +15352,130 @@ Questions:
 
 ## 16S Microbial analysis with Nanopore data (topics/microbiome/tutorials/nanopore-16S-metagenomics)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
 - Datasets (1): 4274812
 
 Questions:
 - **microbiome-nanopore-16S-metagenomics-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q013** — Which Galaxy tool generates the FastQC reports for these long reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q015** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q016** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q017** — Which Galaxy tool compiles FastQC logs into MultiQC for nanopore?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q019** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q020** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q021** — Which Galaxy tool runs Porechop for adapter trimming?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q022** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q023** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q024** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q025** — Which Galaxy tool executes the fastp cleanup described?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q026** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q027** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q028** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q029** — Which Galaxy tool corresponds to the Kraken2 classification step?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
 - **microbiome-nanopore-16S-metagenomics-q030** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
 
 ## Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition (topics/microbiome/tutorials/pathogen-detection-from-nanopore-foodborne-data)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
 - Datasets (1): 11222469
 
 Questions:
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q013** — Which Galaxy tool launches the initial FastQC job on the raw `Samples` collection imported from Zenodo?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q015** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q016** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q017** — Which Galaxy tool launches the Porechop job that consumes the `Samples` collection and trims adapters as described?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q018** — Which Galaxy tool would you recommend to perform `porechop`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q019** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q020** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q021** — Which Galaxy tool corresponds to the fastp filtering job that takes the Porechop outputs and writes filtered FASTQs plus JSON?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q022** — Which Galaxy tool would you recommend to perform `fastp`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q023** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q024** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q025** — Which Galaxy tool runs the `Map with minimap2` job that indexes `galGal6` from history and aligns the filtered `Samples` collection?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q026** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q027** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q028** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — Which Galaxy tool executes the Kraken2 job tied to the Kalamari database, producing the classification and report outputs referenced in the guide?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0

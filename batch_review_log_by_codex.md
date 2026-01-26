@@ -70,3 +70,14 @@ Notes:
     - `quast`, `bowtie2`, `samtools_sort`, `binette`, `minimap2`, `multiqc`
 - Flags:
   - `lotus2` tool IDs referenced in `microbiome-lotus2-identifying-fungi-q013`–`q014` are not present in the local usegalaxy.org snapshot; no snapshot-verified alternative was added.
+
+## Batch 0048 (4701–4800)
+- Status: **expanded** (version-drift fixes + snapshot tool normalization)
+- Date: 2026-01-26
+- Summary:
+  - Normalized a non-snapshot FASTQ interlacing tool ID to the snapshot-installed equivalent:
+    - `fastq_interlacer` → `fastq_paired_end_interlacer` (`microbiome-metatranscriptomics-short-q029`–`q030`)
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common microbiome steps, including:
+    - `fastq_dl`, `fastp`
+    - Mothur MiSeq SOP steps (merge, unique, screen, etc.)
+    - FastQC / NanoPlot QC steps (nanopore tutorials)
