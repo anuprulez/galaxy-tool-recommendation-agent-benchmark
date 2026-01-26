@@ -218,7 +218,37 @@ Scope and rules used for each batch:
     - `{{version_wc}}`, `{{version_replace_text_column}}`, `{{version_replace_text_line}}`, `{{version_join}}`, `{{version_cat}}`, `{{version_remove_columns_by_header}}`, `{{version_paste}}`
 
 ## Batch 0039 (3801–3900)
-- Status: **flag**
+- Status: **expanded** (with **flags**)
 - Date: 2026-01-26
-- Notes:
-  - Pending manual review and expansion.
+- Expansion summary:
+  - Added snapshot-verified same-intent alternatives between built-in and Toolshed text tools:
+    - `Cut1` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2`
+    - `tp_cut_tool` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0`, `Cut1`
+  - Added snapshot-verified alternative installed versions for common text processing tools:
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2` ↔ `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1`
+    - `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2` ↔
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3`,
+      `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/1.1.0`
+    - `toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3` ↔ `toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1`
+    - `toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0` ↔ `toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1`
+  - Added snapshot-verified alternative installed versions for tutorial tools:
+    - `toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0` ↔ `toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.30.0+galaxy1`
+    - `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0` ↔
+      `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0`,
+      `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2`
+    - `toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1` ↔ `toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.3.5+galaxy0`
+  - Added snapshot-verified alternative installed versions for NGS data logistics tools:
+    - `toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3` ↔ `toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.24.0+galaxy4`
+    - `toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1` ↔ `toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.20+galaxy3`
+    - `toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8` ↔ `toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.5`
+- Flags / notes:
+  - Template placeholders in tools lists are not verifiable tool IDs and were left unchanged, e.g. `{{version_split}}` (and `{{version_paste}}`, though `Paste1` was added as a concrete acceptable alternative).
+  - Observed benchmark ↔ snapshot ID mismatch for built-ins:
+    - benchmark: `Remove_beginning1`
+    - snapshot: `Remove beginning1`
+    - Kept the benchmark IDs but added the snapshot-valid variants as acceptable alternatives.
