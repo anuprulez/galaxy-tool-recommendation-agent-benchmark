@@ -19485,110 +19485,110 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 - **statistics-regression_machinelearning-q016** — Which Galaxy tool would you recommend to perform `Remove beginning of a file`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 2545213, train_rows.csv, test_rows_labels.csv
 
 ## Text-mining with the SimText toolset (topics/statistics/tutorials/text-mining_simtext)
 - Topic: statistics
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (3): zenodo.4638516, 4638516, clingen_data
 
 Questions:
 - **statistics-text-mining_simtext-q011** — What Galaxy tool should I run for `PubMed query`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pubmed_by_queries/pubmed_by_queries/0.0.2
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.4638516, 4638516, clingen_data
 - **statistics-text-mining_simtext-q012** — What Galaxy tool should I run for `PMIDs to PubTator`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pmids_to_pubtator_matrix/pmids_to_pubtator_matrix/0.0.2
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.4638516, 4638516, clingen_data
 - **statistics-text-mining_simtext-q013** — What Galaxy tool should I run for `interactive_tool_simtext_app`?
-  - Tools: interactive_tool_simtext_app
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.4638516, 4638516, clingen_data
 
 ## Designing plasmids encoding predicted pathways by using the BASIC assembly method (topics/synthetic-biology/tutorials/basic_assembly_analysis)
 - Topic: synthetic-biology
-- Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (1): 6123887
 
 Questions:
 - **synthetic-biology-basic_assembly_analysis-q011** — Which Galaxy tool would you recommend to perform `selenzy-wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q012** — Which Galaxy tool would you recommend to perform `selenzy-wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q013** — Which Galaxy tool suggests enzymes for pathway steps?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q014** — Which Galaxy tool would you recommend to perform `selenzy-wrapper`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/selenzy/selenzy-wrapper/0.2.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q015** — Which Galaxy tool would you recommend to perform `rpbasicdesign`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q016** — Which Galaxy tool would you recommend to perform `rpbasicdesign`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q017** — Which Galaxy tool designs BASIC assembly constructs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q018** — Which Galaxy tool would you recommend to perform `rpbasicdesign`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpbasicdesign/rpbasicdesign/0.3.4
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q019** — Which Galaxy tool would you recommend to perform `dnabot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q020** — Which Galaxy tool would you recommend to perform `dnabot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q021** — Which Galaxy tool generates DNA-Bot instructions for BASIC assembly?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q022** — Which Galaxy tool would you recommend to perform `dnabot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/dnabot/dnabot/3.1.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 
 ## Evaluating and ranking a set of pathways based on multiple metrics (topics/synthetic-biology/tutorials/pathway_analysis)
 - Topic: synthetic-biology
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/rpfba/rpfba/5.12.1
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (3): 6628296, rp_001_0001.xml, rp_001_0006.xml
 
 Questions:
 - **synthetic-biology-pathway_analysis-q011** — Which Galaxy tool would you recommend to perform `rpfba`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rpfba/rpfba/5.12.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
 - **synthetic-biology-pathway_analysis-q012** — Which Galaxy tool would you recommend to perform `rpthermo`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpthermo/rpthermo/5.12.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
 - **synthetic-biology-pathway_analysis-q013** — Which Galaxy tool should I use to run `Score Pathway`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpscore/rpscore/5.12.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
 - **synthetic-biology-pathway_analysis-q014** — What Galaxy tool should I run for `Rank Pathways`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpranker/rpranker/5.12.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
 
 ## Generating theoretical possible pathways for the production of Lycopene in E.Coli using Retrosynthesis tools (topics/synthetic-biology/tutorials/retrosynthesis_analysis)
 - Topic: synthetic-biology
-- Tools: toolshed.g2.bx.psu.edu/repos/tduigou/get_sbml_model/get_sbml_model/0.0.1
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (1): (see source)
 
 Questions:
 - **synthetic-biology-retrosynthesis_analysis-q011** — Which Galaxy tool should I use to run `Pick SBML Model`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/get_sbml_model/get_sbml_model/0.0.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 - **synthetic-biology-retrosynthesis_analysis-q012** — Which Galaxy tool would you recommend to perform `rpextractsink`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpextractsink/rpextractsink/5.12.1
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 - **synthetic-biology-retrosynthesis_analysis-q013** — What Galaxy tool should I run for `RRules Parser`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rrparser/rrparser/2.4.6
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 - **synthetic-biology-retrosynthesis_analysis-q014** — What Galaxy tool should I run for `RetroPath2.0`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/retropath2/retropath2/2.3.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 - **synthetic-biology-retrosynthesis_analysis-q015** — Which Galaxy tool would you recommend to perform `rp2paths`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rp2paths/rp2paths/1.5.0
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 - **synthetic-biology-retrosynthesis_analysis-q016** — What Galaxy tool should I run for `Complete Reactions`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/tduigou/rpcompletion/rpcompletion/5.12.2
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 
 ## CLIP-Seq data analysis from pre-processing to motif detection (topics/transcriptomics/tutorials/clipseq)
@@ -19622,7 +19622,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q019** — Which Galaxy tool would you recommend to perform `PEAKachu`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/peakachu/peakachu/0.1.0.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q020** — Which Galaxy tool should I use to run `Text reformatting`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
@@ -19637,19 +19637,19 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meme_chip/meme_chip/4.11.2+galaxy1
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q024** — What Galaxy tool should I run for `RNA Centric Annotation System (v. 1.5.4)`?
-  - Tools: RNA Centric Annotation System (v. 1.5.4)
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q025** — Which Galaxy tool would you recommend to perform `Extract alignment ends`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bctools_extract_alignment_ends/bctools_extract_alignment_ends/0.2.2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q026** — Which Galaxy tool would you recommend to perform `SortBED`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q027** — Which Galaxy tool should I use to run `Create a BedGraph of genome coverage`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed_bedgraph/2.19.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed/2.31.1
   - Datasets: 1327423, , 2579279
 - **transcriptomics-clipseq-q028** — What Galaxy tool should I run for `Wig/BedGraph-to-bigWig`?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 1327423, , 2579279
 
 ## De novo transcriptome reconstruction with RNA-Seq (topics/transcriptomics/tutorials/de-novo)
@@ -19689,10 +19689,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
 - **transcriptomics-de-novo-q021** — What Galaxy tool should I run for `Rename`?
-  - Tools: Rename
+  - Tools: __SET_METADATA__
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
 - **transcriptomics-de-novo-q022** — I need a tool that can perform `Viz`.Which Galaxy tool would you recommend?
-  - Tools: Viz
+  - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
 
 ## Genome-wide alternative splicing analysis (topics/transcriptomics/tutorials/differential-isoform-expression)
@@ -19726,7 +19726,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
 - **transcriptomics-differential-isoform-expression-q019** — Which Galaxy tool should I use to run `Sort`?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
 - **transcriptomics-differential-isoform-expression-q020** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
@@ -19807,7 +19807,7 @@ Questions:
   - Tools: addValue
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
 - **transcriptomics-differential-isoform-expression-q046** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
 - **transcriptomics-differential-isoform-expression-q047** — Which Galaxy tool should I use to run `Concatenate datasets`?
   - Tools: cat1

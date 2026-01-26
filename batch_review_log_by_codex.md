@@ -237,3 +237,17 @@ Notes:
     - `Remove_beginning1` → `Remove beginning1`
     - `Show_beginning1` → `Show beginning1`
   - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
+
+## Batch 0060 (5901–6000)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Replaced missing/placeholder tool IDs with snapshot-installed equivalents:
+    - `Remove_beginning1` → `Remove beginning1`
+    - `sort1` → `tp_sort_header_tool` (generic tabular sort) or `bedtools_sortbed` (SortBED), depending on tutorial step
+    - `wig_to_bigWig` → `ucsc_wigtobigwig`
+    - `bedtools_genomecoveragebed_bedgraph` → `bedtools_genomecoveragebed`
+    - CLIP-seq: `PEAKachu` → `macs2_callpeak` (peak calling), `Extract alignment ends` → `bedtools_bamtobed`, `RNA Centric Annotation System` → `chipseeker`
+    - de-novo RNA-seq: `Rename` (UI rename) → `__SET_METADATA__`, `Viz` (track browser) → `jbrowse2`
+  - For GTN tutorials whose tools are not installed on usegalaxy.org (SimText + SynBio toolchain), mapped steps to `interactive_tool_jupyter_notebook` as the runnable fallback.
+  - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
