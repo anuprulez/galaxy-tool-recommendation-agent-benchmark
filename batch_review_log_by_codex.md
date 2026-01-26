@@ -297,3 +297,19 @@ Notes:
   - Updated common variant-analysis utilities to snapshot-latest versions:
     - `tp_awk_tool`, `tp_replace_in_column`, `ggplot2_point`, `ucsc_fatovcf`, `tp_find_and_replace`, `tp_cut_tool`
   - Normalized `metadata.tool_focus` to match `tools[0]` when drift was version-only (same tool base).
+
+## Batch 0064 (6301–6397)
+- Status: **expanded** (tool ID normalization + version alignment)
+- Date: 2026-01-26
+- Summary:
+  - Removed non-latest tool versions from `tools[]` and aligned to the usegalaxy.org “latest index”.
+  - Normalized placeholder/non-tool entries to snapshot-installed tools:
+    - `Remove_beginning1` → `Remove beginning1`
+    - `Text reformatting` (trio-analysis chr-prefix step) → `regexColumn1`
+    - `Cut columns from a table` → built-in `Cut1`
+    - `GEMINI database info` → `gemini_query`
+    - EMBOSS `seqret` tool ID: URL-encoded `EMBOSS:%20seqret84` → `EMBOSS: seqret84`
+  - Somatic CNV tutorial tool `control_freec` is not installed on usegalaxy.org; mapped to `varscan_copynumber` as the runnable copy-number calling fallback.
+  - `gene.iobio` visualization tool is not installed on usegalaxy.org; mapped to `jbrowse2` as the runnable genome-browser fallback.
+  - Updated common text-processing tools to snapshot-latest versions:
+    - `tp_text_file_with_recurring_lines`, `tp_replace_in_line`, `tp_easyjoin_tool`, `tp_sed_tool`, `tp_grep_tool`

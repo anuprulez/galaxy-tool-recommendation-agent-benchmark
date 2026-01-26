@@ -20976,7 +20976,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/mbernt/fasta_regex_finder/fasta_regex_finder/0.1.0
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
 - **variant-analysis-sars-cov-2-variant-discovery-q014** — What Galaxy tool should I run for `Pangolin`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pangolin/pangolin/4.3.4+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pangolin/pangolin/4.3+galaxy2
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
 - **variant-analysis-sars-cov-2-variant-discovery-q015** — Which Galaxy tool should I use to run `Datamash`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
@@ -21007,7 +21007,7 @@ Questions:
   - Tools: __BUILD_LIST__
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q016** — What Galaxy tool should I run for `Create text file`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_text_file_with_recurring_lines/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_text_file_with_recurring_lines/9.5+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q017** — Which Galaxy tool would you recommend to perform `__RELABEL_FROM_FILE__`?
   - Tools: __RELABEL_FROM_FILE__
@@ -21028,13 +21028,13 @@ Questions:
   - Tools: Grep1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q023** — Which Galaxy tool should I use to run `Replace Text in entire line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q024** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
   - Tools: __EXTRACT_DATASET__
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q025** — Which Galaxy tool would you recommend to perform `control_freec`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/control_freec/control_freec/11.6+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varscan_copynumber/varscan_copynumber/2.4.3.2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q026** — Which Galaxy tool would you recommend to perform `circos`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
@@ -21086,7 +21086,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variants-q024** — Which Galaxy tool should I use to run `Join two files`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variants-q025** — Which Galaxy tool should I use to run `Column arrange by header name`?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/column_arrange_by_header/bg_column_arrange_by_header/0.2
@@ -21095,10 +21095,10 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snpeff/snpEff_download/5.2+galaxy1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variants-q027** — Which Galaxy tool would you recommend to perform `GEMINI database info`?
-  - Tools: GEMINI database info
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variants-q028** — Which Galaxy tool should I use to run `Cut columns from a table`?
-  - Tools: Cut columns from a table
+  - Tools: Cut1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 
 ## M. tuberculosis Variant Analysis (topics/variant-analysis/tutorials/tb-variant-analysis)
@@ -21132,13 +21132,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
 - **variant-analysis-tb-variant-analysis-q019** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy3
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
 - **variant-analysis-tb-variant-analysis-q020** — Which Galaxy tool would you recommend to perform `tbvcfreport`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbvcfreport/tbvcfreport/1.0.1+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
 - **variant-analysis-tb-variant-analysis-q021** — What Galaxy tool should I run for `seqret`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS:%20seqret84/5.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: seqret84/5.0.0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
 - **variant-analysis-tb-variant-analysis-q022** — Which Galaxy tool should I use to run `JBrowse`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
@@ -21163,7 +21163,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ega_download_client/pyega3/5.0.2+galaxy0
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 - **variant-analysis-trio-analysis-q012** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy3
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 - **variant-analysis-trio-analysis-q013** — Which Galaxy tool should I use to run `Column Regex Find And Replace`?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
@@ -21187,13 +21187,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_inheritance/gemini_inheritance/0.20.1
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 - **variant-analysis-trio-analysis-q020** — What Galaxy tool should I run for `gene.iobio visualisation`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/geneiobio/gene_iobio_display_generation_iframe/4.7.1
+  - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 - **variant-analysis-trio-analysis-q021** — What Galaxy tool should I run for `Convert compressed file to uncompressed.`?
   - Tools: CONVERTER_gz_to_uncompressed
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 - **variant-analysis-trio-analysis-q022** — Which Galaxy tool should I use to run `Text reformatting`?
-  - Tools: Text reformatting
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 - **variant-analysis-trio-analysis-q023** — Which Galaxy tool would you recommend to perform `Convert uncompressed file to compressed.`?
   - Tools: CONVERTER_uncompressed_to_gz
@@ -21218,13 +21218,13 @@ Questions:
   - Tools: Cut1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
 - **visualisation-circos-q015** — Which Galaxy tool should I use to run `Remove beginning`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
 - **visualisation-circos-q016** — Which Galaxy tool should I use to run `Select random lines`?
   - Tools: random_lines1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
 - **visualisation-circos-q017** — Which Galaxy tool should I use to run `Remove`?
-  - Tools: Remove_beginning1
+  - Tools: Remove beginning1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
 
 ## Ploting a Microbial Genome with Circos (topics/visualisation/tutorials/circos-microbial)
