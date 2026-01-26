@@ -81,3 +81,17 @@ Notes:
     - `fastq_dl`, `fastp`
     - Mothur MiSeq SOP steps (merge, unique, screen, etc.)
     - FastQC / NanoPlot QC steps (nanopore tutorials)
+
+## Batch 0049 (4801–4900)
+- Status: **expanded** (version-drift fixes; OSW tools flagged)
+- Date: 2026-01-26
+- Summary:
+  - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common microbiome steps, including:
+    - `kraken2`, `nanoplot`, `minimap2`, `multiqc`
+    - KrakenTools helpers (kreport → Krona, etc.)
+    - `msconvert`
+- Flags:
+  - Several proteomics DIA/OSW-related tool IDs referenced in this batch are not present in the local usegalaxy.org snapshot, so no snapshot-verified alternatives were added for them:
+    - `OpenSwathWorkflow` (`proteomics-DIA_Analysis_OSW-q015`–`q018`)
+    - `diapysef` (`proteomics-DIA_lib_OSW-q015`–`q018`)
+    - `OpenSwathAssayGenerator` / `OpenSwathDecoyGenerator` (`proteomics-DIA_lib_OSW-q019`–`q025`)

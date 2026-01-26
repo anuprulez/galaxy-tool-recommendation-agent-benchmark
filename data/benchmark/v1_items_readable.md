@@ -15478,96 +15478,96 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — Which Galaxy tool executes the Kraken2 job tied to the Kalamari database, producing the classification and report outputs referenced in the guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q030** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 
 ## Antibiotic resistance detection (topics/microbiome/tutorials/plasmid-metagenomics-nanopore)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
 - Datasets (1): zenodo.3247504
 
 Questions:
 - **microbiome-plasmid-metagenomics-nanopore-q011** — Which Galaxy tool would you recommend to perform `nanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q012** — Which Galaxy tool would you recommend to perform `nanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q013** — Which Galaxy tool corresponds to the NanoPlot job that analyzes the `Plasmids` dataset collection in batch mode?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q014** — Which Galaxy tool would you recommend to perform `nanoplot`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q015** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q016** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q017** — Which Galaxy tool executes Minimap2 with the Oxford Nanopore profile to produce the PAF overlaps for assembly?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q018** — Which Galaxy tool would you recommend to perform `minimap2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q019** — Now that I have the overlaps, which Galaxy tool should I run to assemble the Nanopore reads into the assembly graph described in the guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q020** — Which Galaxy tool would you recommend to perform `miniasm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q021** — Which Galaxy tool performs the Miniasm assembly that consumes the reads and PAF overlaps to produce the GFA graph?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q022** — Which Galaxy tool would you recommend to perform `miniasm`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q023** — Which Galaxy tool would you recommend to perform `PlasFlow`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q024** — Which Galaxy tool would you recommend to perform `PlasFlow`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q025** — Which Galaxy tool executes PlasFlow on the Unicycler assembly to predict whether contigs are plasmidic?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
 - **microbiome-plasmid-metagenomics-nanopore-q026** — Which Galaxy tool would you recommend to perform `PlasFlow`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
 
 ## Taxonomic Profiling and Visualization of Metagenomic Data (topics/microbiome/tutorials/taxonomic-profiling)
 - Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
 - Datasets (1): 7871630
 
 Questions:
 - **microbiome-taxonomic-profiling-q011** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q012** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q013** — Which Galaxy tool launches Kraken2 with the Prebuilt Refseq PlusPF database to produce the classification and report for every sample in this guide?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q014** — Which Galaxy tool would you recommend to perform `kraken2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q015** — Which Galaxy tool would you recommend to perform `metaphlan`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q016** — Which Galaxy tool would you recommend to perform `metaphlan`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q017** — Which Galaxy tool corresponds to the MetaPhlAn job that consumes the forward and reverse collections and emits the clade abundance table plus Krona data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q018** — Which Galaxy tool would you recommend to perform `metaphlan`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q019** — Which Galaxy tool would you recommend to perform `est_abundance`?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
@@ -15582,16 +15582,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q023** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q024** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q025** — Which Galaxy tool converts the Kraken2 report into the NCBI taxonomy representation that Krona can visualize?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q026** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
 - **microbiome-taxonomic-profiling-q027** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
@@ -15644,21 +15644,21 @@ Questions:
 
 ## Statistical analysis of DIA data (topics/proteomics/tutorials/DIA_Analysis_MSstats)
 - Topic: proteomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1
+- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
 - Datasets (1): 4307758
 
 Questions:
 - **proteomics-DIA_Analysis_MSstats-q011** — Which Galaxy tool would you recommend to perform `msstats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
 - **proteomics-DIA_Analysis_MSstats-q012** — Which Galaxy tool would you recommend to perform `msstats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
 - **proteomics-DIA_Analysis_MSstats-q013** — Which Galaxy tool consumes the OpenSWATH tabular input, the sample annotation file, and the comparison matrix to run MSstats and output the normalized protein statistics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
 - **proteomics-DIA_Analysis_MSstats-q014** — Which Galaxy tool would you recommend to perform `msstats`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
 - **proteomics-DIA_Analysis_MSstats-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
   - Tools: Grep1
