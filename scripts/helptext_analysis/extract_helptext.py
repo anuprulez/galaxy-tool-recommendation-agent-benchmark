@@ -7,11 +7,6 @@ Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entrie
   2) Tabular file (TSV or CSV) with columns:
      tool_id, name, description, panel_section_id, panel_section_name
 
-Works both:
-  - online via requests (default), and
-  - offline via an existing downloaded JSON (e.g. /mnt/data/tools.json)
-  - https://usegalaxy.org/api/tools/toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0/raw_tool_source
-  - https://usegalaxy.org/api/tools/toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0/raw_tool_source
 """
 
 from __future__ import annotations
@@ -24,17 +19,13 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pandas as pd
 import numpy as np
-#from sklearn.neighbors import NearestNeighbors
+import re
 import requests
 
-import re
-import xml.etree.ElementTree as ET
-from lxml import etree
 from markdown import markdown
 from bs4 import BeautifulSoup
 
 import extract_embeddings
-
 
 DEFAULT_URL = "https://usegalaxy.org/api/tools"
 n_tools = 3500
@@ -89,16 +80,22 @@ def iter_tool_objects(
             v = node.get(k)
             if isinstance(v, list):
                 for child in v:
-                    yield from iter_tool_objects(child, inherited_section_id, inherited_section_name)
+                    yield from iter_tool_objects(
+                        child, inherited_section_id, inherited_section_name
+                    )
                 return  # avoid traversing multiple container keys redundantly
 
         # Generic dict traversal (safe fallback)
         for v in node.values():
-            yield from iter_tool_objects(v, inherited_section_id, inherited_section_name)
+            yield from iter_tool_objects(
+                v, inherited_section_id, inherited_section_name
+            )
 
     elif isinstance(node, list):
         for item in node:
-            yield from iter_tool_objects(item, inherited_section_id, inherited_section_name)
+            yield from iter_tool_objects(
+                item, inherited_section_id, inherited_section_name
+            )
 
 
 def tools_to_dataframe(payload: Any) -> Tuple[pd.DataFrame, List[Dict[str, Any]]]:
@@ -135,7 +132,13 @@ def tools_to_dataframe(payload: Any) -> Tuple[pd.DataFrame, List[Dict[str, Any]]
 
     df = pd.DataFrame.from_records(
         records,
-        columns=["tool_id", "name", "description", "panel_section_id", "panel_section_name"],
+        columns=[
+            "tool_id",
+            "name",
+            "description",
+            "panel_section_id",
+            "panel_section_name",
+        ],
     )
 
     # Stable ordering (useful for diffs)
@@ -172,7 +175,9 @@ def clean_text(text: str) -> str:
     return help_text.strip()
 
 
-def request_galaxy_tool_help(raw_tool_source_url: str, timeout: int = 60, tid: str = "") -> str:
+def request_galaxy_tool_help(
+    raw_tool_source_url: str, timeout: int = 60, tid: str = ""
+) -> str:
     """
     Download a Galaxy tool wrapper (raw_tool_source) and return the contents of <help>...</help>.
     Works even if the XML is slightly malformed elsewhere.
@@ -191,25 +196,18 @@ def request_galaxy_tool_help(raw_tool_source_url: str, timeout: int = 60, tid: s
 
     m = HELP_BLOCK_RE.search(xml_text)
     if not m:
-        print(f"{m} is also None. No <help> text found after text search for tool id: {tid}")
+        print(
+            f"{m} is also None. No <help> text found after text search for tool id: {tid}"
+        )
     return m.group("body").strip()
 
 
-def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "https://usegalaxy.org", timeout: int = 30):
-    """
-    For each Galaxy tool_id in `df[tool_id_col]`, fetch the raw tool XML via:
-        {base_url}/api/tools/{tool_id}/raw_tool_source
-    and extract the text inside <help>...</help>.
-
-    Returns
-    -------
-    list[str | None]
-        A list aligned to df rows. Each element is the extracted help text (str),
-        or None if missing/unavailable/unparseable.
-    """
-    import re
-    import requests
-    import xml.etree.ElementTree as ET
+def fetch_tool_help_texts(
+    df,
+    tool_id_col: str = "tool_id",
+    base_url: str = "https://usegalaxy.org",
+    timeout: int = 30,
+):
 
     tool_ids = df[tool_id_col].astype(str).tolist()
     out = []
@@ -220,10 +218,6 @@ def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "htt
             url = f"{base_url.rstrip('/')}/api/tools/{tid}/raw_tool_source"
             try:
                 help_text = request_galaxy_tool_help(url, timeout=timeout, tid=tid)
-                if tid == "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6/2.31.1":
-                    print(f"For tool id: {tid}")
-                    print(f"Before cleaning: {help_text}")
-                    print(f"After cleaning: {clean_text(help_text)}")
                 help_text = clean_text(help_text)
                 out.append(help_text)
             except Exception as e:
@@ -239,22 +233,23 @@ def compute_text_similarity(df_tools) -> float:
 
     tool_ids = df_tools["tool_id"].astype(str).to_list()
     # extract embeddings for help texts
-    embeddings = extract_embeddings.get_sentence_embeddings(df_tools['help_text'].fillna("").tolist())
+    embeddings = extract_embeddings.get_sentence_embeddings(
+        df_tools["help_text"].fillna("").tolist()
+    )
 
     df_tools["embeddings"] = embeddings
 
-    print("Finding nearest neighbors...")
-
-    # parse embeddings: string -> list -> numpy array
+    print("Computing similarity...")
+    # Parse embeddings: string -> list -> numpy array
     X = df_tools["embeddings"].to_list()
 
-    # 3) Normalize rows (cosine sim = dot of normalized vectors)
-    X /= (np.linalg.norm(X, axis=1, keepdims=True) + 1e-12)
+    # Normalize rows (cosine sim = dot of normalized vectors)
+    X /= np.linalg.norm(X, axis=1, keepdims=True) + 1e-12
 
-    # 4) All-vs-all cosine similarity (N, N)
+    # All-vs-all cosine similarity (N, N)
     S = X @ X.T
 
-    # 5) Top-K neighbors per row (exclude self)
+    # Top-K neighbors per row (exclude self)
     top_ids = []
     top_sims = []
 
@@ -280,12 +275,22 @@ def compute_text_similarity(df_tools) -> float:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--url", default=DEFAULT_URL, help="Galaxy /api/tools URL")
-    ap.add_argument("--input_json", default=None, help="Optional: path to a previously downloaded /api/tools JSON (skips HTTP).")
-    ap.add_argument("--out-json", default="data/tools_only.json", help="Output JSON (tools only)")
-    ap.add_argument("--out-table", default="data/tools_metadata.tsv", help="Output table (TSV/CSV)")
-    ap.add_argument("--table-format", choices=["tsv", "csv"], default="tsv", help="Table format")
+    ap.add_argument(
+        "--input_json",
+        default=None,
+        help="Optional: path to a previously downloaded /api/tools JSON (skips HTTP).",
+    )
+    ap.add_argument(
+        "--out-json", default="data/tools_only.json", help="Output JSON (tools only)"
+    )
+    ap.add_argument(
+        "--out-table", default="data/tools_metadata.tsv", help="Output table (TSV/CSV)"
+    )
+    ap.add_argument(
+        "--table-format", choices=["tsv", "csv"], default="tsv", help="Table format"
+    )
     ap.add_argument("--timeout", type=int, default=120, help="HTTP timeout seconds")
-    
+
     args = ap.parse_args()
     if args.input_json:
         payload = load_json_file(Path(args.input_json))
@@ -294,17 +299,22 @@ def main() -> int:
     df, tools_only = tools_to_dataframe(payload)
 
     write_tools_json(tools_only, Path(args.out_json))
+
     df_tools = write_table(df, Path(args.out_table), fmt=args.table_format)
     df_tools["help_text"] = fetch_tool_help_texts(df_tools)
-    
+
     print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
     print(f"Wrote {len(df_tools)} rows -> {args.out_table} ({args.table_format})")
-    
+
     df_tools = compute_text_similarity(df_tools)
-    df_outcome = df_tools[["tool_id", "help_text", "topk_neighbor_tool_ids", "topk_cosine_sims"]]
+    df_outcome = df_tools[
+        ["tool_id", "help_text", "topk_neighbor_tool_ids", "topk_cosine_sims"]
+    ]
 
     write_table(df_tools, Path("data/complete_tools_info.tsv"), fmt=args.table_format)
-    write_table(df_outcome, Path("data/similar_tools_helptext.tsv"), fmt=args.table_format)
+    write_table(
+        df_outcome, Path("data/similar_tools_helptext.tsv"), fmt=args.table_format
+    )
 
 
 if __name__ == "__main__":
