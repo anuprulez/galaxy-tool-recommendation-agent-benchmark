@@ -7,13 +7,32 @@ A key goal of this project is to build a large set of realistic queries **genera
 
 ## Quick start
 
-1. Create a Python 3.11+ virtual environment and install dependencies:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install -e .
-   ```
 No API keys are required for the core workflow.
+
+If you want to run the helper scripts in `scripts/`, use a Python 3.11+ virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+## Setup (optional)
+
+### Update GTN tutorials
+
+This repo includes a `training-material/` checkout. To update it:
+
+`git -C training-material pull --ff-only`
+
+### Install Codex skills
+
+For Codex CLI, install (or symlink) the repo-local skills into `~/.codex/skills/` and restart Codex:
+
+```bash
+ln -sf "$(pwd)/skills/galaxy-query-guidelines" ~/.codex/skills/galaxy-query-guidelines
+ln -sf "$(pwd)/skills/galaxy-ground-truth-expansion" ~/.codex/skills/galaxy-ground-truth-expansion
+```
 
 ## Current status
 
@@ -61,6 +80,7 @@ Build/update the catalog from usegalaxy.org:
   - Outputs:
     - `data/tool_catalog/usegalaxy_org_tools.jsonl`
     - `data/tool_catalog/usegalaxy_org_index.json`
+    - `data/tool_catalog/usegalaxy_org_latest_index.json` (latest-only, recommended for candidates)
     - `data/tool_catalog/usegalaxy_org_by_section.json`
 
 - All installed tools (larger universe; includes non-panel/hidden tools):
@@ -68,6 +88,7 @@ Build/update the catalog from usegalaxy.org:
   - Outputs:
     - `data/tool_catalog/usegalaxy_org_all_tools.jsonl`
     - `data/tool_catalog/usegalaxy_org_all_index.json`
+    - `data/tool_catalog/usegalaxy_org_all_latest_index.json` (latest-only)
     - `data/tool_catalog/usegalaxy_org_all_by_section.json`
 
 ## Expanding ground truth (multiple acceptable tools)
