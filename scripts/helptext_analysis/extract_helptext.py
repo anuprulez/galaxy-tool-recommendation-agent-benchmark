@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entries with
+Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entries with
 {"model_class": "Tool"}, write:
   1) JSON file of only tools
   2) Tabular file (TSV or CSV) with columns:
@@ -9,6 +10,7 @@ Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entrie
 Works both:
   - online via requests (default), and
   - offline via an existing downloaded JSON (e.g. /mnt/data/tools.json)
+  - https://usegalaxy.org/api/tools/toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0/raw_tool_source
   - https://usegalaxy.org/api/tools/toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0/raw_tool_source
 """
 
@@ -22,11 +24,12 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pandas as pd
 import numpy as np
-from sklearn.neighbors import NearestNeighbors
+#from sklearn.neighbors import NearestNeighbors
 import requests
 
 import re
 import xml.etree.ElementTree as ET
+from lxml import etree
 from markdown import markdown
 from bs4 import BeautifulSoup
 
@@ -34,7 +37,6 @@ import extract_embeddings
 
 
 DEFAULT_URL = "https://usegalaxy.org/api/tools"
-# Galaxy EU: "https://usegalaxy.eu/api/tools"
 n_tools = 3500
 K = 5
 similarity_threshold = 0.5
@@ -161,35 +163,36 @@ def write_table(df: pd.DataFrame, out_path: Path, fmt: str = "tsv") -> None:
         df.to_csv(out_path, sep="\t", index=False)
     return df
 
-def _extract_help_from_xml(xml_text: str) -> str | None:
-    # 1) Try XML parsing first (robust to nested tags inside <help>)
-    try:
-        root = ET.fromstring(xml_text)
-        help_el = root.find(".//help")
-        if help_el is not None:
-            # Collect all text within <help>, including nested tags
-            txt = "".join(help_el.itertext()).strip()
-            return txt if txt else None
-    except Exception:
-        pass
 
-    # 2) Fallback: regex extraction (handles malformed XML in rare cases)
-    m = re.search(r"<help\b[^>]*>(.*?)</help>", xml_text, flags=re.IGNORECASE | re.DOTALL)
-    if not m:
-        return None
-    inner = m.group(1)
-    # Remove any tags inside help and unescape basic entities
-    inner = re.sub(r"<[^>]+>", "", inner)
-    inner = inner.replace("&lt;", "<").replace("&gt;", ">").replace("&amp;", "&")
-    inner = inner.strip()
-    return inner if inner else None
-
-def _clean_text(text: str) -> str:
+def clean_text(text: str) -> str:
     # Replace multiple whitespace with single space, strip leading/trailing whitespace
     text = re.sub(r"\s+", " ", text).strip()
     html = markdown(text)
     help_text = BeautifulSoup(html, "html.parser").get_text("\n")
     return help_text.strip()
+
+
+def request_galaxy_tool_help(raw_tool_source_url: str, timeout: int = 60, tid: str = "") -> str:
+    """
+    Download a Galaxy tool wrapper (raw_tool_source) and return the contents of <help>...</help>.
+    Works even if the XML is slightly malformed elsewhere.
+    """
+    HELP_BLOCK_RE = re.compile(
+        r"<help\b[^>]*>\s*(?P<body>.*?)\s*</help>",
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+    headers = {
+        "Accept": "application/xml,text/xml,text/plain,*/*",
+        "User-Agent": "help-extractor/1.0",
+    }
+    r = requests.get(raw_tool_source_url, headers=headers, timeout=timeout)
+    r.raise_for_status()
+    xml_text = r.text  # requests will decode using response encoding
+
+    m = HELP_BLOCK_RE.search(xml_text)
+    if not m:
+        print(f"{m} is also None. No <help> text found after text search for tool id: {tid}")
+    return m.group("body").strip()
 
 
 def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "https://usegalaxy.org", timeout: int = 30):
@@ -216,51 +219,25 @@ def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "htt
         for tidx, tid in enumerate(tool_ids):
             url = f"{base_url.rstrip('/')}/api/tools/{tid}/raw_tool_source"
             try:
-                r = s.get(url, timeout=timeout)
-                if not r.ok or not r.text:
-                    out.append(None)
-                    continue
-                help_text = _extract_help_from_xml(r.text)
-                help_text = _clean_text(help_text)
-                print(f"Tool id: {tid}, tool help text: {help_text}")
-                print()
-                print()
+                help_text = request_galaxy_tool_help(url, timeout=timeout, tid=tid)
+                if tid == "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6/2.31.1":
+                    print(f"For tool id: {tid}")
+                    print(f"Before cleaning: {help_text}")
+                    print(f"After cleaning: {clean_text(help_text)}")
+                help_text = clean_text(help_text)
                 out.append(help_text)
-            except Exception:
-                out.append(None)
-            if tidx == n_tools:
-                print(f"  Fetched help text for {tidx + 1}/{len(tool_ids)} tools...")
-                break
-
+            except Exception as e:
+                print(f"Error fetching/parsing help text for tool id: {tid}: {e}")
+                out.append("")
+                continue
+            if tidx % 100 == 0 and tidx > 0:
+                print(f" Processed help text for {tidx}/{len(tool_ids)} tools...")
     return out
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--url", default=DEFAULT_URL, help="Galaxy /api/tools URL")
-    ap.add_argument("--input_json", default=None, help="Optional: path to a previously downloaded /api/tools JSON (skips HTTP).")
-    ap.add_argument("--out-json", default="data/tools_only.json", help="Output JSON (tools only)")
-    ap.add_argument("--out-table", default="data/tools_metadata.tsv", help="Output table (TSV/CSV)")
-    ap.add_argument("--table-format", choices=["tsv", "csv"], default="tsv", help="Table format")
-    ap.add_argument("--timeout", type=int, default=120, help="HTTP timeout seconds")
-    args = ap.parse_args()
-    if args.input_json:
-        payload = load_json_file(Path(args.input_json))
-    else:
-        payload = fetch_json(args.url, timeout=args.timeout)
-    df, tools_only = tools_to_dataframe(payload)
+def compute_text_similarity(df_tools) -> float:
 
-    write_tools_json(tools_only, Path(args.out_json))
-    df_tools = write_table(df, Path(args.out_table), fmt=args.table_format)
-
-    lst_help = fetch_tool_help_texts(df_tools)
-    print(lst_help)
-    df_tools["help_text"] = lst_help
     tool_ids = df_tools["tool_id"].astype(str).to_list()
-
-    print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
-    print(f"Wrote {len(df)} rows -> {args.out_table} ({args.table_format.upper()})")
-    
     # extract embeddings for help texts
     embeddings = extract_embeddings.get_sentence_embeddings(df_tools['help_text'].fillna("").tolist())
 
@@ -297,43 +274,37 @@ def main() -> int:
 
     df_tools["topk_neighbor_tool_ids"] = [json.dumps(x) for x in top_ids]
     df_tools["topk_cosine_sims"] = [json.dumps(x) for x in top_sims]
+    return df_tools
 
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--url", default=DEFAULT_URL, help="Galaxy /api/tools URL")
+    ap.add_argument("--input_json", default=None, help="Optional: path to a previously downloaded /api/tools JSON (skips HTTP).")
+    ap.add_argument("--out-json", default="data/tools_only.json", help="Output JSON (tools only)")
+    ap.add_argument("--out-table", default="data/tools_metadata.tsv", help="Output table (TSV/CSV)")
+    ap.add_argument("--table-format", choices=["tsv", "csv"], default="tsv", help="Table format")
+    ap.add_argument("--timeout", type=int, default=120, help="HTTP timeout seconds")
+    
+    args = ap.parse_args()
+    if args.input_json:
+        payload = load_json_file(Path(args.input_json))
+    else:
+        payload = fetch_json(args.url, timeout=args.timeout)
+    df, tools_only = tools_to_dataframe(payload)
+
+    write_tools_json(tools_only, Path(args.out_json))
+    df_tools = write_table(df, Path(args.out_table), fmt=args.table_format)
+    df_tools["help_text"] = fetch_tool_help_texts(df_tools)
+    
+    print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
+    print(f"Wrote {len(df_tools)} rows -> {args.out_table} ({args.table_format})")
+    
+    df_tools = compute_text_similarity(df_tools)
     df_outcome = df_tools[["tool_id", "help_text", "topk_neighbor_tool_ids", "topk_cosine_sims"]]
 
-    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
+    write_table(df_tools, Path("data/complete_tools_info.tsv"), fmt=args.table_format)
     write_table(df_outcome, Path("data/similar_tools_helptext.tsv"), fmt=args.table_format)
-
-    for i, item in enumerate(top_ids):
-        print(f"Tool ID: {tool_ids[i]}")
-        print(f"Top-{K} similar tool IDs: {item}")
-        print(f"Top-{K} cosine similarities: {top_sims[i]}")
-        print("--------------------------------------------------")
-
-    # fit KNN (ask for K+1 because first neighbor is often the row itself)
-    '''nn = NearestNeighbors(n_neighbors=K+1, metric="cosine").fit(X)
-    distances, indices = nn.kneighbors(X)
-
-    print(distances)
-    print()
-    # build neighbor tool_ids, skipping self
-    tool_ids = df_tools["tool_id"].astype(str).to_list()
-    knn_tool_ids = []
-    for i, neigh_idx in enumerate(indices):
-        tool_distances = distances[i]
-        print(tool_distances)
-        neigh_idx = [j for j in neigh_idx if j != i][:K]
-        print(neigh_idx)
-        print(f"tool id: {tool_ids[i]}")
-        neighbours = [tool_ids[j] for j in neigh_idx]
-        print(neighbours)
-        knn_tool_ids.append(neighbours)
-        print("-----------------")
-    df_tools["knn_tool_ids"] = [json.dumps(x) for x in knn_tool_ids]
-
-    df_outcome = df_tools[["tool_id", "help_text", "knn_tool_ids"]]
-
-    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
-    write_table(df_outcome, Path("data/tools_helptext_knn.tsv"), fmt=args.table_format)'''
 
 
 if __name__ == "__main__":

@@ -15753,6 +15753,68 @@
   },
   {
     "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/deeparg_short_reads/deeparg_short_reads/1.0.4+galaxy1",
+    "name": "DeepARG short reads",
+    "version": "1.0.4+galaxy1",
+    "description": "pipeline to detect Antibiotic Resistance Genes (ARGs) from raw reads",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "deeparg",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "deeparg_short_reads",
+      "owner": "iuc",
+      "changeset_revision": "854b7c026a7e",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeeparg_short_reads%2Fdeeparg_short_reads%2F1.0.4%2Bgalaxy1",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "annotation",
+    "panel_section_name": "Annotation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
+    "id": "toolshed.g2.bx.psu.edu/repos/iuc/groot/groot/1.1.2+galaxy2",
+    "name": "Groot",
+    "version": "1.1.2+galaxy2",
+    "description": "align reads to references and weight variation graphs and generate report",
+    "labels": [],
+    "icon": null,
+    "edam_operations": [],
+    "edam_topics": [],
+    "hidden": "",
+    "is_workflow_compatible": true,
+    "xrefs": [
+      {
+        "value": "groot",
+        "type": "bio.tools"
+      }
+    ],
+    "tool_shed_repository": {
+      "name": "groot",
+      "owner": "iuc",
+      "changeset_revision": "4d5cf5a423d5",
+      "tool_shed": "toolshed.g2.bx.psu.edu"
+    },
+    "link": "/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fgroot%2Fgroot%2F1.1.2%2Bgalaxy2",
+    "min_width": -1,
+    "target": "galaxy_main",
+    "panel_section_id": "annotation",
+    "panel_section_name": "Annotation",
+    "form_style": "regular"
+  },
+  {
+    "model_class": "Tool",
     "id": "toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0",
     "name": "Filter with SortMeRNA",
     "version": "4.3.6+galaxy0",
