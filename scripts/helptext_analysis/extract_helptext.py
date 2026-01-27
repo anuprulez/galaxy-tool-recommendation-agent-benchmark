@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetch Galaxy tool panel from https://usegalaxy.eu/api/tools, extract all entries with
+Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entries with
 {"model_class": "Tool"}, write:
   1) JSON file of only tools
   2) Tabular file (TSV or CSV) with columns:
@@ -9,7 +9,7 @@ Fetch Galaxy tool panel from https://usegalaxy.eu/api/tools, extract all entries
 Works both:
   - online via requests (default), and
   - offline via an existing downloaded JSON (e.g. /mnt/data/tools.json)
-  - https://usegalaxy.eu/api/tools/toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0/raw_tool_source
+  - https://usegalaxy.org/api/tools/toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/1.0.11.0/raw_tool_source
 """
 
 from __future__ import annotations
@@ -33,7 +33,8 @@ from bs4 import BeautifulSoup
 import extract_embeddings
 
 
-DEFAULT_URL = "https://usegalaxy.eu/api/tools"
+DEFAULT_URL = "https://usegalaxy.org/api/tools"
+# Galaxy EU: "https://usegalaxy.eu/api/tools"
 n_tools = 3500
 K = 5
 similarity_threshold = 0.5
@@ -191,7 +192,7 @@ def _clean_text(text: str) -> str:
     return help_text.strip()
 
 
-def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "https://usegalaxy.eu", timeout: int = 30):
+def fetch_tool_help_texts(df, tool_id_col: str = "tool_id", base_url: str = "https://usegalaxy.org", timeout: int = 30):
     """
     For each Galaxy tool_id in `df[tool_id_col]`, fetch the raw tool XML via:
         {base_url}/api/tools/{tool_id}/raw_tool_source
@@ -300,11 +301,11 @@ def main() -> int:
     df_outcome = df_tools[["tool_id", "help_text", "topk_neighbor_tool_ids", "topk_cosine_sims"]]
 
     write_table(df_tools, Path(args.out_table), fmt=args.table_format)
-    write_table(df_outcome, Path("data/tools_helptext_knn.tsv"), fmt=args.table_format)
+    write_table(df_outcome, Path("data/similar_tools_helptext.tsv"), fmt=args.table_format)
 
     for i, item in enumerate(top_ids):
         print(f"Tool ID: {tool_ids[i]}")
-        print(f"Top-{K} nearest neighbor tool IDs: {item}")
+        print(f"Top-{K} similar tool IDs: {item}")
         print(f"Top-{K} cosine similarities: {top_sims[i]}")
         print("--------------------------------------------------")
 
