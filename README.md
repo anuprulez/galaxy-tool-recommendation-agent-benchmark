@@ -38,8 +38,8 @@ python3 -m scripts.eval.run_v1_agent_eval \
 ```
 
 It writes:
-- `tmp_stats/v1_predictions.jsonl` (predictions)
-- `tmp_stats/v1_metrics.json` (metrics)
+- `runs/eval/<provider>/<model>/predictions.jsonl` (predictions)
+- `runs/eval/<provider>/<model>/metrics.json` (metrics)
 
 Note: the LLM prompt contains only the user query plus tool-catalog candidates (no `tutorial_id`, `topic`, or dataset metadata).
 

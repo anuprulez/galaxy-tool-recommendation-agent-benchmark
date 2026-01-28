@@ -8,7 +8,7 @@ import re
 import sys
 import time
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from scripts.eval.evaluate_recommendations import (
     compute_metrics,
@@ -27,6 +27,13 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 LOGGER = logging.getLogger(__name__)
 
 
+def _slug(text: str) -> str:
+    text = (text or "").strip()
+    text = re.sub(r"[^a-zA-Z0-9._-]+", "_", text)
+    text = re.sub(r"_+", "_", text).strip("_")
+    return text or "unknown"
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
@@ -41,16 +48,84 @@ def parse_args() -> argparse.Namespace:
         help="Benchmark JSONL file with {'id','query','tools',...} (default: v1).",
     )
     parser.add_argument(
+        "--filter-topic",
+        action="append",
+        default=None,
+        help=(
+            "Only evaluate items whose metadata.topic matches one of these values "
+            "(repeatable)."
+        ),
+    )
+    parser.add_argument(
+        "--filter-tutorial-regex",
+        type=str,
+        default=None,
+        help="Only evaluate items whose tutorial_id matches this regex (case-insensitive).",
+    )
+    parser.add_argument(
+        "--filter-tool-regex",
+        type=str,
+        default=None,
+        help="Only evaluate items whose gold tools contain a tool_id matching this regex (case-insensitive).",
+    )
+    parser.add_argument(
+        "--filter-tool-section",
+        action="append",
+        default=None,
+        help=(
+            "Only evaluate items whose gold tools fall under one of these Galaxy tool panel sections "
+            "according to --tool-sections-file (repeatable)."
+        ),
+    )
+    parser.add_argument(
+        "--tool-sections-file",
+        type=Path,
+        default=Path("data/tool_catalog/usegalaxy_org_by_section.json"),
+        help="JSON file with a 'by_section' mapping used by --filter-tool-section.",
+    )
+    parser.add_argument(
+        "--filter-query-regex",
+        type=str,
+        default=None,
+        help="Only evaluate items whose query text matches this regex (case-insensitive).",
+    )
+    parser.add_argument(
+        "--filter-id-regex",
+        type=str,
+        default=None,
+        help="Only evaluate items whose id matches this regex (case-insensitive).",
+    )
+    parser.add_argument(
         "--output-predictions",
         type=Path,
-        default=Path("tmp_stats/v1_predictions.jsonl"),
+        default=None,
         help="Destination JSONL for {'id','predictions'} entries.",
     )
     parser.add_argument(
         "--output-metrics",
         type=Path,
-        default=Path("tmp_stats/v1_metrics.json"),
+        default=None,
         help="Destination JSON for aggregated metrics.",
+    )
+    parser.add_argument(
+        "--results-dir",
+        type=Path,
+        default=Path("runs/eval"),
+        help="Root folder for auto-named results (default: runs/eval).",
+    )
+    parser.add_argument(
+        "--run-name",
+        type=str,
+        default=None,
+        help=(
+            "Optional extra subfolder under provider/model, e.g. "
+            "'candidates50_temp0'. If omitted, writes directly under provider/model."
+        ),
+    )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Skip query IDs already present in the predictions file for this run.",
     )
     parser.add_argument(
         "--agent",
@@ -151,9 +226,109 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--skip-existing",
         action="store_true",
-        help="Skip IDs already present in the predictions output file.",
+        help=(
+            "Deprecated alias for --resume. Prefer --resume. "
+            "If either is set, existing IDs are skipped."
+        ),
     )
     return parser.parse_args()
+
+
+def _compile_optional_regex(pattern: Optional[str]) -> Optional[re.Pattern[str]]:
+    if not pattern:
+        return None
+    return re.compile(pattern, re.IGNORECASE)
+
+
+def filter_gold_items(args: argparse.Namespace, gold_items: List[dict]) -> List[dict]:
+    topics = set(t.strip() for t in (args.filter_topic or []) if isinstance(t, str) and t.strip())
+    tutorial_re = _compile_optional_regex(args.filter_tutorial_regex)
+    tool_re = _compile_optional_regex(args.filter_tool_regex)
+    query_re = _compile_optional_regex(args.filter_query_regex)
+    id_re = _compile_optional_regex(args.filter_id_regex)
+    sections = set(
+        s.strip()
+        for s in (args.filter_tool_section or [])
+        if isinstance(s, str) and s.strip()
+    )
+    section_tool_bases: Optional[set[str]] = None
+    if sections:
+        if not args.tool_sections_file.exists():
+            raise FileNotFoundError(
+                f"--filter-tool-section requires --tool-sections-file, but it does not exist: {args.tool_sections_file}"
+            )
+        payload = json.loads(args.tool_sections_file.read_text(encoding="utf-8"))
+        by_section = payload.get("by_section") if isinstance(payload, dict) else None
+        if not isinstance(by_section, dict):
+            raise ValueError(
+                f"Expected a JSON object with 'by_section' in {args.tool_sections_file}"
+            )
+        bases: set[str] = set()
+        for sec in sections:
+            tools = by_section.get(sec)
+            if not isinstance(tools, list):
+                continue
+            for t in tools:
+                if isinstance(t, str) and t:
+                    bases.add(normalize_tool_id(t))
+        section_tool_bases = bases
+
+    if not (topics or tutorial_re or tool_re or query_re or id_re or sections):
+        return gold_items
+
+    filtered: List[dict] = []
+    for item in gold_items:
+        qid = item.get("id")
+        if id_re and (not isinstance(qid, str) or not id_re.search(qid)):
+            continue
+
+        if topics:
+            topic = ((item.get("metadata") or {}).get("topic")) or ""
+            if topic not in topics:
+                continue
+
+        if tutorial_re:
+            tutorial_id = item.get("tutorial_id") or ""
+            if not isinstance(tutorial_id, str) or not tutorial_re.search(tutorial_id):
+                continue
+
+        if query_re:
+            query = item.get("query") or ""
+            if not isinstance(query, str) or not query_re.search(query):
+                continue
+
+        if tool_re:
+            tools = item.get("tools") or []
+            if not isinstance(tools, list) or not any(isinstance(t, str) and tool_re.search(t) for t in tools):
+                continue
+        if section_tool_bases is not None:
+            tools = item.get("tools") or []
+            if not isinstance(tools, list):
+                continue
+            tool_bases = [normalize_tool_id(t) for t in tools if isinstance(t, str)]
+            if not any(tb in section_tool_bases for tb in tool_bases):
+                continue
+
+        filtered.append(item)
+    return filtered
+
+
+def resolve_output_paths(args: argparse.Namespace) -> Tuple[Path, Path]:
+    """
+    If the user provided explicit paths, use them.
+    Otherwise, use: <results-dir>/<provider>/<model>/<run-name?>/{predictions.jsonl,metrics.json}
+    """
+    if args.output_predictions is not None and args.output_metrics is not None:
+        return args.output_predictions, args.output_metrics
+
+    provider = _slug(getattr(args, "provider", "unknown"))
+    model = _slug(getattr(args, "model", "unknown"))
+    base = args.results_dir / provider / model
+    if args.run_name:
+        base = base / _slug(args.run_name)
+    predictions = args.output_predictions or (base / "predictions.jsonl")
+    metrics = args.output_metrics or (base / "metrics.json")
+    return predictions, metrics
 
 
 def _normalize_list(values: Iterable[str], do_normalize: bool) -> List[str]:
@@ -379,7 +554,8 @@ def build_llm_messages(query: str, candidates: List[dict], top_k: int) -> List[d
 
 
 def generate_predictions(args: argparse.Namespace) -> None:
-    gold_items = load_jsonl(args.gold)
+    output_predictions, _output_metrics = resolve_output_paths(args)
+    gold_items = filter_gold_items(args, load_jsonl(args.gold))
     if not gold_items:
         raise ValueError(f"No items found in {args.gold}")
 
@@ -389,7 +565,8 @@ def generate_predictions(args: argparse.Namespace) -> None:
     if args.agent != "oracle":
         tools = load_tool_catalog(args.tool_catalog)
         postings, idf = build_inverted_index(tools)
-    existing_ids = _load_existing_ids(args.output_predictions) if args.skip_existing else set()
+    do_resume = bool(args.resume or args.skip_existing)
+    existing_ids = _load_existing_ids(output_predictions) if do_resume else set()
 
     api_key: Optional[str] = None
     if args.agent == "llm":
@@ -400,7 +577,7 @@ def generate_predictions(args: argparse.Namespace) -> None:
         qid = entry.get("id")
         if not isinstance(qid, str) or not qid:
             continue
-        if args.skip_existing and qid in existing_ids:
+        if do_resume and qid in existing_ids:
             continue
         if args.max_queries and processed >= args.max_queries:
             break
@@ -460,7 +637,7 @@ def generate_predictions(args: argparse.Namespace) -> None:
             predictions = extract_predictions(content, args.top_k)
 
         predictions = unique_in_order(predictions)[: args.top_k]
-        _write_prediction(args.output_predictions, qid, predictions)
+        _write_prediction(output_predictions, qid, predictions)
         existing_ids.add(qid)
         processed += 1
         LOGGER.info("Wrote predictions for %s (%d)", qid, processed)
@@ -468,10 +645,11 @@ def generate_predictions(args: argparse.Namespace) -> None:
 
 
 def evaluate(args: argparse.Namespace) -> Dict[str, Any]:
+    output_predictions, _output_metrics = resolve_output_paths(args)
     ks = [int(k.strip()) for k in args.k.split(",") if k.strip()]
 
-    gold_items_raw = load_jsonl(args.gold)
-    pred_items_raw = load_jsonl(args.output_predictions)
+    gold_items_raw = filter_gold_items(args, load_jsonl(args.gold))
+    pred_items_raw = load_jsonl(output_predictions)
 
     gold_items: Dict[str, List[str]] = {}
     for item in gold_items_raw:
@@ -494,11 +672,14 @@ def evaluate(args: argparse.Namespace) -> Dict[str, Any]:
 
 def main() -> None:
     args = parse_args()
+    output_predictions, output_metrics = resolve_output_paths(args)
+    args.output_predictions = output_predictions
+    args.output_metrics = output_metrics
     generate_predictions(args)
     results = evaluate(args)
 
-    args.output_metrics.parent.mkdir(parents=True, exist_ok=True)
-    args.output_metrics.write_text(
+    output_metrics.parent.mkdir(parents=True, exist_ok=True)
+    output_metrics.write_text(
         json.dumps(results, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(json.dumps(results, ensure_ascii=False, indent=2))

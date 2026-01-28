@@ -69,6 +69,7 @@ python3 -m scripts.eval.run_v1_agent_eval \
   --tool-catalog data/tool_catalog/usegalaxy_org_tools.jsonl \
   --candidate-k 50 \
   --top-k 10 \
+  --resume \
   --k 1,3,5,10 \
   --normalize-tools
 ```
@@ -78,6 +79,18 @@ The LLM sees only:
 - A ranked shortlist of candidate tools from `--tool-catalog` (tool_id/name/description).
 
 It does not receive `tutorial_id`, `topic`, or dataset metadata from the benchmark items.
+
+Outputs are written under `runs/eval/<provider>/<model>/` by default, and `--resume` skips query IDs already present in that run’s `predictions.jsonl`.
+
+### Running a subset (e.g., Machine Learning)
+
+You can filter which benchmark items are evaluated using metadata and regex filters. For example, to focus on scikit-learn based ML tools:
+
+`python3 -m scripts.eval.run_v1_agent_eval --filter-tool-regex 'sklearn_' --max-queries 100 --resume --run-name ml_sklearn_100`
+
+If you prefer a stricter definition based on the Galaxy tool panel section, you can use:
+
+`python3 -m scripts.eval.run_v1_agent_eval --filter-tool-section 'Machine Learning' --max-queries 100 --resume --run-name ml_section_100`
 
 ### Other LLM providers
 

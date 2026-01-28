@@ -3,9 +3,12 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import ssl
+import subprocess
 import urllib.parse
 import urllib.request
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
 
@@ -50,6 +53,12 @@ def parse_args() -> argparse.Namespace:
         help="Output index JSON path: base_id -> [tool_id,...].",
     )
     parser.add_argument(
+        "--out-by-section",
+        type=Path,
+        default=None,
+        help="Output JSON path with 'by_section' mapping: section_name -> [tool_id,...].",
+    )
+    parser.add_argument(
         "--include-io-details",
         action="store_true",
         help=(
@@ -83,9 +92,30 @@ def _http_get_json(url: str, timeout: int) -> Any:
         },
         method="GET",
     )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        data = resp.read().decode("utf-8")
-    return json.loads(data)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = resp.read().decode("utf-8")
+        return json.loads(data)
+    except (ssl.SSLError, urllib.error.URLError):
+        # Some older Python/OpenSSL builds can fail TLS negotiation with modern servers.
+        # Fall back to curl (commonly available) to keep the script usable.
+        return _curl_get_json(url, timeout=timeout)
+
+
+def _curl_get_json(url: str, timeout: int) -> Any:
+    cmd = [
+        "curl",
+        "-fsSL",
+        "--max-time",
+        str(timeout),
+        "-H",
+        "Accept: application/json",
+        "-A",
+        "galaxy-tool-recommendation-agent-benchmark/0.1",
+        url,
+    ]
+    out = subprocess.check_output(cmd)
+    return json.loads(out.decode("utf-8"))
 
 
 def fetch_tools(server: str, in_panel: bool, timeout: int) -> List[dict]:
@@ -112,6 +142,34 @@ def fetch_tools(server: str, in_panel: bool, timeout: int) -> List[dict]:
             }
         )
     return tools
+
+
+def fetch_by_section(server: str, timeout: int) -> dict:
+    server = server.rstrip("/")
+    url = f"{server}/api/tool_panels/default"
+    payload = _http_get_json(url, timeout=timeout)
+    if not isinstance(payload, dict):
+        raise ValueError(f"Unexpected /api/tool_panels/default response type: {type(payload)}")
+
+    by_section: Dict[str, List[str]] = {}
+    for _section_id, section in payload.items():
+        if not isinstance(section, dict):
+            continue
+        name = section.get("name")
+        tools = section.get("tools")
+        if not isinstance(name, str) or not name:
+            continue
+        if not isinstance(tools, list):
+            continue
+        tool_ids: List[str] = [t for t in tools if isinstance(t, str) and t]
+        if tool_ids:
+            by_section[name] = tool_ids
+
+    return {
+        "server": server,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "by_section": by_section,
+    }
 
 
 def _flatten_inputs(inputs: Any) -> List[dict]:
@@ -177,6 +235,7 @@ def main() -> None:
     in_panel = True if args.in_panel or not args.no_in_panel else False
     out_jsonl = args.out_jsonl
     out_index = args.out_index
+    out_by_section = args.out_by_section
     if out_jsonl is None:
         out_jsonl = (
             Path("data/tool_catalog/usegalaxy_org_tools.jsonl")
@@ -188,6 +247,12 @@ def main() -> None:
             Path("data/tool_catalog/usegalaxy_org_index.json")
             if in_panel
             else Path("data/tool_catalog/usegalaxy_org_all_index.json")
+        )
+    if out_by_section is None:
+        out_by_section = (
+            Path("data/tool_catalog/usegalaxy_org_by_section.json")
+            if in_panel
+            else Path("data/tool_catalog/usegalaxy_org_all_by_section.json")
         )
     tools = fetch_tools(args.server, in_panel=in_panel, timeout=args.timeout)
     if args.include_io_details:
@@ -209,6 +274,15 @@ def main() -> None:
     out_index.write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+    try:
+        by_section_payload = fetch_by_section(args.server, timeout=args.timeout)
+        out_by_section.parent.mkdir(parents=True, exist_ok=True)
+        out_by_section.write_text(
+            json.dumps(by_section_payload, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        LOGGER.warning("Failed to build by-section mapping: %s", exc)
 
 
 if __name__ == "__main__":

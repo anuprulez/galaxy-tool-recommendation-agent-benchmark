@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import ssl
+import subprocess
 import time
 import urllib.error
 import urllib.parse
@@ -23,9 +25,27 @@ def _http_post_json(
 ) -> Dict[str, Any]:
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        body = resp.read().decode("utf-8")
-    return json.loads(body)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = resp.read().decode("utf-8")
+        return json.loads(body)
+    except (ssl.SSLError, urllib.error.URLError):
+        return _curl_post_json(url, payload, headers, timeout=timeout)
+
+
+def _curl_post_json(
+    url: str,
+    payload: Dict[str, Any],
+    headers: Dict[str, str],
+    timeout: int,
+) -> Dict[str, Any]:
+    data = json.dumps(payload).encode("utf-8")
+    cmd = ["curl", "-fsSL", "--max-time", str(timeout), "-X", "POST"]
+    for k, v in headers.items():
+        cmd.extend(["-H", f"{k}: {v}"])
+    cmd.extend(["--data-binary", "@-", url])
+    out = subprocess.check_output(cmd, input=data)
+    return json.loads(out.decode("utf-8"))
 
 
 def _post_with_retries(
@@ -203,4 +223,3 @@ def call_ollama(
     if not isinstance(content, str):
         raise RuntimeError("Missing message.content in Ollama response")
     return LLMResponse(content=content, raw=raw)
-
