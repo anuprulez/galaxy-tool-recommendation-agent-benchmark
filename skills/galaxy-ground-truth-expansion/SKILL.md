@@ -31,13 +31,13 @@ An alternative tool is acceptable if, given the query as written:
 
 ## Step 0 — Make sure you have the tool universe
 
-Build or refresh the catalog from usegalaxy.org (recommended: panel tools, with io_details):
+Build or refresh the catalog from usegalaxy.org (recommended: panel tools):
 
-`python3 scripts/build_usegalaxy_tool_catalog.py --server https://usegalaxy.org --in-panel --include-io-details`
+`python3 -m scripts.catalog.build_usegalaxy_tool_catalog --server https://usegalaxy.org --in-panel --include-io-details`
 
 If you need the full installed universe:
 
-`python3 scripts/build_usegalaxy_tool_catalog.py --server https://usegalaxy.org --no-in-panel`
+`python3 -m scripts.catalog.build_usegalaxy_tool_catalog --server https://usegalaxy.org --no-in-panel --include-io-details`
 
 Use these as references:
 
@@ -75,7 +75,7 @@ Do **not** add “bulk source” tags or apply the same change across many items
 
 ## Step 4 — Re-export the readable view
 
-`python3 scripts/export_readable.py --input data/benchmark/v1_items.jsonl --output data/benchmark/v1_items_readable.md`
+`python3 -m scripts.benchmark.export_readable --input data/benchmark/v1_items.jsonl --output data/benchmark/v1_items_readable.md`
 
 ## Step 5 — Spot-check
 

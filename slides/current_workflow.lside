@@ -2,20 +2,18 @@ title: Query & Agent Workflow
 slides:
   - title: "How we build the query set"
     content: |
-      - The Codex agent (Jetstream/OpenAI LLM) generates science-first and tool-first variants per tutorial using a fixed template.
-      - Each response lands in `tmp_stats/codex_quiers_batch*.jsonl` and later merges into `tmp_stats/codex_quiers_all.{jsonl,md}` (5,152 queries total).
-      - Example for `topics/climate/tutorials/ocean-variables`: science-first `q011` and tool-first `q013` both expect `divand_full_analysis`.
+      - Queries are written/curated manually (human-in-the-loop) and consolidated into `data/benchmark/v1_items.jsonl`.
+      - We export a readable view to `data/benchmark/v1_items_readable.md` for review.
   - title: "Coverage constraints"
     content: |
       - We curate 449 tutorials (`data/tutorial_list.yaml`), but only convert those with real Galaxy tools (skip intros/interactive/meta-only tutorials).
       - 186 tutorials already have Codex queries; ~263 still await tool metadata before query generation.
   - title: "Prediction agent"
     content: |
-      - `scripts/generate_llm_predictions.py` loads `.env` via `python-dotenv`, reads the merged query list, and prompts an LLM with:
-        • contextual hints (topic + dataset preview when available) and the candidate tool set pulled from the gold benchmark (`data/benchmark/v1_items.jsonl`).
-        • explicit instructions to output JSON `{"predictions": [...]}`.
-      - Defaults: `gpt-4o-mini` via `https://api.openai.com/v1/chat/completions`; outputs land in `tmp_stats/codex_predictions_sample.jsonl`.
-      - Configs: `--top-k`, `--model`, `--delay`, `--max-queries`, `--skip-existing`, `--api-url`, `--output`.
+      - `python3 -m scripts.eval.run_v1_agent_eval --agent llm` prompts an LLM with:
+        • the user query text
+        • a shortlist of candidate tools retrieved from the local usegalaxy tool catalog (`data/tool_catalog/*`).
+      - Configs: `--provider`, `--api-url`, `--model`, `--candidate-k`, `--top-k`.
   - title: "Agent flow diagram"
     content: |
       ```
@@ -35,7 +33,7 @@ slides:
   - title: "Evaluation approach"
     content: |
       - Gold refers to `data/benchmark/v1_items.jsonl`, our authoritative benchmark listing the true tools per tutorial; both the prompt’s candidate set and the evaluator rely on it.
-      - Run `scripts/evaluate_recommendations.py` + `--normalize-tools` with cutoffs `k=1,3,5,10`.
+      - Run `python3 -m scripts.eval.evaluate_recommendations` + `--normalize-tools` with cutoffs `k=1,3,5,10`.
       - Latest 100-query snapshot (see `eval_results.md`): Hit@1=0.84, Hit@3/5=0.95, Hit@10=0.96.
   - title: "Next steps"
     content: |

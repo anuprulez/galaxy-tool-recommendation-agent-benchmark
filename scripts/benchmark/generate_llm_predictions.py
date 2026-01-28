@@ -11,9 +11,6 @@ import time
 from pathlib import Path
 from typing import Any, Iterable, List, Optional
 
-from dotenv import load_dotenv
-import requests
-
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 LOGGER = logging.getLogger(__name__)
 
@@ -192,6 +189,13 @@ def call_llm(
     temperature: float,
     max_retries: int = 3,
 ) -> str:
+    try:
+        import requests  # type: ignore
+    except ModuleNotFoundError as exc:
+        raise ModuleNotFoundError(
+            "Missing dependency 'requests'. Install project dependencies to use --agent llm."
+        ) from exc
+
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -219,7 +223,12 @@ def call_llm(
 
 def main() -> None:
     args = parse_args()
-    load_dotenv(dotenv_path=Path(".env"))
+    try:
+        from dotenv import load_dotenv  # type: ignore
+    except ModuleNotFoundError:
+        load_dotenv = None
+    if load_dotenv is not None:
+        load_dotenv(dotenv_path=Path(".env"))
     api_key = args.api_key or os.environ.get("OPENAI_API_KEY")
     if not api_key:
         LOGGER.error(
