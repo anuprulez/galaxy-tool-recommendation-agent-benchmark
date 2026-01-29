@@ -164,7 +164,6 @@ def write_table(df: pd.DataFrame, out_path: Path, fmt: str = "tsv") -> None:
         df.to_csv(out_path, index=False)
     else:
         df.to_csv(out_path, sep="\t", index=False)
-    return df
 
 
 def clean_text(text: str) -> str:
@@ -186,13 +185,10 @@ def request_galaxy_tool_help(
         r"<help\b[^>]*>\s*(?P<body>.*?)\s*</help>",
         flags=re.DOTALL | re.IGNORECASE,
     )
-    headers = {
-        "Accept": "application/xml,text/xml,text/plain,*/*",
-        "User-Agent": "help-extractor/1.0",
-    }
-    r = requests.get(raw_tool_source_url, headers=headers, timeout=timeout)
+
+    r = requests.get(raw_tool_source_url, timeout=timeout)
     r.raise_for_status()
-    xml_text = r.text  # requests will decode using response encoding
+    xml_text = r.text
 
     m = HELP_BLOCK_RE.search(xml_text)
     if not m:
@@ -287,6 +283,9 @@ def main() -> int:
         "--out-table", default="data/tools_metadata.tsv", help="Output table (TSV/CSV)"
     )
     ap.add_argument(
+        "--out-table-helptext", default="data/tools_helptext.tsv", help="Output table (TSV/CSV)"
+    )
+    ap.add_argument(
         "--table-format", choices=["tsv", "csv"], default="tsv", help="Table format"
     )
     ap.add_argument("--timeout", type=int, default=120, help="HTTP timeout seconds")
@@ -296,25 +295,19 @@ def main() -> int:
         payload = load_json_file(Path(args.input_json))
     else:
         payload = fetch_json(args.url, timeout=args.timeout)
-    df, tools_only = tools_to_dataframe(payload)
+    print("Extracted tool metadata for", len(df_tools), "tools")
+    df_tools, tools_only = tools_to_dataframe(payload)
+    
+    df_tools["help_text"] = fetch_tool_help_texts(df_tools)
+    print("Extracted tool helptext for", len(df_tools), "tools")
+    df_outcome = df_tools[["tool_id", "help_text"]]
 
     write_tools_json(tools_only, Path(args.out_json))
-
-    df_tools = write_table(df, Path(args.out_table), fmt=args.table_format)
-    df_tools["help_text"] = fetch_tool_help_texts(df_tools)
-
     print(f"Wrote {len(tools_only)} Tool objects -> {args.out_json}")
+    write_table(df_tools, Path(args.out_table), fmt=args.table_format)
     print(f"Wrote {len(df_tools)} rows -> {args.out_table} ({args.table_format})")
-
-    df_tools = compute_text_similarity(df_tools)
-    df_outcome = df_tools[
-        ["tool_id", "help_text", "topk_neighbor_tool_ids", "topk_cosine_sims"]
-    ]
-
-    write_table(df_tools, Path("data/complete_tools_info.tsv"), fmt=args.table_format)
-    write_table(
-        df_outcome, Path("data/similar_tools_helptext.tsv"), fmt=args.table_format
-    )
+    write_table(df_outcome, Path(args.out_table_helptext), fmt=args.table_format)
+    print(f"Wrote {len(df_outcome)} rows -> {args.out_table_helptext} ({args.table_format})")
 
 
 if __name__ == "__main__":
