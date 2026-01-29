@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entries with
-Fetch Galaxy tool panel from https://usegalaxy.org/api/tools, extract all entries with
 {"model_class": "Tool"}, write:
   1) JSON file of only tools
   2) Tabular file (TSV or CSV) with columns:
@@ -25,12 +24,8 @@ import requests
 from markdown import markdown
 from bs4 import BeautifulSoup
 
-import extract_embeddings
-
 DEFAULT_URL = "https://usegalaxy.org/api/tools"
 n_tools = 3500
-K = 5
-similarity_threshold = 0.5
 
 
 def fetch_json(url: str, timeout: int = 120) -> Any:
@@ -225,49 +220,6 @@ def fetch_tool_help_texts(
     return out
 
 
-def compute_text_similarity(df_tools) -> float:
-
-    tool_ids = df_tools["tool_id"].astype(str).to_list()
-    # extract embeddings for help texts
-    embeddings = extract_embeddings.get_sentence_embeddings(
-        df_tools["help_text"].fillna("").tolist()
-    )
-
-    df_tools["embeddings"] = embeddings
-
-    print("Computing similarity...")
-    # Parse embeddings: string -> list -> numpy array
-    X = df_tools["embeddings"].to_list()
-
-    # Normalize rows (cosine sim = dot of normalized vectors)
-    X /= np.linalg.norm(X, axis=1, keepdims=True) + 1e-12
-
-    # All-vs-all cosine similarity (N, N)
-    S = X @ X.T
-
-    # Top-K neighbors per row (exclude self)
-    top_ids = []
-    top_sims = []
-
-    n = S.shape[0]
-    k = min(K, n - 1)
-
-    for i in range(n):
-        sims = S[i].copy()
-        sims[i] = -np.inf  # exclude self
-
-        # fast top-k selection (unsorted), then sort those k
-        idx = np.argpartition(sims, -k)[-k:]
-        idx = idx[np.argsort(sims[idx])[::-1]]
-
-        top_ids.append([tool_ids[j] for j in idx])
-        top_sims.append([float(sims[j]) for j in idx])
-
-    df_tools["topk_neighbor_tool_ids"] = [json.dumps(x) for x in top_ids]
-    df_tools["topk_cosine_sims"] = [json.dumps(x) for x in top_sims]
-    return df_tools
-
-
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--url", default=DEFAULT_URL, help="Galaxy /api/tools URL")
@@ -283,7 +235,9 @@ def main() -> int:
         "--out-table", default="data/tools_metadata.tsv", help="Output table (TSV/CSV)"
     )
     ap.add_argument(
-        "--out-table-helptext", default="data/tools_helptext.tsv", help="Output table (TSV/CSV)"
+        "--out-table-helptext",
+        default="data/tools_helptext.tsv",
+        help="Output table (TSV/CSV)",
     )
     ap.add_argument(
         "--table-format", choices=["tsv", "csv"], default="tsv", help="Table format"
@@ -297,7 +251,7 @@ def main() -> int:
         payload = fetch_json(args.url, timeout=args.timeout)
     print("Extracted tool metadata for", len(df_tools), "tools")
     df_tools, tools_only = tools_to_dataframe(payload)
-    
+
     df_tools["help_text"] = fetch_tool_help_texts(df_tools)
     print("Extracted tool helptext for", len(df_tools), "tools")
     df_outcome = df_tools[["tool_id", "help_text"]]
@@ -307,7 +261,9 @@ def main() -> int:
     write_table(df_tools, Path(args.out_table), fmt=args.table_format)
     print(f"Wrote {len(df_tools)} rows -> {args.out_table} ({args.table_format})")
     write_table(df_outcome, Path(args.out_table_helptext), fmt=args.table_format)
-    print(f"Wrote {len(df_outcome)} rows -> {args.out_table_helptext} ({args.table_format})")
+    print(
+        f"Wrote {len(df_outcome)} rows -> {args.out_table_helptext} ({args.table_format})"
+    )
 
 
 if __name__ == "__main__":
