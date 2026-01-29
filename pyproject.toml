@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gtn-benchmark"
 version = "0.1.0"
-description = "GTN tutorial loader and Jetstream-powered benchmark generator"
+description = "GTN tutorial loader and Galaxy tool-recommendation benchmark utilities"
 authors = [{name = "Galaxy Benchmark"}]
 readme = "README.md"
 requires-python = ">=3.11"
@@ -16,9 +16,6 @@ dependencies = [
     "tqdm>=4.66",
     "beautifulsoup4>=4.12"
 ]
-
-[project.scripts]
-generate-gtn-benchmark = "scripts.generate_benchmark:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

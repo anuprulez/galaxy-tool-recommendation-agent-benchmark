@@ -15,7 +15,7 @@ gtn_benchmark.egg-info/
 data/raw_llm/
 data/datasets/
 output/
-
+runs/
 
 # External checkouts
 training-material/
@@ -33,4 +33,3 @@ data/datasets_preview/
 
 data/benchmark/query_overrides.json
 data/benchmark/v0_summary.yaml
-

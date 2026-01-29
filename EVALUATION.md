@@ -47,11 +47,67 @@ This drops the final path segment (version) from `toolshed.g2.bx.psu.edu/...` ID
 ## Run
 
 ```bash
-python3 scripts/evaluate_recommendations.py \
+python3 -m scripts.eval.evaluate_recommendations \
   --gold data/benchmark/v1_items.jsonl \
   --predictions path/to/predictions.jsonl \
   --k 1,3,5,10 \
   --normalize-tools
+```
+
+## One-command runner (generate + evaluate)
+
+If you want a single command that generates predictions and evaluates them:
+
+```bash
+# Build / refresh the candidate tool catalog first
+python3 -m scripts.catalog.build_usegalaxy_tool_catalog --server https://usegalaxy.org --in-panel --include-io-details
+
+OPENAI_API_KEY=... \
+python3 -m scripts.eval.run_v1_agent_eval \
+  --agent llm \
+  --provider openai_compatible \
+  --tool-catalog data/tool_catalog/usegalaxy_org_tools.jsonl \
+  --candidate-k 50 \
+  --top-k 10 \
+  --resume \
+  --k 1,3,5,10 \
+  --normalize-tools
+```
+
+The LLM sees only:
+- The user `query` text.
+- A ranked shortlist of candidate tools from `--tool-catalog` (tool_id/name/description).
+
+It does not receive `tutorial_id`, `topic`, or dataset metadata from the benchmark items.
+
+Outputs are written under `runs/eval/<provider>/<model>/` by default, and `--resume` skips query IDs already present in that run’s `predictions.jsonl`.
+
+### Running a subset (e.g., Machine Learning)
+
+You can filter which benchmark items are evaluated using metadata and regex filters. For example, to focus on scikit-learn based ML tools:
+
+`python3 -m scripts.eval.run_v1_agent_eval --filter-tool-regex 'sklearn_' --max-queries 100 --resume --run-name ml_sklearn_100`
+
+If you prefer a stricter definition based on the Galaxy tool panel section, you can use:
+
+`python3 -m scripts.eval.run_v1_agent_eval --filter-tool-section 'Machine Learning' --max-queries 100 --resume --run-name ml_section_100`
+
+### Other LLM providers
+
+If your provider supports the OpenAI-compatible `POST /v1/chat/completions` API, use:
+
+`--provider openai_compatible --api-url <your_endpoint>`
+
+Native protocols also supported by this runner:
+
+- Anthropic: `--provider anthropic --api-url https://api.anthropic.com/v1/messages` (uses `ANTHROPIC_API_KEY`)
+- Gemini: `--provider gemini --api-url https://generativelanguage.googleapis.com/v1beta` (uses `GEMINI_API_KEY` or `GOOGLE_API_KEY`)
+- Ollama: `--provider ollama --api-url http://localhost:11434/api/chat` (no key)
+
+For a no-API sanity check, you can run the oracle:
+
+```bash
+python3 -m scripts.eval.run_v1_agent_eval --agent oracle --max-queries 50
 ```
 
 Output is JSON printed to stdout, e.g.:
@@ -72,12 +128,12 @@ Output is JSON printed to stdout, e.g.:
 
 ## Generating predictions with an LLM-based agent
 
-Use `scripts/generate_llm_predictions.py` to ask an LLM (OpenAI-compatible endpoint by default) for ranked tool suggestions. The script
+Use `python3 -m scripts.benchmark.generate_llm_predictions` to ask an LLM (OpenAI-compatible endpoint by default) for ranked tool suggestions. The script
 reads queries (default `tmp_stats/codex_quiers_all.jsonl`), enriches them with tutorial metadata, and writes a JSONL file with `{"id", "predictions"}` entries.
 
 ```bash
 OPENAI_API_KEY=... \
-python3 scripts/generate_llm_predictions.py \
+python3 -m scripts.benchmark.generate_llm_predictions \
   --output tmp_stats/codex_predictions.jsonl \
   --top-k 10 \
   --model gpt-4o-mini \
@@ -87,4 +143,4 @@ python3 scripts/generate_llm_predictions.py \
 
 - `--skip-existing` resumes work by skipping IDs already in the output file.
 - Use `--api-key` or `OPENAI_API_KEY` to supply credentials, and point `--api-url` at another REST endpoint if you prefer a different provider.
-- After predictions are complete, point `--predictions` in `scripts/evaluate_recommendations.py` at the generated JSONL to score your agent.
+- After predictions are complete, point `--predictions` in `python3 -m scripts.eval.evaluate_recommendations` at the generated JSONL to score your agent.
