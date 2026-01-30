@@ -12,12 +12,10 @@ from __future__ import annotations
 
 import argparse
 import json
-from math import dist
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pandas as pd
-import numpy as np
 import re
 import requests
 
@@ -187,9 +185,8 @@ def request_galaxy_tool_help(
 
     m = HELP_BLOCK_RE.search(xml_text)
     if not m:
-        print(
-            f"{m} is also None. No <help> text found after text search for tool id: {tid}"
-        )
+        print(f"No <help> text found for tool id: {tid}")
+        return ""
     return m.group("body").strip()
 
 
@@ -249,8 +246,8 @@ def main() -> int:
         payload = load_json_file(Path(args.input_json))
     else:
         payload = fetch_json(args.url, timeout=args.timeout)
-    print("Extracted tool metadata for", len(df_tools), "tools")
     df_tools, tools_only = tools_to_dataframe(payload)
+    print("Extracted tool metadata for", len(df_tools), "tools")
 
     df_tools["help_text"] = fetch_tool_help_texts(df_tools)
     print("Extracted tool helptext for", len(df_tools), "tools")
