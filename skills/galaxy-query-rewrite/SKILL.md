@@ -1,0 +1,91 @@
+# Galaxy Query Rewrite + Review (Repo Skill)
+
+Use this skill when you want an agent to **review all benchmark queries** and **rewrite** any that are:
+- tool-leaking (e.g., “perform `tool_x`”)
+- templated / repetitive (especially repeated under the **same ground-truth tool**)
+- dataset-leaking (filenames/accessions/URLs)
+- inconsistent with the gold tool’s real purpose
+
+This skill assumes the benchmark source of truth is:
+
+- `data/benchmark/v1_items.jsonl`
+
+## What to produce
+
+1. A clean, updated `data/benchmark/v1_items.jsonl` (in-place).
+2. A refreshed `data/benchmark/v1_items_readable.md` for human review.
+
+## Hard rules (rewrite must satisfy)
+
+1. **English only** for the query string.
+2. Must ask for a **Galaxy tool recommendation**.
+3. Must **not** mention tutorial/GTN.
+4. Must **not** include dataset identifiers (SRR/ENA IDs, file extensions, URLs, etc.).
+5. Must **not** mention tool IDs, tool names, or backticked “function/tool” strings.
+6. Must be **close to real user queries**:
+   - Include a short, plausible context (data type + goal + expected output).
+   - Avoid “benchmarky” language (e.g., “perform X”, “for this task”) with no detail.
+   - Avoid sounding like the tool help page; write as a user describing what they need.
+7. For the **same tool (base id)**, queries must not be repeated or near-duplicates.
+
+## Review workflow (agent checklist)
+
+1. Run the checker:
+   - `ruby -EUTF-8 skills/galaxy-query-generation/scripts/check_v1_items.rb data/benchmark/v1_items.jsonl`
+2. Scan for anti-patterns in v1:
+   - Tool leakage: backticks, “perform `...`”, “run `...`”.
+   - Copy/paste templates (identical/similar sentences).
+   - Dataset leakage (file extensions, accessions, URLs).
+3. Enforce **within-tool diversity**:
+   - Group items by `tools[0]` base id (strip toolshed version).
+   - If any group contains duplicated or near-duplicated query text, rewrite them to be clearly different.
+4. Rewrite strategy:
+   - Keep the **user intent** the same, but change perspective/constraints.
+   - Add a small realistic constraint when helpful (runtime, reproducibility, “probabilities not labels”, “avoid data leakage”, “save metrics”, etc.).
+   - Avoid parameter/config questions.
+5. Regenerate readable markdown:
+   - `python3 -m scripts.benchmark.export_readable --input data/benchmark/v1_items.jsonl --output data/benchmark/v1_items_readable.md`
+
+## 10 example rewrites (patterns to imitate)
+
+These are examples of **good** queries (no tool leakage, specific intent, and not templated).
+
+1)
+- Query: I'm working with a labeled image dataset (handwritten digits) for multi-class classification. My labels are a single column of class IDs, but the model expects one-hot targets. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0`
+
+2)
+- Query: I'm working with a labeled image dataset (handwritten digits) for multi-class classification. I want to specify the neural network architecture (layers/activations/input shape) in a config file. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0`
+
+3)
+- Query: I'm working with a labeled image dataset (handwritten digits) for multi-class classification. I already have a saved architecture/config and want to instantiate the actual model object. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/1.0.11.0`
+
+4)
+- Query: I'm working with a labeled image dataset (handwritten digits) for multi-class classification. I want to train a neural network and evaluate it (e.g., accuracy/loss on validation data). Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.11.0`
+
+5)
+- Query: I'm working with a labeled image dataset (handwritten digits) for multi-class classification. I’ve trained a model and now want predictions for a new dataset (labels or probabilities). Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.11.0`
+
+6)
+- Query: I'm working with a high-dimensional biomarker feature table (e.g., RNA-seq or DNA methylation) to predict chronological age (regression). I want to do cross-validated hyperparameter tuning (grid/random search) and pick the best settings. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0`
+
+7)
+- Query: I'm working with a high-dimensional biomarker feature table (e.g., RNA-seq or DNA methylation) to predict chronological age (regression). I want to train a tree-based ensemble (random forest / boosting) and evaluate it. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble/1.0.11.0`
+
+8)
+- Query: I have a chemical dataset where you want to classify samples from molecular descriptors (QSAR-style). I need to compare hyperparameter combinations with CV and select the best-performing model. Also, I care about picking a scoring metric that matches my goal. What Galaxy tool should I run for this step?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv/1.0.11.0`
+
+9)
+- Query: I'm working with a numeric feature matrix where you want to discover groups (unsupervised clustering). I want to cluster samples based on numeric features and get cluster assignments. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering/1.0.11.0`
+
+10)
+- Query: I'm working with a multi-omics dataset to predict breast cancer subtypes and interpret learned features. I want to try multiple models automatically on tabular data and see which performs best. Which tool in Galaxy can do this?
+- Tool: `toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/0.1.4`

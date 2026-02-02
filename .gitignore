@@ -33,3 +33,8 @@ data/datasets_preview/
 
 data/benchmark/query_overrides.json
 data/benchmark/v0_summary.yaml
+
+# Large tool snapshots (generated; do not commit)
+data/tool_catalog/usegalaxy_org_all_tools.jsonl
+data/tool_catalog/usegalaxy_org_all_by_section.json
+data/tool_catalog/*_with_helptext.jsonl
