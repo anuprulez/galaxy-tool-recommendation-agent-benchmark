@@ -122,37 +122,113 @@ Open the relevant section in `data/benchmark/v1_items_readable.md` and verify:
 - Do not commit secrets (API keys). usegalaxy.org `/api/tools` does **not** require an API key.
 - If you previously applied any automated expansions, remove them before proceeding with manual expansion.
 
-## Worked example — SVM → Tabular Learner (when justified)
+
+## Worked example — SVM classifier → Tabular Learner
 
 **Scenario:** the gold tool is the dedicated SVM classifier tool:
 
 - `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier/<version>`
 
-You may add the AutoML-style tool:
+**Candidate alternative:** the AutoML-style tool:
 
 - `toolshed.g2.bx.psu.edu/repos/goeckslab/tabular_learner/tabular_learner/<version>`
 
-**Only if all of the following are true:**
+### Discovery process
 
-- The query intent is “train an SVM classifier on tabular data” (not “compare many algorithms”).
-- `tabular_learner` supports **classification** for the dataset type, and its inputs match the intent (tabular dataset + target column).
-- In `tabular_learner` parameters (from `inputs_raw` / `input_params_flat` and/or `tool_help_text`), you can restrict the compared model set to **SVM only** (e.g., select `SVM - Linear Kernel` / `SVM - Radial Kernel`).
-- You record in `metadata.ground_truth_alternatives_note` that the equivalence depends on configuring Tabular Learner to SVM-only (so the task semantics remain “SVM training”).
+1. **Read `tool_help_text` for `tabular_learner`:**
 
-**How IO details help you discover this alternative:**
+   > "This tool uses PyCaret to train and evaluate machine learning models. It compares different models on a dataset and provides the best model based on the performance metrics."
 
-- The SVM-specific tool and `tabular_learner` both operate on **tabular inputs**.
-- `tabular_learner` has a **target column** parameter (e.g., `data_column`) which matches the “supervised classification” shape.
-- `tool_help_text` / parameters reveal it includes explicit SVM model choices and allows constraining to SVM-only.
+   PyCaret is an AutoML library that wraps multiple sklearn-style models. This suggests it might include SVM.
 
-**Why this is acceptable:** with SVM-only configuration, both tools implement the same analysis step (SVM training on tabular inputs), even though Tabular Learner can do broader model comparison when not constrained.
+2. **Read `inputs_raw` → `model_selection` conditional:**
 
-**Example queries that justify this expansion (SVM-only intent):**
+   Found the `classification_models` select parameter with these options:
+   - Logistic Regression
+   - K Neighbors Classifier
+   - Naive Bayes
+   - Decision Tree Classifier
+   - **SVM - Linear Kernel**
+   - **SVM - Radial Kernel**
+   - MLP Classifier
+   - Ridge Classifier
+   - Random Forest Classifier
+   - Ada Boost Classifier
+   - Gradient Boosting Classifier
+   - ...
 
-- “I'm working with a chemical dataset where you want to classify samples from molecular descriptors (QSAR-style). I want to train an SVM classifier and evaluate accuracy with a proper train/test split. Which tool in Galaxy can do this?”
-- “I have a machine learning dataset where you want to train and evaluate a predictive model. I need a support vector machine classifier for my feature matrix and evaluation outputs. Also, I’d like the run to be reproducible (same results if I rerun it). What Galaxy tool should I run for this step?”
+   This confirms `tabular_learner` can be **restricted to SVM-only** by selecting only `SVM - Linear Kernel` and/or `SVM - Radial Kernel`.
 
-**Counterexamples (do NOT expand to Tabular Learner unless the query explicitly allows AutoML / model comparison):**
+3. **IO compatibility check:**
 
-- Queries whose primary intent is “compare many algorithms and pick the best model”, “AutoML”, or “try multiple models automatically”.
-- Queries that mix incompatible intents (e.g., “unsupervised clustering” *and* “fit an SVM classifier”) without clarifying the requested step.
+   - Both tools accept **tabular input** (`csv`, `tabular`).
+   - Both require a **target column** (`data_column` type parameter).
+   - Both output a trained model.
+   - ✅ IO structure is compatible.
+
+### Decision
+
+**Accept as alternative** — user can configure `tabular_learner` to compare **only SVM models** (Linear/Radial kernel), making it functionally equivalent to the dedicated SVM classifier for this step.
+
+### Example queries that justify this expansion
+
+- "I want to train an SVM classifier and evaluate accuracy with a proper train/test split. Which tool in Galaxy can do this?"
+- "I need a support vector machine classifier for my feature matrix. What Galaxy tool should I run?"
+
+### Metadata note to add
+
+```json
+"ground_truth_alternatives_note": "Manual: Tabular Learner can train SVM classifiers when model selection is restricted to SVM-Linear/Radial."
+```
+
+---
+
+## Worked example — Keras model fit → Ludwig experiment
+
+**Scenario:** the gold tool is Keras-based deep learning:
+
+- `toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/<version>`
+- `toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/<version>`
+
+**Candidate alternative:** Ludwig declarative deep learning:
+
+- `toolshed.g2.bx.psu.edu/repos/goeckslab/ludwig_experiment/ludwig_experiment/<version>`
+
+### Discovery process
+
+1. **Read `tool_help_text` for `ludwig_experiment`:**
+
+   > "Generic Learner Experiment: train on one (portion of) dataset and evaluate the model performance on another (portion of) dataset."
+
+   This is a training + evaluation tool, which matches the Keras train_and_eval step.
+
+2. **Check Ludwig's capabilities (from tool description/docs):**
+
+   Ludwig supports multiple model architectures including:
+   - Feedforward Neural Networks (FNN)
+   - Convolutional Neural Networks (CNN)
+   - Recurrent Neural Networks (RNN)
+   - Transformers
+
+   All of these are also achievable with Keras.
+
+3. **IO compatibility check:**
+
+   - Both accept tabular/structured input data.
+   - Both output trained models and evaluation metrics.
+   - ✅ IO structure is compatible for the "train + evaluate" step.
+
+### Decision
+
+**Accept as alternative** — Ludwig can build equivalent architectures (FNN, CNN, RNN) via its declarative config, performing the same analysis step: train → evaluate → output model + metrics.
+
+### Example queries that justify this expansion
+
+- "I want to train a feedforward neural network on my tabular dataset and evaluate its performance. Which Galaxy tool should I use?"
+- "I need to train a CNN for image classification and get performance metrics. What tool can do this?"
+
+### Metadata note to add
+
+```json
+"ground_truth_alternatives_note": "Manual: Ludwig experiment can train equivalent neural network architectures (FNN/CNN/RNN) with train+eval workflow."
+```
