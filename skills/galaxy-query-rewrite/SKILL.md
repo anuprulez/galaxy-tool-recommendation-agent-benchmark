@@ -23,10 +23,18 @@ This skill assumes the benchmark source of truth is:
 4. Must **not** include dataset identifiers (SRR/ENA IDs, file extensions, URLs, etc.).
 5. Must **not** mention tool IDs, tool names, or backticked “function/tool” strings.
 6. Must be **close to real user queries**:
+   - Write from a **Galaxy user** perspective (what you have + what you want), not a tool developer/maintainer perspective.
    - Include a short, plausible context (data type + goal + expected output).
    - Avoid “benchmarky” language (e.g., “perform X”, “for this task”) with no detail.
    - Avoid sounding like the tool help page; write as a user describing what they need.
 7. For the **same tool (base id)**, queries must not be repeated or near-duplicates.
+
+## Science-first vs tool-first queries (rewrite guidance)
+
+When rewriting, preserve the *starting point* style unless the item is too vague:
+
+- **Science-first (principle/goal first):** user starts from a scientific question (“identify cell types”, “find differentially expressed genes”, “infer variants”). Rewrite by adding the minimal missing “data type + expected output” while keeping it question-driven.
+- **Tool-first (operation/workflow first):** user starts from a concrete step (“QC paired-end FASTQ”, “trim adapters”, “map reads”). Rewrite by making the step goal and output explicit (report/metrics/output files) without drifting into parameter/config instructions.
 
 ## Review workflow (agent checklist)
 

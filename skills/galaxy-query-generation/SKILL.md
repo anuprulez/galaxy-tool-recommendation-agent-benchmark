@@ -14,6 +14,7 @@ Use it to keep the query-writing standards versioned with the project.
 4. Do **not** mention concrete **datasets / filenames / accessions** in the query line (e.g., `SRR...`, `E-MTAB-...`, `.fastq.gz`, `.bam`, URLs). Use generic descriptions (e.g., “paired-end FASTQ”, “genome assembly FASTA”, “count matrix”).
 5. Do **not** mention the tool name, tool ID, or backticked function-like names in the query (no “perform `tool_x`”).
 6. Queries must be **realistic** (close to how real users ask), not “benchmarky”:
+   - Write from a **Galaxy user** perspective (what you have + what you want), not a tool developer/maintainer perspective.
    - Use a brief, concrete context: the data type, the goal, and the desired output.
    - Prefer natural phrasing (“I have…”, “I’m trying to…”) over rigid patterns.
    - Avoid stilted wording like “perform X”, “execute Y”, or “for this task” without details.
@@ -48,6 +49,20 @@ These benchmark queries must be **handwritten after reading the tutorial**, not 
 ## Where to write the results
 
 Write final queries directly into `data/benchmark/v1_items.jsonl` (do not rely on `tmp_stats/*` as the deliverable).
+
+## Science-first vs tool-first queries (how they differ)
+
+Both styles are valid; the difference is *where the user starts*:
+
+- **Science-first (principle/goal first):** starts from a scientific question (“what is present / what differs / what is it?”). The query should still mention the data type and the intended output (e.g., “cell type labels/markers”), but does *not* need to name specific methods.
+- **Tool-first (operation/workflow first):** starts from a concrete processing step (“QC / trimming / mapping / quantify”). The query should still include the data type and desired report/output, but stays at the “which tool to run” level (not parameter/config help).
+
+## Examples: science-first vs tool-first user queries
+
+Both styles are valid, as long as the query still asks for a **Galaxy tool recommendation** and includes enough intent (data type + goal + expected output) without leaking tool names or dataset identifiers.
+
+- Science-first (principle/goal driven): “I just got my single-cell RNA-seq count matrix back. How can I figure out what cell types are present?”
+- Tool-first (operation/workflow driven): “Which Galaxy tool should I use to check the quality of my paired-end sequencing data stored in FASTQ files?”
 
 ### Anti-patterns (avoid)
 
