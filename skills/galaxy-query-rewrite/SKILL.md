@@ -40,18 +40,21 @@ When rewriting, preserve the *starting point* style unless the item is too vague
 
 1. Run the checker:
    - `ruby -EUTF-8 skills/galaxy-query-generation/scripts/check_v1_items.rb data/benchmark/v1_items.jsonl`
-2. Scan for anti-patterns in v1:
+2. Read the batch **line-by-line** (no skipping):
+   - Even if a query passes the checker, rewrite it if it’s still “benchmarky”, too generic, or near-duplicate.
+   - Use scripts only to *surface* candidates; do not rely on scripts as the only filter.
+3. Scan for anti-patterns in v1:
    - Tool leakage: backticks, “perform `...`”, “run `...`”.
    - Copy/paste templates (identical/similar sentences).
    - Dataset leakage (file extensions, accessions, URLs).
-3. Enforce **within-tool diversity**:
+4. Enforce **within-tool diversity**:
    - Group items by `tools[0]` base id (strip toolshed version).
    - If any group contains duplicated or near-duplicated query text, rewrite them to be clearly different.
-4. Rewrite strategy:
+5. Rewrite strategy:
    - Keep the **user intent** the same, but change perspective/constraints.
    - Add a small realistic constraint when helpful (runtime, reproducibility, “probabilities not labels”, “avoid data leakage”, “save metrics”, etc.).
    - Avoid parameter/config questions.
-5. Regenerate readable markdown:
+6. Regenerate readable markdown:
    - `python3 -m scripts.benchmark.export_readable --input data/benchmark/v1_items.jsonl --output data/benchmark/v1_items_readable.md`
 
 ## 10 example rewrites (patterns to imitate)

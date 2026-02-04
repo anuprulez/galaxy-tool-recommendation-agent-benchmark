@@ -36,6 +36,8 @@ When doing **fresh generation** (writing queries from a tutorial step that doesn
 
 When doing **rewrite/cleanup** (removing tool leakage, boilerplate, or checker-triggering phrasing while keeping the same intent/tool focus), you usually do *not* need to read the full tutorial; only spot-check the relevant step if the intent is ambiguous.
 
+When doing **batch review** (quality pass over an existing range), you must still read the batch **line-by-line**: scripts can help *find* problems, but they are not a substitute for human review.
+
 1. Open the tutorial: `training-material/<tutorial_id>/tutorial.md`
 2. Read around each tool mention to understand the *user goal*:
    - GTN tool tags like `{% tool [Name](tool_id) %}` (usually provides a tool ID)
