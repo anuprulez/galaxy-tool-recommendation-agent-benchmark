@@ -135,6 +135,18 @@ Notes:
   - Re-exported `data/benchmark/v1_items_readable.md`.
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Cut/Filter/Grep/cat/etc.).
+
+## Batch A0002 (151–300)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 151–300 (assembly tutorials: E. coli comparison, intro assembly, PacBio HiFi assembly, hybrid assembly, large genome assembly, metagenomics assembly, mitochondrial assembly, MRSA Illumina/nanopore)
+- Summary:
+  - Rewrote tool-leaking and templated queries into Galaxy-user phrasing (removed backticks/tool names/IDs and made intent explicit with realistic context).
+  - Fixed one non-stable tool ID in this range by normalizing it to the ToolShed GUID (`circos_aln_to_links`) and updated the query accordingly.
+  - Preserved (and did not reduce) science-first query coverage in this batch (kept existing `metadata.query_type` distribution).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 151 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs and other known stable core tools.
     - `Remove_beginning1` → `Remove beginning1` (clinical MP discovery/verification rows in this batch)
   - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
     - `filter_tabular`, `query_tabular`, `msconvert`, `maxquant`, `unipept`

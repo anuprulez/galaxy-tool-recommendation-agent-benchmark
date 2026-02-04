@@ -498,127 +498,127 @@ Questions:
 - **assembly-ecoli_comparison-q026** — In a tabular dataset, I want to edit values in a specific column by applying a find-and-replace rule (e.g., normalize IDs) without changing the rest of the file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q027** — Which Galaxy tool would you recommend to perform `fasta_compute_length`?
+- **assembly-ecoli_comparison-q027** — I have a genome FASTA and want a simple table of sequence lengths (one row per contig) so I can use it in downstream plotting and filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q028** — Which Galaxy tool should I use to run `Sort`?
+- **assembly-ecoli_comparison-q028** — I have a tabular summary of candidate reference genomes and want to sort it by a numeric score to rank the best matches. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q029** — Which Galaxy tool would you recommend to perform `bedtools_sortbed`?
+- **assembly-ecoli_comparison-q029** — I have genomic intervals in a BED-like table and need them sorted by coordinate before running other interval operations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q030** — Which Galaxy tool should I use to run `ComplementBed Extract intervals not represented by an interval file`?
+- **assembly-ecoli_comparison-q030** — I have BED intervals representing aligned regions on a reference, and I want the complementary regions that are not covered to look for candidate deletions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q031** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **assembly-ecoli_comparison-q031** — I want to inspect my assembly together with reference sequences and annotation tracks in an interactive genome browser inside Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q032** — Which Galaxy tool should I use to run `Circos: Alignemnts to Links`?
+- **assembly-ecoli_comparison-q032** — I have whole-genome alignments and want to convert them into link tracks suitable for a circular genome comparison plot. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_aln_to_links/0.69.8+galaxy7
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q033** — What Galaxy tool should I run for `Circos: Interval to Tiles`?
+- **assembly-ecoli_comparison-q033** — I have a set of genomic intervals and want to format them as tile tracks for a circular genome visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_interval_to_tiles/0.69.8+galaxy7
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q034** — Which Galaxy tool should I use to run `Circos`?
+- **assembly-ecoli_comparison-q034** — I want a circular ideogram-style plot to visualize rearrangements between genomes using link and tile tracks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q035** — Which Galaxy tool should I use to run `Intersect intervals find overlapping intervals in various ways`?
+- **assembly-ecoli_comparison-q035** — I have gene coordinates and a set of intervals for a suspected deletion, and I want the genes that overlap those intervals. Which Galaxy tool should I use to find overlaps?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q036** — Which Galaxy tool should I use to run `Join two Datasets`?
+- **assembly-ecoli_comparison-q036** — I have two tabular datasets keyed by the same genome identifier and need a side-by-side join on that identifier. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q037** — Which Galaxy tool would you recommend to perform `select lines`?
+- **assembly-ecoli_comparison-q037** — From a large results table, I want to keep only rows for a small set of selected genome accessions. Which Galaxy tool should I use for pattern-based row selection?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q038** — Which Galaxy tool would you recommend to perform `Rules`?
+- **assembly-ecoli_comparison-q038** — I have a table of genome download locations and want to turn it into a structured Galaxy upload as collections using rule-based mapping (URLs + names). Which Galaxy tool should I use?
   - Tools: Rules
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q039** — Which Galaxy tool should I use to run `SortBED`?
+- **assembly-ecoli_comparison-q039** — Before visualization, I need to ensure my BED intervals are coordinate-sorted (chromosome and start) for compatibility with downstream tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q040** — Which Galaxy tool should I use to run `Circos: Alignments to links`?
-  - Tools: Circos: Alignments to links
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q041** — Which Galaxy tool would you recommend to perform `Cut1`?
-  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q042** — Which Galaxy tool should I use to upload reference and assembly files?
-  - Tools: upload1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q043** — Which Galaxy tool would you recommend to perform `fasta_filter_by_length`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_filter_by_length/fasta_filter_by_length/1.2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q044** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q045** — Which Galaxy tool would you recommend to perform `lastz_wrapper_2`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/lastz/lastz_wrapper_2/1.04.22+galaxy0
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q046** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q047** — Which Galaxy tool would you recommend to perform `random_lines1`?
-  - Tools: random_lines1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q048** — Which Galaxy tool filters rows in a tabular file using a condition?
-  - Tools: Filter1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q049** — Which Galaxy tool would you recommend to perform `datamash_ops`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q050** — Which Galaxy tool finds or filters lines by a text pattern?
-  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q051** — Which Galaxy tool would you recommend to perform `tp_cat`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q052** — Which Galaxy tool would you recommend to perform `mergeCols1`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q053** — Which Galaxy tool would you recommend to perform `cat1`?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q054** — Which Galaxy tool would you recommend to perform `addValue`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q055** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q056** — Which Galaxy tool would you recommend to perform `fasta_compute_length`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q057** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q058** — Which Galaxy tool would you recommend to perform `bedtools_sortbed`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q059** — Which Galaxy tool would you recommend to perform `bedtools_complementbed`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q060** — Which Galaxy tool would you recommend to perform `jbrowse`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
-  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q061** — Which Galaxy tool would you recommend to perform `circos_aln_to_links`?
+- **assembly-ecoli_comparison-q040** — I want to generate a circular genome comparison plot, and first need to convert my genome alignments into a links track. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_aln_to_links/0.69.8+galaxy7
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q062** — Which Galaxy tool would you recommend to perform `circos_interval_to_tiles`?
+- **assembly-ecoli_comparison-q041** — I have a wide tabular file and only need a few columns (e.g., accessions and base download paths) to prepare a download list. Which Galaxy tool should I use?
+  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q042** — I need to import my assembly and a set of reference genomes into Galaxy (from links or local files) to start a comparative analysis. Which Galaxy tool should I use?
+  - Tools: upload1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q043** — My assembly contains an unwanted small spike-in sequence; I want to remove sequences below a minimum length threshold. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_filter_by_length/fasta_filter_by_length/1.2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q044** — The FASTA headers in my assembly are messy, and I want to rename them by applying a find/replace on header lines. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q045** — I want to align my assembled bacterial genome against many complete reference genomes to identify the closest match and generate whole-genome alignment output. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/lastz/lastz_wrapper_2/1.04.22+galaxy0
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q046** — I aligned my assembly against a collection of reference genomes and now have a collection of per-reference results; I need a single combined table for ranking. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q047** — Before running an expensive comparison against hundreds of genomes, I want to randomly sample a subset of entries from a long list for a quick pilot run. Which Galaxy tool should I use?
+  - Tools: random_lines1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q048** — I have a tabular dataset and want to keep only rows that satisfy a condition in one column (for example, score above a cutoff). Which Galaxy tool should I use?
+  - Tools: Filter1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q049** — I want to compute grouped summaries from a tabular file (counts and aggregates per genome) to help rank candidate references. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q050** — I need to filter a text/tabular dataset to only lines matching a pattern or regular expression (for example, a list of accessions). Which Galaxy tool should I use?
+  - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q051** — I have multiple intermediate tabular outputs and want to concatenate them into one dataset for downstream processing. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q052** — I have two tables with matching row order and want to combine them by appending columns side-by-side. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q053** — I have two BED-like datasets and want to concatenate them into a single BED for visualization. Which Galaxy tool should I use?
+  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q054** — I want to add a constant label column to every row in a table so I can track which genome each record came from. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q055** — In a tabular dataset, I need to edit values in one specific column using a substitution rule to standardize IDs. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q056** — I have a set of reference sequences and need a length table for each sequence record to drive filtering and plotting. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q057** — I want to sort a tabular dataset by a chosen column (numeric or text) to rank items and keep the top candidates. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q058** — My BED intervals are unsorted, and downstream tools require coordinate-sorted intervals. Which Galaxy tool should I use to sort them?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q059** — Given a reference genome and a set of covered intervals, I want the uncovered regions to investigate putative deletions. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q060** — I want to browse my assembly alongside reference genomes and annotation features interactively within Galaxy. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q061** — I have genome-to-genome alignments and need to reformat them into a links file for a circular comparison visualization. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_aln_to_links/0.69.8+galaxy7
+  - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
+- **assembly-ecoli_comparison-q062** — I have interval tracks (e.g., deletions) and want to convert them into tiles for a circular genome visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_interval_to_tiles/0.69.8+galaxy7
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q063** — Which Galaxy tool would you recommend to perform `circos`?
+- **assembly-ecoli_comparison-q063** — I want a circular plot that combines links and tiles to visualize inversions and deletions between genomes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q064** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **assembly-ecoli_comparison-q064** — I have a set of feature intervals and want to compute their overlap with a deletion interval set to extract affected features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q065** — Which Galaxy tool would you recommend to perform `join1`?
+- **assembly-ecoli_comparison-q065** — I need to merge two tabular datasets by a shared identifier so each identifier has fields from both tables. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q066** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
+- **assembly-ecoli_comparison-q066** — I have a table of directory-style genome download paths and need to transform them into full file URLs by appending a fixed suffix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
-- **assembly-ecoli_comparison-q067** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **assembly-ecoli_comparison-q067** — I have a large table of annotations and want to keep only rows whose IDs match a small set of patterns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 3382053, genomes_proks.txt, GCA_000005845.2_ASM584v2, 1306128
 
@@ -628,40 +628,40 @@ Questions:
 - Datasets (4): zenodo.582600, 582600, mutant_R1.fastq, mutant_R2.fastq
 
 Questions:
-- **assembly-general-introduction-q011** — What Galaxy tool should I run for `FastQC`?
+- **assembly-general-introduction-q011** — I am starting a short-read genome assembly project and want an initial quality-control report for my raw reads to spot issues like adapter contamination and quality drop-off. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q012** — What Galaxy tool should I run for `MultiQC`?
+- **assembly-general-introduction-q012** — I have several per-sample read QC reports and want one combined summary report so I can quickly compare samples and identify outliers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q013** — Which Galaxy tool would you recommend to perform `fastq_paired_end_interlacer`?
+- **assembly-general-introduction-q013** — My paired-end reads are in two datasets (forward and reverse), but a downstream step expects mates interleaved in a single dataset. Which Galaxy tool should I use to interleave paired reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2.0.1+galaxy0
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q014** — Which Galaxy tool would you recommend to perform `velveth`?
+- **assembly-general-introduction-q014** — I want to run a de Bruijn-graph short-read assembly workflow and need the step that prepares an indexed assembly dataset from interleaved reads. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/velvet/velveth/1.2.10.3
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q015** — What Galaxy tool should I run for `velvetg`?
+- **assembly-general-introduction-q015** — After preparing reads for a de Bruijn-graph assembly workflow, I want to generate contigs using a short-read assembler. Which Galaxy tool should I use for the assembly step?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/velvet/velvetg/1.2.10.2
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q016** — What Galaxy tool should I run for `Quast`?
+- **assembly-general-introduction-q016** — I assembled contigs and want an assembly quality report with metrics like N50 and contig length distributions (optionally using a reference). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q017** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-general-introduction-q017** — Before assembling, I want to check whether my sequencing run looks usable by generating standard QC plots and summaries for short reads. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **assembly-general-introduction-q018** — I want to aggregate QC results across multiple read datasets into a single report I can share and archive. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q019** — Which Galaxy tool would you recommend to perform `fastq_paired_end_interlacer`?
+- **assembly-general-introduction-q019** — I need to convert paired-end reads stored as separate forward/reverse datasets into a single interleaved dataset for downstream assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2.0.1+galaxy0
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q020** — Which Galaxy tool would you recommend to perform `velveth`?
+- **assembly-general-introduction-q020** — I want the preprocessing step that builds the k-mer graph input dataset from interleaved paired-end reads for a short-read assembly workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/velvet/velveth/1.2.10.3
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q021** — Which Galaxy tool would you recommend to perform `velvetg`?
+- **assembly-general-introduction-q021** — I want to assemble a bacterial genome from short reads with a de Bruijn-graph approach and obtain contigs as output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/velvet/velvetg/1.2.10.2
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q022** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-general-introduction-q022** — I want to compare assemblies generated with different k-mer sizes by producing a consistent assembly-quality report for each contigs set. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
 
@@ -671,37 +671,37 @@ Questions:
 - Datasets (1): SRR31719412_subreads.fastq.gz
 
 Questions:
-- **assembly-hifi-assembly-q011** — What Galaxy tool should I run for `Hifiasm`?
+- **assembly-hifi-assembly-q011** — I have PacBio HiFi long reads and want a haplotype-resolved de novo assembly that outputs assembly graphs as well as contigs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.25.0+galaxy1
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q012** — Which Galaxy tool should I use to run `GFA to FASTA`?
+- **assembly-hifi-assembly-q012** — My assembler produced an assembly graph in GFA format, but downstream QC tools expect a contigs FASTA. Which Galaxy tool should I use to convert an assembly graph into a FASTA of sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gfa_to_fa/gfa_to_fa/0.1.2
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q013** — Which Galaxy tool should I use to run `Flye`?
+- **assembly-hifi-assembly-q013** — I want to generate an alternative long-read assembly from the same HiFi reads so I can compare results across assemblers. Which Galaxy tool should I use for a second de novo assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q014** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-hifi-assembly-q014** — I have one or more genome assemblies and want an HTML-style QC report with contiguity metrics (e.g., N50, total length, GC) without relying on a reference genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q015** — Which Galaxy tool would you recommend to perform `busco`?
+- **assembly-hifi-assembly-q015** — How complete is my fungal genome assembly in terms of expected conserved genes? Which Galaxy tool should I use to compute a conserved single-copy gene completeness summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q016** — Which Galaxy tool would you recommend to perform `hifiasm`?
+- **assembly-hifi-assembly-q016** — I want a haplotype-aware assembly from PacBio HiFi reads that can produce primary and alternate contig graphs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.25.0+galaxy1
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q017** — Which Galaxy tool would you recommend to perform `gfa_to_fa`?
+- **assembly-hifi-assembly-q017** — I have a primary contig graph output from an assembler and need a FASTA file of contigs for comparison and downstream analyses. Which Galaxy tool should I use for GFA-to-FASTA conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gfa_to_fa/gfa_to_fa/0.1.2
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q018** — Which Galaxy tool would you recommend to perform `flye`?
+- **assembly-hifi-assembly-q018** — I have long reads and want a de novo assembly that outputs a consensus contigs FASTA for later QC and comparison to a reference. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q019** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-hifi-assembly-q019** — I want to compare my assembly against a reference genome and get a QC report including genome fraction and alignment-based metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q020** — Which Galaxy tool would you recommend to perform `busco`?
+- **assembly-hifi-assembly-q020** — I want to assess assembly completeness for multiple assemblies (and a reference) using conserved gene sets and get a short summary report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: SRR31719412_subreads.fastq.gz
-- **assembly-hifi-assembly-q021** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **assembly-hifi-assembly-q021** — I need a quick table of basic assembly statistics from a contigs FASTA (sequence count, total length, length distribution) as a sanity check. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: SRR31719412_subreads.fastq.gz
 
@@ -711,46 +711,46 @@ Questions:
 - Datasets (4): zenodo.15756327, 15756328, illumina_reads_1.fastq, 15756328):
 
 Questions:
-- **assembly-hybrid_denovo_assembly-q011** — Which Galaxy tool would you recommend to perform `busco`?
+- **assembly-hybrid_denovo_assembly-q011** — I have a bacterial reference genome assembly and want a conserved single-copy gene completeness report to use as a QC baseline. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q012** — Which Galaxy tool should I use to run `Flye`?
+- **assembly-hybrid_denovo_assembly-q012** — I have nanopore long reads and want a draft de novo bacterial genome assembly as a starting point for polishing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q013** — What Galaxy tool should I run for `Quast`?
+- **assembly-hybrid_denovo_assembly-q013** — I have a draft assembly and a reference genome, and want an assembly QC report that compares them and outputs both HTML and tabular summaries. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q014** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **assembly-hybrid_denovo_assembly-q014** — I want to map paired-end short reads back to my draft assembly to generate an alignment that can be used for polishing. Which Galaxy tool should I use for this short-read mapping step?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q015** — What Galaxy tool should I run for `Pilon`?
+- **assembly-hybrid_denovo_assembly-q015** — I have a draft bacterial assembly and short-read alignments and want to polish the consensus to correct small errors (SNPs/indels). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q016** — Which Galaxy tool would you recommend to perform `unicycler`?
+- **assembly-hybrid_denovo_assembly-q016** — I have both short and long reads and want a hybrid assembly approach that can produce a near-complete bacterial genome by leveraging both data types. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.5.1+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q017** — Which Galaxy tool should I use to run `MultiQC`?
+- **assembly-hybrid_denovo_assembly-q017** — I ran read QC on multiple datasets and want a single aggregated report that summarizes QC metrics across the run. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q018** — Which Galaxy tool would you recommend to perform `busco`?
+- **assembly-hybrid_denovo_assembly-q018** — I want a conserved-gene completeness report for my draft assembly so I can see whether the assembly is missing or fragmenting expected genes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q019** — Which Galaxy tool would you recommend to perform `flye`?
+- **assembly-hybrid_denovo_assembly-q019** — I want to produce a long-read draft assembly from nanopore data as part of a hybrid assembly workflow, before polishing with short reads. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q020** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-hybrid_denovo_assembly-q020** — After polishing, I want an assembly QC report (contiguity and reference-based metrics) to compare the improved assembly against a reference. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q021** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **assembly-hybrid_denovo_assembly-q021** — I need to align paired-end short reads to a draft assembly to prepare inputs for consensus polishing. Which Galaxy tool should I use for this alignment step?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q022** — Which Galaxy tool would you recommend to perform `pilon`?
+- **assembly-hybrid_denovo_assembly-q022** — I want to polish a draft bacterial assembly using accurate short reads to fix base-level errors and improve consensus accuracy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q023** — Which Galaxy tool would you recommend to perform `unicycler`?
+- **assembly-hybrid_denovo_assembly-q023** — I want a hybrid assembler that can combine short-read graph information with long reads to resolve repeats and close a bacterial genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.5.1+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
-- **assembly-hybrid_denovo_assembly-q024** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **assembly-hybrid_denovo_assembly-q024** — I want a single summary report that aggregates QC outputs from multiple steps (reads and/or assemblies) into one place for review. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.15756327, 15756328):, illumina_reads_1.fastq, 15756328
 
@@ -760,49 +760,49 @@ Questions:
 - Datasets (3): zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
 
 Questions:
-- **assembly-largegenome-q011** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **assembly-largegenome-q011** — I have long reads and a draft assembly and want to align the reads back to the assembly to estimate coverage and support across contigs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q012** — Which Galaxy tool would you recommend to perform `racon`?
+- **assembly-largegenome-q012** — After assembling from long reads, I want a round of consensus polishing using long-read alignments to reduce sequencing errors. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.5.0+galaxy1
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q013** — Which Galaxy tool would you recommend to perform `medaka_consensus_pipeline`?
+- **assembly-largegenome-q013** — I have nanopore reads and want to run a neural-network-based consensus polishing pipeline to improve my assembly sequence accuracy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/medaka_consensus_pipeline/medaka_consensus_pipeline/2.1.1+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q014** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **assembly-largegenome-q014** — I want a quick table of basic assembly statistics (contig counts, total length, N50-style metrics) from a genome assembly FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q015** — Which Galaxy tool would you recommend to perform `busco`?
+- **assembly-largegenome-q015** — How complete is my large-genome assembly in terms of expected conserved genes? Which Galaxy tool should I use to compute a conserved gene completeness summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q016** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-largegenome-q016** — I want an assembly QC report that highlights contiguity and potential misassemblies, optionally using a reference genome for comparison. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q017** — Which Galaxy tool would you recommend to perform `meryl`?
+- **assembly-largegenome-q017** — I want to count k-mers from sequencing reads to generate a histogram for genome profiling and downstream k-mer-based QC. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q018** — Which Galaxy tool would you recommend to perform `genomescope`?
+- **assembly-largegenome-q018** — I want to estimate genome characteristics like size, heterozygosity, and repeat content from a k-mer histogram. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/genomescope/genomescope/2.1.0+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q019** — Which Galaxy tool would you recommend to perform `nanoplot`?
+- **assembly-largegenome-q019** — I have nanopore long reads and want an HTML report with read length and quality plots to decide if filtering is needed before assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q020** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-largegenome-q020** — I want standard QC metrics and plots for paired-end short reads before assembly and polishing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q021** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **assembly-largegenome-q021** — I want a single summary report aggregating read QC results across multiple datasets and tools so I can review everything at once. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q022** — Which Galaxy tool would you recommend to perform `fastp`?
+- **assembly-largegenome-q022** — My short reads may need adapter trimming and quality filtering before polishing; I want to clean the reads and get a concise QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q023** — Which Galaxy tool would you recommend to perform `flye`?
+- **assembly-largegenome-q023** — I have long-read sequencing data and want a de novo assembler that can produce contigs for a large plant/animal genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q024** — Which Galaxy tool would you recommend to perform `bandage_image`?
+- **assembly-largegenome-q024** — I have an assembly graph output and want to render it as an image to inspect repeats and fragmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q025** — Which Galaxy tool would you recommend to perform `barchart_gnuplot`?
+- **assembly-largegenome-q025** — I have a small summary table of QC/assembly metrics and want to turn selected columns into a simple bar chart for reporting. Which Galaxy tool should I use?
   - Tools: barchart_gnuplot
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
 
@@ -812,85 +812,85 @@ Questions:
 - Datasets (1): 7818827
 
 Questions:
-- **assembly-metagenomics-assembly-q011** — What Galaxy tool should I run for `MEGAHIT`?
+- **assembly-metagenomics-assembly-q011** — I have paired-end metagenomic reads from multiple samples and want to assemble each sample into contigs using a de Bruijn-graph metagenome assembler optimized for large datasets. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q012** — Which Galaxy tool would you recommend to perform `metaspades`?
+- **assembly-metagenomics-assembly-q012** — I want an alternative metagenomic assembler for short reads that can handle uneven coverage and complex communities, so I can compare assemblies across methods. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q013** — What Galaxy tool should I run for `QUAST`?
+- **assembly-metagenomics-assembly-q013** — I generated metagenome contigs and want an assembly QC report tailored for metagenomic assemblies with HTML and tabular outputs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q014** — What Galaxy tool should I run for `CoverM contig`?
+- **assembly-metagenomics-assembly-q014** — After assembling metagenomic contigs, I want per-contig coverage estimates by mapping reads back to contigs and computing coverage summaries. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q015** — What Galaxy tool should I run for `Bowtie2`?
+- **assembly-metagenomics-assembly-q015** — I want to align metagenomic reads back to assembled contigs so downstream tools can compute coverage and detect assembly issues. Which Galaxy tool should I use for this mapping step?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q016** — Which Galaxy tool should I use to run `megahit contig2fastg`?
+- **assembly-metagenomics-assembly-q016** — My assembler produced contigs and I want to convert the assembly into a graph representation so I can visualize assembly structure. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit_contig2fastg/megahit_contig2fastg/1.1.3+galaxy1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q017** — Which Galaxy tool would you recommend to perform `bandage_image`?
+- **assembly-metagenomics-assembly-q017** — I want to visualize a metagenome assembly graph as an image to inspect repeats and unresolved branching. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q018** — Which Galaxy tool should I use to run `Bandage Info`?
+- **assembly-metagenomics-assembly-q018** — I have an assembly graph and want a textual summary of graph properties (nodes, edges, components) to compare assemblies. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/2022.09+galaxy2
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q019** — Which Galaxy tool should I use to run `Column join`?
+- **assembly-metagenomics-assembly-q019** — I have multiple per-sample tables and need to join selected columns into one combined table for downstream plotting and ranking. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q020** — Which Galaxy tool would you recommend to perform `megahit`?
+- **assembly-metagenomics-assembly-q020** — I want to assemble metagenomic short reads into contigs for each sample so I can proceed with coverage estimation and binning. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q021** — Which Galaxy tool would you recommend to perform `metaspades`?
+- **assembly-metagenomics-assembly-q021** — I want to produce a second metagenomic short-read assembly using a different algorithm to compare contiguity and completeness. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q022** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-metagenomics-assembly-q022** — I want an assembly-quality report for my metagenomic contigs, including contig statistics and summary plots. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q023** — Which Galaxy tool would you recommend to perform `coverm_contig`?
+- **assembly-metagenomics-assembly-q023** — I have contigs and read mappings and want a per-contig coverage table to help interpret abundance and support in the assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q024** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **assembly-metagenomics-assembly-q024** — I need to align short reads to assembled contigs to generate a BAM alignment for coverage and QC steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q025** — Which Galaxy tool would you recommend to perform `megahit_contig2fastg`?
+- **assembly-metagenomics-assembly-q025** — I have contigs and want a graph file suitable for visualization tools so I can inspect assembly connectivity. Which Galaxy tool should I use to create an assembly graph file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit_contig2fastg/megahit_contig2fastg/1.1.3+galaxy1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q026** — Which Galaxy tool would you recommend to perform `bandage_image`?
+- **assembly-metagenomics-assembly-q026** — I want to render an assembly graph produced from metagenomic contigs into an image for quick inspection and reporting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q027** — Which Galaxy tool would you recommend to perform `bandage_info`?
+- **assembly-metagenomics-assembly-q027** — I want a summary of assembly graph complexity from an assembly graph file, to compare different assemblies. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/2022.09+galaxy2
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q028** — Which Galaxy tool would you recommend to perform `collection_column_join`?
+- **assembly-metagenomics-assembly-q028** — I have a dataset collection of sample-wise results and want to join columns across the collection into a single combined table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q029** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **assembly-metagenomics-assembly-q029** — My reads need adapter trimming before assembly, and I want to remove adapters and low-quality bases from paired-end reads. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q030** — Which Galaxy tool would you recommend to perform `ngsutils_bam_filter`?
+- **assembly-metagenomics-assembly-q030** — I have a BAM file of reads mapped to contigs and want to filter alignments (for example, keep only properly mapped reads) before coverage calculations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ngsutils_bam_filter/ngsutils_bam_filter/0.5.9
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q031** — Which Galaxy tool would you recommend to perform `bamtools`?
+- **assembly-metagenomics-assembly-q031** — I want to compute basic alignment summaries and manipulations from a BAM alignment as part of validating read-to-contig mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools/bamtools/2.5.2+galaxy3
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q032** — Which Galaxy tool would you recommend to perform `random_lines1`?
+- **assembly-metagenomics-assembly-q032** — From a large reads dataset, I want to randomly subsample a subset to test assembly settings quickly. Which Galaxy tool should I use?
   - Tools: random_lines1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q033** — Which Galaxy tool would you recommend to perform `filter_tabular`?
+- **assembly-metagenomics-assembly-q033** — I have a tabular dataset and need to filter rows based on conditions across one or more columns to keep high-quality records. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q034** — Which Galaxy tool would you recommend to perform `bg_uniq`?
+- **assembly-metagenomics-assembly-q034** — I have a list with possible duplicate entries and want to keep only unique lines/records to simplify downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q035** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **assembly-metagenomics-assembly-q035** — I need to concatenate multiple text/tabular datasets (e.g., per-sample summaries) into one combined dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q036** — Which Galaxy tool would you recommend to perform `seqtk_subseq`?
+- **assembly-metagenomics-assembly-q036** — I have a FASTQ dataset and want to extract only reads whose names are listed in a separate ID list (subsetting by read IDs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0
   - Datasets: 7818827
-- **assembly-metagenomics-assembly-q037** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-metagenomics-assembly-q037** — Before metagenomic assembly, I want standard QC metrics and plots for my raw short reads to decide if trimming is needed. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 7818827
 
@@ -900,31 +900,31 @@ Questions:
 - Datasets (2): 13345315, PacBio_reads.fastqsanger.gz
 
 Questions:
-- **assembly-mitochondrion-assembly-q011** — Which Galaxy tool would you recommend to perform `mitohifi`?
+- **assembly-mitochondrion-assembly-q011** — I have PacBio HiFi reads and want to assemble and annotate a mitochondrial genome, producing a polished mitochondrial contig and summary outputs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3.2.3+galaxy0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q012** — Which Galaxy tool would you recommend to perform `mitohifi`?
+- **assembly-mitochondrion-assembly-q012** — I want an end-to-end mitochondrial genome assembly from HiFi reads that includes circularization checks and annotation outputs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3.2.3+galaxy0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q013** — Which Galaxy tool is used for assembling mitochondrial genomes from HiFi reads?
+- **assembly-mitochondrion-assembly-q013** — I have long-read data and want a dedicated pipeline that reconstructs the mitochondrial genome and outputs both the assembly and annotation files. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3.2.3+galaxy0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q014** — Which Galaxy tool would you recommend to perform `mitohifi`?
+- **assembly-mitochondrion-assembly-q014** — I want to reconstruct a mitochondrial genome from HiFi reads and get a final FASTA plus accompanying annotation tracks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3.2.3+galaxy0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q015** — Which Galaxy tool would you recommend to perform `compress_file`?
+- **assembly-mitochondrion-assembly-q015** — I produced several output files from an assembly run and want to compress them into a single archive for download and sharing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q016** — Which Galaxy tool would you recommend to perform `compress_file`?
+- **assembly-mitochondrion-assembly-q016** — I need to package multiple result files into a compressed archive so I can store and transfer them as one file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q017** — Which Galaxy tool compresses files into a standard archive?
+- **assembly-mitochondrion-assembly-q017** — I want to compress a set of outputs into a standard archive format for easy download from Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q018** — Which Galaxy tool would you recommend to perform `compress_file`?
+- **assembly-mitochondrion-assembly-q018** — I want to bundle my mitochondrial assembly outputs into a compressed file for reporting and long-term storage. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/compress_file/compress_file/0.1.0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
-- **assembly-mitochondrion-assembly-q019** — Which Galaxy tool would you recommend to perform `mitohifi`?
+- **assembly-mitochondrion-assembly-q019** — I want to assemble a mitochondrial genome from HiFi reads and generate the final mitochondrial sequence plus summary QC outputs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/mitohifi/mitohifi/3.2.3+galaxy0
   - Datasets: 13345315, PacBio_reads.fastqsanger.gz
 
@@ -934,49 +934,49 @@ Questions:
 - Datasets (1): 10669812
 
 Questions:
-- **assembly-mrsa-illumina-q011** — I need a tool that can perform `Import`.Which Galaxy tool would you recommend?
+- **assembly-mrsa-illumina-q011** — I want to import my bacterial isolate sequencing reads into Galaxy to start an Illumina-based de novo assembly workflow. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q012** — Which Galaxy tool would you recommend to perform `falco`?
+- **assembly-mrsa-illumina-q012** — I have short-read sequencing data and want a fast QC report similar to standard read-QC outputs to check base qualities and adapters. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q013** — What Galaxy tool should I run for `fastp`?
+- **assembly-mrsa-illumina-q013** — My Illumina reads need adapter trimming and quality filtering before assembly, and I want cleaned reads plus a QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q014** — What Galaxy tool should I run for `Shovill`?
+- **assembly-mrsa-illumina-q014** — I want to assemble a bacterial genome from Illumina paired-end reads using a pipeline optimized for bacterial isolates, producing contigs for downstream QC. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/shovill/shovill/1.4.2+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q015** — What Galaxy tool should I run for `Bandage Info`?
+- **assembly-mrsa-illumina-q015** — I have an assembly graph file and want a text summary of graph properties to understand assembly complexity. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/2022.09+galaxy2
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q016** — Which Galaxy tool should I use to run `Bandage Image`?
+- **assembly-mrsa-illumina-q016** — I want to render an assembly graph as an image so I can visually inspect whether the assembly is circular and well resolved. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q017** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-mrsa-illumina-q017** — I assembled a bacterial genome and want an assembly QC report with contiguity metrics and potential misassembly indicators. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q018** — Which Galaxy tool would you recommend to perform `upload1`?
+- **assembly-mrsa-illumina-q018** — I need to import a reference genome or other supporting sequence files into Galaxy for comparison with my assembly. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q019** — Which Galaxy tool would you recommend to perform `falco`?
+- **assembly-mrsa-illumina-q019** — I want a quick QC report for short reads to verify read quality before trimming and assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q020** — Which Galaxy tool would you recommend to perform `fastp`?
+- **assembly-mrsa-illumina-q020** — I want to remove adapters and low-quality bases from my Illumina reads to improve downstream assembly quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q021** — Which Galaxy tool would you recommend to perform `shovill`?
+- **assembly-mrsa-illumina-q021** — I want a streamlined bacterial assembly from Illumina reads that produces contigs and an assembly report suitable for typing/QC. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/shovill/shovill/1.4.2+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q022** — Which Galaxy tool would you recommend to perform `bandage_info`?
+- **assembly-mrsa-illumina-q022** — I want a compact summary of my assembly graph (nodes/edges/components) so I can compare different assemblies. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/2022.09+galaxy2
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q023** — Which Galaxy tool would you recommend to perform `bandage_image`?
+- **assembly-mrsa-illumina-q023** — I want a quick image visualization of my assembly graph to spot repeats, bubbles, and fragmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q024** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-mrsa-illumina-q024** — I want an assembly evaluation report for my bacterial contigs so I can compare it to other assemblies and detect issues. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-illumina-q025** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-mrsa-illumina-q025** — I want to generate standard read QC metrics for my short-read dataset as a baseline before any filtering or trimming. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
 
@@ -986,22 +986,22 @@ Questions:
 - Datasets (1): 10669812
 
 Questions:
-- **assembly-mrsa-nanopore-q011** — What Galaxy tool should I run for `Import`?
+- **assembly-mrsa-nanopore-q011** — I want to import my nanopore sequencing reads into Galaxy to start a long-read assembly workflow. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-mrsa-nanopore-q012** — I want a quick QC report for my read dataset to check base qualities and overrepresented sequences before long-read filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q013** — What Galaxy tool should I run for `fastp`?
+- **assembly-mrsa-nanopore-q013** — I want to trim adapters and low-quality bases from my reads and produce cleaned reads for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q014** — Which Galaxy tool should I use to run `filtlong`?
+- **assembly-mrsa-nanopore-q014** — I have nanopore long reads and want to filter them by length and/or quality to improve assembly outcomes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong/0.3.1+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q015** — Which Galaxy tool should I use to run `NanoPlot`?
+- **assembly-mrsa-nanopore-q015** — I want an HTML report with nanopore read length and quality plots so I can decide on filtering thresholds before assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q016** — Which Galaxy tool would you recommend to perform `porechop`?
+- **assembly-mrsa-nanopore-q016** — My nanopore reads may contain sequencing adapters, and I want to remove them before downstream assembly and polishing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q017** — Which Galaxy tool would you recommend to perform `flye`?
