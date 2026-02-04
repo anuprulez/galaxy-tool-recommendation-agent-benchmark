@@ -4379,7 +4379,7 @@ Questions:
 - **ecology-Ecoregionalization_tutorial-q055** — I downloaded a ZIP archive that contains multiple files and need to unpack it into individual datasets in Galaxy. Which Galaxy tool should I use?
   - Tools: CONVERTER_archive_to_directory
   - Datasets: None
-- **ecology-Ecoregionalization_tutorial-q056** — Which Galaxy tool would you recommend to extract the contents of a compressed archive (e.g., .zip) into a directory/collection of files?
+- **ecology-Ecoregionalization_tutorial-q056** — Which Galaxy tool would you recommend to extract the contents of a compressed archive (for example, a ZIP file) into a directory or collection?
   - Tools: CONVERTER_archive_to_directory
   - Datasets: None
 - **ecology-Ecoregionalization_tutorial-q057** — I need to extract a downloaded archive so I can access a specific file inside it for downstream processing. Which Galaxy tool should I use?
@@ -4435,31 +4435,31 @@ Questions:
 - **ecology-Obitools-metabarcoding-q017** — I need to extract an archive dataset so the contained files can be used as inputs to other tools. Which Galaxy tool should I use?
   - Tools: CONVERTER_archive_to_directory
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q018** — How can I extract the contents of a .zip archive into a directory/collection in Galaxy? Which tool would you recommend?
+- **ecology-Obitools-metabarcoding-q018** — I have a compressed ZIP archive with input files and need to unpack it into a directory/collection in my Galaxy history. Which tool should I use?
   - Tools: CONVERTER_archive_to_directory
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q019** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-Obitools-metabarcoding-q019** — I just uploaded sequencing reads and want a QC report (per-base quality, GC content, overrepresented sequences). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q020** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-Obitools-metabarcoding-q020** — Before any filtering or trimming, I want to check read quality and adapters for my samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 5932108
 - **ecology-Obitools-metabarcoding-q021** — Which Galaxy tool should I use to assess read quality in Metabarcoding/eDNA through Obitools?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q022** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **ecology-Obitools-metabarcoding-q022** — Which Galaxy tool generates a standard quality-control report for sequencing reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q023** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **ecology-Obitools-metabarcoding-q023** — I need to standardize my reads so downstream tools agree on the quality-score encoding. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q024** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **ecology-Obitools-metabarcoding-q024** — I want to normalize FASTQ quality encoding/format for a read dataset in Galaxy so later steps accept it. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q025** — Which Galaxy tool should I use to normalize the formatting/quality encoding of FASTQ reads before downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q026** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **ecology-Obitools-metabarcoding-q026** — What tool should I use in Galaxy to convert FASTQ reads to a consistent encoding/format?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0
   - Datasets: 5932108
 - **ecology-Obitools-metabarcoding-q027** — I need to filter a FASTQ/FASTA file to keep only records whose headers match specific patterns or attributes (a grep-like selection). Which Galaxy tool should I use?
@@ -4474,16 +4474,16 @@ Questions:
 - **ecology-Obitools-metabarcoding-q030** — How can I perform grep-style filtering on a sequence dataset in Galaxy (selecting records that match one or more patterns)? Which tool would you recommend?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqkit_grep/seqkit_grep/2.12.0+galaxy0
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q031** — Which Galaxy tool would you recommend to perform `wc_gnu`?
+- **ecology-Obitools-metabarcoding-q031** — I need to count how many lines, words, or characters are in a text dataset in my Galaxy history. Which tool should I use?
   - Tools: wc_gnu
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q032** — Which Galaxy tool would you recommend to perform `wc_gnu`?
+- **ecology-Obitools-metabarcoding-q032** — I want a quick summary count of a dataset size (like number of lines) without downloading it. Which Galaxy tool should I run?
   - Tools: wc_gnu
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Metabarcoding/eDNA through Obitools?
+- **ecology-Obitools-metabarcoding-q033** — Which Galaxy tool reports simple counts for a dataset, such as line/word/character totals?
   - Tools: wc_gnu
   - Datasets: 5932108
-- **ecology-Obitools-metabarcoding-q034** — Which Galaxy tool would you recommend to perform `wc_gnu`?
+- **ecology-Obitools-metabarcoding-q034** — What tool should I use in Galaxy to get line and word counts for a text dataset?
   - Tools: wc_gnu
   - Datasets: 5932108
 - **ecology-Obitools-metabarcoding-q035** — I need to demultiplex sequencing reads into samples using barcode sequences (with a barcode mapping file). Which Galaxy tool should I use?
