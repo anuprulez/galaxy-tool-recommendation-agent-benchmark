@@ -63,9 +63,9 @@ Both styles are valid; the difference is *where the user starts*:
 - **Science-first (principle/goal first):** starts from a scientific question (“what is present / what differs / what is it?”). The query should still mention the data type and the intended output (e.g., “cell type labels/markers”), but does *not* need to name specific methods.
 - **Tool-first (operation/workflow first):** starts from a concrete processing step (“QC / trimming / mapping / quantify”). The query should still include the data type and desired report/output, but stays at the “which tool to run” level (not parameter/config help).
 
-### Balance target
+### Balance target (soft)
 
-When generating or rewriting in batches, aim for **science-first ≈ tool-first** (roughly 50/50; ideally 75/75 within a 150-item batch), and ensure each query’s wording matches its labeled style.
+Across a batch, it’s good to have a healthy mix of **science-first** and **tool-first**, but do **not** force an exact split (no “make it 75/75 just to match a quota”). Prefer to **preserve** each item’s existing `metadata.query_type`, and only change the label when a rewrite would otherwise make the wording inconsistent with the label.
 
 ## Examples: science-first vs tool-first user queries
 

@@ -36,9 +36,9 @@ When rewriting, preserve the *starting point* style unless the item is too vague
 - **Science-first (principle/goal first):** user starts from a scientific question (“identify cell types”, “find differentially expressed genes”, “infer variants”). Rewrite by adding the minimal missing “data type + expected output” while keeping it question-driven.
 - **Tool-first (operation/workflow first):** user starts from a concrete step (“QC paired-end FASTQ”, “trim adapters”, “map reads”). Rewrite by making the step goal and output explicit (report/metrics/output files) without drifting into parameter/config instructions.
 
-### Balance target
+### Balance target (soft)
 
-Across a 150-item batch, aim for **science-first ≈ tool-first** (roughly 50/50; ideally 75/75) and ensure the query text matches the labeled style.
+Across a batch, it’s good to keep **science-first** and **tool-first** reasonably mixed, but do **not** force an exact split (no “make it 75/75 just to match a quota”). Prefer to **preserve** each item’s existing `metadata.query_type`, and only change the label when a rewrite would otherwise make the wording inconsistent with the label.
 
 ## Review workflow (agent checklist)
 
