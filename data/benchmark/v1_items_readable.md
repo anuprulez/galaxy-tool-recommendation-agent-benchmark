@@ -10648,82 +10648,82 @@ Questions:
 - **imaging-imaging-introduction-q016** — I need a simple image preprocessing step to filter a 2D image before thresholding and object detection. What Galaxy tool can apply a basic filter?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q017** — Which Galaxy tool runs the standard image filter?
+- **imaging-imaging-introduction-q017** — In Galaxy, what tool should I use to apply a basic 2D image filter (e.g., smoothing/denoising) as a preprocessing step?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q018** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-imaging-introduction-q018** — Which Galaxy tool can apply standard 2D filtering to reduce noise and prepare images for thresholding and segmentation?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q019** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-imaging-introduction-q019** — I have microscopy images with low contrast and want to enhance contrast using histogram equalization before segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q020** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-imaging-introduction-q020** — My images are uneven in intensity and I want to normalize/enhance the intensity distribution to improve downstream detection. What Galaxy tool can do histogram equalization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q021** — Which Galaxy tool performs histogram equalization?
+- **imaging-imaging-introduction-q021** — Which Galaxy tool can apply histogram equalization to 2D images to improve contrast and make features easier to detect?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q022** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-imaging-introduction-q022** — In Galaxy, what tool should I run to enhance image contrast by equalizing the intensity histogram?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q023** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-imaging-introduction-q023** — I have grayscale images and want to automatically threshold them to create a binary mask separating foreground from background. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-imaging-introduction-q024** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-imaging-introduction-q024** — I need an automatic thresholding step on 2D images that outputs a binary segmentation mask for labeling objects. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-imaging-introduction-q025** — Which Galaxy tool performs automatic thresholding?
+- **imaging-imaging-introduction-q025** — Which Galaxy tool can compute an auto-threshold on images and output a binary mask suitable for connected-component labeling?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-imaging-introduction-q026** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-imaging-introduction-q026** — In Galaxy, what tool should I run to generate a binary image by applying automatic thresholding to a 2D image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-imaging-introduction-q027** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-imaging-introduction-q027** — I have a binary segmentation mask and want to label connected components so each object has a unique label for measurements. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q028** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-imaging-introduction-q028** — After thresholding, I need to convert a black/white mask into a labeled-object image so I can compute per-object features. What Galaxy tool can do this conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q029** — Which Galaxy tool converts binary images to label images?
+- **imaging-imaging-introduction-q029** — Which Galaxy tool can turn a binary mask into a label image with uniquely numbered objects for downstream quantification?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q030** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-imaging-introduction-q030** — In Galaxy, what tool should I run to label connected regions in a binary image and output a labeled mask?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q031** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-imaging-introduction-q031** — I have two related images (e.g., different channels or an image plus a mask) and want to overlay them into a single composite for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: 3362976
-- **imaging-imaging-introduction-q032** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-imaging-introduction-q032** — I need to combine multiple image layers into an overlay so I can visually compare channels and segmentation results. What Galaxy tool can overlay images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: 3362976
-- **imaging-imaging-introduction-q033** — Which Galaxy tool overlays images?
+- **imaging-imaging-introduction-q033** — Which Galaxy tool can create a composite overlay from two or more images for inspection and figure generation?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: 3362976
-- **imaging-imaging-introduction-q034** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-imaging-introduction-q034** — In Galaxy, what tool should I run to overlay images (channels or masks) into one combined view?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: 3362976
-- **imaging-imaging-introduction-q035** — Which Galaxy tool would you recommend to perform `ip_count_objects`?
+- **imaging-imaging-introduction-q035** — I have a labeled-object mask image and want to count how many objects were segmented, producing a summary count. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 3362976
-- **imaging-imaging-introduction-q036** — Which Galaxy tool would you recommend to perform `ip_count_objects`?
+- **imaging-imaging-introduction-q036** — After labeling connected components, I need the number of objects per image (and optionally basic counts per label). What Galaxy tool can count labeled objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 3362976
-- **imaging-imaging-introduction-q037** — Which Galaxy tool counts labeled objects?
+- **imaging-imaging-introduction-q037** — Which Galaxy tool can take a label image and report the number of labeled regions/objects as a result table?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 3362976
-- **imaging-imaging-introduction-q038** — Which Galaxy tool would you recommend to perform `ip_count_objects`?
+- **imaging-imaging-introduction-q038** — In Galaxy, what tool should I run to count segmented objects in a labeled mask image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 3362976
-- **imaging-imaging-introduction-q039** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-imaging-introduction-q039** — I have a ZIP archive containing image files and want to extract the contents into separate datasets in my Galaxy history. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q040** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-imaging-introduction-q040** — I downloaded imaging data as a compressed archive and need to unpack it into individual files before analysis. What Galaxy tool can extract ZIP archives?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q041** — Which Galaxy tool extracts ZIP archives?
+- **imaging-imaging-introduction-q041** — Which Galaxy tool can extract files from a ZIP archive and output the extracted datasets for downstream tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q042** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-imaging-introduction-q042** — In Galaxy, what tool should I run to unpack a ZIP archive so its files can be used as inputs to other tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
 
@@ -10733,184 +10733,184 @@ Questions:
 - Datasets (1): zenodo.7622545
 
 Questions:
-- **imaging-multiplex-tissue-imaging-TMA-q011** — Which Galaxy tool would you recommend to perform `basic_illumination`?
+- **imaging-multiplex-tissue-imaging-TMA-q011** — I have multiplex microscopy images with uneven illumination and want to correct background shading so intensities are comparable across the field. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/basic_illumination/basic_illumination/1.1.1+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q012** — Which Galaxy tool would you recommend to perform `basic_illumination`?
+- **imaging-multiplex-tissue-imaging-TMA-q012** — My images show vignetting/illumination gradients and I need an illumination correction step before segmentation and quantification. What Galaxy tool can do this correction?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/basic_illumination/basic_illumination/1.1.1+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q013** — Which Galaxy tool performs basic illumination correction?
+- **imaging-multiplex-tissue-imaging-TMA-q013** — Which Galaxy tool can perform basic illumination correction on microscopy images to reduce background gradients?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/basic_illumination/basic_illumination/1.1.1+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q014** — Which Galaxy tool would you recommend to perform `basic_illumination`?
+- **imaging-multiplex-tissue-imaging-TMA-q014** — In Galaxy, what tool should I run to correct uneven illumination in microscopy images before downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/basic_illumination/basic_illumination/1.1.1+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q015** — Which Galaxy tool would you recommend to perform `ashlar`?
+- **imaging-multiplex-tissue-imaging-TMA-q015** — I have tiled microscope acquisitions and need to stitch tiles into a single mosaic image while aligning overlaps accurately. Which Galaxy tool should I use for tile stitching?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/ashlar/ashlar/1.18.0+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q016** — Which Galaxy tool would you recommend to perform `ashlar`?
+- **imaging-multiplex-tissue-imaging-TMA-q016** — My tissue microarray image is split into many tiles and I want to assemble them into one aligned image per channel. What Galaxy tool can stitch the tiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/ashlar/ashlar/1.18.0+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q017** — Which Galaxy tool runs Ashlar for tile stitching?
+- **imaging-multiplex-tissue-imaging-TMA-q017** — Which Galaxy tool can stitch tiled microscopy images into a single mosaic with alignment across tiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/ashlar/ashlar/1.18.0+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q018** — Which Galaxy tool would you recommend to perform `ashlar`?
+- **imaging-multiplex-tissue-imaging-TMA-q018** — In Galaxy, what tool should I run to assemble a tiled acquisition into a stitched mosaic image for downstream segmentation?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/ashlar/ashlar/1.18.0+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q019** — Which Galaxy tool would you recommend to perform `unet_coreograph`?
+- **imaging-multiplex-tissue-imaging-TMA-q019** — I have tissue microarray core images and want to automatically detect/segment the cores so I can process each core separately. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/coreograph/unet_coreograph/2.2.8+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q020** — Which Galaxy tool would you recommend to perform `unet_coreograph`?
+- **imaging-multiplex-tissue-imaging-TMA-q020** — I need an automated segmentation step that finds tissue cores/regions in multiplex images and outputs a core mask or core boundaries. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/coreograph/unet_coreograph/2.2.8+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q021** — Which Galaxy tool runs unet_coreograph?
+- **imaging-multiplex-tissue-imaging-TMA-q021** — Which Galaxy tool can segment tissue microarray cores in microscopy images and output regions for downstream quantification?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/coreograph/unet_coreograph/2.2.8+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q022** — Which Galaxy tool would you recommend to perform `unet_coreograph`?
+- **imaging-multiplex-tissue-imaging-TMA-q022** — In Galaxy, what tool should I run to identify and segment core regions from a tissue microarray image using a trained model?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/coreograph/unet_coreograph/2.2.8+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q023** — Which Galaxy tool would you recommend to perform `mesmer`?
+- **imaging-multiplex-tissue-imaging-TMA-q023** — I have multiplex tissue images and want to segment nuclei and cell boundaries using a deep-learning model, producing labeled masks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/mesmer/mesmer/0.12.3+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q024** — Which Galaxy tool would you recommend to perform `mesmer`?
+- **imaging-multiplex-tissue-imaging-TMA-q024** — I need cell/nucleus segmentation on multi-channel microscopy images and want a label image output for per-cell quantification. What Galaxy tool can do deep-learning segmentation?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/mesmer/mesmer/0.12.3+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q025** — Which Galaxy tool runs Mesmer segmentation?
+- **imaging-multiplex-tissue-imaging-TMA-q025** — Which Galaxy tool can segment cells (and nuclei) in microscopy images and output labeled masks for downstream measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/mesmer/mesmer/0.12.3+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q026** — Which Galaxy tool would you recommend to perform `mesmer`?
+- **imaging-multiplex-tissue-imaging-TMA-q026** — In Galaxy, what tool should I run to perform model-based cell segmentation on multiplex images and produce label masks?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/mesmer/mesmer/0.12.3+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q027** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
+- **imaging-multiplex-tissue-imaging-TMA-q027** — I have microscopy images in a proprietary format and need to convert them into a standard image format that Galaxy image tools can read. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q028** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
+- **imaging-multiplex-tissue-imaging-TMA-q028** — My imaging data need to be converted (e.g., to OME-TIFF or another standard) before stitching and segmentation. What Galaxy tool can convert microscopy file formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q029** — Which Galaxy tool runs bfconvert (ip_convertimage)?
+- **imaging-multiplex-tissue-imaging-TMA-q029** — Which Galaxy tool can convert microscopy image formats into a standard format suitable for downstream processing and visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q030** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
+- **imaging-multiplex-tissue-imaging-TMA-q030** — In Galaxy, what tool should I run to convert microscopy images to a compatible format for analysis workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q031** — Which Galaxy tool would you recommend to perform `quantification`?
+- **imaging-multiplex-tissue-imaging-TMA-q031** — I have segmented cells in multiplex images and want to quantify marker intensities per cell and output a cell-by-marker table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/quantification/quantification/1.6.0+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q032** — Which Galaxy tool would you recommend to perform `quantification`?
+- **imaging-multiplex-tissue-imaging-TMA-q032** — After segmentation, I need per-cell quantification of signal intensities for multiple channels and a table output for downstream phenotyping. What Galaxy tool can do this quantification?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/quantification/quantification/1.6.0+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q033** — Which Galaxy tool runs the quantification step?
+- **imaging-multiplex-tissue-imaging-TMA-q033** — Which Galaxy tool can compute per-object/per-cell intensity measurements across channels and output a quantification table?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/quantification/quantification/1.6.0+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q034** — Which Galaxy tool would you recommend to perform `quantification`?
+- **imaging-multiplex-tissue-imaging-TMA-q034** — In Galaxy, what tool should I run to quantify multiplex image channels per segmented cell and produce a results matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/perssond/quantification/quantification/1.6.0+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q035** — Which Galaxy tool would you recommend to perform `rename_tiff_channels`?
+- **imaging-multiplex-tissue-imaging-TMA-q035** — I have a multi-channel TIFF where channels have generic names and I want to rename channels to meaningful marker names for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/rename_tiff_channels/rename_tiff_channels/0.0.2+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q036** — Which Galaxy tool would you recommend to perform `rename_tiff_channels`?
+- **imaging-multiplex-tissue-imaging-TMA-q036** — Before analysis, I need consistent channel names in my multi-channel images (e.g., map channel indices to marker labels). What Galaxy tool can rename channels?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/rename_tiff_channels/rename_tiff_channels/0.0.2+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q037** — Which Galaxy tool runs rename_tiff_channels?
+- **imaging-multiplex-tissue-imaging-TMA-q037** — Which Galaxy tool can rename or relabel channels in a multi-channel TIFF so marker identities are preserved in downstream steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/rename_tiff_channels/rename_tiff_channels/0.0.2+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q038** — Which Galaxy tool would you recommend to perform `rename_tiff_channels`?
+- **imaging-multiplex-tissue-imaging-TMA-q038** — In Galaxy, what tool should I run to update channel names in a multi-channel image to match my marker panel?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/rename_tiff_channels/rename_tiff_channels/0.0.2+galaxy1
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q039** — Which Galaxy tool would you recommend to perform `scimap_mcmicro_to_anndata`?
+- **imaging-multiplex-tissue-imaging-TMA-q039** — I have per-cell quantification results from a multiplex imaging pipeline and want to convert them into an AnnData object for single-cell style analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_mcmicro_to_anndata/scimap_mcmicro_to_anndata/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q040** — Which Galaxy tool would you recommend to perform `scimap_mcmicro_to_anndata`?
+- **imaging-multiplex-tissue-imaging-TMA-q040** — My outputs include a cell-by-marker matrix plus spatial coordinates, and I need them packaged into an AnnData file for downstream phenotyping and spatial analysis. What Galaxy tool can convert these outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_mcmicro_to_anndata/scimap_mcmicro_to_anndata/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q041** — Which Galaxy tool runs scimap_mcmicro_to_anndata?
+- **imaging-multiplex-tissue-imaging-TMA-q041** — Which Galaxy tool can convert multiplex-imaging per-cell tables into AnnData format suitable for downstream single-cell/spatial analysis tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_mcmicro_to_anndata/scimap_mcmicro_to_anndata/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q042** — Which Galaxy tool would you recommend to perform `scimap_mcmicro_to_anndata`?
+- **imaging-multiplex-tissue-imaging-TMA-q042** — In Galaxy, what tool should I run to build an AnnData object from multiplex imaging quantification outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_mcmicro_to_anndata/scimap_mcmicro_to_anndata/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q043** — Which Galaxy tool would you recommend to perform `scimap_phenotyping`?
+- **imaging-multiplex-tissue-imaging-TMA-q043** — I have an AnnData object from multiplex imaging (cells x markers) and want to assign cell phenotypes based on marker expression patterns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_phenotyping/scimap_phenotyping/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q044** — Which Galaxy tool would you recommend to perform `scimap_phenotyping`?
+- **imaging-multiplex-tissue-imaging-TMA-q044** — I need to cluster or classify cells into phenotypic groups using a marker expression matrix and output per-cell labels. What Galaxy tool can perform this phenotyping step?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_phenotyping/scimap_phenotyping/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q045** — Which Galaxy tool runs scimap_phenotyping?
+- **imaging-multiplex-tissue-imaging-TMA-q045** — Which Galaxy tool can perform cell phenotyping on multiplex imaging single-cell tables and produce per-cell phenotype annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_phenotyping/scimap_phenotyping/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q046** — Which Galaxy tool would you recommend to perform `scimap_phenotyping`?
+- **imaging-multiplex-tissue-imaging-TMA-q046** — In Galaxy, what tool should I run to label cell types/phenotypes from a cell-by-marker expression table?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/scimap_phenotyping/scimap_phenotyping/2.1.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q047** — Which Galaxy tool would you recommend to perform `vitessce_spatial`?
+- **imaging-multiplex-tissue-imaging-TMA-q047** — I have spatial single-cell data (cell coordinates plus marker expression) and want an interactive web visualization to explore cells on the tissue image. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/vitessce_spatial/vitessce_spatial/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q048** — Which Galaxy tool would you recommend to perform `vitessce_spatial`?
+- **imaging-multiplex-tissue-imaging-TMA-q048** — I want an interactive viewer to explore spatial cell annotations and marker expression on a tissue, including zoom/pan and layer toggles. What Galaxy tool can create that visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/vitessce_spatial/vitessce_spatial/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q049** — Which Galaxy tool runs vitessce_spatial?
+- **imaging-multiplex-tissue-imaging-TMA-q049** — Which Galaxy tool can generate an interactive spatial visualization from an AnnData-like object with coordinates and per-cell features?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/vitessce_spatial/vitessce_spatial/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q050** — Which Galaxy tool would you recommend to perform `vitessce_spatial`?
+- **imaging-multiplex-tissue-imaging-TMA-q050** — In Galaxy, what tool should I run to launch an interactive spatial data viewer for exploring multiplex imaging results?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/vitessce_spatial/vitessce_spatial/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q051** — Which Galaxy tool would you recommend to perform `palom`?
+- **imaging-multiplex-tissue-imaging-TMA-q051** — I have multiplex imaging rounds/channels that need to be registered to each other so the same cells align across images. Which Galaxy tool should I use for image registration?
   - Tools: toolshed.g2.bx.psu.edu/repos/watsocam/palom/palom/2022.8.2+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q052** — Which Galaxy tool would you recommend to perform `palom`?
+- **imaging-multiplex-tissue-imaging-TMA-q052** — My tissue images were acquired in multiple cycles and I need to align them spatially before segmentation and quantification. What Galaxy tool can register the images?
   - Tools: toolshed.g2.bx.psu.edu/repos/watsocam/palom/palom/2022.8.2+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q053** — Which Galaxy tool runs Palom registration?
+- **imaging-multiplex-tissue-imaging-TMA-q053** — Which Galaxy tool can perform registration/alignment of multiplex microscopy images across cycles to correct shifts and distortions?
   - Tools: toolshed.g2.bx.psu.edu/repos/watsocam/palom/palom/2022.8.2+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q054** — Which Galaxy tool would you recommend to perform `palom`?
+- **imaging-multiplex-tissue-imaging-TMA-q054** — In Galaxy, what tool should I run to align multi-round tissue images so downstream cell segmentation uses consistent coordinates?
   - Tools: toolshed.g2.bx.psu.edu/repos/watsocam/palom/palom/2022.8.2+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q055** — Which Galaxy tool would you recommend to perform `scanpy_compute_graph`?
+- **imaging-multiplex-tissue-imaging-TMA-q055** — I have a normalized single-cell expression matrix and want to build a nearest-neighbor graph for downstream clustering and embedding. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q056** — Which Galaxy tool would you recommend to perform `scanpy_compute_graph`?
+- **imaging-multiplex-tissue-imaging-TMA-q056** — From an AnnData object, I need to compute the k-nearest-neighbor graph as input for clustering and UMAP. What Galaxy tool can compute the neighborhood graph?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q057** — Which Galaxy tool runs scanpy_compute_graph?
+- **imaging-multiplex-tissue-imaging-TMA-q057** — Which Galaxy tool can compute a cell-cell neighborhood graph from single-cell data for downstream clustering and visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q058** — Which Galaxy tool would you recommend to perform `scanpy_compute_graph`?
+- **imaging-multiplex-tissue-imaging-TMA-q058** — In Galaxy, what tool should I run to build the kNN graph on an AnnData dataset for later clustering steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q059** — Which Galaxy tool would you recommend to perform `celesta`?
+- **imaging-multiplex-tissue-imaging-TMA-q059** — I have a cell-by-marker expression table from multiplex imaging and want to assign cell types using a reference or marker-based classification model. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/celesta/celesta/0.0.0.9+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q060** — Which Galaxy tool would you recommend to perform `celesta`?
+- **imaging-multiplex-tissue-imaging-TMA-q060** — I need automated cell-type annotation for multiplex imaging single-cell data, producing per-cell labels and confidence scores. What Galaxy tool can do this classification?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/celesta/celesta/0.0.0.9+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q061** — Which Galaxy tool runs Celesta?
+- **imaging-multiplex-tissue-imaging-TMA-q061** — Which Galaxy tool can classify cells into phenotypes from marker expression profiles and output a labeled cell table?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/celesta/celesta/0.0.0.9+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q062** — Which Galaxy tool would you recommend to perform `celesta`?
+- **imaging-multiplex-tissue-imaging-TMA-q062** — In Galaxy, what tool should I run to perform cell-type annotation/classification on multiplex imaging single-cell marker data?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/celesta/celesta/0.0.0.9+galaxy3
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q063** — Which Galaxy tool would you recommend to perform `gate_finder`?
+- **imaging-multiplex-tissue-imaging-TMA-q063** — I have per-cell marker expression data and want to find gating thresholds/regions to separate cell populations (flow-cytometry style). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/gate_finder/gate_finder/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q064** — Which Galaxy tool would you recommend to perform `gate_finder`?
+- **imaging-multiplex-tissue-imaging-TMA-q064** — I need to identify gates that define distinct cell populations from a marker intensity table and export the gating rules. What Galaxy tool can help discover gates?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/gate_finder/gate_finder/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q065** — Which Galaxy tool runs gate_finder?
+- **imaging-multiplex-tissue-imaging-TMA-q065** — Which Galaxy tool can propose gating strategies based on marker expression to partition cells into populations?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/gate_finder/gate_finder/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q066** — Which Galaxy tool would you recommend to perform `gate_finder`?
+- **imaging-multiplex-tissue-imaging-TMA-q066** — In Galaxy, what tool should I run to find gating thresholds for marker-based cell population definitions?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/gate_finder/gate_finder/3.5.1+galaxy0
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q067** — Which Galaxy tool would you recommend to perform `squidpy_spatial`?
+- **imaging-multiplex-tissue-imaging-TMA-q067** — I have spatial single-cell data with coordinates and cell-type labels and want to analyze spatial neighborhoods and cell-cell interactions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/squidpy_spatial/squidpy_spatial/1.5.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q068** — Which Galaxy tool would you recommend to perform `squidpy_spatial`?
+- **imaging-multiplex-tissue-imaging-TMA-q068** — From an AnnData object with spatial coordinates, I want to compute spatial statistics like neighborhood enrichment and co-occurrence. What Galaxy tool can do spatial analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/squidpy_spatial/squidpy_spatial/1.5.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q069** — Which Galaxy tool runs squidpy_spatial?
+- **imaging-multiplex-tissue-imaging-TMA-q069** — Which Galaxy tool can run spatial transcriptomics/imaging analyses on an AnnData dataset with coordinates (neighborhood graphs, spatial metrics)?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/squidpy_spatial/squidpy_spatial/1.5.0+galaxy2
   - Datasets: zenodo.7622545
-- **imaging-multiplex-tissue-imaging-TMA-q070** — Which Galaxy tool would you recommend to perform `squidpy_spatial`?
+- **imaging-multiplex-tissue-imaging-TMA-q070** — In Galaxy, what tool should I run to compute spatial neighborhood metrics and interaction analysis from coordinate-tagged single-cell data?
   - Tools: toolshed.g2.bx.psu.edu/repos/goeckslab/squidpy_spatial/squidpy_spatial/1.5.0+galaxy2
   - Datasets: zenodo.7622545
 
@@ -10920,148 +10920,148 @@ Questions:
 - Datasets (1): zenodo.4567084
 
 Questions:
-- **imaging-object-tracking-using-cell-profiler-q011** — Which Galaxy tool would you recommend to perform `cp_common`?
+- **imaging-object-tracking-using-cell-profiler-q011** — I am building an image analysis workflow and need a utility step that prepares inputs/shared settings for a pipeline of image-processing modules. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q012** — Which Galaxy tool would you recommend to perform `cp_common`?
+- **imaging-object-tracking-using-cell-profiler-q012** — I want to run a modular image-analysis pipeline and need the common initialization/utility component used by several pipeline steps. What Galaxy tool provides this shared setup?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q013** — Which Galaxy tool provides cp_common for CellProfiler pipelines?
+- **imaging-object-tracking-using-cell-profiler-q013** — Which Galaxy tool should I use to provide common utilities and shared resources for running a multi-step image-analysis pipeline in a workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q014** — Which Galaxy tool would you recommend to perform `cp_common`?
+- **imaging-object-tracking-using-cell-profiler-q014** — In Galaxy, what tool can supply shared inputs or helper resources required by multiple image-analysis modules in a workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q015** — Which Galaxy tool would you recommend to perform `cp_color_to_gray`?
+- **imaging-object-tracking-using-cell-profiler-q015** — I have color images and need to convert them to grayscale before segmentation and measurement. Which Galaxy tool should I use to convert color to grayscale?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_color_to_gray/cp_color_to_gray/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q016** — Which Galaxy tool would you recommend to perform `cp_color_to_gray`?
+- **imaging-object-tracking-using-cell-profiler-q016** — My microscopy images are multi-channel/RGB and I want a single grayscale intensity image for object detection. What Galaxy tool can convert to grayscale?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_color_to_gray/cp_color_to_gray/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q017** — Which Galaxy tool runs cp_color_to_gray?
+- **imaging-object-tracking-using-cell-profiler-q017** — Which Galaxy tool can convert a color image into a grayscale image suitable for downstream thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_color_to_gray/cp_color_to_gray/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q018** — Which Galaxy tool would you recommend to perform `cp_color_to_gray`?
+- **imaging-object-tracking-using-cell-profiler-q018** — In Galaxy, what tool should I run to transform color images into grayscale images for analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_color_to_gray/cp_color_to_gray/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q019** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-object-tracking-using-cell-profiler-q019** — I have an archived bundle of images for an object-tracking workflow and need to extract the image files in Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q020** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-object-tracking-using-cell-profiler-q020** — My image-analysis inputs are packaged as a ZIP archive and I want to unpack them into individual image datasets. What Galaxy tool can extract ZIP archives?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q021** — Which Galaxy tool unzips archives?
+- **imaging-object-tracking-using-cell-profiler-q021** — Which Galaxy tool can unpack a ZIP archive of images so the files can be processed by downstream tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q022** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-object-tracking-using-cell-profiler-q022** — In Galaxy, what tool should I run to extract the contents of a ZIP archive into separate datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/0.2
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q023** — Which Galaxy tool would you recommend to perform `cp_identify_primary_objects`?
+- **imaging-object-tracking-using-cell-profiler-q023** — I have microscopy images and want to segment primary objects (e.g., nuclei) to produce labeled masks for measurement. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q024** — Which Galaxy tool would you recommend to perform `cp_identify_primary_objects`?
+- **imaging-object-tracking-using-cell-profiler-q024** — I need to identify individual nuclei/cells in an image and output an object label mask for downstream feature extraction. What Galaxy tool can detect primary objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q025** — Which Galaxy tool runs cp_identify_primary_objects?
+- **imaging-object-tracking-using-cell-profiler-q025** — Which Galaxy tool can segment primary objects in an image and output a labeled object mask suitable for measurements and tracking?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q026** — Which Galaxy tool would you recommend to perform `cp_identify_primary_objects`?
+- **imaging-object-tracking-using-cell-profiler-q026** — In Galaxy, what tool should I run to detect primary objects (like nuclei) from an intensity image and create a label image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q027** — Which Galaxy tool would you recommend to perform `cp_measure_object_size_shape`?
+- **imaging-object-tracking-using-cell-profiler-q027** — I have a labeled object mask and want measurements like area, perimeter, and shape descriptors for each object. Which Galaxy tool should I use to measure size/shape?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q028** — Which Galaxy tool would you recommend to perform `cp_measure_object_size_shape`?
+- **imaging-object-tracking-using-cell-profiler-q028** — After segmentation, I need per-object morphology features (size and shape) in a results table. What Galaxy tool can compute these measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q029** — Which Galaxy tool runs cp_measure_object_size_shape?
+- **imaging-object-tracking-using-cell-profiler-q029** — Which Galaxy tool can calculate size and shape features for labeled objects and output a tabular measurement file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q030** — Which Galaxy tool would you recommend to perform `cp_measure_object_size_shape`?
+- **imaging-object-tracking-using-cell-profiler-q030** — In Galaxy, what tool should I run to measure morphological features of segmented objects (area, eccentricity, etc.)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q031** — Which Galaxy tool would you recommend to perform `cp_measure_object_intensity`?
+- **imaging-object-tracking-using-cell-profiler-q031** — I have segmented objects and want to measure fluorescence intensity statistics per object for one or more channels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q032** — Which Galaxy tool would you recommend to perform `cp_measure_object_intensity`?
+- **imaging-object-tracking-using-cell-profiler-q032** — I need per-object intensity measurements (mean, sum, max) from an intensity image using my object masks. What Galaxy tool can compute object intensities?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q033** — Which Galaxy tool runs cp_measure_object_intensity?
+- **imaging-object-tracking-using-cell-profiler-q033** — Which Galaxy tool can measure intensity features for labeled objects and output a table of per-object intensity metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q034** — Which Galaxy tool would you recommend to perform `cp_measure_object_intensity`?
+- **imaging-object-tracking-using-cell-profiler-q034** — In Galaxy, what tool should I run to compute fluorescence intensity measurements for each segmented object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q035** — Which Galaxy tool would you recommend to perform `cp_track_objects`?
+- **imaging-object-tracking-using-cell-profiler-q035** — I have segmented objects in each frame of a time-lapse experiment and want to link them across frames to generate tracks. Which Galaxy tool should I use for object tracking?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_track_objects/cp_track_objects/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q036** — Which Galaxy tool would you recommend to perform `cp_track_objects`?
+- **imaging-object-tracking-using-cell-profiler-q036** — I need to track cells over time using per-frame object masks and output track IDs and trajectories. What Galaxy tool can associate objects across frames?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_track_objects/cp_track_objects/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q037** — Which Galaxy tool runs cp_track_objects?
+- **imaging-object-tracking-using-cell-profiler-q037** — Which Galaxy tool can link segmented objects between frames in a time series and output tracking results?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_track_objects/cp_track_objects/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q038** — Which Galaxy tool would you recommend to perform `cp_track_objects`?
+- **imaging-object-tracking-using-cell-profiler-q038** — In Galaxy, what tool should I run to track objects across time-lapse frames and produce track assignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_track_objects/cp_track_objects/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q039** — Which Galaxy tool would you recommend to perform `cp_overlay_outlines`?
+- **imaging-object-tracking-using-cell-profiler-q039** — I want to visually validate my segmentation by overlaying object outlines on the original image and saving the composite for inspection. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_overlay_outlines/cp_overlay_outlines/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q040** — Which Galaxy tool would you recommend to perform `cp_overlay_outlines`?
+- **imaging-object-tracking-using-cell-profiler-q040** — After segmentation/tracking, I need a QC image that overlays outlines of detected objects onto the raw image. What Galaxy tool can create this overlay?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_overlay_outlines/cp_overlay_outlines/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q041** — Which Galaxy tool runs cp_overlay_outlines?
+- **imaging-object-tracking-using-cell-profiler-q041** — Which Galaxy tool can overlay segmentation outlines on an image to create a QC visualization of detected objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_overlay_outlines/cp_overlay_outlines/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q042** — Which Galaxy tool would you recommend to perform `cp_overlay_outlines`?
+- **imaging-object-tracking-using-cell-profiler-q042** — In Galaxy, what tool should I run to draw object outlines on top of the original image for quality control?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_overlay_outlines/cp_overlay_outlines/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q043** — Which Galaxy tool would you recommend to perform `cp_tile`?
+- **imaging-object-tracking-using-cell-profiler-q043** — I have many images or frames and want to assemble them into a tiled montage for quick visual inspection. Which Galaxy tool should I use to tile images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_tile/cp_tile/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q044** — Which Galaxy tool would you recommend to perform `cp_tile`?
+- **imaging-object-tracking-using-cell-profiler-q044** — I need a single overview image that arranges multiple images in a grid so I can compare samples. What Galaxy tool can create a tiled montage?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_tile/cp_tile/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q045** — Which Galaxy tool runs cp_tile?
+- **imaging-object-tracking-using-cell-profiler-q045** — Which Galaxy tool can tile a set of images into a grid/montage output for visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_tile/cp_tile/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q046** — Which Galaxy tool would you recommend to perform `cp_tile`?
+- **imaging-object-tracking-using-cell-profiler-q046** — In Galaxy, what tool should I run to combine multiple images into a tiled layout image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_tile/cp_tile/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q047** — Which Galaxy tool would you recommend to perform `cp_save_images`?
+- **imaging-object-tracking-using-cell-profiler-q047** — I ran an image-analysis pipeline and want to save intermediate or final images (e.g., masks, overlays) as output files. Which Galaxy tool should I use to save images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q048** — Which Galaxy tool would you recommend to perform `cp_save_images`?
+- **imaging-object-tracking-using-cell-profiler-q048** — I need to export processed images from my workflow (segmentation masks and QC overlays) as separate image files. What Galaxy tool can write out images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q049** — Which Galaxy tool runs cp_save_images?
+- **imaging-object-tracking-using-cell-profiler-q049** — Which Galaxy tool can save pipeline-generated images (processed outputs) to disk as image datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q050** — Which Galaxy tool would you recommend to perform `cp_save_images`?
+- **imaging-object-tracking-using-cell-profiler-q050** — In Galaxy, what tool should I run to write processed images from an analysis pipeline as output datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q051** — Which Galaxy tool would you recommend to perform `cp_export_to_spreadsheet`?
+- **imaging-object-tracking-using-cell-profiler-q051** — I have per-object measurements from an image-analysis pipeline and want to export them as a spreadsheet-like table for downstream statistics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q052** — Which Galaxy tool would you recommend to perform `cp_export_to_spreadsheet`?
+- **imaging-object-tracking-using-cell-profiler-q052** — After measuring objects, I need to export results to a tabular file (CSV/TSV) that I can plot and analyze. What Galaxy tool can export measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q053** — Which Galaxy tool runs cp_export_to_spreadsheet?
+- **imaging-object-tracking-using-cell-profiler-q053** — Which Galaxy tool can export image-analysis measurement results to a spreadsheet-style table dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q054** — Which Galaxy tool would you recommend to perform `cp_export_to_spreadsheet`?
+- **imaging-object-tracking-using-cell-profiler-q054** — In Galaxy, what tool should I run to write per-object measurement results into a tabular output file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy1
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q055** — Which Galaxy tool would you recommend to perform `cp_cellprofiler`?
+- **imaging-object-tracking-using-cell-profiler-q055** — I have an image-analysis pipeline file and want to execute the full pipeline on my set of images to produce segmentations and measurements. Which Galaxy tool should I use to run the pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q056** — Which Galaxy tool would you recommend to perform `cp_cellprofiler`?
+- **imaging-object-tracking-using-cell-profiler-q056** — I need to run a pre-defined modular image-analysis workflow on a batch of microscopy images and collect the outputs. What Galaxy tool can execute the pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q057** — Which Galaxy tool runs cp_cellprofiler?
+- **imaging-object-tracking-using-cell-profiler-q057** — Which Galaxy tool can run a full image-analysis pipeline on input images and produce the configured outputs (masks, measurements, QC images)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0
   - Datasets: zenodo.4567084
-- **imaging-object-tracking-using-cell-profiler-q058** — Which Galaxy tool would you recommend to perform `cp_cellprofiler`?
+- **imaging-object-tracking-using-cell-profiler-q058** — In Galaxy, what tool should I run to execute an image-analysis pipeline end-to-end on my image dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0
   - Datasets: zenodo.4567084
 
@@ -11071,52 +11071,52 @@ Questions:
 - Datasets (1): 14205500
 
 Questions:
-- **imaging-omero-suite-q011** — Which Galaxy tool would you recommend to perform `omero_import`?
+- **imaging-omero-suite-q011** — I want to import microscopy images from a remote image-management server into my Galaxy history for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_import/omero_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q012** — Which Galaxy tool would you recommend to perform `omero_import`?
+- **imaging-omero-suite-q012** — My images are stored on an external imaging server and I need to bring selected images into Galaxy as datasets. What Galaxy tool can import them?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_import/omero_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q013** — Which Galaxy tool runs omero_import?
+- **imaging-omero-suite-q013** — Which Galaxy tool can connect to an external image repository and import microscopy images into Galaxy for downstream workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_import/omero_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q014** — Which Galaxy tool would you recommend to perform `omero_import`?
+- **imaging-omero-suite-q014** — In Galaxy, what tool should I run to import images from a remote image server into my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_import/omero_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q015** — Which Galaxy tool would you recommend to perform `omero_metadata_import`?
+- **imaging-omero-suite-q015** — I imported microscopy images and now want to bring associated metadata (channels, acquisition info, annotations) into Galaxy as a table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_metadata_import/omero_metadata_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q016** — Which Galaxy tool would you recommend to perform `omero_metadata_import`?
+- **imaging-omero-suite-q016** — I need image metadata exported from the remote imaging repository so I can filter and track samples in my analysis. What Galaxy tool can import image metadata?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_metadata_import/omero_metadata_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q017** — Which Galaxy tool runs omero_metadata_import?
+- **imaging-omero-suite-q017** — Which Galaxy tool can import microscopy image metadata from an external image server and output it as structured tabular data?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_metadata_import/omero_metadata_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q018** — Which Galaxy tool would you recommend to perform `omero_metadata_import`?
+- **imaging-omero-suite-q018** — In Galaxy, what tool should I run to retrieve and import image metadata for my imported imaging datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_metadata_import/omero_metadata_import/5.18.0+galaxy3
   - Datasets: 14205500
-- **imaging-omero-suite-q019** — Which Galaxy tool would you recommend to perform `omero_roi_import`?
+- **imaging-omero-suite-q019** — I have region-of-interest annotations stored on an external imaging server and want to import them into Galaxy for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_roi_import/omero_roi_import/5.18.0+galaxy4
   - Datasets: 14205500
-- **imaging-omero-suite-q020** — Which Galaxy tool would you recommend to perform `omero_roi_import`?
+- **imaging-omero-suite-q020** — I need to retrieve ROI annotations (polygons/points) linked to microscopy images from a remote image repository and use them downstream. What Galaxy tool can import ROIs?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_roi_import/omero_roi_import/5.18.0+galaxy4
   - Datasets: 14205500
-- **imaging-omero-suite-q021** — Which Galaxy tool runs omero_roi_import?
+- **imaging-omero-suite-q021** — Which Galaxy tool can import ROI annotations from an external image server so I can use them for measurements and visualization in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_roi_import/omero_roi_import/5.18.0+galaxy4
   - Datasets: 14205500
-- **imaging-omero-suite-q022** — Which Galaxy tool would you recommend to perform `omero_roi_import`?
+- **imaging-omero-suite-q022** — In Galaxy, what tool should I run to import ROI annotations associated with imaging datasets from a remote repository?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_roi_import/omero_roi_import/5.18.0+galaxy4
   - Datasets: 14205500
-- **imaging-omero-suite-q023** — Which Galaxy tool would you recommend to perform `omero_get_id`?
+- **imaging-omero-suite-q023** — I need to look up the internal identifiers for images/datasets stored on a remote imaging repository so I can reference the correct items in later import steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_id/omero_get_id/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q024** — Which Galaxy tool would you recommend to perform `omero_get_id`?
+- **imaging-omero-suite-q024** — I want to retrieve a list of image IDs from an external image server (e.g., based on project/dataset selection) so I can download those images. What Galaxy tool can get the IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_id/omero_get_id/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q025** — Which Galaxy tool runs omero_get_id?
+- **imaging-omero-suite-q025** — Which Galaxy tool can query an external imaging repository and return the IDs of images or datasets that I can then import into Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_id/omero_get_id/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q026** — Which Galaxy tool would you recommend to perform `omero_get_id`?
+- **imaging-omero-suite-q026** — In Galaxy, what tool should I run to obtain image identifiers from a remote image-management system for downstream import tasks?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_id/omero_get_id/5.18.0+galaxy0
   - Datasets: 14205500
 - **imaging-omero-suite-q027** — Which Galaxy tool would you recommend to perform `omero_get_value`?
