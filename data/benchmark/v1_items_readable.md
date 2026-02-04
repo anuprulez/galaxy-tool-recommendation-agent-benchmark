@@ -9671,58 +9671,58 @@ Questions:
 - **genome-annotation-gene-centric-q056** — I need to align several sequences from a gene family and obtain an MSA output for downstream tree building. What Galaxy tool can perform this multiple alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q057** — Which Galaxy tool runs MAFFT for multiple sequence alignment?
+- **genome-annotation-gene-centric-q057** — Which Galaxy tool should I use to build a multiple sequence alignment from a FASTA file of homologous sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q058** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **genome-annotation-gene-centric-q058** — In Galaxy, what tool can align a set of nucleotide or protein sequences and output an MSA for downstream tree inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q059** — Which Galaxy tool would you recommend to perform `rapidnj`?
+- **genome-annotation-gene-centric-q059** — I have a multiple sequence alignment and want to infer a phylogenetic tree quickly to compare related sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q060** — Which Galaxy tool would you recommend to perform `rapidnj`?
+- **genome-annotation-gene-centric-q060** — After aligning sequences, I need a neighbor-joining style tree file I can visualize and compare. What Galaxy tool can build that tree?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q061** — Which Galaxy tool runs RapidNJ for tree inference?
+- **genome-annotation-gene-centric-q061** — Which Galaxy tool can take an alignment and produce a distance-based phylogenetic tree in Newick format?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q062** — Which Galaxy tool would you recommend to perform `rapidnj`?
+- **genome-annotation-gene-centric-q062** — In Galaxy, what tool should I run to infer a fast distance-based tree from an MSA for exploratory analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q063** — Which Galaxy tool would you recommend to perform `cat1`?
+- **genome-annotation-gene-centric-q063** — I have several small text or TSV files and need to combine them into one dataset for downstream analysis. Which Galaxy tool should I use to concatenate them?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q064** — Which Galaxy tool would you recommend to perform `cat1`?
+- **genome-annotation-gene-centric-q064** — My workflow produced multiple outputs that I want to append together into a single file without changing the content. What Galaxy tool can do that?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q065** — Which Galaxy tool concatenates datasets (cat)?
+- **genome-annotation-gene-centric-q065** — Which Galaxy tool can join multiple plain-text datasets into one combined file in the order I choose?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q066** — Which Galaxy tool would you recommend to perform `cat1`?
+- **genome-annotation-gene-centric-q066** — In Galaxy, what tool should I run to concatenate datasets into a single output dataset?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q067** — Which Galaxy tool would you recommend to perform `orfipy`?
+- **genome-annotation-gene-centric-q067** — I have nucleotide sequences and want to find candidate open reading frames and export their coordinates and translated sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/orfipy/orfipy/0.0.4+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q068** — Which Galaxy tool would you recommend to perform `orfipy`?
+- **genome-annotation-gene-centric-q068** — I need to scan a FASTA for putative ORFs (with start/stop codons) and get a summary plus extracted sequences. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/orfipy/orfipy/0.0.4+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q069** — Which Galaxy tool runs orfipy for ORF detection?
+- **genome-annotation-gene-centric-q069** — Which Galaxy tool can detect open reading frames in nucleotide FASTA and output the predicted ORFs as sequences or annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/orfipy/orfipy/0.0.4+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q070** — Which Galaxy tool would you recommend to perform `orfipy`?
+- **genome-annotation-gene-centric-q070** — In Galaxy, what tool should I run to identify ORFs in a set of contigs and produce ORF FASTA outputs for downstream searches?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/orfipy/orfipy/0.0.4+galaxy2
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q071** — Which Galaxy tool would you recommend to perform `bg_diamond_makedb`?
+- **genome-annotation-gene-centric-q071** — I have a FASTA of reference protein sequences and want to create a searchable database for fast protein similarity searches. Which Galaxy tool should I use to build the database?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.0.8
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q072** — Which Galaxy tool would you recommend to perform `bg_diamond_makedb`?
+- **genome-annotation-gene-centric-q072** — Before running a fast protein database search, I need to index my reference sequences into a database format. What Galaxy tool can prepare that database?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.0.8
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q073** — Which Galaxy tool runs diamond makedb?
+- **genome-annotation-gene-centric-q073** — Which Galaxy tool can build a protein sequence database from a FASTA so it can be used as the target for rapid similarity searching?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.0.8
   - Datasets: 7034885
-- **genome-annotation-gene-centric-q074** — Which Galaxy tool would you recommend to perform `bg_diamond_makedb`?
+- **genome-annotation-gene-centric-q074** — In Galaxy, what tool should I run to create an indexed database from protein FASTA input for downstream alignment tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond_makedb/2.0.8
   - Datasets: 7034885
 
@@ -9732,88 +9732,88 @@ Questions:
 - Datasets (1): 7867921
 
 Questions:
-- **genome-annotation-helixer-q011** — Which Galaxy tool would you recommend to perform `helixer`?
+- **genome-annotation-helixer-q011** — I have a eukaryotic genome assembly and want de novo gene predictions from the sequence alone, producing a gene annotation file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q012** — Which Galaxy tool would you recommend to perform `helixer`?
+- **genome-annotation-helixer-q012** — I need an automated gene prediction method that does not require RNA evidence and outputs predicted gene models on my genome. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q013** — Which Galaxy tool executes Helixer for gene prediction?
+- **genome-annotation-helixer-q013** — Which Galaxy tool can predict genes on a eukaryotic genome assembly using only the genome sequence and output gene models for comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q014** — Which Galaxy tool would you recommend to perform `helixer`?
+- **genome-annotation-helixer-q014** — In Galaxy, what tool should I run to generate de novo gene models on a genome when I do not have transcript evidence?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q015** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-helixer-q015** — I want to assess how complete my genome annotation is by checking for expected conserved single-copy orthologs and getting a summary report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 7867921
-- **genome-annotation-helixer-q016** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-helixer-q016** — After gene prediction, I have a proteome FASTA and need a completeness report (complete/duplicated/fragmented/missing) against conserved gene sets. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 7867921
-- **genome-annotation-helixer-q017** — Which Galaxy tool runs BUSCO for completeness assessment?
+- **genome-annotation-helixer-q017** — Which Galaxy tool can evaluate genome or proteome completeness using conserved ortholog sets and output a standard summary table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 7867921
-- **genome-annotation-helixer-q018** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-helixer-q018** — In Galaxy, what tool should I run to benchmark completeness of an assembly or predicted proteins using conserved genes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 7867921
-- **genome-annotation-helixer-q019** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-helixer-q019** — I have a genome FASTA and a GFF or GTF annotation and want to extract transcript sequences or CDS sequences as FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q020** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-helixer-q020** — I need to derive transcript and coding sequences from an annotation file so I can evaluate predicted proteins. What Galaxy tool can generate these sequences from GFF/GTF plus genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q021** — Which Galaxy tool runs gffread on annotation files?
+- **genome-annotation-helixer-q021** — Which Galaxy tool can read a GFF/GTF and genome FASTA and output corresponding transcript or CDS FASTA sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q022** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-helixer-q022** — In Galaxy, what tool should I run to convert an annotation into extracted sequence FASTA outputs for downstream alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q023** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-helixer-q023** — I have a GFF3 gene annotation and want summary statistics like number of genes, transcripts, exons, and length distributions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q024** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-helixer-q024** — I need a quick QC report for a genome annotation file, including counts of features and basic length summaries. What Galaxy tool can compute these GFF statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q025** — Which Galaxy tool runs jcvi gff stats?
+- **genome-annotation-helixer-q025** — Which Galaxy tool can compute descriptive statistics from a GFF3 annotation to help me sanity-check gene model counts and lengths?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q026** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-helixer-q026** — In Galaxy, what tool should I run to summarize an annotation GFF3 with feature counts and basic metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q027** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-helixer-q027** — I have a genome assembly and a GFF3 annotation and want to browse gene models as tracks along the reference in an interactive genome viewer. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q028** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-helixer-q028** — I want to visually inspect predicted genes and evidence tracks on my genome to spot suspicious models. What Galaxy tool provides an interactive track viewer?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q029** — Which Galaxy tool opens JBrowse for genome visualization?
+- **genome-annotation-helixer-q029** — Which Galaxy tool can open an interactive genome browser where I can load a reference sequence and multiple annotation/alignment tracks?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q030** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-helixer-q030** — In Galaxy, what tool should I run to visualize genome features and evidence as tracks for manual inspection?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 7867921
-- **genome-annotation-helixer-q031** — Which Galaxy tool would you recommend to perform `omark`?
+- **genome-annotation-helixer-q031** — I have a predicted proteome and want an ortholog-based diagnostic report to assess annotation quality and identify missing conserved functions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q032** — Which Galaxy tool would you recommend to perform `omark`?
+- **genome-annotation-helixer-q032** — After gene prediction, I need a report that summarizes conserved-ortholog coverage and highlights problematic protein predictions. What Galaxy tool can do this assessment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q033** — Which Galaxy tool runs OMARK for annotation assessment?
+- **genome-annotation-helixer-q033** — Which Galaxy tool can evaluate a proteome against conserved ortholog groups and produce summary metrics and diagnostic outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q034** — Which Galaxy tool would you recommend to perform `omark`?
+- **genome-annotation-helixer-q034** — In Galaxy, what tool should I run to generate an ortholog-based annotation quality assessment report for predicted proteins?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 7867921
-- **genome-annotation-helixer-q035** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`?
+- **genome-annotation-helixer-q035** — I want to compare two annotation runs and need consistent summary metrics computed from each GFF3 file (feature counts and length summaries). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q036** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`?
+- **genome-annotation-helixer-q036** — I have a GFF3 annotation and want a statistics table describing gene and exon counts and lengths so I can benchmark annotation outputs. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q037** — Which Galaxy tool corresponds to the view/iuc jcvi_gff_stats for GFF summaries?
+- **genome-annotation-helixer-q037** — Which Galaxy tool can summarize a GFF3 annotation into counts and basic length metrics for reporting and comparison?
   - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
-- **genome-annotation-helixer-q038** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`?
+- **genome-annotation-helixer-q038** — In Galaxy, what tool should I run to compute QC statistics from a GFF3 gene annotation file?
   - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 
@@ -9823,52 +9823,52 @@ Questions:
 - Datasets (1): zenodo.4485547
 
 Questions:
-- **genome-annotation-hpc-for-lsgc-q011** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-hpc-for-lsgc-q011** — I have predicted proteins from a genome project and want a conserved-gene completeness report so I can compare runs across species. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q012** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-hpc-for-lsgc-q012** — For a genome assembly or annotation, I need an ortholog-based completeness assessment and a list of missing genes. What Galaxy tool can produce that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q013** — Which Galaxy tool runs BUSCO for completeness checks?
+- **genome-annotation-hpc-for-lsgc-q013** — Which Galaxy tool should I use to run a conserved-gene completeness check and export the detailed results for downstream comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q014** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-hpc-for-lsgc-q014** — In Galaxy, what tool can generate a conserved-ortholog completeness report suitable for quality control of assemblies or annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q015** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **genome-annotation-hpc-for-lsgc-q015** — I have sequencing reads from a mixed sample and want to classify them taxonomically to identify potential contamination. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q016** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **genome-annotation-hpc-for-lsgc-q016** — I need a taxonomic classification report for my reads or contigs, including counts by species or genus. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q017** — Which Galaxy tool performs Kraken2 classification?
+- **genome-annotation-hpc-for-lsgc-q017** — Which Galaxy tool can assign taxonomy to sequencing data using a k-mer database and output classification summaries?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q018** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **genome-annotation-hpc-for-lsgc-q018** — In Galaxy, what tool should I run to taxonomically classify reads and generate an abundance report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q019** — Which Galaxy tool would you recommend to perform `multicore_blast`?
+- **genome-annotation-hpc-for-lsgc-q019** — I have many query sequences and want to run database similarity searches faster by using multiple CPU cores. Which Galaxy tool should I use to parallelize sequence database searches?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q020** — Which Galaxy tool would you recommend to perform `multicore_blast`?
+- **genome-annotation-hpc-for-lsgc-q020** — I need to search a large set of sequences against a database and would like a multi-core accelerated run with the usual alignment outputs. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q021** — Which Galaxy tool runs multicore BLAST?
+- **genome-annotation-hpc-for-lsgc-q021** — Which Galaxy tool can run sequence similarity searches using multiple cores to speed up large protein or nucleotide query sets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q022** — Which Galaxy tool would you recommend to perform `multicore_blast`?
+- **genome-annotation-hpc-for-lsgc-q022** — In Galaxy, what tool should I run for a parallelized database search when the single-core search is too slow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q023** — Which Galaxy tool would you recommend to perform `fastk`?
+- **genome-annotation-hpc-for-lsgc-q023** — I have sequencing reads and want a k-mer count/histogram to estimate genome size and heterozygosity. Which Galaxy tool should I use to compute k-mer spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q024** — Which Galaxy tool would you recommend to perform `fastk`?
+- **genome-annotation-hpc-for-lsgc-q024** — For QC of my sequencing data, I need to count k-mers and export a k-mer frequency table or histogram. What Galaxy tool can do k-mer counting?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q025** — Which Galaxy tool runs FastK?
+- **genome-annotation-hpc-for-lsgc-q025** — Which Galaxy tool can compute k-mer statistics from reads and output a histogram for downstream genome profiling?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q026** — Which Galaxy tool would you recommend to perform `fastk`?
+- **genome-annotation-hpc-for-lsgc-q026** — In Galaxy, what tool should I run to generate k-mer frequency information from sequencing reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
   - Datasets: zenodo.4485547
 
@@ -9878,64 +9878,64 @@ Questions:
 - Datasets (1): 11367439
 
 Questions:
-- **genome-annotation-lncrna-q011** — Which Galaxy tool would you recommend to perform `stringtie`?
+- **genome-annotation-lncrna-q011** — I have RNA-seq read alignments to a genome and want to assemble transcripts and estimate expression levels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.2.3+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q012** — Which Galaxy tool would you recommend to perform `stringtie`?
+- **genome-annotation-lncrna-q012** — From spliced RNA alignments, I need a transcriptome assembly (GTF) and per-transcript abundance estimates. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.2.3+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q013** — Which Galaxy tool runs StringTie transcript assembly?
+- **genome-annotation-lncrna-q013** — Which Galaxy tool can assemble transcripts from RNA-seq alignments and output transcript models plus expression quantification?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.2.3+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q014** — Which Galaxy tool would you recommend to perform `stringtie`?
+- **genome-annotation-lncrna-q014** — In Galaxy, what tool should I run to reconstruct transcripts from RNA alignments and produce expression tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.2.3+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q015** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-lncrna-q015** — I have transcript models in GTF and want to export a transcript FASTA for downstream lncRNA classification. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q016** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-lncrna-q016** — From my genome and transcript annotation, I want a FASTA of transcript sequences to compute coding potential. What Galaxy tool can generate that FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q017** — Which Galaxy tool runs gffread on transcript annotations?
+- **genome-annotation-lncrna-q017** — Which Galaxy tool can take transcript annotations and a reference genome and output transcript sequences in FASTA format?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q018** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-lncrna-q018** — In Galaxy, what tool should I run to extract sequences defined by a GFF/GTF annotation from the genome FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q019** — Which Galaxy tool would you recommend to perform `feelnc`?
+- **genome-annotation-lncrna-q019** — I have transcript sequences and want to classify them as likely long non-coding RNAs versus protein-coding based on coding potential. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/feelnc/feelnc/0.2.1+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q020** — Which Galaxy tool would you recommend to perform `feelnc`?
+- **genome-annotation-lncrna-q020** — After transcript assembly, I need a coding-potential based lncRNA identification step with a classification output. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/feelnc/feelnc/0.2.1+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q021** — Which Galaxy tool executes FEELnc?
+- **genome-annotation-lncrna-q021** — Which Galaxy tool can predict coding potential for transcripts and separate candidate lncRNAs from coding transcripts?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/feelnc/feelnc/0.2.1+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q022** — Which Galaxy tool would you recommend to perform `feelnc`?
+- **genome-annotation-lncrna-q022** — In Galaxy, what tool should I run to identify putative lncRNAs from a transcriptome assembly using coding potential metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/feelnc/feelnc/0.2.1+galaxy0
   - Datasets: 11367439
-- **genome-annotation-lncrna-q023** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **genome-annotation-lncrna-q023** — I have multiple text datasets that I want to concatenate into one file as part of a workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 11367439
-- **genome-annotation-lncrna-q024** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **genome-annotation-lncrna-q024** — My analysis produced several small outputs and I need a single combined file by appending them. What Galaxy tool can concatenate text datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 11367439
-- **genome-annotation-lncrna-q025** — Which Galaxy tool concatenates files (tp_cat)?
+- **genome-annotation-lncrna-q025** — Which Galaxy tool can concatenate multiple datasets into a single text output dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 11367439
-- **genome-annotation-lncrna-q026** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **genome-annotation-lncrna-q026** — In Galaxy, what tool should I run to append several text files into one dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 11367439
-- **genome-annotation-lncrna-q027** — Which Galaxy tool would you recommend to perform `Extract_features1`?
+- **genome-annotation-lncrna-q027** — I have a GFF3 annotation and want to extract only specific feature types (e.g., transcripts or exons) into a new annotation file. Which Galaxy tool should I use?
   - Tools: Extract_features1
   - Datasets: 11367439
-- **genome-annotation-lncrna-q028** — Which Galaxy tool would you recommend to perform `Extract_features1`?
+- **genome-annotation-lncrna-q028** — My annotation file contains many feature records and I need to subset it by feature type or attribute for downstream analysis. What Galaxy tool can extract selected features?
   - Tools: Extract_features1
   - Datasets: 11367439
-- **genome-annotation-lncrna-q029** — Which Galaxy tool extracts features from GFF files?
+- **genome-annotation-lncrna-q029** — Which Galaxy tool can filter an annotation file to keep only desired features and output a new GFF with those records?
   - Tools: Extract_features1
   - Datasets: 11367439
-- **genome-annotation-lncrna-q030** — Which Galaxy tool would you recommend to perform `Extract_features1`?
+- **genome-annotation-lncrna-q030** — In Galaxy, what tool should I run to extract a subset of features from a GFF/GTF annotation file?
   - Tools: Extract_features1
   - Datasets: 11367439
 
@@ -9945,52 +9945,52 @@ Questions:
 - Datasets (1): 7085837
 
 Questions:
-- **genome-annotation-repeatmasker-q011** — Which Galaxy tool would you recommend to perform `repeatmasker`?
+- **genome-annotation-repeatmasker-q011** — I have a genome assembly and want to identify and mask repetitive elements so they do not confound downstream gene prediction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q012** — Which Galaxy tool would you recommend to perform `repeatmasker`?
+- **genome-annotation-repeatmasker-q012** — Before annotation, I need a repeat annotation and masking step on my genome sequence and want outputs like masked FASTA and repeat coordinates. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q013** — Which Galaxy tool runs RepeatMasker?
+- **genome-annotation-repeatmasker-q013** — Which Galaxy tool can scan a genome for repeats/transposable elements and produce masked sequence plus repeat annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q014** — Which Galaxy tool would you recommend to perform `repeatmasker`?
+- **genome-annotation-repeatmasker-q014** — In Galaxy, what tool should I run to detect repetitive DNA in a genome assembly and generate a masked genome for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q015** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **genome-annotation-repeatmasker-q015** — I have two sets of genomic intervals and want to find overlaps so I can annotate one set with the other. Which Galaxy tool should I use to compute interval intersections?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q016** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **genome-annotation-repeatmasker-q016** — I need to intersect two BED-like files and output overlapping regions or matched records. What Galaxy tool can compute overlaps between interval datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q017** — Which Galaxy tool performs bedtools intersect?
+- **genome-annotation-repeatmasker-q017** — Which Galaxy tool can compute overlaps between two genomic feature interval datasets and return the intersecting entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q018** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **genome-annotation-repeatmasker-q018** — In Galaxy, what tool should I run to find intersecting genomic intervals between two coordinate files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q019** — Which Galaxy tool would you recommend to perform `bedtools_complementbed`?
+- **genome-annotation-repeatmasker-q019** — I have a genome coordinate file of regions to exclude and want the remaining regions (the complement) across the reference. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q020** — Which Galaxy tool would you recommend to perform `bedtools_complementbed`?
+- **genome-annotation-repeatmasker-q020** — Given intervals on a reference genome, I want to compute the regions not covered by those intervals and output them as a new interval file. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q021** — Which Galaxy tool runs bedtools complement?
+- **genome-annotation-repeatmasker-q021** — Which Galaxy tool can compute the complement of a set of genomic intervals relative to the full reference and output uncovered regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q022** — Which Galaxy tool would you recommend to perform `bedtools_complementbed`?
+- **genome-annotation-repeatmasker-q022** — In Galaxy, what tool should I run to calculate non-covered genomic regions from an interval file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.31.1+galaxy0
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q023** — Which Galaxy tool would you recommend to perform `bedtools_mergebed`?
+- **genome-annotation-repeatmasker-q023** — I have a BED-like file with overlapping or adjacent intervals and want to merge them into non-redundant combined intervals. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q024** — Which Galaxy tool would you recommend to perform `bedtools_mergebed`?
+- **genome-annotation-repeatmasker-q024** — My genomic interval list has many overlapping segments and I need a merged set of intervals for simpler downstream analysis. What Galaxy tool can merge intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q025** — Which Galaxy tool runs bedtools merge?
+- **genome-annotation-repeatmasker-q025** — Which Galaxy tool can merge overlapping/nearby genomic intervals and output a consolidated interval dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 7085837
-- **genome-annotation-repeatmasker-q026** — Which Galaxy tool would you recommend to perform `bedtools_mergebed`?
+- **genome-annotation-repeatmasker-q026** — In Galaxy, what tool should I run to merge overlapping coordinates into a single set of non-overlapping intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 7085837
 
@@ -10000,160 +10000,160 @@ Questions:
 - Datasets (1): 10652998
 
 Questions:
-- **genome-annotation-secondary-metabolite-discovery-q011** — Which Galaxy tool would you recommend to perform `ncbi_acc_download`?
+- **genome-annotation-secondary-metabolite-discovery-q011** — I have a list of public NCBI sequence identifiers and want to download the corresponding sequences directly into my Galaxy history. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.8+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q012** — Which Galaxy tool would you recommend to perform `ncbi_acc_download`?
+- **genome-annotation-secondary-metabolite-discovery-q012** — I need to fetch sequences from NCBI using a list of identifiers (one per line) instead of uploading files manually. What Galaxy tool can do this download?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.8+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q013** — Which Galaxy tool runs NCBI accession download?
+- **genome-annotation-secondary-metabolite-discovery-q013** — Which Galaxy tool can retrieve sequences from NCBI given a list of IDs and output them as FASTA datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.8+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q014** — Which Galaxy tool would you recommend to perform `ncbi_acc_download`?
+- **genome-annotation-secondary-metabolite-discovery-q014** — In Galaxy, what tool should I run to download sequences from NCBI using an input list of identifiers?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.8+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q015** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **genome-annotation-secondary-metabolite-discovery-q015** — I have a set of molecules and want to generate molecular fingerprints so I can do similarity searching and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q016** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **genome-annotation-secondary-metabolite-discovery-q016** — My chemical structures are in a molecule file and I need to convert them into fingerprint vectors for downstream similarity analysis. What Galaxy tool can create fingerprints?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q017** — Which Galaxy tool runs chemfp mol2fps?
+- **genome-annotation-secondary-metabolite-discovery-q017** — Which Galaxy tool can convert a molecule dataset into fingerprints suitable for similarity search (e.g., Tanimoto comparisons)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q018** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **genome-annotation-secondary-metabolite-discovery-q018** — In Galaxy, what tool should I run to compute molecular fingerprints from chemical structures for downstream screening?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q019** — Which Galaxy tool would you recommend to perform `antismash`?
+- **genome-annotation-secondary-metabolite-discovery-q019** — I have a bacterial or fungal genome sequence and want to predict secondary metabolite biosynthetic gene clusters and get annotated cluster regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/antismash/antismash/6.1.1+galaxy1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q020** — Which Galaxy tool would you recommend to perform `antismash`?
+- **genome-annotation-secondary-metabolite-discovery-q020** — I need to scan a genome for biosynthetic gene clusters and produce a report with predicted cluster types and coordinates. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/antismash/antismash/6.1.1+galaxy1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q021** — Which Galaxy tool executes antiSMASH?
+- **genome-annotation-secondary-metabolite-discovery-q021** — Which Galaxy tool can identify secondary-metabolite biosynthetic gene clusters in a genome and output annotated clusters and summaries?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/antismash/antismash/6.1.1+galaxy1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q022** — Which Galaxy tool would you recommend to perform `antismash`?
+- **genome-annotation-secondary-metabolite-discovery-q022** — In Galaxy, what tool should I run to detect and annotate biosynthetic gene clusters from a genome assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/antismash/antismash/6.1.1+galaxy1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q023** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **genome-annotation-secondary-metabolite-discovery-q023** — I have a dataset collection of results and want to collapse it into a single dataset for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q024** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **genome-annotation-secondary-metabolite-discovery-q024** — After mapping a workflow over a collection, I need one merged dataset by stacking/concatenating all elements. What Galaxy tool can collapse the collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q025** — Which Galaxy tool collapses a dataset collection?
+- **genome-annotation-secondary-metabolite-discovery-q025** — Which Galaxy tool can take a dataset collection and produce a single combined dataset output?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q026** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **genome-annotation-secondary-metabolite-discovery-q026** — In Galaxy, what tool should I run to collapse a list collection into one dataset so single-dataset tools can be used next?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q027** — Which Galaxy tool would you recommend to perform `interactive_tool_jupyter_notebook`?
+- **genome-annotation-secondary-metabolite-discovery-q027** — I want to do interactive exploratory analysis on my results (plots, quick calculations, custom scripts) inside Galaxy using a browser-based notebook environment. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q028** — Which Galaxy tool would you recommend to perform `interactive_tool_jupyter_notebook`?
+- **genome-annotation-secondary-metabolite-discovery-q028** — I need an interactive coding environment in Galaxy to inspect and visualize my datasets with Python and notebooks. What Galaxy tool can launch that?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q029** — Which Galaxy tool launches the Jupyter Notebook interactive environment?
+- **genome-annotation-secondary-metabolite-discovery-q029** — Which Galaxy tool can start an interactive notebook session connected to my Galaxy history for custom analysis and plotting?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q030** — Which Galaxy tool would you recommend to perform `interactive_tool_jupyter_notebook`?
+- **genome-annotation-secondary-metabolite-discovery-q030** — In Galaxy, what tool should I run to launch an interactive notebook workspace for data exploration and visualization?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q031** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **genome-annotation-secondary-metabolite-discovery-q031** — I have a TSV and need custom row-wise transformations (select columns, compute derived values, reformat fields) without writing a full script. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q032** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **genome-annotation-secondary-metabolite-discovery-q032** — My tabular dataset needs flexible text processing rules applied per row to reshape it for downstream steps. What Galaxy tool can do this kind of table manipulation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q033** — Which Galaxy tool provides awk-based table processing?
+- **genome-annotation-secondary-metabolite-discovery-q033** — Which Galaxy tool can apply simple expressions to transform a tabular dataset and output a modified TSV?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q034** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **genome-annotation-secondary-metabolite-discovery-q034** — In Galaxy, what tool should I run for lightweight scripting-style transformations on tabular data?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q035** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **genome-annotation-secondary-metabolite-discovery-q035** — I have a text file where each line starts with an unwanted prefix and I need to strip that prefix to get clean identifiers. Which Galaxy tool should I use?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q036** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **genome-annotation-secondary-metabolite-discovery-q036** — My dataset contains fixed leading characters at the start of each line, and I want to remove them before downstream processing. What Galaxy tool can trim line beginnings?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q037** — Which Galaxy tool trims the beginning of a file?
+- **genome-annotation-secondary-metabolite-discovery-q037** — Which Galaxy tool can remove a specified number of characters from the start of each line in a text dataset?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q038** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **genome-annotation-secondary-metabolite-discovery-q038** — In Galaxy, what tool should I run to strip a constant prefix from all lines of a file?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q039** — Which Galaxy tool would you recommend to perform `openbabel_remDuplicates`?
+- **genome-annotation-secondary-metabolite-discovery-q039** — I have a chemical structure dataset and want to remove duplicate molecules so each unique structure appears only once. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q040** — Which Galaxy tool would you recommend to perform `openbabel_remDuplicates`?
+- **genome-annotation-secondary-metabolite-discovery-q040** — My molecule list contains duplicates and I need a deduplicated output for downstream similarity search. What Galaxy tool can remove duplicate structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q041** — Which Galaxy tool runs Open Babel remove duplicates?
+- **genome-annotation-secondary-metabolite-discovery-q041** — Which Galaxy tool can detect and remove duplicate chemical structures from a molecule dataset and output unique molecules?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q042** — Which Galaxy tool would you recommend to perform `openbabel_remDuplicates`?
+- **genome-annotation-secondary-metabolite-discovery-q042** — In Galaxy, what tool should I run to deduplicate a chemical dataset by structure and keep only unique entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q043** — Which Galaxy tool would you recommend to perform `ctb_np-likeness-calculator`?
+- **genome-annotation-secondary-metabolite-discovery-q043** — I have a set of molecules and want to score each compound for how natural-product-like it is to prioritize candidates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q044** — Which Galaxy tool would you recommend to perform `ctb_np-likeness-calculator`?
+- **genome-annotation-secondary-metabolite-discovery-q044** — I need a natural-product-likeness score for each structure in my chemical dataset and want the scores in a table. What Galaxy tool can compute this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q045** — Which Galaxy tool runs the NP-likeness calculator?
+- **genome-annotation-secondary-metabolite-discovery-q045** — Which Galaxy tool can compute natural product likeness scores for molecules and output the results for filtering and ranking?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q046** — Which Galaxy tool would you recommend to perform `ctb_np-likeness-calculator`?
+- **genome-annotation-secondary-metabolite-discovery-q046** — In Galaxy, what tool should I run to calculate natural-product-likeness metrics for a list of compounds?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q047** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **genome-annotation-secondary-metabolite-discovery-q047** — I want a quantitative estimate of drug-likeness for each molecule in my dataset using a standard desirability score. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q048** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **genome-annotation-secondary-metabolite-discovery-q048** — My chemical screening results need a QED-style score per compound so I can rank candidates. What Galaxy tool can compute this score?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q049** — Which Galaxy tool runs the QED calculator?
+- **genome-annotation-secondary-metabolite-discovery-q049** — Which Galaxy tool can calculate a drug-likeness desirability score for each molecule and output a results table?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q050** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **genome-annotation-secondary-metabolite-discovery-q050** — In Galaxy, what tool should I run to compute QED-like scores for a set of compounds for prioritization?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q051** — Which Galaxy tool would you recommend to perform `ctb_simsearch`?
+- **genome-annotation-secondary-metabolite-discovery-q051** — I have molecular fingerprints and want to search for compounds similar to a query compound, returning nearest neighbors and similarity scores. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/simsearch/ctb_simsearch/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q052** — Which Galaxy tool would you recommend to perform `ctb_simsearch`?
+- **genome-annotation-secondary-metabolite-discovery-q052** — I need to run a similarity search across a compound library and get the most similar hits with scores. What Galaxy tool can do chemical similarity searching?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/simsearch/ctb_simsearch/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q053** — Which Galaxy tool performs chemical similarity search (simsearch)?
+- **genome-annotation-secondary-metabolite-discovery-q053** — Which Galaxy tool can perform fingerprint-based similarity search on a compound dataset and output a ranked hit list?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/simsearch/ctb_simsearch/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q054** — Which Galaxy tool would you recommend to perform `ctb_simsearch`?
+- **genome-annotation-secondary-metabolite-discovery-q054** — In Galaxy, what tool should I run to search a chemical library for nearest neighbors of a query compound using similarity scores?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/simsearch/ctb_simsearch/1.6.1+galaxy0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q055** — Which Galaxy tool would you recommend to perform `edu.tamu.cpt.gff3.customGbkToGff`?
+- **genome-annotation-secondary-metabolite-discovery-q055** — I have an annotated GenBank-format file and need to convert the features into a GFF3 annotation for downstream tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q056** — Which Galaxy tool would you recommend to perform `edu.tamu.cpt.gff3.customGbkToGff`?
+- **genome-annotation-secondary-metabolite-discovery-q056** — My annotation is in GenBank format and I want a corresponding GFF3 output with feature coordinates and attributes. What Galaxy tool can convert it?
   - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q057** — Which Galaxy tool runs cpt_gbk_to_gff?
+- **genome-annotation-secondary-metabolite-discovery-q057** — Which Galaxy tool can convert a GenBank annotation file into GFF3 so it can be used for visualization and interval operations?
   - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q058** — Which Galaxy tool would you recommend to perform `edu.tamu.cpt.gff3.customGbkToGff`?
+- **genome-annotation-secondary-metabolite-discovery-q058** — In Galaxy, what tool should I run to transform GenBank feature annotations into a GFF3 file?
   - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q059** — Which Galaxy tool would you recommend to perform `bp_genbank2gff3`?
+- **genome-annotation-secondary-metabolite-discovery-q059** — I have a GenBank record for a genome and want to extract the annotated features as a GFF3 file for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q060** — Which Galaxy tool would you recommend to perform `bp_genbank2gff3`?
+- **genome-annotation-secondary-metabolite-discovery-q060** — I need to convert a GenBank file into GFF3 so I can compare features and run downstream genome-annotation tools. What Galaxy tool can do this conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q061** — Which Galaxy tool runs bp_genbank2gff3?
+- **genome-annotation-secondary-metabolite-discovery-q061** — Which Galaxy tool can take GenBank-format annotations and output a valid GFF3 feature file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
-- **genome-annotation-secondary-metabolite-discovery-q062** — Which Galaxy tool would you recommend to perform `bp_genbank2gff3`?
+- **genome-annotation-secondary-metabolite-discovery-q062** — In Galaxy, what tool should I run to convert GenBank annotations into GFF3 for downstream workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
 
