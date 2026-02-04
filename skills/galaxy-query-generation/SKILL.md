@@ -30,7 +30,11 @@ Use it to keep the query-writing standards versioned with the project.
 
 ## Generation workflow (manual, not templated)
 
-These benchmark queries must be **handwritten after reading the tutorial**, not produced by filling a fixed template.
+These benchmark queries must be **handwritten**, not produced by filling a fixed template.
+
+When doing **fresh generation** (writing queries from a tutorial step that doesn’t already have a good query), you should read the tutorial around the step so the query reflects the real *user intent*.
+
+When doing **rewrite/cleanup** (removing tool leakage, boilerplate, or checker-triggering phrasing while keeping the same intent/tool focus), you usually do *not* need to read the full tutorial; only spot-check the relevant step if the intent is ambiguous.
 
 1. Open the tutorial: `training-material/<tutorial_id>/tutorial.md`
 2. Read around each tool mention to understand the *user goal*:
@@ -76,5 +80,13 @@ Both styles are valid, as long as the query still asks for a **Galaxy tool recom
 From repo root:
 
 `ruby -EUTF-8 skills/galaxy-query-generation/scripts/check_v1_items.rb data/benchmark/v1_items.jsonl`
+
+### Smell scan (catch what the checker doesn’t)
+
+The checker enforces **hard** constraints (URLs, tutorial mentions, backticks/tool leakage, file extensions, configuration-help phrasing, etc.), but it can miss “should rewrite” cases that still pass (e.g., overly generic wording, near-duplicates).
+
+Use the non-blocking smell scan to surface candidates for manual rewrite:
+
+`python3 skills/galaxy-query-generation/scripts/find_query_smells.py --input data/benchmark/v1_items.jsonl --start N --count 150`
 
 This project’s final target is `data/benchmark/v1_items.jsonl` (not `tmp_stats/*`).
