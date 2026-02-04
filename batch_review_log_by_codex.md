@@ -273,6 +273,17 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1651 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Cut1`, `Count1`, `Summary_Statistics1`).
 
+## Batch A0013 (1801–1950)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 1801–1950 (ecology: RAD-seq ref-based utilities; regionalGAM phenology/abundance trends; Sentinel-2 remote-sensing biodiversity indicators)
+- Summary:
+  - Rewrote 50 queries that were template-like (backticked tool IDs, “perform tool_id”, or “from the guide…”) into intent-focused Galaxy-user questions describing inputs/goals/outputs without tool leakage.
+  - Kept the batch’s near-parity balance unchanged (74 science-first / 76 tool-first).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1801 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Count1`, `Grep1`, `Paste1`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26

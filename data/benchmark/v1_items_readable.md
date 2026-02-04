@@ -6147,106 +6147,106 @@ Questions:
 - **ecology-regionalGAM-q044** — Which Galaxy tool can remove a specified number of lines from the beginning of a dataset?
   - Tools: Remove beginning1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q045** — I need to drop the header line from a table before plotting or counting rows. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q046** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **ecology-regionalGAM-q046** — Which Galaxy tool removes a fixed number of lines from the start of a dataset (for example, to strip a header)?
   - Tools: Remove beginning1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q047** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **ecology-regionalGAM-q047** — I have a CSV table of species observations and want to keep only rows matching a site-code pattern while preserving the header row. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q048** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **ecology-regionalGAM-q048** — I need to downsample a large observation table by selecting only lines that match a text pattern and writing out a cleaned table. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q049** — Which Galaxy tool can reformat a text table using simple awk-like rules (for example, keep the header and select rows matching a pattern)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q050** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **ecology-regionalGAM-q050** — What Galaxy tool should I use to apply an awk-style transformation to a tabular dataset (filter and rewrite rows)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q051** — Which Galaxy tool would you recommend to perform `regionalgam_flight_curve`?
+- **ecology-regionalGAM-q051** — I have weekly survey counts for a species across multiple years and want to model its seasonal phenology curve over time. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_flight_curve/regionalgam_flight_curve/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q052** — Which Galaxy tool would you recommend to perform `regionalgam_flight_curve`?
+- **ecology-regionalGAM-q052** — I want to estimate a flight/phenology curve from abundance observations by week and year for one species. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_flight_curve/regionalgam_flight_curve/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q053** — Which Galaxy tool computes a phenology (seasonal flight) curve from species abundance observations across years?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_flight_curve/regionalgam_flight_curve/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q054** — Which Galaxy tool would you recommend to perform `regionalgam_flight_curve`?
+- **ecology-regionalGAM-q054** — What Galaxy tool should I use to generate a modeled seasonal curve (by week) from multi-year abundance records?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_flight_curve/regionalgam_flight_curve/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q055** — Which Galaxy tool would you recommend to perform `regionalgam_ab_index`?
+- **ecology-regionalGAM-q055** — I need a yearly abundance index for a focal species, collated from site-level observations across many surveys. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_ab_index/regionalgam_ab_index/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q056** — Which Galaxy tool would you recommend to perform `regionalgam_ab_index`?
+- **ecology-regionalGAM-q056** — I want to summarize abundance into an annual index per year (and optionally per site) so I can study population changes. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_ab_index/regionalgam_ab_index/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q057** — Which Galaxy tool computes an annual abundance index from repeated species observations over time?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_ab_index/regionalgam_ab_index/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q058** — Which Galaxy tool would you recommend to perform `regionalgam_ab_index`?
+- **ecology-regionalGAM-q058** — What Galaxy tool should I use to turn multi-site, multi-year observation counts into a collated abundance index table?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_ab_index/regionalgam_ab_index/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q059** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **ecology-regionalGAM-q059** — I want a scatter plot from a tabular dataset (for example, year vs abundance index) and to customize labels and colors. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q060** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **ecology-regionalGAM-q060** — I need to plot points from a two-column table to visualize how an index changes over time. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q061** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q061** — Which Galaxy tool creates a point/scatter plot from tabular data for quick visualization in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q062** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **ecology-regionalGAM-q062** — What tool should I use in Galaxy to generate a scatter plot from a table and export the figure?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q063** — Which Galaxy tool would you recommend to perform `regionalgam_glmmpql`?
+- **ecology-regionalGAM-q063** — I want to estimate the expected temporal trend of a species' abundance over years using a model-based approach. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_glmmpql/regionalgam_glmmpql/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q064** — Which Galaxy tool would you recommend to perform `regionalgam_glmmpql`?
+- **ecology-regionalGAM-q064** — I need a modeled trend output (trend values per year) so I can assess whether abundance is increasing or decreasing. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_glmmpql/regionalgam_glmmpql/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q065** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q065** — Which Galaxy tool estimates a temporal abundance trend from a collated yearly index table?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_glmmpql/regionalgam_glmmpql/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q066** — Which Galaxy tool would you recommend to perform `regionalgam_glmmpql`?
+- **ecology-regionalGAM-q066** — What Galaxy tool should I use to fit a temporal-trend model to yearly abundance data and output the trend table?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_glmmpql/regionalgam_glmmpql/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q067** — Which Galaxy tool would you recommend to perform `regionalgam_gls`?
+- **ecology-regionalGAM-q067** — I want to test whether year explains changes in abundance by fitting a regression model to the trend data. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_gls/regionalgam_gls/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q068** — Which Galaxy tool would you recommend to perform `regionalgam_gls`?
+- **ecology-regionalGAM-q068** — I need to fit a linear model to abundance-vs-year data and get model statistics (slope, significance). Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_gls/regionalgam_gls/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q069** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q069** — Which Galaxy tool fits a regression model to temporal trend data so I can evaluate whether the trend is significant?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_gls/regionalgam_gls/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q070** — Which Galaxy tool would you recommend to perform `regionalgam_gls`?
+- **ecology-regionalGAM-q070** — What Galaxy tool should I use to model abundance over time with a linear regression approach?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_gls/regionalgam_gls/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q071** — Which Galaxy tool would you recommend to perform `regionalgam_autocor_acf`?
+- **ecology-regionalGAM-q071** — After fitting a temporal model, I want to check whether residuals show temporal autocorrelation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_autocor_acf/regionalgam_autocor_acf/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q072** — Which Galaxy tool would you recommend to perform `regionalgam_autocor_acf`?
+- **ecology-regionalGAM-q072** — I need an autocorrelation (ACF) diagnostic plot/table for model residuals to see if independence is violated. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_autocor_acf/regionalgam_autocor_acf/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q073** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q073** — Which Galaxy tool performs an autocorrelation test/ACF diagnostic on residuals from a time-trend model?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_autocor_acf/regionalgam_autocor_acf/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q074** — Which Galaxy tool would you recommend to perform `regionalgam_autocor_acf`?
+- **ecology-regionalGAM-q074** — What Galaxy tool should I use to assess temporal autocorrelation in the residuals of a fitted model?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_autocor_acf/regionalgam_autocor_acf/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q075** — Which Galaxy tool would you recommend to perform `regionalgam_plot_trend`?
+- **ecology-regionalGAM-q075** — I want a plot showing observed abundance over years with an overlaid fitted trend line from my model. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_plot_trend/regionalgam_plot_trend/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q076** — Which Galaxy tool would you recommend to perform `regionalgam_plot_trend`?
+- **ecology-regionalGAM-q076** — I need a figure that combines the time series data and the regression trend line for reporting. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_plot_trend/regionalgam_plot_trend/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q077** — Which Galaxy tool should I use to run an analysis step from the guide in Regional GAM?
+- **ecology-regionalGAM-q077** — Which Galaxy tool plots abundance observations together with the fitted temporal trend from a model output?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_plot_trend/regionalgam_plot_trend/1.5
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q078** — Which Galaxy tool would you recommend to perform `regionalgam_plot_trend`?
+- **ecology-regionalGAM-q078** — What Galaxy tool should I use to visualize a temporal trend model by drawing the trend line on top of the observed data?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/regionalgam_plot_trend/regionalgam_plot_trend/1.5
   - Datasets: 1324204, zenodo.1324204
 
@@ -6256,52 +6256,52 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **ecology-remote-sensing-q011** — Which Galaxy tool would you recommend to perform `srs_preprocess_s2`?
+- **ecology-remote-sensing-q011** — I have Sentinel-2 imagery for a region and time period and need to preprocess it (cloud masking, harmonizing bands, and producing reflectance layers) for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_preprocess_s2/srs_preprocess_s2/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q012** — Which Galaxy tool would you recommend to perform `srs_preprocess_s2`?
+- **ecology-remote-sensing-q012** — I want a ready-to-analyze stack of Sentinel-2 reflectance products for biodiversity analysis. Which Galaxy tool should I run to preprocess the data?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_preprocess_s2/srs_preprocess_s2/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 2 biodiversity?
+- **ecology-remote-sensing-q013** — Which Galaxy tool prepares Sentinel-2 data for downstream analysis by generating a processed reflectance dataset for my area of interest?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_preprocess_s2/srs_preprocess_s2/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q014** — Which Galaxy tool would you recommend to perform `srs_preprocess_s2`?
+- **ecology-remote-sensing-q014** — What Galaxy tool should I use to preprocess Sentinel-2 scenes into consistent reflectance layers I can use to compute indices?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_preprocess_s2/srs_preprocess_s2/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q015** — Which Galaxy tool would you recommend to perform `srs_spectral_indices`?
+- **ecology-remote-sensing-q015** — I need to compute vegetation/spectral indices (such as NDVI-like metrics) from preprocessed Sentinel-2 reflectance data. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_spectral_indices/srs_spectral_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q016** — Which Galaxy tool would you recommend to perform `srs_spectral_indices`?
+- **ecology-remote-sensing-q016** — I want to derive multiple spectral indices from Sentinel-2 reflectance layers to use as predictors in biodiversity analyses. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_spectral_indices/srs_spectral_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 2 biodiversity?
+- **ecology-remote-sensing-q017** — Which Galaxy tool calculates spectral indices from Sentinel-2 reflectance products and outputs index rasters or tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_spectral_indices/srs_spectral_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q018** — Which Galaxy tool would you recommend to perform `srs_spectral_indices`?
+- **ecology-remote-sensing-q018** — What Galaxy tool should I use to compute a set of spectral indices from a preprocessed remote-sensing dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_spectral_indices/srs_spectral_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q019** — Which Galaxy tool would you recommend to perform `srs_global_indices`?
+- **ecology-remote-sensing-q019** — I want to compute global biodiversity indicators (alpha-diversity style indices) from a reflectance dataset across my study area. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_global_indices/srs_global_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q020** — Which Galaxy tool would you recommend to perform `srs_global_indices`?
+- **ecology-remote-sensing-q020** — I need biodiversity index outputs derived from remote-sensing reflectance data so I can compare sites. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_global_indices/srs_global_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 2 biodiversity?
+- **ecology-remote-sensing-q021** — Which Galaxy tool computes biodiversity indices from a preprocessed remote-sensing reflectance dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_global_indices/srs_global_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q022** — Which Galaxy tool would you recommend to perform `srs_global_indices`?
+- **ecology-remote-sensing-q022** — What Galaxy tool should I use to calculate global biodiversity indicators from reflectance layers?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_global_indices/srs_global_indices/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q023** — Which Galaxy tool would you recommend to perform `srs_diversity_maps`?
+- **ecology-remote-sensing-q023** — I have reflectance data and want to generate spatial maps of biodiversity indices (including alpha/beta-style outputs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_diversity_maps/srs_diversity_maps/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q024** — Which Galaxy tool would you recommend to perform `srs_diversity_maps`?
+- **ecology-remote-sensing-q024** — I need georeferenced diversity maps derived from remote-sensing data for visualization and reporting. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_diversity_maps/srs_diversity_maps/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 2 biodiversity?
+- **ecology-remote-sensing-q025** — Which Galaxy tool produces biodiversity maps (diversity indicators as spatial layers) from reflectance inputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_diversity_maps/srs_diversity_maps/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q026** — Which Galaxy tool would you recommend to perform `srs_diversity_maps`?
+- **ecology-remote-sensing-q026** — What Galaxy tool should I use to turn remote-sensing reflectance products into mapped diversity indicators across my study region?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_diversity_maps/srs_diversity_maps/0.0.1
   - Datasets: None
 - **ecology-remote-sensing-q027** — Which Galaxy tool would you recommend to perform `srs_pca`?
