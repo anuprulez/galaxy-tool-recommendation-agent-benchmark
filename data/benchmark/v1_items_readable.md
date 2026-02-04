@@ -6304,28 +6304,28 @@ Questions:
 - **ecology-remote-sensing-q026** — What Galaxy tool should I use to turn remote-sensing reflectance products into mapped diversity indicators across my study region?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_diversity_maps/srs_diversity_maps/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q027** — Which Galaxy tool would you recommend to perform `srs_pca`?
+- **ecology-remote-sensing-q027** — I have multiple Sentinel-2 derived bands/indices and want a PCA to summarize them into a few components for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_pca/srs_pca/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q028** — Which Galaxy tool would you recommend to perform `srs_pca`?
+- **ecology-remote-sensing-q028** — I want to reduce a multi-band remote-sensing dataset to principal components and check how much variance each component explains. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_pca/srs_pca/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 2 biodiversity?
+- **ecology-remote-sensing-q029** — Which Galaxy tool runs PCA on a multivariate remote-sensing table/stack and outputs principal component layers or scores?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_pca/srs_pca/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q030** — Which Galaxy tool would you recommend to perform `srs_pca`?
+- **ecology-remote-sensing-q030** — What tool should I use in Galaxy to compute principal components from my reflectance stack so I can use PCs as predictors?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_pca/srs_pca/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q031** — Which Galaxy tool would you recommend to perform `srs_process_data`?
+- **ecology-remote-sensing-q031** — I computed biodiversity indicators from remote-sensing reflectance and now want to compare results across sites and produce summary plots. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_process_data/srs_process_data/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q032** — Which Galaxy tool would you recommend to perform `srs_process_data`?
+- **ecology-remote-sensing-q032** — I have reflectance-derived outputs and a set of plots and want a combined report comparing diversity indicators across my study area. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_process_data/srs_process_data/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 2 biodiversity?
+- **ecology-remote-sensing-q033** — Which Galaxy tool takes processed reflectance data plus a folder of outputs and generates comparison plots/tables for remote-sensing biodiversity analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_process_data/srs_process_data/0.0.1
   - Datasets: None
-- **ecology-remote-sensing-q034** — Which Galaxy tool would you recommend to perform `srs_process_data`?
+- **ecology-remote-sensing-q034** — What tool should I use in Galaxy to collate remote-sensing indicator outputs and produce a zip/report of comparative results?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/srs_process_data/srs_process_data/0.0.1
   - Datasets: None
 
@@ -6335,76 +6335,76 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **ecology-species-distribution-modeling-q011** — Which Galaxy tool would you recommend to perform `spocc_occ`?
+- **ecology-species-distribution-modeling-q011** — I have a species name and want to download occurrence records with coordinates to build a species distribution model. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
   - Datasets: None
-- **ecology-species-distribution-modeling-q012** — Which Galaxy tool would you recommend to perform `spocc_occ`?
+- **ecology-species-distribution-modeling-q012** — I need a table of georeferenced observations for a taxon from public biodiversity databases for SDM. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
   - Datasets: None
-- **ecology-species-distribution-modeling-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Species distribution modeling?
+- **ecology-species-distribution-modeling-q013** — Which Galaxy tool fetches occurrence points (latitude/longitude and metadata) for a species into a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
   - Datasets: None
-- **ecology-species-distribution-modeling-q014** — Which Galaxy tool would you recommend to perform `spocc_occ`?
+- **ecology-species-distribution-modeling-q014** — What Galaxy tool should I use to query public biodiversity data sources for species occurrences and output an occurrence table?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
   - Datasets: None
-- **ecology-species-distribution-modeling-q015** — Which Galaxy tool would you recommend to perform `interactive_tool_wallace`?
+- **ecology-species-distribution-modeling-q015** — I have environmental layers and species occurrence points and want to fit a species distribution model interactively in Galaxy. Which tool should I use?
   - Tools: interactive_tool_wallace
   - Datasets: None
-- **ecology-species-distribution-modeling-q016** — Which Galaxy tool would you recommend to perform `interactive_tool_wallace`?
+- **ecology-species-distribution-modeling-q016** — I want an interactive interface to build SDMs, evaluate performance, and visualize predictions without leaving Galaxy. Which tool should I run?
   - Tools: interactive_tool_wallace
   - Datasets: None
-- **ecology-species-distribution-modeling-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Species distribution modeling?
+- **ecology-species-distribution-modeling-q017** — Which Galaxy tool launches an interactive SDM workbench (model training, evaluation, projection) using my history datasets?
   - Tools: interactive_tool_wallace
   - Datasets: None
-- **ecology-species-distribution-modeling-q018** — Which Galaxy tool would you recommend to perform `interactive_tool_wallace`?
+- **ecology-species-distribution-modeling-q018** — What tool should I use in Galaxy for interactive species distribution modeling workflows and maps?
   - Tools: interactive_tool_wallace
   - Datasets: None
-- **ecology-species-distribution-modeling-q019** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **ecology-species-distribution-modeling-q019** — I have an occurrence table with many columns but only need longitude, latitude, and species for modeling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q020** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **ecology-species-distribution-modeling-q020** — I want to extract specific columns from a tabular dataset to create a minimal input table for downstream analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Species distribution modeling?
+- **ecology-species-distribution-modeling-q021** — Which Galaxy tool selects a subset of columns from a table (cut-style column extraction)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q022** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **ecology-species-distribution-modeling-q022** — What tool should I use in Galaxy to keep only chosen columns from a tabular dataset and drop the rest?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q023** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-species-distribution-modeling-q023** — My occurrence table has some records with missing or invalid coordinates and I want to remove them before modeling. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: None
-- **ecology-species-distribution-modeling-q024** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-species-distribution-modeling-q024** — I need to keep only occurrence records inside a bounding box (min/max latitude and longitude) in a tabular dataset. Which Galaxy tool should I run?
   - Tools: Filter1
   - Datasets: None
-- **ecology-species-distribution-modeling-q025** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in Species distribution modeling?
+- **ecology-species-distribution-modeling-q025** — Which Galaxy tool filters rows in a table using a logical condition (for example, drop rows with empty fields)?
   - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: None
-- **ecology-species-distribution-modeling-q026** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **ecology-species-distribution-modeling-q026** — What tool should I use in Galaxy to subset a tabular dataset by an expression on one or more columns?
   - Tools: Filter1
   - Datasets: None
-- **ecology-species-distribution-modeling-q027** — Which Galaxy tool would you recommend to perform `tabular_to_csv`?
+- **ecology-species-distribution-modeling-q027** — I have a tabular dataset in Galaxy and need it as CSV for a downstream modeling application. Which Galaxy tool should I use?
   - Tools: tabular_to_csv
   - Datasets: None
-- **ecology-species-distribution-modeling-q028** — Which Galaxy tool would you recommend to perform `tabular_to_csv`?
+- **ecology-species-distribution-modeling-q028** — I want to export a table from my Galaxy history as comma-separated values while preserving the header. Which Galaxy tool should I run?
   - Tools: tabular_to_csv
   - Datasets: None
-- **ecology-species-distribution-modeling-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Species distribution modeling?
+- **ecology-species-distribution-modeling-q029** — Which Galaxy tool converts a tabular dataset into CSV format?
   - Tools: tabular_to_csv
   - Datasets: None
-- **ecology-species-distribution-modeling-q030** — Which Galaxy tool would you recommend to perform `tabular_to_csv`?
+- **ecology-species-distribution-modeling-q030** — What tool should I use in Galaxy to reformat a table into CSV for interoperability with other software?
   - Tools: tabular_to_csv
   - Datasets: None
-- **ecology-species-distribution-modeling-q031** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **ecology-species-distribution-modeling-q031** — I need to clean up species names in a text column (for example, remove prefixes or fix typos consistently). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q032** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **ecology-species-distribution-modeling-q032** — I want to replace one string with another throughout a dataset to standardize labels. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Species distribution modeling?
+- **ecology-species-distribution-modeling-q033** — Which Galaxy tool performs a find-and-replace operation on a text dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
-- **ecology-species-distribution-modeling-q034** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **ecology-species-distribution-modeling-q034** — What tool should I use in Galaxy to substitute text patterns across a file to normalize identifiers?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: None
 
@@ -6414,64 +6414,64 @@ Questions:
 - Datasets (2): zenodo.6621460, 6621460
 
 Questions:
-- **ecology-x-array-map-plot-q011** — Which Galaxy tool would you recommend to perform `xarray_coords_info`?
+- **ecology-x-array-map-plot-q011** — I received a climate NetCDF dataset and want to inspect its coordinate system, grid, and coordinate values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q012** — Which Galaxy tool would you recommend to perform `xarray_coords_info`?
+- **ecology-x-array-map-plot-q012** — I need to list the latitude/longitude/time coordinates available in an xarray dataset to plan plotting and subsetting. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Visualization of Climate Data using NetCDF xarray Map Plotting?
+- **ecology-x-array-map-plot-q013** — Which Galaxy tool summarizes the coordinate variables and ranges in a NetCDF/xarray dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q014** — Which Galaxy tool would you recommend to perform `xarray_coords_info`?
+- **ecology-x-array-map-plot-q014** — What tool should I use in Galaxy to extract coordinate information (dimensions and coordinate arrays) from a climate dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q015** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **ecology-x-array-map-plot-q015** — I want to examine metadata and attributes of a NetCDF dataset (variables, units, global attributes) before analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q016** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **ecology-x-array-map-plot-q016** — I need a report describing what's inside an xarray dataset (variable names, units, attributes). Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Visualization of Climate Data using NetCDF xarray Map Plotting?
+- **ecology-x-array-map-plot-q017** — Which Galaxy tool extracts metadata and attributes from a NetCDF/xarray dataset and outputs a human-readable summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q018** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **ecology-x-array-map-plot-q018** — What tool should I use in Galaxy to list variables and metadata in a climate NetCDF dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q019** — Which Galaxy tool would you recommend to perform `cdo_operations`?
+- **ecology-x-array-map-plot-q019** — I need to subset and process gridded climate data (select time range, aggregate, or regrid) before plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/cdo_operations/cdo_operations/2.0.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q020** — Which Galaxy tool would you recommend to perform `cdo_operations`?
+- **ecology-x-array-map-plot-q020** — I want to compute operations on a NetCDF climate dataset such as monthly means or spatial averages. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/cdo_operations/cdo_operations/2.0.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Visualization of Climate Data using NetCDF xarray Map Plotting?
+- **ecology-x-array-map-plot-q021** — Which Galaxy tool provides common climate-data operations like subsetting, aggregation, and regridding on NetCDF datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/cdo_operations/cdo_operations/2.0.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q022** — Which Galaxy tool would you recommend to perform `cdo_operations`?
+- **ecology-x-array-map-plot-q022** — What tool should I use in Galaxy to apply CDO-style transformations to a gridded climate dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/cdo_operations/cdo_operations/2.0.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q023** — Which Galaxy tool would you recommend to perform `xarray_mapplot`?
+- **ecology-x-array-map-plot-q023** — I want a map plot of a variable from a NetCDF dataset for a chosen time slice. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q024** — Which Galaxy tool would you recommend to perform `xarray_mapplot`?
+- **ecology-x-array-map-plot-q024** — I need quick spatial visualizations of climate variables stored in an xarray dataset. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Visualization of Climate Data using NetCDF xarray Map Plotting?
+- **ecology-x-array-map-plot-q025** — Which Galaxy tool makes georeferenced map plots from NetCDF/xarray variables?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q026** — Which Galaxy tool would you recommend to perform `xarray_mapplot`?
+- **ecology-x-array-map-plot-q026** — What tool should I use in Galaxy to render a spatial map from a selected variable in my climate dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/2022.3.0+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q027** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_montage`?
+- **ecology-x-array-map-plot-q027** — I have multiple map images from different variables or time points and want to arrange them into a single montage figure. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_montage/graphicsmagick_image_montage/1.3.46+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q028** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_montage`?
+- **ecology-x-array-map-plot-q028** — I need a grid of images combined into one panel for comparison. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_montage/graphicsmagick_image_montage/1.3.46+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Visualization of Climate Data using NetCDF xarray Map Plotting?
+- **ecology-x-array-map-plot-q029** — Which Galaxy tool creates an image montage by tiling many images into one composite?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_montage/graphicsmagick_image_montage/1.3.46+galaxy0
   - Datasets: zenodo.6621460, 6621460
-- **ecology-x-array-map-plot-q030** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_montage`?
+- **ecology-x-array-map-plot-q030** — What tool should I use in Galaxy to combine a set of images into a single multi-panel figure?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_montage/graphicsmagick_image_montage/1.3.46+galaxy0
   - Datasets: zenodo.6621460, 6621460
 
@@ -6481,232 +6481,232 @@ Questions:
 - Datasets (4): zenodo.3862792, zenodo.3862793, 3862792, 3862793
 
 Questions:
-- **epigenetics-atac-seq-q011** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **epigenetics-atac-seq-q011** — I have a peak list and want to keep only peaks passing a significance threshold (q-value/score) for downstream analysis. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q012** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **epigenetics-atac-seq-q012** — I want to remove peaks on unwanted contigs and keep only standard chromosomes in a BED-like table. Which Galaxy tool should I run?
   - Tools: Filter1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q013** — Which Galaxy tool should I use to filter rows in a tabular dataset by a condition in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q013** — Which Galaxy tool can filter a peak/feature table by column thresholds or string matches (for example, keep only certain chromosomes)?
   - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q014** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **epigenetics-atac-seq-q014** — What Galaxy tool should I use to apply row filtering to a tabular dataset produced during an ATAC-seq workflow?
   - Tools: Filter1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q015** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-atac-seq-q015** — I just got sequencing reads for ATAC-seq and want a per-sample quality-control report (quality scores, GC, overrepresented sequences). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q016** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-atac-seq-q016** — Before trimming, I want to check adapter content and basic QC metrics for my read datasets. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q017** — Which Galaxy tool should I use to assess read quality in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q017** — Which Galaxy tool generates standard QC reports for raw sequencing reads in an ATAC-seq workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q018** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-atac-seq-q018** — What tool should I use in Galaxy to assess read quality and produce a QC report I can review?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q019** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **epigenetics-atac-seq-q019** — My ATAC-seq reads contain adapter contamination and I want to trim adapters and low-quality bases. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q020** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **epigenetics-atac-seq-q020** — I need to remove sequencing adapters from reads and optionally filter by length to prepare for alignment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q021** — Which Galaxy tool should I use to trim adapters from sequencing reads in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q021** — Which Galaxy tool trims adapters from sequencing reads and outputs cleaned reads for mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q022** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **epigenetics-atac-seq-q022** — What tool should I use in Galaxy to perform adapter trimming for an ATAC-seq dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q023** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-atac-seq-q023** — I want to intersect ATAC-seq peaks with a set of genomic features to see overlaps and annotate peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q024** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-atac-seq-q024** — I need to remove peaks overlapping a blacklist by intersecting two interval datasets. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q025** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q025** — Which Galaxy tool finds overlaps between two genomic interval datasets (BED-style) and outputs the intersecting regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q026** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-atac-seq-q026** — What Galaxy tool should I use to filter or annotate intervals by overlap with another interval set?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q027** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-atac-seq-q027** — I have ATAC-seq reads and need to align them to a reference genome to produce a BAM file for downstream peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q028** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-atac-seq-q028** — I want to map paired-end reads to a genome and get alignments suitable for chromatin accessibility analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q029** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q029** — Which Galaxy tool performs short-read alignment to a reference genome and outputs SAM/BAM alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q030** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-atac-seq-q030** — What tool should I use in Galaxy to align sequencing reads to a reference genome as part of an ATAC-seq workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q031** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **epigenetics-atac-seq-q031** — I have an alignment (BAM) and want to filter out unmapped or low-quality reads before peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q032** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **epigenetics-atac-seq-q032** — I need to keep only properly paired, high mapping-quality alignments from my ATAC-seq BAM. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q033** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q033** — Which Galaxy tool filters a BAM file by flags, mapping quality, or other alignment criteria?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q034** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **epigenetics-atac-seq-q034** — What tool should I use in Galaxy to clean an alignment file by removing unwanted reads (duplicates, low MAPQ, etc.)?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q035** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **epigenetics-atac-seq-q035** — I want to mark PCR or optical duplicates in an ATAC-seq BAM file so duplicates can be removed or ignored. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q036** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **epigenetics-atac-seq-q036** — I need duplicate metrics and a duplicate-marked alignment from my mapped reads. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q037** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q037** — Which Galaxy tool marks duplicates in a BAM file and outputs duplicate statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q038** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **epigenetics-atac-seq-q038** — What tool should I use in Galaxy to identify and mark duplicate reads before downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q039** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **epigenetics-atac-seq-q039** — I need to convert aligned reads from BAM to genomic intervals (BED) for downstream intersection and coverage steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q040** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **epigenetics-atac-seq-q040** — I want a BED representation of my ATAC-seq alignments (start/end coordinates) from a BAM file. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q041** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q041** — Which Galaxy tool converts BAM alignments into BED intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q042** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **epigenetics-atac-seq-q042** — What tool should I use in Galaxy to transform a BAM file into a BED-like interval dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q043** — Which Galaxy tool would you recommend to perform `pe_histogram`?
+- **epigenetics-atac-seq-q043** — I want to check fragment or insert size distribution from paired-end ATAC-seq alignments as a QC step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q044** — Which Galaxy tool would you recommend to perform `pe_histogram`?
+- **epigenetics-atac-seq-q044** — I need a histogram of paired-end template lengths to assess nucleosome patterning in accessibility data. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q045** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q045** — Which Galaxy tool generates an insert-size histogram from a paired-end BAM file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q046** — Which Galaxy tool would you recommend to perform `pe_histogram`?
+- **epigenetics-atac-seq-q046** — What tool should I use in Galaxy to compute and plot the paired-end fragment length distribution?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q047** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-atac-seq-q047** — I have ATAC-seq alignments and want to call open-chromatin peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q048** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-atac-seq-q048** — I need a peak list and summit locations from my chromatin accessibility data. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q049** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q049** — Which Galaxy tool performs peak calling on alignment data and outputs peak intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q050** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-atac-seq-q050** — What tool should I use in Galaxy to identify enriched regions (peaks) from ATAC-seq alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q051** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-atac-seq-q051** — I generated a genome-wide signal track and need to convert it into a compact BigWig file for visualization. Which Galaxy tool should I use?
   - Tools: wig_to_bigWig
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q052** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-atac-seq-q052** — I want to transform a coverage or signal track into BigWig so I can load it in a genome browser. Which Galaxy tool should I run?
   - Tools: wig_to_bigWig
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q053** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q053** — Which Galaxy tool converts a WIG-style signal track into BigWig format?
   - Tools: wig_to_bigWig
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q054** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-atac-seq-q054** — What tool should I use in Galaxy to convert a signal/coverage track into BigWig for efficient viewing?
   - Tools: wig_to_bigWig
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q055** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-atac-seq-q055** — I want a matrix of signal values around peak centers (or TSS) to summarize ATAC-seq coverage for plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q056** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-atac-seq-q056** — I need to compute a heatmap-ready matrix from signal tracks over a set of genomic regions. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q057** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q057** — Which Galaxy tool computes a binned matrix of signal over regions for downstream heatmap or profile plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q058** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-atac-seq-q058** — What tool should I use in Galaxy to build a coverage matrix from BigWig tracks and a region set?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q059** — Which Galaxy tool would you recommend to perform `pygenomeTracks`?
+- **epigenetics-atac-seq-q059** — I want a publication-style figure showing multiple genomic tracks (signal and peaks) over selected loci. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q060** — Which Galaxy tool would you recommend to perform `pygenomeTracks`?
+- **epigenetics-atac-seq-q060** — I need to render genome browser-like track plots from my signal and interval datasets. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q061** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q061** — Which Galaxy tool draws multi-track genomic plots from signal and annotation tracks?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q062** — Which Galaxy tool would you recommend to perform `pygenomeTracks`?
+- **epigenetics-atac-seq-q062** — What tool should I use in Galaxy to create track visualizations for a genomic region of interest?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q063** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-atac-seq-q063** — I already have a signal matrix over regions and want to visualize it as a clustered heatmap. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q064** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-atac-seq-q064** — I need a heatmap figure (and optionally sorted regions) from a coverage matrix. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q065** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q065** — Which Galaxy tool plots a heatmap from a computed signal matrix over genomic regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q066** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-atac-seq-q066** — What tool should I use in Galaxy to generate heatmaps and profiles from deepTools-style matrices?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q067** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **epigenetics-atac-seq-q067** — I have a wide tabular file from an ATAC-seq QC step and only want a few columns for plotting. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q068** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **epigenetics-atac-seq-q068** — I need to extract selected fields (like chromosome, start, end, score) from a table to create a simplified dataset. Which Galaxy tool should I run?
   - Tools: Cut1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q069** — Which Galaxy tool should I use to select specific columns from a tabular file in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q069** — Which Galaxy tool selects specified columns from a tabular dataset?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q070** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **epigenetics-atac-seq-q070** — What tool should I use in Galaxy to keep only certain columns (and discard others) in a table?
   - Tools: Cut1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q071** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-atac-seq-q071** — I want a summary of how many reads map to each chromosome or contig in my alignment to spot mapping issues. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q072** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-atac-seq-q072** — I need per-reference mapping counts from a BAM file as a quick alignment QC check. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q073** — Which Galaxy tool should I use to process or summarize alignment files in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q073** — Which Galaxy tool produces alignment summaries with mapped reads per contig from a BAM file?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q074** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-atac-seq-q074** — What tool should I use in Galaxy to summarize alignment mapping counts by reference sequence?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q075** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **epigenetics-atac-seq-q075** — I have a tabular file with a header and want to sort rows by a chosen column while keeping the header. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q076** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **epigenetics-atac-seq-q076** — I need to sort a table numerically or alphabetically by one column and preserve the first header line. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q077** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q077** — Which Galaxy tool sorts a tabular dataset and retains the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q078** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **epigenetics-atac-seq-q078** — What tool should I use in Galaxy to sort a table by one or more columns without losing the header?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q079** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **epigenetics-atac-seq-q079** — I want to extract only the lines that contain a specific keyword or match a regular expression from a text dataset. Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q080** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **epigenetics-atac-seq-q080** — I need to filter a log file to keep only rows matching a pattern and discard the rest. Which Galaxy tool should I run?
   - Tools: Grep1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q081** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q081** — Which Galaxy tool performs a grep-like pattern match to select lines from a text dataset?
   - Tools: Grep1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q082** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **epigenetics-atac-seq-q082** — What tool should I use in Galaxy to keep only lines matching a regular expression in a file?
   - Tools: Grep1
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q083** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-atac-seq-q083** — I have a matrix-like table and need to swap rows and columns so each sample becomes a column for visualization or modeling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q084** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-atac-seq-q084** — I want to transpose a tabular dataset (swap rows and columns) in Galaxy. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q085** — Which Galaxy tool should I use to run an analysis step from the guide in ATAC-Seq data analysis?
+- **epigenetics-atac-seq-q085** — Which Galaxy tool transposes a table, turning rows into columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
-- **epigenetics-atac-seq-q086** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-atac-seq-q086** — What tool should I use in Galaxy to pivot a simple matrix by transposing it?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 
@@ -6716,70 +6716,70 @@ Questions:
 - Datasets (2): zenodo.6823059, 6823059
 
 Questions:
-- **epigenetics-cut_and_run-q011** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-cut_and_run-q011** — I have CUT&RUN reads and want adapter trimming plus basic QC in one step before alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q012** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-cut_and_run-q012** — I need to trim adapters and low-quality ends from reads and also produce a trimming report. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q013** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q013** — Which Galaxy tool performs adapter trimming with quality filtering for CUT&RUN sequencing reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q014** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-cut_and_run-q014** — What tool should I use in Galaxy to trim adapters and clean reads prior to mapping in a CUT&RUN workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q015** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-cut_and_run-q015** — I have CUT&RUN reads and need to align them to the reference genome to locate protein-binding sites. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q016** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-cut_and_run-q016** — I want to map CUT&RUN paired-end reads and generate an alignment file for downstream enrichment analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q017** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q017** — Which Galaxy tool aligns CUT&RUN reads to a reference genome and produces BAM output?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q018** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-cut_and_run-q018** — What tool should I use in Galaxy for read mapping in a CUT&RUN pipeline (FASTQ to alignments)?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q019** — Which Galaxy tool would you recommend to perform `falco`?
+- **epigenetics-cut_and_run-q019** — I want a quick quality-control report for my CUT&RUN read datasets (quality, GC, overrepresented sequences). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q020** — Which Galaxy tool would you recommend to perform `falco`?
+- **epigenetics-cut_and_run-q020** — Before alignment, I need per-sample read QC metrics for CUT&RUN. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q021** — Which Galaxy tool should I use to assess read quality in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q021** — Which Galaxy tool generates a QC report for sequencing reads inside Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q022** — Which Galaxy tool would you recommend to perform `falco`?
+- **epigenetics-cut_and_run-q022** — What tool should I use in Galaxy to assess raw read quality for a CUT&RUN experiment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q023** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-cut_and_run-q023** — I want to evaluate enrichment and library complexity by generating a fingerprint plot from my CUT&RUN alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q024** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-cut_and_run-q024** — I need a fingerprint QC plot to compare signal versus background for my CUT&RUN samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q025** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q025** — Which Galaxy tool creates fingerprint plots from alignments to assess enrichment quality?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q026** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-cut_and_run-q026** — What tool should I use in Galaxy to generate a fingerprint plot for CUT&RUN data QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q027** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **epigenetics-cut_and_run-q027** — I want to filter a CUT&RUN alignment to remove low-quality or non-primary mappings before generating signal tracks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q028** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **epigenetics-cut_and_run-q028** — I need to subset my CUT&RUN BAM to retain only high-confidence alignments for downstream QC and peak calling. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q029** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q029** — Which Galaxy tool can filter a BAM alignment file by mapping quality and SAM flags in a CUT&RUN workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q030** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **epigenetics-cut_and_run-q030** — What tool should I use in Galaxy to exclude reads from a BAM based on alignment properties?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q031** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **epigenetics-cut_and_run-q031** — I have QC outputs from multiple samples and want a single aggregated report to review them together. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q032** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **epigenetics-cut_and_run-q032** — I need one combined QC summary across many read/QC results for my experiment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q033** — Which Galaxy tool should I use to summarize QC reports from multiple tools in CUT&RUN data analysis?

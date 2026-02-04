@@ -284,6 +284,18 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1801 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Count1`, `Grep1`, `Paste1`).
 
+## Batch A0014 (1951–2100)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 1951–2100 (ecology: remote sensing PCA + SDM + NetCDF visualization; epigenetics: ATAC-seq + CUT&RUN steps)
+- Summary:
+  - Per your request, reviewed the entire batch **line-by-line** (not only script-flagged items).
+  - Rewrote 150 queries to remove tool leakage/backticks and “guide” phrasing; replaced them with intent-specific Galaxy-user questions while preserving the original science-first vs tool-first labels (76 science-first / 74 tool-first).
+  - Ran a non-blocking “smell scan” to catch near-duplicates and overly generic wording, and refined remaining cases.
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1951 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Cut1`, `Grep1`, `wig_to_bigWig`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
