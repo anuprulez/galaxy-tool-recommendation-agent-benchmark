@@ -296,6 +296,19 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1951 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Cut1`, `Grep1`, `wig_to_bigWig`).
 
+## Batch A0015 (2101–2250)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 2101–2250 (epigenetics: CUT&RUN utilities + estrogen receptor binding-site identification)
+- Summary:
+  - Reviewed the entire batch **line-by-line** and rewrote queries to be intent-focused Galaxy-user questions (no tool leakage, no tutorial phrasing, no dataset identifiers in the query line).
+  - Adjusted the batch balance to **75 science-first / 75 tool-first** (and ensured the wording matches the label).
+  - Fixed a broken Toolshed identifier missing a version for `Extract genomic DNA` (4 items) and aligned `metadata.tool_focus` to match `tools[0]` when the drift was version-only (e.g., MultiQC and other snapshot-latest updates within this range).
+  - Confirmed multi-tool items keep `metadata.ground_truth_alternatives=true` with a short note explaining why alternatives are acceptable for that intent.
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 2101 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Grep1`, `wig_to_bigWig`, `Cut1`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26

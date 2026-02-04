@@ -6782,203 +6782,203 @@ Questions:
 - **epigenetics-cut_and_run-q032** — I need one combined QC summary across many read/QC results for my experiment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q033** — Which Galaxy tool should I use to summarize QC reports from multiple tools in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q033** — Which Galaxy tool should I use to aggregate QC outputs from multiple samples into one summary report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q034** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **epigenetics-cut_and_run-q034** — I have QC results from several steps across many samples and want a single combined report in Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q035** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **epigenetics-cut_and_run-q035** — I want to mark PCR/optical duplicates in my alignment file so duplicates can be filtered before peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q036** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **epigenetics-cut_and_run-q036** — I need duplicate metrics and a duplicate-marked alignment as part of my chromatin profiling workflow. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q037** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q037** — I’m concerned PCR duplicates may inflate my CUT&RUN signal and want to mark duplicates and report duplication metrics from my BAM file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q038** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **epigenetics-cut_and_run-q038** — What tool should I use in Galaxy to identify and mark duplicate reads before downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q039** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **epigenetics-cut_and_run-q039** — I need to extract only the lines that match a pattern from a text dataset in my Galaxy history. Which Galaxy tool should I use?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q040** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **epigenetics-cut_and_run-q040** — I want to filter a log or text file to keep only lines containing specific keywords. Which Galaxy tool should I run?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q041** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q041** — Which Galaxy tool performs grep-like pattern matching to select lines from a dataset?
   - Tools: Grep1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q042** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **epigenetics-cut_and_run-q042** — What tool should I use in Galaxy to keep only lines matching a regular expression and discard the rest?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q043** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **epigenetics-cut_and_run-q043** — I want to convert aligned reads from BAM into genomic intervals for downstream overlap analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q044** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **epigenetics-cut_and_run-q044** — I need a BED-style interval dataset derived from my alignments. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q045** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q045** — Which Galaxy tool converts BAM alignments into BED intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q046** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **epigenetics-cut_and_run-q046** — What tool should I use in Galaxy to transform a BAM file into an interval dataset for bedtools-style operations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q047** — Which Galaxy tool would you recommend to perform `pe_histogram`?
+- **epigenetics-cut_and_run-q047** — I want to check fragment/insert size distribution from paired-end alignments as a QC step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q048** — Which Galaxy tool would you recommend to perform `pe_histogram`?
+- **epigenetics-cut_and_run-q048** — I need a histogram of paired-end template lengths to assess library quality. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q049** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q049** — Which Galaxy tool generates an insert-size histogram from a paired-end BAM file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q050** — Which Galaxy tool would you recommend to perform `pe_histogram`?
+- **epigenetics-cut_and_run-q050** — What tool should I use in Galaxy to compute and plot paired-end fragment length distributions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q051** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-cut_and_run-q051** — I have a matrix-like table and want to transpose it so features become rows and samples become columns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q052** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-cut_and_run-q052** — I need to swap rows and columns of a tabular dataset in Galaxy for downstream analysis. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q053** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q053** — Which Galaxy tool transposes a table (rows-to-columns) while keeping the header consistent?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q054** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-cut_and_run-q054** — What tool should I use in Galaxy to transpose a matrix so it matches the input requirements of the next step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q055** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-cut_and_run-q055** — I have chromatin profiling alignments and want to call enriched regions (peaks). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q056** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-cut_and_run-q056** — I need a peak list and summit locations from my CUT&RUN/ChIP-seq experiment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q057** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q057** — Which Galaxy tool performs peak calling on aligned reads and outputs peak intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q058** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-cut_and_run-q058** — What tool should I use in Galaxy to identify enriched binding regions from my alignment data?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q059** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-cut_and_run-q059** — I generated a genome-wide signal track and need to convert it into a BigWig file for visualization. Which Galaxy tool should I use?
   - Tools: wig_to_bigWig
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q060** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-cut_and_run-q060** — I want to turn a coverage/signal dataset into a compact track format suitable for genome browsers. Which Galaxy tool should I run?
   - Tools: wig_to_bigWig
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q061** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q061** — Which Galaxy tool converts a WIG-style signal track into BigWig format?
   - Tools: wig_to_bigWig
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q062** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-cut_and_run-q062** — What tool should I use in Galaxy to convert a signal track into BigWig for efficient viewing?
   - Tools: wig_to_bigWig
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q063** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-cut_and_run-q063** — I want to intersect my peak regions with a blacklist or annotation features to filter or annotate peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q064** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-cut_and_run-q064** — I need to find overlaps between two genomic interval sets (for example, peaks and promoters). Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q065** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q065** — Which Galaxy tool finds overlaps between two BED-like interval datasets and outputs the intersecting regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q066** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-cut_and_run-q066** — What tool should I use in Galaxy to filter intervals based on overlap with another interval set?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q067** — Which Galaxy tool would you recommend to perform `Extract genomic DNA 1`?
+- **epigenetics-cut_and_run-q067** — I have genomic coordinates for peaks and want to extract the corresponding DNA sequences from a reference genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q068** — Which Galaxy tool would you recommend to perform `Extract genomic DNA 1`?
+- **epigenetics-cut_and_run-q068** — I need FASTA sequences for a set of binding regions so I can do motif analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q069** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q069** — Which Galaxy tool extracts reference genome sequences for a list of intervals (peak coordinates)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q070** — Which Galaxy tool would you recommend to perform `Extract genomic DNA 1`?
+- **epigenetics-cut_and_run-q070** — What tool should I use in Galaxy to retrieve DNA sequences for my peak regions from the reference genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q071** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-cut_and_run-q071** — I want a matrix of signal values around peak centers to summarize enrichment patterns across many regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q072** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-cut_and_run-q072** — I need to compute a binned signal matrix from one or more coverage tracks over a set of genomic regions. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q073** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q073** — Which Galaxy tool builds a coverage matrix over regions so I can make heatmaps or profile plots later?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q074** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-cut_and_run-q074** — What tool should I use in Galaxy to generate a deepTools-style matrix from signal tracks and a region list?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q075** — Which Galaxy tool would you recommend to perform `meme_chip`?
+- **epigenetics-cut_and_run-q075** — I have a set of DNA sequences from binding regions and want to discover enriched motifs de novo. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meme_chip/meme_chip/4.11.2+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q076** — Which Galaxy tool would you recommend to perform `meme_chip`?
+- **epigenetics-cut_and_run-q076** — I need to run a motif discovery workflow on peak sequences and get motif reports. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meme_chip/meme_chip/4.11.2+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q077** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q077** — Which Galaxy tool performs motif discovery on a FASTA of peak-region sequences and outputs enriched motifs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meme_chip/meme_chip/4.11.2+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q078** — Which Galaxy tool would you recommend to perform `meme_chip`?
+- **epigenetics-cut_and_run-q078** — What tool should I use in Galaxy to identify overrepresented sequence motifs in binding-site sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meme_chip/meme_chip/4.11.2+galaxy1
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q079** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-cut_and_run-q079** — I already computed a signal matrix over peaks and want to visualize it as a clustered heatmap. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q080** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-cut_and_run-q080** — I need a heatmap of coverage around genomic regions to compare enrichment patterns between samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q081** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q081** — Which Galaxy tool plots a heatmap from a computed signal matrix over genomic regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q082** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-cut_and_run-q082** — What tool should I use in Galaxy to generate heatmaps and profiles from a deepTools-style matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q083** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-cut_and_run-q083** — I have a wide table where each column is a sample, but I need samples as rows for a summary step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q084** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-cut_and_run-q084** — I want to pivot a simple matrix by transposing it to make plotting easier. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q085** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q085** — Which Galaxy tool should I use to transpose a tabular dataset as part of a workflow (matrix reorientation)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q086** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **epigenetics-cut_and_run-q086** — What tool should I use in Galaxy to flip a tabular matrix from row-wise to column-wise representation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q087** — Which Galaxy tool would you recommend to perform `idr`?
+- **epigenetics-cut_and_run-q087** — I have peak calls from biological replicates and want to identify the reproducible peaks shared across replicates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr/idr/2.0.3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q088** — Which Galaxy tool would you recommend to perform `idr`?
+- **epigenetics-cut_and_run-q088** — I need to compare replicate peak sets and select a high-confidence reproducible set using an IDR-style approach. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr/idr/2.0.3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q089** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q089** — Which Galaxy tool estimates replicate consistency and outputs an IDR-filtered peak set?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr/idr/2.0.3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q090** — Which Galaxy tool would you recommend to perform `idr`?
+- **epigenetics-cut_and_run-q090** — What tool should I use in Galaxy to choose reproducible peaks across replicate experiments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr/idr/2.0.3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q091** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-cut_and_run-q091** — I want to sort regions by signal intensity and plot a heatmap to highlight strong binding sites. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q092** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-cut_and_run-q092** — I need a publication-ready heatmap figure from my coverage matrix and region set. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q093** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
+- **epigenetics-cut_and_run-q093** — Which Galaxy tool can take a signal matrix and produce a heatmap with optional clustering and ordering?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q094** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-cut_and_run-q094** — What Galaxy tool should I use to render a heatmap of signal around peaks for QC and interpretation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q095** — Which Galaxy tool would you recommend to perform `Extract`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract
+- **epigenetics-cut_and_run-q095** — I want to extract sequences around peak summits (or peak intervals) to prepare inputs for motif discovery. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q096** — Which Galaxy tool would you recommend to perform `Extract`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract
+- **epigenetics-cut_and_run-q096** — I need to pull out the genomic DNA sequence for each region in a BED-like file of peaks. Which Galaxy tool should I run?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q097** — Which Galaxy tool should I use to run an analysis step from the guide in CUT&RUN data analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract
+- **epigenetics-cut_and_run-q097** — Which Galaxy tool takes an interval list and outputs the underlying genomic DNA sequences as FASTA?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q098** — Which Galaxy tool would you recommend to perform `Extract`?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract
+- **epigenetics-cut_and_run-q098** — What Galaxy tool should I use to extract peak-region sequences from the reference genome for downstream motif scanning?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 6823059, zenodo.6823059
 
 ## Identification of the binding sites of the Estrogen receptor (topics/epigenetics/tutorials/estrogen-receptor-binding-site-identification)
@@ -6987,172 +6987,172 @@ Questions:
 - Datasets (1): zenodo.892432
 
 Questions:
-- **epigenetics-estrogen-receptor-binding-site-identification-q011** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q011** — I want a quick alignment QC summary showing mapped read counts per chromosome/contig. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q012** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q012** — I need per-reference mapping counts from my BAM file to spot anomalies like mitochondrial overrepresentation. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q013** — Which Galaxy tool runs an idxstats-style summary on a BAM alignment?
+- **epigenetics-estrogen-receptor-binding-site-identification-q013** — Which Galaxy tool reports alignment mapping statistics per contig from a BAM file?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q014** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q014** — What tool should I use in Galaxy to summarize mapped reads by reference sequence in an alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q015** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q015** — I want a genome-wide coverage track from my alignments to visualize signal in a genome browser. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q016** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q016** — I need to generate a normalized coverage track from a BAM alignment for visualization. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q017** — Which Galaxy tool converts a BAM to a coverage track for ChIP-seq signal visualization?
+- **epigenetics-estrogen-receptor-binding-site-identification-q017** — Which Galaxy tool converts BAM alignments into a coverage signal track suitable for browsing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q018** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q018** — What tool should I use in Galaxy to create a normalized coverage track from my mapped reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q019** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q019** — I want a fingerprint plot to assess enrichment and library complexity in my ChIP-seq/CUT&RUN alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q020** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q020** — I need a QC plot comparing signal versus background across my samples to judge experiment quality. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q021** — Which Galaxy tool generates a ChIP-seq fingerprint plot for BAM files?
+- **epigenetics-estrogen-receptor-binding-site-identification-q021** — Which Galaxy tool generates fingerprint plots from alignments to evaluate enrichment quality?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q022** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q022** — What tool should I use in Galaxy to create a fingerprint QC plot for chromatin profiling data?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q023** — Which Galaxy tool would you recommend to perform `deeptools_compute_gc_bias`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q023** — I suspect GC bias in my sequencing data and want to quantify it from my alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q024** — Which Galaxy tool would you recommend to perform `deeptools_compute_gc_bias`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q024** — I need a report of GC bias across reads to decide whether bias correction is needed. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q025** — Which Galaxy tool computes GC bias from a BAM alignment?
+- **epigenetics-estrogen-receptor-binding-site-identification-q025** — Which Galaxy tool computes GC bias metrics from an alignment file for QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q026** — Which Galaxy tool would you recommend to perform `deeptools_compute_gc_bias`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q026** — What tool should I use in Galaxy to assess GC bias in my mapped reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q027** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q027** — I have treatment and control alignments and want a normalized comparison track (for example, log2 ratio) across the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q028** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q028** — I need to compare two BAM files to generate a signal track that highlights enrichment over background. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q029** — Which Galaxy tool compares two BAM files to produce a ChIP vs input signal track?
+- **epigenetics-estrogen-receptor-binding-site-identification-q029** — Which Galaxy tool creates a comparative signal track by combining two alignment datasets (treatment vs control)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q030** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q030** — What tool should I use in Galaxy to compute a ratio/difference track between two BAM files for visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q031** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q031** — I want to call estrogen-receptor binding sites from ChIP-seq alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q032** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q032** — I need a reproducible set of candidate binding peaks from my ChIP-seq experiment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q033** — Which Galaxy tool performs MACS2 peak calling on ChIP-seq data?
+- **epigenetics-estrogen-receptor-binding-site-identification-q033** — Which Galaxy tool calls peaks from ChIP-seq/CUT&RUN alignments to generate a BED-like peak set?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q034** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q034** — What tool should I use in Galaxy to run peak calling and obtain peak coordinates for downstream annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q035** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q035** — I want to summarize read coverage across the genome for multiple samples to compare them. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q036** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q036** — I need a matrix summarizing coverage across bins or regions for several BAM files as input to correlation analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q037** — Which Galaxy tool creates a multi-BAM summary matrix for downstream correlation plots?
+- **epigenetics-estrogen-receptor-binding-site-identification-q037** — Which Galaxy tool builds a multi-sample coverage summary matrix from multiple BAM files?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q038** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q038** — What tool should I use in Galaxy to compute a coverage summary across many alignment files for QC and comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q039** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q039** — I want to summarize signal around transcription start sites to compare samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q040** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q040** — I need an aggregated matrix of coverage around a set of genomic features for downstream visualization. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q041** — Which Galaxy tool builds a deepTools computeMatrix for ChIP-seq tracks?
+- **epigenetics-estrogen-receptor-binding-site-identification-q041** — Which Galaxy tool computes a matrix of read coverage over selected regions (for heatmap/profile plotting)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q042** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q042** — What Galaxy tool should I use to compute a signal matrix from BigWig tracks over my peak set?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q043** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q043** — I have a multi-sample coverage summary matrix and want a correlation heatmap to see sample similarity. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q044** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q044** — I need correlation plots to compare replicates and detect outliers across chromatin profiling samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q045** — Which Galaxy tool plots correlation from a deepTools summary matrix?
+- **epigenetics-estrogen-receptor-binding-site-identification-q045** — Which Galaxy tool plots sample-to-sample correlations from a coverage summary matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q046** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q046** — What tool should I use in Galaxy to visualize correlations between samples as a heatmap or scatter plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q047** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q047** — I want to compare estrogen-receptor binding signal around peak centers using a heatmap. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q048** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q048** — I need a heatmap visualization of signal enrichment around binding sites for my ChIP-seq experiment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q049** — Which Galaxy tool renders a deepTools heatmap from a signal matrix?
+- **epigenetics-estrogen-receptor-binding-site-identification-q049** — Which Galaxy tool produces a heatmap from a matrix of ChIP-seq signal over peaks?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q050** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q050** — What tool should I use in Galaxy to plot heatmaps of coverage around binding sites from an existing matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q051** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q051** — I just received sequencing reads and want a standard QC report (quality scores, GC content, adapter contamination). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q052** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q052** — Before trimming or mapping, I want to assess read quality and overrepresented sequences for my samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q053** — Which Galaxy tool provides a standard FASTQ quality report?
+- **epigenetics-estrogen-receptor-binding-site-identification-q053** — Which Galaxy tool generates per-sample QC reports for raw sequencing reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q054** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q054** — What tool should I use in Galaxy to check read quality for an epigenomics experiment and produce a QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q055** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q055** — I want adapter trimming and quality filtering for my sequencing reads in one step, with a trimming report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q056** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q056** — I need to remove adapters and low-quality ends from reads before alignment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q057** — Which Galaxy tool runs Trim Galore for adapter and quality trimming?
+- **epigenetics-estrogen-receptor-binding-site-identification-q057** — Which Galaxy tool performs adapter trimming with quality filtering for epigenomics sequencing reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q058** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q058** — What tool should I use in Galaxy to clean reads (trim adapters and low-quality bases) prior to mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q059** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q059** — I have cleaned reads and need to align them to the reference genome to produce an alignment for peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q060** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q060** — I want to map paired-end reads to a genome and generate a BAM alignment for downstream analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q061** — Which Galaxy tool should I pick for Bowtie2-based alignment of ChIP-seq reads?
+- **epigenetics-estrogen-receptor-binding-site-identification-q061** — Which Galaxy tool performs short-read alignment to a reference genome and outputs alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q062** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q062** — What tool should I use in Galaxy for read mapping as part of a ChIP-seq/CUT&RUN workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q063** — Which Galaxy tool would you recommend to perform `bam_to_sam`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q063** — I have an alignment in BAM and need it in SAM format for a downstream compatibility step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q064** — Which Galaxy tool would you recommend to perform `bam_to_sam`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q064** — I want to convert a BAM alignment to a SAM text representation for inspection or processing. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q065** — Which Galaxy tool converts BAM files into SAM format?
+- **epigenetics-estrogen-receptor-binding-site-identification-q065** — Which Galaxy tool should I use to convert BAM alignments to SAM so I can inspect read flags and CIGAR strings?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: zenodo.892432
-- **epigenetics-estrogen-receptor-binding-site-identification-q066** — Which Galaxy tool would you recommend to perform `bam_to_sam`?
+- **epigenetics-estrogen-receptor-binding-site-identification-q066** — What tool should I use in Galaxy to output a SAM file from a BAM alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0.7, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: zenodo.892432
 
@@ -7162,76 +7162,76 @@ Questions:
 - Datasets (1): 1251211
 
 Questions:
-- **epigenetics-ewas-suite-q011** — Which Galaxy tool would you recommend to perform `minfi_analysis`?
+- **epigenetics-ewas-suite-q011** — I have DNA methylation array data and want to run an epigenome-wide association analysis to find differentially methylated sites. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q012** — Which Galaxy tool would you recommend to perform `minfi_analysis`?
+- **epigenetics-ewas-suite-q012** — I need normalization and differential methylation testing for methylation array samples with covariates. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q013** — Which Galaxy tool provides the Minfi-based EWAS analysis workflow?
+- **epigenetics-ewas-suite-q013** — Which Galaxy tool performs a Minfi-based methylation array analysis and produces differential methylation results?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q014** — Which Galaxy tool would you recommend to perform `minfi_analysis`?
+- **epigenetics-ewas-suite-q014** — What tool should I use in Galaxy to run an EWAS workflow on methylation array data and get significant CpG sites?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q015** — Which Galaxy tool would you recommend to perform `chipeakanno_annopeaks`?
+- **epigenetics-ewas-suite-q015** — I have genomic regions (peaks) and want to annotate them with nearby genes and genomic features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q016** — Which Galaxy tool would you recommend to perform `chipeakanno_annopeaks`?
+- **epigenetics-ewas-suite-q016** — I need to map peak coordinates to genes/promoters and produce an annotated table. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q017** — Which Galaxy tool annotates peak or region coordinates with gene features?
+- **epigenetics-ewas-suite-q017** — Which Galaxy tool annotates peak/region coordinates with gene features and distances to TSS?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q018** — Which Galaxy tool would you recommend to perform `chipeakanno_annopeaks`?
+- **epigenetics-ewas-suite-q018** — What Galaxy tool should I use to add gene annotations to a list of genomic intervals?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q019** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **epigenetics-ewas-suite-q019** — I have a wide EWAS results table and want to extract only a few columns (ID, effect size, p-value) for plotting. Which Galaxy tool should I use?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q020** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **epigenetics-ewas-suite-q020** — I need to keep specific fields from a tabular dataset and drop the rest. Which Galaxy tool should I run?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q021** — Which Galaxy tool should I use to extract selected columns from a table?
+- **epigenetics-ewas-suite-q021** — Which Galaxy tool selects specified columns from a tabular dataset?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q022** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **epigenetics-ewas-suite-q022** — What tool should I use in Galaxy to keep only chosen columns from a table?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q023** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **epigenetics-ewas-suite-q023** — I downloaded a table that includes extra comment or header lines at the top and I need to remove them before parsing. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q024** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **epigenetics-ewas-suite-q024** — I want to strip the first N lines from a text dataset to remove a duplicated header. Which Galaxy tool should I run?
   - Tools: Remove beginning1
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q025** — Which Galaxy tool removes the beginning of a file by trimming initial lines?
+- **epigenetics-ewas-suite-q025** — Which Galaxy tool removes a fixed number of lines from the beginning of a dataset?
   - Tools: Remove beginning1
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q026** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **epigenetics-ewas-suite-q026** — What tool should I use in Galaxy to drop leading header/comment lines from a file?
   - Tools: Remove beginning1
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q027** — Which Galaxy tool would you recommend to perform `clusterprofiler_bitr`?
+- **epigenetics-ewas-suite-q027** — I have a list of genes in one identifier type and need to convert them to another type before enrichment analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q028** — Which Galaxy tool would you recommend to perform `clusterprofiler_bitr`?
+- **epigenetics-ewas-suite-q028** — I need to translate gene identifiers (for example, symbols to Entrez IDs) for downstream functional analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q029** — Which Galaxy tool runs clusterProfiler bitr for ID conversion?
+- **epigenetics-ewas-suite-q029** — Which Galaxy tool converts gene IDs between annotation systems using a clusterProfiler-style mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q030** — Which Galaxy tool would you recommend to perform `clusterprofiler_bitr`?
+- **epigenetics-ewas-suite-q030** — What tool should I use in Galaxy to perform gene identifier conversion for enrichment workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q031** — Which Galaxy tool would you recommend to perform `clusterprofiler_go`?
+- **epigenetics-ewas-suite-q031** — I have a gene list and want to run Gene Ontology enrichment analysis to see overrepresented functions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q032** — Which Galaxy tool would you recommend to perform `clusterprofiler_go`?
+- **epigenetics-ewas-suite-q032** — I need GO enrichment results and plots from a list of significant genes. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q033** — Which Galaxy tool performs GO enrichment via clusterProfiler?
+- **epigenetics-ewas-suite-q033** — Which Galaxy tool performs GO enrichment analysis using a clusterProfiler-style workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q034** — Which Galaxy tool would you recommend to perform `clusterprofiler_go`?
+- **epigenetics-ewas-suite-q034** — What tool should I use in Galaxy to compute GO term enrichment for my gene set?
   - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
   - Datasets: 1251211
 
@@ -7241,16 +7241,16 @@ Questions:
 - Datasets (1): 1324070
 
 Questions:
-- **epigenetics-formation_of_super-structures_on_xi-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-formation_of_super-structures_on_xi-q011** — I want to check sequencing read quality for a chromosome conformation/structure experiment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-formation_of_super-structures_on_xi-q012** — I need a QC report to verify read quality and possible adapter content before mapping. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q013** — Which Galaxy tool produces a FastQC report for raw reads?
+- **epigenetics-formation_of_super-structures_on_xi-q013** — Which Galaxy tool should I use to assess read quality and generate QC summaries across my samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-formation_of_super-structures_on_xi-q014** — What tool should I use in Galaxy to produce a read QC report I can review before proceeding?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 1324070
 - **epigenetics-formation_of_super-structures_on_xi-q015** — Which Galaxy tool would you recommend to perform `trim_galore`?
