@@ -163,6 +163,18 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 301 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Cut/Grep/cat/sort/etc.).
 
+## Batch A0004 (451–600)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 451–600 (climate: Sentinel-5P visualization; computational chemistry: MD trajectory analysis + cheminformatics/docking)
+- Summary:
+  - Rewrote all queries to remove tool leakage and GTN guide phrasing (no backticks, no tool names/IDs, no tutorial references, no dataset URLs/IDs in query text).
+  - Increased science-first coverage in this batch (final split: 109 science-first / 41 tool-first) while keeping a mix of user styles.
+  - Kept ground-truth tool selections intact for this batch (no new gold expansions added).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 451 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Grep/cat).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26

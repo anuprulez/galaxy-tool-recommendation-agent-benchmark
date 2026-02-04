@@ -1538,40 +1538,40 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **climate-sentinel5_data-q011** — Which Galaxy tool would you recommend to perform `interactive_tool_copernicus_notebook`?
+- **climate-sentinel5_data-q011** — I have Sentinel-5P atmospheric products and want an interactive notebook workspace inside Galaxy to explore them and generate a few maps. Which tool should I launch?
   - Tools: interactive_tool_copernicus_notebook
   - Datasets: None
-- **climate-sentinel5_data-q012** — Which Galaxy tool would you recommend to perform `interactive_tool_copernicus_notebook`?
+- **climate-sentinel5_data-q012** — I want to run custom Python analysis on Earth-observation datasets directly from my Galaxy history using a notebook session. Which tool should I use?
   - Tools: interactive_tool_copernicus_notebook
   - Datasets: None
-- **climate-sentinel5_data-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 5P data visualisation?
+- **climate-sentinel5_data-q013** — Which Galaxy tool provides an interactive notebook environment for working with Earth-observation datasets?
   - Tools: interactive_tool_copernicus_notebook
   - Datasets: None
-- **climate-sentinel5_data-q014** — Which Galaxy tool would you recommend to perform `interactive_tool_copernicus_notebook`?
+- **climate-sentinel5_data-q014** — In Galaxy, what tool opens a notebook session so I can run code on datasets in my history?
   - Tools: interactive_tool_copernicus_notebook
   - Datasets: None
-- **climate-sentinel5_data-q015** — Which Galaxy tool would you recommend to perform `interactive_tool_panoply`?
+- **climate-sentinel5_data-q015** — I downloaded a multi-dimensional satellite dataset and want a desktop-style viewer to browse variables and quickly plot them. Which tool should I use?
   - Tools: interactive_tool_panoply
   - Datasets: None
-- **climate-sentinel5_data-q016** — Which Galaxy tool would you recommend to perform `interactive_tool_panoply`?
+- **climate-sentinel5_data-q016** — I need an interactive GUI to inspect gridded remote-sensing variables, make quick plots, and export figures. Which tool should I launch?
   - Tools: interactive_tool_panoply
   - Datasets: None
-- **climate-sentinel5_data-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 5P data visualisation?
+- **climate-sentinel5_data-q017** — Which Galaxy tool offers a point-and-click viewer for gridded climate and satellite datasets?
   - Tools: interactive_tool_panoply
   - Datasets: None
-- **climate-sentinel5_data-q018** — Which Galaxy tool would you recommend to perform `interactive_tool_panoply`?
+- **climate-sentinel5_data-q018** — What tool in Galaxy lets me interactively inspect variables in a gridded satellite product and make quick maps?
   - Tools: interactive_tool_panoply
   - Datasets: None
-- **climate-sentinel5_data-q019** — Which Galaxy tool would you recommend to perform `interactive_tool_copernicus`?
+- **climate-sentinel5_data-q019** — I want to search for Sentinel-5P products by region and date and download the results into my Galaxy history. Which tool should I use?
   - Tools: interactive_tool_copernicus
   - Datasets: None
-- **climate-sentinel5_data-q020** — Which Galaxy tool would you recommend to perform `interactive_tool_copernicus`?
+- **climate-sentinel5_data-q020** — I need to retrieve Sentinel-5P measurements for a chosen time range and area and add them to my history for analysis. Which tool should I run?
   - Tools: interactive_tool_copernicus
   - Datasets: None
-- **climate-sentinel5_data-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Sentinel 5P data visualisation?
+- **climate-sentinel5_data-q021** — Which Galaxy tool can query a Sentinel-5P catalogue and download selected products into my history?
   - Tools: interactive_tool_copernicus
   - Datasets: None
-- **climate-sentinel5_data-q022** — Which Galaxy tool would you recommend to perform `interactive_tool_copernicus`?
+- **climate-sentinel5_data-q022** — In Galaxy, what tool can discover and retrieve Sentinel-5P datasets for a chosen region and period?
   - Tools: interactive_tool_copernicus
   - Datasets: None
 
@@ -1581,136 +1581,136 @@ Questions:
 - Datasets (2): zenodo.2537734, 2537734
 
 Questions:
-- **computational-chemistry-analysis-md-simulations-q011** — Which Galaxy tool would you recommend to perform `mdanalysis_rdf`?
+- **computational-chemistry-analysis-md-simulations-q011** — From an MD trajectory, I want a radial distribution function to see how solvent is organized around a selected atom group. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q012** — Which Galaxy tool would you recommend to perform `mdanalysis_rdf`?
+- **computational-chemistry-analysis-md-simulations-q012** — I want to compute a radial distribution function between two selections in my MD simulation (e.g., ion–oxygen distances). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q013** — Which tool should I use for standard MD-trajectory analyses like RMSD/RMSF, PCA, distances, dihedrals, RDFs, and backbone geometry plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q014** — Which Galaxy tool would you recommend to perform `mdanalysis_rdf`?
+- **computational-chemistry-analysis-md-simulations-q014** — I need an RDF curve from a trajectory to quantify preferred interaction distances between two groups. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q015** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
+- **computational-chemistry-analysis-md-simulations-q015** — I want a time series of the orientation of a molecular vector in an MD trajectory (reported as cosine values). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q016** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
+- **computational-chemistry-analysis-md-simulations-q016** — In an MD simulation, I want to quantify how the angle between two vectors changes over time (cosine-based angle analysis). Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q017** — I have an MD trajectory and need to pick the right analysis tool for one of several common outputs (RMSD, fluctuations, PCA, distances, dihedrals, RDFs, or backbone plots). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q018** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
+- **computational-chemistry-analysis-md-simulations-q018** — I want to measure the alignment/orientation of a helix or bond vector across frames of a trajectory using cosine values. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q019** — Which Galaxy tool would you recommend to perform `mdanalysis_ramachandran_plot`?
+- **computational-chemistry-analysis-md-simulations-q019** — I want a Ramachandran plot from my protein trajectory to check backbone conformations sampled during the simulation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q020** — Which Galaxy tool would you recommend to perform `mdanalysis_ramachandran_plot`?
+- **computational-chemistry-analysis-md-simulations-q020** — I need phi/psi angle distributions for residues in an MD run and would like the result as a Ramachandran-style plot. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q021** — Which Galaxy tool should I use to generate common MD summary plots (RMSD/RMSF/PCA) and geometry analyses (distances/dihedrals/Ramachandran/RDF) from a trajectory?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q022** — Which Galaxy tool would you recommend to perform `mdanalysis_ramachandran_plot`?
+- **computational-chemistry-analysis-md-simulations-q022** — I want to verify that backbone angles stay in reasonable regions over the course of a simulation by generating a Ramachandran plot. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q023** — Which Galaxy tool would you recommend to perform `mdanalysis_distance`?
+- **computational-chemistry-analysis-md-simulations-q023** — I want the distance between two residues (or atom selections) as a function of time from an MD trajectory. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q024** — Which Galaxy tool would you recommend to perform `mdanalysis_distance`?
+- **computational-chemistry-analysis-md-simulations-q024** — I need to track a ligand–protein contact distance across frames of an MD simulation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q025** — Which tool should I use in Galaxy to compute standard MD trajectory metrics, including distances, torsions, RDFs, and stability plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q026** — Which Galaxy tool would you recommend to perform `mdanalysis_distance`?
+- **computational-chemistry-analysis-md-simulations-q026** — From my trajectory, I want a distance time series between two selected atoms to see when a contact forms or breaks. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q027** — Which Galaxy tool would you recommend to perform `mdanalysis_dihedral`?
+- **computational-chemistry-analysis-md-simulations-q027** — I want to compute a torsion (dihedral) angle time series from an MD trajectory for a selected set of atoms. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q028** — Which Galaxy tool would you recommend to perform `mdanalysis_dihedral`?
+- **computational-chemistry-analysis-md-simulations-q028** — I need dihedral-angle values across frames to study side-chain rotamers during a simulation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q029** — Which tool should I choose for routine MD post-processing when I might need dihedrals, distances, RDFs, and structural stability summaries?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q030** — Which Galaxy tool would you recommend to perform `mdanalysis_dihedral`?
+- **computational-chemistry-analysis-md-simulations-q030** — I want a torsion-angle trace over time (dihedral analysis) to compare conformational states in an MD run. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q031** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
+- **computational-chemistry-analysis-md-simulations-q031** — I want an RMSD plot over time to check whether my simulated protein structure stabilizes relative to a reference frame. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q032** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
+- **computational-chemistry-analysis-md-simulations-q032** — From an MD trajectory, I need RMSD values to quantify overall structural drift after alignment. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q033** — Which Galaxy tool should I use if I want to run one of several common MD analyses (RMSD, fluctuations, PCA, distances, dihedrals, RDFs, or backbone plots)?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q034** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
+- **computational-chemistry-analysis-md-simulations-q034** — I want to compare stability between two simulations by generating RMSD time series for each. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q035** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
+- **computational-chemistry-analysis-md-simulations-q035** — I want per-residue RMSF from an MD trajectory to find which regions of a protein are most flexible. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q036** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
+- **computational-chemistry-analysis-md-simulations-q036** — I need a residue-level fluctuation profile across a simulation to highlight flexible loops (RMSF). Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q037** — Which tool should I pick in Galaxy to do typical MD trajectory analyses, when the exact metric I need may vary (RMSD/RMSF/PCA/distances/dihedrals/RDFs)?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q038** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
+- **computational-chemistry-analysis-md-simulations-q038** — I want an RMSF plot to compare flexibility between apo and ligand-bound simulations. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q039** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
+- **computational-chemistry-analysis-md-simulations-q039** — I want to run PCA on atomic coordinates from an MD trajectory to identify dominant collective motions. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q040** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
+- **computational-chemistry-analysis-md-simulations-q040** — I need a principal component analysis of my trajectory to reduce dimensionality and visualize conformational clustering. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q041** — Which Galaxy tool should I use for an MD trajectory when I need a standard analysis output but haven't decided whether it's PCA, RMSD, RMSF, a distance, or an RDF?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q042** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
+- **computational-chemistry-analysis-md-simulations-q042** — I want projections of trajectory frames onto the first few principal components to see transitions between states. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q043** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
+- **computational-chemistry-analysis-md-simulations-q043** — I want RMSD for a ligand in the binding site over time to see if it stays put during the simulation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q044** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
+- **computational-chemistry-analysis-md-simulations-q044** — I need RMSD time series for a selected atom group (not the whole protein) from an MD trajectory. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q045** — Which Galaxy tool should I use for MD trajectory post-processing if I'm choosing among common metrics like RMSD, RMSF, PCA, and geometry analyses?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q046** — Which Galaxy tool would you recommend to perform `bio3d_rmsd`?
+- **computational-chemistry-analysis-md-simulations-q046** — I want to compute RMSD after superposition to compare different simulation runs quantitatively. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q047** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
+- **computational-chemistry-analysis-md-simulations-q047** — I want to quantify residue-by-residue flexibility using RMSF from an MD trajectory. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q048** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
+- **computational-chemistry-analysis-md-simulations-q048** — I need an RMSF profile to locate rigid cores versus flexible termini in my simulation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q049** — Which Galaxy tool should I pick for MD trajectory analysis when I might need either RMSF, RMSD, PCA, or related geometric measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q050** — Which Galaxy tool would you recommend to perform `bio3d_rmsf`?
+- **computational-chemistry-analysis-md-simulations-q050** — I want to compare which residues fluctuate most across two conditions by generating RMSF curves. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q051** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
+- **computational-chemistry-analysis-md-simulations-q051** — I want PCA on trajectory coordinates to summarize the main motions and separate conformational states. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q052** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
+- **computational-chemistry-analysis-md-simulations-q052** — I need a principal-components decomposition of an MD trajectory and plots of the leading modes. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Analysis of molecular dynamics simulations?
+- **computational-chemistry-analysis-md-simulations-q053** — Which tool should I use in Galaxy for common MD analyses when there are multiple reasonable choices depending on whether I need PCA, RMSD, RMSF, or other metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.19, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_ramachandran_plot/mdanalysis_ramachandran_plot/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/1.0.0+galaxy0, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3.4, toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3.4
   - Datasets: 2537734, zenodo.2537734
-- **computational-chemistry-analysis-md-simulations-q054** — Which Galaxy tool would you recommend to perform `bio3d_pca`?
+- **computational-chemistry-analysis-md-simulations-q054** — I want to project frames onto principal components to visualize large-scale motions in a simulation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4
   - Datasets: 2537734, zenodo.2537734
 
@@ -1720,286 +1720,286 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **computational-chemistry-cheminformatics-q011** — Which Galaxy tool would you recommend to perform `ctb_online_data_fetch`?
+- **computational-chemistry-cheminformatics-q011** — I have a list of small molecules I want to analyze, but first I need to fetch them from an online chemical data source into my Galaxy history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q012** — Which Galaxy tool would you recommend to perform `ctb_online_data_fetch`?
+- **computational-chemistry-cheminformatics-q012** — I want to retrieve compound records from a public chemistry database using a text query and save the resulting structures in my history. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q013** — I need to download a set of compounds from an online source by providing identifiers and bring them into Galaxy for filtering and clustering. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q014** — Which Galaxy tool would you recommend to perform `ctb_online_data_fetch`?
+- **computational-chemistry-cheminformatics-q014** — I want to pull candidate ligands from a public compound repository into Galaxy as a starting library. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q015** — Which Galaxy tool would you recommend to perform `ctb_change_title`?
+- **computational-chemistry-cheminformatics-q015** — Which Galaxy tool can rename molecule titles/identifiers across an entire compound library?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q016** — Which Galaxy tool would you recommend to perform `ctb_change_title`?
+- **computational-chemistry-cheminformatics-q016** — What tool should I run in Galaxy to replace the name field of every molecule in a dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q017** — Which tool in Galaxy can set compound IDs to a consistent scheme before downstream docking and reporting?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q018** — Which Galaxy tool would you recommend to perform `ctb_change_title`?
+- **computational-chemistry-cheminformatics-q018** — I need a Galaxy tool that edits the title/ID field for each molecule in a structure dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q019** — Which Galaxy tool would you recommend to perform `ctb_obgrep`?
+- **computational-chemistry-cheminformatics-q019** — Which Galaxy tool can filter a compound set by a substructure pattern and keep only matches?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q020** — Which Galaxy tool would you recommend to perform `ctb_obgrep`?
+- **computational-chemistry-cheminformatics-q020** — What tool should I use in Galaxy to search a molecule library for structures matching a pattern (substructure query)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q021** — Which tool in Galaxy can scan molecules for the presence of a functional group and output the hits?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q022** — Which Galaxy tool would you recommend to perform `ctb_obgrep`?
+- **computational-chemistry-cheminformatics-q022** — I need a Galaxy tool that performs a pattern-based search over chemical structures. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_obgrep/openbabel_obgrep/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q023** — Which Galaxy tool would you recommend to perform `ctb_remDuplicates`?
+- **computational-chemistry-cheminformatics-q023** — Which Galaxy tool removes duplicate molecules from a compound dataset based on structure identity?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q024** — Which Galaxy tool would you recommend to perform `ctb_remDuplicates`?
+- **computational-chemistry-cheminformatics-q024** — What tool should I run to deduplicate a ligand library so each unique structure appears once?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q025** — Which tool in Galaxy can collapse repeated structures and keep only unique molecules?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q026** — Which Galaxy tool would you recommend to perform `ctb_remDuplicates`?
+- **computational-chemistry-cheminformatics-q026** — I need a Galaxy tool to eliminate duplicate compounds before similarity clustering. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q027** — Which Galaxy tool would you recommend to perform `ctb_remIons`?
+- **computational-chemistry-cheminformatics-q027** — Which Galaxy tool can strip counterions/salts from a set of small-molecule structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q028** — Which Galaxy tool would you recommend to perform `ctb_remIons`?
+- **computational-chemistry-cheminformatics-q028** — What tool should I use to remove inorganic ions from compound records and keep only the main organic component?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q029** — Which tool in Galaxy can neutralize a library by removing salt fragments and leaving the parent molecules?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q030** — Which Galaxy tool would you recommend to perform `ctb_remIons`?
+- **computational-chemistry-cheminformatics-q030** — I need a Galaxy tool that removes ion fragments from molecule datasets. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/3.1.1+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q031** — Which Galaxy tool would you recommend to perform `ctb_filter`?
+- **computational-chemistry-cheminformatics-q031** — I have a ligand library and want to filter out compounds outside a desired physicochemical range (e.g., too heavy or too polar). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q032** — Which Galaxy tool would you recommend to perform `ctb_filter`?
+- **computational-chemistry-cheminformatics-q032** — Before docking, I want to keep only drug-like candidates by applying simple property cutoffs on my compound set. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q033** — I need to filter a compound collection by computed properties and keep the subset that meets my criteria. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q034** — Which Galaxy tool would you recommend to perform `ctb_filter`?
+- **computational-chemistry-cheminformatics-q034** — I want to remove molecules that violate my screening rules using calculated descriptors. Which tool should I use in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_filter/openbabel_filter/3.1.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q035** — Which Galaxy tool would you recommend to perform `ctb_compound_convert`?
+- **computational-chemistry-cheminformatics-q035** — I have a chemical structure library in one representation and need to convert it to a different structure format for downstream tools. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q036** — Which Galaxy tool would you recommend to perform `ctb_compound_convert`?
+- **computational-chemistry-cheminformatics-q036** — I need to convert a set of molecules into a format suitable for docking preparation and scoring. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q037** — I want to convert a compound library between common cheminformatics formats while preserving identifiers. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q038** — Which Galaxy tool would you recommend to perform `ctb_compound_convert`?
+- **computational-chemistry-cheminformatics-q038** — I need to re-encode a molecule dataset into a different structure representation so other Galaxy steps can read it. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q039** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **computational-chemistry-cheminformatics-q039** — I want to generate structural fingerprints for a set of compounds so I can do similarity searches and clustering. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q040** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **computational-chemistry-cheminformatics-q040** — I need fingerprints computed from my molecule library to quantify pairwise similarity. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q041** — I want to turn my compound structures into a fingerprint representation that other Galaxy tools can cluster. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q042** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **computational-chemistry-cheminformatics-q042** — I have a ligand set and need molecular fingerprints as input for similarity-based workflows. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q043** — Which Galaxy tool would you recommend to perform `ctb_np-likeness-calculator`?
+- **computational-chemistry-cheminformatics-q043** — I want a score for each compound that reflects how similar it is to typical natural products. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q044** — Which Galaxy tool would you recommend to perform `ctb_np-likeness-calculator`?
+- **computational-chemistry-cheminformatics-q044** — I need to compute a natural-product-likeness metric for my candidate molecules to prioritize screening hits. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q045** — I want to annotate a compound library with a natural-product-likeness score for ranking. Which tool should I use in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q046** — Which Galaxy tool would you recommend to perform `ctb_np-likeness-calculator`?
+- **computational-chemistry-cheminformatics-q046** — I need a tool that evaluates natural-product-likeness for each molecule in a dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q047** — Which Galaxy tool would you recommend to perform `ctb_chemfp_nxn_clustering`?
+- **computational-chemistry-cheminformatics-q047** — I have molecular fingerprints and want an all-by-all similarity matrix so I can see clusters and redundancy in the library. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.6.1+0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q048** — Which Galaxy tool would you recommend to perform `ctb_chemfp_nxn_clustering`?
+- **computational-chemistry-cheminformatics-q048** — I want to compute pairwise similarities between all compounds in my fingerprint set and cluster them. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.6.1+0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q049** — I need to cluster a compound library based on fingerprint similarity using an all-vs-all approach. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.6.1+0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q050** — Which Galaxy tool would you recommend to perform `ctb_chemfp_nxn_clustering`?
+- **computational-chemistry-cheminformatics-q050** — I want to build a similarity table across my entire compound set from fingerprints to guide representative selection. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.6.1+0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q051** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-cheminformatics-q051** — I want to start a docking workflow and need to retrieve a protein structure from a public structure archive into my Galaxy history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q052** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-cheminformatics-q052** — I have a structure accession code and want to download the corresponding 3D protein coordinates into my Galaxy history. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q053** — I need to pull a protein structure file from an online repository so I can prepare it for pocket detection and docking. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q054** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-cheminformatics-q054** — I want to fetch a 3D macromolecular structure into Galaxy by providing its database identifier. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q055** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **computational-chemistry-cheminformatics-q055** — Which Galaxy tool can select only the lines in a text dataset that match a given expression?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q056** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **computational-chemistry-cheminformatics-q056** — What tool should I use in Galaxy to keep only rows containing a keyword in a docking log or report?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q057** — Which tool in Galaxy filters a text file to the lines that match a pattern (regular expression)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q058** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **computational-chemistry-cheminformatics-q058** — I need a Galaxy tool that extracts matching lines from a text dataset. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q059** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-cheminformatics-q059** — I need to convert a collection of small-molecule structures between common formats as part of a screening workflow. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q060** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-cheminformatics-q060** — I want to reformat my ligand library into a representation that docking tools can accept. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q061** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q061** — I have structure records with inconsistent encoding and want to standardize them by converting through a canonical representation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q062** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-cheminformatics-q062** — I need a chemistry conversion step in Galaxy to transform my compound set into a compatible structure format. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q063** — Which Galaxy tool would you recommend to perform `chembl`?
+- **computational-chemistry-cheminformatics-q063** — I want to query a public bioactivity database to retrieve compounds reported to bind a specific target. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-cheminformatics-q064** — Which Galaxy tool would you recommend to perform `chembl`?
+- **computational-chemistry-cheminformatics-q064** — I need to download activity measurements and associated compound structures from a public drug-discovery database into Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-cheminformatics-q065** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q065** — I want to pull a set of ligands and their assay results for a protein target from an online bioactivity resource. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-cheminformatics-q066** — Which Galaxy tool would you recommend to perform `chembl`?
+- **computational-chemistry-cheminformatics-q066** — I need a Galaxy tool that can search a public bioactivity repository and return matching compounds with metadata. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-cheminformatics-q067** — Which Galaxy tool would you recommend to perform `prepare_receptor`?
+- **computational-chemistry-cheminformatics-q067** — Before docking, I need to prepare a protein receptor structure (clean up, add hydrogens/charges as needed). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q068** — Which Galaxy tool would you recommend to perform `prepare_receptor`?
+- **computational-chemistry-cheminformatics-q068** — I have a protein structure and need a docking-ready receptor file for scoring runs. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q069** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q069** — I want to preprocess a receptor structure for docking by removing unwanted components and preparing the geometry. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q070** — Which Galaxy tool would you recommend to perform `prepare_receptor`?
+- **computational-chemistry-cheminformatics-q070** — I need to generate a receptor input suitable for a docking engine from a 3D protein structure. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_receptor/prepare_receptor/1.5.7+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q071** — Which Galaxy tool would you recommend to perform `prepare_box`?
+- **computational-chemistry-cheminformatics-q071** — I have a protein structure and want to define a docking search region box around a known binding site. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q072** — Which Galaxy tool would you recommend to perform `prepare_box`?
+- **computational-chemistry-cheminformatics-q072** — I need to generate docking box coordinates (center and size) from a binding-site definition. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q073** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q073** — I want to prepare a docking grid box around a ligand position to constrain the search. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q074** — Which Galaxy tool would you recommend to perform `prepare_box`?
+- **computational-chemistry-cheminformatics-q074** — I need to create a search-space box specification for docking based on a protein structure. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q075** — Which Galaxy tool would you recommend to perform `fpocket`?
+- **computational-chemistry-cheminformatics-q075** — I have a receptor structure and want to detect potential binding pockets automatically. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/4.0.0+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q076** — Which Galaxy tool would you recommend to perform `fpocket`?
+- **computational-chemistry-cheminformatics-q076** — I need to identify and rank putative ligand-binding sites on a protein structure before docking. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/4.0.0+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q077** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q077** — I want to compute pockets/cavities on a protein and get coordinates to guide docking. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/4.0.0+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q078** — Which Galaxy tool would you recommend to perform `fpocket`?
+- **computational-chemistry-cheminformatics-q078** — I have a protein structure and want pocket-finding output to pick a docking site. Which tool should I use in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/4.0.0+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q079** — Which Galaxy tool would you recommend to perform `prepare_box`?
+- **computational-chemistry-cheminformatics-q079** — After selecting a pocket, I need a docking box definition centered on that site for a docking run. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q080** — Which Galaxy tool would you recommend to perform `prepare_box`?
+- **computational-chemistry-cheminformatics-q080** — I need to generate a docking search-space box from a pocket or ligand location so I can run docking consistently. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q081** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q081** — I need a tool that outputs docking search-space box coordinates to use consistently across many ligands. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q082** — Which Galaxy tool would you recommend to perform `prepare_box`?
+- **computational-chemistry-cheminformatics-q082** — I want to define the docking search region once (center/size) and reuse it for batch docking. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina_prepare_box/prepare_box/2021.03.5+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q083** — Which Galaxy tool would you recommend to perform `docking`?
+- **computational-chemistry-cheminformatics-q083** — I have a prepared receptor, a docking box, and a ligand set, and I want to perform docking to score poses. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q084** — Which Galaxy tool would you recommend to perform `docking`?
+- **computational-chemistry-cheminformatics-q084** — I want to dock a small molecule into a protein binding site and get ranked poses and scores. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q085** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q085** — I need to run a protein–ligand docking job inside Galaxy using my prepared inputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q086** — Which Galaxy tool would you recommend to perform `docking`?
+- **computational-chemistry-cheminformatics-q086** — I have many candidate ligands and want to perform batch docking against one receptor site. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking/1.2.3+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q087** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **computational-chemistry-cheminformatics-q087** — I want a clean 2D structure drawing for each molecule in my library as vector graphics for a report. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q088** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **computational-chemistry-cheminformatics-q088** — I need to generate 2D depictions of ligands for a figure panel, ideally as scalable vector images. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q089** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q089** — I want to render chemical structures into 2D diagrams that I can include in a publication. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q090** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **computational-chemistry-cheminformatics-q090** — I need a Galaxy tool that converts molecules into 2D drawings (vector format) for visualization. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q091** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **computational-chemistry-cheminformatics-q091** — Which Galaxy tool can do a bulk find-and-replace on identifiers in a text dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q092** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **computational-chemistry-cheminformatics-q092** — What tool should I use in Galaxy to substitute patterns in a text file (e.g., renaming columns or IDs)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q093** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q093** — Which tool in Galaxy performs scripted text substitutions across many lines of a dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q094** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **computational-chemistry-cheminformatics-q094** — I need a Galaxy tool for find/replace and line-based substitutions in text outputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: None
-- **computational-chemistry-cheminformatics-q095** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **computational-chemistry-cheminformatics-q095** — Which Galaxy tool concatenates multiple text datasets into a single dataset in my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q096** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **computational-chemistry-cheminformatics-q096** — What tool should I use to join several text outputs end-to-end into one file in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q097** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q097** — Which tool in Galaxy can merge multiple report files by simple concatenation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q098** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **computational-chemistry-cheminformatics-q098** — I need a Galaxy tool that combines multiple text datasets into one. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: None
-- **computational-chemistry-cheminformatics-q099** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **computational-chemistry-cheminformatics-q099** — I generated a ligand library and now need fingerprints for each compound to drive similarity clustering. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q100** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **computational-chemistry-cheminformatics-q100** — I want to convert my compound set into fingerprints so I can compute similarities and pick diverse representatives. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q101** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
+- **computational-chemistry-cheminformatics-q101** — I need a fingerprint representation of molecules as input for clustering and diversity selection. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q102** — Which Galaxy tool would you recommend to perform `ctb_chemfp_mol2fps`?
+- **computational-chemistry-cheminformatics-q102** — I want to compute molecular fingerprints for my compounds and store them for downstream similarity workflows. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/1.6.1+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q103** — Which Galaxy tool would you recommend to perform `ctb_chemfp_butina_clustering`?
+- **computational-chemistry-cheminformatics-q103** — I have molecular fingerprints and want to cluster compounds into similarity groups using a simple centroid-based clustering approach. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering/1.6.1+0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q104** — Which Galaxy tool would you recommend to perform `ctb_chemfp_butina_clustering`?
+- **computational-chemistry-cheminformatics-q104** — I want to cluster a compound library by fingerprint similarity to select a diverse subset for docking. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering/1.6.1+0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q105** — Which Galaxy tool should I use to run an analysis step from the guide in Protein-ligand docking?
