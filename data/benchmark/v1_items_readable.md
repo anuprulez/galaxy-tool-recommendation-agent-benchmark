@@ -13017,16 +13017,16 @@ Questions:
 - **introduction-vsi_qc-q022** — Which Galaxy tool should I use to preprocess FASTQ reads (trim + filter) in one step before alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 10870107
-- **introduction-vsi_qc-q023** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **introduction-vsi_qc-q023** — I ran several QC steps across multiple samples and want a single consolidated QC report I can share and compare across samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 10870107
-- **introduction-vsi_qc-q024** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **introduction-vsi_qc-q024** — My history contains outputs from multiple QC tools and I need one combined summary report with plots and tables for quick review. What Galaxy tool can generate that aggregated report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 10870107
-- **introduction-vsi_qc-q025** — Which Galaxy tool is used to generate a MultiQC report here?
+- **introduction-vsi_qc-q025** — Which Galaxy tool can aggregate many QC outputs into one combined report for multi-sample comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 10870107
-- **introduction-vsi_qc-q026** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **introduction-vsi_qc-q026** — In Galaxy, what tool should I run to merge several QC reports into a single summarized HTML report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 10870107
 
@@ -13036,52 +13036,52 @@ Questions:
 - Datasets (1): 10219558
 
 Questions:
-- **materials-science-muon-stopping-sites-muairss-uep-q011** — Which Galaxy tool would you recommend to perform `pm_uep_opt`?
+- **materials-science-muon-stopping-sites-muairss-uep-q011** — I’m modeling muon stopping sites in a crystal structure and want to refine/optimize candidate muon positions based on an electrostatic potential calculation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q012** — Which Galaxy tool would you recommend to perform `pm_uep_opt`?
+- **materials-science-muon-stopping-sites-muairss-uep-q012** — I have candidate muon implantation sites from a structure search and want to optimize them to get the most likely stopping-site geometries and energies. What Galaxy tool can do this optimization step?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q013** — Which Galaxy tool optimizes muon stopping sites using electrostatic potential?
+- **materials-science-muon-stopping-sites-muairss-uep-q013** — Which Galaxy tool can optimize candidate muon stopping sites using an electrostatic potential-based refinement?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q014** — Which Galaxy tool would you recommend to perform `pm_uep_opt`?
+- **materials-science-muon-stopping-sites-muairss-uep-q014** — In Galaxy, what tool should I run to refine and rank candidate muon sites from a structure-based search?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q015** — Which Galaxy tool would you recommend to perform `pm_muairss_read`?
+- **materials-science-muon-stopping-sites-muairss-uep-q015** — I have output files from a muon structure-search run and need to parse them into a structured dataset (candidates, energies, site information) for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q016** — Which Galaxy tool would you recommend to perform `pm_muairss_read`?
+- **materials-science-muon-stopping-sites-muairss-uep-q016** — My muon stopping-site search produced a folder of results and I want a summary/table of candidate sites that I can inspect and filter. What Galaxy tool can read those outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q017** — Which Galaxy tool reads muAIRSS outputs for muon stopping site analysis?
+- **materials-science-muon-stopping-sites-muairss-uep-q017** — Which Galaxy tool can read and summarize outputs from a muon stopping-site structure search (muAIRSS-style results)?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q018** — Which Galaxy tool would you recommend to perform `pm_muairss_read`?
+- **materials-science-muon-stopping-sites-muairss-uep-q018** — In Galaxy, what tool should I run to import muon site-search output files and produce a usable summary for downstream steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q019** — Which Galaxy tool would you recommend to perform `pm_uep_opt`?
+- **materials-science-muon-stopping-sites-muairss-uep-q019** — For a muon spectroscopy workflow, I need to optimize predicted stopping sites in a material using an electrostatic potential-based refinement. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q020** — Which Galaxy tool would you recommend to perform `pm_uep_opt`?
+- **materials-science-muon-stopping-sites-muairss-uep-q020** — I want to take initial candidate muon sites and run an optimization step to rank/refine stopping sites for my structure. What Galaxy tool in Galaxy can perform that?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q021** — Which Galaxy tool is the PyMuonSuite AIRSS UEP Optimise step?
+- **materials-science-muon-stopping-sites-muairss-uep-q021** — What Galaxy tool should I use for the step that optimizes muon stopping-site candidates after an AIRSS-style search?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q022** — Which Galaxy tool would you recommend to perform `pm_uep_opt`?
+- **materials-science-muon-stopping-sites-muairss-uep-q022** — Which Galaxy tool can perform the electrostatic-potential optimization step for muon stopping-site predictions?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_uep_opt/pm_uep_opt/0.3.0+galaxy1
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q023** — Which Galaxy tool would you recommend to perform `pm_muairss_read`?
+- **materials-science-muon-stopping-sites-muairss-uep-q023** — I want to load results from a muon AIRSS-style search into Galaxy so I can examine and compare candidate stopping sites. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q024** — Which Galaxy tool would you recommend to perform `pm_muairss_read`?
+- **materials-science-muon-stopping-sites-muairss-uep-q024** — I have muon site-search results and need to import them into a format that later muon-analysis steps in Galaxy can use. What Galaxy tool can read the search outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q025** — Which Galaxy tool runs PyMuonSuite AIRSS Cluster?
+- **materials-science-muon-stopping-sites-muairss-uep-q025** — What Galaxy tool parses muon AIRSS search outputs into a table/structured object for further analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
-- **materials-science-muon-stopping-sites-muairss-uep-q026** — Which Galaxy tool would you recommend to perform `pm_muairss_read`?
+- **materials-science-muon-stopping-sites-muairss-uep-q026** — Which Galaxy tool should I use to load muon-search results (candidates and energies) from disk into Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/muon-spectroscopy-computational-project/pm_muairss_read/pm_muairss_read/0.3.0+galaxy0
   - Datasets: 10219558
 
@@ -13091,172 +13091,172 @@ Questions:
 - Datasets (1): 7890956
 
 Questions:
-- **metabolomics-gc_ms_with_xcms-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **metabolomics-gc_ms_with_xcms-q011** — I have raw mass spectrometry data files and need to convert them into an open format like mzML so I can run downstream metabolomics tools in Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **metabolomics-gc_ms_with_xcms-q012** — My LC-MS data are in a vendor-specific format and I want to convert them to mzML/mgf for analysis and sharing. What Galaxy tool can do this file conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q013** — Which Galaxy tool runs msconvert for file conversion?
+- **metabolomics-gc_ms_with_xcms-q013** — Which Galaxy tool can convert raw mass spectrometry files into mzML (or another open MS format) for downstream workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q014** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **metabolomics-gc_ms_with_xcms-q014** — In Galaxy, what tool should I run to perform mass spectrometry file format conversion (e.g., RAW to mzML)?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q015** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-gc_ms_with_xcms-q015** — I have mzML files and want to import them into an RData object so I can run an R-based LC-MS preprocessing pipeline in Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q016** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-gc_ms_with_xcms-q016** — Before peak picking, I need to load my mzML data into a per-sample RData representation (one object per sample). What Galaxy tool can read MS data into that format?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q017** — Which Galaxy tool runs msnbase_readmsdata?
+- **metabolomics-gc_ms_with_xcms-q017** — Which Galaxy tool can import mzML mass spectrometry files and output RData objects for downstream LC-MS preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q018** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-gc_ms_with_xcms-q018** — In Galaxy, what tool should I run to read MS data (mzML) into an RData dataset/collection for later feature detection?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q019** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-gc_ms_with_xcms-q019** — I have LC-MS mzML data and want to detect chromatographic peaks/features in each sample, producing a feature list for downstream alignment and grouping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q020** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-gc_ms_with_xcms-q020** — My goal is to perform peak picking on LC-MS runs to extract m/z-retention time features per sample and save the results for later steps. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q021** — Which Galaxy tool runs abims_xcms_xcmsSet?
+- **metabolomics-gc_ms_with_xcms-q021** — Which Galaxy tool can perform chromatographic peak detection (feature finding) on LC-MS mzML data and output per-sample results?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q022** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-gc_ms_with_xcms-q022** — In Galaxy, what tool should I run to do LC-MS peak picking and generate a feature list/object for each sample?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q023** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-gc_ms_with_xcms-q023** — I have one peak-picking result per sample (as RData objects) and want to merge them into a single combined RData so I can determine shared features across samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q024** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-gc_ms_with_xcms-q024** — My LC-MS workflow produced a collection of per-sample feature objects and I need one merged object (optionally with sample metadata) for the next grouping step. What Galaxy tool can merge them?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q025** — Which Galaxy tool runs xcms_merge?
+- **metabolomics-gc_ms_with_xcms-q025** — Which Galaxy tool can merge a collection of per-sample LC-MS peak-detection results (RData) into one combined object for downstream grouping?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q026** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-gc_ms_with_xcms-q026** — In Galaxy, what tool should I run to merge multiple per-sample RData outputs into a single RData file (optionally using a sample metadata table)?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q027** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
+- **metabolomics-gc_ms_with_xcms-q027** — I have LC-MS features detected per sample and want to group/match the same ions across samples to build a single feature matrix of intensities. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q028** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
+- **metabolomics-gc_ms_with_xcms-q028** — After peak picking, I need to align/group features across multiple samples so that shared ions are represented as a common feature across the dataset. What Galaxy tool can do this grouping step?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q029** — Which Galaxy tool runs abims_xcms_group?
+- **metabolomics-gc_ms_with_xcms-q029** — Which Galaxy tool can group chromatographic peaks across samples to produce a shared feature table/matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q030** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
+- **metabolomics-gc_ms_with_xcms-q030** — In Galaxy, what tool should I run to perform peak grouping across multiple LC-MS samples after peak detection?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q031** — Which Galaxy tool would you recommend to perform `abims_xcms_retcor`?
+- **metabolomics-gc_ms_with_xcms-q031** — My LC-MS runs show retention time drift between samples and I need to correct retention times so features align properly across the dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/abims_xcms_retcor/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q032** — Which Galaxy tool would you recommend to perform `abims_xcms_retcor`?
+- **metabolomics-gc_ms_with_xcms-q032** — Before grouping peaks across samples, I want to perform retention time correction on my LC-MS feature data to reduce RT shifts. What Galaxy tool can do this correction step?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/abims_xcms_retcor/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q033** — Which Galaxy tool runs abims_xcms_retcor?
+- **metabolomics-gc_ms_with_xcms-q033** — Which Galaxy tool can perform retention time correction/alignment for LC-MS data across multiple samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/abims_xcms_retcor/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q034** — Which Galaxy tool would you recommend to perform `abims_xcms_retcor`?
+- **metabolomics-gc_ms_with_xcms-q034** — In Galaxy, what tool should I run to correct retention time drift so features line up between samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/abims_xcms_retcor/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q035** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-gc_ms_with_xcms-q035** — After grouping LC-MS features across samples, my intensity matrix has missing values where a feature was not quantified in some samples. Which Galaxy tool should I use to fill in those peak intensities?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q036** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-gc_ms_with_xcms-q036** — I want to integrate/estimate peak intensities for features that were detected in some samples but not others so the feature table is complete. What Galaxy tool can fill missing peaks?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q037** — Which Galaxy tool runs abims_xcms_fillPeaks?
+- **metabolomics-gc_ms_with_xcms-q037** — Which Galaxy tool can fill missing peak intensities across LC-MS samples after feature grouping?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q038** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-gc_ms_with_xcms-q038** — In Galaxy, what tool should I run to fill peaks so that grouped features have intensities for all samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q039** — Which Galaxy tool would you recommend to perform `ramclustr`?
+- **metabolomics-gc_ms_with_xcms-q039** — I have a GC-MS feature table and want to cluster related ions/fragments across samples into compound-level groups based on co-elution and correlation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q040** — Which Galaxy tool would you recommend to perform `ramclustr`?
+- **metabolomics-gc_ms_with_xcms-q040** — My GC-MS data produce many features per compound; I want to cluster features that likely belong to the same compound into groups for easier annotation. What Galaxy tool can do that clustering?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q041** — Which Galaxy tool runs ramclustr?
+- **metabolomics-gc_ms_with_xcms-q041** — Which Galaxy tool can cluster GC-MS features into compound-like groups using similarity/correlation patterns?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.0+galaxy7
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q042** — Which Galaxy tool would you recommend to perform `ramclustr`?
+- **metabolomics-gc_ms_with_xcms-q042** — In Galaxy, what tool should I run to perform compound clustering on GC-MS feature data (group fragment ions into clusters)?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.1+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr/ramclustr/1.3.0+galaxy7
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q043** — Which Galaxy tool would you recommend to perform `riassigner`?
+- **metabolomics-gc_ms_with_xcms-q043** — I have GC-MS data with a retention time scale and want to assign retention indices using a standard (e.g., an alkane ladder) so I can compare across runs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q044** — Which Galaxy tool would you recommend to perform `riassigner`?
+- **metabolomics-gc_ms_with_xcms-q044** — To improve compound identification in GC-MS, I need to compute/assign retention indices for detected peaks based on reference standards. What Galaxy tool can assign retention indices?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q045** — Which Galaxy tool runs riassigner?
+- **metabolomics-gc_ms_with_xcms-q045** — Which Galaxy tool can assign retention indices to GC-MS peaks using retention time standards?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q046** — Which Galaxy tool would you recommend to perform `riassigner`?
+- **metabolomics-gc_ms_with_xcms-q046** — In Galaxy, what tool should I run to calculate retention indices for GC-MS features to support compound annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.2+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.3.4+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/riassigner/riassigner/0.4.1+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q047** — Which Galaxy tool would you recommend to perform `matchms_similarity`?
+- **metabolomics-gc_ms_with_xcms-q047** — I have MS/MS spectra and want to compute similarity scores between spectra (e.g., to compare unknowns to a reference set). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q048** — Which Galaxy tool would you recommend to perform `matchms_similarity`?
+- **metabolomics-gc_ms_with_xcms-q048** — I need to compare tandem MS spectra and get pairwise similarity metrics so I can cluster or match spectra. What Galaxy tool can compute MS/MS similarity?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q049** — Which Galaxy tool runs matchms_similarity?
+- **metabolomics-gc_ms_with_xcms-q049** — Which Galaxy tool can compute similarity between MS/MS spectra and output similarity scores/matches?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q050** — Which Galaxy tool would you recommend to perform `matchms_similarity`?
+- **metabolomics-gc_ms_with_xcms-q050** — In Galaxy, what tool should I run to perform spectral similarity calculation on a set of tandem MS spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_similarity/matchms_similarity/0.20.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q051** — Which Galaxy tool would you recommend to perform `matchms_formatter`?
+- **metabolomics-gc_ms_with_xcms-q051** — I have a set of MS/MS spectra with messy metadata and need to standardize/reformat the spectra so downstream spectral tools can read them consistently. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q052** — Which Galaxy tool would you recommend to perform `matchms_formatter`?
+- **metabolomics-gc_ms_with_xcms-q052** — Before spectral filtering and similarity, I want to normalize/clean the format of my MS/MS spectra file (metadata fields, peak list formatting). What Galaxy tool can reformat spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q053** — Which Galaxy tool runs matchms_formatter?
+- **metabolomics-gc_ms_with_xcms-q053** — Which Galaxy tool can reformat and standardize MS/MS spectra files for downstream filtering and similarity analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q054** — Which Galaxy tool would you recommend to perform `matchms_formatter`?
+- **metabolomics-gc_ms_with_xcms-q054** — In Galaxy, what tool should I run to convert/normalize the formatting of a tandem MS spectra dataset so other tools accept it?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.1.4, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_formatter/matchms_formatter/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q055** — Which Galaxy tool would you recommend to perform `ramclustr_define_experiment`?
+- **metabolomics-gc_ms_with_xcms-q055** — I have GC-MS samples with different experimental groups and need to create an experiment/design definition file so downstream clustering/analysis knows sample classes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q056** — Which Galaxy tool would you recommend to perform `ramclustr_define_experiment`?
+- **metabolomics-gc_ms_with_xcms-q056** — Before clustering GC-MS features, I want to define sample group labels and metadata in the format required by my clustering workflow. What Galaxy tool can create that experiment definition?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q057** — Which Galaxy tool runs ramclustr_define_experiment?
+- **metabolomics-gc_ms_with_xcms-q057** — Which Galaxy tool can create an experiment/design definition file (sample groups/metadata) for a GC-MS clustering workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q058** — Which Galaxy tool would you recommend to perform `ramclustr_define_experiment`?
+- **metabolomics-gc_ms_with_xcms-q058** — In Galaxy, what tool should I run to generate the experiment definition input needed for compound clustering across samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/ramclustr_define_experiment/ramclustr_define_experiment/1.0.2
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q059** — Which Galaxy tool would you recommend to perform `matchms_filtering`?
+- **metabolomics-gc_ms_with_xcms-q059** — I have MS/MS spectra and want to clean them (remove noise peaks, limit m/z range, normalize intensities) before similarity matching. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q060** — Which Galaxy tool would you recommend to perform `matchms_filtering`?
+- **metabolomics-gc_ms_with_xcms-q060** — My tandem MS spectra contain low-intensity noise and inconsistent peak lists; I want to filter/clean spectra to improve downstream similarity scores. What Galaxy tool can filter spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q061** — Which Galaxy tool runs matchms_filtering?
+- **metabolomics-gc_ms_with_xcms-q061** — Which Galaxy tool can filter/clean MS/MS spectra (noise removal, intensity normalization) prior to spectral similarity analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q062** — Which Galaxy tool would you recommend to perform `matchms_filtering`?
+- **metabolomics-gc_ms_with_xcms-q062** — In Galaxy, what tool should I run to apply common preprocessing filters to tandem MS spectra before matching?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.30.2+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.17.0+galaxy0, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.25.0+galaxy1, toolshed.g2.bx.psu.edu/repos/recetox/matchms_filtering/matchms_filtering/0.27.0+galaxy0
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q063** — Which Galaxy tool would you recommend to perform `waveica`?
+- **metabolomics-gc_ms_with_xcms-q063** — I have a metabolomics feature intensity matrix with strong batch effects/unwanted variation and want to correct it using an ICA-based denoising approach. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q064** — Which Galaxy tool would you recommend to perform `waveica`?
+- **metabolomics-gc_ms_with_xcms-q064** — My LC-MS feature table has systematic noise and batch drift; I want to de-noise/correct the matrix while preserving biological signal using an ICA-style method. What Galaxy tool can do this correction?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q065** — Which Galaxy tool runs waveica?
+- **metabolomics-gc_ms_with_xcms-q065** — Which Galaxy tool can correct unwanted variation/batch effects in a metabolomics feature matrix using an ICA-based approach?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
-- **metabolomics-gc_ms_with_xcms-q066** — Which Galaxy tool would you recommend to perform `waveica`?
+- **metabolomics-gc_ms_with_xcms-q066** — In Galaxy, what tool should I run to denoise a metabolomics intensity table with batch effects using an independent component method?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy9, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy10, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy2, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy6, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy7, toolshed.g2.bx.psu.edu/repos/recetox/waveica/waveica/0.2.0+galaxy8
   - Datasets: 7890956
 
@@ -13266,100 +13266,100 @@ Questions:
 - Datasets (1): 16538501
 
 Questions:
-- **metabolomics-gcms-q011** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-gcms-q011** — My LC-MS data are in mzML and I want them converted into an RData dataset/collection suitable for downstream feature detection. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
-- **metabolomics-gcms-q012** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-gcms-q012** — I need to read mass spectrometry mzML files into an R-compatible object while retaining metadata for later processing steps. What Galaxy tool can do that import?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
-- **metabolomics-gcms-q013** — Which Galaxy tool runs msnbase_readmsdata?
+- **metabolomics-gcms-q013** — What Galaxy tool converts mzML inputs into an R-based MS data object that other metabolomics tools in Galaxy accept?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
-- **metabolomics-gcms-q014** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-gcms-q014** — Which Galaxy tool should I use to load mzML files into a structured RData format without writing custom scripts?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 16538501
-- **metabolomics-gcms-q015** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-gcms-q015** — I need to identify chromatographic peaks from my LC-MS data (per sample) so I can build a feature matrix later. Which Galaxy tool should I use for peak detection?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q016** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-gcms-q016** — I have imported MS data into an RData object and want to run chromatographic peak detection to produce per-sample feature lists. What Galaxy tool can do the findChromPeaks step?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q017** — Which Galaxy tool runs abims_xcms_xcmsSet?
+- **metabolomics-gcms-q017** — What Galaxy tool corresponds to the findChromPeaks (peak detection) step in an LC-MS preprocessing workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q018** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-gcms-q018** — Which Galaxy tool should I use to detect chromatographic peaks from MS data and produce an output suitable for downstream alignment/grouping?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q019** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-gcms-q019** — I need to gather multiple per-sample peak lists into one combined dataset so downstream steps can align and group features across all samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q020** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-gcms-q020** — I have a dataset collection of LC-MS peak-detection outputs and want to merge them into a single object while keeping sample labels for later comparisons. What Galaxy tool can do this merge?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q021** — Which Galaxy tool runs xcms_merge?
+- **metabolomics-gcms-q021** — What Galaxy tool corresponds to the step that gathers many per-sample feature objects into one merged object before peak grouping?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q022** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-gcms-q022** — Which Galaxy tool should I use to combine several LC-MS per-sample results into one merged dataset for subsequent shared-feature grouping?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q023** — Which Galaxy tool would you recommend to perform `xcms_export_samplemetadata`?
+- **metabolomics-gcms-q023** — I have a set of LC-MS samples and need a sample metadata table (sample names, classes/batches) in the format required by downstream LC-MS grouping steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q024** — Which Galaxy tool would you recommend to perform `xcms_export_samplemetadata`?
+- **metabolomics-gcms-q024** — To run LC-MS preprocessing with different sample classes (e.g., blanks vs biological samples), I need to generate/export a sample metadata file matching my dataset collection. What Galaxy tool can create that metadata table?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q025** — Which Galaxy tool runs xcms_export_samplemetadata?
+- **metabolomics-gcms-q025** — Which Galaxy tool can generate/export a sample metadata table for an LC-MS dataset collection (sample classes, groups, batch labels)?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q026** — Which Galaxy tool would you recommend to perform `xcms_export_samplemetadata`?
+- **metabolomics-gcms-q026** — In Galaxy, what tool should I run to create a sample metadata TSV that downstream LC-MS steps can use to distinguish sample types?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_export_samplemetadata/xcms_export_samplemetadata/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q027** — Which Galaxy tool would you recommend to perform `metams_runGC`?
+- **metabolomics-gcms-q027** — I have GC-MS raw data and want to run a preprocessing workflow (peak detection/deconvolution and basic annotation) to produce a feature table for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/yguitton/metams_rungc/metams_runGC/3.0.0+metaMS1.24.0-galaxy0
   - Datasets: 16538501
-- **metabolomics-gcms-q028** — Which Galaxy tool would you recommend to perform `metams_runGC`?
+- **metabolomics-gcms-q028** — I want to process GC-MS data into a structured peak/feature output using an end-to-end GC-MS preprocessing step. What Galaxy tool can run that GC-MS processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/yguitton/metams_rungc/metams_runGC/3.0.0+metaMS1.24.0-galaxy0
   - Datasets: 16538501
-- **metabolomics-gcms-q029** — Which Galaxy tool runs metams_runGC?
+- **metabolomics-gcms-q029** — Which Galaxy tool can run an end-to-end GC-MS preprocessing step to extract peaks/features from GC-MS files?
   - Tools: toolshed.g2.bx.psu.edu/repos/yguitton/metams_rungc/metams_runGC/3.0.0+metaMS1.24.0-galaxy0
   - Datasets: 16538501
-- **metabolomics-gcms-q030** — Which Galaxy tool would you recommend to perform `metams_runGC`?
+- **metabolomics-gcms-q030** — In Galaxy, what tool should I run to process GC-MS raw data into a peak/feature table using a GC-MS workflow tool?
   - Tools: toolshed.g2.bx.psu.edu/repos/yguitton/metams_rungc/metams_runGC/3.0.0+metaMS1.24.0-galaxy0
   - Datasets: 16538501
-- **metabolomics-gcms-q031** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
+- **metabolomics-gcms-q031** — I want to determine which detected peaks correspond to the same compound across samples (based on m/z and retention time) and produce a grouped feature table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q032** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
+- **metabolomics-gcms-q032** — I have a merged LC-MS object and need the step that groups chromatographic peaks across samples to create a consensus feature list. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q033** — Which Galaxy tool runs abims_xcms_group?
+- **metabolomics-gcms-q033** — What Galaxy tool corresponds to the step that matches features across samples by m/z and retention time (grouping)?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q034** — Which Galaxy tool would you recommend to perform `abims_xcms_group`?
+- **metabolomics-gcms-q034** — Which Galaxy tool should I use to build a consensus set of LC-MS features across samples for downstream statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q035** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-gcms-q035** — My grouped LC-MS feature data have gaps (NA intensities) and I need to compute intensities for those features in every sample for downstream statistics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q036** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-gcms-q036** — I need a step that fills in missing feature intensities across samples by re-integrating peaks in the raw data. What Galaxy tool can do this for LC-MS preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q037** — Which Galaxy tool runs abims_xcms_fillPeaks?
+- **metabolomics-gcms-q037** — What Galaxy tool corresponds to the step that re-integrates/estimates intensities for missing features in an LC-MS workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q038** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-gcms-q038** — Which Galaxy tool should I use to complete a grouped LC-MS feature table by filling in missing peak values?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q039** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
+- **metabolomics-gcms-q039** — I want to visualize chromatograms from my LC-MS data (e.g., extracted ion chromatograms) to inspect peak shapes and retention times. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q040** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
+- **metabolomics-gcms-q040** — After preprocessing, I want plots of chromatograms/peaks for selected features so I can check alignment and peak quality across samples. What Galaxy tool can generate chromatogram plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q041** — Which Galaxy tool runs xcms_plot_chromatogram?
+- **metabolomics-gcms-q041** — Which Galaxy tool can plot chromatograms (TIC/XIC) from LC-MS data or preprocessing outputs for QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
-- **metabolomics-gcms-q042** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
+- **metabolomics-gcms-q042** — In Galaxy, what tool should I run to generate chromatogram plots to inspect peak shapes and retention times?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 16538501
 
@@ -13369,130 +13369,130 @@ Questions:
 - Datasets (1): 3244991
 
 Questions:
-- **metabolomics-lcms-q011** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-lcms-q011** — I have a grouped feature table and want to reduce missingness by filling peaks for features that are present but below detection in some samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q012** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-lcms-q012** — Before differential analysis, I want a complete LC-MS feature matrix with filled intensities for features across all samples. What Galaxy tool can perform that filling step?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q013** — Which Galaxy tool runs abims_xcms_fillPeaks?
+- **metabolomics-lcms-q013** — In Galaxy, what tool can compute intensities for features that are absent/missing in some samples to produce a more complete matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q014** — Which Galaxy tool would you recommend to perform `abims_xcms_fillPeaks`?
+- **metabolomics-lcms-q014** — Which Galaxy tool performs the fillPeaks step in LC-MS preprocessing to address missing values?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q015** — Which Galaxy tool would you recommend to perform `abims_CAMERA_annotateDiffreport`?
+- **metabolomics-lcms-q015** — I have an LC-MS feature table and want to annotate isotopes/adducts and generate an annotation report to help interpret which features belong together. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q016** — Which Galaxy tool would you recommend to perform `abims_CAMERA_annotateDiffreport`?
+- **metabolomics-lcms-q016** — After grouping LC-MS features, I want an additional annotation step that links related ions (isotopes, adducts) and outputs a report for interpretation. What Galaxy tool can create that annotation report?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q017** — Which Galaxy tool runs CAMERA annotateDiffreport?
+- **metabolomics-lcms-q017** — Which Galaxy tool can annotate related LC-MS features (isotopes/adducts) and output an annotation report for interpretation?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q018** — Which Galaxy tool would you recommend to perform `abims_CAMERA_annotateDiffreport`?
+- **metabolomics-lcms-q018** — In Galaxy, what tool should I run to perform isotope/adduct annotation on LC-MS features and generate a diff-style annotation report?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.7+camera1.48.0-galaxy1, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.2.6+camera1.48.0-galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q019** — Which Galaxy tool would you recommend to perform `Batch_correction`?
+- **metabolomics-lcms-q019** — I have a metabolomics intensity matrix measured across multiple analytical batches and want to correct batch effects while keeping biological differences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
   - Datasets: 3244991
-- **metabolomics-lcms-q020** — Which Galaxy tool would you recommend to perform `Batch_correction`?
+- **metabolomics-lcms-q020** — My feature table shows systematic shifts between batches (e.g., day-to-day drift) and I need a batch-corrected matrix for downstream statistics. What Galaxy tool can perform batch correction?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
   - Datasets: 3244991
-- **metabolomics-lcms-q021** — Which Galaxy tool runs Batch_correction?
+- **metabolomics-lcms-q021** — Which Galaxy tool can apply batch correction to a metabolomics feature intensity table using batch labels/metadata?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
   - Datasets: 3244991
-- **metabolomics-lcms-q022** — Which Galaxy tool would you recommend to perform `Batch_correction`?
+- **metabolomics-lcms-q022** — In Galaxy, what tool should I run to correct batch effects in a quantitative metabolomics matrix before differential analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
   - Datasets: 3244991
-- **metabolomics-lcms-q023** — Which Galaxy tool would you recommend to perform `quality_metrics`?
+- **metabolomics-lcms-q023** — I have a metabolomics feature table with QC samples and want to compute quality-control metrics (e.g., missingness, variability, drift indicators) to assess data quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 3244991
-- **metabolomics-lcms-q024** — Which Galaxy tool would you recommend to perform `quality_metrics`?
+- **metabolomics-lcms-q024** — Before doing statistics, I want a QC report summarizing signal stability and data quality for my metabolomics dataset. What Galaxy tool can compute those quality metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 3244991
-- **metabolomics-lcms-q025** — Which Galaxy tool runs quality_metrics?
+- **metabolomics-lcms-q025** — Which Galaxy tool can compute quality-control metrics for a metabolomics dataset and output a QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 3244991
-- **metabolomics-lcms-q026** — Which Galaxy tool would you recommend to perform `quality_metrics`?
+- **metabolomics-lcms-q026** — In Galaxy, what tool should I run to calculate quality metrics on a metabolomics feature matrix (including QC samples)?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 3244991
-- **metabolomics-lcms-q027** — Which Galaxy tool would you recommend to perform `generic_filter`?
+- **metabolomics-lcms-q027** — I have a metabolomics feature table and want to filter out low-quality features (e.g., too many missing values or low reproducibility) before analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
   - Datasets: 3244991
-- **metabolomics-lcms-q028** — Which Galaxy tool would you recommend to perform `generic_filter`?
+- **metabolomics-lcms-q028** — My dataset includes features that look like noise; I want to apply generic filtering rules to remove unreliable variables and keep a cleaned feature matrix. What Galaxy tool can do this filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
   - Datasets: 3244991
-- **metabolomics-lcms-q029** — Which Galaxy tool runs generic_filter?
+- **metabolomics-lcms-q029** — Which Galaxy tool can apply generic filtering rules to a metabolomics feature table (e.g., missingness/quality-based feature filtering)?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
   - Datasets: 3244991
-- **metabolomics-lcms-q030** — Which Galaxy tool would you recommend to perform `generic_filter`?
+- **metabolomics-lcms-q030** — In Galaxy, what tool should I run to filter a quantitative feature matrix using configurable quality thresholds to remove noisy features?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
   - Datasets: 3244991
-- **metabolomics-lcms-q031** — Which Galaxy tool would you recommend to perform `Univariate`?
+- **metabolomics-lcms-q031** — I have a metabolomics feature matrix and sample group labels and want univariate statistical tests to find features that differ between groups, including p-values and effect sizes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/Univariate/2.2.4
   - Datasets: 3244991
-- **metabolomics-lcms-q032** — Which Galaxy tool would you recommend to perform `Univariate`?
+- **metabolomics-lcms-q032** — I need to perform per-feature univariate analysis (e.g., t-test/ANOVA) on a quantitative omics table with group information and get a results table. What Galaxy tool can run that analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/Univariate/2.2.4
   - Datasets: 3244991
-- **metabolomics-lcms-q033** — Which Galaxy tool runs Univariate analysis?
+- **metabolomics-lcms-q033** — Which Galaxy tool can run univariate statistical tests on a feature matrix given sample group labels and output p-values/results?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/Univariate/2.2.4
   - Datasets: 3244991
-- **metabolomics-lcms-q034** — Which Galaxy tool would you recommend to perform `Univariate`?
+- **metabolomics-lcms-q034** — In Galaxy, what tool should I run to perform univariate analysis across groups on a metabolomics intensity table?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/Univariate/2.2.4
   - Datasets: 3244991
-- **metabolomics-lcms-q035** — Which Galaxy tool would you recommend to perform `wsdl_hmdb`?
+- **metabolomics-lcms-q035** — I have a list of m/z values from metabolomics features and want to search them against a compound database (HMDB) to get candidate metabolite matches. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2018-10-01
   - Datasets: 3244991
-- **metabolomics-lcms-q036** — Which Galaxy tool would you recommend to perform `wsdl_hmdb`?
+- **metabolomics-lcms-q036** — I want to annotate metabolomics features by querying an online compound database with masses/adducts and retrieving candidate IDs/names. What Galaxy tool can search HMDB for MS features?
   - Tools: toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2018-10-01
   - Datasets: 3244991
-- **metabolomics-lcms-q037** — Which Galaxy tool runs wsdl_hmdb search?
+- **metabolomics-lcms-q037** — Which Galaxy tool can query HMDB with m/z values (and optionally adducts) to retrieve candidate metabolite matches?
   - Tools: toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2018-10-01
   - Datasets: 3244991
-- **metabolomics-lcms-q038** — Which Galaxy tool would you recommend to perform `wsdl_hmdb`?
+- **metabolomics-lcms-q038** — In Galaxy, what tool should I run to search a list of MS feature masses against HMDB and get candidate annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2018-10-01
   - Datasets: 3244991
-- **metabolomics-lcms-q039** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-lcms-q039** — I have a set of mzML files (multiple samples) and want an imported collection that downstream LC-MS tools can consume without writing R code. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
-- **metabolomics-lcms-q040** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-lcms-q040** — I’m starting an LC-MS workflow and need to turn mzML inputs into an internal RData container for subsequent peak detection. What Galaxy tool can read the MS data?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
-- **metabolomics-lcms-q041** — Which Galaxy tool runs msnbase_readmsdata?
+- **metabolomics-lcms-q041** — In Galaxy, what tool can take mzML files and produce per-sample RData objects that downstream LC-MS steps can use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
-- **metabolomics-lcms-q042** — Which Galaxy tool would you recommend to perform `msnbase_readmsdata`?
+- **metabolomics-lcms-q042** — Which Galaxy tool reads mzML into an RData container as the first step of an LC-MS preprocessing workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/msnbase_readmsdata/msnbase_readmsdata/2.16.1+galaxy2
   - Datasets: 3244991
-- **metabolomics-lcms-q043** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-lcms-q043** — I want to extract MS1 features from LC-MS data (centroided mzML) using a chromatographic peak detection algorithm and output results for all samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q044** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-lcms-q044** — I’m processing LC-MS data and need the step that finds chromatographic peaks to generate an RData output for each sample. What Galaxy tool can run that peak picking?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q045** — Which Galaxy tool runs abims_xcms_xcmsSet?
+- **metabolomics-lcms-q045** — In Galaxy, what tool can find MS1 features in LC-MS data and store the results as an RData output for later steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q046** — Which Galaxy tool would you recommend to perform `abims_xcms_xcmsSet`?
+- **metabolomics-lcms-q046** — Which Galaxy tool runs chromatographic peak picking on imported LC-MS data as a workflow step?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q047** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
+- **metabolomics-lcms-q047** — I need to plot chromatograms for my LC-MS samples to troubleshoot peak detection and retention time drift. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q048** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
+- **metabolomics-lcms-q048** — I want a figure showing chromatogram traces for one or more ions across samples as part of QC. What Galaxy tool in Galaxy can produce that plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q049** — Which Galaxy tool runs xcms_plot_chromatogram?
+- **metabolomics-lcms-q049** — What Galaxy tool produces chromatogram visualizations for selected features in an LC-MS workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q050** — Which Galaxy tool would you recommend to perform `xcms_plot_chromatogram`?
+- **metabolomics-lcms-q050** — Which Galaxy tool should I use to create chromatogram figures for QC and reporting in LC-MS preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q051** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-lcms-q051** — Before grouping shared ions/features, I want to combine all per-sample RData results (and optionally a sample metadata table) into one merged RData file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 3244991
-- **metabolomics-lcms-q052** — Which Galaxy tool would you recommend to perform `xcms_merge`?
+- **metabolomics-lcms-q052** — I want to merge the per-sample LC-MS feature detection outputs into one dataset so I can build a single feature intensity matrix later. What Galaxy tool can merge the sample objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy0, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_merge/xcms_merge/3.12.0+galaxy1
   - Datasets: 3244991
 - **metabolomics-lcms-q053** — Which Galaxy tool runs xcms_merge?
