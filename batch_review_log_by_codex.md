@@ -199,6 +199,20 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 751 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for known core/placeholder-like tool IDs (e.g., `Grep1`, and the NAMD-wrapper placeholders `setup/minimizer/namd_*`).
 
+## Batch A0007 (901–1050)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 901–1050 (computational chemistry: molecule alignment + table utilities; contributing: tutorial authoring examples; data science: tabular/text manipulation tasks)
+- Summary:
+  - Rewrote all queries to remove tool leakage and guide phrasing (no backticks, no tool names/IDs, no tutorial references, no dataset URLs/IDs in query text).
+  - Balanced query styles to match your new target: **75 science-first / 75 tool-first** in this batch, and ensured the wording matches the labeled style.
+  - Normalized two non-stable core-tool IDs used in this batch to stable spellings:
+    - `Remove beginning1` → `Remove_beginning1`
+    - `Show beginning1` → `Show_beginning1`
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 901 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Cut1/Filter1/Count1/join1/cat1/wc_gnu`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
