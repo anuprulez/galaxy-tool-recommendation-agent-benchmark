@@ -547,3 +547,11 @@ Notes:
 - Integrity: Fixed metadata.tool_focus version drift where it did not match tools[] (now 0 mismatches in this batch)
 - Validation: check_v1_items checker passes for this range (only WARNs for core/internal tool ids such as Cut1, cat1, sort1, Grouping1); smell scan reports no hits, exact duplicates, or near-duplicate pairs
 
+## A0020 (lines 2851-3000)
+
+- Date: 2026-02-04
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries to remove tool/dataset leakage and templated phrasing; kept Galaxy-user perspective; preserved existing metadata.query_type labels (science_first 76, tool_first 74)
+- Integrity: Fixed metadata.tool_focus drift (0 mismatches remain in this batch); for items with multiple tools[] (24 version alternatives) set metadata.ground_truth_alternatives=true with a brief note
+- Validation: check_v1_items checker passes for this range (only WARNs for core/internal ids Cut1/join1/Filter1); smell scan reports no hits, exact duplicates, or near-duplicate pairs
+
