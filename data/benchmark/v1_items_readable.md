@@ -14978,40 +14978,40 @@ Questions:
 - **microbiome-metaplasmidome_query-q018** — In Galaxy, what tool should I run to extract the columns I need from a table (cut-style column selection)?
   - Tools: Cut1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q019** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **microbiome-metaplasmidome_query-q019** — I have a tabular results file and want to keep only rows that meet a quality threshold (e.g., score > cutoff), producing a filtered table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q020** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **microbiome-metaplasmidome_query-q020** — My output table contains both high- and low-confidence hits, and I need to retain only the high-quality subset for downstream analysis. What Galaxy tool can filter rows by an expression?
   - Tools: Filter1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q021** — Which Galaxy tool handles the Filter step that keeps only high-quality hits?
+- **microbiome-metaplasmidome_query-q021** — Which Galaxy tool can filter rows in a tabular dataset using a boolean condition on columns and output the filtered table?
   - Tools: Filter1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q022** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **microbiome-metaplasmidome_query-q022** — In Galaxy, what tool should I run to apply an expression-based row filter to a TSV and keep only rows that pass?
   - Tools: Filter1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q023** — Which Galaxy tool would you recommend to perform `join1`?
+- **microbiome-metaplasmidome_query-q023** — I have two TSV files that should match on a contig/ID column and I want to merge them into a single combined table. Which Galaxy tool should I use to join the tables?
   - Tools: join1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q024** — Which Galaxy tool would you recommend to perform `join1`?
+- **microbiome-metaplasmidome_query-q024** — I need to combine information from two tabular datasets by matching rows on a shared identifier column and output a merged table. What Galaxy tool can do this join?
   - Tools: join1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q025** — Which Galaxy tool is used to join the two datasets via contig identifiers?
+- **microbiome-metaplasmidome_query-q025** — Which Galaxy tool can join two tabular datasets on a shared key column and output merged rows?
   - Tools: join1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q026** — Which Galaxy tool would you recommend to perform `join1`?
+- **microbiome-metaplasmidome_query-q026** — In Galaxy, what tool should I run to perform a database-style join between two tables using an ID column?
   - Tools: join1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q027** — Which Galaxy tool would you recommend to perform `tab2fasta`?
+- **microbiome-metaplasmidome_query-q027** — I have a tabular file with sequence IDs and sequences and want to convert it into a FASTA file for downstream alignment/search tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q028** — Which Galaxy tool would you recommend to perform `tab2fasta`?
+- **microbiome-metaplasmidome_query-q028** — My sequences are stored in a table (one row per sequence) and I need a FASTA output with headers and sequences. What Galaxy tool can convert tabular to FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q029** — Which Galaxy tool performs the Tabular-to-FASTA conversion step?
+- **microbiome-metaplasmidome_query-q029** — Which Galaxy tool can convert a tabular dataset (ID + sequence columns) into a FASTA file?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q030** — Which Galaxy tool would you recommend to perform `tab2fasta`?
+- **microbiome-metaplasmidome_query-q030** — In Galaxy, what tool should I run to transform a table of sequences into FASTA format?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: 14501567'
 
@@ -15021,64 +15021,64 @@ Questions:
 - Datasets (1): 4776250
 
 Questions:
-- **microbiome-metatranscriptomics-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-metatranscriptomics-q011** — I have sequencing reads in FASTQ and want a standard quality-control report (base quality, GC content, adapter warnings). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-metatranscriptomics-q012** — Before trimming or analysis, I want an HTML QC summary for my FASTQ reads to assess sequencing quality. What Galaxy tool can generate that report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q013** — Which Galaxy tool generates FastQC reports for the ribo-depleted metatranscriptome FASTQs?
+- **microbiome-metatranscriptomics-q013** — Which Galaxy tool can generate a sequencing read QC report from FASTQ data?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-metatranscriptomics-q014** — In Galaxy, what tool should I run to compute standard read-quality metrics and plots for FASTQ datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q015** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-metatranscriptomics-q015** — I ran QC tools on multiple samples and want one consolidated report that summarizes all QC results in a single place. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q016** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-metatranscriptomics-q016** — My history contains many per-sample QC outputs (e.g., read QC reports) and I want an aggregated multi-sample report to compare samples. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q017** — Which Galaxy tool compiles FastQC logs into a single MultiQC report?
+- **microbiome-metatranscriptomics-q017** — Which Galaxy tool can aggregate multiple QC outputs into a single report for multi-sample comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-metatranscriptomics-q018** — In Galaxy, what tool should I run to merge several QC reports into a single summarized HTML report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q019** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **microbiome-metatranscriptomics-q019** — I have sequencing reads with adapter contamination and want to trim adapters (and optionally low-quality ends) from FASTQ reads before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q020** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **microbiome-metatranscriptomics-q020** — My paired-end reads still contain primer/adapter sequences and I need to remove them to avoid bias in downstream classification and assembly. What Galaxy tool can trim adapters?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q021** — Which Galaxy tool provides the Cutadapt trimming step described in the ASaiM workflow?
+- **microbiome-metatranscriptomics-q021** — Which Galaxy tool can trim adapter/primer sequences from FASTQ reads and output cleaned reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q022** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **microbiome-metatranscriptomics-q022** — In Galaxy, what tool should I run to remove adapters from sequencing reads as part of preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q023** — Which Galaxy tool would you recommend to perform `sortmerna`?
+- **microbiome-metatranscriptomics-q023** — I have RNA-seq/metatranscriptome reads and want to remove rRNA reads to focus on mRNA, producing a non-rRNA read set. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q024** — Which Galaxy tool would you recommend to perform `sortmerna`?
+- **microbiome-metatranscriptomics-q024** — My reads include lots of ribosomal RNA and I need to filter those out using rRNA reference databases before assembly/classification. What Galaxy tool can do rRNA depletion in silico?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q025** — Which Galaxy tool corresponds to the SortMeRNA step described in the preprocessing workflow?
+- **microbiome-metatranscriptomics-q025** — Which Galaxy tool can filter rRNA sequences from FASTQ reads and output the non-rRNA reads for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q026** — Which Galaxy tool would you recommend to perform `sortmerna`?
+- **microbiome-metatranscriptomics-q026** — In Galaxy, what tool should I run to remove ribosomal RNA reads from an RNA-seq/metatranscriptome dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q027** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
+- **microbiome-metatranscriptomics-q027** — I have paired-end FASTQ reads and need to interleave them into a single interlaced FASTQ file for a downstream tool that expects interlaced input. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q028** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
+- **microbiome-metatranscriptomics-q028** — I have paired-end metagenomic reads and need a single interleaved FASTQ because a downstream classifier expects interlaced input; I want to preserve read pairing and order. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q029** — Which Galaxy tool produces the interlaced FastQ dataset described in ASaiM preprocessing?
+- **microbiome-metatranscriptomics-q029** — Which Galaxy tool can interleave paired-end FASTQ reads into a single interlaced FASTQ dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-q030** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
+- **microbiome-metatranscriptomics-q030** — In Galaxy, what tool should I run to convert R1/R2 FASTQ files into one interleaved FASTQ output?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 
@@ -15088,64 +15088,64 @@ Questions:
 - Datasets (1): 4776250
 
 Questions:
-- **microbiome-metatranscriptomics-short-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-metatranscriptomics-short-q011** — I have long-read FASTQ data and want basic read-quality plots and metrics to spot issues before preprocessing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-metatranscriptomics-short-q012** — My metatranscriptome reads are in FASTQ and I need per-sample QC reports to check quality and duplication levels. What Galaxy tool can generate those QC reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q013** — Which Galaxy tool generates the FastQC per-file plots described in the short version?
+- **microbiome-metatranscriptomics-short-q013** — Which Galaxy tool produces per-file QC plots and summary metrics for FASTQ reads as an HTML report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-metatranscriptomics-short-q014** — In Galaxy, what tool should I run to generate QC reports for each dataset in a FASTQ collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q015** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-metatranscriptomics-short-q015** — I have QC outputs from a collection of samples and need a single combined summary report with plots and tables. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q016** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-metatranscriptomics-short-q016** — After generating QC reports for several FASTQ files, I want one combined report for the whole project. What Galaxy tool can compile QC results into one summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q017** — Which Galaxy tool corresponds to the MultiQC aggregation in the short guide?
+- **microbiome-metatranscriptomics-short-q017** — What Galaxy tool can compile QC outputs from many samples into one combined report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-metatranscriptomics-short-q018** — Which Galaxy tool should I use to create a single multi-sample summary from many per-sample QC results?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy3
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q019** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **microbiome-metatranscriptomics-short-q019** — I want to remove known adapter sequences from FASTQ reads and keep only cleaned reads for mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q020** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **microbiome-metatranscriptomics-short-q020** — Before rRNA filtering, I need to trim adapters/primers from reads so later steps work correctly. What Galaxy tool can do adapter trimming?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q021** — Which Galaxy tool performs the Cutadapt trimming embedded in the condensed pipeline?
+- **microbiome-metatranscriptomics-short-q021** — What Galaxy tool performs adapter trimming on FASTQ files given known adapter sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q022** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **microbiome-metatranscriptomics-short-q022** — Which Galaxy tool should I use for adapter trimming of reads prior to downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q023** — Which Galaxy tool would you recommend to perform `sortmerna`?
+- **microbiome-metatranscriptomics-short-q023** — I want to split my read set into rRNA and non-rRNA fractions for separate downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q024** — Which Galaxy tool would you recommend to perform `sortmerna`?
+- **microbiome-metatranscriptomics-short-q024** — Before functional analysis, I need to screen out rRNA from my transcriptomic reads to reduce noise. What Galaxy tool can filter rRNA reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q025** — Which Galaxy tool implements the SortMeRNA step inside the short workflow?
+- **microbiome-metatranscriptomics-short-q025** — What Galaxy tool can separate rRNA vs non-rRNA reads using rRNA reference databases?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q026** — Which Galaxy tool would you recommend to perform `sortmerna`?
+- **microbiome-metatranscriptomics-short-q026** — Which Galaxy tool should I use for in silico rRNA removal from reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna/4.3.6+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q027** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
+- **microbiome-metatranscriptomics-short-q027** — I want to combine paired-end reads into an interlaced FASTQ while preserving pairing order for later analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q028** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
+- **microbiome-metatranscriptomics-short-q028** — I need an interleaving step that merges forward and reverse FASTQ reads into one file for workflow compatibility. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q029** — Which Galaxy tool corresponds to the FastQ interlacer step referenced in the short guide?
+- **microbiome-metatranscriptomics-short-q029** — What Galaxy tool produces an interlaced FASTQ from paired-end reads for tools that require interleaved input?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
-- **microbiome-metatranscriptomics-short-q030** — Which Galaxy tool would you recommend to perform `fastq_interlacer`?
+- **microbiome-metatranscriptomics-short-q030** — Which Galaxy tool should I use to interleave paired reads into one file as a workflow step?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2+galaxy0
   - Datasets: 4776250
 
@@ -15155,64 +15155,64 @@ Questions:
 - Datasets (1): 13710235
 
 Questions:
-- **microbiome-mgnify-amplicon-q011** — Which Galaxy tool would you recommend to perform `fastq_dl`?
+- **microbiome-mgnify-amplicon-q011** — I have a list of public sequencing run accessions and want to download the corresponding FASTQ reads directly into Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q012** — Which Galaxy tool would you recommend to perform `fastq_dl`?
+- **microbiome-mgnify-amplicon-q012** — I want to fetch FASTQ datasets from a public sequencing archive into my history using accession IDs (without downloading locally). What Galaxy tool can do this download step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q013** — Which Galaxy tool corresponds to the fastq-dl download step in this pipeline?
+- **microbiome-mgnify-amplicon-q013** — Which Galaxy tool can download FASTQ reads from public archives given run accession IDs and import them into Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q014** — Which Galaxy tool would you recommend to perform `fastq_dl`?
+- **microbiome-mgnify-amplicon-q014** — In Galaxy, what tool should I run to retrieve public sequencing reads as FASTQ datasets using accession identifiers?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.1+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/fastq_dl/fastq_dl/3.0.0+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q015** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-mgnify-amplicon-q015** — I have FASTQ reads and want adapter trimming and quality filtering in one step, producing cleaned reads and a QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q016** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-mgnify-amplicon-q016** — Before mapping, I need to trim low-quality bases and remove adapters from reads while generating a report of what was filtered. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q017** — Which Galaxy tool represents the fastp cleanup stage for MGnify input reads?
+- **microbiome-mgnify-amplicon-q017** — Which Galaxy tool can perform combined adapter trimming and quality filtering on FASTQ reads and output cleaned reads plus a report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q018** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-mgnify-amplicon-q018** — In Galaxy, what tool should I run for all-in-one read trimming (adapters + quality) with summary statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q019** — Which Galaxy tool would you recommend to perform `infernal_cmsearch`?
+- **microbiome-mgnify-amplicon-q019** — I have nucleotide sequences and want to search them against an RNA family covariance model to detect specific structured RNAs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.4+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q020** — Which Galaxy tool would you recommend to perform `infernal_cmsearch`?
+- **microbiome-mgnify-amplicon-q020** — My workflow needs to scan sequences for matches to a covariance model (CM) and output hits with scores and coordinates. What Galaxy tool can run CM search?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.4+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q021** — Which Galaxy tool corresponds to the CMsearch screening step described here?
+- **microbiome-mgnify-amplicon-q021** — Which Galaxy tool can search sequences against a covariance model (CM) to detect structured RNA motifs/families and report hits?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.4+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q022** — Which Galaxy tool would you recommend to perform `infernal_cmsearch`?
+- **microbiome-mgnify-amplicon-q022** — In Galaxy, what tool should I run to perform CM-based sequence screening using a covariance model search?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.4+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q023** — Which Galaxy tool would you recommend to perform `mapseq`?
+- **microbiome-mgnify-amplicon-q023** — I have 16S rRNA amplicon sequences and want to assign taxonomy to each sequence using a reference database, producing taxonomic labels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mapseq/mapseq/2.1.1+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q024** — Which Galaxy tool would you recommend to perform `mapseq`?
+- **microbiome-mgnify-amplicon-q024** — I need taxonomic assignment for rRNA/amplicon sequences at high resolution and want an output table of taxonomy calls. What Galaxy tool can assign taxonomy from sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mapseq/mapseq/2.1.1+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q025** — Which Galaxy tool handles the MAPseq taxonomic assignment described?
+- **microbiome-mgnify-amplicon-q025** — Which Galaxy tool can assign taxonomy to 16S rRNA/amplicon sequences and output taxonomic labels/scores?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mapseq/mapseq/2.1.1+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q026** — Which Galaxy tool would you recommend to perform `mapseq`?
+- **microbiome-mgnify-amplicon-q026** — In Galaxy, what tool should I run to perform taxonomic assignment on rRNA sequences using a reference database?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mapseq/mapseq/2.1.1+galaxy0
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q027** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-mgnify-amplicon-q027** — I have taxonomic abundance data and want an interactive Krona plot to explore the composition of my sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q028** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-mgnify-amplicon-q028** — I want to visualize taxonomy results as an interactive hierarchical chart (Krona-style) for reporting. What Galaxy tool can generate that plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q029** — Which Galaxy tool corresponds to the Krona visualization step?
+- **microbiome-mgnify-amplicon-q029** — Which Galaxy tool can generate an interactive Krona chart from taxonomic abundance data?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 13710235
-- **microbiome-mgnify-amplicon-q030** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-mgnify-amplicon-q030** — In Galaxy, what tool should I run to create a Krona-style interactive visualization of taxonomy results?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 13710235
 
@@ -15222,64 +15222,64 @@ Questions:
 - Datasets (1): zenodo.800651
 
 Questions:
-- **microbiome-mothur-miseq-sop-q011** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
+- **microbiome-mothur-miseq-sop-q011** — I have multiple FASTA files from different samples and want to merge them into one combined FASTA for a multi-sample amplicon workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q012** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
+- **microbiome-mothur-miseq-sop-q012** — My amplicon pipeline requires concatenating several FASTA inputs into one file to process them together. What Galaxy tool can merge FASTA files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q013** — Which Galaxy tool runs the Merge.files command described in the SOP?
+- **microbiome-mothur-miseq-sop-q013** — Which Galaxy tool can merge multiple FASTA files into a single combined FASTA for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q014** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
+- **microbiome-mothur-miseq-sop-q014** — In Galaxy, what tool should I run to concatenate FASTA datasets from multiple samples into one file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q015** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-mothur-miseq-sop-q015** — I have a FASTA file with duplicate sequences and want to dereplicate it to a unique set of sequences (tracking counts) for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q016** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-mothur-miseq-sop-q016** — Before alignment/clustering, I need to collapse identical sequences into unique representatives. What Galaxy tool can dereplicate sequences in a FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q017** — Which Galaxy tool executes the Unique.seqs step from the guide?
+- **microbiome-mothur-miseq-sop-q017** — Which Galaxy tool can dereplicate a FASTA by collapsing identical sequences into a unique set (with counts)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q018** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-mothur-miseq-sop-q018** — In Galaxy, what tool should I run to compute unique sequences from a FASTA as a dereplication step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q019** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-mothur-miseq-sop-q019** — I have amplicon sequences and want to align them to a reference alignment to standardize positions for downstream screening and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q020** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-mothur-miseq-sop-q020** — My workflow needs to align sequences against a reference template alignment before filtering and analysis. What Galaxy tool can align FASTA sequences to a reference?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q021** — Which Galaxy tool represents the Align.seqs step in the extended SOP?
+- **microbiome-mothur-miseq-sop-q021** — Which Galaxy tool can align FASTA sequences to a reference alignment/template as part of an amplicon workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q022** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-mothur-miseq-sop-q022** — In Galaxy, what tool should I run to align my sequences against a reference template prior to screening?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q023** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-mothur-miseq-sop-q023** — I have aligned amplicon sequences and want to screen/filter them based on length, ambiguous bases, or alignment coordinates to remove problematic sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q024** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-mothur-miseq-sop-q024** — Before downstream analysis, I need to filter sequences to remove those outside expected bounds (too short/too long/too many Ns). What Galaxy tool can screen sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q025** — Which Galaxy tool handles the Screen.seqs step for alignment filtering?
+- **microbiome-mothur-miseq-sop-q025** — Which Galaxy tool can screen/filter FASTA sequences using criteria like length and ambiguous bases to remove bad sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q026** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-mothur-miseq-sop-q026** — In Galaxy, what tool should I run to filter sequences based on screening rules (length/Ns/alignment bounds)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q027** — Which Galaxy tool would you recommend to perform `mothur_filter_seqs`?
+- **microbiome-mothur-miseq-sop-q027** — I have an alignment of sequences and want to filter the alignment to remove columns that are all gaps or overly variable, producing a masked/filtered alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q028** — Which Galaxy tool would you recommend to perform `mothur_filter_seqs`?
+- **microbiome-mothur-miseq-sop-q028** — To improve downstream distance calculations, I want to remove uninformative alignment columns from my aligned sequences. What Galaxy tool can filter an alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q029** — Which Galaxy tool corresponds to the Filter.seqs module described?
+- **microbiome-mothur-miseq-sop-q029** — Which Galaxy tool can filter/mask an aligned FASTA by removing uninformative alignment columns (gap-only columns)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q030** — Which Galaxy tool would you recommend to perform `mothur_filter_seqs`?
+- **microbiome-mothur-miseq-sop-q030** — In Galaxy, what tool should I run to filter an alignment to keep only informative positions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0
   - Datasets: zenodo.800651
 
@@ -15289,64 +15289,64 @@ Questions:
 - Datasets (1): zenodo.800651
 
 Questions:
-- **microbiome-mothur-miseq-sop-short-q011** — Which Galaxy tool would you recommend to perform `mothur_sub_sample`?
+- **microbiome-mothur-miseq-sop-short-q011** — I have a feature table or sequence counts with uneven sequencing depth and want to subsample/rarefy to an even depth across samples for fair comparisons. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q012** — Which Galaxy tool would you recommend to perform `mothur_sub_sample`?
+- **microbiome-mothur-miseq-sop-short-q012** — Before diversity analysis, I want to downsample reads/sequences to a fixed number per sample to standardize sampling depth. What Galaxy tool can subsample the data?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q013** — Which Galaxy tool corresponds to the Mothur sub-sampling step mentioned here?
+- **microbiome-mothur-miseq-sop-short-q013** — Which Galaxy tool can subsample/rarefy sequences or count tables to a fixed depth per sample for downstream diversity analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q014** — Which Galaxy tool would you recommend to perform `mothur_sub_sample`?
+- **microbiome-mothur-miseq-sop-short-q014** — In Galaxy, what tool should I run to downsample my data to an even sampling depth across samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q015** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-mothur-miseq-sop-short-q015** — My sequence dataset contains repeats and I want a unique-only FASTA plus a counts mapping for later analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q016** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-mothur-miseq-sop-short-q016** — I need to remove duplicate sequences from a FASTA as part of an amplicon workflow to speed up downstream steps. What Galaxy tool can compute unique sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q017** — Which Galaxy tool performs Unique.seqs in the short guide?
+- **microbiome-mothur-miseq-sop-short-q017** — What Galaxy tool can collapse identical sequences in a FASTA into unique representatives and report counts?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q018** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-mothur-miseq-sop-short-q018** — Which Galaxy tool should I use to perform the unique-sequence dereplication step on a FASTA file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q019** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-mothur-miseq-sop-short-q019** — I need to align rRNA/amplicon sequences to a template alignment so I can filter and compare sequences consistently. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q020** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-mothur-miseq-sop-short-q020** — Before screening sequences by alignment coordinates, I want to align my sequences to a reference alignment. What Galaxy tool can perform this alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q021** — Which Galaxy tool executes Align.seqs inside the condensed guide?
+- **microbiome-mothur-miseq-sop-short-q021** — What Galaxy tool aligns amplicon sequences to a reference so downstream screening and clustering use consistent positions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q022** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-mothur-miseq-sop-short-q022** — Which Galaxy tool should I use to perform reference-guided alignment of FASTA sequences in an amplicon pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q023** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-mothur-miseq-sop-short-q023** — I want to drop sequences that fail screening criteria (e.g., too many ambiguities or outside alignment start/end) from my dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q024** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-mothur-miseq-sop-short-q024** — I need a screening step that filters aligned sequences based on quality/length/alignment bounds before clustering. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q025** — Which Galaxy tool represents the Screen.seqs call in the short version?
+- **microbiome-mothur-miseq-sop-short-q025** — What Galaxy tool removes sequences that fail screening criteria from an aligned FASTA dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q026** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-mothur-miseq-sop-short-q026** — Which Galaxy tool should I use for screening aligned sequences by length and alignment coordinates?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q027** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-mothur-miseq-sop-short-q027** — After taxonomic classification, I need an interactive visualization to explore taxa across levels. Which Galaxy tool can create a Krona chart?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q028** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-mothur-miseq-sop-short-q028** — I have a taxonomy table and want a clickable interactive chart to inspect relative abundances across taxonomic ranks. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q029** — Which Galaxy tool creates the Krona visualization for the short dataset?
+- **microbiome-mothur-miseq-sop-short-q029** — What Galaxy tool produces an interactive Krona plot from taxonomy tables for exploration?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-short-q030** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-mothur-miseq-sop-short-q030** — Which Galaxy tool should I use to turn taxonomy output into a Krona chart for reporting?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.800651
 
@@ -15356,64 +15356,64 @@ Questions:
 - Datasets (1): 4274812
 
 Questions:
-- **microbiome-nanopore-16S-metagenomics-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-nanopore-16S-metagenomics-q011** — I’m comparing multiple sequencing samples and want consistent QC reports for each FASTQ file to identify outliers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-nanopore-16S-metagenomics-q012** — I have a dataset collection of FASTQ files and want QC reports for each element to review quality across the collection. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q013** — Which Galaxy tool generates the FastQC reports for these long reads?
+- **microbiome-nanopore-16S-metagenomics-q013** — What Galaxy tool can compute standard FASTQ QC plots (per-base quality, GC, overrepresented sequences) for my reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-nanopore-16S-metagenomics-q014** — Which Galaxy tool should I use to run a read QC step on FASTQ files before preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q015** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-nanopore-16S-metagenomics-q015** — I want to consolidate QC outputs from multiple steps into a single report for sharing and review. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q016** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-nanopore-16S-metagenomics-q016** — I need an aggregated QC dashboard-like report across samples after read preprocessing. What Galaxy tool can generate that combined report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q017** — Which Galaxy tool compiles FastQC logs into MultiQC for nanopore?
+- **microbiome-nanopore-16S-metagenomics-q017** — In Galaxy, what tool can take outputs from several QC tools and produce one consolidated quality report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **microbiome-nanopore-16S-metagenomics-q018** — Which Galaxy tool generates a combined QC report from a set of individual QC outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q019** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-nanopore-16S-metagenomics-q019** — I have Oxford Nanopore reads and want to remove sequencing adapters/barcodes from the reads before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q020** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-nanopore-16S-metagenomics-q020** — My long-read FASTQ contains adapter sequences and I need an adapter-trimming step tailored for Nanopore data. What Galaxy tool can trim Nanopore adapters?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q021** — Which Galaxy tool runs Porechop for adapter trimming?
+- **microbiome-nanopore-16S-metagenomics-q021** — Which Galaxy tool can trim adapters/barcodes from Oxford Nanopore reads in FASTQ format?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q022** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-nanopore-16S-metagenomics-q022** — In Galaxy, what tool should I run for Nanopore adapter trimming as part of preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q023** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-nanopore-16S-metagenomics-q023** — My long reads need basic quality filtering and trimming, and I want a per-sample summary report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q024** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-nanopore-16S-metagenomics-q024** — I want an all-in-one preprocessing step that filters and trims reads and outputs both cleaned FASTQ files and a QC report. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q025** — Which Galaxy tool executes the fastp cleanup described?
+- **microbiome-nanopore-16S-metagenomics-q025** — What Galaxy tool can filter/trim FASTQ reads and produce both cleaned FASTQ outputs and a QC summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q026** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-nanopore-16S-metagenomics-q026** — Which Galaxy tool should I use to preprocess reads (trim + filter) in one step before downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q027** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-nanopore-16S-metagenomics-q027** — I have sequencing reads from a mixed microbial sample and want to classify reads by taxonomy and get an abundance report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q028** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-nanopore-16S-metagenomics-q028** — I need taxonomic classification of metagenomic reads and a report of taxa present in my sample. What Galaxy tool can classify reads against a taxonomy database?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q029** — Which Galaxy tool corresponds to the Kraken2 classification step?
+- **microbiome-nanopore-16S-metagenomics-q029** — Which Galaxy tool can classify sequencing reads taxonomically against a reference database and produce a classification report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
-- **microbiome-nanopore-16S-metagenomics-q030** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-nanopore-16S-metagenomics-q030** — In Galaxy, what tool should I run for taxonomic classification of metagenomic reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - Datasets: 4274812
 
@@ -15423,58 +15423,58 @@ Questions:
 - Datasets (1): 11222469
 
 Questions:
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q011** — I need to check read quality after an adapter-trimming step to confirm improvements. Which Galaxy tool should I use for a QC report on FASTQ outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q012** — I want a quick quality check of raw FASTQ files before deciding on trimming and filtering thresholds. What Galaxy tool can generate the standard QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q013** — Which Galaxy tool launches the initial FastQC job on the raw `Samples` collection imported from Zenodo?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q013** — In Galaxy, what tool can produce the usual QC report for sequencing reads so I can assess quality quickly?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q014** — Which Galaxy tool outputs an HTML quality report for FASTQ data suitable for sharing and review?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q015** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q015** — I want to clean Nanopore reads by trimming adapters and splitting chimeric reads if needed. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q016** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q016** — Before mapping long reads, I need to remove adapters from Nanopore FASTQ reads to improve alignment. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q017** — Which Galaxy tool launches the Porechop job that consumes the `Samples` collection and trims adapters as described?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q017** — What Galaxy tool performs adapter trimming for Nanopore reads and outputs cleaned FASTQ datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q018** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q018** — Which Galaxy tool should I use to remove adapters from long-read FASTQ files prior to mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q019** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q019** — I need to clean up reads for metagenomic classification by trimming and filtering low-quality sequences, with a summary of results. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q020** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q020** — After adapter trimming, I want an additional quality filtering step that produces cleaned reads and a report. What Galaxy tool can do combined trimming/filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q021** — Which Galaxy tool corresponds to the fastp filtering job that takes the Porechop outputs and writes filtered FASTQs plus JSON?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q021** — In Galaxy, what tool can clean FASTQ reads by trimming and filtering while writing a quality report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q022** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q022** — Which Galaxy tool provides an all-in-one FASTQ preprocessing step that outputs cleaned reads and a report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q023** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q023** — I have long-read sequences and a reference genome and want to align long reads to the reference to produce alignments for downstream QC and analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q024** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q024** — After preprocessing Nanopore reads, I need to map them to a reference genome to generate BAM alignments. What Galaxy tool can do long-read mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q025** — Which Galaxy tool runs the `Map with minimap2` job that indexes `galGal6` from history and aligns the filtered `Samples` collection?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q025** — Which Galaxy tool can align long reads to a reference genome and output alignments for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q026** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q026** — In Galaxy, what tool should I run for fast mapping of Nanopore reads to a reference genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.24+galaxy0
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q027** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q027** — After preprocessing reads, I want to assign each read to a taxon and produce summary tables for community composition. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q028** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q028** — I want to classify long-read or short-read sequencing data taxonomically against a reference database and get a per-sample classification report. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — Which Galaxy tool executes the Kraken2 job tied to the Kalamari database, producing the classification and report outputs referenced in the guide?
