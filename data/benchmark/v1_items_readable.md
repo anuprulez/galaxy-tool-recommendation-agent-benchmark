@@ -2466,136 +2466,136 @@ Questions:
 - **computational-chemistry-htmd-analysis-q078** — I need to execute a molecular dynamics run on my system and capture the trajectory outputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q079** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-htmd-analysis-q079** — I have a biomolecular structure and want to generate the standard inputs needed to start building an MD system. What tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q080** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-htmd-analysis-q080** — I want to turn a structure into the typical files required for molecular dynamics preparation in Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q081** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q081** — Which Galaxy tool creates the basic MD-system setup inputs from a structure so I can continue with solvation and minimization?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q082** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-htmd-analysis-q082** — Before I add solvent, I need the initial system-prep step that generates topology/coordinate inputs from a structure. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q083** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-htmd-analysis-q083** — Which Galaxy tool converts small-molecule structures between common chemical formats for simulation and docking workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q084** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-htmd-analysis-q084** — What tool should I use in Galaxy to reformat a ligand library into a different chemical structure representation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q085** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q085** — In Galaxy, which tool handles chemistry structure conversion so my ligand files are compatible with downstream steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q086** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-htmd-analysis-q086** — I need a format-conversion step for a set of ligands inside Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q087** — Which Galaxy tool would you recommend to perform `ambertools_acpype`?
+- **computational-chemistry-htmd-analysis-q087** — I have a ligand structure and need simulation-ready ligand topology/coordinate inputs so it can be combined with a protein system. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.10+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q088** — Which Galaxy tool would you recommend to perform `ambertools_acpype`?
+- **computational-chemistry-htmd-analysis-q088** — I want to generate ligand topology and charge files needed to include a ligand in a protein–ligand MD system. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.10+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q089** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q089** — Which Galaxy tool turns a small-molecule ligand into the standard topology/charge inputs needed for a protein–ligand simulation workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.10+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q090** — Which Galaxy tool would you recommend to perform `ambertools_acpype`?
+- **computational-chemistry-htmd-analysis-q090** — I need to parameterize a ligand so it can be simulated with a protein in an MD workflow. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.10+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q091** — Which Galaxy tool would you recommend to perform `gmx_merge_topology_files`?
+- **computational-chemistry-htmd-analysis-q091** — I have separate topology inputs for a protein and a ligand and need to merge them into one system topology. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q092** — Which Galaxy tool would you recommend to perform `gmx_merge_topology_files`?
+- **computational-chemistry-htmd-analysis-q092** — I need to combine multiple topology files into a single topology for a full simulation system. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q093** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q093** — Which Galaxy tool merges component topology files into one system topology for molecular dynamics?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q094** — Which Galaxy tool would you recommend to perform `gmx_merge_topology_files`?
+- **computational-chemistry-htmd-analysis-q094** — I want to build a full system topology by merging the protein and ligand topology inputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q095** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-htmd-analysis-q095** — I want to place and center my structure and define a simulation box geometry before solvation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q096** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-htmd-analysis-q096** — I need to generate a boxed structure (centered and oriented) so I can add solvent next. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q097** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q097** — Which Galaxy tool edits a structure to define a simulation box and produces the boxed coordinates?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q098** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-htmd-analysis-q098** — Before solvating, I want to set the box type and dimensions around my system. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q099** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-htmd-analysis-q099** — I want to solvate my boxed system by adding explicit water molecules around the biomolecular complex. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q100** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-htmd-analysis-q100** — I need to add solvent to my simulation box and produce a solvated system for minimization. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q101** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q101** — Which Galaxy tool adds explicit solvent to a boxed system to prepare it for energy minimization and dynamics?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q102** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-htmd-analysis-q102** — I want to build a solvated MD system from my boxed coordinates. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q103** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-htmd-analysis-q103** — After solvation, I want an energy-minimization step to relax bad contacts before running dynamics. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q104** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-htmd-analysis-q104** — I need to minimize the energy of my prepared system to remove clashes and stabilize geometry. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q105** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q105** — Which Galaxy tool performs an energy-minimization run on a solvated MD system as part of setup?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q106** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-htmd-analysis-q106** — Before any equilibration, I want to run a minimization stage on my system. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q107** — Which Galaxy tool would you recommend to perform `gmx_energy`?
+- **computational-chemistry-htmd-analysis-q107** — I ran an MD step and now want to extract an energy term time series (e.g., potential energy) from the simulation output. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2022+galaxy1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q108** — Which Galaxy tool would you recommend to perform `gmx_energy`?
+- **computational-chemistry-htmd-analysis-q108** — I want a plot-ready table of energy versus time from my simulation logs. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2022+galaxy1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q109** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q109** — Which Galaxy tool reads MD outputs and extracts energy components into a table I can plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2022+galaxy1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q110** — Which Galaxy tool would you recommend to perform `gmx_energy`?
+- **computational-chemistry-htmd-analysis-q110** — I need to pull out energy terms from an MD run into a simple tabular dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2022+galaxy1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q111** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-htmd-analysis-q111** — I want to run a molecular dynamics simulation on my prepared system and produce trajectory outputs for analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q112** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-htmd-analysis-q112** — After minimization, I want to launch a dynamics run and save the trajectory and logs in my history. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q113** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q113** — Which Galaxy tool executes a molecular dynamics run and returns the trajectory datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q114** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-htmd-analysis-q114** — I need to perform the actual dynamics stage (not analysis) and capture trajectory outputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q115** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **computational-chemistry-htmd-analysis-q115** — I have a trajectory in one format and need to convert it into a different representation so other analysis steps can read it. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q116** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **computational-chemistry-htmd-analysis-q116** — I need to convert trajectory files between formats for analysis and visualization in Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q117** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q117** — Which Galaxy tool converts MD trajectories and coordinate files between common formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q118** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **computational-chemistry-htmd-analysis-q118** — I want to re-encode my trajectory into an analysis-friendly format without leaving Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q119** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
+- **computational-chemistry-htmd-analysis-q119** — I want a cosine-based orientation analysis to quantify how a molecular vector rotates during a simulation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q120** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
+- **computational-chemistry-htmd-analysis-q120** — I need a time series describing the orientation of a helix or bond vector across frames (cosine values). Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q121** — Which Galaxy tool should I use to run an analysis step from the guide in High Throughput Molecular Dynamics and Analysis?
+- **computational-chemistry-htmd-analysis-q121** — Which Galaxy tool computes cosine-orientation metrics from a trajectory to track directional changes over time?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q122** — Which Galaxy tool would you recommend to perform `mdanalysis_cosine_analysis`?
+- **computational-chemistry-htmd-analysis-q122** — I want to quantify angle/orientation changes over time using cosine values rather than raw angles. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_cosine_analysis/mdanalysis_cosine_analysis/1.0.0+galaxy0
   - Datasets: 3813283
 
@@ -2605,148 +2605,148 @@ Questions:
 - Datasets (2): zenodo.2598415, 2598415
 
 Questions:
-- **computational-chemistry-md-simulation-gromacs-q011** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-md-simulation-gromacs-q011** — I want to start an MD workflow from a known structure entry and download the 3D coordinates into my history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q012** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-md-simulation-gromacs-q012** — I have a structure database identifier and need to fetch the corresponding macromolecular structure into Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q013** — I need to retrieve a protein structure from a public structure archive so I can set up an MD simulation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q014** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-md-simulation-gromacs-q014** — Before I can prepare a simulation system, I need to pull a 3D structure by accession into my Galaxy history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q015** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **computational-chemistry-md-simulation-gromacs-q015** — Which Galaxy tool selects only the lines in a text log that match a pattern (for example, extracting specific energy terms)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q016** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **computational-chemistry-md-simulation-gromacs-q016** — What tool should I use to keep only rows containing a keyword from a simulation output log in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q017** — In Galaxy, which tool filters a text dataset down to lines matching an expression or regular expression?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q018** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **computational-chemistry-md-simulation-gromacs-q018** — I need to extract matching lines from a text dataset produced during simulation setup. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q019** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-md-simulation-gromacs-q019** — I have a protein structure and want to generate the usual simulation-prep inputs (topology and coordinate files) for an MD run. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q020** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-md-simulation-gromacs-q020** — I want to prepare a biomolecular system for dynamics by generating the standard setup outputs from a structure. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q021** — Which Galaxy tool creates the standard MD setup inputs from a structure so I can move on to boxing and solvation?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q022** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-md-simulation-gromacs-q022** — I need the initial MD system-preparation step that produces topology/coordinate inputs from a structure. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q023** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-md-simulation-gromacs-q023** — I need to center my structure and define a simulation box before adding solvent. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q024** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-md-simulation-gromacs-q024** — I want to define the periodic box dimensions and orientation around my system. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q025** — Which Galaxy tool creates a boxed structure suitable for the solvation step in an MD workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q026** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-md-simulation-gromacs-q026** — Before solvation, I want to generate a boxed coordinate set (centered, with chosen box type). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q027** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-md-simulation-gromacs-q027** — I want to solvate my boxed system by adding explicit water molecules as part of MD preparation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q028** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-md-simulation-gromacs-q028** — I need to fill the simulation box with solvent molecules and produce a solvated system. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q029** — After defining the box, I want to add solvent so the system is ready for minimization. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q030** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-md-simulation-gromacs-q030** — I have boxed coordinates and need a step that adds explicit solvent around the solute. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q031** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-md-simulation-gromacs-q031** — I want to relax the solvated system by running energy minimization before equilibration. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q032** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-md-simulation-gromacs-q032** — I need an energy-minimization stage to remove bad contacts in my solvated system. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q033** — Which Galaxy tool runs an energy-minimization step for an MD system as part of setup?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q034** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-md-simulation-gromacs-q034** — Before dynamics, I want to run minimization to stabilize geometry. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q035** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-md-simulation-gromacs-q035** — I want to run a molecular dynamics simulation and save the trajectory outputs for analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q036** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-md-simulation-gromacs-q036** — After minimization, I want to execute the dynamics stage and produce trajectory and log datasets. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q037** — Which Galaxy tool performs the main dynamics run and produces a trajectory dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q038** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-md-simulation-gromacs-q038** — I need to run MD on my prepared system and capture the trajectory outputs in Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q039** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-md-simulation-gromacs-q039** — For a second system, I again need to generate the typical MD setup inputs from a structure. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q040** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-md-simulation-gromacs-q040** — I want to prepare another biomolecular structure for simulation by generating topology/coordinate inputs. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q041** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q041** — Which Galaxy tool handles the initial MD system setup from a structure (producing the inputs needed for later steps)?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q042** — Which Galaxy tool would you recommend to perform `gmx_setup`?
+- **computational-chemistry-md-simulation-gromacs-q042** — I need the first step of an MD workflow that prepares the system files from a structure. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q043** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-md-simulation-gromacs-q043** — I want to define a simulation box around my structure (centered and with a chosen box shape). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q044** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-md-simulation-gromacs-q044** — I need to center the solute and create a periodic box with specific dimensions before solvation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q045** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q045** — Which Galaxy tool creates the simulation box coordinates used as input for solvation?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q046** — Which Galaxy tool would you recommend to perform `gmx_editconf`?
+- **computational-chemistry-md-simulation-gromacs-q046** — I want a boxed coordinate file for MD so that solvent addition works correctly. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q047** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-md-simulation-gromacs-q047** — I want to add explicit solvent to a boxed structure so I can proceed to minimization. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q048** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-md-simulation-gromacs-q048** — I need to solvate my system by adding water molecules to the simulation box. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q049** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q049** — Which Galaxy tool adds solvent molecules to a simulation box to create a solvated system?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q050** — Which Galaxy tool would you recommend to perform `gmx_solvate`?
+- **computational-chemistry-md-simulation-gromacs-q050** — I have a boxed solute and want to generate the solvated system datasets. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q051** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-md-simulation-gromacs-q051** — I want to run energy minimization on my solvated system to remove clashes. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q052** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-md-simulation-gromacs-q052** — I need a minimization step that relaxes the solvated MD system before dynamics. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q053** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q053** — Which Galaxy tool performs an energy-minimization stage for an MD workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q054** — Which Galaxy tool would you recommend to perform `gmx_em`?
+- **computational-chemistry-md-simulation-gromacs-q054** — I want to minimize the system energy before starting any equilibration or production dynamics. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q055** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-md-simulation-gromacs-q055** — I want to execute the main MD run and generate a trajectory for downstream analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q056** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-md-simulation-gromacs-q056** — I need to run dynamics and produce trajectory outputs in my Galaxy history. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q057** — Which Galaxy tool should I use to run an analysis step from the guide in Running molecular dynamics simulations using GROMACS?
+- **computational-chemistry-md-simulation-gromacs-q057** — Which Galaxy tool runs the molecular dynamics simulation stage and writes out trajectory datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
-- **computational-chemistry-md-simulation-gromacs-q058** — Which Galaxy tool would you recommend to perform `gmx_sim`?
+- **computational-chemistry-md-simulation-gromacs-q058** — I want to run a dynamics stage on the prepared system and save the trajectory outputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 2598415, zenodo.2598415
 
@@ -2756,52 +2756,52 @@ Questions:
 - Datasets (1): 3234841
 
 Questions:
-- **computational-chemistry-md-simulation-namd-q011** — Which Galaxy tool would you recommend to perform `setup`?
+- **computational-chemistry-md-simulation-namd-q011** — I have a structure and need the usual run-ready input set to start a molecular dynamics simulation in Galaxy. Which tool should I use?
   - Tools: setup
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q012** — Which Galaxy tool would you recommend to perform `setup`?
+- **computational-chemistry-md-simulation-namd-q012** — Before I can run minimization or equilibration, I need a setup step that produces the standard MD run inputs. Which tool should I run?
   - Tools: setup
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q013** — Which Galaxy tool would you recommend to perform `setup`?
+- **computational-chemistry-md-simulation-namd-q013** — Which Galaxy tool prepares the run-ready inputs needed to start a molecular dynamics simulation from a structure?
   - Tools: setup
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q014** — Which Galaxy tool would you recommend to perform `setup`?
+- **computational-chemistry-md-simulation-namd-q014** — I want a Galaxy tool that prepares the simulation run inputs (configs/topology coordinates) so I can proceed. Which tool should I use?
   - Tools: setup
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q015** — Which Galaxy tool would you recommend to perform `minimizer`?
+- **computational-chemistry-md-simulation-namd-q015** — I want to minimize the system energy to remove bad contacts before equilibration. Which tool should I use?
   - Tools: minimizer
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q016** — Which Galaxy tool would you recommend to perform `minimizer`?
+- **computational-chemistry-md-simulation-namd-q016** — I need an energy-minimization stage on my system prior to running dynamics. Which tool should I run?
   - Tools: minimizer
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q017** — Which Galaxy tool runs energy minimization for NAMD simulations?
+- **computational-chemistry-md-simulation-namd-q017** — Which Galaxy tool performs the minimization step for an MD workflow?
   - Tools: minimizer
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q018** — Which Galaxy tool would you recommend to perform `minimizer`?
+- **computational-chemistry-md-simulation-namd-q018** — I want to relax my prepared system with an energy-minimization run. Which tool should I use?
   - Tools: minimizer
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q019** — Which Galaxy tool would you recommend to perform `namd_nvt`?
+- **computational-chemistry-md-simulation-namd-q019** — After minimization, I want constant-volume equilibration to stabilize temperature before pressure coupling. Which tool should I use?
   - Tools: namd_nvt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q020** — Which Galaxy tool would you recommend to perform `namd_nvt`?
+- **computational-chemistry-md-simulation-namd-q020** — I need an equilibration stage at fixed volume where temperature is controlled. Which tool should I run?
   - Tools: namd_nvt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q021** — Which Galaxy tool runs an NVT simulation with NAMD?
+- **computational-chemistry-md-simulation-namd-q021** — Which Galaxy tool runs the constant-volume equilibration stage for an MD system?
   - Tools: namd_nvt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q022** — Which Galaxy tool would you recommend to perform `namd_nvt`?
+- **computational-chemistry-md-simulation-namd-q022** — I want to equilibrate the system at constant volume before switching to constant pressure. Which tool should I use?
   - Tools: namd_nvt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q023** — Which Galaxy tool would you recommend to perform `namd_npt`?
+- **computational-chemistry-md-simulation-namd-q023** — Next, I want constant-pressure equilibration so the system can reach the target density. Which tool should I use?
   - Tools: namd_npt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q024** — Which Galaxy tool would you recommend to perform `namd_npt`?
+- **computational-chemistry-md-simulation-namd-q024** — I need an equilibration stage with pressure coupling to adjust the box density. Which tool should I run?
   - Tools: namd_npt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q025** — Which Galaxy tool runs an NPT simulation with NAMD?
+- **computational-chemistry-md-simulation-namd-q025** — Which Galaxy tool runs constant-pressure equilibration for an MD simulation workflow?
   - Tools: namd_npt
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q026** — Which Galaxy tool would you recommend to perform `namd_npt`?
+- **computational-chemistry-md-simulation-namd-q026** — I want to equilibrate at constant pressure and temperature before any production run. Which tool should I use?
   - Tools: namd_npt
   - Datasets: 3234841
 
@@ -2811,88 +2811,88 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **computational-chemistry-med-chem-data-q011** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-med-chem-data-q011** — Which Galaxy tool converts small-molecule structures between common chemical formats so my dataset can be used by downstream analysis steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q012** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-med-chem-data-q012** — I need a format conversion step for a compound dataset in Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q013** — In Galaxy, which tool can reformat a compound library into a different chemical structure representation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q014** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **computational-chemistry-med-chem-data-q014** — I want to convert a structure dataset into another format so I can compute properties and make figures. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q015** — Which Galaxy tool would you recommend to perform `chembl`?
+- **computational-chemistry-med-chem-data-q015** — I want to retrieve compounds and activity information for a target from a public bioactivity database into my history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-med-chem-data-q016** — Which Galaxy tool would you recommend to perform `chembl`?
+- **computational-chemistry-med-chem-data-q016** — I need to query a public drug-discovery database and download matching compounds with metadata for analysis. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-med-chem-data-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q017** — Which Galaxy tool searches a public bioactivity database and returns matching compounds and associated measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-med-chem-data-q018** — Which Galaxy tool would you recommend to perform `chembl`?
+- **computational-chemistry-med-chem-data-q018** — I want to pull ligands and assay metadata for a target from an online bioactivity resource into Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **computational-chemistry-med-chem-data-q019** — Which Galaxy tool would you recommend to perform `ctb_im_rxn_maker`?
+- **computational-chemistry-med-chem-data-q019** — I have a set of reactants and want to generate a chemical reaction description to support reaction-based analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q020** — Which Galaxy tool would you recommend to perform `ctb_im_rxn_maker`?
+- **computational-chemistry-med-chem-data-q020** — I want to build a reaction representation from my input molecules so I can track transformations. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q021** — Which Galaxy tool creates a reaction representation from input molecules for medicinal-chemistry analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q022** — Which Galaxy tool would you recommend to perform `ctb_im_rxn_maker`?
+- **computational-chemistry-med-chem-data-q022** — I need to assemble reactants/products into a standardized reaction record for downstream steps. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q023** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **computational-chemistry-med-chem-data-q023** — I want clean 2D drawings of my molecules as vector graphics for a report or slide deck. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q024** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **computational-chemistry-med-chem-data-q024** — I need 2D depictions of ligands that I can include in figures as scalable images. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q025** — Which Galaxy tool renders molecule structures into 2D vector drawings suitable for publication figures?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q026** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **computational-chemistry-med-chem-data-q026** — I want to generate 2D structure diagrams from my compound library and export them as vector images. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **computational-chemistry-med-chem-data-q027** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **computational-chemistry-med-chem-data-q027** — I want a drug-likeness style score for each molecule to help prioritize compounds for screening. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q028** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **computational-chemistry-med-chem-data-q028** — I need to compute a quantitative estimate of drug-likeness for compounds in my library to rank them. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q029** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q029** — Which Galaxy tool computes a drug-likeness score per compound so I can filter and rank candidates?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q030** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **computational-chemistry-med-chem-data-q030** — I want to annotate my compound set with a drug-likeness metric for downstream selection. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q031** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **computational-chemistry-med-chem-data-q031** — I have trajectory or coordinate files and need to convert them to a different format for later analysis steps. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q032** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **computational-chemistry-med-chem-data-q032** — I want to convert simulation coordinate/trajectory files between common formats inside Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q033** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q033** — Which Galaxy tool converts molecular dynamics trajectories between formats so I can analyze them consistently?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q034** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **computational-chemistry-med-chem-data-q034** — I need a general conversion step for trajectory/structure files used in MD analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q035** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-med-chem-data-q035** — I need to download a 3D macromolecular structure into Galaxy by providing its structure database identifier. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q036** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-med-chem-data-q036** — I want to fetch a protein structure from a public structure archive so I can run pocket detection or docking. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q037** — Which Galaxy tool should I use to run an analysis step from the guide in Data management in Medicinal Chemistry?
+- **computational-chemistry-med-chem-data-q037** — Which Galaxy tool retrieves a 3D structure from a public structure database into my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **computational-chemistry-med-chem-data-q038** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **computational-chemistry-med-chem-data-q038** — I have a structure accession code and want to download the corresponding coordinates into Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
 
@@ -2902,46 +2902,46 @@ Questions:
 - Datasets (2): 6055897, 6055897>
 
 Questions:
-- **computational-chemistry-zauberkugel-q011** — Which Galaxy tool would you recommend to perform `openbabel_addh`?
+- **computational-chemistry-zauberkugel-q011** — I have a set of small molecules and need to add missing hydrogens so the structures are chemically complete for downstream steps. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q012** — Which Galaxy tool would you recommend to perform `openbabel_addh`?
+- **computational-chemistry-zauberkugel-q012** — Before generating conformers, I want to add hydrogens to my ligand structures in Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+- **computational-chemistry-zauberkugel-q013** — Which Galaxy tool adds hydrogens to small-molecule structures as a preprocessing step?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q014** — Which Galaxy tool would you recommend to perform `openbabel_addh`?
+- **computational-chemistry-zauberkugel-q014** — I need a step that protonates/adds hydrogens to my compound set before conformer generation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/3.1.1+galaxy1
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q015** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
+- **computational-chemistry-zauberkugel-q015** — I have many molecules stored together and want to split them into a dataset collection with one entry per molecule. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q016** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
+- **computational-chemistry-zauberkugel-q016** — I need to separate a multi-compound dataset into a collection so I can process each molecule independently. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q017** — Which Galaxy tool should I use to run an analysis step from the guide in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+- **computational-chemistry-zauberkugel-q017** — Which Galaxy tool splits a compound library into a dataset collection (one molecule per element) for parallel workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q018** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
+- **computational-chemistry-zauberkugel-q018** — I want to split my compound set into a collection so conformer generation can run per molecule. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q019** — Which Galaxy tool would you recommend to perform `rdconf`?
+- **computational-chemistry-zauberkugel-q019** — I want to generate multiple 3D conformers for each small molecule to explore flexibility before alignment or scoring. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q020** — Which Galaxy tool would you recommend to perform `rdconf`?
+- **computational-chemistry-zauberkugel-q020** — I need to create a set of plausible 3D conformations for each ligand for downstream comparison. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q021** — Which Galaxy tool should I use to run an analysis step from the guide in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?
+- **computational-chemistry-zauberkugel-q021** — Which Galaxy tool generates 3D conformers for a molecule so I can evaluate shape and alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q022** — Which Galaxy tool would you recommend to perform `rdconf`?
+- **computational-chemistry-zauberkugel-q022** — I want to produce multiple conformations per compound (a conformer ensemble) for later alignment. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/rdconf/rdconf/2020.03.4+galaxy0
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q023** — Which Galaxy tool would you recommend to perform `ctb_alignit`?
+- **computational-chemistry-zauberkugel-q023** — I have two ligands and want to align them in 3D to compare shape and functional-group placement. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
   - Datasets: 6055897, 6055897>
-- **computational-chemistry-zauberkugel-q024** — Which Galaxy tool would you recommend to perform `ctb_alignit`?
+- **computational-chemistry-zauberkugel-q024** — I want a 3D alignment between molecules to compare conformers and compute an overlap-based similarity. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit/1.0.4+galaxy0
   - Datasets: 6055897, 6055897>
 - **computational-chemistry-zauberkugel-q025** — Which Galaxy tool should I use to run an analysis step from the guide in Protein target prediction of a bioactive ligand with Align-it and ePharmaLib?

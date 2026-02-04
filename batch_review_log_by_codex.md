@@ -187,6 +187,18 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 601 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for known core/placeholder-like tool IDs (e.g., `Grep1`, `xchem_pose_scoring`).
 
+## Batch A0006 (751–900)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 751–900 (computational chemistry: HTMD analysis continuation; MD simulation setup/workflows; medicinal-chemistry data; conformers/alignment)
+- Summary:
+  - Rewrote all queries to remove tool leakage and guide phrasing (no backticks, no tool names/IDs, no tutorial references, no dataset URLs/IDs in query text).
+  - Increased science-first coverage in this batch (final split: 111 science-first / 39 tool-first) while keeping some tool-directed questions.
+  - Kept ground-truth tool selections intact for this batch (no new gold expansions added).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 751 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for known core/placeholder-like tool IDs (e.g., `Grep1`, and the NAMD-wrapper placeholders `setup/minimizer/namd_*`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
