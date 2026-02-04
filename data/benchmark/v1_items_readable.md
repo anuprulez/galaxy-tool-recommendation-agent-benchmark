@@ -8202,40 +8202,40 @@ Questions:
 - **evolution-mtb_transmission-q066** — Which Galaxy tool performs clustering when the input is a precomputed distance matrix between samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/clustering_from_distmat/clustering_from_distmat/1.1.1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q067** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **evolution-mtb_transmission-q067** — I have an MTB variant or resistance results table and want to pull out only lines matching specific genes, mutations, or keywords for closer inspection. Which Galaxy tool should I use?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q068** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **evolution-mtb_transmission-q068** — To focus on a subset of samples, I want to filter a text table by keeping only rows that match a pattern (or excluding a pattern). Which Galaxy tool can do this?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q069** — Which Galaxy tool provides basic grep filtering?
+- **evolution-mtb_transmission-q069** — I need a grep-style step that selects lines matching a pattern from a text or tabular dataset. Which Galaxy tool should I use?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q070** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **evolution-mtb_transmission-q070** — Which Galaxy tool can filter a dataset by keeping (or removing) lines that match a keyword or regular expression?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q071** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **evolution-mtb_transmission-q071** — A downstream MTB step only accepts a single dataset, but my results are in a dataset collection. Which Galaxy tool should I use to collapse the collection into one dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q072** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **evolution-mtb_transmission-q072** — I generated per-sample outputs as a collection and now need one combined dataset for a tool that does not support collections. Which Galaxy tool can collapse the collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q073** — Which Galaxy tool collapses a collection into a dataset?
+- **evolution-mtb_transmission-q073** — I need to convert a dataset collection into a single dataset so I can use it in tools that do not accept collections. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q074** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **evolution-mtb_transmission-q074** — Which Galaxy tool collapses a dataset collection into one dataset output for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q075** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **evolution-mtb_transmission-q075** — I want to combine an MTB results table with a sample metadata table by matching on a shared sample ID column. Which Galaxy tool should I use to join the tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q076** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **evolution-mtb_transmission-q076** — To compare resistance calls with lineage information, I need to merge two tabular datasets using a common key column. Which Galaxy tool can do a table join?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q077** — Which Galaxy tool performs an easy join on two tables?
+- **evolution-mtb_transmission-q077** — I need to join two tabular datasets on a shared key column (like a database join) and output the merged table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q078** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **evolution-mtb_transmission-q078** — Which Galaxy tool merges two tables by matching a chosen column in each file and producing a combined dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: 6010176
 
@@ -8245,88 +8245,88 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **fair-med-chem-data-q011** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **fair-med-chem-data-q011** — I have small-molecule structures but they’re in the wrong chemical file format for my downstream analysis. Which Galaxy tool should I use to convert between common structure formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q012** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **fair-med-chem-data-q012** — I’m integrating compound data from different sources and need to standardize the molecule representation (for example SMILES versus SDF). Which Galaxy tool can convert formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q013** — Which Galaxy tool runs Open Babel compound conversion?
+- **fair-med-chem-data-q013** — I need to convert a set of compound structures between common chemical formats (for example SMILES to SDF or MOL2). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q014** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **fair-med-chem-data-q014** — Which Galaxy tool converts molecular structure files between standard formats and outputs the converted structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q015** — Which Galaxy tool would you recommend to perform `chembl`?
+- **fair-med-chem-data-q015** — I have a query compound and want to find similar or substructure-matching molecules in a curated bioactivity database of drug-like compounds. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **fair-med-chem-data-q016** — Which Galaxy tool would you recommend to perform `chembl`?
+- **fair-med-chem-data-q016** — I want to search a public drug-like compound database for molecules that contain my scaffold, and optionally filter hits by simple drug-likeness rules. Which Galaxy tool can do this search?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **fair-med-chem-data-q017** — Which Galaxy tool accesses ChEMBL data for medicinal chemistry?
+- **fair-med-chem-data-q017** — I need to run a similarity or substructure search against a drug-like compound database starting from a SMILES query. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **fair-med-chem-data-q018** — Which Galaxy tool would you recommend to perform `chembl`?
+- **fair-med-chem-data-q018** — Which Galaxy tool searches a curated compound database for similar structures or substructure matches given an input molecule?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
   - Datasets: None
-- **fair-med-chem-data-q019** — Which Galaxy tool would you recommend to perform `ctb_im_rxn_maker`?
+- **fair-med-chem-data-q019** — I want to do a simple in silico synthesis step by applying a reaction template to an input set of reagents and generating product structures. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q020** — Which Galaxy tool would you recommend to perform `ctb_im_rxn_maker`?
+- **fair-med-chem-data-q020** — I’m exploring chemical space and want to virtually generate products from a small-molecule reagent list using a chosen reaction type. Which Galaxy tool can build the products?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q021** — Which Galaxy tool creates reactions with IM Rxn Maker?
+- **fair-med-chem-data-q021** — I need to apply a selected reaction to an input compound list plus a reagent list and output the resulting product structures. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q022** — Which Galaxy tool would you recommend to perform `ctb_im_rxn_maker`?
+- **fair-med-chem-data-q022** — Which Galaxy tool takes reactant structures and a reaction choice and generates product molecules as output?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_rxn_maker/ctb_im_rxn_maker/1.1.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q023** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **fair-med-chem-data-q023** — I want a clean 2D structure figure for my compounds for reporting and quick inspection. Which Galaxy tool should I use to generate 2D depictions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q024** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **fair-med-chem-data-q024** — I’m curating a compound list and want to visually verify structures by generating 2D drawings for each molecule. Which Galaxy tool can produce those depictions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q025** — Which Galaxy tool renders compounds using Open Babel SVG depiction?
+- **fair-med-chem-data-q025** — I need to generate 2D depictions of molecules and output them as an SVG image. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q026** — Which Galaxy tool would you recommend to perform `openbabel_svg_depiction`?
+- **fair-med-chem-data-q026** — Which Galaxy tool renders small-molecule structures into an SVG depiction for visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy1
   - Datasets: None
-- **fair-med-chem-data-q027** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **fair-med-chem-data-q027** — I’m prioritizing drug candidates and want a single drug-likeness score (QED) computed for each compound in my list. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q028** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **fair-med-chem-data-q028** — To rank molecules by overall drug-likeness, I want to compute QED values from my compound structures. Which Galaxy tool can calculate that score?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q029** — Which Galaxy tool runs the Silicos-IT QED calculation?
+- **fair-med-chem-data-q029** — I need to compute QED drug-likeness scores for a set of compounds and output the scores in a table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q030** — Which Galaxy tool would you recommend to perform `ctb_silicos_qed`?
+- **fair-med-chem-data-q030** — Which Galaxy tool calculates a QED score for each input molecule to summarize drug-likeness?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/qed/ctb_silicos_qed/2021.03.4+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q031** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **fair-med-chem-data-q031** — I have molecular dynamics trajectory data from one package and need to convert it to a different trajectory format so my analysis tools can read it. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q032** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **fair-med-chem-data-q032** — I’m organizing molecular dynamics results and want to standardize trajectory files by converting between common trajectory formats. Which Galaxy tool can do that conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q033** — Which Galaxy tool runs md_converter for descriptor format conversion?
+- **fair-med-chem-data-q033** — I need to convert molecular dynamics trajectory files between common formats (for example XTC, TRR, DCD, NetCDF). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q034** — Which Galaxy tool would you recommend to perform `md_converter`?
+- **fair-med-chem-data-q034** — Which Galaxy tool converts one molecular dynamics trajectory format into another and outputs the converted trajectory?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.6+galaxy0
   - Datasets: None
-- **fair-med-chem-data-q035** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **fair-med-chem-data-q035** — I want to inspect a protein–ligand structure and need to download a structure entry from the Protein Data Bank into my Galaxy history. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **fair-med-chem-data-q036** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **fair-med-chem-data-q036** — I’m collecting reference 3D structures for docking or visualization and want to fetch them from the Protein Data Bank by identifier. Which Galaxy tool can retrieve them?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **fair-med-chem-data-q037** — Which Galaxy tool retrieves PDB entries?
+- **fair-med-chem-data-q037** — I need to retrieve a Protein Data Bank structure file given a PDB identifier and store it in Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
-- **fair-med-chem-data-q038** — Which Galaxy tool would you recommend to perform `get_pdb`?
+- **fair-med-chem-data-q038** — Which Galaxy tool downloads PDB structure entries by ID and outputs the structure file for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0
   - Datasets: None
 
@@ -8336,76 +8336,76 @@ Questions:
 - Datasets (1): 10572227
 
 Questions:
-- **genome-annotation-amr-gene-detection-q011** — Which Galaxy tool would you recommend to perform `staramr_search`?
+- **genome-annotation-amr-gene-detection-q011** — I have a bacterial genome assembly and want to screen it for antimicrobial resistance genes and associated hits to interpret resistance potential. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.11.0+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q012** — Which Galaxy tool would you recommend to perform `staramr_search`?
+- **genome-annotation-amr-gene-detection-q012** — To characterize resistance determinants in a bacterial isolate, I need an AMR gene screening step on my assembly. Which Galaxy tool can generate an AMR report?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.11.0+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q013** — Which Galaxy tool runs StarAMR for AMR gene detection?
+- **genome-annotation-amr-gene-detection-q013** — I need to scan a bacterial genome assembly against AMR gene databases and output an AMR hits report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.11.0+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q014** — Which Galaxy tool would you recommend to perform `staramr_search`?
+- **genome-annotation-amr-gene-detection-q014** — Which Galaxy tool searches an assembly for known antimicrobial resistance determinants and reports matching genes?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.11.0+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q015** — Which Galaxy tool would you recommend to perform `bakta`?
+- **genome-annotation-amr-gene-detection-q015** — I want to annotate a bacterial genome assembly so I can interpret genes around resistance loci and get a structured annotation output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q016** — Which Galaxy tool would you recommend to perform `bakta`?
+- **genome-annotation-amr-gene-detection-q016** — To prepare a genome for downstream inspection, I need an automated bacterial genome annotation step that predicts genes and functional annotations. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q017** — Which Galaxy tool runs Bakta for bacterial genome annotation?
+- **genome-annotation-amr-gene-detection-q017** — I need an automated bacterial genome annotation tool that takes an assembly and outputs predicted genes and annotations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q018** — Which Galaxy tool would you recommend to perform `bakta`?
+- **genome-annotation-amr-gene-detection-q018** — Which Galaxy tool annotates a bacterial genome assembly and produces standard annotation outputs for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q019** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **genome-annotation-amr-gene-detection-q019** — To validate findings, I want to map sequencing reads back to my reference assembly and generate alignments for inspection around candidate AMR genes. Which Galaxy tool should I use for read mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q020** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **genome-annotation-amr-gene-detection-q020** — Before assessing coverage across AMR loci, I need to align my short reads to a reference genome and produce alignments. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q021** — Which Galaxy tool runs Bowtie2 for read alignment?
+- **genome-annotation-amr-gene-detection-q021** — I need to align short sequencing reads to a reference genome and output alignments for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q022** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **genome-annotation-amr-gene-detection-q022** — Which Galaxy tool performs short-read alignment to a reference genome and produces a BAM alignment dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q023** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **genome-annotation-amr-gene-detection-q023** — I have a long AMR report and want to quickly pull out lines related to a specific resistance gene family or antibiotic class. Which Galaxy tool should I use to filter by keywords?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q024** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **genome-annotation-amr-gene-detection-q024** — To summarize only the hits I care about, I want to filter a text report to keep rows matching a pattern. Which Galaxy tool can do pattern-based filtering?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q025** — Which Galaxy tool provides basic grep filtering?
+- **genome-annotation-amr-gene-detection-q025** — I need a grep-like filtering step to keep only lines that match a keyword or regular expression from a text dataset. Which Galaxy tool should I use?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q026** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **genome-annotation-amr-gene-detection-q026** — Which Galaxy tool filters a dataset by pattern matching, keeping only selected lines?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q027** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
+- **genome-annotation-amr-gene-detection-q027** — I have genome annotation content in an NCBI-style table format and need a GFF3 annotation file for downstream visualization. Which Galaxy tool should I use to convert it?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q028** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
+- **genome-annotation-amr-gene-detection-q028** — To visualize and analyze annotations consistently, I need to convert an annotation table into a GFF3 feature file. Which Galaxy tool can do that conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q029** — Which Galaxy tool runs tbl2gff3 conversion?
+- **genome-annotation-amr-gene-detection-q029** — I need to convert an NCBI annotation table into a GFF3 feature file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q030** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
+- **genome-annotation-amr-gene-detection-q030** — Which Galaxy tool converts a tabular genome annotation file into GFF3 format for downstream tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q031** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-amr-gene-detection-q031** — I want to visually inspect AMR genes and read coverage along the genome using an interactive genome browser inside Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q032** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-amr-gene-detection-q032** — To sanity-check gene models and resistance loci in context, I need to browse tracks like annotations and alignments interactively. Which Galaxy tool provides a genome browser?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q033** — Which Galaxy tool opens JBrowse for genome visualization?
+- **genome-annotation-amr-gene-detection-q033** — I need an interactive genome browser in Galaxy to visualize genomic tracks (annotations, alignments, coverage). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
-- **genome-annotation-amr-gene-detection-q034** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-amr-gene-detection-q034** — Which Galaxy tool lets me explore a genome with interactive track visualization in a browser-like view?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
 
@@ -8415,112 +8415,112 @@ Questions:
 - Datasets (1): zenodo.4406623
 
 Questions:
-- **genome-annotation-annotation-with-maker-q011** — Which Galaxy tool would you recommend to perform `maker`?
+- **genome-annotation-annotation-with-maker-q011** — I have a eukaryotic genome assembly and evidence data and want to produce gene models using an annotation pipeline that combines evidence and ab initio predictions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q012** — Which Galaxy tool would you recommend to perform `maker`?
+- **genome-annotation-annotation-with-maker-q012** — To annotate my genome assembly, I need an end-to-end gene annotation pipeline that outputs predicted gene structures and proteins. Which Galaxy tool can run that pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q013** — Which Galaxy tool runs the MAKER annotation workflow?
+- **genome-annotation-annotation-with-maker-q013** — I need to run a genome annotation pipeline that predicts gene models from an assembly and supporting evidence. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q014** — Which Galaxy tool would you recommend to perform `maker`?
+- **genome-annotation-annotation-with-maker-q014** — Which Galaxy tool takes a genome assembly plus evidence and produces predicted gene annotations as output?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q015** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-annotation-with-maker-q015** — Before annotation, I want basic assembly statistics like sequence counts, length distribution, and N50 from my genome FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q016** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-annotation-with-maker-q016** — I’m evaluating an assembly and need a quick summary of contig lengths and overall assembly metrics. Which Galaxy tool can compute those FASTA stats?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q017** — Which Galaxy tool produces FASTA statistics?
+- **genome-annotation-annotation-with-maker-q017** — I need to compute genome assembly metrics from a FASTA (for example GC content, N50, and contig length distribution) before annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q018** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-annotation-with-maker-q018** — Which Galaxy tool summarizes FASTA sequences with metrics like total length and N50?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q019** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-annotation-with-maker-q019** — After annotating or assembling a genome, I want to assess completeness using sets of conserved single-copy orthologs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q020** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-annotation-with-maker-q020** — I need an objective completeness check for my genome or predicted proteins based on conserved ortholog benchmarks. Which Galaxy tool can run that assessment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q021** — Which Galaxy tool runs BUSCO on a genome?
+- **genome-annotation-annotation-with-maker-q021** — I need a completeness benchmark report that summarizes complete, duplicated, fragmented, and missing conserved orthologs for my genome or protein set. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q022** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-annotation-with-maker-q022** — Which Galaxy tool evaluates assembly or annotation completeness using single-copy ortholog benchmarks?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q023** — Which Galaxy tool would you recommend to perform `augustus_training`?
+- **genome-annotation-annotation-with-maker-q023** — To improve ab initio gene prediction, I want to train a eukaryotic gene predictor using trusted gene models from my species. Which Galaxy tool should I use for training?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/augustus_training/augustus_training/3.5.0+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q024** — Which Galaxy tool would you recommend to perform `augustus_training`?
+- **genome-annotation-annotation-with-maker-q024** — My gene predictions look off, so I want to train the gene prediction model on species-specific annotations to improve accuracy. Which Galaxy tool can do that training?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/augustus_training/augustus_training/3.5.0+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q025** — Which Galaxy tool performs AUGUSTUS training?
+- **genome-annotation-annotation-with-maker-q025** — I need to train a eukaryotic gene prediction model on known gene structures so it performs better on my genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/augustus_training/augustus_training/3.5.0+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q026** — Which Galaxy tool would you recommend to perform `augustus_training`?
+- **genome-annotation-annotation-with-maker-q026** — Which Galaxy tool performs training for an ab initio gene predictor using an input set of gene models?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/augustus_training/augustus_training/3.5.0+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q027** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-annotation-with-maker-q027** — I have a genome annotation file and want summary statistics like gene counts, exon counts, and feature lengths to evaluate the annotation quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q028** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-annotation-with-maker-q028** — To compare annotation runs, I need a tool that summarizes GFF gene model features with counts and length distributions. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q029** — Which Galaxy tool runs jcvi gff stats?
+- **genome-annotation-annotation-with-maker-q029** — I need summary statistics for a GFF annotation file (feature counts and lengths). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q030** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-annotation-with-maker-q030** — Which Galaxy tool computes genome annotation statistics from a GFF file to help evaluate gene models?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q031** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-annotation-with-maker-q031** — I have gene models and want to extract transcript or coding sequences from them so I can run downstream analyses on the predicted sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q032** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-annotation-with-maker-q032** — To validate annotations, I want to generate a transcript or protein FASTA from my GFF-style gene models. Which Galaxy tool can extract those sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q033** — Which Galaxy tool runs gffread on annotation files?
+- **genome-annotation-annotation-with-maker-q033** — I need to generate transcript and coding sequences from my GFF gene models using the reference genome, so I can run downstream functional analyses. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q034** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-annotation-with-maker-q034** — Which Galaxy tool converts gene annotations into transcript sequences or protein sequences for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q035** — Which Galaxy tool would you recommend to perform `snap_training`?
+- **genome-annotation-annotation-with-maker-q035** — I want to improve ab initio prediction by training a gene predictor using a set of curated gene models for my organism. Which Galaxy tool should I use for this training step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snap_training/snap_training/2013_11_29+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q036** — Which Galaxy tool would you recommend to perform `snap_training`?
+- **genome-annotation-annotation-with-maker-q036** — My genome annotation pipeline needs species-specific training for an ab initio predictor. Which Galaxy tool can train a gene predictor from known gene structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snap_training/snap_training/2013_11_29+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q037** — Which Galaxy tool performs SNAP training?
+- **genome-annotation-annotation-with-maker-q037** — I need to train an ab initio gene predictor using a reference set of gene models. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snap_training/snap_training/2013_11_29+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q038** — Which Galaxy tool would you recommend to perform `snap_training`?
+- **genome-annotation-annotation-with-maker-q038** — Which Galaxy tool performs training for a gene prediction model based on known gene structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snap_training/snap_training/2013_11_29+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q039** — Which Galaxy tool would you recommend to perform `maker_map_ids`?
+- **genome-annotation-annotation-with-maker-q039** — I want stable, consistent gene IDs in my annotation output so I can compare versions and track features across analyses. Which Galaxy tool should I use to map or rewrite IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q040** — Which Galaxy tool would you recommend to perform `maker_map_ids`?
+- **genome-annotation-annotation-with-maker-q040** — My annotation output has placeholder IDs and I need to assign consistent identifiers throughout the GFF so downstream steps and browsers show clean names. Which Galaxy tool can remap IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q041** — Which Galaxy tool runs maker_map_ids?
+- **genome-annotation-annotation-with-maker-q041** — I need to rewrite or map feature IDs in a GFF annotation file to produce consistent identifiers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q042** — Which Galaxy tool would you recommend to perform `maker_map_ids`?
+- **genome-annotation-annotation-with-maker-q042** — Which Galaxy tool remaps annotation feature IDs so the output GFF has stable, consistent gene and transcript IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q043** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-maker-q043** — I want to inspect predicted gene models on my genome and visually compare them with evidence tracks using an interactive genome browser. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q044** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-maker-q044** — To manually review suspicious gene models, I need a genome browser that can display my annotation and evidence tracks interactively. Which Galaxy tool provides that view?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q045** — Which Galaxy tool opens JBrowse for annotation viewing?
+- **genome-annotation-annotation-with-maker-q045** — I need an interactive genome browser in Galaxy to compare my predicted gene models with evidence tracks (like RNA-seq alignments) across loci. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-q046** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-maker-q046** — Which Galaxy tool lets me browse a genome with interactive visualization of my annotations and alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
 
@@ -8530,88 +8530,88 @@ Questions:
 - Datasets (1): zenodo.4406623
 
 Questions:
-- **genome-annotation-annotation-with-maker-short-q011** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-annotation-with-maker-short-q011** — Before running a quick annotation workflow, I want basic assembly statistics (contig counts, lengths, N50) from my genome FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q012** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-annotation-with-maker-short-q012** — I need a quick summary of my genome assembly to sanity-check it before annotation. Which Galaxy tool can compute FASTA sequence statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q013** — Which Galaxy tool produces FASTA statistics for assemblies?
+- **genome-annotation-annotation-with-maker-short-q013** — I need to compute basic statistics for a genome assembly FASTA (total length, N50, contig counts). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q014** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-annotation-with-maker-short-q014** — Which Galaxy tool summarizes FASTA sequences with assembly metrics like N50 and length distribution?
   - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q015** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-annotation-with-maker-short-q015** — I want to check how complete my genome or predicted proteins are using conserved single-copy orthologs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q016** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-annotation-with-maker-short-q016** — To compare assemblies, I need a completeness assessment based on conserved ortholog benchmarks. Which Galaxy tool can run that evaluation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q017** — Which Galaxy tool runs BUSCO for completeness assessment?
+- **genome-annotation-annotation-with-maker-short-q017** — I need an objective completeness score for my genome annotation based on conserved single-copy orthologs so I can compare runs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q018** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-annotation-with-maker-short-q018** — Which Galaxy tool reports completeness scores based on single-copy ortholog sets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q019** — Which Galaxy tool would you recommend to perform `maker`?
+- **genome-annotation-annotation-with-maker-short-q019** — I have a genome assembly and want to generate gene models using an annotation pipeline that integrates evidence and ab initio predictions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q020** — Which Galaxy tool would you recommend to perform `maker`?
+- **genome-annotation-annotation-with-maker-short-q020** — To produce an initial gene annotation for my genome, I need a pipeline that outputs predicted genes and proteins. Which Galaxy tool can run that workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q021** — Which Galaxy tool runs the MAKER pipeline?
+- **genome-annotation-annotation-with-maker-short-q021** — I need to run a genome annotation pipeline that produces predicted gene models from an assembly and evidence. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q022** — Which Galaxy tool would you recommend to perform `maker`?
+- **genome-annotation-annotation-with-maker-short-q022** — Which Galaxy tool predicts gene structures from a genome assembly and outputs an annotation file for downstream use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.11+galaxy2
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q023** — Which Galaxy tool would you recommend to perform `maker_map_ids`?
+- **genome-annotation-annotation-with-maker-short-q023** — I want consistent gene and transcript IDs in my annotation output so it is easier to track features and visualize them. Which Galaxy tool should I use to remap IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q024** — Which Galaxy tool would you recommend to perform `maker_map_ids`?
+- **genome-annotation-annotation-with-maker-short-q024** — My annotation GFF contains messy or unstable feature IDs and I need to rewrite them into consistent identifiers. Which Galaxy tool can remap the IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q025** — Which Galaxy tool runs maker_map_ids?
+- **genome-annotation-annotation-with-maker-short-q025** — I need to remap feature IDs in a GFF annotation file to produce consistent gene and transcript identifiers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q026** — Which Galaxy tool would you recommend to perform `maker_map_ids`?
+- **genome-annotation-annotation-with-maker-short-q026** — Which Galaxy tool rewrites IDs in a genome annotation file so the output has stable feature identifiers?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/maker_map_ids/maker_map_ids/2.31.11
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q027** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-annotation-with-maker-short-q027** — I have an annotation file and want summary statistics (gene counts, exon counts, feature length summaries) to evaluate the gene models. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q028** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-annotation-with-maker-short-q028** — To compare different annotation outputs, I need a tool that summarizes GFF features and produces useful stats. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q029** — Which Galaxy tool runs jcvi gff stats?
+- **genome-annotation-annotation-with-maker-short-q029** — I need summary statistics for a GFF annotation file, including feature counts and length distributions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q030** — Which Galaxy tool would you recommend to perform `jcvi_gff_stats`?
+- **genome-annotation-annotation-with-maker-short-q030** — Which Galaxy tool computes annotation statistics from a GFF file for QC and comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q031** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-annotation-with-maker-short-q031** — I want to extract transcript or coding sequences from my gene annotations so I can analyze the predicted sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q032** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-annotation-with-maker-short-q032** — To validate gene models, I need to derive transcript or protein sequences from my annotation file and genome sequence. Which Galaxy tool can extract them?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q033** — Which Galaxy tool runs gffread for annotation processing?
+- **genome-annotation-annotation-with-maker-short-q033** — I want a FASTA of predicted transcripts from my annotation file so I can inspect or BLAST a few candidates. Which Galaxy tool should I use to extract transcripts?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q034** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-annotation-with-maker-short-q034** — Which Galaxy tool converts gene annotations into transcript sequences for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q035** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-maker-short-q035** — I want to visually inspect the predicted annotations on my genome and compare tracks interactively in a genome browser. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q036** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-maker-short-q036** — To manually review gene models and evidence tracks, I need an interactive genome browser view inside Galaxy. Which Galaxy tool provides that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q037** — Which Galaxy tool opens JBrowse for genome visualization?
+- **genome-annotation-annotation-with-maker-short-q037** — I need a quick way to browse a few suspicious loci and view my annotation track alongside the reference sequence in an interactive genome browser. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
-- **genome-annotation-annotation-with-maker-short-q038** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-maker-short-q038** — Which Galaxy tool lets me browse a genome with interactive track visualization for my annotation results?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.4406623
 
@@ -8621,28 +8621,28 @@ Questions:
 - Datasets (1): zenodo.1156405
 
 Questions:
-- **genome-annotation-annotation-with-prokka-q011** — Which Galaxy tool would you recommend to perform `prokka`?
+- **genome-annotation-annotation-with-prokka-q011** — I have a bacterial genome assembly and want a quick functional annotation (genes, proteins, feature tables) for downstream interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q012** — Which Galaxy tool would you recommend to perform `prokka`?
+- **genome-annotation-annotation-with-prokka-q012** — To interpret a bacterial isolate, I need an automated genome annotation step that predicts genes and assigns functions. Which Galaxy tool can annotate the assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q013** — Which Galaxy tool performs rapid prokaryotic genome annotation?
+- **genome-annotation-annotation-with-prokka-q013** — I need to annotate a bacterial genome assembly and output standard gene and protein annotations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q014** — Which Galaxy tool would you recommend to perform `prokka`?
+- **genome-annotation-annotation-with-prokka-q014** — Which Galaxy tool performs rapid bacterial genome annotation from an assembly and produces an annotation file?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q015** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-prokka-q015** — I want to browse my bacterial genome annotation alongside other tracks to inspect gene calls interactively. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q016** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-prokka-q016** — To sanity-check annotated genes in genomic context, I need a genome browser view of my annotation and sequence. Which Galaxy tool provides that browser?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q017** — Which Galaxy tool provides an interactive genome browser for annotations?
+- **genome-annotation-annotation-with-prokka-q017** — I want to browse my bacterial genome annotation and zoom in on specific genes to inspect features in context. Which Galaxy tool provides an interactive genome browser for this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.1156405
-- **genome-annotation-annotation-with-prokka-q018** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-annotation-with-prokka-q018** — Which Galaxy tool lets me explore a genome assembly with interactive track visualization of annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.1156405
 
@@ -8652,46 +8652,46 @@ Questions:
 - Datasets (1): 4889110
 
 Questions:
-- **genome-annotation-apollo-q011** — Which Galaxy tool would you recommend to perform `create_account`?
+- **genome-annotation-apollo-q011** — I want to collaborate on manual genome annotation and need to create a user account on a shared annotation server from within Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q012** — Which Galaxy tool would you recommend to perform `create_account`?
+- **genome-annotation-apollo-q012** — To start curating gene models collaboratively, I need to register a new user account on our genome annotation server via Galaxy. Which tool can create that account?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q013** — Which Galaxy tool creates Apollo accounts?
+- **genome-annotation-apollo-q013** — I need to create a user account on a genome annotation server using Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q014** — Which Galaxy tool would you recommend to perform `create_account`?
+- **genome-annotation-apollo-q014** — Which Galaxy tool can register a new user on a collaborative genome annotation server?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q015** — Which Galaxy tool would you recommend to perform `list_organism`?
+- **genome-annotation-apollo-q015** — I have access to a collaborative genome annotation server and want to see which genomes or organisms are available for annotation. Which Galaxy tool should I use to list them?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q016** — Which Galaxy tool would you recommend to perform `list_organism`?
+- **genome-annotation-apollo-q016** — Before starting curation, I need to find the organism entry I should work on in our annotation server. Which Galaxy tool can list available organisms?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q017** — Which Galaxy tool runs apollo_list_organism?
+- **genome-annotation-apollo-q017** — I need to list the available organisms or genomes on a genome annotation server from Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q018** — Which Galaxy tool would you recommend to perform `list_organism`?
+- **genome-annotation-apollo-q018** — Which Galaxy tool queries an annotation server and returns the list of available organism entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
   - Datasets: 4889110
-- **genome-annotation-apollo-q019** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-apollo-q019** — I want to inspect gene models and evidence tracks interactively in a genome browser while doing manual curation. Which Galaxy tool should I use for genome browsing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 4889110
-- **genome-annotation-apollo-q020** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-apollo-q020** — To support collaborative annotation, I need an interactive genome browser view of my tracks and annotations inside Galaxy. Which tool provides that browser?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 4889110
-- **genome-annotation-apollo-q021** — Which Galaxy tool opens JBrowse for genome visualization?
+- **genome-annotation-apollo-q021** — I need an interactive genome browser in Galaxy to visualize tracks and annotations during curation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 4889110
-- **genome-annotation-apollo-q022** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-apollo-q022** — Which Galaxy tool lets me explore genomic tracks in a browser-like interactive viewer?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 4889110
-- **genome-annotation-apollo-q023** — Which Galaxy tool would you recommend to perform `create_or_update`?
+- **genome-annotation-apollo-q023** — I need to create a new organism entry (or update an existing one) on our collaborative genome annotation server so the team can start annotating. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q024** — Which Galaxy tool would you recommend to perform `create_or_update`?
+- **genome-annotation-apollo-q024** — To set up a genome for collaborative annotation, I want to create or update an organism record on the annotation server from within Galaxy. Which tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 4889110
 - **genome-annotation-apollo-q025** — Which Galaxy tool runs apollo_create_or_update?

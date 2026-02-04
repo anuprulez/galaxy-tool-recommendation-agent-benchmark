@@ -335,6 +335,19 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 2401 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `wig_to_bigWig`, `cat1`).
 
+## Batch A0018 (2551–2700)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 2551–2700 (evolution: MTB transmission utilities; FAIR: medicinal chemistry data management; genome annotation: AMR detection + multiple annotation workflows + collaborative annotation server utilities)
+- Summary:
+  - Reviewed the entire batch **line-by-line** and rewrote queries to remove tool leakage/backticks and template phrasing, replacing them with intent-specific Galaxy-user questions.
+  - Preserved existing `metadata.query_type` labels (did not force an exact science-first/tool-first split); rewrites were kept consistent with the labeled style.
+  - Fixed widespread `metadata.tool_focus` version drift (where `tool_focus` was not in `tools[]`) by aligning it to `tools[0]` when the drift was version-only.
+  - Confirmed multi-tool items retain explicit `metadata.ground_truth_alternatives=true` + note (integrity check only; no systematic alternatives expansion in this rewrite batch).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 2551 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Grep1`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
