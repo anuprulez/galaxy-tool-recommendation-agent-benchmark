@@ -8694,22 +8694,22 @@ Questions:
 - **genome-annotation-apollo-q024** — To set up a genome for collaborative annotation, I want to create or update an organism record on the annotation server from within Galaxy. Which tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q025** — Which Galaxy tool runs apollo_create_or_update?
+- **genome-annotation-apollo-q025** — I have gene models in GFF3 and want to publish them into our collaborative genome annotation workspace so they become editable features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q026** — Which Galaxy tool would you recommend to perform `create_or_update`?
+- **genome-annotation-apollo-q026** — In Galaxy I need to synchronize a revised GFF3 with an existing annotation project by creating new features and updating matching ones. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q027** — Which Galaxy tool would you recommend to perform `iframe`?
+- **genome-annotation-apollo-q027** — I want to do interactive manual genome annotation and would like Galaxy to open the annotation editor inside the Galaxy interface for my project. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q028** — Which Galaxy tool would you recommend to perform `iframe`?
+- **genome-annotation-apollo-q028** — I am curating gene models and need a way to launch the annotation web interface from Galaxy so it stays linked to my analysis. What Galaxy tool provides an embedded editor view?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q029** — Which Galaxy tool provides the Apollo iframe view?
+- **genome-annotation-apollo-q029** — Which Galaxy tool can show an external genome annotation editor within Galaxy in an embedded panel?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 4889110
-- **genome-annotation-apollo-q030** — Which Galaxy tool would you recommend to perform `iframe`?
+- **genome-annotation-apollo-q030** — In a workflow I need a step that opens an embedded web view for a genome annotation project so curators can edit features. Which Galaxy tool is that step?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 4889110
 
@@ -8719,40 +8719,40 @@ Questions:
 - Datasets (1): 6920962
 
 Questions:
-- **genome-annotation-apollo-euk-q011** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-apollo-euk-q011** — I have a genome assembly plus a GFF3 of gene models and I want to visually inspect the annotations along the reference sequence in an interactive genome browser. Which Galaxy tool can I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q012** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-apollo-euk-q012** — I want to explore evidence tracks for gene prediction like RNA read coverage and predicted features on the genome to spot obvious annotation problems. What Galaxy tool can open an interactive genome browser for this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q013** — Which Galaxy tool provides a genome browser view for annotations?
+- **genome-annotation-apollo-euk-q013** — Which Galaxy tool opens an interactive genome browser so I can view my reference sequence together with annotation tracks from GFF3?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q014** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-apollo-euk-q014** — In Galaxy I need a tool that lets me browse a genome with multiple tracks such as alignments and gene models. Which tool should I choose?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q015** — Which Galaxy tool would you recommend to perform `create_or_update`?
+- **genome-annotation-apollo-euk-q015** — I am curating gene structures and I want my updated annotations from a GFF3 to be reflected in the shared annotation project. Which Galaxy tool can send those updates to the curation platform?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q016** — Which Galaxy tool would you recommend to perform `create_or_update`?
+- **genome-annotation-apollo-euk-q016** — After reviewing evidence tracks I produced a corrected GFF3 and want to apply it as updates to our team annotation project. Which Galaxy tool should I use to publish the changes?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q017** — Which Galaxy tool creates or updates annotations in Apollo?
+- **genome-annotation-apollo-euk-q017** — Which Galaxy tool can upload or update genome feature annotations in a remote annotation project using a GFF3 file as input?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q018** — Which Galaxy tool would you recommend to perform `create_or_update`?
+- **genome-annotation-apollo-euk-q018** — I have an existing annotation project and a new GFF3 export that should overwrite outdated gene models. Which Galaxy tool is appropriate to apply those updates?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q019** — Which Galaxy tool would you recommend to perform `iframe`?
+- **genome-annotation-apollo-euk-q019** — I need to inspect and edit gene features interactively and want to launch the curation user interface directly from Galaxy. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q020** — Which Galaxy tool would you recommend to perform `iframe`?
+- **genome-annotation-apollo-euk-q020** — For collaborative annotation I want to open the genome curation interface from Galaxy for a selected genome so I can make manual edits. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q021** — Which Galaxy tool opens Apollo in an embedded view?
+- **genome-annotation-apollo-euk-q021** — What Galaxy tool provides an embedded browser window for an annotation project so I can curate genome features without leaving Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 6920962
-- **genome-annotation-apollo-euk-q022** — Which Galaxy tool would you recommend to perform `iframe`?
+- **genome-annotation-apollo-euk-q022** — Which Galaxy tool should I use to open an in Galaxy embedded view of a genome annotation workspace for interactive curation?
   - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 6920962
 
@@ -8762,76 +8762,76 @@ Questions:
 - Datasets (1): 1
 
 Questions:
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q011** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q011** — I have a tabular file with many columns describing genomes and I want to extract just the columns I need to build an analysis table. Which Galaxy tool can do simple column selection?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q012** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q012** — My dataset is a large TSV and I only need a few fields like genome name and assembly length for downstream steps. What Galaxy tool can keep selected columns and drop the rest?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q013** — Which Galaxy tool cuts selected columns from a table?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q013** — Which Galaxy tool should I use to cut out specific columns from a tabular file while keeping the row order the same?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q014** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q014** — In Galaxy I need a tool that can extract a subset of columns from a TSV to create a simplified table. Which tool is best for that?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q015** — Which Galaxy tool would you recommend to perform `cat1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q015** — I have several text tables from different genomes and I want to combine them into one continuous table for downstream analysis. Which Galaxy tool can concatenate datasets?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q016** — Which Galaxy tool would you recommend to perform `cat1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q016** — I generated multiple small TSV files and need to stitch them together into a single file without changing the content. What Galaxy tool can append files together?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q017** — Which Galaxy tool concatenates datasets (cat)?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q017** — Which Galaxy tool can join multiple plain text datasets into one combined file in the order I provide them?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q018** — Which Galaxy tool would you recommend to perform `cat1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q018** — In Galaxy I need to merge several tabular outputs into one dataset by simple concatenation. Which tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q019** — Which Galaxy tool would you recommend to perform `sort1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q019** — I have a TSV describing genomes and need it sorted consistently so later steps produce reproducible results. Which Galaxy tool can sort tabular rows by one or more columns?
   - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q020** — Which Galaxy tool would you recommend to perform `sort1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q020** — My table is unsorted and I want to order it by genome identifier so duplicates and grouping are easier. What Galaxy tool can sort a tabular dataset?
   - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q021** — Which Galaxy tool sorts a dataset by column values?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q021** — Which Galaxy tool should I run to sort a TSV file on a chosen column and output a sorted table?
   - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q022** — Which Galaxy tool would you recommend to perform `sort1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q022** — In a Galaxy workflow I need a step that sorts rows of a tabular file by a key column. Which tool handles that?
   - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q023** — Which Galaxy tool would you recommend to perform `bg_uniq`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q023** — I have a list of genome identifiers with repeated entries and I want a unique list for downstream downloads. Which Galaxy tool can remove duplicate lines from a text file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q024** — Which Galaxy tool would you recommend to perform `bg_uniq`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q024** — My table contains duplicate rows and I want to deduplicate it so each genome appears once. What Galaxy tool can keep only unique lines?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q025** — Which Galaxy tool removes duplicate lines from a file?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q025** — Which Galaxy tool can filter a text dataset down to unique entries and optionally report how many duplicates were removed?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q026** — Which Galaxy tool would you recommend to perform `bg_uniq`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q026** — In Galaxy which tool should I use to remove duplicated records from a list and output a non redundant list?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q027** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q027** — I have a text file where each line starts with the same prefix and I need to strip that prefix to get clean identifiers. Which Galaxy tool can remove leading characters from every line?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q028** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q028** — My identifiers have a fixed header string at the start of each line and I want to trim it off before using them downstream. What Galaxy tool can delete a constant prefix?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q029** — Which Galaxy tool trims the beginning of a file?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q029** — Which Galaxy tool should I use to remove a specified number of characters from the beginning of each line in a text file?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q030** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q030** — In Galaxy I need a simple text processing step that strips a leading prefix from all lines of a dataset. Which tool can do that?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q031** — Which Galaxy tool would you recommend to perform `datasets_download_genome`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q031** — I want to bring a reference genome assembly and its annotation files into Galaxy by fetching them from a public genome database instead of uploading manually. Which Galaxy tool can download a genome package for me?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_genome/18.13.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q032** — Which Galaxy tool would you recommend to perform `datasets_download_genome`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q032** — I need to download genome sequence and annotation resources from a public repository directly within Galaxy so I can build a comparative genomics dataset. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_genome/18.13.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q033** — Which Galaxy tool downloads genomes via NCBI Datasets?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q033** — Which Galaxy tool can retrieve a genome assembly plus associated annotation files from an external genome database and add them to my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_genome/18.13.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q034** — Which Galaxy tool would you recommend to perform `datasets_download_genome`?
+- **genome-annotation-bacterial-comparative-genomics-dataset-construction-q034** — In Galaxy what tool lets me fetch reference genomes from a public database and output the assembly and annotation datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_datasets/datasets_download_genome/18.13.0+galaxy0
   - Datasets: 1
 
@@ -8841,112 +8841,112 @@ Questions:
 - Datasets (1): 10572227
 
 Questions:
-- **genome-annotation-bacterial-genome-annotation-q011** — Which Galaxy tool would you recommend to perform `isescan`?
+- **genome-annotation-bacterial-genome-annotation-q011** — I have a bacterial genome assembly and want to identify insertion sequence elements and get their coordinates on the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/isescan/isescan/1.7.3+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q012** — Which Galaxy tool would you recommend to perform `isescan`?
+- **genome-annotation-bacterial-genome-annotation-q012** — I want to scan a bacterial genome for mobile element insertion sequences and produce a report of predicted IS locations. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/isescan/isescan/1.7.3+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q013** — Which Galaxy tool runs ISEScan for insertion sequence detection?
+- **genome-annotation-bacterial-genome-annotation-q013** — Which Galaxy tool can detect insertion sequence elements in a bacterial genome assembly and output predicted regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/isescan/isescan/1.7.3+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q014** — Which Galaxy tool would you recommend to perform `isescan`?
+- **genome-annotation-bacterial-genome-annotation-q014** — In Galaxy I need a tool that searches a bacterial genome for insertion sequences and returns their annotations. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/isescan/isescan/1.7.3+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q015** — Which Galaxy tool would you recommend to perform `plasmidfinder`?
+- **genome-annotation-bacterial-genome-annotation-q015** — I assembled a bacterial genome and want to know whether it contains plasmid replicon markers that suggest plasmid content. Which Galaxy tool should I use to screen for plasmid replicons?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasmidfinder/plasmidfinder/2.1.6+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q016** — Which Galaxy tool would you recommend to perform `plasmidfinder`?
+- **genome-annotation-bacterial-genome-annotation-q016** — I have a bacterial assembly and would like a report of likely plasmid replicons present in the sequence. What Galaxy tool can identify plasmid associated replicons?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasmidfinder/plasmidfinder/2.1.6+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q017** — Which Galaxy tool runs PlasmidFinder?
+- **genome-annotation-bacterial-genome-annotation-q017** — Which Galaxy tool can analyze a bacterial genome assembly to detect plasmid replicon sequences and summarize the hits?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasmidfinder/plasmidfinder/2.1.6+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q018** — Which Galaxy tool would you recommend to perform `plasmidfinder`?
+- **genome-annotation-bacterial-genome-annotation-q018** — In Galaxy what tool should I run to screen an assembly for plasmid replicons and get a table of detected replicon types?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasmidfinder/plasmidfinder/2.1.6+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q019** — Which Galaxy tool would you recommend to perform `integron_finder`?
+- **genome-annotation-bacterial-genome-annotation-q019** — I have a bacterial genome assembly and want to identify integrons and their associated gene cassettes on the genome. Which Galaxy tool can find integron regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/integron_finder/integron_finder/2.0.5+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q020** — Which Galaxy tool would you recommend to perform `integron_finder`?
+- **genome-annotation-bacterial-genome-annotation-q020** — I want to locate integron structures in a bacterial genome and export coordinates and annotations for downstream analysis. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/integron_finder/integron_finder/2.0.5+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q021** — Which Galaxy tool runs Integron Finder?
+- **genome-annotation-bacterial-genome-annotation-q021** — Which Galaxy tool can detect integrons in a bacterial assembly and report integrase and cassette features?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/integron_finder/integron_finder/2.0.5+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q022** — Which Galaxy tool would you recommend to perform `integron_finder`?
+- **genome-annotation-bacterial-genome-annotation-q022** — In Galaxy I need a tool that scans a bacterial genome for integron regions and outputs a summary plus feature coordinates. Which tool is suitable?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/integron_finder/integron_finder/2.0.5+galaxy0
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q023** — Which Galaxy tool would you recommend to perform `bakta`?
+- **genome-annotation-bacterial-genome-annotation-q023** — I have a bacterial genome assembly and want to produce a complete functional genome annotation with gene calls and protein feature annotations. Which Galaxy tool should I use for bacterial genome annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q024** — Which Galaxy tool would you recommend to perform `bakta`?
+- **genome-annotation-bacterial-genome-annotation-q024** — I need to annotate a bacterial genome from an assembly FASTA and get standard outputs like GFF3 and protein sequences for downstream analysis. What Galaxy tool can generate these annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q025** — Which Galaxy tool runs Bakta for bacterial annotation?
+- **genome-annotation-bacterial-genome-annotation-q025** — Which Galaxy tool can run an end to end bacterial genome annotation and output gene features plus predicted proteins?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q026** — Which Galaxy tool would you recommend to perform `bakta`?
+- **genome-annotation-bacterial-genome-annotation-q026** — In Galaxy what tool should I choose to annotate a bacterial assembly and produce common annotation files for later steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bakta/bakta/1.9.4+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q027** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **genome-annotation-bacterial-genome-annotation-q027** — I have multiple genomes and their annotation outputs and I want to organize them as a dataset collection so downstream tools can run per genome. Which Galaxy tool can build a collection from my datasets?
   - Tools: Grouping1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q028** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **genome-annotation-bacterial-genome-annotation-q028** — I am preparing many related datasets and need to group them into a collection to iterate through them in a workflow. What Galaxy tool helps create dataset collections?
   - Tools: Grouping1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q029** — Which Galaxy tool groups datasets into collections?
+- **genome-annotation-bacterial-genome-annotation-q029** — Which Galaxy tool should I use to group several datasets into a collection for batch processing in a workflow?
   - Tools: Grouping1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q030** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **genome-annotation-bacterial-genome-annotation-q030** — In Galaxy I want to turn a list of datasets into a collection so I can map tools over them. What tool do I use for grouping?
   - Tools: Grouping1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q031** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
+- **genome-annotation-bacterial-genome-annotation-q031** — I have a TSV where one column contains placeholder values and I need to replace them with standardized labels across the whole file. Which Galaxy tool can replace values in a specific column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q032** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
+- **genome-annotation-bacterial-genome-annotation-q032** — My tabular annotation table needs a find and replace operation restricted to one column so other fields stay unchanged. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q033** — Which Galaxy tool replaces values in a specific column?
+- **genome-annotation-bacterial-genome-annotation-q033** — Which Galaxy tool can do a column specific substitution in a TSV for example renaming values while leaving the other columns untouched?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q034** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
+- **genome-annotation-bacterial-genome-annotation-q034** — In Galaxy I need a text tool that replaces matching entries in one chosen column of a tabular dataset. Which tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q035** — Which Galaxy tool would you recommend to perform `tp_tail_tool`?
+- **genome-annotation-bacterial-genome-annotation-q035** — I have a long log or report file and I only want to quickly look at the last part to confirm the run completed. Which Galaxy tool can extract the final lines of a text file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q036** — Which Galaxy tool would you recommend to perform `tp_tail_tool`?
+- **genome-annotation-bacterial-genome-annotation-q036** — I need the last few lines of a large text dataset to check summary statistics without opening the whole file. What Galaxy tool can output the end of a file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q037** — Which Galaxy tool returns the last lines of a text file?
+- **genome-annotation-bacterial-genome-annotation-q037** — Which Galaxy tool should I use to return the last N lines of a text file as a new dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q038** — Which Galaxy tool would you recommend to perform `tp_tail_tool`?
+- **genome-annotation-bacterial-genome-annotation-q038** — In Galaxy what tool can I run to grab only the tail of a text report for quick inspection?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q039** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
+- **genome-annotation-bacterial-genome-annotation-q039** — I have a feature table describing genes and proteins and I want to convert it into a GFF3 annotation file that can be used by downstream tools. Which Galaxy tool can convert a feature table to GFF3?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q040** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
+- **genome-annotation-bacterial-genome-annotation-q040** — My annotations are in a tabular feature table format and I need a standard GFF3 output for visualization and comparison. What Galaxy tool should I use for that conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q041** — Which Galaxy tool runs tbl2gff3 conversion?
+- **genome-annotation-bacterial-genome-annotation-q041** — Which Galaxy tool can take a feature table and produce a valid GFF3 file with gene and CDS features?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q042** — Which Galaxy tool would you recommend to perform `tbl2gff3`?
+- **genome-annotation-bacterial-genome-annotation-q042** — In Galaxy I need a conversion step from a genome feature table to GFF3 so I can load it into other analysis tools. Which tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbl2gff3/tbl2gff3/1.2
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q043** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-bacterial-genome-annotation-q043** — I have a bacterial genome assembly and a set of predicted genes and want to sanity check them by looking at features on the reference sequence in a genome track viewer. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q044** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-bacterial-genome-annotation-q044** — I want to visually compare a bacterial gene annotation file with supporting alignments by scrolling along the genome and turning tracks on and off. What Galaxy tool can do this in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q045** — Which Galaxy tool opens JBrowse for genome viewing?
+- **genome-annotation-bacterial-genome-annotation-q045** — What Galaxy tool lets me interactively browse a genome and visualize tracks like GFF3 annotations and read alignments in a single view?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
-- **genome-annotation-bacterial-genome-annotation-q046** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-bacterial-genome-annotation-q046** — Which Galaxy tool should I run to open a genome browser view of my assembly together with one or more annotation tracks?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 10572227
 
@@ -8956,40 +8956,40 @@ Questions:
 - Datasets (1): 1
 
 Questions:
-- **genome-annotation-bacterial-genome-quality-control-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **genome-annotation-bacterial-genome-quality-control-q011** — I have a genome assembly FASTA on my computer and want to bring it into my Galaxy history for downstream analysis. Which Galaxy tool should I use to import it?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q012** — Which Galaxy tool would you recommend to perform `upload1`?
+- **genome-annotation-bacterial-genome-quality-control-q012** — I received several genome FASTA files and want to add them to Galaxy as datasets so I can run quality checks. What Galaxy tool is used for uploading local files?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q013** — Which Galaxy tool should I use to upload genome FASTA files?
+- **genome-annotation-bacterial-genome-quality-control-q013** — In Galaxy which tool should I use to upload or import genome FASTA files into my history?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q014** — Which Galaxy tool would you recommend to perform `upload1`?
+- **genome-annotation-bacterial-genome-quality-control-q014** — What is the Galaxy tool for bringing a local sequence file into my history so it can be used as input to other tools?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q015** — Which Galaxy tool would you recommend to perform `checkm2`?
+- **genome-annotation-bacterial-genome-quality-control-q015** — I have bacterial genome assemblies and want to estimate completeness and contamination to filter low quality genomes. Which Galaxy tool can compute these QC metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.1.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q016** — Which Galaxy tool would you recommend to perform `checkm2`?
+- **genome-annotation-bacterial-genome-quality-control-q016** — Before annotation I want a report of genome completeness and contamination for each assembly. What Galaxy tool should I use to assess assembly quality this way?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.1.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q017** — Which Galaxy tool computes genome completeness and contamination?
+- **genome-annotation-bacterial-genome-quality-control-q017** — Which Galaxy tool can evaluate bacterial genome assemblies and output completeness and contamination estimates?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.1.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q018** — Which Galaxy tool would you recommend to perform `checkm2`?
+- **genome-annotation-bacterial-genome-quality-control-q018** — In Galaxy what tool should I choose to compute completeness and contamination metrics for a set of genomes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm2/checkm2/1.1.0+galaxy0
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q019** — Which Galaxy tool would you recommend to perform `drep_dereplicate`?
+- **genome-annotation-bacterial-genome-quality-control-q019** — I have many similar bacterial genomes and want to pick a non redundant representative set by clustering them based on genome similarity. Which Galaxy tool can dereplicate genomes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q020** — Which Galaxy tool would you recommend to perform `drep_dereplicate`?
+- **genome-annotation-bacterial-genome-quality-control-q020** — My dataset contains near duplicate bacterial assemblies and I want to cluster them and keep one representative per cluster. What Galaxy tool can do genome dereplication?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q021** — Which Galaxy tool performs genome dereplication and clustering?
+- **genome-annotation-bacterial-genome-quality-control-q021** — Which Galaxy tool should I use to cluster genomes by similarity and output representative genomes for each cluster?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-genome-quality-control-q022** — Which Galaxy tool would you recommend to perform `drep_dereplicate`?
+- **genome-annotation-bacterial-genome-quality-control-q022** — In Galaxy I need a dereplication step that groups similar genomes and selects representatives. What tool can I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 1
 
@@ -8999,40 +8999,40 @@ Questions:
 - Datasets (1): 1
 
 Questions:
-- **genome-annotation-bacterial-pangenomics-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **genome-annotation-bacterial-pangenomics-q011** — I have multiple bacterial genome assemblies and need to import them into Galaxy to start a pangenome analysis. Which Galaxy tool should I use to add the assemblies to my history?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q012** — Which Galaxy tool would you recommend to perform `upload1`?
+- **genome-annotation-bacterial-pangenomics-q012** — I want to analyze dozens of bacterial genomes and first need a reliable way to load the assembly FASTA files into Galaxy. What tool should I use for importing these files?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q013** — Which Galaxy tool should I use to upload genome FASTA files?
+- **genome-annotation-bacterial-pangenomics-q013** — Which Galaxy tool should I run to import several genome assemblies into my history so I can process them in a workflow?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q014** — Which Galaxy tool would you recommend to perform `upload1`?
+- **genome-annotation-bacterial-pangenomics-q014** — In Galaxy what tool lets me upload multiple local FASTA assemblies so they can be grouped and analyzed downstream?
   - Tools: upload1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q015** — Which Galaxy tool would you recommend to perform `ppanggolin_all`?
+- **genome-annotation-bacterial-pangenomics-q015** — I have a collection of bacterial genomes and want to build a pangenome to get a gene presence absence matrix across strains. Which Galaxy tool can compute the pangenome?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q016** — Which Galaxy tool would you recommend to perform `ppanggolin_all`?
+- **genome-annotation-bacterial-pangenomics-q016** — I want to compare gene content across many bacterial isolates and produce outputs like core accessory gene partitions and a presence absence table. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q017** — Which Galaxy tool builds a bacterial pangenome with PPanGGOLiN?
+- **genome-annotation-bacterial-pangenomics-q017** — Which Galaxy tool can take multiple bacterial genomes and build a pangenome with gene family clustering and presence absence results?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q018** — Which Galaxy tool would you recommend to perform `ppanggolin_all`?
+- **genome-annotation-bacterial-pangenomics-q018** — In Galaxy I need a pangenome analysis step that outputs gene families and a matrix of which genomes contain each family. Which tool is appropriate?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q019** — Which Galaxy tool would you recommend to perform `ppanggolin_msa`?
+- **genome-annotation-bacterial-pangenomics-q019** — After defining pangenome gene families I want multiple sequence alignments for selected families to study sequence variation. Which Galaxy tool can generate these alignments from pangenome families?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q020** — Which Galaxy tool would you recommend to perform `ppanggolin_msa`?
+- **genome-annotation-bacterial-pangenomics-q020** — I want to align sequences within each gene family from a pangenome analysis so I can build phylogenies or detect conserved sites. What Galaxy tool should I use for the gene family alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q021** — Which Galaxy tool performs PPanGGOLiN MSA on gene families?
+- **genome-annotation-bacterial-pangenomics-q021** — Which Galaxy tool can perform multiple sequence alignment across sequences in pangenome gene families and output alignment files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q022** — Which Galaxy tool would you recommend to perform `ppanggolin_msa`?
+- **genome-annotation-bacterial-pangenomics-q022** — In Galaxy I need a step that produces MSAs for pangenome gene families so I can compare sequences within families. Which tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
   - Datasets: 1
 
@@ -9042,100 +9042,100 @@ Questions:
 - Datasets (1): 14770765
 
 Questions:
-- **genome-annotation-braker3-q011** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-braker3-q011** — I have a genome assembly and want quick summary statistics like number of contigs total length and N50 to judge assembly quality. Which Galaxy tool can compute FASTA assembly statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: 14770765
-- **genome-annotation-braker3-q012** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-braker3-q012** — Before running annotation I want basic FASTA stats such as length distribution and GC content for my assembly. What Galaxy tool should I use to summarize a FASTA file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: 14770765
-- **genome-annotation-braker3-q013** — Which Galaxy tool generates FASTA stats?
+- **genome-annotation-braker3-q013** — Which Galaxy tool can generate assembly statistics from a FASTA file including N50 and contig length summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: 14770765
-- **genome-annotation-braker3-q014** — Which Galaxy tool would you recommend to perform `fasta-stats`?
+- **genome-annotation-braker3-q014** — In Galaxy what tool should I run to compute simple descriptive statistics for a genome FASTA assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: 14770765
-- **genome-annotation-braker3-q015** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-braker3-q015** — I want to assess how complete my genome assembly is by checking for expected conserved single copy genes and getting a summary report. Which Galaxy tool can do this completeness assessment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q016** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-braker3-q016** — After assembly I need a completeness report based on conserved orthologs so I can decide if the genome is good enough for annotation. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q017** — Which Galaxy tool runs BUSCO for completeness checks?
+- **genome-annotation-braker3-q017** — Which Galaxy tool can evaluate a genome or proteome for completeness using conserved gene sets and output a summary table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q018** — Which Galaxy tool would you recommend to perform `busco`?
+- **genome-annotation-braker3-q018** — In Galaxy I need a tool that reports complete duplicated fragmented and missing conserved genes for my assembly. Which tool should I pick?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q019** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-braker3-q019** — I have a eukaryotic genome assembly and supporting evidence like RNA reads and protein sequences and I want to predict gene models using that evidence. Which Galaxy tool should I use for evidence guided gene prediction?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q020** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-braker3-q020** — I want to generate gene predictions on my genome by combining RNA alignment evidence with protein hints and produce a GFF3 of predicted genes. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q021** — Which Galaxy tool runs BRAKER3 (genouest) for gene prediction?
+- **genome-annotation-braker3-q021** — Which Galaxy tool can run an evidence guided gene prediction workflow on a genome assembly using RNA evidence and protein hints?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q022** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-braker3-q022** — In Galaxy what tool should I choose to predict genes on a genome using RNA and protein evidence and output gene models?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-braker3-q023** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-braker3-q023** — I have a GFF or GTF annotation file and want to extract transcript sequences or coding sequences from a reference genome FASTA. Which Galaxy tool can generate those FASTA outputs from the annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q024** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-braker3-q024** — I need to convert an annotation file into transcript and protein FASTA sequences for downstream evaluation. What Galaxy tool can derive sequences from a GFF or GTF plus the genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q025** — Which Galaxy tool runs gffread on GFF/GTF files?
+- **genome-annotation-braker3-q025** — Which Galaxy tool should I use to extract transcript or CDS FASTA sequences from a genome and its GFF or GTF annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q026** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-braker3-q026** — In Galaxy I need a tool that reads a GFF or GTF and outputs corresponding transcript sequences from the genome FASTA. Which tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q027** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-braker3-q027** — I predicted genes on a eukaryotic genome and now I want to inspect exon intron structures alongside RNA read evidence in a genome browser. Which Galaxy tool should I use for visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q028** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-braker3-q028** — I need to look through predicted gene models on my genome and quickly spot truncated or fragmented annotations using an interactive track viewer. What Galaxy tool can help with that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q029** — Which Galaxy tool opens JBrowse for genome viewing?
+- **genome-annotation-braker3-q029** — Which Galaxy tool provides an interactive genome browser so I can view gene predictions together with RNA alignment tracks?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q030** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-braker3-q030** — In Galaxy what tool can I use to open a track based genome viewer for my annotation and evidence files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q031** — Which Galaxy tool would you recommend to perform `rna_star`?
+- **genome-annotation-braker3-q031** — I have RNA sequencing reads and a reference genome and I want a spliced alignment suitable for gene prediction evidence. Which Galaxy tool should I use to align RNA reads to the genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q032** — Which Galaxy tool would you recommend to perform `rna_star`?
+- **genome-annotation-braker3-q032** — To support genome annotation I need to map RNA reads to my genome assembly and produce an alignment file I can use as evidence tracks. What Galaxy tool can do spliced RNA alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q033** — Which Galaxy tool runs RNA STAR alignment?
+- **genome-annotation-braker3-q033** — Which Galaxy tool should I run to align RNA reads to a reference genome with splice aware mapping and output a BAM alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q034** — Which Galaxy tool would you recommend to perform `rna_star`?
+- **genome-annotation-braker3-q034** — In Galaxy what tool can perform splice aware alignment of RNA reads to a genome so I can use the alignments as annotation evidence?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q035** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-braker3-q035** — I have a genome assembly plus RNA read evidence and I want to predict genes and produce a gene annotation file for downstream comparison. Which Galaxy tool can perform evidence supported gene prediction on eukaryotic genomes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q036** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-braker3-q036** — I want to run an automated gene prediction step that uses RNA evidence to improve exon intron boundaries and outputs predicted gene models. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q037** — Which Galaxy tool runs BRAKER3 (iuc) for annotation?
+- **genome-annotation-braker3-q037** — Which Galaxy tool can generate eukaryotic gene models from a genome assembly using RNA evidence and produce standard annotation outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q038** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-braker3-q038** — In Galaxy I need a gene prediction tool that integrates RNA evidence and returns a GFF3 of predicted genes. Which tool is suitable?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
   - Datasets: 14770765
-- **genome-annotation-braker3-q039** — Which Galaxy tool would you recommend to perform `omark`?
+- **genome-annotation-braker3-q039** — I have a predicted proteome from my gene models and want to assess annotation completeness and quality by comparing to conserved ortholog sets and getting a summary report. Which Galaxy tool can do this assessment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 14770765
-- **genome-annotation-braker3-q040** — Which Galaxy tool would you recommend to perform `omark`?
+- **genome-annotation-braker3-q040** — After running gene prediction I want an independent check of annotation quality using conserved proteins and a diagnostic report that highlights missing or fragmented orthologs. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 14770765
-- **genome-annotation-braker3-q041** — Which Galaxy tool runs OMARK for annotation assessment?
+- **genome-annotation-braker3-q041** — Which Galaxy tool can evaluate a predicted proteome for annotation completeness and produce summary metrics and diagnostic plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 14770765
-- **genome-annotation-braker3-q042** — Which Galaxy tool would you recommend to perform `omark`?
+- **genome-annotation-braker3-q042** — In Galaxy what tool should I run to assess a proteome against conserved ortholog sets and summarize annotation quality?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 14770765
 
@@ -9145,52 +9145,52 @@ Questions:
 - Datasets (1): 14770765
 
 Questions:
-- **genome-annotation-comparison-braker-helixer-annotation-q011** — Which Galaxy tool would you recommend to perform `helixer`?
+- **genome-annotation-comparison-braker-helixer-annotation-q011** — I have a eukaryotic genome assembly and want gene predictions using a model based approach without providing RNA read evidence. Which Galaxy tool can generate de novo gene models from the genome sequence?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q012** — Which Galaxy tool would you recommend to perform `helixer`?
+- **genome-annotation-comparison-braker-helixer-annotation-q012** — I want to annotate a eukaryotic genome by predicting genes directly from the genomic sequence and getting predicted gene models as output. What Galaxy tool should I use for this kind of prediction?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q013** — Which Galaxy tool runs Helixer for gene prediction?
+- **genome-annotation-comparison-braker-helixer-annotation-q013** — Which Galaxy tool can predict genes on a eukaryotic genome assembly from sequence alone and output gene models for comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q014** — Which Galaxy tool would you recommend to perform `helixer`?
+- **genome-annotation-comparison-braker-helixer-annotation-q014** — In Galaxy what tool should I choose to run a de novo gene prediction method on a genome assembly and produce predicted annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q015** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-comparison-braker-helixer-annotation-q015** — I have a genome assembly plus RNA evidence and want a gene prediction set that I can compare against a separate de novo prediction method. Which Galaxy tool should I use to build the evidence guided annotation set?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q016** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-comparison-braker-helixer-annotation-q016** — To compare annotation strategies I need one gene prediction run that uses RNA evidence and outputs gene models on my genome. What Galaxy tool can generate that evidence based annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q017** — Which Galaxy tool runs BRAKER3 (genouest) for annotation?
+- **genome-annotation-comparison-braker-helixer-annotation-q017** — Which Galaxy tool can produce gene models from a genome assembly using RNA evidence so I can compare the results to another predictor?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q018** — Which Galaxy tool would you recommend to perform `braker3`?
+- **genome-annotation-comparison-braker-helixer-annotation-q018** — In Galaxy I want to run an evidence guided gene prediction step on my genome so I can later compare two annotation tracks. Which tool should I pick?
   - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q019** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-comparison-braker-helixer-annotation-q019** — I have two GFF or GTF annotation sets and want to extract comparable transcript or protein FASTA sequences from each for downstream evaluation. Which Galaxy tool can extract sequences from an annotation and genome FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q020** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-comparison-braker-helixer-annotation-q020** — For comparing gene predictions I need transcript sequences derived from my annotation files using the same reference genome. What Galaxy tool can generate transcript FASTA from GFF or GTF?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q021** — Which Galaxy tool runs gffread on GFF/GTF files?
+- **genome-annotation-comparison-braker-helixer-annotation-q021** — Which Galaxy tool should I use to derive transcript or CDS sequences from a GFF or GTF annotation and a genome FASTA for comparison workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q022** — Which Galaxy tool would you recommend to perform `gffread`?
+- **genome-annotation-comparison-braker-helixer-annotation-q022** — In Galaxy I need a tool that converts a GFF or GTF plus genome FASTA into transcript and CDS FASTA outputs. Which tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q023** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-comparison-braker-helixer-annotation-q023** — I have two alternative gene annotations for the same genome and want to visually compare them track by track across regions of interest. Which Galaxy tool should I use to browse and compare them?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q024** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-comparison-braker-helixer-annotation-q024** — I want to inspect where two gene prediction sets disagree by loading both annotation tracks on the same reference sequence in an interactive genome viewer. What Galaxy tool can I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q025** — Which Galaxy tool opens JBrowse for annotation visualization?
+- **genome-annotation-comparison-braker-helixer-annotation-q025** — Which Galaxy tool can open a genome browser view where I can overlay multiple annotation tracks and inspect differences region by region?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
-- **genome-annotation-comparison-braker-helixer-annotation-q026** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **genome-annotation-comparison-braker-helixer-annotation-q026** — I need a Galaxy tool that displays a reference genome with multiple feature tracks so I can compare gene models visually. Which tool should I pick?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 14770765
 - **genome-annotation-comparison-braker-helixer-annotation-q027** — Which Galaxy tool would you recommend to perform `busco`?
