@@ -4845,7 +4845,7 @@ Questions:
 - **ecology-bacterial-isolate-species-contamination-checking-q017** — I have a taxonomic classification report from a k-mer classifier and want to re-estimate abundances at a chosen taxonomic rank. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
-- **ecology-bacterial-isolate-species-contamination-checking-q018** — After a metagenomic read classification step, I want to convert the classification output into an estimated abundance table. Which Galaxy tool should I use?
+- **ecology-bacterial-isolate-species-contamination-checking-q018** — Which Galaxy tool can turn k-mer read-classification output into an estimated abundance table at a chosen taxonomic rank?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 10572227, zenodo.10572227
 - **ecology-bacterial-isolate-species-contamination-checking-q019** — I want an interactive report to explore and compare taxonomic classification profiles and spot low-abundance contaminants. Which Galaxy tool should I use?
@@ -4957,7 +4957,7 @@ Questions:
 - **ecology-biodiversity-data-exploration-q036** — Which Galaxy tool can remove a fixed number of lines from the beginning of a dataset?
   - Tools: Remove beginning1
   - Datasets: 6107457
-- **ecology-biodiversity-data-exploration-q037** — I need to strip a few header/comment lines from the top of a text file before downstream parsing. Which Galaxy tool should I use?
+- **ecology-biodiversity-data-exploration-q037** — I need to remove a few header or comment lines from the top of a text dataset before parsing it. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 6107457
 - **ecology-biodiversity-data-exploration-q038** — What Galaxy tool should I use to remove the leading lines from a dataset so only the data table remains?
@@ -5021,13 +5021,13 @@ Questions:
 - **ecology-champs-blocs-q019** — I want to compute an overall ecological status indicator from intermediate indicator outputs and produce a results table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q020** — Which Galaxy tool should I use to run a downstream ecological status calculation step based on a previously computed indicator dataset?
+- **ecology-champs-blocs-q020** — I already computed intermediate indicator values and now need to combine them into an overall ecological status score and export a results table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-champs-blocs-q021** — I need to generate summary plots and an ecological status table from an indicator-analysis output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q022** — What Galaxy tool should I use for custom R analysis that takes an intermediate object from a previous step and outputs a final indicator table?
+- **ecology-champs-blocs-q022** — What Galaxy tool should I use to run custom R code on an intermediate dataset and produce a final indicator table?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-champs-blocs-q023** — I need to compute an IVR indicator and produce both a results table and plots from survey inputs. Which Galaxy tool should I use?
@@ -5036,7 +5036,7 @@ Questions:
 - **ecology-champs-blocs-q024** — Which Galaxy tool should I use to calculate site-level indicator scores from a CSV and export both plots and processed data?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q025** — I want to run an R workflow to compute indicator values and save intermediate objects for downstream steps. Which Galaxy tool should I use?
+- **ecology-champs-blocs-q025** — Which Galaxy tool lets me run an R-based indicator workflow and keep intermediate outputs I can reuse later?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-champs-blocs-q026** — What Galaxy tool should I use for an R-based ecological indicator calculation that outputs a table plus figures?
@@ -5073,7 +5073,7 @@ Questions:
 - Datasets (2): zenodo.1134547, 1134547
 
 Questions:
-- **ecology-de-novo-rad-seq-q011** — I need to run a custom command-line step to demultiplex RAD-seq reads by barcode and clean them inside Galaxy. Which Galaxy tool should I use?
+- **ecology-de-novo-rad-seq-q011** — I need to run a custom command-line demultiplexing and cleanup step for RAD-seq reads by barcode inside Galaxy. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
 - **ecology-de-novo-rad-seq-q012** — Which Galaxy tool provides a programmable environment where I can run custom RAD-seq demultiplexing and read-cleaning commands?
@@ -5112,7 +5112,7 @@ Questions:
 - **ecology-de-novo-rad-seq-q023** — I need to compute population genetics summary statistics (for example F-statistics) from a RAD-seq variant dataset using custom commands. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-de-novo-rad-seq-q024** — Which Galaxy tool should I use to run a custom population-genomics statistics step on RAD-seq loci/variants and produce tabular outputs?
+- **ecology-de-novo-rad-seq-q024** — Which Galaxy tool should I use to run custom population-genetics summary code for RAD-seq loci/variants and export tabular results?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
 - **ecology-de-novo-rad-seq-q025** — I want to calculate per-locus and per-population summary statistics from RAD-seq data using command-line scripts in Galaxy. Which tool should I use?
@@ -5131,7 +5131,7 @@ Questions:
 - **ecology-eDNA-taxonomic-analysis-q011** — I need to perform quality control and filtering on paired-end amplicon reads, producing HTML/JSON reports. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q012** — Which Galaxy tool can quickly trim and filter FASTQ reads and generate quality-control reports in one step?
+- **ecology-eDNA-taxonomic-analysis-q012** — I want one tool to trim adapters, filter low-quality reads, and produce a read-QC report in the same run. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
 - **ecology-eDNA-taxonomic-analysis-q013** — I want to quality-filter sequencing reads (adapter trimming and quality trimming) before taxonomic identification. Which Galaxy tool should I use?
@@ -5140,7 +5140,7 @@ Questions:
 - **ecology-eDNA-taxonomic-analysis-q014** — What Galaxy tool should I use for fast read QC and trimming with summary reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q015** — I need to convert quality-filtered FASTQ reads into FASTA format for downstream similarity searching. Which Galaxy tool should I use?
+- **ecology-eDNA-taxonomic-analysis-q015** — I want to convert quality-filtered reads into a sequence-only dataset for similarity searching. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
 - **ecology-eDNA-taxonomic-analysis-q016** — Which Galaxy tool should I use to convert FASTQ to FASTA while optionally filtering sequences with ambiguous bases?
@@ -5149,7 +5149,7 @@ Questions:
 - **ecology-eDNA-taxonomic-analysis-q017** — I want to transform sequencing reads from FASTQ to FASTA and simplify identifiers to reduce file size. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q018** — What Galaxy tool should I use to convert FASTQ reads into FASTA for downstream alignment or similarity-search tools?
+- **ecology-eDNA-taxonomic-analysis-q018** — Which Galaxy tool converts reads into a sequence-only dataset suitable for downstream alignment or similarity searching?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: 15367390, zenodo.15367390, 15367390
 - **ecology-eDNA-taxonomic-analysis-q019** — I want to search short DNA sequences against a nucleotide reference database to identify likely taxa. Which Galaxy tool should I use?
@@ -5186,7 +5186,7 @@ Questions:
 - **ecology-ecoregiolifetraits-q011** — I have an archive (ZIP/TAR) and need to extract its contents into a directory-style dataset in Galaxy. Which Galaxy tool should I use?
   - Tools: CONVERTER_archive_to_directory
   - Datasets: None
-- **ecology-ecoregiolifetraits-q012** — Which Galaxy tool can extract an uploaded archive (ZIP/TAR) into a directory or collection for downstream steps?
+- **ecology-ecoregiolifetraits-q012** — I uploaded an archive containing many input files and need to unpack it into a Galaxy directory or collection. Which tool should I use?
   - Tools: CONVERTER_archive_to_directory
   - Datasets: None
 - **ecology-ecoregiolifetraits-q013** — I need to unpack an archive containing many files and keep the extracted files together as a collection. Which Galaxy tool should I use?
@@ -5234,13 +5234,13 @@ Questions:
 - **ecology-ecoregiolifetraits-q027** — I need to filter rows in a tabular dataset using a boolean condition on one or more columns. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: None
-- **ecology-ecoregiolifetraits-q028** — Which Galaxy tool can keep or remove rows from a table based on an expression (for example, numeric thresholds)?
+- **ecology-ecoregiolifetraits-q028** — I need to keep or remove rows from a table based on a rule (for example, value thresholds). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: None
 - **ecology-ecoregiolifetraits-q029** — I want to filter a table to keep only records matching a condition on a given column. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: None
-- **ecology-ecoregiolifetraits-q030** — What Galaxy tool should I use to apply row-level filtering to a tabular dataset based on a logical expression?
+- **ecology-ecoregiolifetraits-q030** — What Galaxy tool should I use to filter rows in a tabular dataset using a logical condition?
   - Tools: Filter1
   - Datasets: None
 - **ecology-ecoregiolifetraits-q031** — I need to merge an occurrence table with environmental covariates by finding the nearest raster/grid values for each coordinate. Which Galaxy tool should I use?
@@ -5258,7 +5258,7 @@ Questions:
 - **ecology-ecoregiolifetraits-q035** — I need to remove one or more columns from a tabular dataset by specifying the column header names. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: None
-- **ecology-ecoregiolifetraits-q036** — Which Galaxy tool can drop columns from a table based on the header line?
+- **ecology-ecoregiolifetraits-q036** — Which Galaxy tool can remove columns from a table by matching column names in the header?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: None
 - **ecology-ecoregiolifetraits-q037** — I want to remove metadata columns from a table while keeping the rest of the dataset unchanged. Which Galaxy tool should I use?
@@ -5279,7 +5279,7 @@ Questions:
 - **ecology-ecoregiolifetraits-q042** — What Galaxy tool should I use to build boosted regression tree models and output per-taxon prediction rasters for ecoregionalization?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-ecoregiolifetraits-q043** — I need to extract and clean a list of taxa from an occurrence dataset for downstream modeling (including normalizing suffixes like sp). Which Galaxy tool should I use?
+- **ecology-ecoregiolifetraits-q043** — I want to extract and clean a list of taxa from an occurrence dataset for ecological modeling (including normalizing names like 'sp.'). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-ecoregiolifetraits-q044** — Which Galaxy tool should I use to produce a curated taxa list from occurrence records (raw taxa, cleaned taxa, and summary tables)?
@@ -5294,7 +5294,7 @@ Questions:
 - **ecology-ecoregiolifetraits-q047** — I need to determine the optimal number of clusters for taxa and assign taxa to clusters using a CLARA-style clustering approach. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-ecoregiolifetraits-q048** — Which Galaxy tool should I use to cluster taxa into ecoregional groups based on similarity and output cluster assignments?
+- **ecology-ecoregiolifetraits-q048** — Which Galaxy tool should I use to cluster taxa into ecoregional groups based on similarity and output cluster labels?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-ecoregiolifetraits-q049** — I need to choose the number of clusters for an ecoregionalization task and produce cluster assignments for taxa. Which Galaxy tool should I use?
@@ -5303,7 +5303,7 @@ Questions:
 - **ecology-ecoregiolifetraits-q050** — What Galaxy tool should I use to run a clustering workflow (CLARA-style) to assign taxa into ecoregional groups?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-ecoregiolifetraits-q051** — I have cluster assignments from an ecoregionalization step and want to produce a map or spatial representation of the clusters. Which Galaxy tool should I use?
+- **ecology-ecoregiolifetraits-q051** — I have ecoregional cluster assignments and want to produce a spatial map of the clusters. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-ecoregiolifetraits-q052** — Which Galaxy tool should I use to create a spatial plot of ecoregional clusters from point-based cluster assignments?

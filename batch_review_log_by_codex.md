@@ -251,6 +251,17 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1351 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `wc_gnu`, `CONVERTER_archive_to_directory`, `Cut1`, `Filter1`).
 
+## Batch A0011 (1501–1650)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 1501–1650 (ecology: contamination checking; biodiversity exploration; indicator workflows; RAD-seq; eDNA taxonomic analysis; ecoregionalization/life-traits)
+- Summary:
+  - Kept the science-first vs tool-first balance already near parity (74 science-first / 76 tool-first).
+  - Rephrased a small set of queries that were overly generic (“step/downstream”) into clearer intent-focused Galaxy-user questions, without adding tool leakage.
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1501 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Cut1`, `Filter1`, `CONVERTER_archive_to_directory`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
