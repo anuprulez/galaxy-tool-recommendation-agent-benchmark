@@ -213,6 +213,20 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 901 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Cut1/Filter1/Count1/join1/cat1/wc_gnu`).
 
+## Batch A0008 (1051–1200)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 1051–1200 (data science: extended tabular manipulation tasks; digital humanities: text cleaning + interactive analysis; protein similarity search)
+- Summary:
+  - Rewrote all queries to remove tool leakage and templated placeholders (no backticks, no tool names/IDs, no tutorial references, no `{{...}}` placeholders, no dataset URLs/IDs in query text).
+  - Balanced query styles to your target: **75 science-first / 75 tool-first** in this batch, with wording matched to `metadata.query_type`.
+  - Normalized non-stable core-tool spellings used in this range:
+    - `Remove beginning1` → `Remove_beginning1`
+    - `Show beginning1` → `Show_beginning1`
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1051 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Cut/Filter/Count/join/cat/wc, etc.).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
