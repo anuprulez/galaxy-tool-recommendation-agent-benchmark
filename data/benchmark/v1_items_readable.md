@@ -17578,10 +17578,10 @@ Questions:
 - **sequence-analysis-human-reads-removal-q018** — Which Galaxy tool can unzip or expand a compressed dataset collection into individual datasets for downstream processing?
   - Tools: __UNZIP_COLLECTION__
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q019** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?
+- **sequence-analysis-human-reads-removal-q019** — Which Galaxy tool extracts a subset of sequences from a FASTA or FASTQ dataset given a list of sequence IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.5+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q020** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?
+- **sequence-analysis-human-reads-removal-q020** — Which Galaxy tool should I use to package a dataset collection into a single archive for download or sharing?
   - Tools: __ZIP_COLLECTION__
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 
@@ -17591,19 +17591,19 @@ Questions:
 - Datasets (2): wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 
 Questions:
-- **sequence-analysis-mapping-q011** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **sequence-analysis-mapping-q011** — I have short sequencing reads and want to align them to a reference genome quickly, producing a BAM for downstream steps. Which Galaxy tool should I use for read mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.4.2+galaxy0
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
-- **sequence-analysis-mapping-q012** — Which Galaxy tool would you recommend to perform `samtools_stats`?
+- **sequence-analysis-mapping-q012** — I have an alignment BAM file and want summary mapping statistics like insert size, coverage-related metrics, and flag counts. Which Galaxy tool can compute alignment stats?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
-- **sequence-analysis-mapping-q013** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **sequence-analysis-mapping-q013** — Which Galaxy tool filters an alignment BAM file by criteria like mapping quality, flags, or read properties to create a cleaned BAM?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3, toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy2
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
-- **sequence-analysis-mapping-q014** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **sequence-analysis-mapping-q014** — Which Galaxy tool should I use to compute summary statistics from a BAM alignment file?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.5
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
-- **sequence-analysis-mapping-q015** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **sequence-analysis-mapping-q015** — Which Galaxy tool creates an interactive genome browser session so I can view tracks like BAM, VCF, and gene annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy0
   - Datasets: wt_H3K4me3_read1.fastq.gz, wt_H3K4me3_read2.fastq.gz
 
@@ -17613,52 +17613,52 @@ Questions:
 - Datasets (2): 7524427, query.faa
 
 Questions:
-- **sequence-analysis-ncbi-blast-against-the-madland-q011** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q011** — I have protein sequences and want to search them against a protein database to find likely homologs and functional annotations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q012** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q012** — I have nucleotide contigs and want to find protein-coding homologs by translating them and searching against a protein database. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q013** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q013** — Which Galaxy tool runs a protein-to-protein sequence similarity search and reports top hits with alignments and e-values?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q014** — Which Galaxy tool would you recommend to perform `bg_diamond`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q014** — Which Galaxy tool performs a fast BLAST-like protein alignment search suitable for large datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q015** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q015** — I want to identify what a set of predicted proteins are by running a protein similarity search against a reference database. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q016** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q016** — I have a protein FASTA file and need a similarity search that returns top hits, alignments, and e-values. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q017** — Which Galaxy tool performs protein BLAST searches?
+- **sequence-analysis-ncbi-blast-against-the-madland-q017** — In Galaxy, what tool should I use to search protein sequences against a protein database for homologs?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q018** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q018** — Which Galaxy tool performs a BLAST-style protein search for a set of query proteins?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q019** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q019** — I’m annotating contigs and want to search translated nucleotide sequences against a protein database to identify likely proteins. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q020** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q020** — I have assembled transcripts and want to find protein similarities by running a translated search against a protein database. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q021** — Which Galaxy tool runs BLASTX searches?
+- **sequence-analysis-ncbi-blast-against-the-madland-q021** — Which Galaxy tool searches translated nucleotide sequences against a protein database and reports protein-level hits?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q022** — Which Galaxy tool would you recommend to perform `ncbi_blastx_wrapper`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q022** — In Galaxy, what tool should I use to run a translated nucleotide-to-protein similarity search for contigs?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q023** — Which Galaxy tool would you recommend to perform `bg_diamond`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q023** — I have many protein sequences and want a fast similarity search against a large reference protein database to annotate them. Which Galaxy tool should I use for a fast protein alignment search?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q024** — Which Galaxy tool would you recommend to perform `bg_diamond`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q024** — I have nucleotide reads/contigs and want a fast translated search against a protein database to get taxonomic or functional hints. What Galaxy tool can do this quickly?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q025** — Which Galaxy tool provides DIAMOND-based protein alignments?
+- **sequence-analysis-ncbi-blast-against-the-madland-q025** — In Galaxy, what tool should I use for fast protein or translated sequence searches against large reference databases?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
-- **sequence-analysis-ncbi-blast-against-the-madland-q026** — Which Galaxy tool would you recommend to perform `bg_diamond`?
+- **sequence-analysis-ncbi-blast-against-the-madland-q026** — Which Galaxy tool provides high-speed protein alignments for annotation workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.8.0, toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0
   - Datasets: query.faa, 7524427
 
@@ -17668,40 +17668,40 @@ Questions:
 - Datasets (2): 10932013, FCS_combo_test.fa
 
 Questions:
-- **sequence-analysis-ncbi-fcs-q011** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
+- **sequence-analysis-ncbi-fcs-q011** — I have a genome assembly and want to screen it for potential contamination and get a report of suspect contigs with taxonomic assignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q012** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
+- **sequence-analysis-ncbi-fcs-q012** — I need to check whether my assembled contigs contain non-target organisms and obtain a contamination summary report. What Galaxy tool can run this contamination screen?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q013** — Which Galaxy tool runs NCBI FCS-GX contamination screening?
+- **sequence-analysis-ncbi-fcs-q013** — Which Galaxy tool screens a genome assembly for contamination and outputs a report with taxonomic classification of contigs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q014** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
+- **sequence-analysis-ncbi-fcs-q014** — In Galaxy, what tool should I run to perform an automated contamination check on assembled contigs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q015** — Which Galaxy tool would you recommend to perform `ncbi_fcs_adaptor`?
+- **sequence-analysis-ncbi-fcs-q015** — I have sequencing reads and want to detect and report any leftover adapter sequences or common technical contamination. Which Galaxy tool can run an adapter contamination screen?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q016** — Which Galaxy tool would you recommend to perform `ncbi_fcs_adaptor`?
+- **sequence-analysis-ncbi-fcs-q016** — Before downstream analysis, I want to check my reads for adapter contamination and get a summary report. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q017** — Which Galaxy tool checks assemblies for adapter/vector contamination?
+- **sequence-analysis-ncbi-fcs-q017** — Which Galaxy tool checks sequencing reads for adapter contamination and outputs a diagnostic report?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q018** — Which Galaxy tool would you recommend to perform `ncbi_fcs_adaptor`?
+- **sequence-analysis-ncbi-fcs-q018** — In Galaxy, what tool should I run to screen reads for adapter sequences and technical contaminants?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q019** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
+- **sequence-analysis-ncbi-fcs-q019** — I’m preparing to submit an assembly and want an automated contamination check that flags contigs by likely source taxonomy. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q020** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
+- **sequence-analysis-ncbi-fcs-q020** — I want to evaluate a draft assembly for foreign sequence contamination and produce a QC report I can act on. Which Galaxy tool can do this in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q021** — Which Galaxy tool would you recommend to perform `ncbi_fcs_adaptor`?
+- **sequence-analysis-ncbi-fcs-q021** — Which Galaxy tool detects adapter contamination in sequencing reads and reports affected reads or sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/richard-burhans/ncbi_fcs_adaptor/ncbi_fcs_adaptor/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
-- **sequence-analysis-ncbi-fcs-q022** — Which Galaxy tool would you recommend to perform `ncbi_fcs_gx`?
+- **sequence-analysis-ncbi-fcs-q022** — Which Galaxy tool can generate an assembly contamination report that flags suspect sequences and their likely origins?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.5+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/ncbi_fcs_gx/ncbi_fcs_gx/0.5.0+galaxy0
   - Datasets: 10932013, FCS_combo_test.fa
 
@@ -17711,22 +17711,22 @@ Questions:
 - Datasets (1): 10669812
 
 Questions:
-- **sequence-analysis-quality-contamination-control-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **sequence-analysis-quality-contamination-control-q011** — I need to upload several datasets into a new Galaxy history before starting analysis. Which Galaxy tool should I use to upload my files?
   - Tools: upload1
   - Datasets: 10669812
-- **sequence-analysis-quality-contamination-control-q012** — Which Galaxy tool would you recommend to perform `falco`?
+- **sequence-analysis-quality-contamination-control-q012** — Which Galaxy tool can run FASTQ quality control across many samples efficiently and produce per-sample QC outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
-- **sequence-analysis-quality-contamination-control-q013** — Which Galaxy tool would you recommend to perform `fastp`?
+- **sequence-analysis-quality-contamination-control-q013** — I have paired-end FASTQ reads and want to trim adapters and low-quality bases and get a trimming report in one step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.4+galaxy0
   - Datasets: 10669812
-- **sequence-analysis-quality-contamination-control-q014** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **sequence-analysis-quality-contamination-control-q014** — I have metagenomic reads and want to classify them taxonomically to estimate which organisms are present. Which Galaxy tool should I use for read classification?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 10669812
-- **sequence-analysis-quality-contamination-control-q015** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **sequence-analysis-quality-contamination-control-q015** — I have taxonomic classification results from a read classifier and want to estimate organism abundances at a chosen taxonomic level. Which Galaxy tool can estimate abundances?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/2.9+galaxy0
   - Datasets: 10669812
-- **sequence-analysis-quality-contamination-control-q016** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **sequence-analysis-quality-contamination-control-q016** — I have taxonomic classification outputs for multiple samples and want interactive summaries and comparative visualizations of community composition. Which Galaxy tool can visualize these taxonomic profiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/recentrifuge/recentrifuge/1.16.1+galaxy0
   - Datasets: 10669812
 
@@ -17736,16 +17736,16 @@ Questions:
 - Datasets (6): female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
 
 Questions:
-- **sequence-analysis-quality-control-q011** — Which Galaxy tool would you recommend to perform `fastqe`?
+- **sequence-analysis-quality-control-q011** — I want a lightweight QC summary for FASTQ reads to quickly spot quality issues before deeper processing. Which Galaxy tool can generate a quick FASTQ QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastqe/fastqe/0.3.1+galaxy0
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
-- **sequence-analysis-quality-control-q012** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **sequence-analysis-quality-control-q012** — I have sequencing reads with known adapter sequences and want to remove adapters and optionally trim low-quality ends. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0, toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/4.9+galaxy1
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
-- **sequence-analysis-quality-control-q013** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **sequence-analysis-quality-control-q013** — Which Galaxy tool generates a standard FASTQ quality-control report with per-base quality and adapter content plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
-- **sequence-analysis-quality-control-q014** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **sequence-analysis-quality-control-q014** — Which Galaxy tool aggregates QC outputs from many samples into a single summary report across the whole project?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9+galaxy1
   - Datasets: female_oral2.fastq-4143.gz, GSM461178_untreat_paired_subset_1.fastq, GSM461178_untreat_paired_subset_2.fastq, m64011_190830_220126.Q20.subsample.fastq.gz, nanopore_basecalled-guppy.fastq.gz, sequencing_summary.txt
 
@@ -17755,52 +17755,52 @@ Questions:
 - Datasets (5): `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), files `SARS-CoV-2_reference_genome.fasta`, zenodo.8115178, zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`
 
 Questions:
-- **sequence-analysis-sars-with-galaxy-on-anvil-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q011** — I have local files that I want as datasets in Galaxy so I can run downstream tools. What Galaxy tool handles uploading?
   - Tools: upload1
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q012** — In Galaxy, what tool should I use to run read QC and get an HTML-style summary report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q013** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q013** — I have DNA sequencing reads and need to align them to a reference genome to produce a BAM file for downstream variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q014** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q014** — In Galaxy, what tool should I run to visualize genomic data in a web-based track viewer?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q015** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q015** — I have paired-end sequencing reads and want a standard QC report with per-base quality, adapter content, and overrepresented sequences. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q016** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q016** — I need to quickly assess read quality and sequencing artifacts in my FASTQ datasets before trimming and mapping. What Galaxy tool can generate a QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q017** — Which Galaxy tool generates basic read QC reports?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q017** — Which Galaxy tool provides per-sample sequencing QC metrics and plots for FASTQ files?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q018** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q018** — What Galaxy tool should I run to check read quality and overrepresented sequences in FASTQ datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q019** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q019** — I’m mapping paired-end reads to a reference genome and want an alignment suitable for downstream filtering and statistics. What Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q020** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q020** — I need a fast short-read aligner in Galaxy to map Illumina reads to a reference and output SAM/BAM. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q021** — Which Galaxy tool aligns reads to a reference using BWA-MEM?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q021** — Which Galaxy tool should I run to align short reads to a reference genome using a MEM-style aligner and output BAM?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q022** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q022** — In Galaxy, what tool maps paired-end reads to a reference genome and produces alignments for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q023** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q023** — I have a reference genome plus annotation tracks (like GFF/GTF and BAM/VCF) and want to explore them interactively in a genome browser within Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q024** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q024** — I want to visualize read alignments and variants along the genome with interactive track browsing in Galaxy. What tool can create that browser view?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q025** — Which Galaxy tool provides a genome browser for alignment visualization?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q025** — Which Galaxy tool can bundle genome tracks into an interactive browser view for inspection and sharing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
-- **sequence-analysis-sars-with-galaxy-on-anvil-q026** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **sequence-analysis-sars-with-galaxy-on-anvil-q026** — What Galaxy tool should I use to explore alignments and annotations in an interactive genome viewer?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
   - Datasets: zenodo.8115178 (AnVIL workspace `SARS-CoV-2-Genome`, files `SARS-CoV-2_reference_genome.fasta`, `VA_sample_forward_reads.fastq`, `VA_sample_reverse_reads.fastq`), zenodo.8115178
 
@@ -17810,37 +17810,37 @@ Questions:
 - Datasets (7): `CHABR.fa`, `MARPO.fa`, `ORYSAJA.fa`), `PENMA.fa`, `PHYPAV6.fa`, `SELMO.fa`,  (e.g. `ARATH.fa`
 
 Questions:
-- **sequence-analysis-tapscan-streptophyte-algae-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **sequence-analysis-tapscan-streptophyte-algae-q011** — I’m starting from scratch and need to import my data into Galaxy from my computer. Which tool should I use to upload datasets?
   - Tools: upload1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q012** — Which Galaxy tool would you recommend to perform `tapscan_classify`?
+- **sequence-analysis-tapscan-streptophyte-algae-q012** — Which Galaxy tool classifies sequences into groups based on marker profiles for taxonomic or functional assignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/tapscan/tapscan_classify/4.76+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q013** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **sequence-analysis-tapscan-streptophyte-algae-q013** — I have a tabular dataset and need to keep only rows that pass a simple condition and remove the rest. Which Galaxy tool can filter rows by expressions?
   - Tools: Filter1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q014** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **sequence-analysis-tapscan-streptophyte-algae-q014** — I have a results table and only need a few columns (like an identifier and one measurement column) for plotting. Which Galaxy tool can extract selected columns?
   - Tools: Cut1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q015** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **sequence-analysis-tapscan-streptophyte-algae-q015** — My dataset has a few non-data lines at the top that I need to remove so the file becomes valid tabular data. Which Galaxy tool can drop the first N lines?
   - Tools: Remove beginning1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q016** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **sequence-analysis-tapscan-streptophyte-algae-q016** — I have a FASTA file and a list of identifiers and want to keep only the sequences whose IDs are in the list. Which Galaxy tool can filter FASTA by IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/filter_by_fasta_ids/filter_by_fasta_ids/2.3
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q017** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **sequence-analysis-tapscan-streptophyte-algae-q017** — I have a set of nucleotide or protein sequences and want to create a multiple sequence alignment for downstream phylogenetic analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2, toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q018** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **sequence-analysis-tapscan-streptophyte-algae-q018** — I have a multiple sequence alignment and want to trim poorly aligned or gappy regions before building a phylogenetic tree. Which Galaxy tool can trim an alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trimal/trimal/1.5.0+galaxy1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q019** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **sequence-analysis-tapscan-streptophyte-algae-q019** — I have a multiple sequence alignment and want a quick approximate phylogenetic tree for exploratory analysis. Which Galaxy tool can build a quick tree?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quicktree/quicktree/2.5+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q020** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **sequence-analysis-tapscan-streptophyte-algae-q020** — I have a multiple sequence alignment and want to infer a phylogenetic tree with model selection and branch support. Which Galaxy tool should I use for tree inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.3.6+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q021** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **sequence-analysis-tapscan-streptophyte-algae-q021** — I have a phylogenetic tree file and want to visualize it interactively and annotate clades. Which Galaxy tool can view and explore trees?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ete_treeviewer/ete_treeviewer/3.1.3+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 
@@ -17850,19 +17850,19 @@ Questions:
 - Datasets (2): and `entero_genomes.fasta` for off-target background), 14845698 (plus Polio alignments from GitHub raw links in the tutorial
 
 Questions:
-- **sequence-analysis-viral_primer_design-q011** — Which Galaxy tool would you recommend to perform `EMBOSS: degapseq20`?
+- **sequence-analysis-viral_primer_design-q011** — I have aligned sequences with gap characters and need to remove gaps to recover ungapped sequences. Which Galaxy tool can degap sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: degapseq20/5.0.0
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
-- **sequence-analysis-viral_primer_design-q012** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **sequence-analysis-viral_primer_design-q012** — Which Galaxy tool performs multiple sequence alignment for a set of sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2, toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy1
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
-- **sequence-analysis-viral_primer_design-q013** — Which Galaxy tool would you recommend to perform `varvamp`?
+- **sequence-analysis-viral_primer_design-q013** — I have a viral genome alignment and want to design primer schemes that cover the genome while accounting for variation. Which Galaxy tool can design tiled amplicon primers?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varvamp/varvamp/1.2.2+galaxy0
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
-- **sequence-analysis-viral_primer_design-q014** — Which Galaxy tool would you recommend to perform `ncbi_makeblastdb`?
+- **sequence-analysis-viral_primer_design-q014** — I have a FASTA reference database and need to build a BLAST database in Galaxy so I can run sequence similarity searches against it. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.14.1+galaxy2
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
-- **sequence-analysis-viral_primer_design-q015** — Which Galaxy tool would you recommend to perform `ncbi_makeblastdb`?
+- **sequence-analysis-viral_primer_design-q015** — I’m designing primers for targeted sequencing of a virus and need a tool that proposes primer sets robust to observed mutations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varvamp/varvamp/1.2.2+galaxy0
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 
@@ -17872,28 +17872,28 @@ Questions:
 - Datasets (2): EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 
 Questions:
-- **single-cell-EBI-retrieval-q011** — I want SCXA-processed 10x-style matrices for a given experiment accession without manually downloading from a website; which Galaxy tool retrieves the matrix, genes, barcodes, and exp_design.tsv in one step?
+- **single-cell-EBI-retrieval-q011** — I want to download a single-cell expression dataset from a public single-cell atlas resource into Galaxy for analysis. Which Galaxy tool can retrieve single-cell atlas datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q012** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **single-cell-EBI-retrieval-q012** — I have a tabular dataset and need to clean a specific column using a regular-expression find-and-replace to standardize identifiers. Which Galaxy tool can do regex replacement in a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q013** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **single-cell-EBI-retrieval-q013** — I have a tabular dataset and need to replace specific text patterns throughout the file (for example, normalize sample labels) before analysis. Which Galaxy tool can find and replace text?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.3+galaxy1
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q014** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **single-cell-EBI-retrieval-q014** — I have a text file and want to extract only lines containing a set of keywords so I can focus on those entries. Which Galaxy tool can grep matching lines?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q015** — Which Galaxy tool would you recommend to perform `scanpy_read_10x`?
+- **single-cell-EBI-retrieval-q015** — Which Galaxy tool reads 10x single-cell count matrix outputs and produces an AnnData object for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.9.3+galaxy0
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q016** — Which Galaxy tool would you recommend to perform `scanpy_read_10x`?
+- **single-cell-EBI-retrieval-q016** — Which Galaxy tool performs basic operations on AnnData objects (e.g., selecting layers/fields or modifying annotations) for single-cell workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1, toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q017** — Which Galaxy tool would you recommend to perform `hca_matrix_downloader`?
+- **single-cell-EBI-retrieval-q017** — I want to download a single-cell count matrix from the Human Cell Atlas into Galaxy for analysis. Which Galaxy tool can download HCA matrices?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader/v0.0.4+galaxy0
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q018** — Which Galaxy tool would you recommend to perform `hca_matrix_downloader`?
+- **single-cell-EBI-retrieval-q018** — I need to convert a single-cell dataset between common formats (for example, AnnData to another single-cell file format) for compatibility with downstream tools. Which Galaxy tool can convert single-cell formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sceasy_convert/sceasy_convert/0.0.7+galaxy2
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 
@@ -17903,16 +17903,16 @@ Questions:
 - Datasets (4): GO annotations for Mus musculus, background gene set), 13461890 (GO OBO, marker gene lists
 
 Questions:
-- **single-cell-GO-enrichment-q011** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **single-cell-GO-enrichment-q011** — I have a table with a category column and want to split it into separate files per category value for downstream processing. Which Galaxy tool can split a file by a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4
   - Datasets: 13461890 (GO OBO, GO annotations for Mus musculus, marker gene lists, background gene set)
-- **single-cell-GO-enrichment-q012** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **single-cell-GO-enrichment-q012** — Which Galaxy tool should I use to extract a subset of columns from a tabular dataset?
   - Tools: Cut1
   - Datasets: 13461890 (GO OBO, GO annotations for Mus musculus, marker gene lists, background gene set)
-- **single-cell-GO-enrichment-q013** — Which Galaxy tool would you recommend to perform `goenrichment`?
+- **single-cell-GO-enrichment-q013** — I have a list of differentially expressed genes and want Gene Ontology enrichment analysis to identify overrepresented GO terms. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
   - Datasets: 13461890 (GO OBO, GO annotations for Mus musculus, marker gene lists, background gene set)
-- **single-cell-GO-enrichment-q014** — Which Galaxy tool would you recommend to perform `gprofiler_gost`?
+- **single-cell-GO-enrichment-q014** — I have a gene list and want functional enrichment analysis against multiple annotation sources (GO, pathways) using an online enrichment resource. Which Galaxy tool can run this enrichment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/0.1.7+galaxy11
   - Datasets: 13461890 (GO OBO, GO annotations for Mus musculus, marker gene lists, background gene set)
 
@@ -17922,22 +17922,22 @@ Questions:
 - Datasets (2): `EMTABesethealthy.phenotype.tabular`), 5719228 (e.g. `EMTABesethealthy.expression.tabular`
 
 Questions:
-- **single-cell-bulk-deconvolution-evaluate-q011** — For the single-cell expression matrix in this guide, I need to confirm how many distinct cell types are present (it should be 14) before building pseudo-bulk data. Which Galaxy tool counts distinct values in the cell-type column?
+- **single-cell-bulk-deconvolution-evaluate-q011** — I have a text dataset and want to count how many lines or records it contains as a quick sanity check. Which Galaxy tool can count lines in a dataset?
   - Tools: Count1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
-- **single-cell-bulk-deconvolution-evaluate-q012** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **single-cell-bulk-deconvolution-evaluate-q012** — Which Galaxy tool should I use to transpose a tabular matrix (swap rows and columns)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.8+galaxy1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
-- **single-cell-bulk-deconvolution-evaluate-q013** — To run the evaluation multiple times in parallel (subjects A and B), I want to duplicate key inputs into dataset collections so the workflows can operate on collections cleanly. What Galaxy tool duplicates a file into a collection for repeated evaluation runs?
+- **single-cell-bulk-deconvolution-evaluate-q013** — I have a single dataset that I need to duplicate into each element of a dataset collection so I can pair it with multiple samples in a workflow. Which Galaxy tool can duplicate a dataset into a collection?
   - Tools: __DUPLICATE_FILE_TO_COLLECTION__
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
-- **single-cell-bulk-deconvolution-evaluate-q014** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **single-cell-bulk-deconvolution-evaluate-q014** — I have a tabular file with many columns and need to extract only a subset of columns to create a simpler table for downstream analysis. Which Galaxy tool can cut selected columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
-- **single-cell-bulk-deconvolution-evaluate-q015** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **single-cell-bulk-deconvolution-evaluate-q015** — I have a tabular dataset and want a simple scatter plot of two numeric columns for exploratory analysis. Which Galaxy tool can create a point plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
-- **single-cell-bulk-deconvolution-evaluate-q016** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **single-cell-bulk-deconvolution-evaluate-q016** — I have expression values grouped by category (like cell type) and want violin plots to compare distributions across groups. Which Galaxy tool can create violin plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_violin/ggplot2_violin/3.4.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_violin/ggplot2_violin/3.4.0+galaxy1
   - Datasets: 5719228 (e.g. `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`)
 
@@ -17947,52 +17947,52 @@ Questions:
 - Datasets (2): 5719228, 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files)
 
 Questions:
-- **single-cell-bulk-music-q011** — I imported the four human-pancreas inputs from Zenodo (`GSE50244bulkeset.expression.tabular`, `GSE50244bulkeset.phenotype.tabular`, `EMTABesethealthy.expression.tabular`, `EMTABesethealthy.phenotype.tabular`). Which Galaxy tool turns each expression+phenotype pair into the ExpressionSet objects required by MuSiC?
+- **single-cell-bulk-music-q011** — I have bulk RNA-seq expression data and a reference single-cell expression matrix and want to prepare an object that combines expression and metadata for downstream deconvolution. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q012** — Which Galaxy tool would you recommend to perform `music_inspect_eset`?
+- **single-cell-bulk-music-q012** — Which Galaxy tool should I use to inspect an expression analysis object and report its contents (samples, genes, metadata)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q013** — Which Galaxy tool would you recommend to perform `music_deconvolution`?
+- **single-cell-bulk-music-q013** — I have bulk RNA-seq from mixed tissues and want to estimate the proportions of different cell types using a single-cell reference. Which Galaxy tool should I use for cell type deconvolution?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q014** — Which Galaxy tool would you recommend to perform `music_deconvolution`?
+- **single-cell-bulk-music-q014** — I’m trying to infer cell type composition for each sample in a bulk expression matrix using a reference atlas. What Galaxy tool can estimate those cell fractions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q015** — Which Galaxy tool would you recommend to perform `music_construct_eset`?
+- **single-cell-bulk-music-q015** — I’m setting up a cell type deconvolution analysis and need to bundle expression matrices and sample annotations into a single analysis-ready dataset. What Galaxy tool can construct that combined object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q016** — Which Galaxy tool would you recommend to perform `music_construct_eset`?
+- **single-cell-bulk-music-q016** — I have an expression matrix plus phenotype metadata and want to build a structured dataset for downstream analysis steps in Galaxy. Which tool can construct this object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q017** — Which Galaxy tool constructs an ExpressionSet for MuSiC?
+- **single-cell-bulk-music-q017** — Which Galaxy tool constructs an analysis-ready object from an expression matrix and sample metadata for downstream deconvolution?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q018** — Which Galaxy tool would you recommend to perform `music_construct_eset`?
+- **single-cell-bulk-music-q018** — In Galaxy, what tool should I run to build a structured expression dataset that combines counts and annotations for later steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q019** — Which Galaxy tool would you recommend to perform `music_deconvolution`?
+- **single-cell-bulk-music-q019** — I have a bulk transcriptome dataset and want a table of estimated cell type proportions per sample for downstream comparisons. Which Galaxy tool can produce that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q020** — Which Galaxy tool would you recommend to perform `music_deconvolution`?
+- **single-cell-bulk-music-q020** — I want to deconvolve bulk gene expression into cell type proportions using a single-cell reference and get per-sample proportion outputs. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q021** — Which Galaxy tool performs MuSiC deconvolution on bulk RNA-seq?
+- **single-cell-bulk-music-q021** — Which Galaxy tool estimates cell type proportions in bulk RNA-seq using a single-cell reference deconvolution approach?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q022** — Which Galaxy tool would you recommend to perform `music_deconvolution`?
+- **single-cell-bulk-music-q022** — In Galaxy, what tool should I run to deconvolve a bulk expression matrix into cell type fraction estimates per sample?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_deconvolution/music_deconvolution/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q023** — Which Galaxy tool would you recommend to perform `music_inspect_eset`?
+- **single-cell-bulk-music-q023** — I built an expression analysis object and want to inspect what samples, genes, and metadata fields it contains before running downstream steps. Which Galaxy tool can summarize and inspect it?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q024** — Which Galaxy tool would you recommend to perform `music_inspect_eset`?
+- **single-cell-bulk-music-q024** — I need to sanity-check an expression-set style dataset and view its dimensions and annotation fields. What Galaxy tool can inspect this analysis object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q025** — Which Galaxy tool inspects an ExpressionSet for MuSiC?
+- **single-cell-bulk-music-q025** — In Galaxy, what tool summarizes an expression-set style dataset so I can verify inputs before deconvolution?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
-- **single-cell-bulk-music-q026** — Which Galaxy tool would you recommend to perform `music_inspect_eset`?
+- **single-cell-bulk-music-q026** — Which Galaxy tool can display basic information about an expression analysis object (dimensions and available annotations)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_inspect_eset/music_inspect_eset/0.1.1+galaxy4
   - Datasets: 5719228 (human pancreas bulk and scRNA tabular expression + phenotype files), 5719228
 
@@ -18002,40 +18002,40 @@ Questions:
 - Datasets (1): (see source)
 
 Questions:
-- **single-cell-bulk-music-2-preparescref-q011** — Which Galaxy tool would you recommend to perform `v0.0.2+galaxy2`?
+- **single-cell-bulk-music-2-preparescref-q011** — I need to import a published single-cell dataset from an online atlas into Galaxy as an AnnData-like object. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q012** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **single-cell-bulk-music-2-preparescref-q012** — I need to reduce a wide tabular dataset to just the columns required for the next step in my workflow. What Galaxy tool can cut out columns?
   - Tools: Cut1
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q013** — Which Galaxy tool should I use to run `Regex Find And Replace`?
+- **single-cell-bulk-music-2-preparescref-q013** — I have a text dataset and need to apply a regular-expression based find-and-replace across the whole file to clean up formatting. Which Galaxy tool can do regex replacement?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.2
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q014** — Which Galaxy tool should I use to run `Add line to file`?
+- **single-cell-bulk-music-2-preparescref-q014** — I need to add a header line or a fixed line to the beginning of a text/tabular dataset so downstream tools recognize the columns. Which Galaxy tool can add a line to a file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/add_line_to_file/add_line_to_file/0.1.0
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q015** — Which Galaxy tool should I use to run `Join two Datasets`?
+- **single-cell-bulk-music-2-preparescref-q015** — I have two tabular files with a shared key and want to join them into one table to add annotations. Which Galaxy tool should I use to join tables?
   - Tools: join1
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q016** — What Galaxy tool should I run for `Advanced Cut`?
+- **single-cell-bulk-music-2-preparescref-q016** — I want to keep only the ID and a few measurement columns from a large table by selecting columns. What Galaxy tool can extract those columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q017** — Which Galaxy tool would you recommend to perform `scanpy_read_10x`?
+- **single-cell-bulk-music-2-preparescref-q017** — I have 10x Genomics single-cell count matrices and want to read them into an AnnData object for downstream Scanpy-style analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.9.3+galaxy0
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q018** — What Galaxy tool should I run for `Inspect AnnData`?
+- **single-cell-bulk-music-2-preparescref-q018** — I have an AnnData object and want to inspect its dimensions, metadata fields, and available layers before analysis. Which Galaxy tool can inspect AnnData?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q019** — Which Galaxy tool would you recommend to perform `datamash_transpose`?
+- **single-cell-bulk-music-2-preparescref-q019** — I have a tabular matrix and need to transpose rows and columns to match the expected input orientation for downstream tools. Which Galaxy tool can transpose a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0+galaxy2
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q020** — Which Galaxy tool would you recommend to perform `music_construct_eset`?
+- **single-cell-bulk-music-2-preparescref-q020** — I’m working with gene expression data and need to create an analysis container that stores counts and sample annotations together. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q021** — What Galaxy tool should I run for `Manipulate Expression Set Object`?
+- **single-cell-bulk-music-2-preparescref-q021** — I have an expression analysis object and need to subset it (for example, keep a subset of samples or genes) before running deconvolution. Which Galaxy tool can manipulate this object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_manipulate_eset/music_manipulate_eset/0.1.1+galaxy4
   - Datasets: (see source)
-- **single-cell-bulk-music-2-preparescref-q022** — Which Galaxy tool should I use to run `Text transformation`?
+- **single-cell-bulk-music-2-preparescref-q022** — I need to substitute one string for another in a text/table dataset as a preprocessing step. What Galaxy tool can do this replacement?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: (see source)
 
@@ -18045,22 +18045,22 @@ Questions:
 - Datasets (1): 7319173
 
 Questions:
-- **single-cell-bulk-music-3-preparebulk-q011** — Which Galaxy tool should I use to run `Advanced Cut`?
+- **single-cell-bulk-music-3-preparebulk-q011** — I need to split out specific columns from a results table and discard the rest. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - Datasets: 7319173
-- **single-cell-bulk-music-3-preparebulk-q012** — Which Galaxy tool should I use to run `Regex Find And Replace`?
+- **single-cell-bulk-music-3-preparebulk-q012** — I want to rewrite parts of each line using a regex rule to standardize a dataset before downstream tools. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.2
   - Datasets: 7319173
-- **single-cell-bulk-music-3-preparebulk-q013** — Which Galaxy tool would you recommend to perform `column_remove_by_header`?
+- **single-cell-bulk-music-3-preparebulk-q013** — I have a tabular dataset with many columns and want to remove certain columns by their header names while keeping the rest. Which Galaxy tool can drop columns by header?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 7319173
-- **single-cell-bulk-music-3-preparebulk-q014** — What Galaxy tool should I run for `Construct Expression Set Object`?
+- **single-cell-bulk-music-3-preparebulk-q014** — I want to prepare input data for cell type proportion estimation by constructing the required expression-set style object from my matrices. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_construct_eset/music_construct_eset/0.1.1+galaxy4
   - Datasets: 7319173
-- **single-cell-bulk-music-3-preparebulk-q015** — Which Galaxy tool should I use to run `Manipulate Expression Set Object`?
+- **single-cell-bulk-music-3-preparebulk-q015** — I want to filter or adjust an expression-set style dataset (e.g., remove low-quality samples) prior to downstream analysis. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_manipulate_eset/music_manipulate_eset/0.1.1+galaxy4
   - Datasets: 7319173
-- **single-cell-bulk-music-3-preparebulk-q016** — Which Galaxy tool would you recommend to perform `Text transformation`?
+- **single-cell-bulk-music-3-preparebulk-q016** — I want to apply a global find-and-replace to a dataset to standardize names and formatting. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 7319173
 
@@ -18070,16 +18070,16 @@ Questions:
 - Datasets (1): 7319925
 
 Questions:
-- **single-cell-bulk-music-4-compare-q011** — Which Galaxy tool would you recommend to perform `music_compare`?
+- **single-cell-bulk-music-4-compare-q011** — I estimated cell type proportions for multiple samples and want to compare compositions between experimental groups and visualize differences. Which Galaxy tool can compare deconvolution results?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
   - Datasets: 7319925
-- **single-cell-bulk-music-4-compare-q012** — Which Galaxy tool would you recommend to perform `music_compare`?
+- **single-cell-bulk-music-4-compare-q012** — I have two sets of cell type fraction outputs and want a differential comparison between conditions to see which cell types change. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
   - Datasets: 7319925
-- **single-cell-bulk-music-4-compare-q013** — Which Galaxy tool compares MuSiC deconvolution outputs between runs?
+- **single-cell-bulk-music-4-compare-q013** — Which Galaxy tool compares cell type deconvolution outputs across samples or conditions and summarizes differences?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
   - Datasets: 7319925
-- **single-cell-bulk-music-4-compare-q014** — Which Galaxy tool would you recommend to perform `music_compare`?
+- **single-cell-bulk-music-4-compare-q014** — In Galaxy, what tool should I run to compare estimated cell type proportions between groups?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/music_compare/music_compare/0.1.1+galaxy4
   - Datasets: 7319925
 
@@ -18089,52 +18089,52 @@ Questions:
 - Datasets (1): 15275834
 
 Questions:
-- **single-cell-pseudobulk-analysis-q011** — What Galaxy tool should I run for `Inspect AnnData`?
+- **single-cell-pseudobulk-analysis-q011** — I need to sanity-check an AnnData dataset and view the number of cells, genes, and annotations it contains. What Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q012** — What Galaxy tool should I run for `Decoupler pseudo-bulk`?
+- **single-cell-pseudobulk-analysis-q012** — I have single-cell expression data and want to create pseudobulk profiles by aggregating counts per sample and cell type for differential expression. Which Galaxy tool can generate pseudobulk profiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/decoupler_pseudobulk/decoupler_pseudobulk/1.4.0+galaxy9, toolshed.g2.bx.psu.edu/repos/ebi-gxa/decoupler_pseudobulk/decoupler_pseudobulk/1.4.0+galaxy8
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q013** — What Galaxy tool should I run for `Replace Text`?
+- **single-cell-pseudobulk-analysis-q013** — I have a text dataset with inconsistent formatting and need to replace a recurring substring across all lines to standardize it. Which Galaxy tool can do a line-wise find-and-replace?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q014** — What Galaxy tool should I run for `Remove columns`?
+- **single-cell-pseudobulk-analysis-q014** — I need to delete unwanted columns from a table based on column names (headers) to create a clean dataset. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q015** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
+- **single-cell-pseudobulk-analysis-q015** — I have a table with an identifier column that needs standardized values (for example, remove a prefix) without touching other columns. Which Galaxy tool can replace text within one column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.3+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q016** — What Galaxy tool should I run for `Text Reformatting`?
+- **single-cell-pseudobulk-analysis-q016** — I have a tabular dataset and want to compute a new column or reformat fields using an awk-style expression. Which Galaxy tool can apply awk-like transformations?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.3+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q017** — What Galaxy tool should I run for `edgeR`?
+- **single-cell-pseudobulk-analysis-q017** — I have a gene count matrix for two conditions and want differential expression analysis with fold changes and adjusted p-values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/edger/edger/3.36.0+galaxy7, toolshed.g2.bx.psu.edu/repos/iuc/edger/edger/3.36.0+galaxy5
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q018** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **single-cell-pseudobulk-analysis-q018** — I have a dataset stored inside a collection and need to extract a specific element as a standalone dataset for a tool that does not accept collections. Which Galaxy tool can extract a dataset from a collection?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q019** — What Galaxy tool should I run for `Volcano Plot`?
+- **single-cell-pseudobulk-analysis-q019** — I have differential expression results with log fold changes and p-values and want a volcano plot to visualize significant genes. Which Galaxy tool can make a volcano plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.6
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q020** — What Galaxy tool should I run for `Scanpy filter`?
+- **single-cell-pseudobulk-analysis-q020** — I have a single-cell AnnData dataset and want to filter low-quality cells and lowly expressed genes based on QC metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q021** — I need a tool that can perform `Manipulate AnnData`.Which Galaxy tool would you recommend?
+- **single-cell-pseudobulk-analysis-q021** — I have an AnnData object and need to subset or modify it (for example, filter cells/genes or update annotations) before downstream analysis. Which Galaxy tool can manipulate AnnData?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q022** — Which Galaxy tool should I use to run `Replace Text: Sample Metadata Step`?
+- **single-cell-pseudobulk-analysis-q022** — I need to remove or replace a specific token that appears in many lines of a text file without changing the rest of the content. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q023** — Which Galaxy tool would you recommend to perform `Replace Text: Count Matrix`?
+- **single-cell-pseudobulk-analysis-q023** — I have a table exported from another system and want to replace delimiters or tags throughout the file to make it compatible with downstream tools. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q024** — Which Galaxy tool would you recommend to perform `Replace Text: Creating Factor File`?
+- **single-cell-pseudobulk-analysis-q024** — I want to clean a text file by replacing one pattern with another across the whole dataset. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q025** — What Galaxy tool should I run for `Remove Columns: Gene Metadata`?
+- **single-cell-pseudobulk-analysis-q025** — I want to remove metadata columns from a tabular file by specifying header names and keep only the data columns. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 15275834
-- **single-cell-pseudobulk-analysis-q026** — Which Galaxy tool should I use to run `Text Reformatting: Creating a Contrast File for edgeR`?
+- **single-cell-pseudobulk-analysis-q026** — I need to extract and transform fields from a table using a simple scripting expression, producing a new table. What Galaxy tool can do an awk-style operation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.3+galaxy1
   - Datasets: 15275834
 
@@ -18144,7 +18144,7 @@ Questions:
 - Datasets (1): 8011681
 
 Questions:
-- **single-cell-scanpy_parameter_iterator-q011** — Which Galaxy tool should I use to run `Scanpy ParameterIterator`?
+- **single-cell-scanpy_parameter_iterator-q011** — I want to run the same single-cell analysis step multiple times with different run settings (for example, different filtering thresholds) and compare outcomes. Which Galaxy tool can automate those repeated runs?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_parameter_iterator/scanpy_parameter_iterator/0.0.1+galaxy9
   - Datasets: 8011681
 - **single-cell-scanpy_parameter_iterator-q012** — What Galaxy tool should I run for `Scanpy ComputeGraph`?
