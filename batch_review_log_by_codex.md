@@ -206,9 +206,9 @@ Notes:
 - Summary:
   - Rewrote all queries to remove tool leakage and guide phrasing (no backticks, no tool names/IDs, no tutorial references, no dataset URLs/IDs in query text).
   - Balanced query styles to match your new target: **75 science-first / 75 tool-first** in this batch, and ensured the wording matches the labeled style.
-  - Normalized two non-stable core-tool IDs used in this batch to stable spellings:
-    - `Remove beginning1` → `Remove_beginning1`
-    - `Show beginning1` → `Show_beginning1`
+  - Normalized legacy core tool IDs to match usegalaxy.org API spellings:
+    - `Remove_beginning1` → `Remove beginning1`
+    - `Show_beginning1` → `Show beginning1`
   - Re-exported `data/benchmark/v1_items_readable.md`.
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 901 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Cut1/Filter1/Count1/join1/cat1/wc_gnu`).
@@ -220,12 +220,24 @@ Notes:
 - Summary:
   - Rewrote all queries to remove tool leakage and templated placeholders (no backticks, no tool names/IDs, no tutorial references, no `{{...}}` placeholders, no dataset URLs/IDs in query text).
   - Balanced query styles to your target: **75 science-first / 75 tool-first** in this batch, with wording matched to `metadata.query_type`.
-  - Normalized non-stable core-tool spellings used in this range:
-    - `Remove beginning1` → `Remove_beginning1`
-    - `Show beginning1` → `Show_beginning1`
+  - Normalized legacy core tool ID spellings to match usegalaxy.org API:
+    - `Remove_beginning1` → `Remove beginning1`
+    - `Show_beginning1` → `Show beginning1`
   - Re-exported `data/benchmark/v1_items_readable.md`.
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1051 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Cut/Filter/Count/join/cat/wc, etc.).
+
+## Batch A0009 (1201–1350)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 1201–1350 (digital humanities: OpenRefine + Chinese text mining; ecology: ENA Biodiv submission steps + ecoregionalization workflow utilities)
+- Summary:
+  - Rewrote queries that were template-like (e.g., “perform `tool_id`”) into Galaxy-user questions describing the intent, without naming tool IDs or tutorials/guides.
+  - Kept query-style balance close to your target (final split in this batch: 74 science-first / 76 tool-first) and ensured wording matches `metadata.query_type`.
+  - Confirmed that some legacy Galaxy core tool IDs include spaces on usegalaxy.org (e.g., `Remove beginning1`, `Show beginning1`), updated the checker to accept them, and normalized the dataset to those spellings.
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1201 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Cut1`, `Paste1`, `mergeCols1`).
 
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)

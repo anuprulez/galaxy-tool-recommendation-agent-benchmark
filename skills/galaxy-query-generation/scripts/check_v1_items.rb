@@ -15,7 +15,9 @@ def stable_tool_id?(v)
   return true if v.match?(/^__\w+__$/)
   # Galaxy core tool ids (e.g., Cut1, Filter1, Grep1) are stable enough for this benchmark,
   # but should be treated as a warning rather than an error by the caller.
-  return true if v.match?(/^[A-Za-z0-9_]+$/)
+  #
+  # Note: some legacy core tool ids include spaces (e.g. "Remove beginning1", "Show beginning1").
+  return true if v.match?(/^[A-Za-z0-9_]+( [A-Za-z0-9_]+)*$/)
   false
 end
 
