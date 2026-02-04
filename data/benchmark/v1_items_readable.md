@@ -7253,208 +7253,208 @@ Questions:
 - **epigenetics-formation_of_super-structures_on_xi-q014** — What tool should I use in Galaxy to produce a read QC report I can review before proceeding?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q015** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-formation_of_super-structures_on_xi-q015** — I’m worried adapter contamination is adding noise to my downstream enrichment analysis, so I want to clean my raw reads by removing adapters and low-quality bases. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q016** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-formation_of_super-structures_on_xi-q016** — My chromatin-assay sequencing data has poor quality at the ends, and I want to reduce artifacts by trimming adapters and low-quality bases. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q017** — Which Galaxy tool runs Trim Galore for adapter trimming?
+- **epigenetics-formation_of_super-structures_on_xi-q017** — I have paired-end sequencing reads with adapter contamination and want to trim adapters and low-quality tails before alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q018** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **epigenetics-formation_of_super-structures_on_xi-q018** — My raw reads still contain adapters; I want an adapter plus quality trimming step that outputs cleaned reads for mapping. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q019** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-formation_of_super-structures_on_xi-q019** — I suspect many reads are mapping to the wrong contigs and want per-chromosome mapping statistics from my alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q020** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-formation_of_super-structures_on_xi-q020** — Before interpreting signal on the X chromosome, I want to check how many reads map to each reference sequence in my alignment. What Galaxy tool can generate those stats?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q021** — Which Galaxy tool provides samtools idxstats output from a BAM?
+- **epigenetics-formation_of_super-structures_on_xi-q021** — I need a quick table of mapped and unmapped reads per reference sequence from a BAM alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q022** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-formation_of_super-structures_on_xi-q022** — Which Galaxy tool reports per-contig alignment counts from a BAM so I can see where reads are mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q023** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **epigenetics-formation_of_super-structures_on_xi-q023** — To visually compare enrichment across the genome, I want a smooth coverage signal track derived from my alignments. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q024** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **epigenetics-formation_of_super-structures_on_xi-q024** — I want to inspect signal distribution along the X chromosome in a genome browser by converting alignments into a browsable coverage track. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q025** — Which Galaxy tool creates coverage tracks from BAM files for visualization?
+- **epigenetics-formation_of_super-structures_on_xi-q025** — Which Galaxy tool can turn BAM alignments into a normalized coverage track for genome browsing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q026** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **epigenetics-formation_of_super-structures_on_xi-q026** — I need to create a coverage signal track from alignments (with normalization options) so I can visualize enrichment. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q027** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-formation_of_super-structures_on_xi-q027** — My replicate looks noisy, so I want a QC plot that tells me whether there is real enrichment over background in my alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q028** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-formation_of_super-structures_on_xi-q028** — Before calling peaks, I need a QC plot to assess whether my chromatin assay shows strong enrichment. Which Galaxy tool can generate that fingerprint-type plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q029** — Which Galaxy tool generates a deepTools fingerprint plot?
+- **epigenetics-formation_of_super-structures_on_xi-q029** — Which Galaxy tool generates a fingerprint-style QC plot from alignments to assess enrichment versus background?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q030** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-formation_of_super-structures_on_xi-q030** — I want a QC plot that summarizes genome-wide enrichment from an alignment dataset. What Galaxy tool can generate a fingerprint plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q031** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-formation_of_super-structures_on_xi-q031** — I want to see where enrichment differs between a treatment and control sample across the genome as a continuous signal track. Which Galaxy tool can do this comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q032** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-formation_of_super-structures_on_xi-q032** — To highlight sample-specific signal, I want to compare two alignment datasets and generate a differential coverage track. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q033** — Which Galaxy tool compares two BAM files to produce a signal track?
+- **epigenetics-formation_of_super-structures_on_xi-q033** — I need a log2 fold-change style coverage track by comparing two alignment datasets (treatment versus control). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q034** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-formation_of_super-structures_on_xi-q034** — Which Galaxy tool computes a ratio or difference signal track from two BAM alignment files so I can visualize enrichment changes?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q035** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-formation_of_super-structures_on_xi-q035** — I’m trying to identify binding sites or enriched regions from my chromatin immunoprecipitation style data. Which Galaxy tool should I use to detect peaks?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q036** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-formation_of_super-structures_on_xi-q036** — To map regions of significant enrichment on the X chromosome, I need a peak caller for my aligned reads. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q037** — Which Galaxy tool runs MACS2 callpeak on ChIP-seq data?
+- **epigenetics-formation_of_super-structures_on_xi-q037** — I need to identify enriched binding regions from aligned reads and output a peak interval list with scores. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q038** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-formation_of_super-structures_on_xi-q038** — Which Galaxy tool calls peaks from ChIP-like alignments and produces a BED-like set of enriched regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q039** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-formation_of_super-structures_on_xi-q039** — To assess replicate consistency and sample relationships, I want a genome-wide summary matrix of signal across multiple BAM files. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q040** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-formation_of_super-structures_on_xi-q040** — I need to quantify how similar my samples are genome-wide based on their alignment signal. Which Galaxy tool can compute a multi-sample coverage matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q041** — Which Galaxy tool creates a multiBamSummary matrix?
+- **epigenetics-formation_of_super-structures_on_xi-q041** — I want a matrix of read coverage across bins for several samples so I can compare them later. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q042** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-formation_of_super-structures_on_xi-q042** — Which Galaxy tool summarizes signal from multiple BAM files into a single matrix that can be used for correlation or PCA?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q043** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-formation_of_super-structures_on_xi-q043** — Before I can call peaks on the X chromosome, I need reliable genome alignments for my reads. Which Galaxy tool should I use for read mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q044** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-formation_of_super-structures_on_xi-q044** — I’m trying to locate where my sequencing reads originate in the genome so I can analyze enrichment patterns. Which Galaxy tool should I run for alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q045** — Which Galaxy tool runs Bowtie2 for ChIP-seq read alignment?
+- **epigenetics-formation_of_super-structures_on_xi-q045** — Which Galaxy tool should I use to align short sequencing reads to a reference genome and produce alignments for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q046** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-formation_of_super-structures_on_xi-q046** — I need to map paired-end reads to a reference genome and generate an alignment dataset. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q047** — Which Galaxy tool would you recommend to perform `cat1`?
+- **epigenetics-formation_of_super-structures_on_xi-q047** — I have results split across multiple parts and need one combined dataset to continue analysis. Which Galaxy tool can join them end-to-end?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q048** — Which Galaxy tool would you recommend to perform `cat1`?
+- **epigenetics-formation_of_super-structures_on_xi-q048** — My workflow produced several chunks of output and I want a single dataset without changing the content. Which Galaxy tool should I use to combine them?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q049** — Which Galaxy tool concatenates datasets into one file?
+- **epigenetics-formation_of_super-structures_on_xi-q049** — Which Galaxy tool concatenates multiple datasets into a single combined dataset?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q050** — Which Galaxy tool would you recommend to perform `cat1`?
+- **epigenetics-formation_of_super-structures_on_xi-q050** — I want to append several text datasets end-to-end into one output dataset. What Galaxy tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q051** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-formation_of_super-structures_on_xi-q051** — I want to see whether replicates cluster together based on genome-wide signal using a correlation heatmap. Which Galaxy tool can produce that plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q052** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-formation_of_super-structures_on_xi-q052** — To diagnose batch effects between samples, I want a correlation plot based on genome-wide coverage summaries. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q053** — Which Galaxy tool plots correlations from multiBamSummary output?
+- **epigenetics-formation_of_super-structures_on_xi-q053** — I have a multi-sample coverage summary matrix and want a sample-to-sample correlation visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q054** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-formation_of_super-structures_on_xi-q054** — Which Galaxy tool creates a correlation heatmap or scatter plot from a coverage summary matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q055** — Which Galaxy tool would you recommend to perform `bedtools_sortbed`?
+- **epigenetics-formation_of_super-structures_on_xi-q055** — My interval list is out of order and some downstream steps complain; which Galaxy tool can sort genomic intervals correctly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q056** — Which Galaxy tool would you recommend to perform `bedtools_sortbed`?
+- **epigenetics-formation_of_super-structures_on_xi-q056** — Before merging regions or extracting sequences, I want my genomic intervals in consistent coordinate order. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q057** — Which Galaxy tool sorts BED files by chromosomal position?
+- **epigenetics-formation_of_super-structures_on_xi-q057** — I need to sort a BED-like interval list by chromosome and coordinate. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q058** — Which Galaxy tool would you recommend to perform `bedtools_sortbed`?
+- **epigenetics-formation_of_super-structures_on_xi-q058** — Which Galaxy tool sorts genomic intervals so downstream tools accept the dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q059** — Which Galaxy tool would you recommend to perform `bedtools_mergebed`?
+- **epigenetics-formation_of_super-structures_on_xi-q059** — My called peaks overlap heavily and I want a non-redundant set of regions for downstream analysis. Which Galaxy tool should I use to merge them?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q060** — Which Galaxy tool would you recommend to perform `bedtools_mergebed`?
+- **epigenetics-formation_of_super-structures_on_xi-q060** — To simplify an interval set before extracting sequences, I want to merge overlapping regions into single blocks. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q061** — Which Galaxy tool merges overlapping or nearby BED intervals?
+- **epigenetics-formation_of_super-structures_on_xi-q061** — I need to collapse overlapping genomic intervals into merged regions. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q062** — Which Galaxy tool would you recommend to perform `bedtools_mergebed`?
+- **epigenetics-formation_of_super-structures_on_xi-q062** — Which Galaxy tool merges overlapping or adjacent BED intervals into a non-redundant set of regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.31.1+galaxy2
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q063** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-formation_of_super-structures_on_xi-q063** — I want to compare signal enrichment around a set of peaks across samples and need a matrix suitable for heatmaps and profiles. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q064** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-formation_of_super-structures_on_xi-q064** — To see how signal changes around genomic landmarks like peak centers or promoters, I need a binned matrix of coverage values. Which Galaxy tool can generate that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q065** — Which Galaxy tool runs deepTools computeMatrix for bigWig tracks?
+- **epigenetics-formation_of_super-structures_on_xi-q065** — I have a signal track and a set of regions and want a matrix of signal around each region for plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q066** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-formation_of_super-structures_on_xi-q066** — Which Galaxy tool computes a signal matrix over genomic regions so I can make heatmaps or profile plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q067** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-formation_of_super-structures_on_xi-q067** — I want a heatmap showing signal intensity around peaks across samples. Which Galaxy tool can turn a computed matrix into a heatmap?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q068** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-formation_of_super-structures_on_xi-q068** — To visually compare signal patterns around genomic regions, I need a heatmap from my matrix output. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q069** — Which Galaxy tool produces a heatmap from a deepTools matrix?
+- **epigenetics-formation_of_super-structures_on_xi-q069** — I have a region-by-bin signal matrix and want a heatmap visualization (optionally clustered). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q070** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-formation_of_super-structures_on_xi-q070** — Which Galaxy tool plots a heatmap from a precomputed signal matrix over genomic regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q071** — Which Galaxy tool would you recommend to perform `bbgtobigwig`?
+- **epigenetics-formation_of_super-structures_on_xi-q071** — I want to view my coverage signal efficiently in a genome browser, so I need a BigWig track derived from a bedGraph signal dataset. Which Galaxy tool can create that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bbgbigwig/bbgtobigwig/0.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q072** — Which Galaxy tool would you recommend to perform `bbgtobigwig`?
+- **epigenetics-formation_of_super-structures_on_xi-q072** — To inspect signal across long genomic regions without huge files, I want to convert a bedGraph coverage track into BigWig. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bbgbigwig/bbgtobigwig/0.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q073** — Which Galaxy tool converts bedGraph to bigWig?
+- **epigenetics-formation_of_super-structures_on_xi-q073** — I need to transform a bedGraph-style signal dataset into a BigWig track so I can visualize it efficiently. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bbgbigwig/bbgtobigwig/0.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q074** — Which Galaxy tool would you recommend to perform `bbgtobigwig`?
+- **epigenetics-formation_of_super-structures_on_xi-q074** — Which Galaxy tool converts a bedGraph coverage track into BigWig format for browsing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bbgbigwig/bbgtobigwig/0.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q075** — Which Galaxy tool would you recommend to perform `jbrowse2`?
+- **epigenetics-formation_of_super-structures_on_xi-q075** — I need to inspect candidate binding regions on the X chromosome by browsing alignments and signal tracks. Which Galaxy tool provides an interactive genome browser?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q076** — Which Galaxy tool would you recommend to perform `jbrowse2`?
+- **epigenetics-formation_of_super-structures_on_xi-q076** — To sanity-check peaks and signal around a locus, I want an in-Galaxy genome browser for track visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q077** — Which Galaxy tool opens a JBrowse2 browser for genomic tracks?
+- **epigenetics-formation_of_super-structures_on_xi-q077** — I want to view alignments and signal tracks interactively in a genome browser inside Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q078** — Which Galaxy tool would you recommend to perform `jbrowse2`?
+- **epigenetics-formation_of_super-structures_on_xi-q078** — Which Galaxy tool lets me visualize genomic tracks and annotations interactively like a genome browser?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/2.13.0+galaxy0
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q079** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **epigenetics-formation_of_super-structures_on_xi-q079** — I want to focus on high-confidence regions by filtering my interval table using score or annotation columns. Which Galaxy tool can filter rows based on rules?
   - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q080** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **epigenetics-formation_of_super-structures_on_xi-q080** — To remove low-quality entries from a results table before downstream plotting, I need a row-filtering step. Which Galaxy tool should I use?
   - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q081** — Which Galaxy tool filters tabular rows using a simple expression?
+- **epigenetics-formation_of_super-structures_on_xi-q081** — I need to keep only rows that match certain criteria from a tabular dataset. Which Galaxy tool should I use for row filtering?
   - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
-- **epigenetics-formation_of_super-structures_on_xi-q082** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **epigenetics-formation_of_super-structures_on_xi-q082** — Which Galaxy tool filters lines from a text or table dataset based on a condition or pattern match?
   - Tools: Filter1, toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 1324070
 
@@ -7464,136 +7464,136 @@ Questions:
 - Datasets (1): zenodo.16416373
 
 Questions:
-- **epigenetics-hicexplorer-q011** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-hicexplorer-q011** — To study chromatin structure, I need to map my read pairs to the reference genome as a first step. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q012** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-hicexplorer-q012** — I’m comparing samples and need consistent read mapping to the reference genome before building downstream matrices. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q013** — Which Galaxy tool runs Bowtie2 for mapping Hi-C reads?
+- **epigenetics-hicexplorer-q013** — What Galaxy tool performs fast gapped alignment of short reads to a genome so I can produce a BAM for later steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q014** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **epigenetics-hicexplorer-q014** — I want to align reads from a chromatin assay to a reference genome so I can proceed to peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q015** — Which Galaxy tool would you recommend to perform `hicexplorer_hicfindrestrictionsites`?
+- **epigenetics-hicexplorer-q015** — For my Hi-C analysis, I need genomic coordinates of restriction sites to define fragments. Which Galaxy tool can compute those positions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindrestrictionsites/hicexplorer_hicfindrestrictionsites/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q016** — Which Galaxy tool would you recommend to perform `hicexplorer_hicfindrestrictionsites`?
+- **epigenetics-hicexplorer-q016** — To interpret Hi-C contacts at fragment resolution, I need restriction site coordinates along the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindrestrictionsites/hicexplorer_hicfindrestrictionsites/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q017** — Which Galaxy tool runs HiCExplorer hicFindRestrictionSites?
+- **epigenetics-hicexplorer-q017** — I need a list of restriction enzyme cut sites in a reference genome for Hi-C processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindrestrictionsites/hicexplorer_hicfindrestrictionsites/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q018** — Which Galaxy tool would you recommend to perform `hicexplorer_hicfindrestrictionsites`?
+- **epigenetics-hicexplorer-q018** — Which Galaxy tool finds restriction enzyme recognition sites in a genome and outputs their coordinates?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindrestrictionsites/hicexplorer_hicfindrestrictionsites/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q019** — Which Galaxy tool would you recommend to perform `hicexplorer_hicinfo`?
+- **epigenetics-hicexplorer-q019** — Before structural analysis, I want to sanity-check my Hi-C contact matrix and get basic statistics. Which Galaxy tool provides that report?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicinfo/hicexplorer_hicinfo/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q020** — Which Galaxy tool would you recommend to perform `hicexplorer_hicinfo`?
+- **epigenetics-hicexplorer-q020** — I need to understand whether my interaction matrix looks reasonable (coverage, sparsity, resolution) before proceeding. Which Galaxy tool can summarize it?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicinfo/hicexplorer_hicinfo/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q021** — Which Galaxy tool reports information about a HiCExplorer matrix?
+- **epigenetics-hicexplorer-q021** — I need a quick report describing a Hi-C matrix (size, resolution, counts, and other basic stats). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicinfo/hicexplorer_hicinfo/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q022** — Which Galaxy tool would you recommend to perform `hicexplorer_hicinfo`?
+- **epigenetics-hicexplorer-q022** — Which Galaxy tool reports summary statistics and metadata for a Hi-C contact matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicinfo/hicexplorer_hicinfo/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q023** — Which Galaxy tool would you recommend to perform `hicexplorer_hicdetectloops`?
+- **epigenetics-hicexplorer-q023** — I’m looking for specific long-range chromatin loops in my Hi-C data. Which Galaxy tool can detect loops from the contact matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicdetectloops/hicexplorer_hicdetectloops/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q024** — Which Galaxy tool would you recommend to perform `hicexplorer_hicdetectloops`?
+- **epigenetics-hicexplorer-q024** — To identify focal contact enrichments that suggest looping, I need a loop-calling step on my Hi-C matrix. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicdetectloops/hicexplorer_hicdetectloops/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q025** — Which Galaxy tool runs HiCExplorer hicDetectLoops?
+- **epigenetics-hicexplorer-q025** — I want to call significant looping interactions from a Hi-C contact matrix and output loop coordinates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicdetectloops/hicexplorer_hicdetectloops/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q026** — Which Galaxy tool would you recommend to perform `hicexplorer_hicdetectloops`?
+- **epigenetics-hicexplorer-q026** — Which Galaxy tool detects chromatin loops from a Hi-C matrix and produces a list of loop anchors?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicdetectloops/hicexplorer_hicdetectloops/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q027** — Which Galaxy tool would you recommend to perform `hicexplorer_hicpca`?
+- **epigenetics-hicexplorer-q027** — I want to infer large-scale A/B compartments from my Hi-C data using a PCA-style approach. Which Galaxy tool can do this on the contact matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicpca/hicexplorer_hicpca/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q028** — Which Galaxy tool would you recommend to perform `hicexplorer_hicpca`?
+- **epigenetics-hicexplorer-q028** — To capture compartment structure from the Hi-C interaction matrix, I need PCA results. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicpca/hicexplorer_hicpca/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q029** — Which Galaxy tool runs HiCExplorer hicPCA?
+- **epigenetics-hicexplorer-q029** — I need principal components from a Hi-C matrix for compartment analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicpca/hicexplorer_hicpca/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q030** — Which Galaxy tool would you recommend to perform `hicexplorer_hicpca`?
+- **epigenetics-hicexplorer-q030** — Which Galaxy tool runs PCA-like decomposition on a Hi-C contact matrix to infer compartments?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicpca/hicexplorer_hicpca/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q031** — Which Galaxy tool would you recommend to perform `hicexplorer_hicfindtads`?
+- **epigenetics-hicexplorer-q031** — I want to identify domain boundaries (TADs) in my Hi-C data to study genome organization. Which Galaxy tool can compute TADs from the matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindtads/hicexplorer_hicfindtads/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q032** — Which Galaxy tool would you recommend to perform `hicexplorer_hicfindtads`?
+- **epigenetics-hicexplorer-q032** — To compare chromatin domain structure between samples, I need TAD calls from a Hi-C matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindtads/hicexplorer_hicfindtads/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q033** — Which Galaxy tool runs HiCExplorer hicFindTADs?
+- **epigenetics-hicexplorer-q033** — I need to segment a Hi-C contact map into topological domains and get boundary coordinates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindtads/hicexplorer_hicfindtads/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q034** — Which Galaxy tool would you recommend to perform `hicexplorer_hicfindtads`?
+- **epigenetics-hicexplorer-q034** — Which Galaxy tool finds topologically associating domains from a Hi-C contact matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicfindtads/hicexplorer_hicfindtads/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q035** — Which Galaxy tool would you recommend to perform `hicexplorer_hicbuildmatrix`?
+- **epigenetics-hicexplorer-q035** — I want to analyze 3D chromatin contacts and need an interaction matrix derived from my mapped Hi-C data. Which Galaxy tool can build that matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicbuildmatrix/hicexplorer_hicbuildmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q036** — Which Galaxy tool would you recommend to perform `hicexplorer_hicbuildmatrix`?
+- **epigenetics-hicexplorer-q036** — To study chromatin folding, I need to convert mapped Hi-C pairs into a contact matrix at a chosen resolution. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicbuildmatrix/hicexplorer_hicbuildmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q037** — Which Galaxy tool runs HiCExplorer hicBuildMatrix?
+- **epigenetics-hicexplorer-q037** — I have mapped Hi-C read pairs and need to construct a binned interaction matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicbuildmatrix/hicexplorer_hicbuildmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q038** — Which Galaxy tool would you recommend to perform `hicexplorer_hicbuildmatrix`?
+- **epigenetics-hicexplorer-q038** — Which Galaxy tool builds a Hi-C contact matrix from mapped read pairs?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicbuildmatrix/hicexplorer_hicbuildmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q039** — Which Galaxy tool would you recommend to perform `hicexplorer_hicplotmatrix`?
+- **epigenetics-hicexplorer-q039** — I want to visually inspect contact patterns and potential artifacts in my Hi-C matrix using a heatmap. Which Galaxy tool can plot it?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicplotmatrix/hicexplorer_hicplotmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q040** — Which Galaxy tool would you recommend to perform `hicexplorer_hicplotmatrix`?
+- **epigenetics-hicexplorer-q040** — To show interaction intensity across a genomic region, I need a matrix heatmap plot from my Hi-C data. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicplotmatrix/hicexplorer_hicplotmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q041** — Which Galaxy tool plots Hi-C matrices using HiCExplorer?
+- **epigenetics-hicexplorer-q041** — I need a heatmap visualization of my Hi-C interaction matrix for QC or presentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicplotmatrix/hicexplorer_hicplotmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q042** — Which Galaxy tool would you recommend to perform `hicexplorer_hicplotmatrix`?
+- **epigenetics-hicexplorer-q042** — Which Galaxy tool plots a Hi-C contact matrix as a heatmap for a selected genomic region?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicplotmatrix/hicexplorer_hicplotmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q043** — Which Galaxy tool would you recommend to perform `pygenomeTracks`?
+- **epigenetics-hicexplorer-q043** — I want a figure that overlays several genomic signals and annotations over the same locus. Which Galaxy tool can generate a stacked track plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q044** — Which Galaxy tool would you recommend to perform `pygenomeTracks`?
+- **epigenetics-hicexplorer-q044** — To illustrate a candidate structural feature, I need a multi-track plot across a genomic interval. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q045** — Which Galaxy tool runs pyGenomeTracks for composite genome track plots?
+- **epigenetics-hicexplorer-q045** — I want a publication-style track figure that stacks several signal tracks and annotations over a genomic region. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q046** — Which Galaxy tool would you recommend to perform `pygenomeTracks`?
+- **epigenetics-hicexplorer-q046** — Which Galaxy tool can plot multiple genomic tracks (signals and annotations) stacked along a chosen interval?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q047** — Which Galaxy tool would you recommend to perform `hicexplorer_hiccorrectmatrix`?
+- **epigenetics-hicexplorer-q047** — My Hi-C contact matrix shows strong coverage bias and I want a bias-corrected matrix for downstream analysis. Which Galaxy tool can normalize it?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hiccorrectmatrix/hicexplorer_hiccorrectmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q048** — Which Galaxy tool would you recommend to perform `hicexplorer_hiccorrectmatrix`?
+- **epigenetics-hicexplorer-q048** — To compare contact maps across samples fairly, I need a normalized interaction matrix. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hiccorrectmatrix/hicexplorer_hiccorrectmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q049** — Which Galaxy tool performs HiCExplorer hicCorrectMatrix?
+- **epigenetics-hicexplorer-q049** — I need to balance or normalize a Hi-C interaction matrix to correct biases before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hiccorrectmatrix/hicexplorer_hiccorrectmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q050** — Which Galaxy tool would you recommend to perform `hicexplorer_hiccorrectmatrix`?
+- **epigenetics-hicexplorer-q050** — Which Galaxy tool normalizes a Hi-C contact matrix so it can be compared fairly across bins?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hiccorrectmatrix/hicexplorer_hiccorrectmatrix/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q051** — Which Galaxy tool would you recommend to perform `hicexplorer_hicmergematrixbins`?
+- **epigenetics-hicexplorer-q051** — My Hi-C matrix is too sparse at high resolution, so I want a coarser matrix by merging bins. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicmergematrixbins/hicexplorer_hicmergematrixbins/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q052** — Which Galaxy tool would you recommend to perform `hicexplorer_hicmergematrixbins`?
+- **epigenetics-hicexplorer-q052** — To get a smoother contact map for visualization, I want to aggregate neighboring bins in the matrix. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicmergematrixbins/hicexplorer_hicmergematrixbins/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q053** — Which Galaxy tool runs HiCExplorer hicMergeMatrixBins?
+- **epigenetics-hicexplorer-q053** — I want to reduce the resolution of a Hi-C contact matrix by merging adjacent bins. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicmergematrixbins/hicexplorer_hicmergematrixbins/3.7.6+galaxy1
   - Datasets: zenodo.16416373
-- **epigenetics-hicexplorer-q054** — Which Galaxy tool would you recommend to perform `hicexplorer_hicmergematrixbins`?
+- **epigenetics-hicexplorer-q054** — Which Galaxy tool merges bins in a Hi-C matrix to create a coarser-resolution matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hicexplorer_hicmergematrixbins/hicexplorer_hicmergematrixbins/3.7.6+galaxy1
   - Datasets: zenodo.16416373
 
@@ -7603,118 +7603,118 @@ Questions:
 - Datasets (1): 557099
 
 Questions:
-- **epigenetics-methylation-seq-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-methylation-seq-q011** — Before analyzing methylation, I want to check whether my raw reads have quality issues or adapter contamination. Which Galaxy tool can produce a QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-methylation-seq-q012** — I’m seeing unexpected methylation patterns and want to rule out poor read quality first. Which Galaxy tool should I use for read QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q013** — Which Galaxy tool generates FastQC reports for raw reads?
+- **epigenetics-methylation-seq-q013** — I need a QC report for my raw sequencing reads (per-base quality, adapters, duplication, etc.). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-methylation-seq-q014** — Which Galaxy tool generates a standard read-quality report for raw sequencing reads before alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q015** — Which Galaxy tool would you recommend to perform `bwameth`?
+- **epigenetics-methylation-seq-q015** — To quantify methylation, I first need bisulfite-aware read alignment to the genome. Which Galaxy tool can map bisulfite reads correctly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwameth/bwameth/0.2.9+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q016** — Which Galaxy tool would you recommend to perform `bwameth`?
+- **epigenetics-methylation-seq-q016** — I’m analyzing bisulfite sequencing data and need an aligner that handles bisulfite conversions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwameth/bwameth/0.2.9+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q017** — Which Galaxy tool performs BWA-Meth alignment for methylation data?
+- **epigenetics-methylation-seq-q017** — I need to map bisulfite sequencing reads to a reference genome while accounting for bisulfite conversions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwameth/bwameth/0.2.9+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q018** — Which Galaxy tool would you recommend to perform `bwameth`?
+- **epigenetics-methylation-seq-q018** — Which Galaxy tool performs bisulfite-aware alignment of methylation sequencing reads to a genome and outputs alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwameth/bwameth/0.2.9+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q019** — Which Galaxy tool would you recommend to perform `replace_column_with_key_value_file`?
+- **epigenetics-methylation-seq-q019** — I want my methylation result tables to use consistent, readable labels by remapping IDs in one column using a mapping table. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q020** — Which Galaxy tool would you recommend to perform `replace_column_with_key_value_file`?
+- **epigenetics-methylation-seq-q020** — To harmonize identifiers across result tables, I need to replace IDs in a column via a key-value mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q021** — Which Galaxy tool replaces column values using a key/value file?
+- **epigenetics-methylation-seq-q021** — I want to recode one column in a tabular dataset using a key-to-value mapping table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q022** — Which Galaxy tool would you recommend to perform `replace_column_with_key_value_file`?
+- **epigenetics-methylation-seq-q022** — Which Galaxy tool replaces values in a selected table column based on a lookup file (key and replacement value)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q023** — Which Galaxy tool would you recommend to perform `metilene`?
+- **epigenetics-methylation-seq-q023** — I’m comparing methylation between conditions and want genomic regions that show significant methylation differences. Which Galaxy tool can find DMRs?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/metilene/metilene/0.2.6.1
   - Datasets: 557099
-- **epigenetics-methylation-seq-q024** — Which Galaxy tool would you recommend to perform `metilene`?
+- **epigenetics-methylation-seq-q024** — To detect regions with consistent methylation changes across samples, I need a DMR caller in Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/metilene/metilene/0.2.6.1
   - Datasets: 557099
-- **epigenetics-methylation-seq-q025** — Which Galaxy tool runs metilene for DMR detection?
+- **epigenetics-methylation-seq-q025** — I need to identify differentially methylated regions between two groups and output genomic regions with significance. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/metilene/metilene/0.2.6.1
   - Datasets: 557099
-- **epigenetics-methylation-seq-q026** — Which Galaxy tool would you recommend to perform `metilene`?
+- **epigenetics-methylation-seq-q026** — Which Galaxy tool calls differentially methylated regions from methylation measurements across samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/metilene/metilene/0.2.6.1
   - Datasets: 557099
-- **epigenetics-methylation-seq-q027** — Which Galaxy tool would you recommend to perform `pileometh`?
+- **epigenetics-methylation-seq-q027** — To interpret methylation patterns, I need per-base methylation percentages derived from my bisulfite alignments. Which Galaxy tool can compute those calls?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/pileometh/pileometh/0.5.2+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q028** — Which Galaxy tool would you recommend to perform `pileometh`?
+- **epigenetics-methylation-seq-q028** — I want to quantify methylation at cytosines across the genome from my aligned reads. Which Galaxy tool should I run to generate methylation call tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/pileometh/pileometh/0.5.2+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q029** — Which Galaxy tool runs pileometh for methylation calling?
+- **epigenetics-methylation-seq-q029** — I have bisulfite alignments and want per-cytosine methylation calls with coverage statistics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/pileometh/pileometh/0.5.2+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q030** — Which Galaxy tool would you recommend to perform `pileometh`?
+- **epigenetics-methylation-seq-q030** — Which Galaxy tool extracts methylation percentages per genomic position from bisulfite alignment datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/pileometh/pileometh/0.5.2+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q031** — Which Galaxy tool would you recommend to perform `tp_tail_tool`?
+- **epigenetics-methylation-seq-q031** — I’m sanity-checking a results table and want to quickly look at the final rows to ensure formatting looks right. Which Galaxy tool can show the last lines?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q032** — Which Galaxy tool would you recommend to perform `tp_tail_tool`?
+- **epigenetics-methylation-seq-q032** — To confirm my methylation results dataset finished correctly, I want to view the last few records. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q033** — Which Galaxy tool returns the last lines of a text file?
+- **epigenetics-methylation-seq-q033** — I want to preview the last N lines of a large text or tabular dataset without downloading it. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q034** — Which Galaxy tool would you recommend to perform `tp_tail_tool`?
+- **epigenetics-methylation-seq-q034** — Which Galaxy tool outputs the last few lines of a dataset for quick inspection?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q035** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-methylation-seq-q035** — I’m trying to visualize whether methylation or chromatin signal is enriched near specific regions and need the underlying matrix for plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q036** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-methylation-seq-q036** — I want to quantify signal patterns around regions before plotting, using the same bins across samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q037** — Which Galaxy tool runs deepTools computeMatrix for methylation tracks?
+- **epigenetics-methylation-seq-q037** — I need to summarize coverage around peaks or genes into a matrix for downstream visualization. What Galaxy tool can do this in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q038** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-methylation-seq-q038** — What Galaxy tool builds a per-region binned signal matrix (for example around peak centers) that can be plotted as a heatmap?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q039** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **epigenetics-methylation-seq-q039** — I want to derive summary columns from a methylation table (for example applying coverage thresholds) and filter it accordingly. Which Galaxy tool can do awk-like processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q040** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **epigenetics-methylation-seq-q040** — To reshape and compute fields in my results table without leaving Galaxy, I need an awk-style text processing step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q041** — Which Galaxy tool provides an awk-based table transformation?
+- **epigenetics-methylation-seq-q041** — I need to compute a new column and filter rows in a tabular dataset using awk-style expressions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q042** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **epigenetics-methylation-seq-q042** — Which Galaxy tool supports awk-like processing for column calculations and filtering on tabular data?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 557099
-- **epigenetics-methylation-seq-q043** — Which Galaxy tool would you recommend to perform `deeptools_plot_profile`?
+- **epigenetics-methylation-seq-q043** — I want an average signal or methylation profile around genomic regions to compare conditions. Which Galaxy tool can plot a profile from my matrix output?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_profile/deeptools_plot_profile/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q044** — Which Galaxy tool would you recommend to perform `deeptools_plot_profile`?
+- **epigenetics-methylation-seq-q044** — To summarize signal trends around promoters or peaks, I need a profile plot derived from my computed matrix. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_profile/deeptools_plot_profile/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q045** — Which Galaxy tool plots deepTools profiles from a matrix?
+- **epigenetics-methylation-seq-q045** — I have a binned signal matrix and want a line profile plot showing average signal versus position. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_profile/deeptools_plot_profile/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q046** — Which Galaxy tool would you recommend to perform `deeptools_plot_profile`?
+- **epigenetics-methylation-seq-q046** — Which Galaxy tool plots an average signal profile across regions from a computed matrix output?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_profile/deeptools_plot_profile/3.5.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q047** — Which Galaxy tool would you recommend to perform `falco`?
+- **epigenetics-methylation-seq-q047** — I’m screening many methylation-seq samples and want to quickly identify any with severe quality or adapter problems. Which Galaxy tool can generate fast QC reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q048** — Which Galaxy tool would you recommend to perform `falco`?
+- **epigenetics-methylation-seq-q048** — I have many raw read datasets and want a fast QC report for each sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
 - **epigenetics-methylation-seq-q049** — Which Galaxy tool runs Falco for read quality control?
