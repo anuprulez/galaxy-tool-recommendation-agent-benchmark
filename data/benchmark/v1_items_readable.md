@@ -5834,7 +5834,7 @@ Questions:
 - **ecology-ref-based-rad-seq-q014** — Which Galaxy tool should I use to run custom code that performs RAD-seq demultiplexing and produces cleaned per-sample FASTQ outputs?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q015** — I need to replace a substring in each line of a log or text file to label different parameter settings. Which Galaxy tool should I use?
+- **ecology-ref-based-rad-seq-q015** — I need to replace a substring in each line of a log or text file to label different run settings. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.1134547, 1134547
 - **ecology-ref-based-rad-seq-q016** — I want to do a simple search-and-replace across every line in a text file to standardize labels. Which Galaxy tool should I use?

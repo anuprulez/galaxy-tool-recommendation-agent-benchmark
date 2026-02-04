@@ -262,6 +262,17 @@ Notes:
 - Validation:
   - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1501 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Cut1`, `Filter1`, `CONVERTER_archive_to_directory`).
 
+## Batch A0012 (1651–1800)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 1651–1800 (ecology: phylogeny data prep; marine omics BGC; OBIS indicators; GBIF cleaning; RAD-seq follow-up utilities)
+- Summary:
+  - Preserved the batch’s near-parity balance (76 science-first / 74 tool-first).
+  - Fixed one query that falsely tripped the “configuration help” heuristic due to the word “parameters” (rewritten to “run settings” while keeping the intent and tool focus unchanged).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1651 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (e.g., `Filter1`, `Cut1`, `Count1`, `Summary_Statistics1`).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
