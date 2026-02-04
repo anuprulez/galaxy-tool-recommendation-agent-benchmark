@@ -10163,136 +10163,136 @@ Questions:
 - Datasets (1): zenodo.2579335
 
 Questions:
-- **genome-annotation-tnseq-q011** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **genome-annotation-tnseq-q011** — My sequencing reads contain adapter sequences and low-quality ends, and I want cleaned reads for downstream analysis. Which Galaxy tool should I use to trim them?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q012** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **genome-annotation-tnseq-q012** — I have FASTQ reads and need to remove adapters and optionally discard reads that become too short after trimming. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q013** — Which Galaxy tool runs Cutadapt for trimming reads?
+- **genome-annotation-tnseq-q013** — Which Galaxy tool can perform adapter/quality trimming on reads and output a cleaned FASTQ plus a trimming summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q014** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **genome-annotation-tnseq-q014** — In Galaxy, what tool should I run to trim adapters from sequencing reads before alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q015** — Which Galaxy tool would you recommend to perform `bg_find_subsequences`?
+- **genome-annotation-tnseq-q015** — I have sequencing reads and want to find reads containing a specific short DNA motif, then keep the matching reads for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/find_subsequences/bg_find_subsequences/0.2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q016** — Which Galaxy tool would you recommend to perform `bg_find_subsequences`?
+- **genome-annotation-tnseq-q016** — I need to scan sequences for the presence of a given subsequence (motif) and extract the matches with their positions or sequences. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/find_subsequences/bg_find_subsequences/0.2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q017** — Which Galaxy tool runs find_subsequences?
+- **genome-annotation-tnseq-q017** — Which Galaxy tool can search for a specified subsequence within reads/contigs and output the matching sequences or coordinates?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/find_subsequences/bg_find_subsequences/0.2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q018** — Which Galaxy tool would you recommend to perform `bg_find_subsequences`?
+- **genome-annotation-tnseq-q018** — In Galaxy, what tool should I run to filter sequences by whether they contain a particular motif?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/find_subsequences/bg_find_subsequences/0.2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q019** — Which Galaxy tool would you recommend to perform `gff_to_prot`?
+- **genome-annotation-tnseq-q019** — I have a genome FASTA and a GFF3 annotation with CDS features and want to translate the annotated coding regions into a protein FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q020** — Which Galaxy tool would you recommend to perform `gff_to_prot`?
+- **genome-annotation-tnseq-q020** — From my genome and annotation file, I need the predicted protein sequences derived from the CDS features. What Galaxy tool can extract and translate them?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q021** — Which Galaxy tool runs gff_to_prot?
+- **genome-annotation-tnseq-q021** — Which Galaxy tool can convert a genome annotation (GFF3) plus reference sequence into translated protein sequences for downstream searching?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q022** — Which Galaxy tool would you recommend to perform `gff_to_prot`?
+- **genome-annotation-tnseq-q022** — In Galaxy, what tool should I run to generate a protein FASTA from CDS annotations in a GFF3 file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q023** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **genome-annotation-tnseq-q023** — I have a tabular file with many columns and only need a few fields for the next step. Which Galaxy tool should I use to extract selected columns?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q024** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **genome-annotation-tnseq-q024** — My TSV contains extra columns I do not need, and I want to keep only specific columns to build a simpler table. What Galaxy tool can do column selection?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q025** — Which Galaxy tool cuts columns from a table?
+- **genome-annotation-tnseq-q025** — Which Galaxy tool can cut out specified columns from a tabular dataset and write a new reduced table?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q026** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **genome-annotation-tnseq-q026** — In Galaxy, what tool should I run to extract a subset of columns from a table while keeping all rows?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q027** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **genome-annotation-tnseq-q027** — I have a TSV and need to compute a new column from existing columns (e.g., combine fields or calculate a score) and append it to the table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q028** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **genome-annotation-tnseq-q028** — My dataset needs an extra derived column created from an expression using other columns. What Galaxy tool can add a calculated column?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q029** — Which Galaxy tool adds a calculated column to a table?
+- **genome-annotation-tnseq-q029** — Which Galaxy tool can create a new column in a tabular file using a formula based on existing columns and output the updated table?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q030** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **genome-annotation-tnseq-q030** — In Galaxy, what tool should I run to append a computed column to a TSV for downstream filtering and plotting?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q031** — Which Galaxy tool would you recommend to perform `bowtie_wrapper`?
+- **genome-annotation-tnseq-q031** — I have short DNA sequencing reads and a reference genome and want to align the reads to the reference to find mapping locations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q032** — Which Galaxy tool would you recommend to perform `bowtie_wrapper`?
+- **genome-annotation-tnseq-q032** — I need to map short reads to a reference index and produce an alignment file for downstream counting or visualization. What Galaxy tool can do this alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q033** — Which Galaxy tool runs Bowtie for read alignment?
+- **genome-annotation-tnseq-q033** — Which Galaxy tool can align short reads to a reference genome and output an alignment dataset suitable for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q034** — Which Galaxy tool would you recommend to perform `bowtie_wrapper`?
+- **genome-annotation-tnseq-q034** — In Galaxy, what tool should I run to perform fast short-read alignment against a reference genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q035** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **genome-annotation-tnseq-q035** — I have a BAM alignment file and want a genome-wide coverage track I can visualize as a signal profile along the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q036** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **genome-annotation-tnseq-q036** — From aligned reads, I need to compute a coverage signal track (with normalization options) for visualization in a genome browser. What Galaxy tool can generate that track?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q037** — Which Galaxy tool runs deepTools bamCoverage?
+- **genome-annotation-tnseq-q037** — Which Galaxy tool can convert a BAM alignment into a coverage track dataset for downstream visualization and comparison?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q038** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **genome-annotation-tnseq-q038** — In Galaxy, what tool should I run to compute a read-coverage signal from a BAM file for plotting and genome browsing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q039** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **genome-annotation-tnseq-q039** — I have two tabular files that share a key column and want to join them into a single combined table. Which Galaxy tool should I use to join the tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q040** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **genome-annotation-tnseq-q040** — I need to merge two TSV datasets by matching identifiers in a column and keeping selected fields from each. What Galaxy tool can do this join?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q041** — Which Galaxy tool performs an easy join on tables?
+- **genome-annotation-tnseq-q041** — Which Galaxy tool can perform an easy join between two tables on a chosen key column and output the merged rows?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q042** — Which Galaxy tool would you recommend to perform `tp_easyjoin_tool`?
+- **genome-annotation-tnseq-q042** — In Galaxy, what tool should I run to combine columns from two tabular datasets based on matching IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q043** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **genome-annotation-tnseq-q043** — I have a TSV with a header row and want to sort the rows by a specific column while keeping the header at the top. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q044** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **genome-annotation-tnseq-q044** — My table needs to be sorted for reproducible downstream analysis, but I must preserve the column header line. What Galaxy tool can sort while keeping the header?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q045** — Which Galaxy tool sorts tables while retaining the header?
+- **genome-annotation-tnseq-q045** — Which Galaxy tool can sort a tabular dataset by one or more columns without moving or losing the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q046** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **genome-annotation-tnseq-q046** — In Galaxy, what tool should I run to sort a TSV while retaining the header line?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q047** — Which Galaxy tool would you recommend to perform `transit_gumbel`?
+- **genome-annotation-tnseq-q047** — I have transposon insertion sequencing data and want to identify essential genes by analyzing insertion counts across the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/transit_gumbel/transit_gumbel/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q048** — Which Galaxy tool would you recommend to perform `transit_gumbel`?
+- **genome-annotation-tnseq-q048** — From Tn-seq insertion count data, I need a statistical method to call gene essentiality and output a ranked gene list. What Galaxy tool can do this analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/transit_gumbel/transit_gumbel/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q049** — Which Galaxy tool runs transit_gumbel?
+- **genome-annotation-tnseq-q049** — Which Galaxy tool can analyze Tn-seq insertion data to infer gene essentiality and produce gene-level statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/transit_gumbel/transit_gumbel/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q050** — Which Galaxy tool would you recommend to perform `transit_gumbel`?
+- **genome-annotation-tnseq-q050** — In Galaxy, what tool should I run to compute gene essentiality calls from transposon insertion sequencing results?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/transit_gumbel/transit_gumbel/3.2.3+galaxy0
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q051** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **genome-annotation-tnseq-q051** — I have a tabular results file and want to keep only rows that pass a logical condition (e.g., score threshold). Which Galaxy tool should I use to filter rows?
   - Tools: Filter1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q052** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **genome-annotation-tnseq-q052** — My TSV needs to be filtered by an expression on one or more columns to remove low-confidence entries. What Galaxy tool can do conditional row filtering?
   - Tools: Filter1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q053** — Which Galaxy tool filters tabular rows by a rule?
+- **genome-annotation-tnseq-q053** — Which Galaxy tool can filter a tabular dataset based on column values and output only rows that meet my criteria?
   - Tools: Filter1
   - Datasets: zenodo.2579335
-- **genome-annotation-tnseq-q054** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **genome-annotation-tnseq-q054** — In Galaxy, what tool should I run to apply rule-based filtering to a table?
   - Tools: Filter1
   - Datasets: zenodo.2579335
 
@@ -10302,100 +10302,100 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **imaging-2D-spot-detection-q011** — Which Galaxy tool would you recommend to perform `idr_download_by_ids`?
+- **imaging-2D-spot-detection-q011** — I want to import public microscopy images from the Image Data Resource into Galaxy by providing a list of image identifiers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-2D-spot-detection-q012** — Which Galaxy tool would you recommend to perform `idr_download_by_ids`?
+- **imaging-2D-spot-detection-q012** — I need to download microscopy image datasets from an external public repository into my Galaxy history using a list of IDs. What Galaxy tool can do this import?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-2D-spot-detection-q013** — Which Galaxy tool downloads IDR images by IDs?
+- **imaging-2D-spot-detection-q013** — Which Galaxy tool can fetch IDR microscopy images by identifier and add them as image datasets in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-2D-spot-detection-q014** — Which Galaxy tool would you recommend to perform `idr_download_by_ids`?
+- **imaging-2D-spot-detection-q014** — In Galaxy, what tool should I run to download microscopy images from IDR given a list of image IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-2D-spot-detection-q015** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-2D-spot-detection-q015** — I have a compressed ZIP archive containing image files and want to extract the contents into separate datasets in my Galaxy history. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q016** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-2D-spot-detection-q016** — I downloaded an archive of images and need to unpack it into individual files before running image analysis steps. What Galaxy tool can extract ZIP archives?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q017** — Which Galaxy tool unzips archives?
+- **imaging-2D-spot-detection-q017** — Which Galaxy tool can extract files from a ZIP archive and output the individual extracted datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q018** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-2D-spot-detection-q018** — In Galaxy, what tool should I run to unpack a ZIP archive so its files can be used as inputs to other tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q019** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-2D-spot-detection-q019** — I have microscopy images with uneven contrast and want to enhance contrast using histogram equalization before segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q020** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-2D-spot-detection-q020** — My images are too dim and I want to normalize/enhance the intensity distribution to improve downstream spot detection. What Galaxy tool can perform histogram equalization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q021** — Which Galaxy tool performs histogram equalization on images?
+- **imaging-2D-spot-detection-q021** — Which Galaxy tool can apply histogram equalization to 2D images to improve contrast and make features easier to detect?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q022** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-2D-spot-detection-q022** — In Galaxy, what tool should I run to enhance image contrast by equalizing the intensity histogram?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q023** — Which Galaxy tool would you recommend to perform `ip_spot_detection_2d`?
+- **imaging-2D-spot-detection-q023** — I have 2D fluorescence microscopy images and want to detect bright spots (puncta) and output their coordinates or a spot table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q024** — Which Galaxy tool would you recommend to perform `ip_spot_detection_2d`?
+- **imaging-2D-spot-detection-q024** — I need to quantify punctate signals in 2D microscopy images by detecting spot positions and intensities. What Galaxy tool can detect spots and report results?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q025** — Which Galaxy tool runs 2D spot detection?
+- **imaging-2D-spot-detection-q025** — Which Galaxy tool can detect spots in 2D microscopy images and output spot coordinates and measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q026** — Which Galaxy tool would you recommend to perform `ip_spot_detection_2d`?
+- **imaging-2D-spot-detection-q026** — In Galaxy, what tool should I run to perform spot detection on 2D images and export the detected spot list?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.1+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q027** — Which Galaxy tool would you recommend to perform `ip_points_to_label`?
+- **imaging-2D-spot-detection-q027** — I have a table of point coordinates for detected objects and want to convert these points into a labeled image mask for further analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q028** — Which Galaxy tool would you recommend to perform `ip_points_to_label`?
+- **imaging-2D-spot-detection-q028** — After spot detection, I need a label image representation from point coordinates so I can measure objects in an image. What Galaxy tool can create a label image from points?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q029** — Which Galaxy tool converts points to a label image?
+- **imaging-2D-spot-detection-q029** — Which Galaxy tool can take point coordinates and generate a label image/mask dataset suitable for object-based measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q030** — Which Galaxy tool would you recommend to perform `ip_points_to_label`?
+- **imaging-2D-spot-detection-q030** — In Galaxy, what tool should I run to convert a list of points into a label image for downstream feature extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q031** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-2D-spot-detection-q031** — I have two related images (e.g., different fluorescence channels) and want to overlay them into a single composite image for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: None
-- **imaging-2D-spot-detection-q032** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-2D-spot-detection-q032** — I need to combine multiple image layers into an overlay so I can visually compare channels or masks. What Galaxy tool can overlay images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: None
-- **imaging-2D-spot-detection-q033** — Which Galaxy tool overlays images?
+- **imaging-2D-spot-detection-q033** — Which Galaxy tool can create a composite overlay from two or more images for inspection and figure generation?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: None
-- **imaging-2D-spot-detection-q034** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-2D-spot-detection-q034** — In Galaxy, what tool should I run to overlay images (channels or masks) into a single combined view?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: None
-- **imaging-2D-spot-detection-q035** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-2D-spot-detection-q035** — I have a dataset collection and need to extract one element as a standalone dataset so I can run a tool that does not accept collections. Which Galaxy tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-2D-spot-detection-q036** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-2D-spot-detection-q036** — My analysis output is a collection and I want to pull out a single dataset from it for manual inspection. What Galaxy tool can extract an element from a collection?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-2D-spot-detection-q037** — Which Galaxy tool extracts a dataset from a collection?
+- **imaging-2D-spot-detection-q037** — Which Galaxy tool can extract one dataset from a collection and output it as a normal dataset in the history?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-2D-spot-detection-q038** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-2D-spot-detection-q038** — In Galaxy, what tool should I run to pick a single element from a dataset collection and extract it as a dataset?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-2D-spot-detection-q039** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-2D-spot-detection-q039** — I have a binary segmentation mask image and want to label connected components so each object has a unique label for measurement. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q040** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-2D-spot-detection-q040** — After thresholding, I have a black/white mask and need to convert it into a labeled objects image so I can compute per-object features. What Galaxy tool can do this conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q041** — Which Galaxy tool runs binary-to-label image conversion?
+- **imaging-2D-spot-detection-q041** — Which Galaxy tool can convert a binary mask into a label image with uniquely numbered objects for downstream feature extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: None
-- **imaging-2D-spot-detection-q042** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-2D-spot-detection-q042** — In Galaxy, what tool should I run to label connected objects in a binary image and produce a labeled mask?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: None
 
@@ -10405,40 +10405,40 @@ Questions:
 - Datasets (1): 14071552
 
 Questions:
-- **imaging-detection-of-mitoflashes-q011** — Which Galaxy tool would you recommend to perform `ip_spot_detection_2d`?
+- **imaging-detection-of-mitoflashes-q011** — I have a time-series microscopy experiment and want to detect transient bright spots in 2D frames and export their coordinates for tracking. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q012** — Which Galaxy tool would you recommend to perform `ip_spot_detection_2d`?
+- **imaging-detection-of-mitoflashes-q012** — I need to detect punctate events in 2D microscopy images and generate a table of detections per frame. What Galaxy tool can do spot detection?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q013** — Which Galaxy tool detects 2D spots in microscopy images?
+- **imaging-detection-of-mitoflashes-q013** — Which Galaxy tool can detect 2D spots in microscopy images and output per-frame spot coordinates for downstream association?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q014** — Which Galaxy tool would you recommend to perform `ip_spot_detection_2d`?
+- **imaging-detection-of-mitoflashes-q014** — In Galaxy, what tool should I run to detect spots in 2D image sequences and produce a list of detected points?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/spot_detection_2d/ip_spot_detection_2d/0.0.1
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q015** — Which Galaxy tool would you recommend to perform `ip_points_association_nn`?
+- **imaging-detection-of-mitoflashes-q015** — I have detected points in consecutive frames and want to link them across time to build simple tracks based on nearest-neighbor association. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q016** — Which Galaxy tool would you recommend to perform `ip_points_association_nn`?
+- **imaging-detection-of-mitoflashes-q016** — After spot detection, I need to associate points between frames to follow objects over time and output track assignments. What Galaxy tool can link points across frames?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q017** — Which Galaxy tool associates points across frames for tracking?
+- **imaging-detection-of-mitoflashes-q017** — Which Galaxy tool can connect detected points between time frames using nearest-neighbor rules to produce tracks?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q018** — Which Galaxy tool would you recommend to perform `ip_points_association_nn`?
+- **imaging-detection-of-mitoflashes-q018** — In Galaxy, what tool should I run to associate point detections across frames for basic tracking?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points_association_nn/ip_points_association_nn/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q019** — Which Galaxy tool would you recommend to perform `ip_curve_fitting`?
+- **imaging-detection-of-mitoflashes-q019** — I have time-series measurements (e.g., intensity over time) and want to fit a curve model to estimate values like peak time and decay rate. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q020** — Which Galaxy tool would you recommend to perform `ip_curve_fitting`?
+- **imaging-detection-of-mitoflashes-q020** — From per-frame measurements, I need to fit curves to each object/event to quantify dynamics and export fitted coefficients. What Galaxy tool can perform curve fitting?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q021** — Which Galaxy tool performs curve fitting on time-series measurements?
+- **imaging-detection-of-mitoflashes-q021** — Which Galaxy tool can fit a model to time-series data and return fitted coefficients and goodness-of-fit metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
   - Datasets: 14071552
-- **imaging-detection-of-mitoflashes-q022** — Which Galaxy tool would you recommend to perform `ip_curve_fitting`?
+- **imaging-detection-of-mitoflashes-q022** — In Galaxy, what tool should I run to perform curve fitting on time-series measurements and output fitted coefficients and goodness-of-fit metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/curve_fitting/ip_curve_fitting/0.0.3-2
   - Datasets: 14071552
 
@@ -10448,88 +10448,88 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **imaging-electrophoresis-gel-bands-image-analysis-q011** — Which Galaxy tool would you recommend to perform `ip_points_to_label`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q011** — I manually marked band positions on a gel image as point coordinates and want to convert those points into a labeled mask image for measurements. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q012** — Which Galaxy tool would you recommend to perform `ip_points_to_label`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q012** — I have point coordinates (e.g., lane/band markers) and need a label image so I can compute features per marked region. What Galaxy tool can convert points to labels?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q013** — Which Galaxy tool converts points to a label image?
+- **imaging-electrophoresis-gel-bands-image-analysis-q013** — Which Galaxy tool can turn a set of point annotations into a label image that assigns labels to marked locations?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q014** — Which Galaxy tool would you recommend to perform `ip_points_to_label`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q014** — In Galaxy, what tool should I run to convert point coordinate annotations into a label/mask image for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/points2labelimage/ip_points_to_label/0.4.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q015** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_convert`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q015** — I have an image in one format and need to convert it (e.g., change file type, bit depth, or color space) so it can be processed by other image tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q016** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_convert`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q016** — My gel image needs to be converted or normalized into a compatible image format before segmentation. What Galaxy tool can convert images between formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q017** — Which Galaxy tool runs GraphicsMagick image conversion?
+- **imaging-electrophoresis-gel-bands-image-analysis-q017** — Which Galaxy tool can convert images between formats and adjust properties like color mode or bit depth for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q018** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_convert`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q018** — In Galaxy, what tool should I run to convert an image dataset to a different format so it works with later image-processing steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q019** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q019** — I have a labeled object mask image and want to measure features for each object (area, intensity, shape) and output a results table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q020** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q020** — After segmentation, I need per-object measurements from the label image and the original intensity image. What Galaxy tool can extract 2D object features?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q021** — Which Galaxy tool runs 2D feature extraction on images?
+- **imaging-electrophoresis-gel-bands-image-analysis-q021** — Which Galaxy tool can compute 2D region properties from labeled images and output a feature table for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q022** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q022** — In Galaxy, what tool should I run to extract measurements from labeled objects in 2D images and produce a tabular output?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q023** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q023** — I have microscopy image files and want to inspect basic metadata like dimensions, pixel type, channels, and resolution. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q024** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q024** — Before processing images, I need a summary of each image's size, bit depth, and channel information. What Galaxy tool can report image metadata?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q025** — Which Galaxy tool reports image information?
+- **imaging-electrophoresis-gel-bands-image-analysis-q025** — Which Galaxy tool can output image information (width/height, pixel type, number of channels) for my microscopy images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q026** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q026** — In Galaxy, what tool should I run to get image metadata and basic statistics for quality control?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q027** — Which Galaxy tool would you recommend to perform `ip_split_image`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q027** — I have an image containing multiple panels/lanes and want to split it into separate sub-images for individual analysis. Which Galaxy tool should I use to split the image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q028** — Which Galaxy tool would you recommend to perform `ip_split_image`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q028** — My microscopy/gel image needs to be cropped or split into multiple regions so each part can be processed separately. What Galaxy tool can split an image into tiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q029** — Which Galaxy tool splits images into parts?
+- **imaging-electrophoresis-gel-bands-image-analysis-q029** — Which Galaxy tool can split an image into multiple smaller images based on a defined grid or regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q030** — Which Galaxy tool would you recommend to perform `ip_split_image`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q030** — In Galaxy, what tool should I run to break a single image into several sub-images for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q031** — Which Galaxy tool would you recommend to perform `interactive_tool_qupath`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q031** — I want an interactive environment in Galaxy for viewing and manually annotating images (drawing regions, inspecting objects) before running automated measurements. Which Galaxy tool should I use?
   - Tools: interactive_tool_qupath
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q032** — Which Galaxy tool would you recommend to perform `interactive_tool_qupath`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q032** — I need to open a large microscopy image in an interactive viewer to inspect and create annotations, then use them in downstream analysis. What Galaxy tool can launch such an interactive image tool?
   - Tools: interactive_tool_qupath
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q033** — Which Galaxy tool launches QuPath?
+- **imaging-electrophoresis-gel-bands-image-analysis-q033** — Which Galaxy tool can start an interactive image viewing/annotation application connected to my Galaxy history datasets?
   - Tools: interactive_tool_qupath
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q034** — Which Galaxy tool would you recommend to perform `interactive_tool_qupath`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q034** — In Galaxy, what tool should I run to launch an interactive image annotation workspace for manual review and ROI creation?
   - Tools: interactive_tool_qupath
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q035** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q035** — I have a collection of images and need to select one image file as a separate dataset for a visualization step. Which Galaxy tool should I use to extract it?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q036** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q036** — I need to take one dataset out of a list collection and make it an individual history item for downstream tools. What Galaxy tool can do this?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q037** — Which Galaxy tool extracts a dataset from a collection?
+- **imaging-electrophoresis-gel-bands-image-analysis-q037** — Which Galaxy tool should I use to extract an element from a collection when I need to operate on just one item?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
-- **imaging-electrophoresis-gel-bands-image-analysis-q038** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-electrophoresis-gel-bands-image-analysis-q038** — In Galaxy, what tool can pull a single dataset out of a collection so it can be used as a regular input?
   - Tools: __EXTRACT_DATASET__
   - Datasets: None
 
@@ -10539,88 +10539,88 @@ Questions:
 - Datasets (1): 3362976
 
 Questions:
-- **imaging-hela-screen-analysis-q011** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-hela-screen-analysis-q011** — I have a noisy microscopy image and want to apply a basic smoothing or denoising filter before segmentation. Which Galaxy tool should I use for standard 2D filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q012** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-hela-screen-analysis-q012** — My images have speckle noise and I want a simple 2D filter (e.g., blur/median) to improve segmentation results. What Galaxy tool can apply standard filters?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q013** — Which Galaxy tool applies a basic 2D image filter?
+- **imaging-hela-screen-analysis-q013** — Which Galaxy tool can apply basic 2D image filters (smoothing, sharpening, edge enhancement) to prepare images for thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q014** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-hela-screen-analysis-q014** — In Galaxy, what tool should I run to apply a standard 2D filter to images as a preprocessing step?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q015** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-hela-screen-analysis-q015** — I have grayscale microscopy images and want to automatically threshold them to create a binary segmentation mask. Which Galaxy tool should I use for auto-thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q016** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-hela-screen-analysis-q016** — I need to separate foreground objects from background in 2D images using an automatic threshold method and output a binary mask. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q017** — Which Galaxy tool performs 2D auto-thresholding?
+- **imaging-hela-screen-analysis-q017** — Which Galaxy tool can compute an automatic threshold on 2D images and output a binary image suitable for labeling objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q018** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-hela-screen-analysis-q018** — In Galaxy, what tool should I run to generate a binary mask from an image by applying automatic thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q019** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-hela-screen-analysis-q019** — I produced a binary mask from microscopy images and need to turn it into labeled objects (one label per cell/spot) before measuring features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q020** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-hela-screen-analysis-q020** — My segmentation output is binary and I want to assign unique labels to each connected region to treat them as separate objects. What Galaxy tool can label the regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q021** — Which Galaxy tool converts binary images to label images?
+- **imaging-hela-screen-analysis-q021** — Which Galaxy tool should I use to convert a binary segmentation into a multi-label object mask suitable for object measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q022** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-hela-screen-analysis-q022** — In Galaxy, what tool can label connected components in a binary image and output a label image dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q023** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-hela-screen-analysis-q023** — I have segmented cells/objects in a label image and need a table of object measurements (shape and intensity features) for downstream statistics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q024** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-hela-screen-analysis-q024** — I want to quantify labeled objects by extracting area, centroid, and intensity summaries into a table. What Galaxy tool can compute these 2D features?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q025** — Which Galaxy tool runs 2D feature extraction on labeled objects?
+- **imaging-hela-screen-analysis-q025** — Which Galaxy tool should I use to measure properties of labeled regions in 2D images and export the results as a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q026** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-hela-screen-analysis-q026** — In Galaxy, what tool can extract 2D features from labeled objects for high-throughput screening analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q027** — Which Galaxy tool would you recommend to perform `ip_2d_filter_segmentation_by_features`?
+- **imaging-hela-screen-analysis-q027** — I have a labeled segmentation and want to remove objects that do not meet size/shape criteria (e.g., too small or too large) before measuring features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_filter_segmentation_by_features/ip_2d_filter_segmentation_by_features/0.0.1-4
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q028** — Which Galaxy tool would you recommend to perform `ip_2d_filter_segmentation_by_features`?
+- **imaging-hela-screen-analysis-q028** — After segmentation, I need to filter labeled objects based on measured properties so only valid objects remain. What Galaxy tool can filter segmentations by features?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_filter_segmentation_by_features/ip_2d_filter_segmentation_by_features/0.0.1-4
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q029** — Which Galaxy tool filters segmentations using feature values?
+- **imaging-hela-screen-analysis-q029** — Which Galaxy tool can filter a segmentation/label image by object feature thresholds and output a cleaned label image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_filter_segmentation_by_features/ip_2d_filter_segmentation_by_features/0.0.1-4
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q030** — Which Galaxy tool would you recommend to perform `ip_2d_filter_segmentation_by_features`?
+- **imaging-hela-screen-analysis-q030** — In Galaxy, what tool should I run to remove segmented objects that fail feature-based criteria and keep only the selected objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_filter_segmentation_by_features/ip_2d_filter_segmentation_by_features/0.0.1-4
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q031** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **imaging-hela-screen-analysis-q031** — I have a dataset collection of per-image measurement tables and want one combined table by concatenating all elements. Which Galaxy tool should I use to collapse the collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q032** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **imaging-hela-screen-analysis-q032** — After mapping measurements over many images, I need to collapse the collection outputs into a single dataset for plotting and statistics. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q033** — Which Galaxy tool collapses a dataset collection into a file?
+- **imaging-hela-screen-analysis-q033** — Which Galaxy tool can take a collection of results and produce one merged dataset so I can analyze everything together?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q034** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **imaging-hela-screen-analysis-q034** — In Galaxy, what tool should I run to collapse a list collection into one combined dataset for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q035** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-hela-screen-analysis-q035** — I received imaging data packaged as a ZIP archive and want to extract the image files into my history for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q036** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-hela-screen-analysis-q036** — My workflow starts with an archived bundle of images and I need to unpack it in Galaxy into usable image datasets. What Galaxy tool can do this extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q037** — Which Galaxy tool extracts ZIP files?
+- **imaging-hela-screen-analysis-q037** — Which Galaxy tool should I run to extract a ZIP archive of images into separate datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-hela-screen-analysis-q038** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-hela-screen-analysis-q038** — In Galaxy, what tool can unpack a ZIP file and make the contained images available as individual datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
 
@@ -10630,22 +10630,22 @@ Questions:
 - Datasets (1): 3362976
 
 Questions:
-- **imaging-imaging-introduction-q011** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-imaging-introduction-q011** — I downloaded a set of images and want to confirm dimensions and pixel properties so I pick correct processing settings. Which Galaxy tool should I use to view image info?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q012** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-imaging-introduction-q012** — I need to verify image properties such as channel count and data type across multiple microscopy images. What Galaxy tool can report this information?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q013** — Which Galaxy tool reports image information?
+- **imaging-imaging-introduction-q013** — Which Galaxy tool should I use to extract image metadata for a batch of images and save it as a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q014** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-imaging-introduction-q014** — In Galaxy, what tool can summarize image properties so I can sanity-check inputs before segmentation and measurement?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q015** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-imaging-introduction-q015** — I am starting an image analysis workflow and want to apply a standard smoothing filter to improve contrast and reduce noise. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
-- **imaging-imaging-introduction-q016** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-imaging-introduction-q016** — I need a simple image preprocessing step to filter a 2D image before thresholding and object detection. What Galaxy tool can apply a basic filter?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1
   - Datasets: 3362976
 - **imaging-imaging-introduction-q017** — Which Galaxy tool runs the standard image filter?
