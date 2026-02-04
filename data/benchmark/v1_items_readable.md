@@ -11597,154 +11597,154 @@ Questions:
 - **imaging-voronoi-segmentation-q012** — Before segmentation, I want to convert microscopy images to a compatible format (e.g., a standard multi-channel image) for processing. What Galaxy tool can convert microscopy formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q013** — Which Galaxy tool runs bfconvert (ip_convertimage)?
+- **imaging-voronoi-segmentation-q013** — I have microscopy images in a format that other Galaxy image tools cannot read yet, and I need to convert them into a standard compatible image dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q014** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
+- **imaging-voronoi-segmentation-q014** — Before I can run segmentation, I want to convert my microscopy images into a format that preserves channels and metadata and works with downstream tools. What Galaxy tool can do this conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q015** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-voronoi-segmentation-q015** — I have a binary segmentation mask and need to label connected components so each object has a unique ID for measurement. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q016** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-voronoi-segmentation-q016** — After thresholding I got a black/white mask, and I want to turn it into a labeled-object image for downstream feature extraction. What Galaxy tool can label the objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q017** — Which Galaxy tool converts binary images to label images?
+- **imaging-voronoi-segmentation-q017** — Which Galaxy tool can convert a binary mask into a label image with uniquely numbered regions suitable for object measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q018** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-voronoi-segmentation-q018** — In Galaxy, what tool should I run to label connected regions in a binary image and output a labeled mask?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q019** — Which Galaxy tool would you recommend to perform `repeat_channels`?
+- **imaging-voronoi-segmentation-q019** — I have a single-channel fluorescence microscopy image, but my downstream segmentation model expects a 3-channel input image. Which Galaxy tool can duplicate the channel to create a multi-channel image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/repeat_channels/repeat_channels/1.26.4+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q020** — Which Galaxy tool would you recommend to perform `repeat_channels`?
+- **imaging-voronoi-segmentation-q020** — My workflow needs the same grayscale image copied into several channels to match the expected input shape for a model. What Galaxy tool can repeat/duplicate channels?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/repeat_channels/repeat_channels/1.26.4+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q021** — Which Galaxy tool runs repeat_channels?
+- **imaging-voronoi-segmentation-q021** — Which Galaxy tool can take an image and output a new image where the channel is repeated multiple times?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/repeat_channels/repeat_channels/1.26.4+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q022** — Which Galaxy tool would you recommend to perform `repeat_channels`?
+- **imaging-voronoi-segmentation-q022** — In Galaxy, what tool should I run to duplicate image channels so a single-channel input becomes multi-channel?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/repeat_channels/repeat_channels/1.26.4+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q023** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-voronoi-segmentation-q023** — I have noisy microscopy images and want to apply a basic 2D smoothing/denoising filter before thresholding. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q024** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-voronoi-segmentation-q024** — My images have speckle noise and I need a standard 2D filtering step (e.g., blur/median) to improve segmentation quality. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q025** — Which Galaxy tool runs ip_filter_standard?
+- **imaging-voronoi-segmentation-q025** — Which Galaxy tool can apply common 2D image filters to reduce noise and prepare images for segmentation?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q026** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-voronoi-segmentation-q026** — In Galaxy, what tool should I run to apply a simple 2D preprocessing filter to an image dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q027** — Which Galaxy tool would you recommend to perform `voronoi_tessellation`?
+- **imaging-voronoi-segmentation-q027** — I have point coordinates for cell centers and want to generate a Voronoi-style segmentation that assigns each pixel to the nearest point. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/voronoi_tesselation/voronoi_tessellation/0.22.0+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q028** — Which Galaxy tool would you recommend to perform `voronoi_tessellation`?
+- **imaging-voronoi-segmentation-q028** — I need to create a region partitioning (Voronoi tessellation) from a set of seed points so I get a segmentation mask for downstream measurement. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/voronoi_tesselation/voronoi_tessellation/0.22.0+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q029** — Which Galaxy tool runs voronoi_tessellation?
+- **imaging-voronoi-segmentation-q029** — Which Galaxy tool can build a Voronoi tessellation from point annotations and output a labeled region image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/voronoi_tesselation/voronoi_tessellation/0.22.0+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q030** — Which Galaxy tool would you recommend to perform `voronoi_tessellation`?
+- **imaging-voronoi-segmentation-q030** — In Galaxy, what tool should I run to generate a Voronoi-based segmentation mask from seed points?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/voronoi_tesselation/voronoi_tessellation/0.22.0+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q031** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-voronoi-segmentation-q031** — I have grayscale microscopy images and want to automatically threshold them to create a binary mask separating foreground from background. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q032** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-voronoi-segmentation-q032** — I need an automatic thresholding step on 2D images that outputs a binary image for connected-component labeling. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q033** — Which Galaxy tool runs ip_threshold?
+- **imaging-voronoi-segmentation-q033** — Which Galaxy tool can apply an auto-threshold method to images and output a binary mask suitable for segmentation workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q034** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-voronoi-segmentation-q034** — In Galaxy, what tool should I run to convert an image into a binary mask using automatic thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q035** — Which Galaxy tool would you recommend to perform `ip_count_objects`?
+- **imaging-voronoi-segmentation-q035** — I have a labeled-object mask image and want to count how many objects were segmented, producing a summary count. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q036** — Which Galaxy tool would you recommend to perform `ip_count_objects`?
+- **imaging-voronoi-segmentation-q036** — After labeling connected components, I need the number of labeled regions per image as a small results table. What Galaxy tool can count labeled objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q037** — Which Galaxy tool runs ip_count_objects?
+- **imaging-voronoi-segmentation-q037** — Which Galaxy tool can take a label image and report the number of objects/labels as output for QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q038** — Which Galaxy tool would you recommend to perform `ip_count_objects`?
+- **imaging-voronoi-segmentation-q038** — In Galaxy, what tool should I run to count segmented objects in a label mask image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/count_objects/ip_count_objects/0.0.5-2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q039** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-voronoi-segmentation-q039** — I have a labeled mask image and want to measure per-object features like area, shape, and intensity, outputting a tabular feature table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q040** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-voronoi-segmentation-q040** — After segmentation, I need per-object measurements from the label image (and optionally the raw intensity image) as a table for downstream statistics. What Galaxy tool can extract 2D features?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q041** — Which Galaxy tool runs 2D feature extraction?
+- **imaging-voronoi-segmentation-q041** — Which Galaxy tool can compute region properties for labeled objects in 2D images and output the results as a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q042** — Which Galaxy tool would you recommend to perform `ip_2d_feature_extraction`?
+- **imaging-voronoi-segmentation-q042** — In Galaxy, what tool should I run to extract per-object measurements from a label image for quantitative analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_feature_extraction/ip_2d_feature_extraction/0.18.1+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q043** — Which Galaxy tool would you recommend to perform `image_math`?
+- **imaging-voronoi-segmentation-q043** — I want to combine image channels using pixel-wise arithmetic (e.g., subtract background or compute a ratio) to create a derived image for segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q044** — Which Galaxy tool would you recommend to perform `image_math`?
+- **imaging-voronoi-segmentation-q044** — I have two images and need to create a new image by applying pixel-wise math operations between them. What Galaxy tool can do image arithmetic?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q045** — Which Galaxy tool runs image_math?
+- **imaging-voronoi-segmentation-q045** — Which Galaxy tool can apply pixel-wise mathematical operations to one or more images and output the processed result?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q046** — Which Galaxy tool would you recommend to perform `image_math`?
+- **imaging-voronoi-segmentation-q046** — In Galaxy, what tool should I run to perform image math operations to prepare inputs for thresholding and labeling?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q047** — Which Galaxy tool would you recommend to perform `colorize_labels`?
+- **imaging-voronoi-segmentation-q047** — I have a label image and want a colored visualization where each object is shown with a distinct color for easier inspection. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/colorize_labels/colorize_labels/3.2.1+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q048** — Which Galaxy tool would you recommend to perform `colorize_labels`?
+- **imaging-voronoi-segmentation-q048** — After segmentation, I need to convert my label mask into a color-rendered image so I can quickly check object boundaries. What Galaxy tool can colorize labels?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/colorize_labels/colorize_labels/3.2.1+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q049** — Which Galaxy tool runs colorize_labels?
+- **imaging-voronoi-segmentation-q049** — Which Galaxy tool can turn a labeled-object mask into a color image for visualization and QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/colorize_labels/colorize_labels/3.2.1+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q050** — Which Galaxy tool would you recommend to perform `colorize_labels`?
+- **imaging-voronoi-segmentation-q050** — In Galaxy, what tool should I run to render a label image as a colored overlay-style visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/colorize_labels/colorize_labels/3.2.1+galaxy3
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q051** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-voronoi-segmentation-q051** — I want to visually validate a segmentation by overlaying the mask on the original image and saving a composite image. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q052** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-voronoi-segmentation-q052** — I have two related images (e.g., a raw image and a label/mask) and want to combine them into a single overlay for inspection. What Galaxy tool can do this overlay?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q053** — Which Galaxy tool runs ip_overlay_images?
+- **imaging-voronoi-segmentation-q053** — Which Galaxy tool can create a composite overlay from two images so I can inspect segmentation quality?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q054** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-voronoi-segmentation-q054** — In Galaxy, what tool should I run to overlay images (channels or masks) into a single combined visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q055** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-voronoi-segmentation-q055** — I have microscopy image files and want to inspect basic metadata like dimensions, pixel type, and number of channels before processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q056** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-voronoi-segmentation-q056** — Before segmentation, I want a table summarizing image properties (width/height, channels, bit depth) for QC. What Galaxy tool can report image metadata?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q057** — Which Galaxy tool runs ip_imageinfo?
+- **imaging-voronoi-segmentation-q057** — Which Galaxy tool can output image information (size, channel count, pixel type) for my image datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q058** — Which Galaxy tool would you recommend to perform `ip_imageinfo`?
+- **imaging-voronoi-segmentation-q058** — In Galaxy, what tool should I run to summarize image metadata so I can sanity-check my inputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_info/ip_imageinfo/5.7.1+galaxy1
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q059** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-voronoi-segmentation-q059** — I have a ZIP archive containing image files and want to extract the contents into separate datasets in my Galaxy history. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q060** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-voronoi-segmentation-q060** — I downloaded imaging data as a compressed archive and need to unpack it into individual files before analysis. What Galaxy tool can extract ZIP archives?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q061** — Which Galaxy tool unzips archives?
+- **imaging-voronoi-segmentation-q061** — Which Galaxy tool can extract files from a ZIP archive and output the extracted datasets for downstream image tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q062** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-voronoi-segmentation-q062** — In Galaxy, what tool should I run to unpack a ZIP archive so its files can be used as inputs to other tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 15172302
 
@@ -11754,76 +11754,76 @@ Questions:
 - Datasets (1): 16096782
 
 Questions:
-- **imaging-yolo-segmentation-training-q011** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-yolo-segmentation-training-q011** — I have microscopy images with low contrast and want to enhance contrast using histogram equalization before segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q012** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-yolo-segmentation-training-q012** — My images are uneven in intensity and I want to normalize contrast to improve downstream detection. What Galaxy tool can perform histogram equalization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q013** — Which Galaxy tool runs ip_histogram_equalization?
+- **imaging-yolo-segmentation-training-q013** — Which Galaxy tool can apply histogram equalization to 2D images to improve contrast and make objects easier to detect?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q014** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-yolo-segmentation-training-q014** — In Galaxy, what tool should I run to enhance image contrast by equalizing the intensity histogram?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q015** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_convert`?
+- **imaging-yolo-segmentation-training-q015** — I have an image in an unsupported format and need to convert it into a compatible image format for downstream Galaxy tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q016** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_convert`?
+- **imaging-yolo-segmentation-training-q016** — My images need to be converted (format/bit depth/color mode) so segmentation tools can read them. What Galaxy tool can convert image datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q017** — Which Galaxy tool runs GraphicsMagick image conversion?
+- **imaging-yolo-segmentation-training-q017** — Which Galaxy tool can convert images between formats and adjust properties like color mode or bit depth for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q018** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_convert`?
+- **imaging-yolo-segmentation-training-q018** — In Galaxy, what tool should I run to convert an image dataset into a different format required by my workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_convert/graphicsmagick_image_convert/1.3.45+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q019** — Which Galaxy tool would you recommend to perform `interactive_tool_anylabeling`?
+- **imaging-yolo-segmentation-training-q019** — I need an interactive image annotation environment in Galaxy to draw segmentation masks (polygons) and export annotations for training a model. Which Galaxy tool should I use?
   - Tools: interactive_tool_anylabeling
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q020** — Which Galaxy tool would you recommend to perform `interactive_tool_anylabeling`?
+- **imaging-yolo-segmentation-training-q020** — I want to manually label objects in images using an interactive GUI and save the annotations for machine-learning segmentation training. What Galaxy tool can launch such an annotation session?
   - Tools: interactive_tool_anylabeling
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q021** — Which Galaxy tool launches AnyLabeling?
+- **imaging-yolo-segmentation-training-q021** — Which Galaxy tool provides an interactive labeling interface for creating segmentation annotations from images?
   - Tools: interactive_tool_anylabeling
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q022** — Which Galaxy tool would you recommend to perform `interactive_tool_anylabeling`?
+- **imaging-yolo-segmentation-training-q022** — In Galaxy, what tool should I run to open an interactive image-annotation workspace connected to my history datasets?
   - Tools: interactive_tool_anylabeling
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q023** — Which Galaxy tool would you recommend to perform `json2yolosegment`?
+- **imaging-yolo-segmentation-training-q023** — I have JSON annotations exported from an image labeling tool and need to convert them into the segmentation training dataset format expected by my model-training step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/json2yolosegment/json2yolosegment/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q024** — Which Galaxy tool would you recommend to perform `json2yolosegment`?
+- **imaging-yolo-segmentation-training-q024** — My annotations are stored as JSON polygons and I want to transform them into a segmentation training format (images + masks/labels) for deep-learning training. What Galaxy tool can convert the annotation export?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/json2yolosegment/json2yolosegment/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q025** — Which Galaxy tool runs json2yolosegment?
+- **imaging-yolo-segmentation-training-q025** — Which Galaxy tool can convert JSON-based segmentation annotations into the label format needed for training an image segmentation model?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/json2yolosegment/json2yolosegment/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q026** — Which Galaxy tool would you recommend to perform `json2yolosegment`?
+- **imaging-yolo-segmentation-training-q026** — In Galaxy, what tool should I run to convert annotation JSON exports into a segmentation training dataset structure?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/json2yolosegment/json2yolosegment/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q027** — Which Galaxy tool would you recommend to perform `yolo_training`?
+- **imaging-yolo-segmentation-training-q027** — I have a set of annotated images for semantic/instance segmentation and want to train a deep-learning model and get trained weights plus training metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/yolo_training/yolo_training/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q028** — Which Galaxy tool would you recommend to perform `yolo_training`?
+- **imaging-yolo-segmentation-training-q028** — I want to train an image segmentation model from labeled images and export the trained model for later inference. What Galaxy tool can run the training step?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/yolo_training/yolo_training/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q029** — Which Galaxy tool runs yolo_training?
+- **imaging-yolo-segmentation-training-q029** — Which Galaxy tool can train a segmentation model on annotated images and output a trained model artifact and evaluation metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/yolo_training/yolo_training/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q030** — Which Galaxy tool would you recommend to perform `yolo_training`?
+- **imaging-yolo-segmentation-training-q030** — In Galaxy, what tool should I run to train an image segmentation model from a prepared training dataset and get a trained model as output?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/yolo_training/yolo_training/8.3.0+galaxy2
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q031** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-yolo-segmentation-training-q031** — I received a batch of images packaged as a ZIP file and want to import them as individual datasets in my history. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q032** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-yolo-segmentation-training-q032** — My workflow starts from an archived bundle of images and I need to unpack it into usable image datasets. What Galaxy tool can do this extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q033** — Which Galaxy tool unzips archives?
+- **imaging-yolo-segmentation-training-q033** — Which Galaxy tool should I use to unpack a ZIP archive of images into individual datasets for processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 16096782
-- **imaging-yolo-segmentation-training-q034** — Which Galaxy tool would you recommend to perform `unzip`?
+- **imaging-yolo-segmentation-training-q034** — In Galaxy, what tool can extract the contents of a ZIP archive so the files become separate history items?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 16096782
 
@@ -11833,232 +11833,232 @@ Questions:
 - Datasets (1): 6803028
 
 Questions:
-- **introduction-data-manipulation-olympics-q011** — Which Galaxy tool would you recommend to perform `wc_gnu`?
+- **introduction-data-manipulation-olympics-q011** — I have a large text dataset and want to quickly count how many lines it contains as a simple QC check. Which Galaxy tool should I use?
   - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q012** — Which Galaxy tool would you recommend to perform `wc_gnu`?
+- **introduction-data-manipulation-olympics-q012** — I want basic counts (lines/words/characters) for a text file to sanity-check that my preprocessing did not drop records. What Galaxy tool can compute these counts?
   - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q013** — Which Galaxy tool provides GNU wc counts?
+- **introduction-data-manipulation-olympics-q013** — Which Galaxy tool can report line/word counts for a dataset so I can verify input sizes?
   - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q014** — Which Galaxy tool would you recommend to perform `wc_gnu`?
+- **introduction-data-manipulation-olympics-q014** — In Galaxy, what tool should I run to compute simple counts (like number of lines) for a text dataset?
   - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q015** — Which Galaxy tool would you recommend to perform `tabular_to_csv`?
+- **introduction-data-manipulation-olympics-q015** — I have a TSV table and need it converted into CSV format so I can use it in a downstream tool that expects comma-separated values. Which Galaxy tool should I use?
   - Tools: tabular_to_csv
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q016** — Which Galaxy tool would you recommend to perform `tabular_to_csv`?
+- **introduction-data-manipulation-olympics-q016** — My tabular data are in a standard Galaxy tabular format and I want a CSV output while preserving the header and columns. What Galaxy tool can convert TSV to CSV?
   - Tools: tabular_to_csv
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q017** — Which Galaxy tool converts tabular to CSV?
+- **introduction-data-manipulation-olympics-q017** — Which Galaxy tool can convert a tabular dataset into a CSV-formatted file for export or downstream compatibility?
   - Tools: tabular_to_csv
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q018** — Which Galaxy tool would you recommend to perform `tabular_to_csv`?
+- **introduction-data-manipulation-olympics-q018** — In Galaxy, what tool should I run to convert a TSV table into CSV output?
   - Tools: tabular_to_csv
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q019** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **introduction-data-manipulation-olympics-q019** — I have a TSV with a header row and want to sort the rows by a key column while keeping the header at the top. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q020** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **introduction-data-manipulation-olympics-q020** — My table needs to be sorted reproducibly, but I must preserve the header line. What Galaxy tool can sort a table while retaining the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q021** — Which Galaxy tool sorts tables and preserves the header?
+- **introduction-data-manipulation-olympics-q021** — Which Galaxy tool can sort a tabular dataset by one or more columns without moving or losing the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q022** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **introduction-data-manipulation-olympics-q022** — In Galaxy, what tool should I run to sort a TSV and keep the column header intact?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q023** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **introduction-data-manipulation-olympics-q023** — I have a tabular results file and want to keep only rows that pass a logical condition (e.g., score threshold) as a filtered table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q024** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **introduction-data-manipulation-olympics-q024** — My TSV contains low-confidence entries and I want to filter rows using an expression on one or more columns. What Galaxy tool can do rule-based filtering?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q025** — Which Galaxy tool filters tabular rows by an expression?
+- **introduction-data-manipulation-olympics-q025** — Which Galaxy tool can filter a tabular dataset based on column values and output only rows that meet my criteria?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q026** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **introduction-data-manipulation-olympics-q026** — In Galaxy, what tool should I run to apply conditional row filtering to a table and write the filtered output?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q027** — Which Galaxy tool would you recommend to perform `Count1`?
+- **introduction-data-manipulation-olympics-q027** — I have a column of categorical values in a table and want to count how many times each value occurs, producing a frequency table. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q028** — Which Galaxy tool would you recommend to perform `Count1`?
+- **introduction-data-manipulation-olympics-q028** — I need a summary table that counts occurrences of each unique entry in a column (like a histogram of categories). What Galaxy tool can do this counting?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q029** — Which Galaxy tool counts occurrences in a dataset?
+- **introduction-data-manipulation-olympics-q029** — Which Galaxy tool can count the number of occurrences of each distinct value in a dataset and output the counts?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q030** — Which Galaxy tool would you recommend to perform `Count1`?
+- **introduction-data-manipulation-olympics-q030** — In Galaxy, what tool should I run to compute frequency counts from a column in a tabular dataset?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q031** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-data-manipulation-olympics-q031** — I have a numeric table and want group-wise summary statistics (mean/sum/min/max) by a key column, outputting a summarized table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q032** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-data-manipulation-olympics-q032** — I need to aggregate a table by groups and compute statistics like counts and averages for each group. What Galaxy tool can perform these table aggregations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q033** — Which Galaxy tool runs datamash operations?
+- **introduction-data-manipulation-olympics-q033** — Which Galaxy tool can compute grouped summary statistics from a tabular dataset and output an aggregated table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q034** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-data-manipulation-olympics-q034** — In Galaxy, what tool should I run to do group-by style aggregation and summary stats on a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q035** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **introduction-data-manipulation-olympics-q035** — I have a TSV and need to create a new column computed from existing columns (e.g., a derived score or concatenated ID). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q036** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **introduction-data-manipulation-olympics-q036** — My table needs an extra derived field calculated from other columns using an expression. What Galaxy tool can add a calculated column?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q037** — Which Galaxy tool adds a calculated column?
+- **introduction-data-manipulation-olympics-q037** — Which Galaxy tool can append a new computed column to a tabular dataset based on a formula using existing columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q038** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **introduction-data-manipulation-olympics-q038** — In Galaxy, what tool should I run to add a calculated column to a TSV for downstream filtering and plotting?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q039** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **introduction-data-manipulation-olympics-q039** — I have a wide table and only need a subset of columns for the next step. Which Galaxy tool should I use to extract selected columns?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q040** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **introduction-data-manipulation-olympics-q040** — My TSV contains many fields and I want to keep only specific columns to build a smaller working table. What Galaxy tool can do column selection?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q041** — Which Galaxy tool cuts columns from a dataset?
+- **introduction-data-manipulation-olympics-q041** — Which Galaxy tool can cut out specified columns from a tabular dataset and output a reduced table?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q042** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **introduction-data-manipulation-olympics-q042** — In Galaxy, what tool should I run to extract a subset of columns from a table while preserving row order?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q043** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **introduction-data-manipulation-olympics-q043** — I have a TSV where values in one column need to be cleaned up using a regular-expression find/replace (e.g., remove prefixes or normalize IDs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q044** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **introduction-data-manipulation-olympics-q044** — My table has inconsistent identifiers and I need pattern-based substitutions restricted to a single column using regex rules. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q045** — Which Galaxy tool runs regexColumn1?
+- **introduction-data-manipulation-olympics-q045** — Which Galaxy tool can apply regex-based find/replace to one chosen column in a tabular dataset and output the modified table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q046** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **introduction-data-manipulation-olympics-q046** — In Galaxy, what tool should I run to edit values in one column using regular expressions without changing the rest of the table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q047** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **introduction-data-manipulation-olympics-q047** — I have a table with multiple groups/samples and want to split it into separate datasets based on the value in one column. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q048** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **introduction-data-manipulation-olympics-q048** — My TSV contains several categories in a column and I need one output file per category for downstream processing. What Galaxy tool can split a file by column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q049** — Which Galaxy tool splits files on a column?
+- **introduction-data-manipulation-olympics-q049** — Which Galaxy tool can split a tabular dataset into many outputs using a selected column as the grouping key?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q050** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **introduction-data-manipulation-olympics-q050** — In Galaxy, what tool should I run to partition a table into per-group datasets based on a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q051** — Which Galaxy tool would you recommend to perform `join1`?
+- **introduction-data-manipulation-olympics-q051** — I have two TSV files that share a key column and want to merge them into one combined table by matching IDs. Which Galaxy tool should I use to join them?
   - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q052** — Which Galaxy tool would you recommend to perform `join1`?
+- **introduction-data-manipulation-olympics-q052** — I need to combine columns from two tabular datasets based on a shared identifier so downstream steps have all fields in one table. What Galaxy tool can join tables?
   - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q053** — Which Galaxy tool performs a join on tabular datasets?
+- **introduction-data-manipulation-olympics-q053** — Which Galaxy tool can perform a database-style join between two tabular files on a key column and output merged rows?
   - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q054** — Which Galaxy tool would you recommend to perform `join1`?
+- **introduction-data-manipulation-olympics-q054** — In Galaxy, what tool should I run to join two tables on a shared ID column?
   - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q055** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **introduction-data-manipulation-olympics-q055** — I have a text dataset where each line starts with an unwanted prefix and I need to strip it to get clean identifiers. Which Galaxy tool should I use?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q056** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **introduction-data-manipulation-olympics-q056** — My identifiers contain fixed leading characters and I want to remove a constant prefix from every line before using them downstream. What Galaxy tool can do this?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q057** — Which Galaxy tool removes the beginning of a file?
+- **introduction-data-manipulation-olympics-q057** — Which Galaxy tool can remove a specified number of characters from the beginning of each line in a text file?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q058** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **introduction-data-manipulation-olympics-q058** — In Galaxy, what tool should I run to strip a constant prefix from all lines of a dataset?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q059** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
+- **introduction-data-manipulation-olympics-q059** — I have a sorted list of identifiers and want to collapse duplicates to a unique list (and optionally counts) for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q060** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
+- **introduction-data-manipulation-olympics-q060** — My dataset contains repeated adjacent entries and I want a de-duplicated output that keeps only one instance per unique value. What Galaxy tool can do sorted unique filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q061** — Which Galaxy tool performs sorted uniq?
+- **introduction-data-manipulation-olympics-q061** — Which Galaxy tool can remove duplicate lines from a sorted text file and output a unique list?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q062** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
+- **introduction-data-manipulation-olympics-q062** — In Galaxy, what tool should I run to compute unique lines from a sorted dataset as a simple deduplication step?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q063** — Which Galaxy tool would you recommend to perform `cat1`?
+- **introduction-data-manipulation-olympics-q063** — I have several text/table outputs and want to concatenate them into a single dataset for downstream analysis. Which Galaxy tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q064** — Which Galaxy tool would you recommend to perform `cat1`?
+- **introduction-data-manipulation-olympics-q064** — My workflow produced multiple small files that I need to append together into one file without changing content. What Galaxy tool can concatenate datasets?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q065** — Which Galaxy tool concatenates datasets (cat)?
+- **introduction-data-manipulation-olympics-q065** — Which Galaxy tool can join multiple plain-text datasets into one combined dataset in the order I provide?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q066** — Which Galaxy tool would you recommend to perform `cat1`?
+- **introduction-data-manipulation-olympics-q066** — In Galaxy, what tool should I run to concatenate datasets into a single output file?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q067** — Which Galaxy tool would you recommend to perform `Show beginning1`?
+- **introduction-data-manipulation-olympics-q067** — I have a large text dataset and want to quickly preview the first few lines to confirm the format and header. Which Galaxy tool should I use?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q068** — Which Galaxy tool would you recommend to perform `Show beginning1`?
+- **introduction-data-manipulation-olympics-q068** — Before running downstream steps, I need to inspect the beginning of a dataset (first N lines) as a sanity check. What Galaxy tool can show the first lines?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q069** — Which Galaxy tool shows the beginning of a dataset?
+- **introduction-data-manipulation-olympics-q069** — Which Galaxy tool can output the first part of a text dataset so I can verify delimiters and columns?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q070** — Which Galaxy tool would you recommend to perform `Show beginning1`?
+- **introduction-data-manipulation-olympics-q070** — In Galaxy, what tool should I run to extract the first N lines of a dataset for quick inspection?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q071** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **introduction-data-manipulation-olympics-q071** — I have multiple text datasets and want to concatenate them into a single file as part of a workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q072** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **introduction-data-manipulation-olympics-q072** — I need to append several text outputs into one combined dataset so later steps consume a single file. What Galaxy tool can do this concatenation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q073** — Which Galaxy tool runs tp_cat?
+- **introduction-data-manipulation-olympics-q073** — Which Galaxy tool can concatenate multiple datasets into one text output dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q074** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **introduction-data-manipulation-olympics-q074** — In Galaxy, what tool should I run to combine several text files into a single dataset by simple concatenation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.1, cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q075** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
-  - Tools: {{version_wc}}
+- **introduction-data-manipulation-olympics-q075** — I want to verify how many records are in a text file by counting the number of lines and writing the count to the history. Which Galaxy tool should I use?
+  - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q076** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
-  - Tools: {{version_wc}}
+- **introduction-data-manipulation-olympics-q076** — I need a quick sanity check on a dataset size by counting lines/words, and I want the result as a small output dataset. What Galaxy tool can compute these counts?
+  - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q077** — Which Galaxy tool corresponds to {{version_wc}}?
-  - Tools: {{version_wc}}
+- **introduction-data-manipulation-olympics-q077** — Which Galaxy tool should I run to compute basic dataset size counts (like line count) for QC after preprocessing?
+  - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q078** — Which Galaxy tool would you recommend to perform `{{version_wc}}`?
-  - Tools: {{version_wc}}
+- **introduction-data-manipulation-olympics-q078** — In Galaxy, what tool can output a line/word count summary for a dataset so I can confirm nothing was lost?
+  - Tools: wc_gnu
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q079** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
+- **introduction-data-manipulation-olympics-q079** — I need to sort a results table by score (descending/ascending) and keep the header line unchanged for downstream parsing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q080** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
+- **introduction-data-manipulation-olympics-q080** — I want to reorder a tabular dataset by a chosen column for consistent downstream processing, while preserving the header. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q081** — Which Galaxy tool corresponds to {{version_sort}}?
+- **introduction-data-manipulation-olympics-q081** — Which Galaxy tool can sort tabular rows using selected columns and still keep the first header row in place?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q082** — Which Galaxy tool would you recommend to perform `{{version_sort}}`?
+- **introduction-data-manipulation-olympics-q082** — In Galaxy, what tool should I run to sort a table for downstream joins while retaining the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q083** — Which Galaxy tool would you recommend to perform `{{version_filter}}`?
+- **introduction-data-manipulation-olympics-q083** — I want to remove rows with missing values or out-of-range metrics from a table before plotting. Which Galaxy tool should I use to filter rows?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q084** — Which Galaxy tool would you recommend to perform `{{version_filter}}`?
+- **introduction-data-manipulation-olympics-q084** — I need to subset a table based on a condition combining columns (e.g., p-value cutoff and fold-change). What Galaxy tool can filter by an expression?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q085** — Which Galaxy tool corresponds to {{version_filter}}?
+- **introduction-data-manipulation-olympics-q085** — Which Galaxy tool can apply a boolean condition to rows in a tabular dataset and keep only the matching records?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q086** — Which Galaxy tool would you recommend to perform `{{version_filter}}`?
+- **introduction-data-manipulation-olympics-q086** — In Galaxy, what tool should I run to filter a TSV by a user-defined expression on columns?
   - Tools: Filter1
   - Datasets: 6803028
 - **introduction-data-manipulation-olympics-q087** — Which Galaxy tool would you recommend to perform `{{version_count}}`?
