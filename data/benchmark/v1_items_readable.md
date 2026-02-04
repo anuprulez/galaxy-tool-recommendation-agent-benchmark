@@ -1004,52 +1004,52 @@ Questions:
 - **assembly-mrsa-nanopore-q016** — My nanopore reads may contain sequencing adapters, and I want to remove them before downstream assembly and polishing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q017** — Which Galaxy tool would you recommend to perform `flye`?
+- **assembly-mrsa-nanopore-q017** — I have long-read sequencing from a bacterial isolate and want to assemble it into contigs using only long reads. What tool should I start with?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q018** — Which Galaxy tool would you recommend to perform `bandage_image`?
+- **assembly-mrsa-nanopore-q018** — I assembled a bacterial genome and now want to visualize the assembly graph to spot repeats and unresolved branches. Which tool can render an assembly graph image?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q019** — What Galaxy tool should I run for `Quast`?
+- **assembly-mrsa-nanopore-q019** — I have a draft bacterial assembly and want an evaluation report with contig statistics and potential misassembly signals. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q020** — What Galaxy tool should I run for `BWA-MEM2`?
+- **assembly-mrsa-nanopore-q020** — I want to map paired-end short reads back to my assembled contigs to check coverage and prepare for polishing. Which tool should I use for the mapping step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q021** — Which Galaxy tool would you recommend to perform `polypolish`?
+- **assembly-mrsa-nanopore-q021** — I have an assembly plus paired short reads and want to polish the consensus sequence using the read evidence. Which tool should I use for polishing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/polypolish/polypolish/0.5.0+galaxy2
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q022** — Which Galaxy tool would you recommend to perform `upload1`?
+- **assembly-mrsa-nanopore-q022** — I have sequencing data on my computer and need to import it into my Galaxy history as datasets. What tool should I use to upload the files?
   - Tools: upload1
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q023** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-mrsa-nanopore-q023** — Which tool should I use to generate a per-base quality report for paired-end sequencing reads before I start assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q024** — Which Galaxy tool would you recommend to perform `fastp`?
+- **assembly-mrsa-nanopore-q024** — I need to trim adapters and low-quality bases from paired-end reads and get a summary of how much was removed. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q025** — Which Galaxy tool would you recommend to perform `filtlong`?
+- **assembly-mrsa-nanopore-q025** — My nanopore reads vary a lot in quality and length; I want to keep only the best subset for assembly. Which tool can filter long reads by quality and length?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong/0.3.1+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q026** — Which Galaxy tool would you recommend to perform `nanoplot`?
+- **assembly-mrsa-nanopore-q026** — Before deciding filtering thresholds, I want plots of long-read length and quality distributions for my dataset. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q027** — Which Galaxy tool would you recommend to perform `porechop`?
+- **assembly-mrsa-nanopore-q027** — I need to remove sequencing adapters (and possible barcodes) from nanopore reads before assembly. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q028** — Which Galaxy tool would you recommend to perform `flye`?
+- **assembly-mrsa-nanopore-q028** — After trimming and filtering my nanopore reads, I want to assemble the cleaned reads into a bacterial genome. Which assembly tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.9.6+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q029** — Which Galaxy tool would you recommend to perform `bandage_image`?
+- **assembly-mrsa-nanopore-q029** — I want a publication-ready image of my assembly graph for a report. Which tool should I use to draw the graph from an assembly graph file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q030** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-mrsa-nanopore-q030** — I assembled with two different settings and want to compare the resulting contig statistics in one report. Which tool should I run to evaluate and compare assemblies?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q031** — Which Galaxy tool would you recommend to perform `bwa_mem2`?
+- **assembly-mrsa-nanopore-q031** — For polishing, I need a fast short-read mapper to align paired-end reads to my assembly. Which mapping tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: 10669812
-- **assembly-mrsa-nanopore-q032** — Which Galaxy tool would you recommend to perform `polypolish`?
+- **assembly-mrsa-nanopore-q032** — I want to correct small errors in my draft assembly using paired short reads. Which tool should I use to polish the assembly with those reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/polypolish/polypolish/0.5.0+galaxy2
   - Datasets: 10669812
 
@@ -1059,34 +1059,34 @@ Questions:
 - Datasets (3): zenodo.940733, 940733, illumina_f.fq
 
 Questions:
-- **assembly-unicycler-assembly-q011** — Which Galaxy tool would you recommend to perform `FastQC`?
+- **assembly-unicycler-assembly-q011** — I have paired-end short reads from a bacterial isolate and want a quick quality-control report before assembly. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q012** — Which Galaxy tool would you recommend to perform `MultiQC`?
+- **assembly-unicycler-assembly-q012** — I ran quality control on several libraries and want a single combined report that summarizes all of them. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q013** — Which Galaxy tool should I use to run `Unicycler`?
+- **assembly-unicycler-assembly-q013** — I have both short reads and long reads for the same bacterium and want a hybrid assembly that can resolve plasmids. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.5.1+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q014** — Which Galaxy tool should I use to run `Quast`?
+- **assembly-unicycler-assembly-q014** — I have a bacterial assembly and want standard evaluation metrics like N50, contig counts, and misassembly signals. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q015** — What Galaxy tool should I run for `Prokka`?
+- **assembly-unicycler-assembly-q015** — I have bacterial contigs and want rapid prokaryotic genome annotation (genes, proteins, and feature tables). Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q016** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **assembly-unicycler-assembly-q016** — I have a collection of read datasets and want to run per-sample QC efficiently and keep comparable reports for each sample. Which QC tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q017** — Which Galaxy tool would you recommend to perform `unicycler`?
+- **assembly-unicycler-assembly-q017** — I want to assemble a bacterial genome in Galaxy, ideally combining short reads and long reads when available. Which assembly tool should I pick?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.5.1+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q018** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **assembly-unicycler-assembly-q018** — I want to aggregate multiple QC results into one summary report that is easy to share. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q019** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-unicycler-assembly-q019** — I need to compare two bacterial assemblies and get a table of contiguity and quality statistics. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: zenodo.940733, 940733, illumina_f.fq
-- **assembly-unicycler-assembly-q020** — Which Galaxy tool would you recommend to perform `prokka`?
+- **assembly-unicycler-assembly-q020** — I finished a bacterial assembly and now need a fast annotation step to produce standard genome annotation outputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.6+galaxy1
   - Datasets: zenodo.940733, 940733, illumina_f.fq
 
@@ -1096,151 +1096,151 @@ Questions:
 - Datasets (5): 5550653, 5887339, 6098306, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta
 
 Questions:
-- **assembly-vgp_genome_assembly-q011** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **assembly-vgp_genome_assembly-q011** — My paired-end reads still contain adapter sequence, and I need to trim adapters and discard very short reads before downstream analyses. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q012** — What Galaxy tool should I run for `Meryl`?
+- **assembly-vgp_genome_assembly-q012** — I want to count k-mers from high-fidelity reads and build a k-mer database for genome profiling and validation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q013** — Which Galaxy tool should I use to run `GenomeScope`?
+- **assembly-vgp_genome_assembly-q013** — Given a k-mer histogram from sequencing reads, I want to estimate genome size, heterozygosity, and repeat content. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/genomescope/genomescope/2.1.0+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q014** — Which Galaxy tool should I use to run `Hifiasm`?
+- **assembly-vgp_genome_assembly-q014** — I have high-fidelity long reads from a diploid vertebrate and want a haplotype-aware assembly producing primary and alternate contigs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.25.0+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q015** — Which Galaxy tool should I use to run `gfastats`?
+- **assembly-vgp_genome_assembly-q015** — I have a contig set and want summary assembly statistics like total length, N50/NG50, and contig count. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.11+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q016** — Which Galaxy tool would you recommend to perform `collection_column_join`?
+- **assembly-vgp_genome_assembly-q016** — I have a collection of tabular summaries (one per dataset) and want to join them into a single table by a shared identifier column. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q017** — What Galaxy tool should I run for `Search in textfiles`?
+- **assembly-vgp_genome_assembly-q017** — I have a long text report and need to pull out only the lines that match a keyword or pattern. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q018** — Which Galaxy tool should I use to run `Busco`?
+- **assembly-vgp_genome_assembly-q018** — I want to assess genome assembly completeness using conserved single-copy orthologs. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q019** — Which Galaxy tool would you recommend to perform `merqury`?
+- **assembly-vgp_genome_assembly-q019** — I want reference-free assembly evaluation using k-mer spectra to estimate QV and completeness. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/merqury/merqury/1.3+galaxy4
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q020** — Which Galaxy tool should I use to run `Compute on rows`?
+- **assembly-vgp_genome_assembly-q020** — I have a table of assembly metrics and want to compute a new column from existing columns (e.g., a ratio or percent). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q021** — What Galaxy tool should I run for `Advanced Cut`?
+- **assembly-vgp_genome_assembly-q021** — I need to keep only selected columns from a tabular dataset for downstream plotting. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q022** — Which Galaxy tool should I use to run `Collapse Collection`?
+- **assembly-vgp_genome_assembly-q022** — I produced a dataset collection but the next step needs a single dataset, not a collection. Which tool should I use to collapse the collection into one dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q023** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **assembly-vgp_genome_assembly-q023** — I want to align long reads or contigs back to an assembly to support duplicate purging and overlap detection. Which mapping tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q024** — What Galaxy tool should I run for `Purge overlaps`?
+- **assembly-vgp_genome_assembly-q024** — My diploid assembly has redundant haplotigs; I want to purge duplicates and produce a cleaner primary assembly. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/purge_dups/purge_dups/1.2.6+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q025** — Which Galaxy tool should I use to run `Concatenate datasets`?
+- **assembly-vgp_genome_assembly-q025** — I need to concatenate several text outputs into a single dataset in my history. Which tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q026** — What Galaxy tool should I run for `Bionano Hybrid Scaffold`?
+- **assembly-vgp_genome_assembly-q026** — I have contigs plus optical-map information and want to scaffold the assembly using that long-range evidence. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bionano_scaffold/bionano_scaffold/3.7.0+galaxy3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q027** — Which Galaxy tool would you recommend to perform `bwa_mem2`?
+- **assembly-vgp_genome_assembly-q027** — I need to map paired-end reads to my assembly to compute coverage and produce an alignment file for downstream steps. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q028** — What Galaxy tool should I run for `Filter and merge`?
+- **assembly-vgp_genome_assembly-q028** — My Hi-C alignments contain chimeric pairs, and I need to filter and merge them before Hi-C scaffolding. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q029** — What Galaxy tool should I run for `PretextMap`?
+- **assembly-vgp_genome_assembly-q029** — I want to generate a Hi-C contact map file from alignments so I can inspect scaffolding quality visually. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_map/pretext_map/0.1.9+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q030** — What Galaxy tool should I run for `Pretext Snapshot`?
+- **assembly-vgp_genome_assembly-q030** — I already have a Hi-C contact map and want to generate a snapshot image for a QC report. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_snapshot/pretext_snapshot/0.0.5+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q031** — Which Galaxy tool would you recommend to perform `yahs`?
+- **assembly-vgp_genome_assembly-q031** — I have contigs plus Hi-C alignments and want chromosome-scale scaffolding using Hi-C links. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/yahs/yahs/1.2a.2+galaxy3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q032** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **assembly-vgp_genome_assembly-q032** — I need to trim primer or adapter sequence from reads before k-mer counting and other downstream steps. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q033** — Which Galaxy tool would you recommend to perform `meryl`?
+- **assembly-vgp_genome_assembly-q033** — I need a k-mer histogram from sequencing reads as input for genome profiling and later k-mer-based validation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meryl/meryl/1.3+galaxy6
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q034** — Which Galaxy tool would you recommend to perform `genomescope`?
+- **assembly-vgp_genome_assembly-q034** — I have a k-mer frequency histogram and want to fit a model to infer ploidy and sequencing error rate. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/genomescope/genomescope/2.1.0+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q035** — Which Galaxy tool would you recommend to perform `hifiasm`?
+- **assembly-vgp_genome_assembly-q035** — I want to assemble HiFi reads in a way that separates haplotypes rather than collapsing them. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/hifiasm/hifiasm/0.25.0+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q036** — Which Galaxy tool would you recommend to perform `gfastats`?
+- **assembly-vgp_genome_assembly-q036** — I want a single step that reports assembly statistics and helps me work with assembly graph-derived contig sets. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.11+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q037** — Which Galaxy tool would you recommend to perform `collection_column_join`?
+- **assembly-vgp_genome_assembly-q037** — I ran the same analysis on two haplotype assemblies stored as a collection and want one combined table for comparison. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q038** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **assembly-vgp_genome_assembly-q038** — I have a large log file and need to extract only the lines matching a specific identifier or regular expression. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q039** — Which Galaxy tool would you recommend to perform `busco`?
+- **assembly-vgp_genome_assembly-q039** — I want to compare gene completeness between my primary and alternate assemblies using a standardized gene set. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q040** — Which Galaxy tool would you recommend to perform `merqury`?
+- **assembly-vgp_genome_assembly-q040** — I want k-mer-based assembly QV and completeness estimates using reads and assembly sequences. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/merqury/merqury/1.3+galaxy4
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q041** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **assembly-vgp_genome_assembly-q041** — I need to add a computed column to a tabular file using arithmetic on existing columns. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q042** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **assembly-vgp_genome_assembly-q042** — I need to extract a subset of fields from a tabular report (for example, name and length columns). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, Cut1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q043** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **assembly-vgp_genome_assembly-q043** — A downstream tool does not accept dataset collections, so I need to turn my collection into a single dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q044** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **assembly-vgp_genome_assembly-q044** — I need to align contigs to each other to detect overlaps before purging duplicates. Which mapping tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q045** — Which Galaxy tool would you recommend to perform `purge_dups`?
+- **assembly-vgp_genome_assembly-q045** — I want to run a duplicate-purging workflow and capture the regions flagged as haplotigs/overlaps as a BED-style track. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/purge_dups/purge_dups/1.2.6+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q046** — Which Galaxy tool would you recommend to perform `cat1`?
+- **assembly-vgp_genome_assembly-q046** — I have several small text outputs from different steps and want to combine them into one dataset. Which tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q047** — Which Galaxy tool would you recommend to perform `bionano_scaffold`?
+- **assembly-vgp_genome_assembly-q047** — I want to create hybrid scaffolds by combining contigs with an optical map assembly map. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bionano_scaffold/bionano_scaffold/3.7.0+galaxy3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q048** — Which Galaxy tool would you recommend to perform `bwa_mem2`?
+- **assembly-vgp_genome_assembly-q048** — I need a fast short-read aligner to map paired-end reads to my assembly for downstream conversion and filtering. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q049** — Which Galaxy tool would you recommend to perform `bellerophon`?
+- **assembly-vgp_genome_assembly-q049** — My Hi-C library prep introduced chimeric pairs, and I want to filter and merge the alignments before scaffolding. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q050** — Which Galaxy tool would you recommend to perform `pretext_map`?
+- **assembly-vgp_genome_assembly-q050** — I want to create a contact map file that can be opened in a Hi-C map viewer to look for misjoins. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_map/pretext_map/0.1.9+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q051** — Which Galaxy tool would you recommend to perform `pretext_snapshot`?
+- **assembly-vgp_genome_assembly-q051** — I need an image snapshot of a Hi-C contact map for a report or lab notebook. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pretext_snapshot/pretext_snapshot/0.0.5+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q052** — Which Galaxy tool would you recommend to perform `yahs`?
+- **assembly-vgp_genome_assembly-q052** — I want to scaffold contigs into chromosome-length sequences using Hi-C data and output updated scaffolds. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/yahs/yahs/1.2a.2+galaxy3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q053** — Which Galaxy tool would you recommend to perform `gfa_to_fa`?
+- **assembly-vgp_genome_assembly-q053** — I have an assembly graph and need to extract the contig sequences from it for downstream evaluation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gfa_to_fa/gfa_to_fa/0.1.2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q054** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-vgp_genome_assembly-q054** — I want a comprehensive assembly evaluation report, including contig statistics and misassembly indicators. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q055** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **assembly-vgp_genome_assembly-q055** — I need to rename identifiers in a text-based dataset (find-and-replace across many lines) so downstream tools recognize them. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q056** — Which Galaxy tool would you recommend to perform `Convert characters1`?
+- **assembly-vgp_genome_assembly-q056** — I need to clean up a text or tabular file by converting or removing problematic characters before another step. Which tool should I use?
   - Tools: Convert_characters1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q057** — Which Galaxy tool would you recommend to perform `bedtools_bamtobed`?
+- **assembly-vgp_genome_assembly-q057** — I have read alignments and need to convert them into genomic interval coordinates for downstream analyses. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q058** — Which Galaxy tool would you recommend to perform `sort1`?
+- **assembly-vgp_genome_assembly-q058** — I need to sort a tabular dataset by one or more columns (including numeric sorting) before downstream steps. Which tool should I use?
   - Tools: sort1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
-- **assembly-vgp_genome_assembly-q059** — Which Galaxy tool would you recommend to perform `salsa`?
+- **assembly-vgp_genome_assembly-q059** — I have contigs and Hi-C alignments and want to scaffold them using a graph-based Hi-C scaffolding approach. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/salsa/salsa/2.3+galaxy5
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 
@@ -1250,16 +1250,16 @@ Questions:
 - Datasets (4): zenodo.5887339, 5550653, 5887339, 6098306
 
 Questions:
-- **assembly-vgp_workflow_training-q011** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-vgp_workflow_training-q011** — I have a draft vertebrate assembly and want an evaluation report with contig statistics and misassembly signals. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
-- **assembly-vgp_workflow_training-q012** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-vgp_workflow_training-q012** — I want to compare two assembly versions and see how contiguity and misassembly metrics change. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
-- **assembly-vgp_workflow_training-q013** — Which Galaxy tool should I use to run an analysis step from the guide in Using the VGP workflows to assemble a vertebrate genome with HiFi and Hi-C?
+- **assembly-vgp_workflow_training-q013** — After running a genome assembly workflow, I need a standard step to evaluate the resulting contigs (N50, sizes, and misassemblies). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
-- **assembly-vgp_workflow_training-q014** — Which Galaxy tool would you recommend to perform `quast`?
+- **assembly-vgp_workflow_training-q014** — Before handing off an assembly for curation, I want a comprehensive assembly quality report. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1
   - Datasets: 5887339, 6098306, 5550653, zenodo.5887339
 
@@ -1269,31 +1269,31 @@ Questions:
 - Datasets (1): (see source)
 
 Questions:
-- **climate-argo_pangeo-q011** — Which Galaxy tool would you recommend to perform `argo_getdata`?
+- **climate-argo_pangeo-q011** — I want to fetch Argo float profile data for a region and time window and bring it into my history for analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q012** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **climate-argo_pangeo-q012** — I have an ocean dataset and want to inspect global attributes and variable metadata before plotting. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q013** — Which Galaxy tool should I use to run `NetCDF xarray Coordinate Info`?
+- **climate-argo_pangeo-q013** — I need to list the coordinate variables and dimensions in a multi-dimensional ocean dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q014** — What Galaxy tool should I run for `NetCDF timeseries Extractor`?
+- **climate-argo_pangeo-q014** — From a gridded dataset, I want to extract a time series at a specific latitude/longitude for downstream plotting. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/timeseries_extraction/timeseries_extraction/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q015** — Which Galaxy tool should I use to run `ODV`?
+- **climate-argo_pangeo-q015** — I want an interactive GUI to explore and plot ocean profile data stored in my Galaxy history (profiles, sections, QC flags). Which tool should I launch?
   - Tools: interactive_tool_odv
   - Datasets: (see source)
-- **climate-argo_pangeo-q016** — Which Galaxy tool would you recommend to perform `argo_getdata`?
+- **climate-argo_pangeo-q016** — I need to download Argo observations for a specific float and a set of variables so I can analyze them in Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q017** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **climate-argo_pangeo-q017** — Before plotting, I want a quick summary of what variables, units, and attributes are present in the dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q018** — Which Galaxy tool would you recommend to perform `xarray_coords_info`?
+- **climate-argo_pangeo-q018** — I want to confirm the coordinate ranges (time, depth, latitude, longitude) available in my dataset. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q019** — Which Galaxy tool would you recommend to perform `timeseries_extraction`?
+- **climate-argo_pangeo-q019** — I want to extract a temperature time series at one location from a multi-dimensional dataset. Which tool should I use for time-series extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/timeseries_extraction/timeseries_extraction/2022.3.0+galaxy0
   - Datasets: (see source)
 
@@ -1303,43 +1303,43 @@ Questions:
 - Datasets (4): zenodo.3776500, 15349982, 3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv
 
 Questions:
-- **climate-climate-101-q011** — Which Galaxy tool would you recommend to perform `interactive_tool_panoply`?
+- **climate-climate-101-q011** — I want an interactive viewer for gridded climate data so I can browse variables and make quick plots without writing code. Which tool should I launch?
   - Tools: interactive_tool_panoply
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q012** — Which Galaxy tool should I use to run `Select lines that match an expression`?
+- **climate-climate-101-q012** — I have a tabular climate dataset and need to keep only rows that match a station code or pattern. Which tool should I use?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q013** — Which Galaxy tool would you recommend to perform `Datamash`?
+- **climate-climate-101-q013** — I need summary statistics of a climate time series, optionally grouped by month or year. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q014** — What Galaxy tool should I run for `Text reformatting with awk`?
+- **climate-climate-101-q014** — I need to reformat a tabular dataset by selecting/reordering fields and computing a derived value with an expression. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q015** — What Galaxy tool should I run for `Scatterplot w ggplot2`?
+- **climate-climate-101-q015** — I want a scatter plot comparing two climate variables across time or sites. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q016** — Which Galaxy tool would you recommend to perform `climate stripes from timeseries`?
+- **climate-climate-101-q016** — I have annual temperature anomalies and want a warming-stripes style visualization. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q017** — Which Galaxy tool would you recommend to perform `cds_essential_variability`?
+- **climate-climate-101-q017** — I want to compute essential variability metrics from a climate dataset to summarize changes over time. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability/0.1.4
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q018** — Which Galaxy tool would you recommend to perform `climate_stripes`?
+- **climate-climate-101-q018** — I need to generate climate stripes from a time series dataset as a quick communication graphic. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q019** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **climate-climate-101-q019** — I need to filter a text dataset to only the lines containing a variable name or keyword. Which tool should I use?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q020** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **climate-climate-101-q020** — I want to compute monthly averages and anomalies from a daily climate time series. Which tool should I use for grouped summaries?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q021** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **climate-climate-101-q021** — I need to create a new column in a table using a formula for unit conversion or scaling. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q022** — Which Galaxy tool would you recommend to perform `psy_maps`?
+- **climate-climate-101-q022** — I want to make a geographic map from a gridded climate variable for one time slice with a colorbar and projection. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps/1.2.1
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q023** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **climate-climate-101-q023** — I want a scatter plot showing the relationship between two climate variables, optionally colored by group. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 
@@ -1349,16 +1349,16 @@ Questions:
 - Datasets (0): N/A
 
 Questions:
-- **climate-earth_system-q011** — Which Galaxy tool would you recommend to perform `argo_getdata`?
+- **climate-earth_system-q011** — I need ocean profile data from the Argo program for a specific region and period. Which tool should I use to fetch it into my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
   - Datasets: N/A
-- **climate-earth_system-q012** — Which Galaxy tool would you recommend to perform `c3s`?
+- **climate-earth_system-q012** — I want to download a reanalysis or climate dataset from a Copernicus climate service for a given region and date range. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.3.0
   - Datasets: N/A
-- **climate-earth_system-q013** — Which Galaxy tool would you recommend to perform `obis_data`?
+- **climate-earth_system-q013** — I want marine species occurrence records from OBIS for a taxon and bounding box. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
   - Datasets: N/A
-- **climate-earth_system-q014** — Which Galaxy tool would you recommend to perform `spocc_occ`?
+- **climate-earth_system-q014** — I want species occurrence records aggregated from multiple biodiversity databases for a taxon and region. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
   - Datasets: N/A
 
@@ -1368,40 +1368,40 @@ Questions:
 - Datasets (5): zenodo.4108341, zenodo.4126404, 4108341, inputdata_version2.0.0_ALP1.tar, 4126404
 
 Questions:
-- **climate-fates-q011** — Which Galaxy tool should I use to run `CTSM/FATES-EMERALD`?
+- **climate-fates-q011** — I want to run a land-surface and vegetation-dynamics simulation and generate model outputs for analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1.1
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q012** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **climate-fates-q012** — I have land-model output data and want a quick summary of variables, dimensions, and attributes. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q013** — Which Galaxy tool should I use to run `Panoply`?
+- **climate-fates-q013** — I want an interactive GUI to browse multi-dimensional model output and make quick maps or plots. Which tool should I launch?
   - Tools: interactive_tool_panoply
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q014** — What Galaxy tool should I run for `NetCDF xarray Selection`?
+- **climate-fates-q014** — I need to subset a multi-dimensional dataset by time range and select a few variables for plotting. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/2022.3.0+galaxy0
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q015** — Which Galaxy tool should I use to run `Replace parts of text`?
+- **climate-fates-q015** — I need to clean or standardize names in a text file (for example, renaming columns) before joining datasets. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q016** — What Galaxy tool should I run for `Extract Dataset`?
+- **climate-fates-q016** — I have a dataset collection and need to pull out one specific element as a standalone dataset in my history. Which tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q017** — Which Galaxy tool should I use to run `Scatterplot w ggplot2`?
+- **climate-fates-q017** — I want a scatter plot comparing two variables from my processed dataset (for example, biomass versus rainfall). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q018** — Which Galaxy tool would you recommend to perform `ctsm_fates`?
+- **climate-fates-q018** — I need to run a CTSM/FATES land-model simulation and obtain outputs for a scenario. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1.1
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q019** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **climate-fates-q019** — After downloading model output, I want to confirm what variables and coordinates are included before analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q020** — Which Galaxy tool would you recommend to perform `xarray_select`?
+- **climate-fates-q020** — I want to extract one variable and a small spatial subset from a large multi-dimensional dataset to speed up plotting. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/2022.3.0+galaxy0
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q021** — Which Galaxy tool would you recommend to perform `tp_find_and_replace`?
+- **climate-fates-q021** — I need to replace missing-value codes or rename headers in a table before plotting. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
-- **climate-fates-q022** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **climate-fates-q022** — I want a point plot showing how two variables relate for each simulation time step. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
 
@@ -1411,16 +1411,16 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **climate-ocean-variables-q011** — Which Galaxy tool would you recommend to perform `divand_full_analysis`?
+- **climate-ocean-variables-q011** — I have scattered in-situ measurements of an ocean variable and want to interpolate them onto a regular grid using objective analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
   - Datasets: None
-- **climate-ocean-variables-q012** — Which Galaxy tool would you recommend to perform `divand_full_analysis`?
+- **climate-ocean-variables-q012** — I want to generate a gridded climatology from irregularly sampled ocean observations, including QC and gridding. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
   - Datasets: None
-- **climate-ocean-variables-q013** — Which Galaxy tool performs full analysis and gridding for ocean variable datasets?
+- **climate-ocean-variables-q013** — I need an end-to-end workflow that performs gridding/interpolation and outputs a map-ready field for an ocean variable. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
   - Datasets: None
-- **climate-ocean-variables-q014** — Which Galaxy tool would you recommend to perform `divand_full_analysis`?
+- **climate-ocean-variables-q014** — I want to run a full DIVA-style analysis to reconstruct an ocean variable field from observations. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
   - Datasets: None
 
@@ -1430,52 +1430,52 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **climate-ocean_qcv_analysis-q011** — Which Galaxy tool would you recommend to perform `harmonize_insitu_to_netcdf`?
+- **climate-ocean_qcv_analysis-q011** — I have in-situ ocean measurements from different sources and want to harmonize them into a consistent dataset suitable for quality control. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
   - Datasets: None
-- **climate-ocean_qcv_analysis-q012** — Which Galaxy tool would you recommend to perform `harmonize_insitu_to_netcdf`?
+- **climate-ocean_qcv_analysis-q012** — I need to convert float observations into a standardized NetCDF structure with proper metadata and units for downstream QC. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
   - Datasets: None
-- **climate-ocean_qcv_analysis-q013** — Which Galaxy tool harmonizes in-situ data to NetCDF?
+- **climate-ocean_qcv_analysis-q013** — Which tool can harmonize in-situ profile data into a NetCDF dataset that downstream QC tools can read?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
   - Datasets: None
-- **climate-ocean_qcv_analysis-q014** — Which Galaxy tool would you recommend to perform `harmonize_insitu_to_netcdf`?
+- **climate-ocean_qcv_analysis-q014** — I want to standardize column names and units and produce a NetCDF output that my ocean QC workflow can ingest. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
   - Datasets: None
-- **climate-ocean_qcv_analysis-q015** — Which Galaxy tool would you recommend to perform `tool_odv`?
+- **climate-ocean_qcv_analysis-q015** — I want to visualize ocean profile data and interactively flag questionable points as part of delayed-mode QC. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q016** — Which Galaxy tool would you recommend to perform `tool_odv`?
+- **climate-ocean_qcv_analysis-q016** — I need section plots and scatter plots from float profile datasets stored in my history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q017** — Which Galaxy tool runs Ocean Data View for DMQC workflows?
+- **climate-ocean_qcv_analysis-q017** — I want to interactively explore ocean profile data from my history in a dedicated profile-data viewer (plots, sections, QC flags). Which tool should I launch?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q018** — Which Galaxy tool would you recommend to perform `tool_odv`?
+- **climate-ocean_qcv_analysis-q018** — I need to create a project for delayed-mode QC in an interactive ocean profile viewer and export diagnostic plots. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q019** — Which Galaxy tool would you recommend to perform `tool_odv_history`?
+- **climate-ocean_qcv_analysis-q019** — After using an interactive ocean profile viewer for QC, I want a saved record of edits, flags, and outputs for reproducibility. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q020** — Which Galaxy tool would you recommend to perform `tool_odv_history`?
+- **climate-ocean_qcv_analysis-q020** — I want to capture the outputs from my interactive profile-viewer session (history, logs) as datasets in my Galaxy history. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q021** — Which Galaxy tool records ODV history outputs?
+- **climate-ocean_qcv_analysis-q021** — Which tool can collect the outputs from an interactive profile-viewer session into a single, shareable record in my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q022** — Which Galaxy tool would you recommend to perform `tool_odv_history`?
+- **climate-ocean_qcv_analysis-q022** — I need to extract the session-history output from a previous interactive profile-viewer run so I can reuse it later. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q023** — Which Galaxy tool would you recommend to perform `tool_biogeochemical_calibration`?
+- **climate-ocean_qcv_analysis-q023** — I have float oxygen/nitrate/chlorophyll measurements and want to calibrate them using reference information for delayed-mode QC. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q024** — Which Galaxy tool would you recommend to perform `tool_biogeochemical_calibration`?
+- **climate-ocean_qcv_analysis-q024** — I want to apply biogeochemical sensor calibration to float data and generate calibrated variables and QC outputs. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q025** — Which Galaxy tool performs biogeochemical calibration for float data?
+- **climate-ocean_qcv_analysis-q025** — Which tool can run biogeochemical calibration for profiling float measurements in a delayed-mode QC workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
   - Datasets: None
-- **climate-ocean_qcv_analysis-q026** — Which Galaxy tool would you recommend to perform `tool_biogeochemical_calibration`?
+- **climate-ocean_qcv_analysis-q026** — I need to calibrate biogeochemical variables and output updated values and QC flags. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
   - Datasets: None
 
@@ -1485,31 +1485,31 @@ Questions:
 - Datasets (2): zenodo.5805953, 5805953
 
 Questions:
-- **climate-pangeo-q011** — Which Galaxy tool would you recommend to perform `xarray_metadata_info`?
+- **climate-pangeo-q011** — I have a gridded climate dataset and want a summary of variables, coordinates, and attributes before analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q012** — Which Galaxy tool would you recommend to perform `xarray_coords_info`?
+- **climate-pangeo-q012** — I want to list the coordinate axes and their ranges in a multi-dimensional dataset so I can decide how to subset it. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q013** — Which Galaxy tool would you recommend to perform `xarray_mapplot`?
+- **climate-pangeo-q013** — I want to plot a variable on a latitude/longitude map for a single time step. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/2022.3.0+galaxy0
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q014** — Which Galaxy tool would you recommend to perform `xarray_netcdf2netcdf`?
+- **climate-pangeo-q014** — I need to rewrite or standardize a NetCDF dataset (for example compression, chunking, or metadata) before analysis. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_netcdf2netcdf/xarray_netcdf2netcdf/2022.3.0+galaxy0
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q015** — Which Galaxy tool would you recommend to perform `graphicsmagick_image_montage`?
+- **climate-pangeo-q015** — I generated multiple map images for different months and want to combine them into a montage panel for comparison. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/graphicsmagick_image_montage/graphicsmagick_image_montage/1.3.46+galaxy0
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q016** — Which Galaxy tool would you recommend to perform `xarray_select`?
+- **climate-pangeo-q016** — I want to subset a large multi-dimensional dataset by variable, time, and region to make it smaller for plotting. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/2022.3.0+galaxy0
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q017** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **climate-pangeo-q017** — I want a scatter plot from a derived tabular dataset (for example, time versus anomaly). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q018** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **climate-pangeo-q018** — I need to clean up a column in a text table using a regular expression, such as extracting numbers from a string. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-q019** — Which Galaxy tool would you recommend to perform `climate_stripes`?
+- **climate-pangeo-q019** — I want to generate a climate-stripes visualization from a time series of temperature anomalies. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.2
   - Datasets: zenodo.5805953, 5805953
 
@@ -1519,16 +1519,16 @@ Questions:
 - Datasets (2): zenodo.5805953, 5805953
 
 Questions:
-- **climate-pangeo-notebook-q011** — Which Galaxy tool would you recommend to perform `interactive_tool_pangeo_notebook`?
+- **climate-pangeo-notebook-q011** — I want an interactive notebook environment connected to my Galaxy datasets so I can analyze climate data with Python and xarray. Which tool should I launch?
   - Tools: interactive_tool_pangeo_notebook
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-notebook-q012** — Which Galaxy tool would you recommend to perform `interactive_tool_pangeo_notebook`?
+- **climate-pangeo-notebook-q012** — I need a temporary interactive workspace to run Python on datasets in my history (xarray, pandas, plotting). Which tool should I use?
   - Tools: interactive_tool_pangeo_notebook
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-notebook-q013** — Which Galaxy tool should I use to analyze data in a Pangeo Notebook in Pangeo Notebook in Galaxy - Introduction to Xarray?
+- **climate-pangeo-notebook-q013** — I prefer to code my analysis in a notebook; which Galaxy tool lets me open a Jupyter-style notebook with xarray on my datasets?
   - Tools: interactive_tool_pangeo_notebook
   - Datasets: zenodo.5805953, 5805953
-- **climate-pangeo-notebook-q014** — Which Galaxy tool would you recommend to perform `interactive_tool_pangeo_notebook`?
+- **climate-pangeo-notebook-q014** — I want to explore multi-dimensional climate data interactively, iterating on plots and computations in a notebook without leaving Galaxy. Which tool should I use?
   - Tools: interactive_tool_pangeo_notebook
   - Datasets: zenodo.5805953, 5805953
 

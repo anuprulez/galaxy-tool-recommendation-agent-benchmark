@@ -151,6 +151,18 @@ Notes:
   - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
     - `filter_tabular`, `query_tabular`, `msconvert`, `maxquant`, `unipept`
 
+## Batch A0003 (301–450)
+- Status: **rewritten** (manual)
+- Date: 2026-02-04
+- Scope: items 301–450 (assembly: MRSA nanopore, Unicycler, VGP genome assembly + workflow training; climate: Argo/Pangeo, Climate-101, FATES, Earth system, ocean QCV, ocean variables)
+- Summary:
+  - Rewrote tool-leaking and templated queries into realistic Galaxy-user questions (removed backticks/tool names/IDs, no tutorial references, no dataset URLs/IDs in the query text).
+  - Increased science-first coverage in this batch by relabeling a subset of items where the question is principle/goal driven (final split: 110 science-first / 40 tool-first).
+  - Kept the existing ground-truth tool selections intact for this batch (no new gold expansions added).
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 301 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Cut/Grep/cat/sort/etc.).
+
 ## Batch 0052 (5101–5200)
 - Status: **expanded** (version-drift fixes + upload tool normalization; MSI tools flagged)
 - Date: 2026-01-26
