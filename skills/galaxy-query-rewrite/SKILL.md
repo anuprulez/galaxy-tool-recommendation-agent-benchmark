@@ -36,6 +36,10 @@ When rewriting, preserve the *starting point* style unless the item is too vague
 - **Science-first (principle/goal first):** user starts from a scientific question (“identify cell types”, “find differentially expressed genes”, “infer variants”). Rewrite by adding the minimal missing “data type + expected output” while keeping it question-driven.
 - **Tool-first (operation/workflow first):** user starts from a concrete step (“QC paired-end FASTQ”, “trim adapters”, “map reads”). Rewrite by making the step goal and output explicit (report/metrics/output files) without drifting into parameter/config instructions.
 
+### Balance target
+
+Across a 150-item batch, aim for **science-first ≈ tool-first** (roughly 50/50; ideally 75/75) and ensure the query text matches the labeled style.
+
 ## Review workflow (agent checklist)
 
 1. Run the checker:
@@ -50,6 +54,13 @@ When rewriting, preserve the *starting point* style unless the item is too vague
 4. Enforce **within-tool diversity**:
    - Group items by `tools[0]` base id (strip toolshed version).
    - If any group contains duplicated or near-duplicated query text, rewrite them to be clearly different.
+5. Ground-truth integrity + expansion checks:
+   - If `tools[]` has multiple entries, ensure it is intentional:
+     - `metadata.ground_truth_alternatives` should be `true`, and a short `metadata.ground_truth_alternatives_note` should explain why multiple tools are acceptable.
+   - Ensure `metadata.tool_focus` matches one of the `tools[]` entries (and reflects the main intended ground truth).
+   - If `tools[0]` is a placeholder/non-stable ID or not runnable on the target server snapshot, consider a **manual ground-truth expansion**:
+     - Add an acceptable Toolshed GUID alternative to `tools[]` and set `metadata.ground_truth_alternatives=true`.
+     - Do not expand unless you can justify that the alternative is genuinely equivalent for the user intent.
 5. Rewrite strategy:
    - Keep the **user intent** the same, but change perspective/constraints.
    - Add a small realistic constraint when helpful (runtime, reproducibility, “probabilities not labels”, “avoid data leakage”, “save metrics”, etc.).

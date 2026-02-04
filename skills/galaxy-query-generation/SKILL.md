@@ -63,6 +63,10 @@ Both styles are valid; the difference is *where the user starts*:
 - **Science-first (principle/goal first):** starts from a scientific question (“what is present / what differs / what is it?”). The query should still mention the data type and the intended output (e.g., “cell type labels/markers”), but does *not* need to name specific methods.
 - **Tool-first (operation/workflow first):** starts from a concrete processing step (“QC / trimming / mapping / quantify”). The query should still include the data type and desired report/output, but stays at the “which tool to run” level (not parameter/config help).
 
+### Balance target
+
+When generating or rewriting in batches, aim for **science-first ≈ tool-first** (roughly 50/50; ideally 75/75 within a 150-item batch), and ensure each query’s wording matches its labeled style.
+
 ## Examples: science-first vs tool-first user queries
 
 Both styles are valid, as long as the query still asks for a **Galaxy tool recommendation** and includes enough intent (data type + goal + expected output) without leaking tool names or dataset identifiers.
@@ -90,5 +94,11 @@ The checker enforces **hard** constraints (URLs, tutorial mentions, backticks/to
 Use the non-blocking smell scan to surface candidates for manual rewrite:
 
 `python3 skills/galaxy-query-generation/scripts/find_query_smells.py --input data/benchmark/v1_items.jsonl --start N --count 150`
+
+### Ground-truth integrity checks (recommended during review)
+
+- If an item has multiple `tools[]`, mark `metadata.ground_truth_alternatives=true` and add a brief `metadata.ground_truth_alternatives_note`.
+- Keep `metadata.tool_focus` consistent with `tools[]` (it should be one of the listed tools and represent the main intended ground truth).
+- If a tool ID is a placeholder or non-stable, consider a manual expansion to include a stable Toolshed GUID equivalent when appropriate.
 
 This project’s final target is `data/benchmark/v1_items.jsonl` (not `tmp_stats/*`).
