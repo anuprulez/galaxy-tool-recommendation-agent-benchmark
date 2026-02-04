@@ -11119,40 +11119,40 @@ Questions:
 - **imaging-omero-suite-q026** — In Galaxy, what tool should I run to obtain image identifiers from a remote image-management system for downstream import tasks?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_id/omero_get_id/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q027** — Which Galaxy tool would you recommend to perform `omero_get_value`?
+- **imaging-omero-suite-q027** — I imported microscopy images from a remote image repository and want to extract specific metadata fields (e.g., channel names or annotations) into a tabular dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_value/omero_get_value/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q028** — Which Galaxy tool would you recommend to perform `omero_get_value`?
+- **imaging-omero-suite-q028** — I need to retrieve particular metadata values associated with imaging datasets from an external image server and save them as a table. What Galaxy tool can pull those values?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_value/omero_get_value/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q029** — Which Galaxy tool runs omero_get_value?
+- **imaging-omero-suite-q029** — Which Galaxy tool can fetch selected metadata values for images from an external image repository and output them in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_value/omero_get_value/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q030** — Which Galaxy tool would you recommend to perform `omero_get_value`?
+- **imaging-omero-suite-q030** — In Galaxy, what tool should I run to look up metadata values for imaging datasets stored on a remote image server?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_get_value/omero_get_value/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q031** — Which Galaxy tool would you recommend to perform `omero_filter`?
+- **imaging-omero-suite-q031** — I have a table of images/metadata from a remote image repository and want to filter it to keep only images matching certain metadata criteria. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_filter/omero_filter/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q032** — Which Galaxy tool would you recommend to perform `omero_filter`?
+- **imaging-omero-suite-q032** — I need to select a subset of microscopy images based on metadata conditions (e.g., experiment, channel, label) before importing/processing. What Galaxy tool can filter the image list?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_filter/omero_filter/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q033** — Which Galaxy tool runs omero_filter?
+- **imaging-omero-suite-q033** — Which Galaxy tool can filter imaging datasets from an external repository using metadata rules and return the selected items?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_filter/omero_filter/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q034** — Which Galaxy tool would you recommend to perform `omero_filter`?
+- **imaging-omero-suite-q034** — In Galaxy, what tool should I run to filter an image list by metadata fields so only the relevant images are kept?
   - Tools: toolshed.g2.bx.psu.edu/repos/ufz/omero_filter/omero_filter/5.18.0+galaxy0
   - Datasets: 14205500
-- **imaging-omero-suite-q035** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec`?
+- **imaging-omero-suite-q035** — I have a binary mask image and want to measure connected components (object count, area, size) and export the measurements as a table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec
   - Datasets: 14205500
-- **imaging-omero-suite-q036** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec`?
+- **imaging-omero-suite-q036** — From a thresholded binary image, I need particle/object measurements and summary statistics for downstream QC. What Galaxy tool can analyze connected components?
   - Tools: toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec
   - Datasets: 14205500
-- **imaging-omero-suite-q037** — Which Galaxy tool runs ImageJ2 Analyze Particles (binary)?
+- **imaging-omero-suite-q037** — Which Galaxy tool can analyze objects in a binary image and output measurements like count and area as tabular results?
   - Tools: toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec
   - Datasets: 14205500
-- **imaging-omero-suite-q038** — Which Galaxy tool would you recommend to perform `toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec`?
+- **imaging-omero-suite-q038** — In Galaxy, what tool should I run to measure connected regions in a binary mask and produce an object measurement table?
   - Tools: toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/862af85a50ec
   - Datasets: 14205500
 
@@ -11162,88 +11162,88 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **imaging-parameter-tuning-q011** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **imaging-parameter-tuning-q011** — I have a results table with a grouping column and want to split it into separate files per group so I can process each group independently. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
-- **imaging-parameter-tuning-q012** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **imaging-parameter-tuning-q012** — My tabular file contains multiple samples and I need it split into multiple datasets based on values in one column. What Galaxy tool can split a file by column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
-- **imaging-parameter-tuning-q013** — Which Galaxy tool splits files on a column?
+- **imaging-parameter-tuning-q013** — Which Galaxy tool can split a TSV into multiple output files using the value in a selected column as the key?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
-- **imaging-parameter-tuning-q014** — Which Galaxy tool would you recommend to perform `tp_split_on_column`?
+- **imaging-parameter-tuning-q014** — In Galaxy, what tool should I run to partition a table into per-group datasets based on a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.4, toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.2
   - Datasets: None
-- **imaging-parameter-tuning-q015** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
+- **imaging-parameter-tuning-q015** — I want to run a workflow where some run options are stored in a small text file and then used to control a later tool step. Which Galaxy tool should I use to read those option values from a file?
   - Tools: param_value_from_file
   - Datasets: None
-- **imaging-parameter-tuning-q016** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
+- **imaging-parameter-tuning-q016** — I have a text file containing option values (one per line) and want to pass those values into a downstream tool step automatically. What Galaxy tool can read option values from a file?
   - Tools: param_value_from_file
   - Datasets: None
-- **imaging-parameter-tuning-q017** — Which Galaxy tool reads parameter values from a file?
+- **imaging-parameter-tuning-q017** — Which Galaxy tool can load run-option values from a file so they can be used as inputs in a Galaxy workflow?
   - Tools: param_value_from_file
   - Datasets: None
-- **imaging-parameter-tuning-q018** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
+- **imaging-parameter-tuning-q018** — In Galaxy, what tool should I run to extract option values from a text file for use in later workflow steps?
   - Tools: param_value_from_file
   - Datasets: None
-- **imaging-parameter-tuning-q019** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-parameter-tuning-q019** — I have noisy microscopy images and want to apply a basic 2D filter (e.g., smoothing/median) before thresholding. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
-- **imaging-parameter-tuning-q020** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-parameter-tuning-q020** — My images have speckle noise and I need a standard 2D filtering step to improve segmentation quality. What Galaxy tool can apply basic filters?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
-- **imaging-parameter-tuning-q021** — Which Galaxy tool runs ip_filter_standard?
+- **imaging-parameter-tuning-q021** — Which Galaxy tool can apply standard 2D filters to images as a preprocessing step for segmentation?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
-- **imaging-parameter-tuning-q022** — Which Galaxy tool would you recommend to perform `ip_filter_standard`?
+- **imaging-parameter-tuning-q022** — In Galaxy, what tool should I run to apply a simple 2D smoothing/denoising filter to images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.16.3+galaxy1, toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/0.0.3-3
   - Datasets: None
-- **imaging-parameter-tuning-q023** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-parameter-tuning-q023** — I have microscopy images with low contrast and want to enhance contrast using histogram equalization prior to segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
-- **imaging-parameter-tuning-q024** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-parameter-tuning-q024** — My images have uneven intensity distributions and I want to normalize contrast to make objects easier to detect. What Galaxy tool can do histogram equalization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
-- **imaging-parameter-tuning-q025** — Which Galaxy tool performs 2D histogram equalization?
+- **imaging-parameter-tuning-q025** — Which Galaxy tool can enhance image contrast by applying histogram equalization to 2D images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
-- **imaging-parameter-tuning-q026** — Which Galaxy tool would you recommend to perform `ip_histogram_equalization`?
+- **imaging-parameter-tuning-q026** — In Galaxy, what tool should I run to perform histogram equalization as a preprocessing step?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.0.1-2
   - Datasets: None
-- **imaging-parameter-tuning-q027** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-parameter-tuning-q027** — I have grayscale microscopy images and want to automatically threshold them into a binary mask for segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
-- **imaging-parameter-tuning-q028** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-parameter-tuning-q028** — I need an automatic thresholding step on 2D images that outputs a binary image separating foreground from background. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
-- **imaging-parameter-tuning-q029** — Which Galaxy tool runs 2D auto-thresholding?
+- **imaging-parameter-tuning-q029** — Which Galaxy tool can compute an auto-threshold on images and output a binary mask suitable for labeling objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
-- **imaging-parameter-tuning-q030** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-parameter-tuning-q030** — In Galaxy, what tool should I run to create a binary mask from an image using automatic thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: None
-- **imaging-parameter-tuning-q031** — Which Galaxy tool would you recommend to perform `ip_segmetrics`?
+- **imaging-parameter-tuning-q031** — I have a predicted segmentation mask and a ground-truth mask and want to compute segmentation quality metrics like IoU/Dice. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2
   - Datasets: None
-- **imaging-parameter-tuning-q032** — Which Galaxy tool would you recommend to perform `ip_segmetrics`?
+- **imaging-parameter-tuning-q032** — I need to evaluate my segmentation results against a reference mask and output a report of segmentation metrics. What Galaxy tool can compute segmentation metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2
   - Datasets: None
-- **imaging-parameter-tuning-q033** — Which Galaxy tool runs ip_segmetrics?
+- **imaging-parameter-tuning-q033** — Which Galaxy tool can compare two segmentation masks and compute metrics such as overlap scores and object-level measures?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2
   - Datasets: None
-- **imaging-parameter-tuning-q034** — Which Galaxy tool would you recommend to perform `ip_segmetrics`?
+- **imaging-parameter-tuning-q034** — In Galaxy, what tool should I run to calculate segmentation performance metrics between a prediction mask and a reference mask?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/segmetrics/ip_segmetrics/1.4.0-2
   - Datasets: None
-- **imaging-parameter-tuning-q035** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **imaging-parameter-tuning-q035** — I have a dataset collection of per-image results and want one combined dataset by concatenating all elements. Which Galaxy tool should I use to collapse the collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
-- **imaging-parameter-tuning-q036** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **imaging-parameter-tuning-q036** — After running analysis over many images, I need to collapse the collection outputs into a single table for plotting and summaries. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
-- **imaging-parameter-tuning-q037** — Which Galaxy tool collapses dataset collections?
+- **imaging-parameter-tuning-q037** — Which Galaxy tool can take a list collection and produce one merged dataset so I can analyze everything together?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
-- **imaging-parameter-tuning-q038** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **imaging-parameter-tuning-q038** — In Galaxy, what tool should I run to collapse a collection into a single dataset for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1, toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
   - Datasets: None
 
@@ -11253,88 +11253,88 @@ Questions:
 - Datasets (1): 6647674
 
 Questions:
-- **imaging-process-image-bioimageio-q011** — Which Galaxy tool would you recommend to perform `bioimage_inference`?
+- **imaging-process-image-bioimageio-q011** — I have microscopy images and want to apply a pretrained BioImage model (e.g., for segmentation or denoising) and output the predicted image/mask. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q012** — Which Galaxy tool would you recommend to perform `bioimage_inference`?
+- **imaging-process-image-bioimageio-q012** — I need to run deep-learning inference on images using a BioImage model package and produce output masks for downstream analysis. What Galaxy tool can do this inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q013** — Which Galaxy tool runs bioimage_inference?
+- **imaging-process-image-bioimageio-q013** — Which Galaxy tool can apply a pretrained BioImage model to microscopy images and output the predicted results (mask/probability map)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q014** — Which Galaxy tool would you recommend to perform `bioimage_inference`?
+- **imaging-process-image-bioimageio-q014** — In Galaxy, what tool should I run to perform BioImage model inference on images as part of an automated segmentation workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q015** — Which Galaxy tool would you recommend to perform `ip_split_image`?
+- **imaging-process-image-bioimageio-q015** — I have a large image and want to split it into smaller tiles so I can run segmentation on each tile and then merge results later. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q016** — Which Galaxy tool would you recommend to perform `ip_split_image`?
+- **imaging-process-image-bioimageio-q016** — My microscopy image is too large to process efficiently, so I want to tile it into multiple sub-images. What Galaxy tool can split an image into tiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q017** — Which Galaxy tool splits images into tiles?
+- **imaging-process-image-bioimageio-q017** — Which Galaxy tool can split a single image into multiple smaller images/tiles for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q018** — Which Galaxy tool would you recommend to perform `ip_split_image`?
+- **imaging-process-image-bioimageio-q018** — In Galaxy, what tool should I run to break a large image into tiles for batch processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/split_image/ip_split_image/2.2.3+galaxy1
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q019** — Which Galaxy tool would you recommend to perform `image_math`?
+- **imaging-process-image-bioimageio-q019** — I have one or more images and want to combine them with pixel-wise arithmetic (add/subtract/multiply) to create a derived image for segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q020** — Which Galaxy tool would you recommend to perform `image_math`?
+- **imaging-process-image-bioimageio-q020** — I need to compute a new image by applying pixel-wise math between channels (e.g., normalize or subtract background). What Galaxy tool can do image arithmetic?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q021** — Which Galaxy tool runs image_math?
+- **imaging-process-image-bioimageio-q021** — Which Galaxy tool can apply pixel-wise mathematical operations to images and output the resulting processed image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q022** — Which Galaxy tool would you recommend to perform `image_math`?
+- **imaging-process-image-bioimageio-q022** — In Galaxy, what tool should I run to perform image math operations to create a derived image for downstream thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/image_math/image_math/1.26.4+galaxy2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q023** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-process-image-bioimageio-q023** — I want to evaluate different preprocessing pipelines and need to auto-threshold images into masks for comparison. Which Galaxy tool should I use for thresholding?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q024** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-process-image-bioimageio-q024** — After applying image arithmetic and filtering, I need to generate a binary mask via automatic thresholding. What Galaxy tool can convert the processed image to a mask?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q025** — Which Galaxy tool runs ip_threshold?
+- **imaging-process-image-bioimageio-q025** — Which Galaxy tool should I use to apply automatic thresholding to produce a binary segmentation image as input for labeling objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q026** — Which Galaxy tool would you recommend to perform `ip_threshold`?
+- **imaging-process-image-bioimageio-q026** — In Galaxy, what tool can turn a processed grayscale image into a binary mask by applying an automatic threshold method?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.2+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.25.0+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.0.5-2
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q027** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-process-image-bioimageio-q027** — I have a binary segmentation mask and need to label connected components so each object has a unique ID for measurements. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q028** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-process-image-bioimageio-q028** — After thresholding, I want to convert a binary mask into a labeled-object image so I can measure features per object. What Galaxy tool can label connected regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q029** — Which Galaxy tool converts binary images to label images?
+- **imaging-process-image-bioimageio-q029** — Which Galaxy tool can turn a binary image into a label image with uniquely numbered objects for downstream quantification?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q030** — Which Galaxy tool would you recommend to perform `ip_binary_to_labelimage`?
+- **imaging-process-image-bioimageio-q030** — In Galaxy, what tool should I run to label connected objects in a binary mask and output a label image?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.5+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.6+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/binary2labelimage/ip_binary_to_labelimage/0.7.3+galaxy0
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q031** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-process-image-bioimageio-q031** — I want to visually validate my segmentation by overlaying the mask on top of the original image and saving a composite. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q032** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-process-image-bioimageio-q032** — I have two images (e.g., a raw image and a label/mask) and want a composite overlay for inspection. What Galaxy tool can overlay images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q033** — Which Galaxy tool overlays images?
+- **imaging-process-image-bioimageio-q033** — Which Galaxy tool can create an overlay/composite image from two inputs so I can inspect segmentation quality?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q034** — Which Galaxy tool would you recommend to perform `ip_overlay_images`?
+- **imaging-process-image-bioimageio-q034** — In Galaxy, what tool should I run to overlay images (channels or masks) into a single combined view?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy0, toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.5
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q035** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-process-image-bioimageio-q035** — I have a dataset collection and need to extract one element as a standalone dataset so I can feed it into a tool that does not accept collections. Which Galaxy tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q036** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-process-image-bioimageio-q036** — My output is a collection and I want to pull out a single dataset for manual inspection and QC. What Galaxy tool can extract an element from a collection?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q037** — Which Galaxy tool extracts a dataset from a collection?
+- **imaging-process-image-bioimageio-q037** — Which Galaxy tool can extract one dataset from a collection and output it as a regular history dataset?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 6647674
-- **imaging-process-image-bioimageio-q038** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **imaging-process-image-bioimageio-q038** — In Galaxy, what tool should I run to pick one element from a dataset collection and extract it as a dataset?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 6647674
 
@@ -11344,244 +11344,244 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **imaging-tutorial-CP-q011** — Which Galaxy tool would you recommend to perform `cp_common`?
+- **imaging-tutorial-CP-q011** — I am building a modular image-analysis workflow and need the shared utility component required by several pipeline modules. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q012** — Which Galaxy tool would you recommend to perform `cp_common`?
+- **imaging-tutorial-CP-q012** — I want to run a multi-step image-analysis pipeline and need the common helper step that provides shared resources used by subsequent modules. What Galaxy tool provides this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q013** — Which Galaxy tool provides cp_common for CellProfiler workflows?
+- **imaging-tutorial-CP-q013** — Which Galaxy tool should I use to supply shared utilities/resources needed by multiple image-analysis modules in a workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q014** — Which Galaxy tool would you recommend to perform `cp_common`?
+- **imaging-tutorial-CP-q014** — In Galaxy, what tool can provide common helpers required to run a modular image-analysis pipeline end-to-end?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_common/cp_common/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q015** — Which Galaxy tool would you recommend to perform `idr_download_by_ids`?
+- **imaging-tutorial-CP-q015** — I want to import public microscopy images from the Image Data Resource into Galaxy using a list of image identifiers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-tutorial-CP-q016** — Which Galaxy tool would you recommend to perform `idr_download_by_ids`?
+- **imaging-tutorial-CP-q016** — I need to download microscopy image datasets from an external public repository into my Galaxy history using a list of IDs. What Galaxy tool can do this import?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-tutorial-CP-q017** — Which Galaxy tool runs idr_download_by_ids?
+- **imaging-tutorial-CP-q017** — Which Galaxy tool can fetch IDR microscopy images by identifier and add them to my history as image datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-tutorial-CP-q018** — Which Galaxy tool would you recommend to perform `idr_download_by_ids`?
+- **imaging-tutorial-CP-q018** — In Galaxy, what tool should I run to download microscopy images from IDR given a list of image IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-tutorial-CP-q019** — Which Galaxy tool would you recommend to perform `cp_identify_primary_objects`?
+- **imaging-tutorial-CP-q019** — I have microscopy images and want to segment primary objects (e.g., nuclei) to produce labeled masks for measurement. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q020** — Which Galaxy tool would you recommend to perform `cp_identify_primary_objects`?
+- **imaging-tutorial-CP-q020** — I need to identify individual nuclei/cells in an image and output an object label mask for downstream feature extraction. What Galaxy tool can detect primary objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q021** — Which Galaxy tool runs cp_identify_primary_objects?
+- **imaging-tutorial-CP-q021** — Which Galaxy tool can segment primary objects in an image and output a labeled object mask suitable for measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q022** — Which Galaxy tool would you recommend to perform `cp_identify_primary_objects`?
+- **imaging-tutorial-CP-q022** — In Galaxy, what tool should I run to detect primary objects from an intensity image and create a label image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q023** — Which Galaxy tool would you recommend to perform `cp_convert_objects_to_image`?
+- **imaging-tutorial-CP-q023** — I have segmented objects and want to convert the object labels into an image representation (e.g., mask/label image) for visualization or downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_convert_objects_to_image/cp_convert_objects_to_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q024** — Which Galaxy tool would you recommend to perform `cp_convert_objects_to_image`?
+- **imaging-tutorial-CP-q024** — I need to turn object masks/labels into an image dataset so I can overlay it or apply image operations. What Galaxy tool can convert objects to an image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_convert_objects_to_image/cp_convert_objects_to_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q025** — Which Galaxy tool runs cp_convert_objects_to_image?
+- **imaging-tutorial-CP-q025** — Which Galaxy tool can convert object segmentation results into an image output (mask or label image) for further analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_convert_objects_to_image/cp_convert_objects_to_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q026** — Which Galaxy tool would you recommend to perform `cp_convert_objects_to_image`?
+- **imaging-tutorial-CP-q026** — In Galaxy, what tool should I run to convert detected objects into an image dataset for downstream visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_convert_objects_to_image/cp_convert_objects_to_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q027** — Which Galaxy tool would you recommend to perform `cp_display_data_on_image`?
+- **imaging-tutorial-CP-q027** — I have per-object measurements and want to display these values on the image (e.g., label objects with numbers) for QC. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_display_data_on_image/cp_display_data_on_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q028** — Which Galaxy tool would you recommend to perform `cp_display_data_on_image`?
+- **imaging-tutorial-CP-q028** — I need a QC visualization where object measurements (like intensity or area) are drawn on top of the image near each object. What Galaxy tool can display data on an image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_display_data_on_image/cp_display_data_on_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q029** — Which Galaxy tool runs cp_display_data_on_image?
+- **imaging-tutorial-CP-q029** — Which Galaxy tool can overlay measurement values or labels onto an image to create an annotated QC image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_display_data_on_image/cp_display_data_on_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q030** — Which Galaxy tool would you recommend to perform `cp_display_data_on_image`?
+- **imaging-tutorial-CP-q030** — In Galaxy, what tool should I run to render object measurement values onto the image for inspection?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_display_data_on_image/cp_display_data_on_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q031** — Which Galaxy tool would you recommend to perform `cp_save_images`?
+- **imaging-tutorial-CP-q031** — I ran an image-analysis pipeline and want to save intermediate or final images (masks, overlays) as output datasets. Which Galaxy tool should I use to save images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q032** — Which Galaxy tool would you recommend to perform `cp_save_images`?
+- **imaging-tutorial-CP-q032** — I need to export processed images from my workflow (segmentation masks and QC images) as separate files. What Galaxy tool can write out images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q033** — Which Galaxy tool runs cp_save_images?
+- **imaging-tutorial-CP-q033** — Which Galaxy tool can save pipeline-generated images as image datasets for downstream review and reporting?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q034** — Which Galaxy tool would you recommend to perform `cp_save_images`?
+- **imaging-tutorial-CP-q034** — In Galaxy, what tool should I run to write processed images from an analysis workflow as output datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_save_images/cp_save_images/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q035** — Which Galaxy tool would you recommend to perform `cp_enhance_or_suppress_features`?
+- **imaging-tutorial-CP-q035** — I have microscopy images and want to enhance small bright features or suppress background to improve object detection. Which Galaxy tool should I use for feature enhancement/suppression?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_enhance_or_suppress_features/cp_enhance_or_suppress_features/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q036** — Which Galaxy tool would you recommend to perform `cp_enhance_or_suppress_features`?
+- **imaging-tutorial-CP-q036** — My images have uneven background and faint objects; I need an image processing step to enhance features before thresholding. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_enhance_or_suppress_features/cp_enhance_or_suppress_features/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q037** — Which Galaxy tool runs cp_enhance_or_suppress_features?
+- **imaging-tutorial-CP-q037** — Which Galaxy tool can enhance or suppress image features to improve segmentation and object detection downstream?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_enhance_or_suppress_features/cp_enhance_or_suppress_features/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q038** — Which Galaxy tool would you recommend to perform `cp_enhance_or_suppress_features`?
+- **imaging-tutorial-CP-q038** — In Galaxy, what tool should I run to enhance structures of interest and reduce background in an image before segmentation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_enhance_or_suppress_features/cp_enhance_or_suppress_features/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q039** — Which Galaxy tool would you recommend to perform `cp_mask_image`?
+- **imaging-tutorial-CP-q039** — I have an image and a mask and want to apply the mask to keep only pixels inside/outside the region of interest. Which Galaxy tool should I use to mask the image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_mask_image/cp_mask_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q040** — Which Galaxy tool would you recommend to perform `cp_mask_image`?
+- **imaging-tutorial-CP-q040** — I need to exclude background regions using a binary mask before measuring intensities. What Galaxy tool can apply a mask to an image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_mask_image/cp_mask_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q041** — Which Galaxy tool runs cp_mask_image?
+- **imaging-tutorial-CP-q041** — Which Galaxy tool can apply a mask to an image so only selected regions are retained for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_mask_image/cp_mask_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q042** — Which Galaxy tool would you recommend to perform `cp_mask_image`?
+- **imaging-tutorial-CP-q042** — In Galaxy, what tool should I run to mask an image using a ROI/segmentation mask?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_mask_image/cp_mask_image/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q043** — Which Galaxy tool would you recommend to perform `cp_gray_to_color`?
+- **imaging-tutorial-CP-q043** — I have a grayscale image and want to convert it to a color/RGB representation for visualization or overlay creation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_gray_to_color/cp_gray_to_color/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q044** — Which Galaxy tool would you recommend to perform `cp_gray_to_color`?
+- **imaging-tutorial-CP-q044** — My pipeline outputs grayscale masks and I want them converted into a color image so I can overlay outlines and labels more clearly. What Galaxy tool can convert grayscale to color?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_gray_to_color/cp_gray_to_color/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q045** — Which Galaxy tool runs cp_gray_to_color?
+- **imaging-tutorial-CP-q045** — Which Galaxy tool can convert a grayscale image into a color image representation for downstream visualization steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_gray_to_color/cp_gray_to_color/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q046** — Which Galaxy tool would you recommend to perform `cp_gray_to_color`?
+- **imaging-tutorial-CP-q046** — In Galaxy, what tool should I run to convert grayscale images into color images for reporting?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_gray_to_color/cp_gray_to_color/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q047** — Which Galaxy tool would you recommend to perform `cp_image_math`?
+- **imaging-tutorial-CP-q047** — I want to combine images using pixel-wise arithmetic (add/subtract/multiply) to create a derived image for segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_image_math/cp_image_math/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q048** — Which Galaxy tool would you recommend to perform `cp_image_math`?
+- **imaging-tutorial-CP-q048** — I need to compute a new image by applying math between channels (e.g., subtract background) in an image-analysis pipeline. What Galaxy tool can do image arithmetic?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_image_math/cp_image_math/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q049** — Which Galaxy tool runs cp_image_math?
+- **imaging-tutorial-CP-q049** — Which Galaxy tool should I use to combine images with add/subtract/multiply operations inside an image-analysis pipeline and output the resulting image?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_image_math/cp_image_math/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q050** — Which Galaxy tool would you recommend to perform `cp_image_math`?
+- **imaging-tutorial-CP-q050** — In Galaxy, what tool should I run to perform image math operations within an image-analysis pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_image_math/cp_image_math/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q051** — Which Galaxy tool would you recommend to perform `cp_measure_granularity`?
+- **imaging-tutorial-CP-q051** — I have segmented objects and want to quantify granularity/spotty texture patterns within each object as numeric features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_granularity/cp_measure_granularity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q052** — Which Galaxy tool would you recommend to perform `cp_measure_granularity`?
+- **imaging-tutorial-CP-q052** — I need per-object granularity measurements from microscopy images to capture punctate staining patterns. What Galaxy tool can compute granularity features?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_granularity/cp_measure_granularity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q053** — Which Galaxy tool runs cp_measure_granularity?
+- **imaging-tutorial-CP-q053** — Which Galaxy tool can measure granularity features of objects in an image and output a table of granularity metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_granularity/cp_measure_granularity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q054** — Which Galaxy tool would you recommend to perform `cp_measure_granularity`?
+- **imaging-tutorial-CP-q054** — In Galaxy, what tool should I run to compute granularity-based features for segmented objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_granularity/cp_measure_granularity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q055** — Which Galaxy tool would you recommend to perform `cp_measure_texture`?
+- **imaging-tutorial-CP-q055** — I want texture features (e.g., Haralick-like measures) computed for each segmented object in my images. Which Galaxy tool should I use to measure texture?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_texture/cp_measure_texture/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q056** — Which Galaxy tool would you recommend to perform `cp_measure_texture`?
+- **imaging-tutorial-CP-q056** — After segmentation, I need per-object texture measurements from the intensity image for downstream classification. What Galaxy tool can compute texture features?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_texture/cp_measure_texture/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q057** — Which Galaxy tool runs cp_measure_texture?
+- **imaging-tutorial-CP-q057** — Which Galaxy tool can calculate texture features for labeled objects and output a tabular measurement dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_texture/cp_measure_texture/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q058** — Which Galaxy tool would you recommend to perform `cp_measure_texture`?
+- **imaging-tutorial-CP-q058** — In Galaxy, what tool should I run to measure texture properties of segmented objects from microscopy images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_texture/cp_measure_texture/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q059** — Which Galaxy tool would you recommend to perform `cp_measure_object_intensity`?
+- **imaging-tutorial-CP-q059** — I have segmented objects and want fluorescence intensity statistics per object for one or more channels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q060** — Which Galaxy tool would you recommend to perform `cp_measure_object_intensity`?
+- **imaging-tutorial-CP-q060** — I need per-object intensity measurements (mean/sum/max) using my object masks and the intensity image. What Galaxy tool can compute object intensities?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q061** — Which Galaxy tool runs cp_measure_object_intensity?
+- **imaging-tutorial-CP-q061** — Which Galaxy tool can measure intensity features for labeled objects and output a table of per-object intensity metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q062** — Which Galaxy tool would you recommend to perform `cp_measure_object_intensity`?
+- **imaging-tutorial-CP-q062** — In Galaxy, what tool should I run to compute intensity measurements for each segmented object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_intensity/cp_measure_object_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q063** — Which Galaxy tool would you recommend to perform `cp_measure_object_size_shape`?
+- **imaging-tutorial-CP-q063** — I have a labeled object mask and want measurements like area, perimeter, and shape descriptors for each object. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q064** — Which Galaxy tool would you recommend to perform `cp_measure_object_size_shape`?
+- **imaging-tutorial-CP-q064** — After segmentation, I need morphology features (size and shape) per object in a results table. What Galaxy tool can compute these measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q065** — Which Galaxy tool runs cp_measure_object_size_shape?
+- **imaging-tutorial-CP-q065** — Which Galaxy tool can compute morphology features (area, perimeter, eccentricity) for each labeled object and write them to a results table?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q066** — Which Galaxy tool would you recommend to perform `cp_measure_object_size_shape`?
+- **imaging-tutorial-CP-q066** — In Galaxy, what tool should I run to measure morphological features of segmented objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_object_size_shape/cp_measure_object_size_shape/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q067** — Which Galaxy tool would you recommend to perform `cp_relate_objects`?
+- **imaging-tutorial-CP-q067** — I have two object sets (e.g., nuclei and cells) and want to relate parent/child relationships so each cell is linked to its nucleus. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_relate_objects/cp_relate_objects/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q068** — Which Galaxy tool would you recommend to perform `cp_relate_objects`?
+- **imaging-tutorial-CP-q068** — After segmenting multiple object types, I need to assign which smaller objects belong to which larger objects and output the relationships. What Galaxy tool can relate objects?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_relate_objects/cp_relate_objects/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q069** — Which Galaxy tool runs cp_relate_objects?
+- **imaging-tutorial-CP-q069** — Which Galaxy tool can compute relationships between two sets of segmented objects (containment/assignment) and output the mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_relate_objects/cp_relate_objects/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q070** — Which Galaxy tool would you recommend to perform `cp_relate_objects`?
+- **imaging-tutorial-CP-q070** — In Galaxy, what tool should I run to relate two object label sets so downstream measurements can be summarized per parent object?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_relate_objects/cp_relate_objects/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q071** — Which Galaxy tool would you recommend to perform `cp_measure_image_quality`?
+- **imaging-tutorial-CP-q071** — I have microscopy images and want image-level quality metrics (focus/blur, saturation, intensity distribution) to flag bad images. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_quality/cp_measure_image_quality/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q072** — Which Galaxy tool would you recommend to perform `cp_measure_image_quality`?
+- **imaging-tutorial-CP-q072** — I need per-image QC metrics to detect out-of-focus or low-quality frames before running segmentation. What Galaxy tool can compute image quality measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_quality/cp_measure_image_quality/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q073** — Which Galaxy tool runs cp_measure_image_quality?
+- **imaging-tutorial-CP-q073** — Which Galaxy tool can compute image-quality features for each image and output a QC table for filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_quality/cp_measure_image_quality/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q074** — Which Galaxy tool would you recommend to perform `cp_measure_image_quality`?
+- **imaging-tutorial-CP-q074** — In Galaxy, what tool should I run to measure image quality metrics across a batch of microscopy images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_quality/cp_measure_image_quality/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q075** — Which Galaxy tool would you recommend to perform `cp_measure_image_area_occupied`?
+- **imaging-tutorial-CP-q075** — I have a segmentation/mask and want image-level metrics like fraction of area occupied by foreground objects. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_area_occupied/cp_measure_image_area_occupied/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q076** — Which Galaxy tool would you recommend to perform `cp_measure_image_area_occupied`?
+- **imaging-tutorial-CP-q076** — I need a per-image summary of how much of the image is covered by segmented objects to spot empty or over-segmented images. What Galaxy tool can compute area-occupied metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_area_occupied/cp_measure_image_area_occupied/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q077** — Which Galaxy tool runs cp_measure_image_area_occupied?
+- **imaging-tutorial-CP-q077** — Which Galaxy tool can compute image-level area-occupied measurements from objects/masks and output a QC table?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_area_occupied/cp_measure_image_area_occupied/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q078** — Which Galaxy tool would you recommend to perform `cp_measure_image_area_occupied`?
+- **imaging-tutorial-CP-q078** — In Galaxy, what tool should I run to measure the fraction of image area occupied by objects or foreground regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_area_occupied/cp_measure_image_area_occupied/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q079** — Which Galaxy tool would you recommend to perform `cp_measure_image_intensity`?
+- **imaging-tutorial-CP-q079** — I want per-image intensity summary statistics (mean, max, distribution) for quality control across my microscopy images. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_intensity/cp_measure_image_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q080** — Which Galaxy tool would you recommend to perform `cp_measure_image_intensity`?
+- **imaging-tutorial-CP-q080** — I need image-level intensity metrics to detect brightness drift across channels or samples. What Galaxy tool can compute per-image intensity measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_intensity/cp_measure_image_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q081** — Which Galaxy tool runs cp_measure_image_intensity?
+- **imaging-tutorial-CP-q081** — Which Galaxy tool can compute image-level intensity statistics and output a table for QC and downstream filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_intensity/cp_measure_image_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q082** — Which Galaxy tool would you recommend to perform `cp_measure_image_intensity`?
+- **imaging-tutorial-CP-q082** — In Galaxy, what tool should I run to measure intensity summaries for each image in a dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_measure_image_intensity/cp_measure_image_intensity/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q083** — Which Galaxy tool would you recommend to perform `cp_export_to_spreadsheet`?
+- **imaging-tutorial-CP-q083** — I have measurement results from an image-analysis pipeline and want to export them as a spreadsheet-like table (CSV/TSV) for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q084** — Which Galaxy tool would you recommend to perform `cp_export_to_spreadsheet`?
+- **imaging-tutorial-CP-q084** — After measuring objects and images, I need to export the results into tabular files that I can plot and summarize. What Galaxy tool can export measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q085** — Which Galaxy tool runs cp_export_to_spreadsheet?
+- **imaging-tutorial-CP-q085** — Which Galaxy tool can export image-analysis measurement results into a tabular dataset suitable for statistics and plotting?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q086** — Which Galaxy tool would you recommend to perform `cp_export_to_spreadsheet`?
+- **imaging-tutorial-CP-q086** — In Galaxy, what tool should I run to write measurement outputs into a spreadsheet-style table dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_export_to_spreadsheet/cp_export_to_spreadsheet/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q087** — Which Galaxy tool would you recommend to perform `cp_cellprofiler`?
+- **imaging-tutorial-CP-q087** — I have an image-analysis pipeline file and want to execute the full pipeline on my images to produce segmentations and measurements. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q088** — Which Galaxy tool would you recommend to perform `cp_cellprofiler`?
+- **imaging-tutorial-CP-q088** — I need to run a predefined modular image-analysis pipeline on a batch of microscopy images and collect the configured outputs. What Galaxy tool can execute the pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q089** — Which Galaxy tool runs cp_cellprofiler?
+- **imaging-tutorial-CP-q089** — Which Galaxy tool can run an end-to-end image-analysis pipeline on input images and produce masks, measurements, and QC images?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy1
   - Datasets: None
-- **imaging-tutorial-CP-q090** — Which Galaxy tool would you recommend to perform `cp_cellprofiler`?
+- **imaging-tutorial-CP-q090** — In Galaxy, what tool should I run to execute an image-analysis pipeline on my image dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy1
   - Datasets: None
 
@@ -11591,10 +11591,10 @@ Questions:
 - Datasets (1): 15172302
 
 Questions:
-- **imaging-voronoi-segmentation-q011** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
+- **imaging-voronoi-segmentation-q011** — I have microscopy images in a non-standard format and need to convert them into a standard format compatible with downstream image tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2
   - Datasets: 15172302
-- **imaging-voronoi-segmentation-q012** — Which Galaxy tool would you recommend to perform `ip_convertimage`?
+- **imaging-voronoi-segmentation-q012** — Before segmentation, I want to convert microscopy images to a compatible format (e.g., a standard multi-channel image) for processing. What Galaxy tool can convert microscopy formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3, toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy2
   - Datasets: 15172302
 - **imaging-voronoi-segmentation-q013** — Which Galaxy tool runs bfconvert (ip_convertimage)?
