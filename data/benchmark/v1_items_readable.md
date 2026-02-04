@@ -16981,7 +16981,7 @@ Questions:
 - **proteomics-metaquantome-taxonomy-q015** — Which Galaxy tool can generate plots such as bar charts and volcano plots from metaQuantome statistical output for interpretation?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/metaquantome_viz/metaquantome_viz/2.0.0-0
   - Datasets: zenodo.4110725
-- **proteomics-metaquantome-taxonomy-q016** — Which Galaxy tool would you recommend to perform `metaquantome_viz`?
+- **proteomics-metaquantome-taxonomy-q016** — Which Galaxy tool can generate plots such as bar charts and volcano plots from metaQuantome statistical output for interpretation?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/metaquantome_viz/metaquantome_viz/2.0.0-0
   - Datasets: zenodo.4110725
 
@@ -16991,19 +16991,19 @@ Questions:
 - Datasets (2): ACPs.fasta, non_ACPs.fasta
 
 Questions:
-- **proteomics-ml-modeling-of-anti-cancer-peptides-q011** — Which Galaxy tool would you recommend to perform `pdaug_sequence_property_based_descriptors`?
+- **proteomics-ml-modeling-of-anti-cancer-peptides-q011** — I have a set of peptide sequences and want to compute physicochemical and sequence-derived descriptors for machine learning. Which Galaxy tool can generate these peptide descriptors?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_sequence_property_based_descriptors/pdaug_sequence_property_based_descriptors/0.1.0
   - Datasets: ACPs.fasta, non_ACPs.fasta
-- **proteomics-ml-modeling-of-anti-cancer-peptides-q012** — Which Galaxy tool would you recommend to perform `pdaug_addclasslabel`?
+- **proteomics-ml-modeling-of-anti-cancer-peptides-q012** — I have a peptide feature table and need to add a class label column for supervised machine learning (for example, binder vs non-binder). Which Galaxy tool can add these labels?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_addclasslabel/pdaug_addclasslabel/0.1.0
   - Datasets: ACPs.fasta, non_ACPs.fasta
-- **proteomics-ml-modeling-of-anti-cancer-peptides-q013** — Which Galaxy tool would you recommend to perform `pdaug_addclasslabel`?
+- **proteomics-ml-modeling-of-anti-cancer-peptides-q013** — I have two feature tables with the same peptide identifiers and want to merge them into one dataset for modeling. Which Galaxy tool can merge these tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_merge_dataframes/pdaug_merge_dataframes/0.1.0
   - Datasets: ACPs.fasta, non_ACPs.fasta
-- **proteomics-ml-modeling-of-anti-cancer-peptides-q014** — Which Galaxy tool would you recommend to perform `pdaug_ml_models`?
+- **proteomics-ml-modeling-of-anti-cancer-peptides-q014** — Which Galaxy tool should I use to train and evaluate machine learning models on peptide descriptor tables for classification or regression?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_ml_models/pdaug_ml_models/0.1.0
   - Datasets: ACPs.fasta, non_ACPs.fasta
-- **proteomics-ml-modeling-of-anti-cancer-peptides-q015** — Which Galaxy tool would you recommend to perform `pdaug_basic_plots`?
+- **proteomics-ml-modeling-of-anti-cancer-peptides-q015** — Which Galaxy tool can generate basic exploratory plots from peptide or protein feature tables (distributions, correlations, or summaries)?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_basic_plots/pdaug_basic_plots/0.1.0
   - Datasets: ACPs.fasta, non_ACPs.fasta
 
@@ -17013,52 +17013,52 @@ Questions:
 - Datasets (4): 14216972, metabolome.tsv, proteome.tsv, transcriptome.tsv
 
 Questions:
-- **proteomics-multiGSEA-tutorial-q011** — Which Galaxy tool would you recommend to perform `multigsea`?
+- **proteomics-multiGSEA-tutorial-q011** — I have differential results from multiple omics layers and want to find pathways that are consistently enriched across them. Which Galaxy tool can run multi-omics gene set enrichment analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q012** — Which Galaxy tool would you recommend to perform `multigsea`?
+- **proteomics-multiGSEA-tutorial-q012** — I’m integrating transcriptomics and proteomics signals and want a combined enrichment report for gene sets or pathways. What Galaxy tool can do multi-omics GSEA?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q013** — Which Galaxy tool would you recommend to perform `multigsea`?
+- **proteomics-multiGSEA-tutorial-q013** — Which Galaxy tool can run multi-omics gene set enrichment analysis and combine enrichment evidence across datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q014** — Which Galaxy tool would you recommend to perform `Filter data on any column using simple expressions`?
+- **proteomics-multiGSEA-tutorial-q014** — Which Galaxy tool can filter a tabular dataset using simple expressions on one or more columns?
   - Tools: Filter1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q015** — Which Galaxy tool would you recommend to perform `multigsea`?
+- **proteomics-multiGSEA-tutorial-q015** — I want to compare gene set enrichment across two or more omics datasets and get a single ranked list of enriched pathways. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q016** — Which Galaxy tool would you recommend to perform `multigsea`?
+- **proteomics-multiGSEA-tutorial-q016** — My goal is to perform pathway enrichment jointly on multiple ranked gene lists from different experiments and summarize concordant signals. Which Galaxy tool supports this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q017** — Which Galaxy tool performs multi-omics GSEA?
+- **proteomics-multiGSEA-tutorial-q017** — In Galaxy, what tool should I run to perform a multi-omics GSEA workflow on multiple ranked lists?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q018** — Which Galaxy tool would you recommend to perform `multigsea`?
+- **proteomics-multiGSEA-tutorial-q018** — Which Galaxy tool performs multi-omics GSEA and outputs combined enrichment statistics for pathways?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multigsea/multigsea/1.12.0+galaxy0
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q019** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **proteomics-multiGSEA-tutorial-q019** — I have a tabular dataset and need to remove rows that fail a quality threshold while keeping the rest for downstream analysis. Which Galaxy tool can do this filtering?
   - Tools: Filter1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q020** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **proteomics-multiGSEA-tutorial-q020** — I’m cleaning a results table and want to keep only entries that meet a criterion (like non-missing values and a minimum score). What Galaxy tool can filter rows?
   - Tools: Filter1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q021** — Which Galaxy tool filters rows based on conditions?
+- **proteomics-multiGSEA-tutorial-q021** — In Galaxy, what tool should I use to keep rows matching a condition and discard non-matching rows from a table?
   - Tools: Filter1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q022** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **proteomics-multiGSEA-tutorial-q022** — Which Galaxy tool removes rows from a tabular file based on a numeric threshold or logical rule?
   - Tools: Filter1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q023** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **proteomics-multiGSEA-tutorial-q023** — I have a text or tabular dataset and want to pull out only the lines that contain a set of keywords of interest. Which Galaxy tool can extract matching lines?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q024** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **proteomics-multiGSEA-tutorial-q024** — I’m scanning a results file and need to keep only lines that match a pattern so I can review those hits separately. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q025** — Which Galaxy tool greps matching lines from a text file?
+- **proteomics-multiGSEA-tutorial-q025** — Which Galaxy tool can search a text file for a pattern and output only the matching lines?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
-- **proteomics-multiGSEA-tutorial-q026** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **proteomics-multiGSEA-tutorial-q026** — In Galaxy, what tool should I use to grep a dataset for keywords and return the matching rows?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.3+galaxy1
   - Datasets: transcriptome.tsv, proteome.tsv, metabolome.tsv, 14216972
 
@@ -17068,22 +17068,22 @@ Questions:
 - Datasets (4): Arriba-Fusion-Database.fasta, Experimental-Design-Fragpipe.tabular, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 
 Questions:
-- **proteomics-neoantigen-fragpipe-discovery-q011** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **proteomics-neoantigen-fragpipe-discovery-q011** — I have multiple FASTA sequence datasets and want to merge them into a single non-redundant FASTA with duplicates removed. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-fragpipe-discovery-q012** — Which Galaxy tool would you recommend to perform `fragpipe`?
+- **proteomics-neoantigen-fragpipe-discovery-q012** — I have raw proteomics files and want an end-to-end peptide identification and quantification workflow that produces standard protein and peptide result tables. Which Galaxy tool can run this proteomics pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe/23.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe/23.0+galaxy0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-fragpipe-discovery-q013** — Which Galaxy tool would you recommend to perform `fragpipe_manifest_generator`?
+- **proteomics-neoantigen-fragpipe-discovery-q013** — Which Galaxy tool should I use to create a manifest describing my proteomics raw files and sample metadata for a downstream proteomics pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe_manifest_generator/23.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/fragpipe/fragpipe_manifest_generator/23.0+galaxy0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-fragpipe-discovery-q014** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **proteomics-neoantigen-fragpipe-discovery-q014** — Which Galaxy tool collapses a dataset collection into a single dataset so I can run tools that do not accept collections?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-fragpipe-discovery-q015** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **proteomics-neoantigen-fragpipe-discovery-q015** — In Galaxy, what tool should I use to concatenate the elements of a dataset collection into one dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-fragpipe-discovery-q016** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **proteomics-neoantigen-fragpipe-discovery-q016** — Which Galaxy tool lets me run SQL-like queries on a tabular dataset to select, filter, or compute derived columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: Experimental-Design-Fragpipe.tabular, Arriba-Fusion-Database.fasta, Human_cRAP_Non_normal_transcripts_dB.fasta, STS_26T_2_Eclipse_02102024.raw
 
@@ -17093,28 +17093,28 @@ Questions:
 - Datasets (4): RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz, human_reference_genome.fasta, human_reference_genome_annotation.gtf
 
 Questions:
-- **proteomics-neoantigen-fusion-database-generation-q011** — Which Galaxy tool would you recommend to perform `CONVERTER_gz_to_uncompressed`?
+- **proteomics-neoantigen-fusion-database-generation-q011** — I have a gzip-compressed dataset and need it decompressed so downstream tools can read it. Which Galaxy tool can decompress it?
   - Tools: CONVERTER_gz_to_uncompressed
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q012** — Which Galaxy tool would you recommend to perform `CONVERTER_gz_to_uncompressed`?
+- **proteomics-neoantigen-fusion-database-generation-q012** — I have RNA-seq reads and need a splice-aware aligner to map them to a reference genome before fusion detection. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.10b+galaxy4
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q013** — Which Galaxy tool would you recommend to perform `arriba_get_filters`?
+- **proteomics-neoantigen-fusion-database-generation-q013** — I’m running a gene fusion detection workflow and need the reference filter resources used to reduce false-positive fusions. Which Galaxy tool provides these fusion filter files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/arriba_get_filters/arriba_get_filters/2.5.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/arriba_get_filters/arriba_get_filters/2.4.0+galaxy1
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q014** — Which Galaxy tool would you recommend to perform `arriba_get_filters`?
+- **proteomics-neoantigen-fusion-database-generation-q014** — I have RNA-seq alignments and want to detect candidate gene fusions and generate a fusion report. Which Galaxy tool should I use for fusion calling?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/arriba/arriba/2.5.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/arriba/arriba/2.4.0+galaxy1
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q015** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **proteomics-neoantigen-fusion-database-generation-q015** — Which Galaxy tool can apply an awk-style transformation to a tabular file to extract fields or compute new columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.2
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q016** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **proteomics-neoantigen-fusion-database-generation-q016** — In Galaxy, what tool should I use to query a tabular file with SQL syntax to extract the rows I need?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.1
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q017** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **proteomics-neoantigen-fusion-database-generation-q017** — Which Galaxy tool should I use to convert a tabular file (ID and sequence columns) into FASTA format?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-fusion-database-generation-q018** — Which Galaxy tool would you recommend to perform `regex1`?
+- **proteomics-neoantigen-fusion-database-generation-q018** — Which Galaxy tool should I use to apply a regex find-and-replace operation to an entire text dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: human_reference_genome.fasta, human_reference_genome_annotation.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 
@@ -17124,19 +17124,19 @@ Questions:
 - Datasets (2): FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 
 Questions:
-- **proteomics-neoantigen-hla-binding-novel-peptides-q011** — Which Galaxy tool would you recommend to perform `iedb_api`?
+- **proteomics-neoantigen-hla-binding-novel-peptides-q011** — I have a list of candidate peptides and want to predict MHC binding affinity to prioritize potential neoantigens. Which Galaxy tool can query binding predictions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.2
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
-- **proteomics-neoantigen-hla-binding-novel-peptides-q012** — Which Galaxy tool would you recommend to perform `Filter`?
+- **proteomics-neoantigen-hla-binding-novel-peptides-q012** — I need to filter a table to keep only high-confidence rows based on one or more column conditions. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
-- **proteomics-neoantigen-hla-binding-novel-peptides-q013** — Which Galaxy tool would you recommend to perform `iedb_api`?
+- **proteomics-neoantigen-hla-binding-novel-peptides-q013** — Which Galaxy tool should I use to predict MHC-peptide binding scores for a list of peptide sequences using an external epitope database API?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.3+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iedb_api/iedb_api/2.15.2
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
-- **proteomics-neoantigen-hla-binding-novel-peptides-q014** — Which Galaxy tool would you recommend to perform `table_compute`?
+- **proteomics-neoantigen-hla-binding-novel-peptides-q014** — Which Galaxy tool computes new columns in a tabular file from existing columns using expressions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy0
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
-- **proteomics-neoantigen-hla-binding-novel-peptides-q015** — Which Galaxy tool would you recommend to perform `table_compute`?
+- **proteomics-neoantigen-hla-binding-novel-peptides-q015** — Which Galaxy tool can apply a SELECT/WHERE style query to a table and write the output to a new dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: FASTA-IEDB.fasta, IEDB-Optitype-seq2HLA-alleles.tabular
 
@@ -17146,28 +17146,28 @@ Questions:
 - Datasets (4): HUMAN_CRAP.fasta, Homo_sapiens.GRCh38_canon.106.gtf, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 
 Questions:
-- **proteomics-neoantigen-non-reference-database-generation-q011** — Which Galaxy tool would you recommend to perform `hisat2`?
+- **proteomics-neoantigen-non-reference-database-generation-q011** — I have RNA-seq reads and want to align them to a reference genome or transcriptome to produce an alignment BAM for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q012** — Which Galaxy tool would you recommend to perform `hisat2`?
+- **proteomics-neoantigen-non-reference-database-generation-q012** — I have aligned DNA sequencing reads and want to call small variants (SNPs and indels) relative to a reference genome. Which Galaxy tool should I use for variant calling?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.10+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.6+galaxy0
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q013** — Which Galaxy tool would you recommend to perform `fasta2tab`?
+- **proteomics-neoantigen-non-reference-database-generation-q013** — I have a FASTA file and want a tabular table of identifiers and sequences so I can filter and manipulate it by columns. Which Galaxy tool converts FASTA to tabular?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.0
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q014** — Which Galaxy tool would you recommend to perform `fasta2tab`?
+- **proteomics-neoantigen-non-reference-database-generation-q014** — I have a tabular dataset and need to clean an identifier column by applying a regular-expression based find-and-replace. Which Galaxy tool can do regex-based replacement in a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q015** — Which Galaxy tool would you recommend to perform `fasta2tab`?
+- **proteomics-neoantigen-non-reference-database-generation-q015** — I have a table with sequence identifiers and sequences in columns and want to export it as a FASTA dataset for downstream searches. Which Galaxy tool can convert tabular data to FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q016** — Which Galaxy tool would you recommend to perform `custom_pro_db`?
+- **proteomics-neoantigen-non-reference-database-generation-q016** — Which Galaxy tool can build a custom protein FASTA database for proteogenomics or personalized peptide searches?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/custom_pro_db/custom_pro_db/1.22.0
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q017** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **proteomics-neoantigen-non-reference-database-generation-q017** — Which Galaxy tool should I use to apply a regex find-and-replace operation to values in one column of a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-non-reference-database-generation-q018** — Which Galaxy tool would you recommend to perform `regexColumn1`?
+- **proteomics-neoantigen-non-reference-database-generation-q018** — In Galaxy, what tool turns a two-column table of identifiers and sequences into a FASTA dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: Homo_sapiens.GRCh38_canon.106.gtf, HUMAN_CRAP.fasta, RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 
@@ -17177,25 +17177,25 @@ Questions:
 - Datasets (4): HUMAN_CRAP.fasta, Human-TaxID.txt, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
 
 Questions:
-- **proteomics-neoantigen-peptide-verification-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-neoantigen-peptide-verification-q011** — I have mzML mass spectrometry data and need to convert it to MGF peak lists so it can be used by downstream peptide identification tools. Which Galaxy tool can do this conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-peptide-verification-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-neoantigen-peptide-verification-q012** — I have one or more peptide sequences and want to verify whether they are supported by my MS/MS data using targeted validation. Which Galaxy tool can test evidence for specific peptides?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-peptide-verification-q013** — Which Galaxy tool would you recommend to perform `tab2fasta`?
+- **proteomics-neoantigen-peptide-verification-q013** — I filtered a tabular list of protein or peptide sequences and now need a FASTA file built from the remaining rows. What Galaxy tool can do this conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-peptide-verification-q014** — Which Galaxy tool would you recommend to perform `tab2fasta`?
+- **proteomics-neoantigen-peptide-verification-q014** — I have protein sequences and want to search them against a protein database to find similar proteins and annotations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.14.1+galaxy2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-peptide-verification-q015** — Which Galaxy tool would you recommend to perform `pepquery2`?
+- **proteomics-neoantigen-peptide-verification-q015** — Which Galaxy tool should I use to perform targeted peptide validation by checking candidate peptides against MS/MS spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-peptide-verification-q016** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-peptide-verification-q016** — What Galaxy tool should I run to filter a table using an SQL-like condition across multiple columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
-- **proteomics-neoantigen-peptide-verification-q017** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-peptide-verification-q017** — Which Galaxy tool converts tabular sequence tables into FASTA so I can use them as a search database?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: Human-TaxID.txt, HUMAN_CRAP.fasta, NeoAntigen-Candidates.tabular, STS_26T_2_Eclipse_02102024.raw
 
@@ -17205,19 +17205,19 @@ Questions:
 - Datasets (2): RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 
 Questions:
-- **proteomics-neoantigen-predicting-hla-binding-q011** — Which Galaxy tool would you recommend to perform `optitype`?
+- **proteomics-neoantigen-predicting-hla-binding-q011** — I have sequencing reads and want to infer HLA class I genotypes for a sample. Which Galaxy tool should I use for HLA typing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/optitype/optitype/1.3.5+galaxy0
   - Datasets: RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-predicting-hla-binding-q012** — Which Galaxy tool would you recommend to perform `optitype`?
+- **proteomics-neoantigen-predicting-hla-binding-q012** — I have RNA-seq data and want to infer HLA genotypes to support neoantigen analyses. Which Galaxy tool should I use for HLA typing from RNA-seq?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seq2hla/seq2hla/2.3+galaxy0
   - Datasets: RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-predicting-hla-binding-q013** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-predicting-hla-binding-q013** — I have a large tabular results file and want to ask questions like selecting specific rows and computing derived columns using SQL-like syntax. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-predicting-hla-binding-q014** — Which Galaxy tool would you recommend to perform `optitype`?
+- **proteomics-neoantigen-predicting-hla-binding-q014** — Which Galaxy tool performs HLA class I typing from sequencing reads and outputs the most likely HLA alleles?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/optitype/optitype/1.3.5+galaxy0
   - Datasets: RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
-- **proteomics-neoantigen-predicting-hla-binding-q015** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-predicting-hla-binding-q015** — Which Galaxy tool can create a summary table by querying and grouping rows from a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: RNA-Seq_Reads_1.fastqsanger.gz, RNA-Seq_Reads_2.fastqsanger.gz
 
@@ -17227,16 +17227,16 @@ Questions:
 - Datasets (4): Fragpipe-Peptide-Report.tabular, GffCompare_Annotated_GTF_to_BED.bed, Homo_sapiens.GRCh38_canon.106.gtf, Novel_Peptides_from_PepQuery.tabular
 
 Questions:
-- **proteomics-neoantigen-variant-annotation-q011** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-variant-annotation-q011** — I’m working with a peptide or protein table and need to extract a subset based on multiple conditions and possibly a group-by summary. What Galaxy tool can query tabular data?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: Novel_Peptides_from_PepQuery.tabular, Fragpipe-Peptide-Report.tabular, GffCompare_Annotated_GTF_to_BED.bed, Homo_sapiens.GRCh38_canon.106.gtf
-- **proteomics-neoantigen-variant-annotation-q012** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-variant-annotation-q012** — I want to reshape a results table by selecting and renaming columns and filtering rows using an SQL-style query. Which Galaxy tool supports this in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: Novel_Peptides_from_PepQuery.tabular, Fragpipe-Peptide-Report.tabular, GffCompare_Annotated_GTF_to_BED.bed, Homo_sapiens.GRCh38_canon.106.gtf
-- **proteomics-neoantigen-variant-annotation-q013** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-neoantigen-variant-annotation-q013** — In Galaxy, what tool can join simple filtering with calculated fields using a query language on tabular data?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: Novel_Peptides_from_PepQuery.tabular, Fragpipe-Peptide-Report.tabular, GffCompare_Annotated_GTF_to_BED.bed, Homo_sapiens.GRCh38_canon.106.gtf
-- **proteomics-neoantigen-variant-annotation-q014** — Which Galaxy tool would you recommend to perform `pep_pointer`?
+- **proteomics-neoantigen-variant-annotation-q014** — Which Galaxy tool can map peptides to proteins or genomic context to help interpret novel peptide candidates in a proteogenomics workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pep_pointer/pep_pointer/0.1.3+galaxy1
   - Datasets: Novel_Peptides_from_PepQuery.tabular, Fragpipe-Peptide-Report.tabular, GffCompare_Annotated_GTF_to_BED.bed, Homo_sapiens.GRCh38_canon.106.gtf
 
@@ -17246,31 +17246,31 @@ Questions:
 - Datasets (1): 796184)
 
 Questions:
-- **proteomics-ntails-q011** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-ntails-q011** — I have LC-MS data from a multiplexed labeling experiment and want to detect feature patterns corresponding to labeled peptide pairs or groups. Which Galaxy tool can find multiplexed features?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_featurefindermultiplex/FeatureFinderMultiplex/3.1+galaxy0
   - Datasets: 796184)
-- **proteomics-ntails-q012** — Which Galaxy tool would you recommend to perform `MSGFPlusAdapter`?
+- **proteomics-ntails-q012** — I have MS/MS spectra and want to run a database search with an engine like MS-GF+ through an OpenMS wrapper to identify peptides. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_msgfplusadapter/MSGFPlusAdapter/3.1+galaxy0
   - Datasets: 796184)
-- **proteomics-ntails-q013** — Which Galaxy tool would you recommend to perform `ConsensusID`?
+- **proteomics-ntails-q013** — Which Galaxy tool combines identification results from multiple search engines into a consensus set of peptide identifications?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_consensusid/ConsensusID/2.1.0
   - Datasets: 796184)
-- **proteomics-ntails-q014** — Which Galaxy tool would you recommend to perform `ConsensusID`?
+- **proteomics-ntails-q014** — Which Galaxy tool should I use to index a protein FASTA database so peptide identifications can be linked to proteins?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_peptideindexer/PeptideIndexer/3.1+galaxy0
   - Datasets: 796184)
-- **proteomics-ntails-q015** — Which Galaxy tool would you recommend to perform `ConsensusID`?
+- **proteomics-ntails-q015** — Which Galaxy tool can estimate false discovery rates and add q-values to peptide or protein identification results?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_falsediscoveryrate/FalseDiscoveryRate/3.1+galaxy0
   - Datasets: 796184)
-- **proteomics-ntails-q016** — Which Galaxy tool would you recommend to perform `IDMapper`?
+- **proteomics-ntails-q016** — Which Galaxy tool maps peptide identifications onto features so downstream quantification can use the matched IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_idmapper/IDMapper/3.1+galaxy0
   - Datasets: 796184)
-- **proteomics-ntails-q017** — Which Galaxy tool would you recommend to perform `IDMapper`?
+- **proteomics-ntails-q017** — Which Galaxy tool resolves conflicting peptide or protein identifications when multiple IDs map to the same feature or spectrum?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_idconflictresolver/IDConflictResolver/2.1.0
   - Datasets: 796184)
-- **proteomics-ntails-q018** — Which Galaxy tool would you recommend to perform `IDMapper`?
+- **proteomics-ntails-q018** — Which Galaxy tool should I use to filter a mass spectrometry file (for example, keep certain MS levels or scans) before downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_filefilter/FileFilter/2.1.0
   - Datasets: 796184)
-- **proteomics-ntails-q019** — Which Galaxy tool would you recommend to perform `IDMapper`?
+- **proteomics-ntails-q019** — Which Galaxy tool merges multiple mass spectrometry result files into a single combined file for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_filemerger/FileMerger/2.1.0
   - Datasets: 796184)
 
@@ -17280,22 +17280,22 @@ Questions:
 - Datasets (1): AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
 
 Questions:
-- **proteomics-peptide-library-data-analysis-q011** — Which Galaxy tool would you recommend to perform `pdaug_peptide_data_access`?
+- **proteomics-peptide-library-data-analysis-q011** — I want to start a peptide analysis by extracting or standardizing a list of peptide sequences from an input table in Galaxy. Which Galaxy tool can prepare peptide data for downstream descriptor calculation?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_peptide_data_access/pdaug_peptide_data_access/0.1.0
   - Datasets: AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
-- **proteomics-peptide-library-data-analysis-q012** — Which Galaxy tool would you recommend to perform `pdaug_peptide_data_access`?
+- **proteomics-peptide-library-data-analysis-q012** — I have a tabular file with peptide sequences and want to export them as a FASTA file for downstream sequence tools. Which Galaxy tool can convert the peptide table to FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_tsvtofasta/pdaug_tsvtofasta/0.1.0
   - Datasets: AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
-- **proteomics-peptide-library-data-analysis-q013** — Which Galaxy tool would you recommend to perform `pdaug_peptide_sequence_analysis`?
+- **proteomics-peptide-library-data-analysis-q013** — I have a set of peptide sequences and want basic sequence analysis summaries like length distribution and composition. Which Galaxy tool can analyze peptide sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_peptide_sequence_analysis/pdaug_peptide_sequence_analysis/0.1.0
   - Datasets: AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
-- **proteomics-peptide-library-data-analysis-q014** — Which Galaxy tool would you recommend to perform `pdaug_peptide_sequence_analysis`?
+- **proteomics-peptide-library-data-analysis-q014** — I want to compare two sets of peptide sequences and visualize which residues or motifs are enriched using a Fisher’s exact test style plot. Which Galaxy tool can create that enrichment plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_fishers_plot/pdaug_fishers_plot/0.1.0
   - Datasets: AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
-- **proteomics-peptide-library-data-analysis-q015** — Which Galaxy tool would you recommend to perform `pdaug_sequence_property_based_descriptors`?
+- **proteomics-peptide-library-data-analysis-q015** — Which Galaxy tool should I run to calculate sequence-property-based descriptors for peptide sequences in a dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_sequence_property_based_descriptors/pdaug_sequence_property_based_descriptors/0.1.0
   - Datasets: AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
-- **proteomics-peptide-library-data-analysis-q016** — Which Galaxy tool would you recommend to perform `pdaug_basic_plots`?
+- **proteomics-peptide-library-data-analysis-q016** — In Galaxy, what tool should I use to create quick diagnostic plots from a peptide descriptor table?
   - Tools: toolshed.g2.bx.psu.edu/repos/jay/pdaug_basic_plots/pdaug_basic_plots/0.1.0
   - Datasets: AMPvsTMP dataset retrieved via `PDAUG Peptide Data Access`
 
@@ -17305,37 +17305,37 @@ Questions:
 - Datasets (3): Human_database_including_decoys_%28cRAP_added%29.fasta, qExactive01819.raw, qExactive01819_profile.mzml
 
 Questions:
-- **proteomics-protein-id-oms-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-protein-id-oms-q011** — I’m preparing spectra for database searching and want to convert MS data into peak list format (MGF) with optional peak picking. What Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-protein-id-oms-q012** — I have high-resolution profile-mode mass spectrometry data and need to centroid (pick peaks) before downstream feature detection and identification. Which Galaxy tool can do high-res peak picking?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_peakpickerhires/PeakPickerHiRes/2.3.0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q013** — Which Galaxy tool would you recommend to perform `XTandemAdapter`?
+- **proteomics-protein-id-oms-q013** — Which Galaxy tool runs an X! Tandem database search on MS/MS spectra against a protein FASTA database?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_xtandemadapter/XTandemAdapter/2.6+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q014** — Which Galaxy tool would you recommend to perform `XTandemAdapter`?
+- **proteomics-protein-id-oms-q014** — In Galaxy, what tool prepares peptide-to-protein mappings by indexing peptides against a FASTA database?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_peptideindexer/PeptideIndexer/3.1+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q015** — Which Galaxy tool would you recommend to perform `XTandemAdapter`?
+- **proteomics-protein-id-oms-q015** — Which Galaxy tool computes posterior error probabilities for peptide-spectrum matches so I can assess identification confidence?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_idposteriorerrorprobability/IDPosteriorErrorProbability/2.6+galaxy
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q016** — Which Galaxy tool would you recommend to perform `XTandemAdapter`?
+- **proteomics-protein-id-oms-q016** — In Galaxy, what tool should I run to compute FDR and annotate identification results with q-values?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_falsediscoveryrate/FalseDiscoveryRate/3.1+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q017** — Which Galaxy tool would you recommend to perform `FidoAdapter`?
+- **proteomics-protein-id-oms-q017** — Which Galaxy tool performs protein inference from peptide identifications to produce a protein-level result list?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_fidoadapter/FidoAdapter/2.6+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q018** — Which Galaxy tool would you recommend to perform `FidoAdapter`?
+- **proteomics-protein-id-oms-q018** — Which Galaxy tool applies false discovery rate calculation to search results so I can filter identifications by q-value?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_falsediscoveryrate/FalseDiscoveryRate/3.1+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q019** — Which Galaxy tool would you recommend to perform `FidoAdapter`?
+- **proteomics-protein-id-oms-q019** — Which Galaxy tool should I run to extract basic metadata and summary information from a mass spectrometry file?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_fileinfo/FileInfo/2.6+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q020** — Which Galaxy tool would you recommend to perform `TextExporter`?
+- **proteomics-protein-id-oms-q020** — Which Galaxy tool exports an OpenMS result file into a human-readable tabular text format for inspection or downstream filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_textexporter/TextExporter/2.6+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-id-oms-q021** — Which Galaxy tool would you recommend to perform `TextExporter`?
+- **proteomics-protein-id-oms-q021** — Which Galaxy tool should I use to search a text or tabular dataset for one or more patterns and output only the matching lines?
   - Tools: Grep1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
 
@@ -17345,25 +17345,25 @@ Questions:
 - Datasets (3): Human_database_%28cRAP_and_Mycoplasma_added%29.fasta, qExactive01819.raw, qExactive01819_profile.mzml
 
 Questions:
-- **proteomics-protein-id-sg-ps-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-protein-id-sg-ps-q011** — I have mass spectrometry files and need to convert them between common formats for downstream search engines. Which Galaxy tool can handle that?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
-- **proteomics-protein-id-sg-ps-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-protein-id-sg-ps-q012** — I have an mzML dataset and want to inspect basic metadata like MS levels, scan counts, and instrument information to sanity-check the file. Which Galaxy tool can summarize this file info?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_fileinfo/FileInfo/2.6+galaxy0
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
-- **proteomics-protein-id-sg-ps-q013** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-protein-id-sg-ps-q013** — I have MGF spectra and a protein FASTA database and want to run peptide identification searches using one or more search engines and generate results for downstream validation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
-- **proteomics-protein-id-sg-ps-q014** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-protein-id-sg-ps-q014** — I have search results from database searching and want to control FDR and summarize identifications into peptide and protein tables. Which Galaxy tool can interpret those search outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
-- **proteomics-protein-id-sg-ps-q015** — Which Galaxy tool would you recommend for selecting lines that match an expression?
+- **proteomics-protein-id-sg-ps-q015** — I have a results table and want to extract only rows that contain specific IDs or keywords so I can focus on those hits. Which Galaxy tool can search and keep matching lines?
   - Tools: Grep1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
-- **proteomics-protein-id-sg-ps-q016** — Which Galaxy tool would you recommend to perform `SearchGUI`?
+- **proteomics-protein-id-sg-ps-q016** — Which Galaxy tool should I run to search MGF peak lists against a protein FASTA database and generate search results for downstream protein inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
-- **proteomics-protein-id-sg-ps-q017** — Which Galaxy tool would you recommend for selecting lines that match an expression?
+- **proteomics-protein-id-sg-ps-q017** — In Galaxy, what tool can extract lines containing a given identifier from a results table?
   - Tools: Grep1
   - Datasets: qExactive01819.raw, qExactive01819_profile.mzml, Human_database_%28cRAP_and_Mycoplasma_added%29.fasta
 
@@ -17373,34 +17373,34 @@ Questions:
 - Datasets (2): HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
 
 Questions:
-- **proteomics-protein-quant-sil-q011** — Which Galaxy tool would you recommend to perform `XTandemAdapter`?
+- **proteomics-protein-quant-sil-q011** — I have MS/MS spectra and a protein FASTA database and want to run a database search using the X! Tandem search engine through Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_xtandemadapter/XTandemAdapter/2.6+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q012** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-protein-quant-sil-q012** — I’m analyzing labeled MS1 data and need to detect and quantify multiplexed isotope patterns as features for downstream quantification. What Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_featurefindermultiplex/FeatureFinderMultiplex/3.1+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q013** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-protein-quant-sil-q013** — I have peptide identifications and detected features and need to map the IDs onto the corresponding features to link identifications with quantitative signals. Which Galaxy tool can perform that mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_idmapper/IDMapper/3.1+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q014** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-protein-quant-sil-q014** — I have identification results with ambiguous mappings and need to resolve ID conflicts before downstream protein inference or quantification. Which Galaxy tool can resolve these conflicts?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_idconflictresolver/IDConflictResolver/2.6+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q015** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-protein-quant-sil-q015** — After detecting multiplexed features, I need to resolve overlapping isotope patterns into separate quantitative signals for each label channel. Which Galaxy tool can resolve multiplexed features?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_multiplexresolver/MultiplexResolver/2.5+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q016** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-protein-quant-sil-q016** — I have peptide-level quantification and identification information and want to compute protein-level abundances and summaries. Which Galaxy tool can quantify proteins from peptide data?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_proteinquantifier/ProteinQuantifier/2.6+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q017** — Which Galaxy tool would you recommend to perform `FeatureFinderMultiplex`?
+- **proteomics-protein-quant-sil-q017** — Which Galaxy tool detects multiplexed features in LC-MS data for labeled proteomics experiments?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_featurefindermultiplex/FeatureFinderMultiplex/3.1+galaxy0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q018** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **proteomics-protein-quant-sil-q018** — Which Galaxy tool computes basic summary statistics for columns in a tabular dataset?
   - Tools: Summary_Statistics1
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q019** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **proteomics-protein-quant-sil-q019** — Which Galaxy tool should I use to keep only the last N lines of a text dataset (like viewing the tail of a log or table)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/1.1.0
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
-- **proteomics-protein-quant-sil-q020** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **proteomics-protein-quant-sil-q020** — Which Galaxy tool can plot a histogram of a numeric column from a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.4
   - Datasets: HEK_SILAC-K6R6_ST905_part.mzml, Human_database_including_decoys_%28cRAP_added%29.fasta
 
@@ -17410,16 +17410,16 @@ Questions:
 - Datasets (1): zenodo.1489208
 
 Questions:
-- **proteomics-proteogenomics-dbcreation-q011** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
+- **proteomics-proteogenomics-dbcreation-q011** — I have a tabular dataset and need to clean values in one column by applying a find-and-replace to standardize identifiers. Which Galaxy tool can replace text within a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy0
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-dbcreation-q012** — Which Galaxy tool would you recommend to perform `hisat2`?
+- **proteomics-proteogenomics-dbcreation-q012** — I need a splice-aware aligner in Galaxy to map RNA-seq reads to a reference genome. What Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-dbcreation-q013** — Which Galaxy tool would you recommend to perform `freebayes`?
+- **proteomics-proteogenomics-dbcreation-q013** — Which Galaxy tool should I run to call SNPs and indels from an aligned BAM file against a reference genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.10+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.9+galaxy0
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-dbcreation-q014** — Which Galaxy tool would you recommend to perform `custom_pro_db`?
+- **proteomics-proteogenomics-dbcreation-q014** — In Galaxy, what tool should I use to generate a custom protein database from variant or transcript evidence for downstream peptide identification?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/custom_pro_db/custom_pro_db/1.22.0
   - Datasets: zenodo.1489208
 
@@ -17429,16 +17429,16 @@ Questions:
 - Datasets (1): zenodo.1489208
 
 Questions:
-- **proteomics-proteogenomics-dbsearch-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **proteomics-proteogenomics-dbsearch-q011** — I need to import several datasets into a new Galaxy history before running an analysis. Which Galaxy tool should I use to upload files?
   - Tools: upload1
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-dbsearch-q012** — Which Galaxy tool would you recommend to perform `ident_params`?
+- **proteomics-proteogenomics-dbsearch-q012** — I want to save my peptide identification settings into a single reusable file so I can apply the same settings across multiple search runs in Galaxy. Which Galaxy tool can generate that settings file?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/ident_params/4.0.41+galaxy1
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-dbsearch-q013** — Which Galaxy tool would you recommend to perform `search_gui`?
+- **proteomics-proteogenomics-dbsearch-q013** — In Galaxy, what tool performs peptide identification database searching from MGF spectra against a FASTA database?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-dbsearch-q014** — Which Galaxy tool would you recommend to perform `peptide_shaker`?
+- **proteomics-proteogenomics-dbsearch-q014** — In Galaxy, what tool can take search engine outputs and produce a filtered identification report with peptides, proteins, and summary metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
   - Datasets: zenodo.1489208
 
@@ -17448,16 +17448,16 @@ Questions:
 - Datasets (1): zenodo.1489208
 
 Questions:
-- **proteomics-proteogenomics-novel-peptide-analysis-q011** — Which Galaxy tool would you recommend to perform `ncbi_blastp_wrapper`?
+- **proteomics-proteogenomics-novel-peptide-analysis-q011** — I want to identify likely homologs for a set of proteins by running a protein-to-protein sequence search in Galaxy. What tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-novel-peptide-analysis-q012** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-proteogenomics-novel-peptide-analysis-q012** — I need to pull out the best-scoring entry per peptide from a long table using a query-like approach. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-novel-peptide-analysis-q013** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **proteomics-proteogenomics-novel-peptide-analysis-q013** — Which Galaxy tool should I use to run a query over a tabular file and output only the columns and rows I specify?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: zenodo.1489208
-- **proteomics-proteogenomics-novel-peptide-analysis-q014** — Which Galaxy tool would you recommend to perform `tab2fasta`?
+- **proteomics-proteogenomics-novel-peptide-analysis-q014** — What Galaxy tool should I run to build a FASTA file from a table of sequence IDs and sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1, toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.0
   - Datasets: zenodo.1489208
 
@@ -17467,22 +17467,22 @@ Questions:
 - Datasets (3): Bredberg.txt, Lacombe_2018.txt, Mucilli.txt
 
 Questions:
-- **proteomics-proteome_annotation-q011** — Which Galaxy tool would you recommend to perform `Filter by keywords and/or numerical value`?
+- **proteomics-proteome_annotation-q011** — I have a proteomics output table and want to keep rows that match certain keywords and numeric thresholds. Which Galaxy tool can do this combined filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.11
   - Datasets: Lacombe_2018.txt, Bredberg.txt, Mucilli.txt
-- **proteomics-proteome_annotation-q012** — Which Galaxy tool would you recommend to perform `ID Converter`?
+- **proteomics-proteome_annotation-q012** — I have a list of protein identifiers in one namespace and need to convert them to another identifier system for downstream pathway analysis. Which Galaxy tool can convert protein IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.03.07
   - Datasets: Lacombe_2018.txt, Bredberg.txt, Mucilli.txt
-- **proteomics-proteome_annotation-q013** — Which Galaxy tool would you recommend to perform `ID Converter`?
+- **proteomics-proteome_annotation-q013** — I want to integrate RNA-seq expression information into a proteomics-centric analysis by attaching expression-based abundance fields to a protein list. Which Galaxy tool can generate expression-derived protein abundance data?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07
   - Datasets: Lacombe_2018.txt, Bredberg.txt, Mucilli.txt
-- **proteomics-proteome_annotation-q014** — Which Galaxy tool would you recommend to perform `ID Converter`?
+- **proteomics-proteome_annotation-q014** — I need to filter a quantitative proteomics results table by both text keywords and numeric cutoffs to produce a cleaned table for downstream analysis. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.11
   - Datasets: Lacombe_2018.txt, Bredberg.txt, Mucilli.txt
-- **proteomics-proteome_annotation-q015** — Which Galaxy tool would you recommend to perform `Query pathway database [Reactome]`?
+- **proteomics-proteome_annotation-q015** — Which Galaxy tool should I use to run pathway enrichment analysis against a Reactome pathway database for a list of proteins?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_reactome/reactome_analysis/2019.03.05
   - Datasets: Lacombe_2018.txt, Bredberg.txt, Mucilli.txt
-- **proteomics-proteome_annotation-q016** — Which Galaxy tool would you recommend to perform `Venn diagram`?
+- **proteomics-proteome_annotation-q016** — Which Galaxy tool can create a Venn diagram to compare overlaps between multiple protein or gene lists?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2019.02.21
   - Datasets: Lacombe_2018.txt, Bredberg.txt, Mucilli.txt
 
@@ -17492,19 +17492,19 @@ Questions:
 - Datasets (3): goa_human.gaf.gz, go.obo, Sigloch_secretome_list.tabular
 
 Questions:
-- **proteomics-secretome-prediction-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **proteomics-secretome-prediction-q011** — I’m starting a workflow and want to upload local data into Galaxy so it becomes usable as datasets. What tool should I use for uploading?
   - Tools: upload1
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
-- **proteomics-secretome-prediction-q012** — Which Galaxy tool would you recommend to perform `Join`?
+- **proteomics-secretome-prediction-q012** — I have two tabular files with a shared key column and want to join them into a single table to add annotations to a results file. Which Galaxy tool can join tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.0.0
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
-- **proteomics-secretome-prediction-q013** — Which Galaxy tool would you recommend to perform `wolf_psort`?
+- **proteomics-secretome-prediction-q013** — Which Galaxy tool predicts subcellular localization of proteins from their amino acid sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/tmhmm_and_signalp/wolf_psort/0.0.8
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
-- **proteomics-secretome-prediction-q014** — Which Galaxy tool would you recommend to perform `Unique`?
+- **proteomics-secretome-prediction-q014** — Which Galaxy tool removes duplicate lines from a dataset to produce a list of unique entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
-- **proteomics-secretome-prediction-q015** — Which Galaxy tool would you recommend to perform `Unique`?
+- **proteomics-secretome-prediction-q015** — What Galaxy tool should I run to apply a simple column-based filter to a tabular dataset?
   - Tools: Filter1
   - Datasets: Sigloch_secretome_list.tabular, goa_human.gaf.gz, go.obo
 
@@ -17514,37 +17514,37 @@ Questions:
 - Datasets (1): AOPEP_and_CHD8_sequences_20220907.zip
 
 Questions:
-- **sequence-analysis-Manage_AB1_Sanger-q011** — Which Galaxy tool would you recommend to perform `filter_by_fasta_ids`?
+- **sequence-analysis-Manage_AB1_Sanger-q011** — I have a FASTA file and a list of sequence IDs of interest, and I want to keep only those sequences in the output FASTA. Which Galaxy tool can filter FASTA by an ID list?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/filter_by_fasta_ids/filter_by_fasta_ids/2.3
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q012** — Which Galaxy tool would you recommend to perform `filter_by_fasta_ids`?
+- **sequence-analysis-Manage_AB1_Sanger-q012** — I have aligned amplicon sequences with gap characters and need a degapped version for downstream analysis. Which Galaxy tool can remove gaps from sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_degap_seqs/mothur_degap_seqs/1.39.5.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q013** — Which Galaxy tool would you recommend to perform `filter_by_fasta_ids`?
+- **sequence-analysis-Manage_AB1_Sanger-q013** — I have nucleotide sequences and need their reverse complements for downstream processing. Which Galaxy tool can generate reverse-complement sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy2, toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q014** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
+- **sequence-analysis-Manage_AB1_Sanger-q014** — I have Sanger sequencing chromatogram files and want to convert them into FASTQ reads for downstream trimming and alignment. Which Galaxy tool can convert chromatograms to FASTQ?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/ab1_fastq_converter/ab1_fastq_converter/1.20.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q015** — Which Galaxy tool would you recommend to perform `ab1_fastq_converter`?
+- **sequence-analysis-Manage_AB1_Sanger-q015** — I have FASTQ reads and want to trim low-quality bases from read ends before downstream analysis. Which Galaxy tool can trim reads by quality?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_trimfq/1.5+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_trimfq/1.3.1
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q016** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **sequence-analysis-Manage_AB1_Sanger-q016** — Which Galaxy tool should I use to standardize or validate FASTQ encoding and formatting so downstream tools accept the reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.2+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.1.5
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q017** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **sequence-analysis-Manage_AB1_Sanger-q017** — Which Galaxy tool converts sequencing reads from FASTQ to FASTA format?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.2+galaxy2
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q018** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **sequence-analysis-Manage_AB1_Sanger-q018** — Which Galaxy tool should I use to align 16S rRNA sequences as part of a QIIME-based amplicon analysis workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/qiime_align_seqs/qiime_align_seqs/1.9.1.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q019** — Which Galaxy tool would you recommend to perform `fastq_groomer`?
+- **sequence-analysis-Manage_AB1_Sanger-q019** — Which Galaxy tool generates a consensus sequence from a multiple sequence alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/aligned_to_consensus/aligned_to_consensus/1.0.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q020** — Which Galaxy tool would you recommend to perform `qiime_align_seqs`?
+- **sequence-analysis-Manage_AB1_Sanger-q020** — In Galaxy, what tool aligns representative sequences for a QIIME amplicon pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/qiime_align_seqs/qiime_align_seqs/1.9.1.0
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
-- **sequence-analysis-Manage_AB1_Sanger-q021** — Which Galaxy tool would you recommend to perform `qiime_align_seqs`?
+- **sequence-analysis-Manage_AB1_Sanger-q021** — Which Galaxy tool should I use to run a nucleotide BLAST search to identify an unknown DNA sequence against a reference database?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/2.10.1+galaxy2
   - Datasets: AOPEP_and_CHD8_sequences_20220907.zip
 
@@ -17554,28 +17554,28 @@ Questions:
 - Datasets (4): SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 
 Questions:
-- **sequence-analysis-human-reads-removal-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **sequence-analysis-human-reads-removal-q011** — I have files on my computer that I want as datasets in Galaxy for downstream tools. Which Galaxy tool handles the upload step?
   - Tools: upload1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q012** — Which Galaxy tool would you recommend to perform `upload1`?
+- **sequence-analysis-human-reads-removal-q012** — I have multiple datasets and want to create a list collection in Galaxy so I can run a tool or workflow across all of them. Which Galaxy tool builds a list collection?
   - Tools: collections_build_list
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q013** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **sequence-analysis-human-reads-removal-q013** — I have paired-end sequencing reads and need to trim adapters and low-quality bases before mapping. Which Galaxy tool should I use for read trimming?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2, toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.38.0
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q014** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **sequence-analysis-human-reads-removal-q014** — I have DNA sequencing reads and want to align them to a reference genome to produce a BAM for downstream analysis. Which Galaxy tool should I use for read mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q015** — Which Galaxy tool would you recommend to perform `samtools_fastx`?
+- **sequence-analysis-human-reads-removal-q015** — Which Galaxy tool should I use to extract reads from an alignment BAM and export them as FASTA or FASTQ?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.22+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q016** — Which Galaxy tool would you recommend to perform `samtools_fastx`?
+- **sequence-analysis-human-reads-removal-q016** — What Galaxy tool searches a dataset for a pattern and returns the matching lines?
   - Tools: Grep1
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q017** — Which Galaxy tool would you recommend to perform `samtools_fastx`?
+- **sequence-analysis-human-reads-removal-q017** — Which Galaxy tool applies a find-and-replace operation across lines in a text dataset to clean up formatting?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
-- **sequence-analysis-human-reads-removal-q018** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?
+- **sequence-analysis-human-reads-removal-q018** — Which Galaxy tool can unzip or expand a compressed dataset collection into individual datasets for downstream processing?
   - Tools: __UNZIP_COLLECTION__
   - Datasets: SRR10903401_r1.fq.gz, SRR10903401_r2.fq.gz, SRR10903402_r1.fq.gz, SRR10903402_r2.fq.gz
 - **sequence-analysis-human-reads-removal-q019** — Which Galaxy tool would you recommend to perform `__UNZIP_COLLECTION__`?

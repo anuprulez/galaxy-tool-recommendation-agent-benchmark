@@ -674,3 +674,11 @@ Notes:
 - Changes: Rewrote all 150 queries (TMT/LFQ proteomics processing + statistical testing + DIA library/quant steps + MSI QC/ion images + metaQuantome inputs + tabular cleaning) to remove tool leakage/backticks, dataset leakage, and templated phrasing while keeping Galaxy-user perspective; preserved metadata.query_type mix (science_first 73, tool_first 77)
 - Integrity: Fixed metadata.tool_focus drift for multi-version tools[] (31 items in this batch); ensured metadata.ground_truth_alternatives=true with note for all multi-version tools[] in the range
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Grep1, Filter1, Summary_Statistics1, addValue); smell scan reports no hits/duplicates/near-duplicates
+
+## A0036 (lines 5251-5400)
+
+- Date: 2026-02-04
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (multi-omics enrichment + proteomics/OpenMS wrappers + neoantigen/HLA utilities + basic sequence processing + table conversion/cleanup) to remove tool leakage/backticks, dataset leakage, and mismatched tool mentions while keeping Galaxy-user perspective; preserved metadata.query_type mix (science_first 73, tool_first 77)
+- Integrity: Fixed metadata.tool_focus drift for multi-version tools[] (38 items in this batch); ensured metadata.ground_truth_alternatives=true with note for all multi-version tools[] in the range
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Grep1, collections_build_list, CONVERTER_*); smell scan reports no hits/duplicates/near-duplicates
