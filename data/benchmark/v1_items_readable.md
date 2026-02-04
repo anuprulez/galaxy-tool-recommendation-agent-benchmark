@@ -14465,58 +14465,58 @@ Questions:
 - **microbiome-clinical-mp-3-verification-q012** — My tabular report contains many fields, but I only need selected columns (e.g., sequence and score) for concatenation and filtering. What Galaxy tool can extract those columns?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q013** — Which Galaxy tool cuts specific columns from the tabular peptide reports?
+- **microbiome-clinical-mp-3-verification-q013** — Which Galaxy tool can extract specific columns from a tabular dataset (including non-adjacent columns) into a new table?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q014** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-clinical-mp-3-verification-q014** — In Galaxy, what tool should I run to keep only selected fields from a delimited table and discard the others?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q015** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **microbiome-clinical-mp-3-verification-q015** — I have multiple FASTA files and want to merge them into one FASTA while removing duplicate sequences so the output is non-redundant. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q016** — To generate a joint FASTA for PepQuery2 that holds only unique sequences, which Galaxy tool fits?
+- **microbiome-clinical-mp-3-verification-q016** — My workflow produced several protein FASTA files and I need a combined FASTA with unique sequences only for downstream searches. What Galaxy tool can merge FASTA files and filter duplicates?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q017** — Which Galaxy tool merges multiple FASTA files and filters the unique sequences?
+- **microbiome-clinical-mp-3-verification-q017** — Which Galaxy tool can merge multiple FASTA files and keep only unique sequences in the output?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q018** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **microbiome-clinical-mp-3-verification-q018** — In Galaxy, what tool should I run to concatenate FASTA inputs and remove duplicate sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q019** — Which Galaxy tool would you recommend to perform `pepquery2`?
+- **microbiome-clinical-mp-3-verification-q019** — I have a shortlist of peptides and MS/MS spectra and want to verify whether each peptide is supported by the spectra (peptide-centric validation), producing a ranked evidence report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q020** — Which Galaxy tool would you recommend to perform `pepquery2`?
+- **microbiome-clinical-mp-3-verification-q020** — Before reporting novel peptides, I want an independent verification step that searches spectra for specific peptide sequences and returns confidence/evidence. What Galaxy tool can do this peptide verification?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q021** — Which Galaxy tool corresponds to the PepQuery2 verification step?
+- **microbiome-clinical-mp-3-verification-q021** — Which Galaxy tool can validate a set of peptide sequences against MS/MS spectra using a peptide-centric search and report evidence/confidence?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q022** — Which Galaxy tool would you recommend to perform `pepquery2`?
+- **microbiome-clinical-mp-3-verification-q022** — In Galaxy, what tool should I run to verify candidate peptides by searching the spectra for those specific sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/pepquery2/pepquery2/2.0.2+galaxy2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q023** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **microbiome-clinical-mp-3-verification-q023** — I have a dataset collection of per-sample results and want to combine them into a single dataset for easier filtering and download. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q024** — To combine multiple ranked PSM outputs before filtering, which Galaxy tool fits?
+- **microbiome-clinical-mp-3-verification-q024** — My workflow outputs a list of tabular results, and I need one merged table that concatenates all elements (keeping a header if present). What Galaxy tool can collapse a collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q025** — Which Galaxy tool collapses a collection into one dataset while preserving a header?
+- **microbiome-clinical-mp-3-verification-q025** — Which Galaxy tool can collapse a dataset collection into a single merged dataset output?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q026** — Which Galaxy tool would you recommend to perform `collapse_dataset`?
+- **microbiome-clinical-mp-3-verification-q026** — In Galaxy, what tool should I run to combine the elements of a collection into one dataset (merge/concatenate collection outputs)?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q027** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **microbiome-clinical-mp-3-verification-q027** — I have two tabular datasets and want to join them using an SQL query (e.g., match peptide sequences to a peptide report) to produce an enriched table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q028** — To assign protein accessions to the PepQuery-verified peptides using SQL, which Galaxy tool fits?
+- **microbiome-clinical-mp-3-verification-q028** — I need to filter and join tabular data using a SQL-like query inside Galaxy (select, join, group). What Galaxy tool can run SQL queries on tabular datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q029** — Which Galaxy tool runs the Query Tabular join between the verified list and peptide report?
+- **microbiome-clinical-mp-3-verification-q029** — Which Galaxy tool can run SQL queries (including joins) on tabular datasets to produce a new table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q030** — Which Galaxy tool would you recommend to perform `query_tabular`?
+- **microbiome-clinical-mp-3-verification-q030** — In Galaxy, what tool should I run to join and filter tables using an SQL query without writing external code?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2, toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.0
   - Datasets: zenodo.10105821
 
@@ -14526,64 +14526,64 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **microbiome-clinical-mp-4-quantitation-q011** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **microbiome-clinical-mp-4-quantitation-q011** — I have label-free proteomics RAW files plus an experimental design and want protein identification and quantification outputs (peptides, proteins, intensities). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q012** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **microbiome-clinical-mp-4-quantitation-q012** — My goal is a complete proteomics identification + quantification run from raw LC-MS/MS files using a provided design, producing standard peptide/protein reports. What Galaxy tool can run this workflow step?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q013** — Which Galaxy tool performs the quantitation workflow that consumes the quantitation FASTA, design table, and RAW files?
+- **microbiome-clinical-mp-4-quantitation-q013** — Which Galaxy tool can run a full proteomics identification and quantification analysis from RAW files given an experimental design?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q014** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **microbiome-clinical-mp-4-quantitation-q014** — In Galaxy, what tool should I run to perform protein identification/quantification from LC-MS/MS raw files and produce peptide/protein tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-4-quantitation-q015** — I have a text table and want to keep only lines that match a pattern (or drop lines that match a pattern) as a quick filtering step. Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q016** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-4-quantitation-q016** — My results contain contaminant/decoy-style entries marked with a prefix, and I want to remove those lines from a tabular report. What Galaxy tool can filter lines by pattern?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q017** — Which Galaxy tool selects lines that do not match _HUMAN, REV, or CON patterns from the proteinGroups dataset?
+- **microbiome-clinical-mp-4-quantitation-q017** — Which Galaxy tool can select/extract lines from a text dataset that match a given pattern or regular expression?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q018** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-4-quantitation-q018** — In Galaxy, what tool should I run to keep only lines matching an expression from a text file (grep-style filtering)?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q019** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-4-quantitation-q019** — I have a list of IDs and want to extract just the lines containing a specific keyword or regular expression for downstream processing. Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q020** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-4-quantitation-q020** — My dataset contains many rows and I want to filter it by selecting only rows that match a regex pattern and saving them as output. What Galaxy tool can do this?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q021** — Which Galaxy tool filters the peptides table to drop non-microbial and decoy entries?
+- **microbiome-clinical-mp-4-quantitation-q021** — What Galaxy tool can filter a text dataset by including/excluding lines based on a regex pattern and output the result?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q022** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-4-quantitation-q022** — Which Galaxy tool should I use to remove lines that match a pattern from a table (pattern-based line filtering)?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q023** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-clinical-mp-4-quantitation-q023** — I have a tabular peptide/protein report with many columns and want to extract just the sequence and a score column for downstream filtering. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q024** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-clinical-mp-4-quantitation-q024** — My results table includes lots of metadata, but I only need a few columns (e.g., peptide sequence and protein accession) to build a smaller working table. What Galaxy tool can extract those columns?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q025** — Which Galaxy tool extracts column 1 from the Select output?
+- **microbiome-clinical-mp-4-quantitation-q025** — What Galaxy tool lets me cut out a single column (e.g., column 1) from a table and save it as a new dataset?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q026** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-clinical-mp-4-quantitation-q026** — Which Galaxy tool should I use to choose and reorder columns from a TSV for the next step in a workflow?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q027** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **microbiome-clinical-mp-4-quantitation-q027** — I have multiple related datasets and want to bundle them into a dataset collection so I can run the same downstream tool over each element. Which Galaxy tool should I use?
   - Tools: Grouping1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q028** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **microbiome-clinical-mp-4-quantitation-q028** — My workflow needs a list collection created from several history items so later steps can process samples in batch. What Galaxy tool can create a dataset collection?
   - Tools: Grouping1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q029** — Which Galaxy tool groups the Cut1 results to concatenate unique entries in column c2?
+- **microbiome-clinical-mp-4-quantitation-q029** — Which Galaxy tool can group multiple history datasets into a dataset collection for mapping tools over them?
   - Tools: Grouping1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q030** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **microbiome-clinical-mp-4-quantitation-q030** — In Galaxy, what tool should I run to build a list collection from several datasets for workflow execution?
   - Tools: Grouping1
   - Datasets: zenodo.10105821
 
@@ -14593,40 +14593,40 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **microbiome-clinical-mp-5-data-interpretation-q011** — Which Galaxy tool would you recommend to perform `unipept`?
+- **microbiome-clinical-mp-5-data-interpretation-q011** — I have a list of tryptic peptides from metaproteomics and want to map them to taxa and functional annotations to summarize community composition and functions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q012** — Which Galaxy tool would you recommend to perform `unipept`?
+- **microbiome-clinical-mp-5-data-interpretation-q012** — My peptide list needs taxonomic/functional summarization (peptide-to-taxon mapping) so I can report which organisms and functions are represented. What Galaxy tool can generate those summaries?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q013** — Which Galaxy tool provides peptide-to-taxon functional summaries for metaproteomics?
+- **microbiome-clinical-mp-5-data-interpretation-q013** — Which Galaxy tool can take a peptide list and produce taxonomic and functional summaries for metaproteomics?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q014** — Which Galaxy tool would you recommend to perform `unipept`?
+- **microbiome-clinical-mp-5-data-interpretation-q014** — In Galaxy, what tool should I run to map peptides to taxa and functional categories and get summary outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/6.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.5.1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-5-data-interpretation-q015** — I want to exclude rows matching a known unwanted pattern from a text dataset to clean it before analysis. Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q016** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-5-data-interpretation-q016** — I need a grep-style step to extract only matching lines from a file as part of a workflow. What Galaxy tool can do this line selection?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q017** — Which Galaxy tool filters lines in a text table by a pattern?
+- **microbiome-clinical-mp-5-data-interpretation-q017** — In Galaxy, what tool can select lines that match a keyword/regex from a dataset and write them to a new output file?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q018** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **microbiome-clinical-mp-5-data-interpretation-q018** — Which Galaxy tool performs grep-style matching to filter lines from a text dataset by pattern?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q019** — Which Galaxy tool would you recommend to perform `msstatstmt`?
+- **microbiome-clinical-mp-5-data-interpretation-q019** — I have quantitative proteomics data (TMT-style) and want statistical testing to find proteins that differ between conditions, producing fold-changes and adjusted p-values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q020** — Which Galaxy tool would you recommend to perform `msstatstmt`?
+- **microbiome-clinical-mp-5-data-interpretation-q020** — I need a statistical analysis step for multiplexed quantitative proteomics to compute differential abundance between groups and generate result tables/plots. What Galaxy tool can run this analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q021** — Which Galaxy tool runs MSstatsTMT-style statistical analysis?
+- **microbiome-clinical-mp-5-data-interpretation-q021** — Which Galaxy tool can run statistical testing for multiplexed quantitative proteomics and output differential protein results?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-5-data-interpretation-q022** — Which Galaxy tool would you recommend to perform `msstatstmt`?
+- **microbiome-clinical-mp-5-data-interpretation-q022** — In Galaxy, what tool should I run to perform TMT-style quantitative proteomics statistics (fold-change + p-values) from a protein quant table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstatstmt/msstatstmt/2.0.0+galaxy1
   - Datasets: zenodo.10105821
 
@@ -14636,64 +14636,64 @@ Questions:
 - Datasets (1): zenodo.800651
 
 Questions:
-- **microbiome-dada-16S-q011** — Which Galaxy tool would you recommend to perform `dada2_plotQualityProfile`?
+- **microbiome-dada-16S-q011** — I have paired-end amplicon FASTQ reads and want to visualize per-base quality profiles for forward and reverse reads to decide trimming cutoffs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q012** — I want to visualize quality for the forward and reverse F3D reads to decide filtering parameters. Which Galaxy tool fits?
+- **microbiome-dada-16S-q012** — Before denoising amplicon reads, I want quality profile plots to choose where to truncate/trim reads. What Galaxy tool can generate read quality profile plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q013** — Which Galaxy tool generates dada2_plotQualityProfile plots for the raw FASTQ inputs?
+- **microbiome-dada-16S-q013** — Which Galaxy tool can plot per-base quality profiles for forward and reverse amplicon reads (paired-end FASTQ)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q014** — Which Galaxy tool would you recommend to perform `dada2_plotQualityProfile`?
+- **microbiome-dada-16S-q014** — In Galaxy, what tool should I run to generate quality profile plots to help choose trimming cutoffs for amplicon reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_plotqualityprofile/dada2_plotQualityProfile/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q015** — Which Galaxy tool would you recommend to perform `dada2_filterAndTrim`?
+- **microbiome-dada-16S-q015** — I have paired-end amplicon reads and need to filter low-quality reads and trim poor-quality ends/adapters before denoising. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q016** — Which Galaxy tool would you recommend to perform `dada2_filterAndTrim`?
+- **microbiome-dada-16S-q016** — Before inferring ASVs, I want a step that filters and trims paired-end reads based on quality thresholds and truncation lengths. What Galaxy tool can do this filter/trim step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q017** — Which Galaxy tool filters and trims paired-end reads according to dada2 best practices?
+- **microbiome-dada-16S-q017** — Which Galaxy tool can filter and trim paired-end amplicon FASTQ reads based on quality settings prior to denoising?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q018** — Which Galaxy tool would you recommend to perform `dada2_filterAndTrim`?
+- **microbiome-dada-16S-q018** — In Galaxy, what tool should I run to perform quality filtering and trimming on paired-end reads as part of an ASV workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_filterandtrim/dada2_filterAndTrim/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q019** — Which Galaxy tool would you recommend to perform `dada2_dada`?
+- **microbiome-dada-16S-q019** — I have quality-filtered amplicon reads and want to denoise them into exact sequence variants (ASVs) using an error-model-based inference step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q020** — Which Galaxy tool would you recommend to perform `dada2_dada`?
+- **microbiome-dada-16S-q020** — After filtering, I need the core denoising step that infers amplicon sequence variants from reads and outputs per-sample results. What Galaxy tool can do this inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q021** — Which Galaxy tool runs the dada2_dada inference on filtered paired-end reads?
+- **microbiome-dada-16S-q021** — Which Galaxy tool performs error-model-based denoising to infer ASVs from filtered amplicon reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q022** — Which Galaxy tool would you recommend to perform `dada2_dada`?
+- **microbiome-dada-16S-q022** — In Galaxy, what tool should I run to infer amplicon sequence variants from quality-filtered paired-end reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_dada/dada2_dada/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q023** — Which Galaxy tool would you recommend to perform `dada2_mergePairs`?
+- **microbiome-dada-16S-q023** — I have denoised forward and reverse reads and want to merge paired-end reads into full amplicon sequences with overlap requirements. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q024** — To guarantee consistent overlap merging for our V4 reads, which Galaxy tool fits?
+- **microbiome-dada-16S-q024** — After denoising, I need to merge paired-end reads into a single sequence per fragment, enforcing overlap/consistency rules. What Galaxy tool can merge pairs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q025** — Which Galaxy tool handles merging the forward/reverse dada2 outputs?
+- **microbiome-dada-16S-q025** — Which Galaxy tool can merge denoised paired-end amplicon reads into merged sequences with overlap checking?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q026** — Which Galaxy tool would you recommend to perform `dada2_mergePairs`?
+- **microbiome-dada-16S-q026** — In Galaxy, what tool should I run to merge forward and reverse read results into merged amplicon sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_mergepairs/dada2_mergePairs/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q027** — Which Galaxy tool would you recommend to perform `dada2_makeSequenceTable`?
+- **microbiome-dada-16S-q027** — I have merged ASV sequences across samples and want to build a sequence-by-sample abundance table (ASV table) for downstream chimera removal and taxonomy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q028** — To tabulate sequence abundances per sample before removeBimeraDenovo, which Galaxy tool fits?
+- **microbiome-dada-16S-q028** — After merging pairs, I need a matrix of sequence counts per sample so I can proceed with chimera checking and downstream analysis. What Galaxy tool can create the sequence table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q029** — Which Galaxy tool constructs the sequence table matrix from merged pairs?
+- **microbiome-dada-16S-q029** — Which Galaxy tool can construct an ASV/sequence table (sequence-by-sample count matrix) from merged amplicon sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
-- **microbiome-dada-16S-q030** — Which Galaxy tool would you recommend to perform `dada2_makeSequenceTable`?
+- **microbiome-dada-16S-q030** — In Galaxy, what tool should I run to build the sequence abundance table from merged paired-end results?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/dada2_makesequencetable/dada2_makeSequenceTable/1.34.0+galaxy0
   - Datasets: zenodo.800651
 
@@ -14703,28 +14703,28 @@ Questions:
 - Datasets (1): 13150694
 
 Questions:
-- **microbiome-diversity-q011** — Which Galaxy tool would you recommend to perform `krakentools_alpha_diversity`?
+- **microbiome-diversity-q011** — I have taxonomic counts/abundances for samples and want alpha diversity metrics (e.g., Shannon, Simpson) to summarize within-sample diversity. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q012** — Which Galaxy tool would you recommend to perform `krakentools_alpha_diversity`?
+- **microbiome-diversity-q012** — I need within-sample diversity measures computed from taxonomic profiles across samples. What Galaxy tool can compute alpha diversity from taxonomy tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q013** — Which Galaxy tool calculates alpha diversity metrics from taxonomic counts?
+- **microbiome-diversity-q013** — Which Galaxy tool can calculate alpha diversity metrics from taxonomic count/abundance tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q014** — Which Galaxy tool would you recommend to perform `krakentools_alpha_diversity`?
+- **microbiome-diversity-q014** — In Galaxy, what tool should I run to compute within-sample diversity measures from taxonomic profiles?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_alpha_diversity/krakentools_alpha_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q015** — Which Galaxy tool would you recommend to perform `krakentools_beta_diversity`?
+- **microbiome-diversity-q015** — I have taxonomic profiles for multiple samples and want beta diversity distances/ordination inputs to compare community composition between samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q016** — Which Galaxy tool would you recommend to perform `krakentools_beta_diversity`?
+- **microbiome-diversity-q016** — I need between-sample diversity (distance matrix) computed from taxonomic abundance tables for downstream clustering/ordination. What Galaxy tool can compute beta diversity?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q017** — Which Galaxy tool computes beta diversity distances from taxonomic profiles?
+- **microbiome-diversity-q017** — Which Galaxy tool can compute beta diversity distance matrices from taxonomic profiles across samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
-- **microbiome-diversity-q018** — Which Galaxy tool would you recommend to perform `krakentools_beta_diversity`?
+- **microbiome-diversity-q018** — In Galaxy, what tool should I run to calculate between-sample diversity distances from taxonomy tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_beta_diversity/krakentools_beta_diversity/1.2+galaxy1
   - Datasets: 13150694
 
@@ -14734,64 +14734,64 @@ Questions:
 - Datasets (1): zenodo.815875
 
 Questions:
-- **microbiome-general-tutorial-q011** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
+- **microbiome-general-tutorial-q011** — I have multiple FASTA files from different samples and want to merge them into one combined FASTA for a multi-sample amplicon workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q012** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
+- **microbiome-general-tutorial-q012** — My amplicon pipeline requires concatenating several FASTA inputs into one file to process them together. What Galaxy tool can merge FASTA files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q013** — Which Galaxy tool merges FASTA files for a multisample mothur analysis?
+- **microbiome-general-tutorial-q013** — Which Galaxy tool can merge multiple FASTA files into a single combined FASTA for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q014** — Which Galaxy tool would you recommend to perform `mothur_merge_files`?
+- **microbiome-general-tutorial-q014** — In Galaxy, what tool should I run to concatenate FASTA datasets from multiple samples into one file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q015** — Which Galaxy tool would you recommend to perform `mothur_make_group`?
+- **microbiome-general-tutorial-q015** — I have sequences from multiple samples and need a group/metadata file that assigns each sequence to a sample group for downstream community analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q016** — To manually assign the merged FASTA entries to `pampa` or `anguil`, which Galaxy tool fits?
+- **microbiome-general-tutorial-q016** — To keep track of which sequences belong to which sample, I want to generate a group file mapping sequence IDs to sample labels. What Galaxy tool can create that grouping file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q017** — Which Galaxy tool creates a mothur group file from specified FASTAs?
+- **microbiome-general-tutorial-q017** — Which Galaxy tool can create a group mapping file that assigns sequences/reads to sample groups for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q018** — Which Galaxy tool would you recommend to perform `mothur_make_group`?
+- **microbiome-general-tutorial-q018** — In Galaxy, what tool should I run to build a group file from input FASTA datasets or sequence IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_group/mothur_make_group/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q019** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-general-tutorial-q019** — I have a FASTA file with duplicate sequences and want to dereplicate it to a unique set of sequences (tracking counts) for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q020** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-general-tutorial-q020** — Before alignment/clustering, I need to collapse identical sequences into unique representatives. What Galaxy tool can dereplicate sequences in a FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q021** — Which Galaxy tool corresponds to the Unique.seqs command in mothur?
+- **microbiome-general-tutorial-q021** — Which Galaxy tool can dereplicate a FASTA by collapsing identical sequences into a unique set (with counts)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q022** — Which Galaxy tool would you recommend to perform `mothur_unique_seqs`?
+- **microbiome-general-tutorial-q022** — In Galaxy, what tool should I run to compute unique sequences from a FASTA as a dereplication step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q023** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-general-tutorial-q023** — I have amplicon sequences and want to screen/filter them based on length, ambiguous bases, or alignment coordinates to remove problematic sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q024** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-general-tutorial-q024** — Before downstream analysis, I need to filter sequences to remove those outside expected bounds (too short/too long/too many Ns). What Galaxy tool can screen sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q025** — Which Galaxy tool runs the mothur Screen.seqs command on the unique fasta?
+- **microbiome-general-tutorial-q025** — Which Galaxy tool can screen/filter FASTA sequences using criteria like length and ambiguous bases to remove bad sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q026** — Which Galaxy tool would you recommend to perform `mothur_screen_seqs`?
+- **microbiome-general-tutorial-q026** — In Galaxy, what tool should I run to filter sequences based on screening rules (length/Ns/alignment bounds)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q027** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-general-tutorial-q027** — I have amplicon sequences and want to align them to a reference alignment to standardize positions for downstream screening and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q028** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-general-tutorial-q028** — My workflow needs to align sequences against a reference template alignment before filtering and analysis. What Galaxy tool can align FASTA sequences to a reference?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q029** — Which Galaxy tool corresponds to the mothur Align.seqs step described here?
+- **microbiome-general-tutorial-q029** — Which Galaxy tool can align FASTA sequences to a reference alignment/template as part of an amplicon workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
-- **microbiome-general-tutorial-q030** — Which Galaxy tool would you recommend to perform `mothur_align_seqs`?
+- **microbiome-general-tutorial-q030** — In Galaxy, what tool should I run to align my sequences against a reference template prior to screening?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
 
@@ -14801,16 +14801,16 @@ Questions:
 - Datasets (1): 13710591
 
 Questions:
-- **microbiome-lotus2-identifying-fungi-q011** — Which Galaxy tool would you recommend to perform `lotus2`?
+- **microbiome-lotus2-identifying-fungi-q011** — I have fungal ITS2 amplicon reads and want an end-to-end analysis to generate OTU/ASV tables and taxonomic assignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
   - Datasets: 13710591
-- **microbiome-lotus2-identifying-fungi-q012** — Which Galaxy tool would you recommend to perform `lotus2`?
+- **microbiome-lotus2-identifying-fungi-q012** — I need a turnkey ITS2 microbiome analysis pipeline (from reads to taxonomy/abundance outputs) for fungi. What Galaxy tool can run that workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
   - Datasets: 13710591
-- **microbiome-lotus2-identifying-fungi-q013** — Which Galaxy tool provides an end-to-end ITS2 analysis workflow for fungi?
+- **microbiome-lotus2-identifying-fungi-q013** — Which Galaxy tool can run an end-to-end ITS2 analysis pipeline for fungal community profiling?
   - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
   - Datasets: 13710591
-- **microbiome-lotus2-identifying-fungi-q014** — Which Galaxy tool would you recommend to perform `lotus2`?
+- **microbiome-lotus2-identifying-fungi-q014** — In Galaxy, what tool should I run to process ITS2 amplicon reads into abundance and taxonomy results?
   - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
   - Datasets: 13710591
 
@@ -14820,64 +14820,64 @@ Questions:
 - Datasets (1): 7818827
 
 Questions:
-- **microbiome-metagenomics-assembly-q011** — Which Galaxy tool would you recommend to perform `megahit`?
+- **microbiome-metagenomics-assembly-q011** — I have metagenomic short reads and want to assemble them into contigs, producing a metagenome assembly for downstream binning and annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q012** — To build a metagenomic assembly optimized for short reads, which Galaxy tool fits?
+- **microbiome-metagenomics-assembly-q012** — My goal is to assemble large metagenomic read sets into contigs efficiently from short-read data. What Galaxy tool can perform this metagenome assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q013** — Which Galaxy tool corresponds to the MEGAHIT assembly step described in the guide?
+- **microbiome-metagenomics-assembly-q013** — Which Galaxy tool can assemble metagenomic short reads into contigs for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q014** — Which Galaxy tool would you recommend to perform `megahit`?
+- **microbiome-metagenomics-assembly-q014** — In Galaxy, what tool should I run to perform metagenome assembly from short-read FASTQ data?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q015** — Which Galaxy tool would you recommend to perform `metaspades`?
+- **microbiome-metagenomics-assembly-q015** — I have metagenomic sequencing reads and want an assembler optimized for metagenome data to build contigs/scaffolds for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q016** — Which Galaxy tool would you recommend to perform `metaspades`?
+- **microbiome-metagenomics-assembly-q016** — I want an alternative metagenome assembly approach to produce contigs from my reads for later mapping and binning. What Galaxy tool can run metagenome assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q017** — Which Galaxy tool corresponds to the MetaSPAdes assembly step described here?
+- **microbiome-metagenomics-assembly-q017** — Which Galaxy tool can perform metagenome assembly using a metagenome-optimized assembler to produce contigs?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q018** — Which Galaxy tool would you recommend to perform `metaspades`?
+- **microbiome-metagenomics-assembly-q018** — In Galaxy, what tool should I run to assemble metagenomic reads into contigs using a metagenome-focused assembler?
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/metaspades/metaspades/4.2.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q019** — Which Galaxy tool would you recommend to perform `quast`?
+- **microbiome-metagenomics-assembly-q019** — I have one or more genome/metagenome assemblies and want a quality report with contig statistics (N50, total length, etc.) to compare assemblies. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q020** — To generate the QUAST metrics across contig sets, which Galaxy tool fits?
+- **microbiome-metagenomics-assembly-q020** — After assembling reads, I need an assembly QC report summarizing contig metrics and optionally comparisons across assemblies. What Galaxy tool can generate that report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q021** — Which Galaxy tool produces the QUAST comparison report for our metagenomic assemblies?
+- **microbiome-metagenomics-assembly-q021** — Which Galaxy tool can generate an assembly quality report (contig metrics like N50, length distribution) for one or more assemblies?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q022** — Which Galaxy tool would you recommend to perform `quast`?
+- **microbiome-metagenomics-assembly-q022** — In Galaxy, what tool should I run to compute and compare assembly statistics for my contig sets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.3.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/quast/quast/5.2.0+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q023** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **microbiome-metagenomics-assembly-q023** — I have short reads and a reference (genome or assembled contigs) and want to align reads to the reference to generate a BAM for coverage estimation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q024** — To align the same read collection against the MEGAHIT contigs, which Galaxy tool fits?
+- **microbiome-metagenomics-assembly-q024** — To compute coverage and support binning, I need to map sequencing reads back to assembled contigs and produce alignments. What Galaxy tool can perform this read mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q025** — Which Galaxy tool is responsible for the Bowtie2 mapping step described for coverage estimation?
+- **microbiome-metagenomics-assembly-q025** — Which Galaxy tool can align short paired-end reads to a reference genome/contigs and output alignments for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q026** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **microbiome-metagenomics-assembly-q026** — In Galaxy, what tool should I run to map reads back to assembled contigs as a prerequisite for coverage estimation?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.3+galaxy1
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q027** — Which Galaxy tool would you recommend to perform `coverm_contig`?
+- **microbiome-metagenomics-assembly-q027** — I have BAM alignments of reads mapped to contigs and want per-contig coverage/abundance statistics for downstream binning. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q028** — To derive coverage stats for each contig using the Bowtie2 alignments, which Galaxy tool fits?
+- **microbiome-metagenomics-assembly-q028** — After mapping reads to an assembly, I need a table of coverage metrics for each contig across samples. What Galaxy tool can compute contig coverage from BAM files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q029** — Which Galaxy tool maps paired-end coverm_contig coverage over Bowtie2 BAMs for contigs?
+- **microbiome-metagenomics-assembly-q029** — Which Galaxy tool can compute per-contig coverage and abundance statistics from BAM alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
   - Datasets: 7818827
-- **microbiome-metagenomics-assembly-q030** — Which Galaxy tool would you recommend to perform `coverm_contig`?
+- **microbiome-metagenomics-assembly-q030** — In Galaxy, what tool should I run to calculate coverage over contigs from read-to-contig alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/coverm_contig/coverm_contig/0.7.0+galaxy0
   - Datasets: 7818827
 
@@ -14887,64 +14887,64 @@ Questions:
 - Datasets (1): 17660820
 
 Questions:
-- **microbiome-metagenomics-binning-q011** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **microbiome-metagenomics-binning-q011** — I want to align paired-end reads against an assembly to generate alignment files for downstream coverage calculations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q012** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **microbiome-metagenomics-binning-q012** — My workflow needs a short-read aligner step to map reads to contigs before computing per-contig coverage. What Galaxy tool can do this alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q013** — Which Galaxy tool performs the Bowtie2 mapping needed before binning?
+- **microbiome-metagenomics-binning-q013** — What Galaxy tool performs short-read alignment against a reference to produce BAM/SAM outputs for later steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q014** — Which Galaxy tool would you recommend to perform `bowtie2`?
+- **microbiome-metagenomics-binning-q014** — Which Galaxy tool should I use for the read mapping step that generates alignments used for coverage calculations?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q015** — Which Galaxy tool would you recommend to perform `samtools_sort`?
+- **microbiome-metagenomics-binning-q015** — I have BAM alignments and need them sorted by genomic coordinate so downstream tools (coverage and binning) work correctly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q016** — To produce coordinate-sorted BAMs for downstream binning tools, which Galaxy tool fits?
+- **microbiome-metagenomics-binning-q016** — Before coverage calculation, I want to create coordinate-sorted BAM files from my alignments. What Galaxy tool can sort BAM alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q017** — Which Galaxy tool sorts BAM alignments produced by Bowtie2?
+- **microbiome-metagenomics-binning-q017** — Which Galaxy tool can sort BAM alignment files (coordinate sort) for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q018** — Which Galaxy tool would you recommend to perform `samtools_sort`?
+- **microbiome-metagenomics-binning-q018** — In Galaxy, what tool should I run to sort BAM alignments produced by a read mapper?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.7
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q019** — Which Galaxy tool would you recommend to perform `binette`?
+- **microbiome-metagenomics-binning-q019** — I have bins from multiple binning methods and want to refine/combine them into improved metagenome-assembled genomes (MAGs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q020** — Which Galaxy tool would you recommend to perform `binette`?
+- **microbiome-metagenomics-binning-q020** — To improve bin quality, I need a hybrid bin refinement step that merges and cleans bins from different sources. What Galaxy tool can refine bins into better MAGs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q021** — Which Galaxy tool corresponds to the Binette hybrid refinement step described here?
+- **microbiome-metagenomics-binning-q021** — Which Galaxy tool can refine/merge metagenomic bins from different binning results into improved MAGs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q022** — Which Galaxy tool would you recommend to perform `binette`?
+- **microbiome-metagenomics-binning-q022** — In Galaxy, what tool should I run to perform hybrid bin refinement on a set of metagenomic bins?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/binette/binette/1.2.0+galaxy0
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q023** — Which Galaxy tool would you recommend to perform `checkm_lineage_wf`?
+- **microbiome-metagenomics-binning-q023** — I have metagenome-assembled genomes (bins) and want completeness and contamination estimates to assess bin quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm_lineage_wf/checkm_lineage_wf/1.2.4+galaxy2
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q024** — To estimate completeness and contamination for each MAG using CheckM, which Galaxy tool fits?
+- **microbiome-metagenomics-binning-q024** — Before publishing MAGs, I need a quality assessment report (completeness/contamination) for each bin. What Galaxy tool can compute these lineage-based metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm_lineage_wf/checkm_lineage_wf/1.2.4+galaxy2
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q025** — Which Galaxy tool runs the CheckM lineage workflow on the refined bins?
+- **microbiome-metagenomics-binning-q025** — Which Galaxy tool can estimate completeness and contamination for genome bins/MAGs using lineage-based marker sets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm_lineage_wf/checkm_lineage_wf/1.2.4+galaxy2
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q026** — Which Galaxy tool would you recommend to perform `checkm_lineage_wf`?
+- **microbiome-metagenomics-binning-q026** — In Galaxy, what tool should I run to assess MAG/bin quality (completeness and contamination) and produce a summary report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/checkm_lineage_wf/checkm_lineage_wf/1.2.4+galaxy2
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q027** — Which Galaxy tool would you recommend to perform `drep_dereplicate`?
+- **microbiome-metagenomics-binning-q027** — I have many genome bins/assemblies and want to dereplicate them to a non-redundant set based on similarity, choosing representative genomes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q028** — Which Galaxy tool would you recommend to perform `drep_dereplicate`?
+- **microbiome-metagenomics-binning-q028** — My MAG collection contains redundant genomes; I want to cluster and pick representatives so downstream analysis uses a unique set. What Galaxy tool can dereplicate genomes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q029** — Which Galaxy tool corresponds to the dRep dereplication step?
+- **microbiome-metagenomics-binning-q029** — Which Galaxy tool can dereplicate a set of genomes/MAGs by clustering similar genomes and selecting representatives?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 17660820
-- **microbiome-metagenomics-binning-q030** — Which Galaxy tool would you recommend to perform `drep_dereplicate`?
+- **microbiome-metagenomics-binning-q030** — In Galaxy, what tool should I run to remove redundancy from a genome set and keep representative genomes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/drep_dereplicate/drep_dereplicate/3.6.2+galaxy1
   - Datasets: 17660820
 
@@ -14954,28 +14954,28 @@ Questions:
 - Datasets (1): 14501567'
 
 Questions:
-- **microbiome-metaplasmidome_query-q011** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-metaplasmidome_query-q011** — I have long-read sequences and a reference (genome or contigs) and want to align long reads to the reference to find matches and produce an alignment file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q012** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-metaplasmidome_query-q012** — For plasmid discovery, I need to align long reads/contigs to a reference sequence set and summarize alignments. What Galaxy tool can perform long-read alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q013** — Which Galaxy tool performs the minimap2 alignment step for plasmid discovery?
+- **microbiome-metaplasmidome_query-q013** — Which Galaxy tool can align long reads or contigs to a reference sequence set and output alignments for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q014** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-metaplasmidome_query-q014** — In Galaxy, what tool should I run for fast alignment of long-read sequences to a reference (minimap-style alignment)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy0
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q015** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-metaplasmidome_query-q015** — I have a summary table from an alignment/assembly step and want to keep only the contig ID and coverage columns for plotting. Which Galaxy tool should I use to select columns?
   - Tools: Cut1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q016** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-metaplasmidome_query-q016** — I need to reorder and subset columns in a TSV so it matches the schema expected by a downstream join step. What Galaxy tool can do column selection/reordering?
   - Tools: Cut1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q017** — Which Galaxy tool cuts specific fields from the minimap2 summary table?
+- **microbiome-metaplasmidome_query-q017** — Which Galaxy tool can select and output only a subset of columns from a tabular file for downstream processing?
   - Tools: Cut1
   - Datasets: 14501567'
-- **microbiome-metaplasmidome_query-q018** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-metaplasmidome_query-q018** — In Galaxy, what tool should I run to extract the columns I need from a table (cut-style column selection)?
   - Tools: Cut1
   - Datasets: 14501567'
 - **microbiome-metaplasmidome_query-q019** — Which Galaxy tool would you recommend to perform `Filter1`?
