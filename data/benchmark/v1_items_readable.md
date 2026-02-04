@@ -7717,22 +7717,22 @@ Questions:
 - **epigenetics-methylation-seq-q048** — I have many raw read datasets and want a fast QC report for each sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q049** — Which Galaxy tool runs Falco for read quality control?
+- **epigenetics-methylation-seq-q049** — I have many raw read datasets and need a fast per-sample read QC report (quality scores, adapters, duplication). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q050** — Which Galaxy tool would you recommend to perform `falco`?
+- **epigenetics-methylation-seq-q050** — I want to run quick read-quality checks across a large batch of sequencing samples. Which Galaxy tool can generate those QC reports efficiently?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q051** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-methylation-seq-q051** — I want to browse my methylation signal track smoothly in a genome browser, so I need a compact, indexed track format. Which Galaxy tool should I use?
   - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q052** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-methylation-seq-q052** — My signal track is too large for easy visualization; I want an efficient browser-friendly track file. Which Galaxy tool can convert it?
   - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q053** — Which Galaxy tool converts WIG to bigWig format?
+- **epigenetics-methylation-seq-q053** — Which Galaxy tool should I use to convert a WIG signal track into a BigWig track for genome browsing?
   - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
-- **epigenetics-methylation-seq-q054** — Which Galaxy tool would you recommend to perform `wig_to_bigWig`?
+- **epigenetics-methylation-seq-q054** — I need to share a genome-browser track of my signal that loads quickly over large regions. Which Galaxy tool should I run to create that format?
   - Tools: wig_to_bigWig, toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 557099
 
@@ -7742,172 +7742,172 @@ Questions:
 - Datasets (1): zenodo.197100
 
 Questions:
-- **epigenetics-tal1-binding-site-identification-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-tal1-binding-site-identification-q011** — Before analyzing transcription factor binding, I want to check whether my raw sequencing reads have quality problems or adapter contamination. Which Galaxy tool should I use for read QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-tal1-binding-site-identification-q012** — I'm troubleshooting a ChIP-style experiment and want a standard QC report for my raw reads to spot poor cycles or overrepresented sequences. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q013** — Which Galaxy tool generates a FastQC report for raw reads?
+- **epigenetics-tal1-binding-site-identification-q013** — I need a per-sample read quality report for my raw sequencing reads before alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **epigenetics-tal1-binding-site-identification-q014** — Which Galaxy tool generates a standard QC report for raw reads (per-base quality, adapter content, duplication)?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q015** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **epigenetics-tal1-binding-site-identification-q015** — My ChIP-seq libraries show adapter contamination and low-quality tails, and I want to clean the reads before mapping to reduce false peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q016** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **epigenetics-tal1-binding-site-identification-q016** — I'm seeing unexpected enrichment patterns and want to remove adapters and poor-quality bases from my reads as a first QC/cleanup step. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q017** — Which Galaxy tool runs Trimmomatic on FASTQ files?
+- **epigenetics-tal1-binding-site-identification-q017** — I need an adapter + quality trimming step for my paired-end sequencing reads before alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q018** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **epigenetics-tal1-binding-site-identification-q018** — Which Galaxy tool can trim adapters and low-quality bases from raw reads and output cleaned reads for mapping?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q019** — Which Galaxy tool would you recommend to perform `bwa`?
+- **epigenetics-tal1-binding-site-identification-q019** — To locate candidate TAL1 binding sites, I first need reliable genome alignments for my reads. Which Galaxy tool should I use to align short reads to a reference genome?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q020** — Which Galaxy tool would you recommend to perform `bwa`?
+- **epigenetics-tal1-binding-site-identification-q020** — Before peak calling, I want to map my sequencing reads to the reference genome and generate alignments for downstream analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q021** — Which Galaxy tool runs BWA for ChIP-seq read alignment?
+- **epigenetics-tal1-binding-site-identification-q021** — I need to align short sequencing reads to a reference genome and generate an alignment dataset for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q022** — Which Galaxy tool would you recommend to perform `bwa`?
+- **epigenetics-tal1-binding-site-identification-q022** — Which Galaxy tool performs short-read mapping to a reference genome (producing alignments suitable for peak calling)?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.19
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q023** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-tal1-binding-site-identification-q023** — I'm worried many reads may be mapping to the wrong contigs, so I want per-contig mapping statistics from my alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q024** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-tal1-binding-site-identification-q024** — Before interpreting enrichment, I want a quick summary of how many reads map to each reference sequence in my alignment. Which Galaxy tool can generate that table?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q025** — Which Galaxy tool produces samtools idxstats output?
+- **epigenetics-tal1-binding-site-identification-q025** — I need a table of mapped/unmapped read counts per reference sequence from a BAM alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q026** — Which Galaxy tool would you recommend to perform `samtools_idxstats`?
+- **epigenetics-tal1-binding-site-identification-q026** — Which Galaxy tool reports per-contig alignment counts from a BAM so I can sanity-check mapping distribution?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q027** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-tal1-binding-site-identification-q027** — I want to visualize where signal differs between my ChIP sample and its control as a continuous genome-wide track. Which Galaxy tool can create a comparative signal track from two alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q028** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-tal1-binding-site-identification-q028** — To highlight enrichment changes, I need a ratio or difference signal track comparing treatment versus control alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q029** — Which Galaxy tool compares two BAMs to generate a signal track?
+- **epigenetics-tal1-binding-site-identification-q029** — I need to compare two alignment datasets (treatment vs control) to produce a normalized signal track (e.g., log2 ratio). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q030** — Which Galaxy tool would you recommend to perform `deeptools_bam_compare`?
+- **epigenetics-tal1-binding-site-identification-q030** — Which Galaxy tool combines two BAM alignment files into a single comparative coverage track for visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/deeptools_bam_compare/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q031** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-tal1-binding-site-identification-q031** — Before calling peaks, I want a QC plot that tells me whether my sample shows real enrichment over background. Which Galaxy tool should I use to generate that fingerprint-style plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q032** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-tal1-binding-site-identification-q032** — My replicate looks noisy, and I want a genome-wide enrichment QC plot from my alignments to decide whether to proceed. Which Galaxy tool can generate it?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q033** — Which Galaxy tool creates a deepTools fingerprint plot?
+- **epigenetics-tal1-binding-site-identification-q033** — I need a fingerprint-type QC plot computed from alignments to assess enrichment versus background. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q034** — Which Galaxy tool would you recommend to perform `deeptools_plot_fingerprint`?
+- **epigenetics-tal1-binding-site-identification-q034** — Which Galaxy tool generates a genome-wide fingerprint plot from a BAM alignment dataset for QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q035** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-tal1-binding-site-identification-q035** — I'm trying to identify TAL1 binding sites from my aligned reads and need a peak caller to detect enriched regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q036** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-tal1-binding-site-identification-q036** — To find significantly enriched binding regions from a ChIP-style experiment, I need to call peaks from my alignments. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q037** — Which Galaxy tool runs MACS2 callpeak for ChIP-seq?
+- **epigenetics-tal1-binding-site-identification-q037** — I need to call peaks from ChIP-style alignments and output a BED-like list of enriched regions with scores. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q038** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **epigenetics-tal1-binding-site-identification-q038** — Which Galaxy tool performs peak calling on aligned reads and produces an interval list of enriched regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q039** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-tal1-binding-site-identification-q039** — To assess replicate consistency, I want a genome-wide summary matrix of signal across multiple alignment datasets. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q040** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-tal1-binding-site-identification-q040** — I need to quantify sample-to-sample similarity based on genome-wide coverage from several BAM files. Which Galaxy tool can compute a multi-sample summary matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q041** — Which Galaxy tool produces a multiBamSummary matrix?
+- **epigenetics-tal1-binding-site-identification-q041** — I want to summarize signal from multiple BAM files into one matrix that can be used for correlation or PCA plots. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q042** — Which Galaxy tool would you recommend to perform `deeptools_multi_bam_summary`?
+- **epigenetics-tal1-binding-site-identification-q042** — Which Galaxy tool computes a multi-sample coverage summary matrix from multiple alignment datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q043** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-tal1-binding-site-identification-q043** — I want to compare signal around peaks across samples and need a region-by-bin matrix suitable for heatmaps and profile plots. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q044** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-tal1-binding-site-identification-q044** — To visualize how signal changes around genomic landmarks (peak centers or promoters), I need a binned matrix of coverage values. Which Galaxy tool can generate that matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q045** — Which Galaxy tool runs deepTools computeMatrix for this analysis?
+- **epigenetics-tal1-binding-site-identification-q045** — I have a signal track and a set of regions and want a matrix of signal around each region for plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q046** — Which Galaxy tool would you recommend to perform `deeptools_compute_matrix`?
+- **epigenetics-tal1-binding-site-identification-q046** — Which Galaxy tool computes a signal matrix over genomic regions so I can make heatmaps or average profile plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q047** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-tal1-binding-site-identification-q047** — I want to see whether replicates cluster together based on genome-wide signal using a correlation heatmap. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q048** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-tal1-binding-site-identification-q048** — To diagnose batch effects between samples, I want a correlation plot based on a genome-wide coverage summary matrix. Which Galaxy tool can generate that plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q049** — Which Galaxy tool plots correlations from deepTools output?
+- **epigenetics-tal1-binding-site-identification-q049** — I have a multi-sample coverage summary matrix and want a sample-to-sample correlation visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q050** — Which Galaxy tool would you recommend to perform `deeptools_plot_correlation`?
+- **epigenetics-tal1-binding-site-identification-q050** — Which Galaxy tool creates a correlation heatmap or scatter plot from a coverage summary matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q051** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-tal1-binding-site-identification-q051** — I want to know which called peaks overlap a set of annotated genomic regions, and I need the overlapping intervals as output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q052** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-tal1-binding-site-identification-q052** — To compare two interval datasets and extract only the regions they have in common, I need an overlap operation in Galaxy. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q053** — Which Galaxy tool performs bedtools intersect on BED datasets?
+- **epigenetics-tal1-binding-site-identification-q053** — I need to compute overlaps between two BED-like interval datasets and output the intersecting regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q054** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **epigenetics-tal1-binding-site-identification-q054** — Which Galaxy tool intersects two sets of genomic intervals to return the overlapping coordinates?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q055** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-tal1-binding-site-identification-q055** — I want a heatmap showing signal intensity around peaks across samples. Which Galaxy tool can turn my computed matrix into a heatmap?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q056** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-tal1-binding-site-identification-q056** — To visually compare signal patterns around regions, I need a heatmap derived from a region-by-bin matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q057** — Which Galaxy tool produces a deepTools heatmap plot?
+- **epigenetics-tal1-binding-site-identification-q057** — I have a region-by-bin signal matrix and want a heatmap visualization (optionally clustered). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q058** — Which Galaxy tool would you recommend to perform `deeptools_plot_heatmap`?
+- **epigenetics-tal1-binding-site-identification-q058** — Which Galaxy tool plots a heatmap from a precomputed signal matrix over genomic regions?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q059** — Which Galaxy tool would you recommend to perform `deeptools_compute_gc_bias`?
+- **epigenetics-tal1-binding-site-identification-q059** — My coverage looks uneven, and I want to measure GC bias in my alignments to see whether technical bias might affect peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q060** — Which Galaxy tool would you recommend to perform `deeptools_compute_gc_bias`?
+- **epigenetics-tal1-binding-site-identification-q060** — Before interpreting enrichment, I want to quantify GC-dependent bias in my aligned reads. Which Galaxy tool can compute GC bias metrics from alignments?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q061** — Which Galaxy tool computes GC bias for BAM files?
+- **epigenetics-tal1-binding-site-identification-q061** — I need to compute GC bias metrics from an alignment dataset as a QC step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q062** — Which Galaxy tool would you recommend to perform `deeptools_compute_gc_bias`?
+- **epigenetics-tal1-binding-site-identification-q062** — Which Galaxy tool computes GC bias from alignments and outputs bias estimates that can inform correction?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/deeptools_compute_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q063** — Which Galaxy tool would you recommend to perform `deeptools_correct_gc_bias`?
+- **epigenetics-tal1-binding-site-identification-q063** — I detected strong GC bias in my alignments and want to correct it before generating coverage tracks or calling peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_correct_gc_bias/deeptools_correct_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q064** — Which Galaxy tool would you recommend to perform `deeptools_correct_gc_bias`?
+- **epigenetics-tal1-binding-site-identification-q064** — To reduce technical GC bias effects on downstream enrichment analysis, I want to apply GC-bias correction to my alignments. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_correct_gc_bias/deeptools_correct_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q065** — Which Galaxy tool performs deepTools correctGCbias?
+- **epigenetics-tal1-binding-site-identification-q065** — I need to correct GC bias in an alignment dataset and output a corrected dataset for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_correct_gc_bias/deeptools_correct_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
-- **epigenetics-tal1-binding-site-identification-q066** — Which Galaxy tool would you recommend to perform `deeptools_correct_gc_bias`?
+- **epigenetics-tal1-binding-site-identification-q066** — Which Galaxy tool applies GC-bias correction to alignments so coverage tracks reflect biology more than sequencing bias?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_correct_gc_bias/deeptools_correct_gc_bias/3.5.4+galaxy0
   - Datasets: zenodo.197100
 
@@ -7917,52 +7917,52 @@ Questions:
 - Datasets (1): 11089653
 
 Questions:
-- **evolution-abc_intro_phylo-q011** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **evolution-abc_intro_phylo-q011** — I have homologous sequences and want a high-quality multiple sequence alignment as the first step for phylogenetic analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q012** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **evolution-abc_intro_phylo-q012** — Before building a phylogenetic tree, I need to align a set of DNA sequences into an MSA. Which Galaxy tool can do this alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q013** — Which Galaxy tool runs MAFFT for multiple sequence alignment?
+- **evolution-abc_intro_phylo-q013** — I need to run a multiple sequence alignment on my sequences and get an aligned dataset out. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q014** — Which Galaxy tool would you recommend to perform `rbc_mafft`?
+- **evolution-abc_intro_phylo-q014** — Which Galaxy tool performs multiple sequence alignment for DNA or protein sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q015** — Which Galaxy tool would you recommend to perform `fasttree`?
+- **evolution-abc_intro_phylo-q015** — I want a quick phylogenetic tree from a multiple sequence alignment to get an initial view of relationships. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q016** — Which Galaxy tool would you recommend to perform `fasttree`?
+- **evolution-abc_intro_phylo-q016** — To explore evolutionary relationships at a glance, I need a fast tree inference method starting from an alignment. Which Galaxy tool can build that tree?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q017** — Which Galaxy tool runs FastTree on an aligned dataset?
+- **evolution-abc_intro_phylo-q017** — I have an aligned sequence dataset and want to infer a phylogenetic tree quickly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q018** — Which Galaxy tool would you recommend to perform `fasttree`?
+- **evolution-abc_intro_phylo-q018** — Which Galaxy tool builds a phylogenetic tree from a multiple sequence alignment with a fast approximate method?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q019** — Which Galaxy tool would you recommend to perform `iqtree`?
+- **evolution-abc_intro_phylo-q019** — I want a maximum-likelihood phylogenetic tree with a well-supported model choice and support values. Which Galaxy tool should I use for ML tree inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q020** — Which Galaxy tool would you recommend to perform `iqtree`?
+- **evolution-abc_intro_phylo-q020** — To get a more accurate phylogeny than a quick method, I want maximum-likelihood tree inference from my alignment with support estimation. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q021** — Which Galaxy tool runs IQ-TREE for phylogenetic inference?
+- **evolution-abc_intro_phylo-q021** — I need maximum-likelihood phylogenetic inference from an alignment and want branch support values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q022** — Which Galaxy tool would you recommend to perform `iqtree`?
+- **evolution-abc_intro_phylo-q022** — Which Galaxy tool performs ML tree inference from an MSA and outputs a Newick tree with support values?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q023** — Which Galaxy tool would you recommend to perform `newick_display`?
+- **evolution-abc_intro_phylo-q023** — I have a phylogenetic tree in Newick format and want to visualize it to interpret clades and branch lengths. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q024** — Which Galaxy tool would you recommend to perform `newick_display`?
+- **evolution-abc_intro_phylo-q024** — After building a phylogenetic tree, I want a simple visualization of the Newick tree within Galaxy. Which tool can display it?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q025** — Which Galaxy tool displays Newick trees using Newick Utilities?
+- **evolution-abc_intro_phylo-q025** — I need to display or render a Newick-formatted phylogenetic tree for quick inspection. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1
   - Datasets: 11089653
-- **evolution-abc_intro_phylo-q026** — Which Galaxy tool would you recommend to perform `newick_display`?
+- **evolution-abc_intro_phylo-q026** — Which Galaxy tool can visualize a Newick tree and produce a readable tree display?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1
   - Datasets: 11089653
 
@@ -7972,16 +7972,16 @@ Questions:
 - Datasets (1): 1
 
 Questions:
-- **evolution-bacterial-comparative-genomics-q011** — Which Galaxy tool would you recommend to perform `fasttree`?
+- **evolution-bacterial-comparative-genomics-q011** — I have an alignment from several bacterial isolates and want a quick phylogeny to compare their relationships. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 1
-- **evolution-bacterial-comparative-genomics-q012** — Which Galaxy tool would you recommend to perform `fasttree`?
+- **evolution-bacterial-comparative-genomics-q012** — To summarize the relatedness of multiple bacterial genomes, I want a fast tree built from an existing alignment. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 1
-- **evolution-bacterial-comparative-genomics-q013** — Which Galaxy tool builds a FastTree phylogeny from an alignment?
+- **evolution-bacterial-comparative-genomics-q013** — I want to build a phylogenetic tree from a bacterial multiple sequence alignment as a fast exploratory step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 1
-- **evolution-bacterial-comparative-genomics-q014** — Which Galaxy tool would you recommend to perform `fasttree`?
+- **evolution-bacterial-comparative-genomics-q014** — Which Galaxy tool can rapidly infer a phylogenetic tree from a bacterial sequence alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1
   - Datasets: 1
 
@@ -7991,40 +7991,40 @@ Questions:
 - Datasets (1): 6010176
 
 Questions:
-- **evolution-mtb_phylogeny-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **evolution-mtb_phylogeny-q011** — I'm starting an MTB phylogeny analysis and need to bring my local sequencing data into Galaxy to begin processing. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q012** — Which Galaxy tool would you recommend to perform `upload1`?
+- **evolution-mtb_phylogeny-q012** — I have data on my computer that I need to analyze in Galaxy; what's the right Galaxy tool to import it into my history?
   - Tools: upload1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q013** — Which Galaxy tool should I use to upload local files to my history?
+- **evolution-mtb_phylogeny-q013** — I need to upload local files into my Galaxy history to start an analysis. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q014** — Which Galaxy tool would you recommend to perform `upload1`?
+- **evolution-mtb_phylogeny-q014** — Which Galaxy tool imports local datasets into a Galaxy history as the first step of a workflow?
   - Tools: upload1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q015** — Which Galaxy tool would you recommend to perform `raxml`?
+- **evolution-mtb_phylogeny-q015** — I want a maximum-likelihood phylogenetic tree from my aligned MTB sequences for downstream interpretation. Which Galaxy tool should I use for ML tree building?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.12+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q016** — Which Galaxy tool would you recommend to perform `raxml`?
+- **evolution-mtb_phylogeny-q016** — To infer an evolutionary tree for MTB isolates from a multiple sequence alignment, I need an ML phylogeny tool. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.12+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q017** — Which Galaxy tool builds a maximum-likelihood phylogenetic tree from an alignment?
+- **evolution-mtb_phylogeny-q017** — I have a multiple sequence alignment and need a maximum-likelihood phylogenetic tree as output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.12+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q018** — Which Galaxy tool would you recommend to perform `raxml`?
+- **evolution-mtb_phylogeny-q018** — Which Galaxy tool performs maximum-likelihood phylogenetic inference from an alignment and outputs a Newick tree?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/raxml/raxml/8.2.12+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q019** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **evolution-mtb_phylogeny-q019** — My tree labels or metadata lines need small text corrections (e.g., renaming prefixes) before plotting. Which Galaxy tool should I use to replace text within each line?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q020** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **evolution-mtb_phylogeny-q020** — I need to standardize sample labels in a text dataset by replacing specific substrings on every line. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q021** — Which Galaxy tool replaces text within lines using simple rules?
+- **evolution-mtb_phylogeny-q021** — I need a simple find-and-replace operation that rewrites text within each line of a dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_phylogeny-q022** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **evolution-mtb_phylogeny-q022** — Which Galaxy tool replaces a target string with another string across all lines of a text dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
 
@@ -8034,172 +8034,172 @@ Questions:
 - Datasets (1): 6010176
 
 Questions:
-- **evolution-mtb_transmission-q011** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **evolution-mtb_transmission-q011** — For whole-genome sequencing of MTB, I want to remove adapters and low-quality ends so variant calling isn't affected by poor read quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q012** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **evolution-mtb_transmission-q012** — Before running an MTB transmission workflow, I need to clean my raw reads by trimming adapters and low-quality bases. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q013** — Which Galaxy tool runs Trimmomatic on FASTQ files?
+- **evolution-mtb_transmission-q013** — I need an adapter and quality trimming step for raw short-read sequencing data before variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q014** — Which Galaxy tool would you recommend to perform `trimmomatic`?
+- **evolution-mtb_transmission-q014** — Which Galaxy tool trims adapters and low-quality bases from raw sequencing reads and outputs cleaned reads for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q015** — Which Galaxy tool would you recommend to perform `snippy`?
+- **evolution-mtb_transmission-q015** — I want to call SNPs in MTB isolates against a reference genome and produce per-sample variant calls for transmission analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.6.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q016** — Which Galaxy tool would you recommend to perform `snippy`?
+- **evolution-mtb_transmission-q016** — To compare MTB isolates, I need a bacterial variant calling step that maps reads to a reference and reports variants. Which Galaxy tool can do this end-to-end?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.6.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q017** — Which Galaxy tool runs Snippy for bacterial variant calling?
+- **evolution-mtb_transmission-q017** — I need a bacterial variant calling tool that takes sequencing reads plus a reference and outputs variant calls. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.6.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q018** — Which Galaxy tool would you recommend to perform `snippy`?
+- **evolution-mtb_transmission-q018** — Which Galaxy tool runs a reference-based bacterial SNP calling pipeline and outputs a variant callset for each sample?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.6.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q019** — Which Galaxy tool would you recommend to perform `tb_variant_filter`?
+- **evolution-mtb_transmission-q019** — I want a high-confidence set of MTB variants for transmission inference and need to filter out low-quality calls and problematic regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.4.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q020** — Which Galaxy tool would you recommend to perform `tb_variant_filter`?
+- **evolution-mtb_transmission-q020** — My MTB variant calls include noisy positions; I need TB-aware filtering to get a clean variant set before distance calculations. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.4.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q021** — Which Galaxy tool runs TB variant filtering?
+- **evolution-mtb_transmission-q021** — I need to filter an MTB variant callset using TB-specific rules and quality thresholds. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.4.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q022** — Which Galaxy tool would you recommend to perform `tb_variant_filter`?
+- **evolution-mtb_transmission-q022** — Which Galaxy tool applies TB-focused variant filtering to produce a cleaned variant dataset for downstream analyses?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.4.0+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q023** — Which Galaxy tool would you recommend to perform `samtools_view`?
+- **evolution-mtb_transmission-q023** — I need to quickly inspect or subset my alignments (for example to check mapping around a locus) before proceeding. Which Galaxy tool should I use to view/filter an alignment dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q024** — Which Galaxy tool would you recommend to perform `samtools_view`?
+- **evolution-mtb_transmission-q024** — Before variant calling, I want to verify that reads are mapping sensibly and possibly filter alignments by flags or regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q025** — Which Galaxy tool runs samtools view on BAM files?
+- **evolution-mtb_transmission-q025** — I need to filter or convert an alignment dataset and output a subset of reads based on flags or regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q026** — Which Galaxy tool would you recommend to perform `samtools_view`?
+- **evolution-mtb_transmission-q026** — Which Galaxy tool can view and filter alignments (e.g., keep mapped reads, select regions) from a BAM dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q027** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
+- **evolution-mtb_transmission-q027** — A downstream MTB tool expects consistent sample IDs, so I need to standardize names across a text table by doing find-and-replace. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q028** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
+- **evolution-mtb_transmission-q028** — My metadata table has inconsistent delimiters and I want to rewrite strings consistently across the file. Which Galaxy tool can do global find-and-replace?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q029** — Which Galaxy tool provides sed-style text editing?
+- **evolution-mtb_transmission-q029** — I need a find-and-replace operation that substitutes text patterns throughout a dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q030** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
+- **evolution-mtb_transmission-q030** — Which Galaxy tool performs simple global string replacement in a text or tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q031** — Which Galaxy tool would you recommend to perform `tb_profiler_profile`?
+- **evolution-mtb_transmission-q031** — I want to predict drug resistance and lineage for each MTB sample from sequencing data as part of interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q032** — Which Galaxy tool would you recommend to perform `tb_profiler_profile`?
+- **evolution-mtb_transmission-q032** — To characterize MTB isolates, I need a tool that reports lineage and resistance-associated mutations from my data. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q033** — Which Galaxy tool runs TBProfiler profiling?
+- **evolution-mtb_transmission-q033** — I need to run an MTB profiling step that outputs lineage and drug resistance predictions for each sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q034** — Which Galaxy tool would you recommend to perform `tb_profiler_profile`?
+- **evolution-mtb_transmission-q034** — Which Galaxy tool profiles MTB samples to report lineage and predicted drug resistance based on detected variants?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q035** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **evolution-mtb_transmission-q035** — I have a results table and want to pull out only the lines that mention specific genes or mutation patterns. Which Galaxy tool should I use for pattern-based filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q036** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **evolution-mtb_transmission-q036** — To focus on a subset of mutations, I want to keep only rows matching a keyword or regular expression in a text dataset. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q037** — Which Galaxy tool runs grep-style text filtering?
+- **evolution-mtb_transmission-q037** — I need a grep-style step to select lines matching a pattern from a text dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q038** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **evolution-mtb_transmission-q038** — Which Galaxy tool filters a dataset by keeping only lines that match (or do not match) a given pattern?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q039** — Which Galaxy tool would you recommend to perform `addName`?
+- **evolution-mtb_transmission-q039** — I'm merging per-sample outputs into one table and need to keep track of which sample each row came from by adding the dataset name as a column. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q040** — Which Galaxy tool would you recommend to perform `addName`?
+- **evolution-mtb_transmission-q040** — To avoid losing sample identity when concatenating tables, I want to add a column containing each input dataset's name. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q041** — Which Galaxy tool adds the input name as a new column?
+- **evolution-mtb_transmission-q041** — I need to add the input dataset name as a new column in a tabular dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q042** — Which Galaxy tool would you recommend to perform `addName`?
+- **evolution-mtb_transmission-q042** — Which Galaxy tool appends a column with the source dataset name so rows keep sample identity after merging?
   - Tools: toolshed.g2.bx.psu.edu/repos/mvdbeek/add_input_name_as_column/addName/0.2.0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q043** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **evolution-mtb_transmission-q043** — My workflow produced several per-sample tables and I need one combined dataset to continue analysis. Which Galaxy tool should I use to concatenate them?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q044** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **evolution-mtb_transmission-q044** — I have outputs split across multiple chunks and need a single combined dataset without altering the content. Which Galaxy tool can join them end-to-end?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q045** — Which Galaxy tool concatenates datasets (cat)?
+- **evolution-mtb_transmission-q045** — I need to concatenate multiple text or tabular datasets into one output dataset. Which Galaxy tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q046** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **evolution-mtb_transmission-q046** — Which Galaxy tool appends several datasets together in order to produce one combined dataset?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q047** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **evolution-mtb_transmission-q047** — I need to tidy up sample labels in a text dataset by replacing a specific substring on every line before plotting or merging. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q048** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **evolution-mtb_transmission-q048** — My output contains an unwanted prefix in each line and I want to remove or replace it consistently across the file. Which Galaxy tool can do per-line string replacement?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q049** — Which Galaxy tool replaces text within lines?
+- **evolution-mtb_transmission-q049** — I need to replace a specific string with another string within each line of a dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q050** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **evolution-mtb_transmission-q050** — Which Galaxy tool performs simple per-line string substitution across an entire text dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2
   - Datasets: 6010176
-- **evolution-mtb_transmission-q051** — Which Galaxy tool would you recommend to perform `bcftools_consensus`?
+- **evolution-mtb_transmission-q051** — I want a consensus genome sequence for each MTB sample by applying its variants to the reference. Which Galaxy tool should I use to generate a consensus sequence?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.22+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q052** — Which Galaxy tool would you recommend to perform `bcftools_consensus`?
+- **evolution-mtb_transmission-q052** — To inspect sample-specific mutations in context, I need to build a consensus sequence from a reference plus a variant callset. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.22+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q053** — Which Galaxy tool runs bcftools consensus?
+- **evolution-mtb_transmission-q053** — I need to generate a consensus sequence by applying variants to a reference genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.22+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q054** — Which Galaxy tool would you recommend to perform `bcftools_consensus`?
+- **evolution-mtb_transmission-q054** — Which Galaxy tool outputs a consensus genome sequence given a reference and a variant dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.22+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q055** — Which Galaxy tool would you recommend to perform `snp_sites`?
+- **evolution-mtb_transmission-q055** — I have a multiple genome alignment and want to extract only the variable positions for downstream phylogeny or distance calculations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_sites/snp_sites/2.5.1+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q056** — Which Galaxy tool would you recommend to perform `snp_sites`?
+- **evolution-mtb_transmission-q056** — To focus on informative SNPs across isolates, I need to pull polymorphic sites from a multiple sequence alignment. Which Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_sites/snp_sites/2.5.1+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q057** — Which Galaxy tool runs SNP-sites on a multiple alignment?
+- **evolution-mtb_transmission-q057** — I need to extract SNP sites from a multiple sequence alignment and output an alignment of just variable positions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_sites/snp_sites/2.5.1+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q058** — Which Galaxy tool would you recommend to perform `snp_sites`?
+- **evolution-mtb_transmission-q058** — Which Galaxy tool scans an MSA and outputs only the polymorphic sites?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_sites/snp_sites/2.5.1+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q059** — Which Galaxy tool would you recommend to perform `snp_dists`?
+- **evolution-mtb_transmission-q059** — I want a pairwise SNP distance matrix between MTB isolates based on an alignment, to help infer transmission clusters. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_dists/snp_dists/0.8.2+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q060** — Which Galaxy tool would you recommend to perform `snp_dists`?
+- **evolution-mtb_transmission-q060** — To quantify how genetically close isolates are, I need pairwise SNP distances computed from a multiple sequence alignment. Which Galaxy tool can compute that matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_dists/snp_dists/0.8.2+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q061** — Which Galaxy tool runs snp-dists to compute distance matrices?
+- **evolution-mtb_transmission-q061** — I need to compute a pairwise SNP distance matrix from a multiple sequence alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_dists/snp_dists/0.8.2+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q062** — Which Galaxy tool would you recommend to perform `snp_dists`?
+- **evolution-mtb_transmission-q062** — Which Galaxy tool calculates SNP distances between all samples in an alignment and outputs a distance matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snp_dists/snp_dists/0.8.2+galaxy0
   - Datasets: 6010176
-- **evolution-mtb_transmission-q063** — Which Galaxy tool would you recommend to perform `clustering_from_distmat`?
+- **evolution-mtb_transmission-q063** — I have a pairwise distance matrix between isolates and want to cluster samples into groups that might represent transmission clusters. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/clustering_from_distmat/clustering_from_distmat/1.1.1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q064** — Which Galaxy tool would you recommend to perform `clustering_from_distmat`?
+- **evolution-mtb_transmission-q064** — To summarize relationships from a distance matrix, I need a clustering step that groups similar samples and produces a cluster assignment or dendrogram. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/clustering_from_distmat/clustering_from_distmat/1.1.1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q065** — Which Galaxy tool performs clustering from a distance matrix?
+- **evolution-mtb_transmission-q065** — I need to run clustering using a distance matrix as input and get clustered groups as output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/clustering_from_distmat/clustering_from_distmat/1.1.1
   - Datasets: 6010176
-- **evolution-mtb_transmission-q066** — Which Galaxy tool would you recommend to perform `clustering_from_distmat`?
+- **evolution-mtb_transmission-q066** — Which Galaxy tool performs clustering when the input is a precomputed distance matrix between samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/clustering_from_distmat/clustering_from_distmat/1.1.1
   - Datasets: 6010176
 - **evolution-mtb_transmission-q067** — Which Galaxy tool would you recommend to perform `Grep1`?
