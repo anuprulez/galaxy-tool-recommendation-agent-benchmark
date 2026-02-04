@@ -650,3 +650,11 @@ Notes:
 - Changes: Rewrote all 150 queries (metatranscriptome preprocessing + taxonomy visualization + amplicon SOP steps + long-read preprocessing/mapping) to remove tool leakage/backticks and keep Galaxy-user perspective; preserved metadata.query_type (science_first 76, tool_first 74)
 - Integrity: Fixed metadata.tool_focus drift (0 mismatches remain); ensured metadata.ground_truth_alternatives=true with note for multi-version tools[] (82 items in this batch)
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like join1 and Filter1); smell scan reports no hits/duplicates/near-duplicates
+
+## A0033 (lines 4801-4950)
+
+- Date: 2026-02-04
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (long-read plasmid assembly/QC + multi-tool taxonomic profiling dashboards + DIA proteomics extraction/statistics + ProteoRE biomarker evidence integration) to remove tool leakage/backticks and keep Galaxy-user perspective; fixed one malformed metadata.query_type label; preserved metadata.query_type mix (science_first 74, tool_first 76)
+- Integrity: Fixed metadata.tool_focus drift (0 mismatches remain); ensured metadata.ground_truth_alternatives=true with note for multi-version tools[] (46 items in this batch)
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Grep1, Filter1, Grouping1); smell scan reports no hits/duplicates/near-duplicates

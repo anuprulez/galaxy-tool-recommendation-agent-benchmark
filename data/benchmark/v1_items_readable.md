@@ -15477,10 +15477,10 @@ Questions:
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q028** — I want to classify long-read or short-read sequencing data taxonomically against a reference database and get a per-sample classification report. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — Which Galaxy tool executes the Kraken2 job tied to the Kalamari database, producing the classification and report outputs referenced in the guide?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — Which Galaxy tool can classify sequencing reads taxonomically against a reference database and produce a classification report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q030** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q030** — In Galaxy, what tool should I run for taxonomic classification of metagenomic reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 
@@ -15490,52 +15490,52 @@ Questions:
 - Datasets (1): zenodo.3247504
 
 Questions:
-- **microbiome-plasmid-metagenomics-nanopore-q011** — Which Galaxy tool would you recommend to perform `nanoplot`?
+- **microbiome-plasmid-metagenomics-nanopore-q011** — I have Oxford Nanopore reads and want QC plots and statistics (read length distribution, quality scores) to assess sequencing quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q012** — Which Galaxy tool would you recommend to perform `nanoplot`?
+- **microbiome-plasmid-metagenomics-nanopore-q012** — Before assembly, I want a summary report for Nanopore FASTQ files including quality and length metrics across samples. What Galaxy tool can generate these QC plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q013** — Which Galaxy tool corresponds to the NanoPlot job that analyzes the `Plasmids` dataset collection in batch mode?
+- **microbiome-plasmid-metagenomics-nanopore-q013** — Which Galaxy tool can generate QC plots/statistics for Nanopore reads (length and quality distributions)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q014** — Which Galaxy tool would you recommend to perform `nanoplot`?
+- **microbiome-plasmid-metagenomics-nanopore-q014** — In Galaxy, what tool should I run to summarize long-read FASTQ quality and length metrics across a collection of samples?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.46.2+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q015** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-plasmid-metagenomics-nanopore-q015** — I have Nanopore reads and want to compute read-to-read overlaps (PAF) as input for a long-read assembly graph step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q016** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-plasmid-metagenomics-nanopore-q016** — To assemble long reads, I need to align the reads to each other and produce an overlap file for the next assembler step. What Galaxy tool can generate those overlaps?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q017** — Which Galaxy tool executes Minimap2 with the Oxford Nanopore profile to produce the PAF overlaps for assembly?
+- **microbiome-plasmid-metagenomics-nanopore-q017** — Which Galaxy tool can compute overlaps/alignments for long reads and output a PAF overlap file for downstream assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q018** — Which Galaxy tool would you recommend to perform `minimap2`?
+- **microbiome-plasmid-metagenomics-nanopore-q018** — In Galaxy, what tool should I run to generate long-read overlaps (read-vs-read alignment) for a long-read assembly workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.28+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy2
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q019** — Now that I have the overlaps, which Galaxy tool should I run to assemble the Nanopore reads into the assembly graph described in the guide?
+- **microbiome-plasmid-metagenomics-nanopore-q019** — I have long-read overlaps in PAF format and want to build a draft assembly graph (GFA) from the reads and overlaps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q020** — Which Galaxy tool would you recommend to perform `miniasm`?
+- **microbiome-plasmid-metagenomics-nanopore-q020** — After generating overlaps, I need a lightweight long-read assembly step that produces an assembly graph from PAF overlaps. What Galaxy tool can do this assembly step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q021** — Which Galaxy tool performs the Miniasm assembly that consumes the reads and PAF overlaps to produce the GFA graph?
+- **microbiome-plasmid-metagenomics-nanopore-q021** — Which Galaxy tool can assemble long reads into a GFA assembly graph using the reads and a PAF overlap file?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q022** — Which Galaxy tool would you recommend to perform `miniasm`?
+- **microbiome-plasmid-metagenomics-nanopore-q022** — In Galaxy, what tool should I run to turn long-read overlaps into an assembly graph (GFA) as part of a long-read assembly workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3_r179+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/miniasm/miniasm/0.3+galaxy0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q023** — Which Galaxy tool would you recommend to perform `PlasFlow`?
+- **microbiome-plasmid-metagenomics-nanopore-q023** — I have assembled contigs and want to predict which contigs are likely plasmid-derived versus chromosomal. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q024** — Which Galaxy tool would you recommend to perform `PlasFlow`?
+- **microbiome-plasmid-metagenomics-nanopore-q024** — After assembly, I need a classifier that labels contigs as plasmid-like or chromosome-like to support plasmid discovery. What Galaxy tool can do this contig classification?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q025** — Which Galaxy tool executes PlasFlow on the Unicycler assembly to predict whether contigs are plasmidic?
+- **microbiome-plasmid-metagenomics-nanopore-q025** — Which Galaxy tool can classify assembled contigs as plasmid-derived vs chromosomal and output predictions?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
-- **microbiome-plasmid-metagenomics-nanopore-q026** — Which Galaxy tool would you recommend to perform `PlasFlow`?
+- **microbiome-plasmid-metagenomics-nanopore-q026** — In Galaxy, what tool should I run to identify plasmid-like contigs from an assembly?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.1.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
   - Datasets: zenodo.3247504
 
@@ -15545,100 +15545,100 @@ Questions:
 - Datasets (1): 7871630
 
 Questions:
-- **microbiome-taxonomic-profiling-q011** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-taxonomic-profiling-q011** — I have sequencing reads from a mixed microbial sample and want to classify reads by taxonomy and get a report of taxa present. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q012** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-taxonomic-profiling-q012** — After preprocessing reads, I want taxonomic classification against a reference database and a summary table/report for each sample. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q013** — Which Galaxy tool launches Kraken2 with the Prebuilt Refseq PlusPF database to produce the classification and report for every sample in this guide?
+- **microbiome-taxonomic-profiling-q013** — What Galaxy tool assigns taxonomic labels to reads using a k-mer database and outputs both classifications and a summary report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q014** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-taxonomic-profiling-q014** — Which Galaxy tool should I use to generate per-sample read-level taxonomy assignments and a report table?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.3+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q015** — Which Galaxy tool would you recommend to perform `metaphlan`?
+- **microbiome-taxonomic-profiling-q015** — I have metagenomic reads and want a marker-gene-based taxonomic profile (relative abundances) for each sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q016** — Which Galaxy tool would you recommend to perform `metaphlan`?
+- **microbiome-taxonomic-profiling-q016** — I need species-level taxonomic profiling from metagenomic reads with a clade abundance output table. What Galaxy tool can compute that profile?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q017** — Which Galaxy tool corresponds to the MetaPhlAn job that consumes the forward and reverse collections and emits the clade abundance table plus Krona data?
+- **microbiome-taxonomic-profiling-q017** — Which Galaxy tool can generate a marker-based taxonomic profile from metagenomic reads and output clade abundances?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q018** — Which Galaxy tool would you recommend to perform `metaphlan`?
+- **microbiome-taxonomic-profiling-q018** — In Galaxy, what tool should I run to compute taxonomic relative abundances from reads using a marker-gene approach?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.2.4+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/metaphlan/metaphlan/4.1.1+galaxy4
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q019** — Which Galaxy tool would you recommend to perform `est_abundance`?
+- **microbiome-taxonomic-profiling-q019** — I have a taxonomy classification report from a k-mer classifier and want to re-estimate organism abundances at a chosen taxonomic level. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q020** — Which Galaxy tool would you recommend to perform `est_abundance`?
+- **microbiome-taxonomic-profiling-q020** — After read classification, I want improved abundance estimates derived from the classifier report for downstream comparisons. What Galaxy tool can re-estimate abundances?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q021** — Which Galaxy tool executes Bracken’s re-estimation of abundances from the Kraken report with the chosen k-mer distribution?
+- **microbiome-taxonomic-profiling-q021** — Which Galaxy tool can re-estimate taxonomic abundances from a k-mer classifier report at a selected rank?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q022** — Which Galaxy tool would you recommend to perform `est_abundance`?
+- **microbiome-taxonomic-profiling-q022** — In Galaxy, what tool should I run to compute abundance estimates from a taxonomy classification report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bracken/est_abundance/3.1+galaxy0
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q023** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
+- **microbiome-taxonomic-profiling-q023** — I have a taxonomy classifier report and want to convert it into a Krona-compatible table for interactive visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q024** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
+- **microbiome-taxonomic-profiling-q024** — After read classification, I need to transform the report into the format required to draw an interactive Krona chart. What Galaxy tool can convert the report for Krona?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q025** — Which Galaxy tool converts the Kraken2 report into the NCBI taxonomy representation that Krona can visualize?
+- **microbiome-taxonomic-profiling-q025** — Which Galaxy tool can convert a taxonomic classification report into Krona-ready input format?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q026** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
+- **microbiome-taxonomic-profiling-q026** — In Galaxy, what tool should I run to transform a classifier report into a taxonomy table suitable for Krona visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy2
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q027** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-taxonomic-profiling-q027** — I have taxonomic abundance data and want an interactive Krona plot to explore the composition of my sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q028** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-taxonomic-profiling-q028** — I want a clickable hierarchical visualization of taxonomy results (Krona-style) for reporting and exploration. What Galaxy tool can generate that plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q029** — Which Galaxy tool produces the Krona pie chart when fed the Krakentools taxonomy table with type `Tabular` input?
+- **microbiome-taxonomic-profiling-q029** — Which Galaxy tool can generate an interactive Krona chart from taxonomic abundance tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q030** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-taxonomic-profiling-q030** — In Galaxy, what tool should I run to create a Krona-style interactive visualization from taxonomy results?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q031** — Which Galaxy tool would you recommend to perform `interactive_tool_pavian`?
+- **microbiome-taxonomic-profiling-q031** — I have multiple taxonomy classification reports across samples and want an interactive dashboard to explore and compare results. Which Galaxy interactive tool should I use?
   - Tools: interactive_tool_pavian
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q032** — Which Galaxy tool would you recommend to perform `interactive_tool_pavian`?
+- **microbiome-taxonomic-profiling-q032** — I want an interactive viewer for taxonomy reports to quickly compare samples and drill down into taxa. What Galaxy tool can launch such a viewer?
   - Tools: interactive_tool_pavian
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q033** — Which Galaxy tool launches the Pavian interactive viewer that consumes the Kraken and MetaPhlAn-style report collections?
+- **microbiome-taxonomic-profiling-q033** — Which Galaxy interactive tool can visualize and compare taxonomy classification reports across samples in a web dashboard?
   - Tools: interactive_tool_pavian
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q034** — Which Galaxy tool would you recommend to perform `interactive_tool_pavian`?
+- **microbiome-taxonomic-profiling-q034** — In Galaxy, what tool should I run to open an interactive report viewer for taxonomy classification outputs?
   - Tools: interactive_tool_pavian
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q035** — Which Galaxy tool would you recommend to perform `kraken_biom`?
+- **microbiome-taxonomic-profiling-q035** — I have taxonomy reports for multiple samples and want to convert them into a BIOM table (with sample metadata) for downstream visualization/analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken_biom/kraken_biom/1.2.0+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q036** — Which Galaxy tool would you recommend to perform `kraken_biom`?
+- **microbiome-taxonomic-profiling-q036** — To use BIOM-based visualization tools, I need to turn taxonomy classification outputs into a BIOM-format table. What Galaxy tool can build a BIOM table from taxonomy reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken_biom/kraken_biom/1.2.0+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q037** — Which Galaxy tool corresponds to the Kraken-biom job that takes the Kraken report and the metadata tabular file to produce the biom output?
+- **microbiome-taxonomic-profiling-q037** — Which Galaxy tool can create a BIOM table from taxonomy classification reports (optionally using sample metadata)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken_biom/kraken_biom/1.2.0+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q038** — Which Galaxy tool would you recommend to perform `kraken_biom`?
+- **microbiome-taxonomic-profiling-q038** — In Galaxy, what tool should I run to convert taxonomy reports into BIOM format for downstream visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken_biom/kraken_biom/1.2.0+galaxy1
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q039** — Which Galaxy tool would you recommend to perform `interactive_tool_phinch`?
+- **microbiome-taxonomic-profiling-q039** — I have a BIOM table with sample metadata and want an interactive visualization to explore community composition across samples. Which Galaxy interactive tool should I use?
   - Tools: interactive_tool_phinch
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q040** — Which Galaxy tool would you recommend to perform `interactive_tool_phinch`?
+- **microbiome-taxonomic-profiling-q040** — I want an interactive web visualization for a BIOM-format taxonomy table with metadata (stacked bars and other views). What Galaxy tool can launch that viewer?
   - Tools: interactive_tool_phinch
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q041** — Which Galaxy tool launches Phinch that plots the Kraken-biom input with metadata attributes?
+- **microbiome-taxonomic-profiling-q041** — Which Galaxy interactive tool can visualize a BIOM table with sample metadata in an interactive web interface?
   - Tools: interactive_tool_phinch
   - Datasets: 7871630
-- **microbiome-taxonomic-profiling-q042** — Which Galaxy tool would you recommend to perform `interactive_tool_phinch`?
+- **microbiome-taxonomic-profiling-q042** — In Galaxy, what tool should I run to open an interactive BIOM visualization dashboard for taxonomy data?
   - Tools: interactive_tool_phinch
   - Datasets: 7871630
 
@@ -15648,52 +15648,52 @@ Questions:
 - Datasets (1): 4307758
 
 Questions:
-- **proteomics-DIA_Analysis_MSstats-q011** — Which Galaxy tool would you recommend to perform `msstats`?
+- **proteomics-DIA_Analysis_MSstats-q011** — I have quantitative proteomics results plus a sample annotation and comparison design, and I want statistical testing to find differentially abundant proteins. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q012** — Which Galaxy tool would you recommend to perform `msstats`?
+- **proteomics-DIA_Analysis_MSstats-q012** — After DIA feature extraction, I need a statistical analysis step that normalizes protein intensities and computes fold-changes/p-values between conditions. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q013** — Which Galaxy tool consumes the OpenSWATH tabular input, the sample annotation file, and the comparison matrix to run MSstats and output the normalized protein statistics?
+- **proteomics-DIA_Analysis_MSstats-q013** — Which Galaxy tool can run statistical testing and normalization on quantitative proteomics data given sample annotations and comparisons?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q014** — Which Galaxy tool would you recommend to perform `msstats`?
+- **proteomics-DIA_Analysis_MSstats-q014** — In Galaxy, what tool should I run to compute differential protein abundance (fold-change + p-values) from a proteomics quant table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/4.0.0+galaxy1, toolshed.g2.bx.psu.edu/repos/galaxyp/msstats/msstats/3.20.1.0
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q015** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **proteomics-DIA_Analysis_MSstats-q015** — I have a text table and want to extract only the lines matching a pattern (e.g., keep rows for a specific organism or metric). Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q016** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **proteomics-DIA_Analysis_MSstats-q016** — My results table contains many rows and I need to keep only rows matching a keyword/regex to focus the analysis. What Galaxy tool can filter lines by pattern?
   - Tools: Grep1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q017** — Which Galaxy tool runs `Select` with the pattern `(ECOLI)|(log2FC)` on `MSstats_ComparisonResult_export_tabular` so only the desired rows remain?
+- **proteomics-DIA_Analysis_MSstats-q017** — Which Galaxy tool can select/extract lines from a text dataset that match a given pattern or regular expression?
   - Tools: Grep1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q018** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **proteomics-DIA_Analysis_MSstats-q018** — In Galaxy, what tool should I run to keep only lines matching an expression from a text file (grep-style filtering)?
   - Tools: Grep1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q019** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **proteomics-DIA_Analysis_MSstats-q019** — I have a tabular results file and want to remove rows with missing values (NA) in a key column before plotting. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q020** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **proteomics-DIA_Analysis_MSstats-q020** — My table needs to be filtered to keep only rows that pass a logical condition (e.g., non-missing values), producing a cleaned output. What Galaxy tool can do this row filtering?
   - Tools: Filter1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q021** — Which Galaxy tool executes `Filter` on `Select_Ecoli`, applies the condition `c7!='NA'`, skips one header line, and produces the `Filter_Ecoli` table?
+- **proteomics-DIA_Analysis_MSstats-q021** — Which Galaxy tool can filter rows in a tabular dataset using a boolean condition on columns and output the filtered table?
   - Tools: Filter1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q022** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **proteomics-DIA_Analysis_MSstats-q022** — In Galaxy, what tool should I run to apply an expression-based row filter to a TSV and keep only rows that pass?
   - Tools: Filter1
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q023** — Which Galaxy tool would you recommend to perform `histogram_rpy`?
+- **proteomics-DIA_Analysis_MSstats-q023** — I have a numeric column in a tabular dataset (e.g., log2 fold changes) and want a histogram to visualize its distribution. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.4
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q024** — Which Galaxy tool would you recommend to perform `histogram_rpy`?
+- **proteomics-DIA_Analysis_MSstats-q024** — I want a histogram plot from a table column to check the distribution of values before choosing thresholds. What Galaxy tool can make that histogram?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.4
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q025** — Which Galaxy tool takes `Filter_Ecoli` as input, uses Column 3 for the x axis, sets 25 breaks, and titles the plot `Distribution of Ecoli Protein log FC values`?
+- **proteomics-DIA_Analysis_MSstats-q025** — Which Galaxy tool can create a histogram from a numeric column in a tabular dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.4
   - Datasets: 4307758
-- **proteomics-DIA_Analysis_MSstats-q026** — Which Galaxy tool would you recommend to perform `histogram_rpy`?
+- **proteomics-DIA_Analysis_MSstats-q026** — In Galaxy, what tool should I run to plot a histogram of a chosen table column?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.4
   - Datasets: 4307758
 
@@ -15703,28 +15703,28 @@ Questions:
 - Datasets (1): 4307762
 
 Questions:
-- **proteomics-DIA_Analysis_OSW-q011** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-DIA_Analysis_OSW-q011** — I have vendor mass spectrometry files and need to convert them into mzML for a DIA proteomics workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q012** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-DIA_Analysis_OSW-q012** — Before DIA analysis, I want to convert raw MS data files to mzML so downstream tools can read them. What Galaxy tool can do this file conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q013** — Which Galaxy tool runs `msconvert Convert and/or filter mass spectrometry files` on `DIA_data`, agrees to the vendor licenses, sets output type to mzML, and stores the result for the downstream workflow?
+- **proteomics-DIA_Analysis_OSW-q013** — Which Galaxy tool can convert raw mass spectrometry files into mzML for downstream DIA analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q014** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **proteomics-DIA_Analysis_OSW-q014** — In Galaxy, what tool should I run to perform mass spectrometry file format conversion (vendor format to mzML)?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q015** — Which Galaxy tool would you recommend to perform `OpenSwathWorkflow`?
+- **proteomics-DIA_Analysis_OSW-q015** — I have DIA mzML files plus a spectral library and iRT assays, and I want to extract peptide features and scores across runs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathworkflow/OpenSwathWorkflow/3.1+galaxy0
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q016** — Which Galaxy tool would you recommend to perform `OpenSwathWorkflow`?
+- **proteomics-DIA_Analysis_OSW-q016** — For DIA proteomics, I need a workflow that uses a library to extract chromatographic features and outputs a quantitative feature table. What Galaxy tool can do this DIA extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathworkflow/OpenSwathWorkflow/3.1+galaxy0
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q017** — Which Galaxy tool consumes the `DIA_data` collection, the `HEK_Ecoli_lib` PQP, and the `iRTassays` file to execute OpenSwathWorkflow with the specified extraction windows and scoring parameters?
+- **proteomics-DIA_Analysis_OSW-q017** — Which Galaxy tool can run DIA targeted extraction on mzML files using a spectral library and output scored features?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathworkflow/OpenSwathWorkflow/3.1+galaxy0
   - Datasets: 4307762
-- **proteomics-DIA_Analysis_OSW-q018** — Which Galaxy tool would you recommend to perform `OpenSwathWorkflow`?
+- **proteomics-DIA_Analysis_OSW-q018** — In Galaxy, what tool should I run to process DIA mzML data with a library-based extraction workflow and produce quantifiable features?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathworkflow/OpenSwathWorkflow/3.1+galaxy0
   - Datasets: 4307762
 
@@ -15734,52 +15734,52 @@ Questions:
 - Datasets (1): 4293493
 
 Questions:
-- **proteomics-DIA_lib_OSW-q011** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **proteomics-DIA_lib_OSW-q011** — I have DDA proteomics raw files and want peptide/protein identification outputs (evidence, peptides, protein groups) for downstream library building. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q012** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **proteomics-DIA_lib_OSW-q012** — My goal is to run a DDA search/quant workflow from raw LC-MS/MS files and produce standard identification tables needed for later steps. What Galaxy tool can do this analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q013** — Which Galaxy tool executes MaxQuant with the mqpar.xml parameters so the DDA spectra are searched and the protein groups, peptides, and evidence tables are created?
+- **proteomics-DIA_lib_OSW-q013** — Which Galaxy tool can run a full proteomics identification workflow from DDA raw files and output evidence/peptide/protein tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q014** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **proteomics-DIA_lib_OSW-q014** — In Galaxy, what tool should I run to process DDA raw files into peptide and protein identification tables for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q015** — Which Galaxy tool would you recommend to perform `diapysef`?
+- **proteomics-DIA_lib_OSW-q015** — I have peptide identification results from DDA and want to build a spectral library/assay table for DIA analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/diapysef/diapysef/0.3.5.0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q016** — Which Galaxy tool would you recommend to perform `diapysef`?
+- **proteomics-DIA_lib_OSW-q016** — To run DIA extraction, I need a spectral library generated from identification tables. What Galaxy tool can generate that library?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/diapysef/diapysef/0.3.5.0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q017** — Which Galaxy tool runs "diapysef library generation" on the filtered MaxQuant_evidence and MaxQuant_msms outputs to produce the .tsv spectral library?
+- **proteomics-DIA_lib_OSW-q017** — Which Galaxy tool can generate a DIA spectral library/assay table from DDA identification outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/diapysef/diapysef/0.3.5.0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q018** — Which Galaxy tool would you recommend to perform `diapysef`?
+- **proteomics-DIA_lib_OSW-q018** — In Galaxy, what tool should I run to build a spectral library for DIA analysis from peptide identification tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/diapysef/diapysef/0.3.5.0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q019** — Which Galaxy tool would you recommend to perform `OpenSwathAssayGenerator`?
+- **proteomics-DIA_lib_OSW-q019** — I have a spectral library and want to refine/filter assays (limit transitions per peptide, enforce m/z ranges) before DIA extraction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathassaygenerator/OpenSwathAssayGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q020** — Which Galaxy tool would you recommend to perform `OpenSwathAssayGenerator`?
+- **proteomics-DIA_lib_OSW-q020** — Before DIA feature extraction, I need to clean up and constrain my assay library to make it compatible and efficient. What Galaxy tool can refine an assay library?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathassaygenerator/OpenSwathAssayGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q021** — Which Galaxy tool corresponds to the spectral library refinement step where transition counts per peptide are limited and m/z ranges are enforced?
+- **proteomics-DIA_lib_OSW-q021** — Which Galaxy tool can refine/filter a DIA assay library by applying constraints like transition limits and m/z ranges?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathassaygenerator/OpenSwathAssayGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q022** — Which Galaxy tool would you recommend to perform `OpenSwathAssayGenerator`?
+- **proteomics-DIA_lib_OSW-q022** — In Galaxy, what tool should I run to process an assay library into a filtered/refined library for DIA workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathassaygenerator/OpenSwathAssayGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q023** — Which Galaxy tool would you recommend to perform `OpenSwathDecoyGenerator`?
+- **proteomics-DIA_lib_OSW-q023** — I have a DIA assay library and want to add decoy transitions so downstream scoring/FDR estimation works properly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathdecoygenerator/OpenSwathDecoyGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q024** — Which Galaxy tool would you recommend to perform `OpenSwathDecoyGenerator`?
+- **proteomics-DIA_lib_OSW-q024** — For DIA analysis, I need a library with decoys appended for statistical validation. What Galaxy tool can generate decoys for an assay library?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathdecoygenerator/OpenSwathDecoyGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q025** — Which Galaxy tool executes OpenSwathDecoyGenerator on the filtered library to append the decoy transitions?
+- **proteomics-DIA_lib_OSW-q025** — Which Galaxy tool can generate/append decoy transitions to a DIA assay library for downstream scoring and FDR control?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathdecoygenerator/OpenSwathDecoyGenerator/2.6+galaxy0
   - Datasets: 4293493
-- **proteomics-DIA_lib_OSW-q026** — Which Galaxy tool would you recommend to perform `OpenSwathDecoyGenerator`?
+- **proteomics-DIA_lib_OSW-q026** — In Galaxy, what tool should I run to add decoys to my assay library prior to DIA extraction?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/openms_openswathdecoygenerator/OpenSwathDecoyGenerator/2.6+galaxy0
   - Datasets: 4293493
 
@@ -15789,52 +15789,52 @@ Questions:
 - Datasets (1): 14650887
 
 Questions:
-- **proteomics-bioconductor-scp-q011** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q011** — I have multiple datasets and want to group them into a dataset collection so I can run downstream tools over each element in a workflow. Which Galaxy tool should I use?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q012** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q012** — My analysis produced several related tables (one per run) and I want to bundle them into a collection for batch QC and summarization. What Galaxy tool can create a dataset collection?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q013** — Which Galaxy tool groups the evidence table by column 19 (`Raw.file`) and counts column 1 so I can compare feature counts between the four runs?
+- **proteomics-bioconductor-scp-q013** — Which Galaxy tool can group multiple history datasets into a dataset collection for mapping tools over them?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q014** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q014** — In Galaxy, what tool should I run to build a list collection from several datasets for workflow execution?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q015** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q015** — I have a single-cell proteomics quantitative matrix and want an end-to-end analysis (QC, normalization, clustering, visualization) to explore cell populations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q016** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q016** — My single-cell proteomics data need preprocessing and exploratory analysis (filtering, batch correction, dimensionality reduction). What Galaxy tool can run an scp analysis pipeline?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q017** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q017** — Which Galaxy tool can run a single-cell proteomics analysis pipeline (QC, normalization, clustering, visualization) from a quantitative matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q018** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q018** — In Galaxy, what tool should I run to perform standard analysis of single-cell proteomics data and produce plots/cluster outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q019** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q019** — I want to organize multiple per-sample outputs into a collection so later steps can process them consistently. Which Galaxy tool should I use?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q020** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q020** — I need to create a dataset collection from several history items for batch processing in Galaxy. What Galaxy tool can do this grouping?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q021** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q021** — What Galaxy tool lets me turn many individual datasets into a collection so a workflow can iterate over them?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q022** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **proteomics-bioconductor-scp-q022** — Which Galaxy tool should I use to organize several inputs into a collection for batch processing?
   - Tools: Grouping1
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q023** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q023** — I want to analyze single-cell proteomics results and generate embeddings/cluster labels and QC summaries. Which Galaxy tool should I use for that analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q024** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q024** — I have protein abundance measurements per cell and want a workflow tool that performs standard single-cell analysis steps and outputs plots/tables. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q025** — Which Galaxy tool runs the bioconductor-scp analysis for single-cell proteomics?
+- **proteomics-bioconductor-scp-q025** — What Galaxy tool provides an end-to-end single-cell proteomics analysis workflow on a protein-by-cell matrix?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
-- **proteomics-bioconductor-scp-q026** — Which Galaxy tool would you recommend to perform `bioconductor_scp`?
+- **proteomics-bioconductor-scp-q026** — Which Galaxy tool should I use to process and explore single-cell proteomics data without writing R code?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/bioconductor_scp/bioconductor_scp/1.16.0+galaxy0
   - Datasets: 14650887
 
@@ -15844,100 +15844,100 @@ Questions:
 - Datasets (1): None
 
 Questions:
-- **proteomics-biomarker_selection-q011** — Which Galaxy tool would you recommend to perform `retrieve_from_hpa`?
+- **proteomics-biomarker_selection-q011** — I want to retrieve tissue-specific expression information for a given tissue and expression level to build a list of proteins expressed in that tissue. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27
   - Datasets: None
-- **proteomics-biomarker_selection-q012** — Which Galaxy tool would you recommend to perform `retrieve_from_hpa`?
+- **proteomics-biomarker_selection-q012** — I need to query a tissue-expression atlas to get proteins expressed in a specific tissue with reliability filters, producing a tabular dataset. What Galaxy tool can fetch that tissue expression dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27
   - Datasets: None
-- **proteomics-biomarker_selection-q013** — Which Galaxy tool corresponds to the ProteoRE `Build tissue-specific expression dataset` job that retrieves HPA entries with the requested expression level and reliability filters for heart muscle?
+- **proteomics-biomarker_selection-q013** — Which Galaxy tool can download a tissue-specific expression dataset from an expression atlas for a chosen tissue and reliability level?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27
   - Datasets: None
-- **proteomics-biomarker_selection-q014** — Which Galaxy tool would you recommend to perform `retrieve_from_hpa`?
+- **proteomics-biomarker_selection-q014** — In Galaxy, what tool should I run to retrieve a list of proteins expressed in a specific tissue from a tissue-expression resource?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27
   - Datasets: None
-- **proteomics-biomarker_selection-q015** — Which Galaxy tool would you recommend to perform `MQoutputfilter`?
+- **proteomics-biomarker_selection-q015** — I have a tabular annotation file and want to keep only rows where a specific column contains certain keywords (e.g., enriched/enhanced). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.05
   - Datasets: None
-- **proteomics-biomarker_selection-q016** — Which Galaxy tool would you recommend to perform `MQoutputfilter`?
+- **proteomics-biomarker_selection-q016** — I need to filter a table by matching keyword values within a column (string contains) to produce a restricted list. What Galaxy tool can do keyword-based filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.05
   - Datasets: None
-- **proteomics-biomarker_selection-q017** — Which Galaxy tool keeps rows whose RNA tissue category column (`c4`) contains the keywords `enriched` or `enhanced` so that the heart-specific list is restricted to 115 proteins?
+- **proteomics-biomarker_selection-q017** — Which Galaxy tool can filter a tabular dataset by keeping rows where a selected column contains specified keywords?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.05
   - Datasets: None
-- **proteomics-biomarker_selection-q018** — Which Galaxy tool would you recommend to perform `MQoutputfilter`?
+- **proteomics-biomarker_selection-q018** — In Galaxy, what tool should I run for keyword-based filtering of a table column (string contains filter)?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.05
   - Datasets: None
-- **proteomics-biomarker_selection-q019** — Which Galaxy tool would you recommend to perform `Jvenn`?
+- **proteomics-biomarker_selection-q019** — I have two lists of protein/gene IDs and want a Venn diagram plus the intersection list for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
-- **proteomics-biomarker_selection-q020** — Which Galaxy tool would you recommend to perform `Jvenn`?
+- **proteomics-biomarker_selection-q020** — I want to compare two ID lists and extract overlaps while also producing a Venn diagram visualization. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
-- **proteomics-biomarker_selection-q021** — Which Galaxy tool creates the Venn diagram by taking the IHC and filtered RNAseq lists, naming them `heart IHC` and `heart RNAseq`, and writing the intersecting IDs to a text output?
+- **proteomics-biomarker_selection-q021** — Which Galaxy tool can create a Venn diagram from two or more ID lists and output the intersection/unique sets?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
-- **proteomics-biomarker_selection-q022** — Which Galaxy tool would you recommend to perform `Jvenn`?
+- **proteomics-biomarker_selection-q022** — In Galaxy, what tool should I run to visualize overlaps between ID lists and export the intersecting IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18, toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1
   - Datasets: None
-- **proteomics-biomarker_selection-q023** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **proteomics-biomarker_selection-q023** — I have a delimiter-separated text file and want to extract a specific field/column into a single-column dataset for downstream filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
-- **proteomics-biomarker_selection-q024** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **proteomics-biomarker_selection-q024** — My input file contains multiple fields per line and I need to cut out one column (by position) to get a clean list of IDs. What Galaxy tool can extract selected fields?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
-- **proteomics-biomarker_selection-q025** — Which Galaxy tool executes the `tp_cut_tool` cut operation on the Venn text file, choosing `fields` and `Column: 3` so the biomarker IDs are in a single column for filtering?
+- **proteomics-biomarker_selection-q025** — Which Galaxy tool can extract selected fields/columns from a delimiter-separated text file and output the result?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
-- **proteomics-biomarker_selection-q026** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **proteomics-biomarker_selection-q026** — In Galaxy, what tool should I run to cut out a selected field (by position) from a delimiter-separated file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0
   - Datasets: None
-- **proteomics-biomarker_selection-q027** — Which Galaxy tool would you recommend to perform `rna_abbased_data`?
+- **proteomics-biomarker_selection-q027** — I want to retrieve an RNA-seq abundance-based expression dataset as a table so I can compare expression patterns with proteomics results. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07
   - Datasets: None
-- **proteomics-biomarker_selection-q028** — Which Galaxy tool would you recommend to perform `rna_abbased_data`?
+- **proteomics-biomarker_selection-q028** — I need a tabular dataset of RNA-seq expression values from an abundance-based resource to integrate with protein-level evidence. What Galaxy tool can retrieve that expression dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07
   - Datasets: None
-- **proteomics-biomarker_selection-q029** — Which Galaxy tool would you recommend to perform `rna_abbased_data`?
+- **proteomics-biomarker_selection-q029** — Which Galaxy tool can retrieve an RNA-seq abundance-based expression dataset as a table for downstream comparison and filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07
   - Datasets: None
-- **proteomics-biomarker_selection-q030** — Which Galaxy tool would you recommend to perform `rna_abbased_data`?
+- **proteomics-biomarker_selection-q030** — In Galaxy, what tool should I run to fetch RNA-seq abundance-based expression values for integration with other evidence?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07
   - Datasets: None
-- **proteomics-biomarker_selection-q031** — Which Galaxy tool would you recommend to perform `IDconverter`?
+- **proteomics-biomarker_selection-q031** — I have a list of gene IDs (e.g., Ensembl) and want to convert them to UniProt accessions/IDs for downstream annotation and filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.01.28
   - Datasets: None
-- **proteomics-biomarker_selection-q032** — Which Galaxy tool would you recommend to perform `IDconverter`?
+- **proteomics-biomarker_selection-q032** — My dataset uses one identifier system and I need to map it to UniProt accessions so I can join with protein annotation resources. What Galaxy tool can convert IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.01.28
   - Datasets: None
-- **proteomics-biomarker_selection-q033** — Which Galaxy tool uses `Species: Human`, `Type/source of IDs: Ensembl gene ID`, and outputs both UniProt accession number and ID for each input line?
+- **proteomics-biomarker_selection-q033** — Which Galaxy tool can convert gene/protein identifiers (e.g., Ensembl IDs) into UniProt accessions/IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.01.28
   - Datasets: None
-- **proteomics-biomarker_selection-q034** — Which Galaxy tool would you recommend to perform `IDconverter`?
+- **proteomics-biomarker_selection-q034** — In Galaxy, what tool should I run to map identifiers from one ID namespace to UniProt identifiers?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.01.28
   - Datasets: None
-- **proteomics-biomarker_selection-q035** — Which Galaxy tool would you recommend to perform `prot_features`?
+- **proteomics-biomarker_selection-q035** — I have a list of UniProt accessions and want to add protein feature annotations (e.g., transmembrane domains, subcellular localization) to my table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_prot_features/prot_features/2019.01.18
   - Datasets: None
-- **proteomics-biomarker_selection-q036** — Which Galaxy tool would you recommend to perform `prot_features`?
+- **proteomics-biomarker_selection-q036** — To interpret a protein list, I need to enrich it with UniProt-derived features like localization and domain annotations. What Galaxy tool can add protein features to a table?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_prot_features/prot_features/2019.01.18
   - Datasets: None
-- **proteomics-biomarker_selection-q037** — Which Galaxy tool corresponds to the ProteoRE `Add protein features` job that reads column `c6` (UniProt accession) and adds TMD and localization annotations?
+- **proteomics-biomarker_selection-q037** — Which Galaxy tool can add protein feature annotations (like localization or transmembrane regions) to a table given UniProt accessions?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_prot_features/prot_features/2019.01.18
   - Datasets: None
-- **proteomics-biomarker_selection-q038** — Which Galaxy tool would you recommend to perform `prot_features`?
+- **proteomics-biomarker_selection-q038** — In Galaxy, what tool should I run to annotate a protein list with additional UniProt feature fields?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_prot_features/prot_features/2019.01.18
   - Datasets: None
-- **proteomics-biomarker_selection-q039** — Which Galaxy tool would you recommend to perform `retr_pepatlas1`?
+- **proteomics-biomarker_selection-q039** — I have a list of UniProt accessions and want to retrieve evidence counts from a peptide atlas resource to see which proteins have MS observation support. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_ms_observation_pepatlas/retr_pepatlas1/2019.02.01.1
   - Datasets: None
-- **proteomics-biomarker_selection-q040** — Which Galaxy tool would you recommend to perform `retr_pepatlas1`?
+- **proteomics-biomarker_selection-q040** — I want to enrich a protein list with peptide-atlas observation statistics (counts) for each accession. What Galaxy tool can retrieve those observation counts?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_ms_observation_pepatlas/retr_pepatlas1/2019.02.01.1
   - Datasets: None
-- **proteomics-biomarker_selection-q041** — Which Galaxy tool pulls counts from the PEP atlas files input data and input data for each UniProt accession?
+- **proteomics-biomarker_selection-q041** — Which Galaxy tool can retrieve peptide-atlas observation counts/statistics for a list of UniProt accessions?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_ms_observation_pepatlas/retr_pepatlas1/2019.02.01.1
   - Datasets: None
-- **proteomics-biomarker_selection-q042** — Which Galaxy tool would you recommend to perform `retr_pepatlas1`?
+- **proteomics-biomarker_selection-q042** — In Galaxy, what tool should I run to add peptide-atlas evidence fields to a protein list?
   - Tools: toolshed.g2.bx.psu.edu/repos/proteore/proteore_ms_observation_pepatlas/retr_pepatlas1/2019.02.01.1
   - Datasets: None
 
@@ -15947,40 +15947,40 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **proteomics-clinical-mp-1-database-generation-q011** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
+- **proteomics-clinical-mp-1-database-generation-q011** — I have a list of UniProt protein accessions and want to download the corresponding UniProt XML entries for annotation and downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q012** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
+- **proteomics-clinical-mp-1-database-generation-q012** — I need to fetch UniProt records for a set of proteins into Galaxy so I can build a species-specific FASTA and annotations. What Galaxy tool can download UniProt entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q013** — Which Galaxy tool executes the UniProt XML downloader job that consumes `Your_Species_tabular.tabular` and exports a FASTA containing the matching taxonomic protein sequences?
+- **proteomics-clinical-mp-1-database-generation-q013** — Which Galaxy tool can download UniProt XML entries given a list of protein accessions/IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q014** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
+- **proteomics-clinical-mp-1-database-generation-q014** — In Galaxy, what tool should I run to fetch UniProt XML records into my history for downstream annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q015** — Which Galaxy tool would you recommend to perform `dbbuilder`?
+- **proteomics-clinical-mp-1-database-generation-q015** — I need to download/build a contaminant protein FASTA (common lab contaminants) as part of constructing a proteomics search database. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q016** — Which Galaxy tool would you recommend to perform `dbbuilder`?
+- **proteomics-clinical-mp-1-database-generation-q016** — My proteomics workflow requires building a protein database component (like a contaminants FASTA) that I can merge with other FASTA inputs. What Galaxy tool can download/build that resource?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q017** — Which Galaxy tool downloads the cRAP contaminants FASTA when I choose `Download from? cRAP (contaminants)`?
+- **proteomics-clinical-mp-1-database-generation-q017** — Which Galaxy tool can download/build standard protein FASTA resources (like common contaminants) for use in proteomics workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q018** — Which Galaxy tool would you recommend to perform `dbbuilder`?
+- **proteomics-clinical-mp-1-database-generation-q018** — In Galaxy, what tool should I run to fetch a contaminants FASTA and save it as a dataset for downstream merging?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q019** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **proteomics-clinical-mp-1-database-generation-q019** — I have several FASTA files (species proteins + contaminants) and want to merge them into one FASTA while removing duplicate sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q020** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **proteomics-clinical-mp-1-database-generation-q020** — To build a proteomics search database, I need to combine multiple FASTA inputs into a single non-redundant FASTA. What Galaxy tool can merge FASTA files and keep unique sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q021** — Which Galaxy tool is configured to run in batch mode, accept the Human SwissProt, cRAP, and Species FASTA files, and output the merged FASTA for MetaNovo input?
+- **proteomics-clinical-mp-1-database-generation-q021** — Which Galaxy tool can merge multiple FASTA files and keep only unique sequences in the output?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **proteomics-clinical-mp-1-database-generation-q022** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **proteomics-clinical-mp-1-database-generation-q022** — In Galaxy, what tool should I run to concatenate FASTA inputs and remove duplicate sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
 - **proteomics-clinical-mp-1-database-generation-q023** — Which Galaxy tool would you recommend to perform `metanovo`?
