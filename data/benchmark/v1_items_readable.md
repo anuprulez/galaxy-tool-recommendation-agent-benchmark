@@ -13980,124 +13980,124 @@ Questions:
 - **metabolomics-msi-finding-nglycans-q018** — In Galaxy, what tool should I run to perform unsupervised segmentation/clustering on mass spectrometry imaging data?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q019** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **metabolomics-msi-finding-nglycans-q019** — I have a tabular dataset and want to keep only rows that meet a condition (for example, score > threshold), producing a filtered table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q020** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **metabolomics-msi-finding-nglycans-q020** — My results table includes a status column and I need to keep only rows marked as PASS for downstream analysis. What Galaxy tool can filter rows by an expression?
   - Tools: Filter1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q021** — Which Galaxy tool is Filter (Filter1)?
+- **metabolomics-msi-finding-nglycans-q021** — Which Galaxy tool can filter rows in a tabular dataset using a boolean condition on columns and output the filtered table?
   - Tools: Filter1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q022** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **metabolomics-msi-finding-nglycans-q022** — In Galaxy, what tool should I run to apply an expression-based row filter to a TSV and keep only rows that pass?
   - Tools: Filter1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q023** — Which Galaxy tool would you recommend to perform `join_files_on_column_fuzzy`?
+- **metabolomics-msi-finding-nglycans-q023** — I have two tables that should match on a name/ID column, but the strings differ slightly (typos, different capitalization). Which Galaxy tool should I use to join them with fuzzy matching?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q024** — Which Galaxy tool would you recommend to perform `join_files_on_column_fuzzy`?
+- **metabolomics-msi-finding-nglycans-q024** — My sample names don’t match exactly between two TSV files and I still need to merge them on an approximate key. What Galaxy tool can do a fuzzy join on a column?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q025** — Which Galaxy tool runs join_files_on_column_fuzzy?
+- **metabolomics-msi-finding-nglycans-q025** — Which Galaxy tool can join two tabular files on a key column using approximate/fuzzy matching rather than exact equality?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q026** — Which Galaxy tool would you recommend to perform `join_files_on_column_fuzzy`?
+- **metabolomics-msi-finding-nglycans-q026** — In Galaxy, what tool should I run to merge two tables when the join key has small string differences (fuzzy match)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q027** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **metabolomics-msi-finding-nglycans-q027** — I have a numeric column in a table and want descriptive summary statistics (mean, median, min/max, standard deviation). Which Galaxy tool should I use?
   - Tools: Summary_Statistics1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q028** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **metabolomics-msi-finding-nglycans-q028** — My dataset is tabular and I need a quick statistics summary for one or more numeric columns for QC. What Galaxy tool can compute summary statistics?
   - Tools: Summary_Statistics1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q029** — Which Galaxy tool is Summary Statistics?
+- **metabolomics-msi-finding-nglycans-q029** — Which Galaxy tool can compute descriptive summary statistics for numeric columns in a tabular dataset?
   - Tools: Summary_Statistics1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q030** — Which Galaxy tool would you recommend to perform `Summary_Statistics1`?
+- **metabolomics-msi-finding-nglycans-q030** — In Galaxy, what tool should I run to generate a summary-statistics report (mean/median/stdev) from a table?
   - Tools: Summary_Statistics1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q031** — Which Galaxy tool would you recommend to perform `cardinal_mz_images`?
+- **metabolomics-msi-finding-nglycans-q031** — I have a mass spectrometry imaging (MSI) dataset and want ion images for selected m/z values to visualize spatial distributions across the tissue. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q032** — Which Galaxy tool would you recommend to perform `cardinal_mz_images`?
+- **metabolomics-msi-finding-nglycans-q032** — I want to generate m/z intensity maps (ion images) from MSI data for a list of target m/z values for exploratory analysis. What Galaxy tool can create those images?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q033** — Which Galaxy tool runs MSI mz images?
+- **metabolomics-msi-finding-nglycans-q033** — Which Galaxy tool can generate ion images (m/z intensity maps) from an MSI dataset for selected m/z values?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q034** — Which Galaxy tool would you recommend to perform `cardinal_mz_images`?
+- **metabolomics-msi-finding-nglycans-q034** — In Galaxy, what tool should I run to create m/z images from mass spectrometry imaging data?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q035** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **metabolomics-msi-finding-nglycans-q035** — I have a text file and want to extract only the lines that match a pattern (for example, keep headers or rows containing a keyword). Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q036** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **metabolomics-msi-finding-nglycans-q036** — My dataset contains many lines and I want to filter it down to lines matching a regular-expression pattern, saving the matched lines as output. What Galaxy tool can do this?
   - Tools: Grep1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q037** — Which Galaxy tool is Select lines that match an expression?
+- **metabolomics-msi-finding-nglycans-q037** — Which Galaxy tool can select/extract lines from a text dataset that match a given pattern or regular expression?
   - Tools: Grep1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q038** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **metabolomics-msi-finding-nglycans-q038** — In Galaxy, what tool should I run to keep only lines matching an expression from a text file (grep-style filtering)?
   - Tools: Grep1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q039** — Which Galaxy tool would you recommend to perform `cardinal_combine`?
+- **metabolomics-msi-finding-nglycans-q039** — I have multiple MSI datasets (e.g., technical replicates or different tissue sections) and want to combine them into a single dataset for joint analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q040** — Which Galaxy tool would you recommend to perform `cardinal_combine`?
+- **metabolomics-msi-finding-nglycans-q040** — My MSI workflow produced separate imaging datasets that I want to merge/concatenate into one combined object before preprocessing and visualization. What Galaxy tool can combine MSI datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q041** — Which Galaxy tool runs MSI combine?
+- **metabolomics-msi-finding-nglycans-q041** — Which Galaxy tool can combine multiple MSI datasets into a single dataset/object for downstream analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q042** — Which Galaxy tool would you recommend to perform `cardinal_combine`?
+- **metabolomics-msi-finding-nglycans-q042** — In Galaxy, what tool should I run to merge/concatenate MSI datasets prior to preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q043** — Which Galaxy tool would you recommend to perform `cardinal_preprocessing`?
+- **metabolomics-msi-finding-nglycans-q043** — I have MSI data and need basic preprocessing (normalization, baseline correction, smoothing, peak processing) before generating ion images and segmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q044** — Which Galaxy tool would you recommend to perform `cardinal_preprocessing`?
+- **metabolomics-msi-finding-nglycans-q044** — Before analyzing MSI spectra, I want to apply preprocessing steps to reduce noise and normalize intensities across pixels. What Galaxy tool can preprocess MSI data?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q045** — Which Galaxy tool runs MSI preprocessing?
+- **metabolomics-msi-finding-nglycans-q045** — Which Galaxy tool can preprocess MSI spectra (normalization/noise reduction) prior to visualization and modeling?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q046** — Which Galaxy tool would you recommend to perform `cardinal_preprocessing`?
+- **metabolomics-msi-finding-nglycans-q046** — In Galaxy, what tool should I run to apply MSI preprocessing steps to an imaging dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q047** — Which Galaxy tool would you recommend to perform `cardinal_quality_report`?
+- **metabolomics-msi-finding-nglycans-q047** — I have an MSI dataset and want a quality-control report to spot artifacts, low-signal regions, and general data-quality issues. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q048** — Which Galaxy tool would you recommend to perform `cardinal_quality_report`?
+- **metabolomics-msi-finding-nglycans-q048** — Before MSI analysis, I want an automated QC report summarizing signal/noise characteristics and other checks for my imaging dataset. What Galaxy tool can generate that MSI QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q049** — Which Galaxy tool is MSI Qualitycontrol?
+- **metabolomics-msi-finding-nglycans-q049** — Which Galaxy tool can generate a QC/quality report for a mass spectrometry imaging dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q050** — Which Galaxy tool would you recommend to perform `cardinal_quality_report`?
+- **metabolomics-msi-finding-nglycans-q050** — In Galaxy, what tool should I run to produce an MSI quality-control report?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q051** — Which Galaxy tool would you recommend to perform `maldi_quant_preprocessing`?
+- **metabolomics-msi-finding-nglycans-q051** — I have MALDI spectra and want preprocessing (baseline correction, smoothing, normalization) before peak picking. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q052** — Which Galaxy tool would you recommend to perform `maldi_quant_preprocessing`?
+- **metabolomics-msi-finding-nglycans-q052** — Before detecting peaks in MALDI data, I need to denoise and correct baselines across spectra to improve peak detection. What Galaxy tool can preprocess MALDI spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q053** — Which Galaxy tool runs MALDIquant preprocessing?
+- **metabolomics-msi-finding-nglycans-q053** — Which Galaxy tool can preprocess MALDI spectra (baseline correction, smoothing, normalization) prior to peak detection?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q054** — Which Galaxy tool would you recommend to perform `maldi_quant_preprocessing`?
+- **metabolomics-msi-finding-nglycans-q054** — In Galaxy, what tool should I run for MALDI spectra preprocessing as a workflow step?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q055** — Which Galaxy tool would you recommend to perform `maldi_quant_peak_detection`?
+- **metabolomics-msi-finding-nglycans-q055** — I have preprocessed MALDI spectra and want to detect peaks across spectra to generate a peak list/feature table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q056** — Which Galaxy tool would you recommend to perform `maldi_quant_peak_detection`?
+- **metabolomics-msi-finding-nglycans-q056** — My goal is peak picking on MALDI data to find m/z peaks and build a feature matrix for downstream analysis. What Galaxy tool can perform MALDI peak detection?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q057** — Which Galaxy tool runs MALDIquant peak detection?
+- **metabolomics-msi-finding-nglycans-q057** — Which Galaxy tool can detect peaks in MALDI spectra and output a peak list or feature table?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q058** — Which Galaxy tool would you recommend to perform `maldi_quant_peak_detection`?
+- **metabolomics-msi-finding-nglycans-q058** — In Galaxy, what tool should I run to perform MALDI peak detection after preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
   - Datasets: 2628280
 
@@ -14107,136 +14107,136 @@ Questions:
 - Datasets (1): 13327051
 
 Questions:
-- **metabolomics-qcxms-predictions-q011** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **metabolomics-qcxms-predictions-q011** — I have a delimited text file and want to extract specific fields/columns by position (not necessarily a strict TSV) to create a simplified dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q012** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **metabolomics-qcxms-predictions-q012** — My input is delimiter-separated and I need to cut out selected fields (and possibly change the delimiter) for downstream steps. What Galaxy tool can do this cut operation?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q013** — Which Galaxy tool is Advanced Cut?
+- **metabolomics-qcxms-predictions-q013** — Which Galaxy tool can extract selected fields from a delimiter-separated text file (cut-style) and output the result?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q014** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **metabolomics-qcxms-predictions-q014** — In Galaxy, what tool should I run to cut out chosen fields from a delimited file when it isn't a standard table?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q015** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
+- **metabolomics-qcxms-predictions-q015** — I have a file containing multiple records/samples and want to split it into many separate datasets and collect them as a dataset collection for batch processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q016** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
+- **metabolomics-qcxms-predictions-q016** — My dataset has multiple sections that should become separate files; I want the outputs as a collection so downstream tools can run on each part. What Galaxy tool can split a file into a collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q017** — Which Galaxy tool runs split_file_to_collection?
+- **metabolomics-qcxms-predictions-q017** — Which Galaxy tool can split a dataset into multiple outputs and return them as a dataset collection?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q018** — Which Galaxy tool would you recommend to perform `split_file_to_collection`?
+- **metabolomics-qcxms-predictions-q018** — In Galaxy, what tool should I run to partition a file into many datasets packaged as a collection for a workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_to_collection/split_file_to_collection/0.5.2
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q019** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
+- **metabolomics-qcxms-predictions-q019** — I have a text file that contains a single value (like a threshold or sample ID) and I want to extract that value cleanly so I can reuse it in later steps. Which Galaxy tool should I use?
   - Tools: param_value_from_file
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q020** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
+- **metabolomics-qcxms-predictions-q020** — My workflow produced a one-line dataset with a value, and I need to pull that value out into its own simple output for reuse downstream. What Galaxy tool can extract a single value from a file?
   - Tools: param_value_from_file
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q021** — Which Galaxy tool is Parse parameter value?
+- **metabolomics-qcxms-predictions-q021** — Which Galaxy tool can extract a single value from a text dataset and output it as a standalone value file for downstream steps?
   - Tools: param_value_from_file
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q022** — Which Galaxy tool would you recommend to perform `param_value_from_file`?
+- **metabolomics-qcxms-predictions-q022** — In Galaxy, what tool should I run to parse a single value from a file (one value per file) and output it cleanly as its own dataset?
   - Tools: param_value_from_file
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q023** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **metabolomics-qcxms-predictions-q023** — I have a small-molecule structure file and need to convert it to another chemical file format for downstream analysis (e.g., different 2D/3D formats). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q024** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **metabolomics-qcxms-predictions-q024** — My chemistry workflow needs to convert compound structures between formats and optionally add/remove hydrogens or change 3D representation. What Galaxy tool can convert compound files?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q025** — Which Galaxy tool runs Open Babel compound conversion?
+- **metabolomics-qcxms-predictions-q025** — Which Galaxy tool can convert small-molecule structure files between chemical formats for downstream tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q026** — Which Galaxy tool would you recommend to perform `openbabel_compound_convert`?
+- **metabolomics-qcxms-predictions-q026** — In Galaxy, what tool should I run to perform compound file format conversion (structure format A to format B)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q027** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **metabolomics-qcxms-predictions-q027** — I have multiple text outputs and want to concatenate them into a single combined dataset for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q028** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **metabolomics-qcxms-predictions-q028** — My workflow produced several intermediate text files and I need to append them end-to-end into one file without changing content. What Galaxy tool can concatenate datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q029** — Which Galaxy tool is Concatenate datasets tail-to-head (cat)?
+- **metabolomics-qcxms-predictions-q029** — Which Galaxy tool can concatenate multiple text datasets into one output file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q030** — Which Galaxy tool would you recommend to perform `tp_cat`?
+- **metabolomics-qcxms-predictions-q030** — In Galaxy, what tool should I run to append several datasets into a single combined dataset (cat-style)?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q031** — Which Galaxy tool would you recommend to perform `ctb_im_conformers`?
+- **metabolomics-qcxms-predictions-q031** — I have small-molecule structures and want to generate multiple plausible 3D conformers for each molecule for downstream scoring or docking. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_conformers/ctb_im_conformers/1.1.4+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q032** — Which Galaxy tool would you recommend to perform `ctb_im_conformers`?
+- **metabolomics-qcxms-predictions-q032** — My compound list needs conformer generation so I can model 3D structure variability. What Galaxy tool can generate conformers from input structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_conformers/ctb_im_conformers/1.1.4+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q033** — Which Galaxy tool runs Generate conformers?
+- **metabolomics-qcxms-predictions-q033** — Which Galaxy tool can generate 3D conformers for small molecules from an input structure file?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_conformers/ctb_im_conformers/1.1.4+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q034** — Which Galaxy tool would you recommend to perform `ctb_im_conformers`?
+- **metabolomics-qcxms-predictions-q034** — In Galaxy, what tool should I run to produce multiple conformations per molecule as a conformer ensemble?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_conformers/ctb_im_conformers/1.1.4+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q035** — Which Galaxy tool would you recommend to perform `xtb_molecular_optimization`?
+- **metabolomics-qcxms-predictions-q035** — I have a 3D small-molecule structure and want to perform geometry optimization to obtain a lower-energy conformation before simulation or property prediction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q036** — Which Galaxy tool would you recommend to perform `xtb_molecular_optimization`?
+- **metabolomics-qcxms-predictions-q036** — Before running further chemistry calculations, I need to optimize molecular geometry (energy minimization) for a set of structures. What Galaxy tool can do molecular optimization?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q037** — Which Galaxy tool runs xtb molecular optimization?
+- **metabolomics-qcxms-predictions-q037** — Which Galaxy tool can perform molecular geometry optimization (energy minimization) for small-molecule structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q038** — Which Galaxy tool would you recommend to perform `xtb_molecular_optimization`?
+- **metabolomics-qcxms-predictions-q038** — In Galaxy, what tool should I run to optimize 3D molecular structures before downstream simulations?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q039** — Which Galaxy tool would you recommend to perform `qcxms_neutral_run`?
+- **metabolomics-qcxms-predictions-q039** — I want to simulate fragmentation of neutral molecules to predict mass spectra for comparison with experimental MS/MS data. Which Galaxy tool should I use to run the neutral fragmentation simulation?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_neutral_run/qcxms_neutral_run/5.2.1+galaxy7
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q040** — Which Galaxy tool would you recommend to perform `qcxms_neutral_run`?
+- **metabolomics-qcxms-predictions-q040** — For in silico MS/MS prediction, I need to run a neutral-fragmentation simulation on a set of molecules. What Galaxy tool can start this neutral simulation run?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_neutral_run/qcxms_neutral_run/5.2.1+galaxy7
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q041** — Which Galaxy tool runs QCxMS neutral run?
+- **metabolomics-qcxms-predictions-q041** — Which Galaxy tool can start an in silico neutral-fragmentation simulation to predict MS/MS spectra from molecular structures?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_neutral_run/qcxms_neutral_run/5.2.1+galaxy7
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q042** — Which Galaxy tool would you recommend to perform `qcxms_neutral_run`?
+- **metabolomics-qcxms-predictions-q042** — In Galaxy, what tool should I run to launch a neutral fragmentation simulation as part of MS/MS prediction?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_neutral_run/qcxms_neutral_run/5.2.1+galaxy7
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q043** — Which Galaxy tool would you recommend to perform `qcxms_production_run`?
+- **metabolomics-qcxms-predictions-q043** — After setting up a fragmentation simulation, I want to run the main production step to generate predicted fragment spectra from my molecules. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_production_run/qcxms_production_run/5.2.1+galaxy5
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q044** — Which Galaxy tool would you recommend to perform `qcxms_production_run`?
+- **metabolomics-qcxms-predictions-q044** — I need the production run stage of an in silico MS/MS fragmentation workflow to generate spectra predictions. What Galaxy tool can run that production simulation?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_production_run/qcxms_production_run/5.2.1+galaxy5
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q045** — Which Galaxy tool runs QCxMS production run?
+- **metabolomics-qcxms-predictions-q045** — Which Galaxy tool runs the production stage of an in silico fragmentation simulation to generate predicted MS/MS spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_production_run/qcxms_production_run/5.2.1+galaxy5
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q046** — Which Galaxy tool would you recommend to perform `qcxms_production_run`?
+- **metabolomics-qcxms-predictions-q046** — In Galaxy, what tool should I run to execute the main production simulation step for MS/MS prediction?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_production_run/qcxms_production_run/5.2.1+galaxy5
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q047** — Which Galaxy tool would you recommend to perform `qcxms_getres`?
+- **metabolomics-qcxms-predictions-q047** — I ran an in silico fragmentation simulation and now need to collect and format the results (predicted spectra/fragments) for comparison and reporting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_getres/qcxms_getres/5.2.1+galaxy4
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q048** — Which Galaxy tool would you recommend to perform `qcxms_getres`?
+- **metabolomics-qcxms-predictions-q048** — After the simulation finishes, I want a summarized results output (predicted fragments/spectra) that I can inspect and export. What Galaxy tool can gather the simulation results?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_getres/qcxms_getres/5.2.1+galaxy4
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q049** — Which Galaxy tool runs QCxMS get results?
+- **metabolomics-qcxms-predictions-q049** — Which Galaxy tool can collect and summarize outputs from an in silico fragmentation simulation into usable result files?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_getres/qcxms_getres/5.2.1+galaxy4
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q050** — Which Galaxy tool would you recommend to perform `qcxms_getres`?
+- **metabolomics-qcxms-predictions-q050** — In Galaxy, what tool should I run to retrieve/assemble the results from a fragmentation simulation workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_getres/qcxms_getres/5.2.1+galaxy4
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q051** — Which Galaxy tool would you recommend to perform `__FILTER_FAILED_DATASETS__`?
+- **metabolomics-qcxms-predictions-q051** — I have a dataset collection where some elements failed in previous steps, and I want to remove the failed elements so downstream tools only run on successful datasets. Which Galaxy tool should I use?
   - Tools: __FILTER_FAILED_DATASETS__
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q052** — Which Galaxy tool would you recommend to perform `__FILTER_FAILED_DATASETS__`?
+- **metabolomics-qcxms-predictions-q052** — My workflow produced a collection with a few failed datasets; I need a clean collection containing only the successful elements for the next step. What Galaxy tool can filter out failed datasets?
   - Tools: __FILTER_FAILED_DATASETS__
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q053** — Which Galaxy tool is Filter failed datasets?
+- **metabolomics-qcxms-predictions-q053** — Which Galaxy tool can filter a dataset collection to remove failed elements and keep only successful datasets?
   - Tools: __FILTER_FAILED_DATASETS__
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q054** — Which Galaxy tool would you recommend to perform `__FILTER_FAILED_DATASETS__`?
+- **metabolomics-qcxms-predictions-q054** — In Galaxy, what tool should I run to drop failed datasets from a collection before continuing a workflow?
   - Tools: __FILTER_FAILED_DATASETS__
   - Datasets: 13327051
 
@@ -14246,88 +14246,88 @@ Questions:
 - Datasets (1): zenodo.7093173
 
 Questions:
-- **microbiome-beer-data-analysis-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-beer-data-analysis-q011** — I have sequencing reads in FASTQ and want a standard quality-control report (base quality, GC content, adapter warnings). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-beer-data-analysis-q012** — Before trimming or analysis, I want an HTML QC summary for my FASTQ reads to assess sequencing quality. What Galaxy tool can generate that report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q013** — Which Galaxy tool runs FASTQC?
+- **microbiome-beer-data-analysis-q013** — Which Galaxy tool can generate a sequencing read QC report from FASTQ data?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q014** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **microbiome-beer-data-analysis-q014** — In Galaxy, what tool should I run to compute standard read-quality metrics and plots for FASTQ datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q015** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-beer-data-analysis-q015** — I have Oxford Nanopore reads and want to remove sequencing adapters/barcodes from the reads before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q016** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-beer-data-analysis-q016** — My long-read FASTQ contains adapter sequences and I need an adapter-trimming step tailored for Nanopore data. What Galaxy tool can trim Nanopore adapters?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q017** — Which Galaxy tool runs Porechop?
+- **microbiome-beer-data-analysis-q017** — Which Galaxy tool can trim adapters/barcodes from Oxford Nanopore reads in FASTQ format?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q018** — Which Galaxy tool would you recommend to perform `porechop`?
+- **microbiome-beer-data-analysis-q018** — In Galaxy, what tool should I run for Nanopore adapter trimming as part of preprocessing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q019** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-beer-data-analysis-q019** — I have FASTQ reads and want adapter trimming and quality filtering in one step, producing cleaned reads and a QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q020** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-beer-data-analysis-q020** — Before mapping, I need to trim low-quality bases and remove adapters from sequencing reads while generating a report of filtering. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q021** — Which Galaxy tool is fastp?
+- **microbiome-beer-data-analysis-q021** — Which Galaxy tool can perform combined adapter trimming and quality filtering on FASTQ reads and output cleaned reads plus a report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q022** — Which Galaxy tool would you recommend to perform `fastp`?
+- **microbiome-beer-data-analysis-q022** — In Galaxy, what tool should I run for all-in-one read trimming (adapters + quality) with summary statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.23.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q023** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-beer-data-analysis-q023** — I have sequencing reads from a mixed microbial sample and want to classify reads by taxonomy and get an abundance report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q024** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-beer-data-analysis-q024** — I need taxonomic classification of metagenomic reads and a report of taxa present in my sample. What Galaxy tool can classify reads against a taxonomy database?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q025** — Which Galaxy tool runs Kraken2?
+- **microbiome-beer-data-analysis-q025** — Which Galaxy tool can classify sequencing reads taxonomically against a reference database and produce a classification report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q026** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **microbiome-beer-data-analysis-q026** — In Galaxy, what tool should I run for taxonomic classification of metagenomic reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q027** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **microbiome-beer-data-analysis-q027** — I have a feature table and want to remove rows with missing values in a key column before statistics. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q028** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **microbiome-beer-data-analysis-q028** — I need to subset a TSV to rows where a numeric column is within a range (e.g., 10 <= value <= 100) and save the output. What Galaxy tool can do this row filtering?
   - Tools: Filter1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q029** — Which Galaxy tool is Filter (Filter1)?
+- **microbiome-beer-data-analysis-q029** — What Galaxy tool can remove tabular rows that do not satisfy a column-based rule and write out a new dataset?
   - Tools: Filter1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q030** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **microbiome-beer-data-analysis-q030** — Which Galaxy tool should I use to apply a column-based condition (e.g., column2 > 0) to filter a tabular file?
   - Tools: Filter1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q031** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
+- **microbiome-beer-data-analysis-q031** — I have a taxonomic classification report from a read-classifier and want to convert it into a Krona-compatible input for interactive visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q032** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
+- **microbiome-beer-data-analysis-q032** — After taxonomy classification, I want an interactive Krona chart, so I need to transform the classifier report into the right format. What Galaxy tool can convert the report for Krona?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q033** — Which Galaxy tool runs krakentools_kreport2krona?
+- **microbiome-beer-data-analysis-q033** — Which Galaxy tool can convert a taxonomic classification report into an input suitable for generating a Krona chart?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q034** — Which Galaxy tool would you recommend to perform `krakentools_kreport2krona`?
+- **microbiome-beer-data-analysis-q034** — In Galaxy, what tool should I run to transform a classifier report into Krona-ready format?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/krakentools_kreport2krona/krakentools_kreport2krona/1.2+galaxy0
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q035** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-beer-data-analysis-q035** — I have a table of taxonomic abundances and want an interactive Krona plot to explore the composition of my sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q036** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-beer-data-analysis-q036** — I want to visualize taxonomy results as an interactive hierarchical chart (Krona-style) for reporting. What Galaxy tool can generate that plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q037** — Which Galaxy tool runs taxonomy_krona_chart?
+- **microbiome-beer-data-analysis-q037** — Which Galaxy tool can generate an interactive Krona chart from taxonomic abundance data?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.7093173
-- **microbiome-beer-data-analysis-q038** — Which Galaxy tool would you recommend to perform `taxonomy_krona_chart`?
+- **microbiome-beer-data-analysis-q038** — In Galaxy, what tool should I run to create a Krona-style interactive visualization of taxonomy results?
   - Tools: toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1+galaxy0, toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - Datasets: zenodo.7093173
 
@@ -14337,52 +14337,52 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **microbiome-clinical-mp-1-database-generation-q011** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
+- **microbiome-clinical-mp-1-database-generation-q011** — I have a list of UniProt protein accessions and want to download the corresponding UniProt XML entries for annotation and downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q012** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
+- **microbiome-clinical-mp-1-database-generation-q012** — I need UniProt XML records for a set of proteins referenced in my proteomics workflow, and I want to fetch them directly into Galaxy. What Galaxy tool can download those XML entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q013** — Which Galaxy tool runs UniProt XML Downloader?
+- **microbiome-clinical-mp-1-database-generation-q013** — Which Galaxy tool can download UniProt XML entries given a list of protein accessions/IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q014** — Which Galaxy tool would you recommend to perform `uniprotxml_downloader`?
+- **microbiome-clinical-mp-1-database-generation-q014** — In Galaxy, what tool should I run to fetch UniProt XML records into my history for downstream annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/uniprotxml_downloader/uniprotxml_downloader/2.5.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q015** — Which Galaxy tool would you recommend to perform `dbbuilder`?
+- **microbiome-clinical-mp-1-database-generation-q015** — I have a protein FASTA and need to build a searchable protein database/index for downstream peptide identification steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q016** — Which Galaxy tool would you recommend to perform `dbbuilder`?
+- **microbiome-clinical-mp-1-database-generation-q016** — My workflow requires building a database from FASTA sequences (creating index files for a search step). What Galaxy tool can build that database?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q017** — Which Galaxy tool runs dbbuilder?
+- **microbiome-clinical-mp-1-database-generation-q017** — Which Galaxy tool can build a searchable protein sequence database/index from a FASTA file for downstream identification workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q018** — Which Galaxy tool would you recommend to perform `dbbuilder`?
+- **microbiome-clinical-mp-1-database-generation-q018** — In Galaxy, what tool should I run to create database/index files from a FASTA for later search steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/dbbuilder/dbbuilder/0.3.4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q019** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **microbiome-clinical-mp-1-database-generation-q019** — I have multiple FASTA files and want to merge them into one FASTA while removing duplicate sequences so the database is non-redundant. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q020** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **microbiome-clinical-mp-1-database-generation-q020** — My workflow produced several protein FASTA files and I need a combined FASTA with unique sequences only. What Galaxy tool can merge FASTA files and filter duplicates?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q021** — Which Galaxy tool runs FASTA Merge Files and Filter Unique Sequences?
+- **microbiome-clinical-mp-1-database-generation-q021** — Which Galaxy tool can merge multiple FASTA files and keep only unique sequences in the output?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q022** — Which Galaxy tool would you recommend to perform `fasta_merge_files_and_filter_unique_sequences`?
+- **microbiome-clinical-mp-1-database-generation-q022** — In Galaxy, what tool should I run to concatenate FASTA inputs and remove duplicate sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q023** — Which Galaxy tool would you recommend to perform `metanovo`?
+- **microbiome-clinical-mp-1-database-generation-q023** — I’m doing metaproteomics and want to build a reduced protein FASTA database informed by my MS/MS spectra to improve peptide identification. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/metanovo/metanovo/1.9.4+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q024** — Which Galaxy tool would you recommend to perform `metanovo`?
+- **microbiome-clinical-mp-1-database-generation-q024** — I have MS/MS spectra and a large protein reference space, and I want to generate a sample-specific protein database for downstream searches. What Galaxy tool can create that tailored database?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/metanovo/metanovo/1.9.4+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q025** — Which Galaxy tool runs MetaNovo?
+- **microbiome-clinical-mp-1-database-generation-q025** — Which Galaxy tool can build a sample-specific protein FASTA database for metaproteomics using MS/MS spectra and reference resources?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/metanovo/metanovo/1.9.4+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-1-database-generation-q026** — Which Galaxy tool would you recommend to perform `metanovo`?
+- **microbiome-clinical-mp-1-database-generation-q026** — In Galaxy, what tool should I run to create a tailored protein database for downstream peptide-spectrum matching in metaproteomics?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/metanovo/metanovo/1.9.4+galaxy4
   - Datasets: zenodo.10105821
 
@@ -14392,64 +14392,64 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **microbiome-clinical-mp-2-discovery-q011** — Which Galaxy tool would you recommend to perform `fasta_cli`?
+- **microbiome-clinical-mp-2-discovery-q011** — I have a protein FASTA database and want to add decoy sequences so I can estimate false discovery rates in downstream peptide identification. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q012** — I want to add decoy entries to the MetaNovo-derived protein database before identification. Which Galaxy tool helps with that?
+- **microbiome-clinical-mp-2-discovery-q012** — Before peptide identification, I need to append/generate decoy entries in my FASTA database as part of target-decoy validation. What Galaxy tool can add decoys to a FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q013** — Which Galaxy tool appends decoy sequences to a FASTA file in this clinical metaproteomics workflow?
+- **microbiome-clinical-mp-2-discovery-q013** — Which Galaxy tool can append or generate decoy sequences in a FASTA database for target-decoy peptide identification workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q014** — Which Galaxy tool would you recommend to perform `fasta_cli`?
+- **microbiome-clinical-mp-2-discovery-q014** — In Galaxy, what tool should I run to add decoy entries to a FASTA file prior to a peptide search?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q015** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **microbiome-clinical-mp-2-discovery-q015** — I have vendor RAW mass spectrometry files and need to convert them into MGF (with peak picking) for downstream peptide-spectrum matching. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q016** — To turn the vendor RAW collection into MGF with peak picking enabled, which Galaxy tool fits?
+- **microbiome-clinical-mp-2-discovery-q016** — My MS/MS data are in a vendor-specific RAW format and I want MGF outputs for identification tools. What Galaxy tool can convert RAW spectra to MGF?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q017** — Which Galaxy tool transforms Thermo RAW spectra into mascot generic format (MGF) for downstream searching?
+- **microbiome-clinical-mp-2-discovery-q017** — Which Galaxy tool can convert vendor RAW MS data into MGF with peak picking enabled for downstream searches?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q018** — Which Galaxy tool would you recommend to perform `msconvert`?
+- **microbiome-clinical-mp-2-discovery-q018** — In Galaxy, what tool should I run to convert raw mass spectrometry files into MGF for peptide identification?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.6, toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q019** — Which Galaxy tool would you recommend to perform `search_gui`?
+- **microbiome-clinical-mp-2-discovery-q019** — I have MS/MS spectra (MGF) and a protein FASTA database and want to run a peptide-spectrum matching search to identify peptides, producing search result files. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q020** — To identify peptides with SearchGUI before passing results to PeptideShaker, which Galaxy tool should I use on the discovery dataset?
+- **microbiome-clinical-mp-2-discovery-q020** — To identify peptides from tandem mass spectra, I need to run a database search against a protein FASTA and generate identification results for downstream validation. What Galaxy tool can run that search step?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q021** — Which Galaxy tool runs the SearchGUI peptide search in this discovery workflow?
+- **microbiome-clinical-mp-2-discovery-q021** — Which Galaxy tool can perform peptide-spectrum matching on MGF spectra against a protein FASTA database and output search results?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q022** — Which Galaxy tool would you recommend to perform `search_gui`?
+- **microbiome-clinical-mp-2-discovery-q022** — In Galaxy, what tool should I run to execute a peptide identification database search from MS/MS spectra?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/4.0.41+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q023** — Which Galaxy tool would you recommend to perform `peptide_shaker`?
+- **microbiome-clinical-mp-2-discovery-q023** — I have peptide search result files and want to validate and summarize identifications into peptide/protein reports with confidence scores and FDR control. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q024** — Which Galaxy tool merges SearchGUI results and reports peptides with confidence scores?
+- **microbiome-clinical-mp-2-discovery-q024** — After running a peptide search, I need a step that combines results, applies validation, and produces human-readable reports of peptides and proteins. What Galaxy tool can do this post-processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q025** — Which Galaxy tool corresponds to the PeptideShaker scoring and filtering step?
+- **microbiome-clinical-mp-2-discovery-q025** — Which Galaxy tool can post-process peptide search results to produce validated peptide/protein identifications and summary reports?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q026** — Which Galaxy tool would you recommend to perform `peptide_shaker`?
+- **microbiome-clinical-mp-2-discovery-q026** — In Galaxy, what tool should I run to score, validate, and report peptides/proteins from database search outputs?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/2.0.33+galaxy1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q027** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **microbiome-clinical-mp-2-discovery-q027** — I have label-free proteomics RAW files plus an experimental design and want protein identification and quantification outputs (peptides, proteins, intensities). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q028** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **microbiome-clinical-mp-2-discovery-q028** — My goal is a complete proteomics identification + quantification run from raw LC-MS/MS files using a provided design, producing standard peptide/protein reports. What Galaxy tool can run this workflow step?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q029** — Which Galaxy tool runs the MaxQuant step that consumes the raw collection and experimental design?
+- **microbiome-clinical-mp-2-discovery-q029** — Which Galaxy tool can run a full proteomics identification and quantification analysis from RAW files given an experimental design?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-2-discovery-q030** — Which Galaxy tool would you recommend to perform `maxquant`?
+- **microbiome-clinical-mp-2-discovery-q030** — In Galaxy, what tool should I run to perform protein identification/quantification from LC-MS/MS raw files and produce peptide/protein tables?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0
   - Datasets: zenodo.10105821
 
@@ -14459,10 +14459,10 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **microbiome-clinical-mp-3-verification-q011** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **microbiome-clinical-mp-3-verification-q011** — I have a peptide/protein results table and want to extract just one or two columns (like peptide sequences) into a smaller dataset for downstream steps. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q012** — To isolate peptide sequences from the MaxQuant peptide report prior to concatenation, which Galaxy tool fits?
+- **microbiome-clinical-mp-3-verification-q012** — My tabular report contains many fields, but I only need selected columns (e.g., sequence and score) for concatenation and filtering. What Galaxy tool can extract those columns?
   - Tools: Cut1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q013** — Which Galaxy tool cuts specific columns from the tabular peptide reports?

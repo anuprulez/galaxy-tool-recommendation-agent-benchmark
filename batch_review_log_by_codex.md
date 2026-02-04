@@ -626,3 +626,11 @@ Notes:
 - Changes: Rewrote all 150 queries (metabolomics preprocessing/QC + exact-mass formula assignment pipeline + MSI (Cardinal) visualization/modeling) to remove tool leakage/backticks and keep Galaxy-user perspective; preserved metadata.query_type (science_first 74, tool_first 76)
 - Integrity: Fixed metadata.tool_focus drift (0 mismatches remain); ensured metadata.ground_truth_alternatives=true with note for multi-version tools[] (62 items in this batch)
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1); smell scan reports no hits/duplicates/near-duplicates
+
+## A0030 (lines 4351-4500)
+
+- Date: 2026-02-04
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (MSI + MALDI preprocessing + chemistry utilities + metaproteomics/proteomics identification/quant + metagenomics taxonomy visualization) to remove tool leakage/backticks and keep Galaxy-user perspective; preserved metadata.query_type (science_first 76, tool_first 74)
+- Integrity: Fixed metadata.tool_focus drift (0 mismatches remain); ensured metadata.ground_truth_alternatives=true with note for multi-version tools[] (40 items in this batch)
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Grep1, param_value_from_file); smell scan reports no hits/duplicates/near-duplicates
