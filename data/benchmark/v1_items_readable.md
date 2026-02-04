@@ -12061,232 +12061,232 @@ Questions:
 - **introduction-data-manipulation-olympics-q086** — In Galaxy, what tool should I run to filter a TSV by a user-defined expression on columns?
   - Tools: Filter1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q087** — Which Galaxy tool would you recommend to perform `{{version_count}}`?
+- **introduction-data-manipulation-olympics-q087** — I have a categorical column in a table and want a frequency table counting how many times each unique value occurs. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q088** — Which Galaxy tool would you recommend to perform `{{version_count}}`?
+- **introduction-data-manipulation-olympics-q088** — I need a summary that counts occurrences of each distinct entry in a list (like value -> count). What Galaxy tool can compute those counts?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q089** — Which Galaxy tool corresponds to {{version_count}}?
+- **introduction-data-manipulation-olympics-q089** — Which Galaxy tool can count the number of times each unique line or category appears and output a counts table?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q090** — Which Galaxy tool would you recommend to perform `{{version_count}}`?
+- **introduction-data-manipulation-olympics-q090** — In Galaxy, what tool should I run to compute frequency counts from a column in a tabular dataset?
   - Tools: Count1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q091** — Which Galaxy tool would you recommend to perform `{{version_datamash}}`?
+- **introduction-data-manipulation-olympics-q091** — I have a TSV with a group column and numeric columns, and I want group-wise summary stats like mean and sum for each group. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q092** — Which Galaxy tool would you recommend to perform `{{version_datamash}}`?
+- **introduction-data-manipulation-olympics-q092** — I need to aggregate a table by a key and compute per-group counts and averages as a new summary table. What Galaxy tool can do this group-by aggregation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q093** — Which Galaxy tool corresponds to {{version_datamash}}?
+- **introduction-data-manipulation-olympics-q093** — Which Galaxy tool can compute grouped statistics (min/max/mean/sum) from a tabular dataset and output the aggregated results?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q094** — Which Galaxy tool would you recommend to perform `{{version_datamash}}`?
+- **introduction-data-manipulation-olympics-q094** — In Galaxy, what tool should I run to compute summary statistics per category in a table (group-by style)?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q095** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **introduction-data-manipulation-olympics-q095** — I have many related datasets and want to group them into a dataset collection so I can run downstream tools on each element in a workflow. Which Galaxy tool should I use?
   - Tools: Grouping1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q096** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **introduction-data-manipulation-olympics-q096** — I need to bundle multiple files into a collection for batch processing and mapping steps in Galaxy. What Galaxy tool can create dataset collections?
   - Tools: Grouping1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q097** — Which Galaxy tool runs Grouping?
+- **introduction-data-manipulation-olympics-q097** — Which Galaxy tool can group datasets into a collection so I can iterate tools over them?
   - Tools: Grouping1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q098** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **introduction-data-manipulation-olympics-q098** — In Galaxy, what tool should I run to organize a set of datasets into a collection for workflow execution?
   - Tools: Grouping1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q099** — Which Galaxy tool would you recommend to perform `{{version_compute}}`?
+- **introduction-data-manipulation-olympics-q099** — I have a TSV and want to compute a new column from existing columns (e.g., combine fields or calculate a score) and append it to the table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q100** — Which Galaxy tool would you recommend to perform `{{version_compute}}`?
+- **introduction-data-manipulation-olympics-q100** — My table needs an extra derived column created from an expression using other columns. What Galaxy tool can add a calculated column?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q101** — Which Galaxy tool corresponds to {{version_compute}}?
+- **introduction-data-manipulation-olympics-q101** — Which Galaxy tool can append a new computed field to a tabular dataset using a formula based on existing columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q102** — Which Galaxy tool would you recommend to perform `{{version_compute}}`?
+- **introduction-data-manipulation-olympics-q102** — In Galaxy, what tool should I run to add a calculated column to a TSV for downstream filtering or plotting?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.0, toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q103** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
-  - Tools: {{version_replace_text_column}}
+- **introduction-data-manipulation-olympics-q103** — I have a TSV where values in one specific column need to be cleaned using a regular-expression find/replace (e.g., normalize IDs) while leaving other columns unchanged. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q104** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
-  - Tools: {{version_replace_text_column}}
+- **introduction-data-manipulation-olympics-q104** — My table has messy values in one column and I need pattern-based substitutions restricted to that column using regex rules. What Galaxy tool can do this?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q105** — Which Galaxy tool corresponds to {{version_replace_text_column}}?
-  - Tools: {{version_replace_text_column}}
+- **introduction-data-manipulation-olympics-q105** — Which Galaxy tool can apply regex-based find/replace to a single chosen column in a tabular dataset and output the modified table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q106** — Which Galaxy tool would you recommend to perform `{{version_replace_text_column}}`?
-  - Tools: {{version_replace_text_column}}
+- **introduction-data-manipulation-olympics-q106** — In Galaxy, what tool should I run to do regex find/replace on one column without changing the rest of the row?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q107** — Which Galaxy tool would you recommend to perform `{{version_replace_text_line}}`?
-  - Tools: {{version_replace_text_line}}
+- **introduction-data-manipulation-olympics-q107** — I have a plain-text file (not a table) and need to do a regex-based find/replace on each line to clean it up. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q108** — Which Galaxy tool would you recommend to perform `{{version_replace_text_line}}`?
-  - Tools: {{version_replace_text_line}}
+- **introduction-data-manipulation-olympics-q108** — My dataset needs pattern-based substitutions applied line-by-line using regular expressions. What Galaxy tool can perform regex find/replace on text files?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q109** — Which Galaxy tool corresponds to {{version_replace_text_line}}?
-  - Tools: {{version_replace_text_line}}
+- **introduction-data-manipulation-olympics-q109** — Which Galaxy tool can apply a regular-expression substitution across all lines of a text dataset and output the updated file?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q110** — Which Galaxy tool would you recommend to perform `{{version_replace_text_line}}`?
-  - Tools: {{version_replace_text_line}}
+- **introduction-data-manipulation-olympics-q110** — In Galaxy, what tool should I run to rewrite a text file by applying a regex replacement to every line?
+  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q111** — Which Galaxy tool would you recommend to perform `{{version_join}}`?
-  - Tools: {{version_join}}
+- **introduction-data-manipulation-olympics-q111** — I have two TSV files that share a key column and want to merge them into one combined table by matching IDs. Which Galaxy tool should I use?
+  - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q112** — Which Galaxy tool would you recommend to perform `{{version_join}}`?
-  - Tools: {{version_join}}
+- **introduction-data-manipulation-olympics-q112** — I need to combine columns from two tabular datasets based on a shared identifier so downstream steps have all fields in one table. What Galaxy tool can join tables?
+  - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q113** — Which Galaxy tool corresponds to {{version_join}}?
-  - Tools: {{version_join}}
+- **introduction-data-manipulation-olympics-q113** — Which Galaxy tool can perform a database-style join between two tabular files on a key column and output merged rows?
+  - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q114** — Which Galaxy tool would you recommend to perform `{{version_join}}`?
-  - Tools: {{version_join}}
+- **introduction-data-manipulation-olympics-q114** — In Galaxy, what tool should I run to join two tables on a shared ID column?
+  - Tools: join1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q115** — Which Galaxy tool would you recommend to perform `{{version_cat}}`?
-  - Tools: {{version_cat}}
+- **introduction-data-manipulation-olympics-q115** — I have several text/table outputs and want to concatenate them into a single dataset for downstream analysis. Which Galaxy tool should I use?
+  - Tools: cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q116** — Which Galaxy tool would you recommend to perform `{{version_cat}}`?
-  - Tools: {{version_cat}}
+- **introduction-data-manipulation-olympics-q116** — My workflow produced multiple small files that I need to append together into one file without changing content. What Galaxy tool can concatenate datasets?
+  - Tools: cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q117** — Which Galaxy tool corresponds to {{version_cat}}?
-  - Tools: {{version_cat}}
+- **introduction-data-manipulation-olympics-q117** — Which Galaxy tool can join multiple plain-text datasets into one combined dataset in the order I provide?
+  - Tools: cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q118** — Which Galaxy tool would you recommend to perform `{{version_cat}}`?
-  - Tools: {{version_cat}}
+- **introduction-data-manipulation-olympics-q118** — In Galaxy, what tool should I run to concatenate datasets into a single output file?
+  - Tools: cat1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q119** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
+- **introduction-data-manipulation-olympics-q119** — I have a text dataset where each line starts with an unwanted prefix and I need to strip it to get clean identifiers. Which Galaxy tool should I use?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q120** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
+- **introduction-data-manipulation-olympics-q120** — My identifiers contain fixed leading characters and I want to remove a constant prefix from every line before using them downstream. What Galaxy tool can do this?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q121** — Which Galaxy tool corresponds to {{version_remove_beginning}}?
+- **introduction-data-manipulation-olympics-q121** — Which Galaxy tool can remove a specified number of characters from the beginning of each line in a text file?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q122** — Which Galaxy tool would you recommend to perform `{{version_remove_beginning}}`?
+- **introduction-data-manipulation-olympics-q122** — In Galaxy, what tool should I run to strip a constant prefix from all lines of a dataset?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q123** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
+- **introduction-data-manipulation-olympics-q123** — I have a large dataset and want to preview the first few lines to confirm the header and delimiter before continuing. Which Galaxy tool should I use?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q124** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
+- **introduction-data-manipulation-olympics-q124** — Before downstream steps, I need to inspect the beginning of a text dataset (first N lines) as a sanity check. What Galaxy tool can show the first lines?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q125** — Which Galaxy tool corresponds to {{version_select_first}}?
+- **introduction-data-manipulation-olympics-q125** — Which Galaxy tool can output the first part of a dataset so I can verify columns and formatting?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q126** — Which Galaxy tool would you recommend to perform `{{version_select_first}}`?
+- **introduction-data-manipulation-olympics-q126** — In Galaxy, what tool should I run to extract the first N lines of a dataset for quick inspection?
   - Tools: Show beginning1, Show beginning1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q127** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
-  - Tools: {{version_remove_columns_by_header}}
+- **introduction-data-manipulation-olympics-q127** — I have a TSV with a header row and want to remove one or more columns by their header names, keeping the remaining columns in order. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q128** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
-  - Tools: {{version_remove_columns_by_header}}
+- **introduction-data-manipulation-olympics-q128** — My table has many columns and I want to drop specific columns identified by their header labels. What Galaxy tool can remove columns by heading?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q129** — Which Galaxy tool corresponds to {{version_remove_columns_by_header}}?
-  - Tools: {{version_remove_columns_by_header}}
+- **introduction-data-manipulation-olympics-q129** — Which Galaxy tool can remove selected columns from a tabular dataset using header names and output the reduced table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q130** — Which Galaxy tool would you recommend to perform `{{version_remove_columns_by_header}}`?
-  - Tools: {{version_remove_columns_by_header}}
+- **introduction-data-manipulation-olympics-q130** — In Galaxy, what tool should I run to delete columns by header name from a TSV?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q131** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
+- **introduction-data-manipulation-olympics-q131** — I have a wide table and only need a subset of columns for the next step. Which Galaxy tool should I use to extract selected columns?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q132** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
+- **introduction-data-manipulation-olympics-q132** — My TSV contains many fields and I want to keep only specific columns to build a smaller working table. What Galaxy tool can do column selection?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q133** — Which Galaxy tool corresponds to {{version_cut_columns}}?
+- **introduction-data-manipulation-olympics-q133** — Which Galaxy tool can cut out specified columns from a tabular dataset and output a reduced table?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q134** — Which Galaxy tool would you recommend to perform `{{version_cut_columns}}`?
+- **introduction-data-manipulation-olympics-q134** — In Galaxy, what tool should I run to extract a subset of columns from a table while preserving row order?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q135** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
+- **introduction-data-manipulation-olympics-q135** — I need to reorder columns in a TSV and keep only a few of them for downstream plotting. Which Galaxy tool should I use?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q136** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
+- **introduction-data-manipulation-olympics-q136** — My input is a tabular dataset and I want to select non-adjacent columns into a new table. What Galaxy tool can extract columns by index?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q137** — Which Galaxy tool corresponds to {{version_cut_advanced}}?
+- **introduction-data-manipulation-olympics-q137** — Which Galaxy tool should I use to keep only columns 1, 3, and 7 (for example) from a table and drop the others?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q138** — Which Galaxy tool would you recommend to perform `{{version_cut_advanced}}`?
+- **introduction-data-manipulation-olympics-q138** — In Galaxy, what tool can extract selected columns from a table to create a simplified dataset?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q139** — Which Galaxy tool would you recommend to perform `{{version_paste}}`?
-  - Tools: {{version_paste}}, Paste1
+- **introduction-data-manipulation-olympics-q139** — I have two files with the same number of rows and want to combine them side-by-side as additional columns in a single table. Which Galaxy tool should I use?
+  - Tools: Paste1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q140** — Which Galaxy tool would you recommend to perform `{{version_paste}}`?
-  - Tools: {{version_paste}}, Paste1
+- **introduction-data-manipulation-olympics-q140** — I need to append columns from one dataset to another by pasting them together line-by-line into one output table. What Galaxy tool can do this?
+  - Tools: Paste1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q141** — Which Galaxy tool corresponds to {{version_paste}}?
-  - Tools: {{version_paste}}, Paste1
+- **introduction-data-manipulation-olympics-q141** — Which Galaxy tool can combine two text/tabular datasets side-by-side (same row order) into a single dataset?
+  - Tools: Paste1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q142** — Which Galaxy tool would you recommend to perform `{{version_paste}}`?
-  - Tools: {{version_paste}}, Paste1
+- **introduction-data-manipulation-olympics-q142** — In Galaxy, what tool should I run to paste two datasets together as adjacent columns?
+  - Tools: Paste1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q143** — Which Galaxy tool would you recommend to perform `{{version_split}}`?
-  - Tools: {{version_split}}
+- **introduction-data-manipulation-olympics-q143** — I have a TSV with a group column and want to split it into multiple output files, one per group value, for downstream processing. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q144** — Which Galaxy tool would you recommend to perform `{{version_split}}`?
-  - Tools: {{version_split}}
+- **introduction-data-manipulation-olympics-q144** — My table contains multiple categories in a column and I need one dataset per category for separate analysis. What Galaxy tool can split a file by column values?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q145** — Which Galaxy tool corresponds to {{version_split}}?
-  - Tools: {{version_split}}
+- **introduction-data-manipulation-olympics-q145** — Which Galaxy tool can split a tabular dataset into many outputs using a selected column as the grouping key?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q146** — Which Galaxy tool would you recommend to perform `{{version_split}}`?
-  - Tools: {{version_split}}
+- **introduction-data-manipulation-olympics-q146** — In Galaxy, what tool should I run to partition a table into per-group datasets based on a column?
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q147** — Which Galaxy tool would you recommend to perform `{{version_unique}}`?
+- **introduction-data-manipulation-olympics-q147** — I have a sorted list of identifiers and want to collapse duplicates into a unique list (and optionally counts) for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q148** — Which Galaxy tool would you recommend to perform `{{version_unique}}`?
+- **introduction-data-manipulation-olympics-q148** — My dataset contains repeated adjacent entries and I want a de-duplicated output that keeps only one instance per unique value. What Galaxy tool can do sorted unique filtering?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q149** — Which Galaxy tool corresponds to {{version_unique}}?
+- **introduction-data-manipulation-olympics-q149** — Which Galaxy tool can remove duplicate lines from a sorted text file and output a unique list?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q150** — Which Galaxy tool would you recommend to perform `{{version_unique}}`?
+- **introduction-data-manipulation-olympics-q150** — In Galaxy, what tool should I run to compute unique lines from a sorted dataset as a simple deduplication step?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q151** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **introduction-data-manipulation-olympics-q151** — I have a delimited text file and want to extract specific fields by position (and optionally change the delimiter) to create a simplified table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0, Cut1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q152** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **introduction-data-manipulation-olympics-q152** — My dataset is not standard TSV but still uses a delimiter, and I need to cut out selected fields into a new dataset. What Galaxy tool can cut fields by delimiter?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0, Cut1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q153** — Which Galaxy tool runs tp_cut_tool?
+- **introduction-data-manipulation-olympics-q153** — Which Galaxy tool can extract selected fields from a delimited text file (like a generic cut operation) and output the result?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0, Cut1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q154** — Which Galaxy tool would you recommend to perform `tp_cut_tool`?
+- **introduction-data-manipulation-olympics-q154** — In Galaxy, what tool should I run to cut out selected fields from a delimited file when columns are not strictly tabular?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0, Cut1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q155** — Which Galaxy tool would you recommend to perform `column_remove_by_header`?
+- **introduction-data-manipulation-olympics-q155** — I have a table with a header row and want to remove specific columns by their column names, producing a cleaned table for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0, toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q156** — Which Galaxy tool would you recommend to perform `column_remove_by_header`?
+- **introduction-data-manipulation-olympics-q156** — My TSV has many columns and I want to drop a few columns based on their header labels (not by index). What Galaxy tool can remove columns by header name?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0, toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q157** — Which Galaxy tool runs column_remove_by_header?
+- **introduction-data-manipulation-olympics-q157** — Which Galaxy tool can delete selected columns from a tabular dataset using header names and output the remaining columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0, toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q158** — Which Galaxy tool would you recommend to perform `column_remove_by_header`?
+- **introduction-data-manipulation-olympics-q158** — In Galaxy, what tool should I run to remove columns by heading from a table with a header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/1.0, toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q159** — Which Galaxy tool would you recommend to perform `regex1`?
+- **introduction-data-manipulation-olympics-q159** — I have a text file and need to apply a regex find/replace to clean it up (e.g., normalize whitespace) across all lines. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q160** — Which Galaxy tool would you recommend to perform `regex1`?
+- **introduction-data-manipulation-olympics-q160** — I have a FASTA file where I need to clean the header lines by removing everything after the first whitespace (using a regex-style substitution) across the whole dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q161** — Which Galaxy tool runs regex1 find/replace?
+- **introduction-data-manipulation-olympics-q161** — Which Galaxy tool can apply a regex replacement to every line of a dataset and output the modified text file?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
   - Datasets: 6803028
-- **introduction-data-manipulation-olympics-q162** — Which Galaxy tool would you recommend to perform `regex1`?
+- **introduction-data-manipulation-olympics-q162** — In Galaxy, what tool should I run to rewrite a text dataset by applying a regular-expression substitution?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3, toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.1
   - Datasets: 6803028
 
@@ -12296,64 +12296,64 @@ Questions:
 - Datasets (1): zenodo.4104428
 
 Questions:
-- **introduction-galaxy-intro-101-q011** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **introduction-galaxy-intro-101-q011** — I have two sets of genomic intervals and want to find overlaps so I can annotate one set with the other. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.30.0+galaxy1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q012** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **introduction-galaxy-intro-101-q012** — I need to compute the overlap between two BED-like coordinate files and output the intersecting regions. What Galaxy tool can do interval intersections?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.30.0+galaxy1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q013** — Which Galaxy tool performs bedtools intersect on BED files?
+- **introduction-galaxy-intro-101-q013** — Which Galaxy tool can intersect two genomic coordinate datasets and report overlapping intervals or matched records?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.30.0+galaxy1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q014** — Which Galaxy tool would you recommend to perform `bedtools_intersectbed`?
+- **introduction-galaxy-intro-101-q014** — In Galaxy, what tool should I run to find overlapping genomic features between two interval files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.30.0+galaxy1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q015** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-galaxy-intro-101-q015** — I have replicate measurements per sample and want a single row per sample with summary metrics (e.g., median and standard deviation). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q016** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-galaxy-intro-101-q016** — I need to collapse many rows into per-group summaries (like number of entries and total value per group). What Galaxy tool can do grouped aggregation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q017** — Which Galaxy tool runs datamash operations?
+- **introduction-galaxy-intro-101-q017** — Which Galaxy tool can compute multiple aggregations on a table (e.g., count + mean + sum) grouped by one or more columns?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q018** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-galaxy-intro-101-q018** — In Galaxy, what tool should I run to generate a per-group summary table from raw tabular measurements?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q019** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **introduction-galaxy-intro-101-q019** — I have a TSV with a header row and want to sort the rows by a key column while keeping the header at the top. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q020** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **introduction-galaxy-intro-101-q020** — My table needs to be sorted reproducibly, but I must preserve the header line. What Galaxy tool can sort a table while retaining the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q021** — Which Galaxy tool sorts tables and preserves headers?
+- **introduction-galaxy-intro-101-q021** — Which Galaxy tool can sort a tabular dataset by one or more columns without moving or losing the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q022** — Which Galaxy tool would you recommend to perform `tp_sort_header_tool`?
+- **introduction-galaxy-intro-101-q022** — In Galaxy, what tool should I run to sort a TSV and keep the column header intact?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q023** — Which Galaxy tool would you recommend to perform `tp_head_tool`?
+- **introduction-galaxy-intro-101-q023** — I want to quickly inspect the first N lines of a text dataset to confirm the format before running other tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/1.1.0
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q024** — Which Galaxy tool would you recommend to perform `tp_head_tool`?
+- **introduction-galaxy-intro-101-q024** — I need to preview the top of a file (first few lines) as a QC step in a workflow. What Galaxy tool can output the first lines?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/1.1.0
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q025** — Which Galaxy tool runs the head operation?
+- **introduction-galaxy-intro-101-q025** — Which Galaxy tool can extract the first N lines from a dataset and save them as a new smaller dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/1.1.0
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q026** — Which Galaxy tool would you recommend to perform `tp_head_tool`?
+- **introduction-galaxy-intro-101-q026** — In Galaxy, what tool should I run to get the first part of a file for quick inspection?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy0, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/1.1.0
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q027** — Which Galaxy tool would you recommend to perform `comp1`?
+- **introduction-galaxy-intro-101-q027** — I have two text/tabular datasets and want to compare them to see which lines differ (e.g., after a processing step). Which Galaxy tool should I use?
   - Tools: comp1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q028** — Which Galaxy tool would you recommend to perform `comp1`?
+- **introduction-galaxy-intro-101-q028** — I need a diff-style comparison between two datasets to verify that a transformation changed only what I expected. What Galaxy tool can compare datasets?
   - Tools: comp1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q029** — Which Galaxy tool is used for dataset comparison (comp1)?
+- **introduction-galaxy-intro-101-q029** — Which Galaxy tool can compare two datasets and report differences or mismatched lines for debugging a workflow?
   - Tools: comp1
   - Datasets: zenodo.4104428
-- **introduction-galaxy-intro-101-q030** — Which Galaxy tool would you recommend to perform `comp1`?
+- **introduction-galaxy-intro-101-q030** — In Galaxy, what tool should I run to compare two text files and see added/removed/changed lines?
   - Tools: comp1
   - Datasets: zenodo.4104428
 
@@ -12363,88 +12363,88 @@ Questions:
 - Datasets (1): 
 
 Questions:
-- **introduction-galaxy-intro-101-everyone-q011** — Which Galaxy tool would you recommend to perform `csv_to_tabular`?
+- **introduction-galaxy-intro-101-everyone-q011** — I have a CSV file and want to convert it into a Galaxy tabular dataset so tools recognize columns correctly. Which Galaxy tool should I use?
   - Tools: csv_to_tabular
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q012** — Which Galaxy tool would you recommend to perform `csv_to_tabular`?
+- **introduction-galaxy-intro-101-everyone-q012** — My data are comma-separated and I need a standard tabular dataset with the correct delimiter for downstream processing. What Galaxy tool can convert CSV to tabular?
   - Tools: csv_to_tabular
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q013** — Which Galaxy tool converts CSV to tabular?
+- **introduction-galaxy-intro-101-everyone-q013** — Which Galaxy tool can import/convert a CSV dataset into a tabular format that Galaxy tools can process?
   - Tools: csv_to_tabular
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q014** — Which Galaxy tool would you recommend to perform `csv_to_tabular`?
+- **introduction-galaxy-intro-101-everyone-q014** — In Galaxy, what tool should I run to convert comma-separated data into a tabular dataset?
   - Tools: csv_to_tabular
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q015** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-galaxy-intro-101-everyone-q015** — I want to compute the number of records per group and also summary stats for a numeric column, producing a compact report table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q016** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-galaxy-intro-101-everyone-q016** — I have a table of events and want to summarize it by category (counts and numeric summaries) for plotting. What Galaxy tool can compute those grouped summaries?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q017** — Which Galaxy tool runs datamash operations?
+- **introduction-galaxy-intro-101-everyone-q017** — Which Galaxy tool can perform group-wise aggregation on tabular data to support downstream visualization and QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q018** — Which Galaxy tool would you recommend to perform `datamash_ops`?
+- **introduction-galaxy-intro-101-everyone-q018** — In Galaxy, what tool should I use to compute grouped descriptive statistics from a TSV without writing code?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q019** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **introduction-galaxy-intro-101-everyone-q019** — I imported a list of IDs that all start with the same tag, and I want to remove that tag so the IDs match another table. Which Galaxy tool should I use?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q020** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **introduction-galaxy-intro-101-everyone-q020** — My file has a fixed leading string on each line and I need to trim it off prior to a join step. What Galaxy tool can remove a line prefix?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q021** — Which Galaxy tool removes the beginning of a file?
+- **introduction-galaxy-intro-101-everyone-q021** — Which Galaxy tool can delete the first N characters from each line of a text dataset to clean up identifiers?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q022** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **introduction-galaxy-intro-101-everyone-q022** — In Galaxy, what tool should I use to remove a constant prefix from every line as part of a workflow?
   - Tools: Remove beginning1, Remove beginning1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q023** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **introduction-galaxy-intro-101-everyone-q023** — I want to produce a smaller table containing just the ID and a couple of numeric columns for a join step. Which Galaxy tool should I use to cut columns?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q024** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **introduction-galaxy-intro-101-everyone-q024** — My workflow needs a step that selects and possibly reorders columns from a TSV into a new dataset. What Galaxy tool can do that?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q025** — Which Galaxy tool cuts columns from a dataset?
+- **introduction-galaxy-intro-101-everyone-q025** — Which Galaxy tool can extract columns from a tabular file for downstream analysis without writing a script?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q026** — Which Galaxy tool would you recommend to perform `Cut1`?
+- **introduction-galaxy-intro-101-everyone-q026** — In Galaxy, what tool should I run to select specific columns from a table and output the result as a new dataset?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q027** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **introduction-galaxy-intro-101-everyone-q027** — I have several per-sample result tables and want to treat them as a list collection for downstream aggregation. Which Galaxy tool should I use to group them?
   - Tools: Grouping1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q028** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **introduction-galaxy-intro-101-everyone-q028** — I want to create a dataset collection from multiple inputs so later steps can process each sample consistently. What Galaxy tool can do the grouping?
   - Tools: Grouping1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q029** — Which Galaxy tool performs Grouping?
+- **introduction-galaxy-intro-101-everyone-q029** — Which Galaxy tool helps build a dataset collection from a set of history items for batch analysis?
   - Tools: Grouping1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q030** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **introduction-galaxy-intro-101-everyone-q030** — In Galaxy, what tool should I use to group multiple datasets into a collection that can be mapped over?
   - Tools: Grouping1
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q031** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **introduction-galaxy-intro-101-everyone-q031** — I have a table with two numeric columns and want a scatter plot to visualize their relationship, saving the plot as an image. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.3.5+galaxy0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q032** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **introduction-galaxy-intro-101-everyone-q032** — I need to plot points from a tabular dataset (x and y columns) and optionally color/shape by a category column. What Galaxy tool can create this point plot?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.3.5+galaxy0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q033** — Which Galaxy tool runs ggplot2_point?
+- **introduction-galaxy-intro-101-everyone-q033** — Which Galaxy tool can generate a scatter plot from a tabular file and output a publication-ready figure?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.3.5+galaxy0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q034** — Which Galaxy tool would you recommend to perform `ggplot2_point`?
+- **introduction-galaxy-intro-101-everyone-q034** — In Galaxy, what tool should I run to make a point-based plot from a TSV and export the figure?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.3.5+galaxy0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q035** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
+- **introduction-galaxy-intro-101-everyone-q035** — I want to deduplicate a sorted list of IDs and keep just the unique values to use as input to a download step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q036** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
+- **introduction-galaxy-intro-101-everyone-q036** — My sorted file has duplicates and I need a unique-only file for downstream joins. What Galaxy tool can collapse duplicates in sorted data?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q037** — Which Galaxy tool runs tp_sorted_uniq?
+- **introduction-galaxy-intro-101-everyone-q037** — Which Galaxy tool should I use to remove duplicate adjacent lines from a sorted dataset and output only unique entries?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 
-- **introduction-galaxy-intro-101-everyone-q038** — Which Galaxy tool would you recommend to perform `tp_sorted_uniq`?
+- **introduction-galaxy-intro-101-everyone-q038** — In Galaxy, what tool can turn a sorted list with repeats into a unique list for later processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 
 
@@ -12454,82 +12454,82 @@ Questions:
 - Datasets (1): 15354240
 
 Questions:
-- **introduction-galaxy-intro-ngs-data-managment-q011** — Which Galaxy tool would you recommend to perform `fasterq_dump`?
+- **introduction-galaxy-intro-ngs-data-managment-q011** — I have public sequencing run accessions and want to download the corresponding reads into Galaxy as FASTQ datasets. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q012** — Which Galaxy tool would you recommend to perform `fasterq_dump`?
+- **introduction-galaxy-intro-ngs-data-managment-q012** — I want to fetch sequencing reads directly from a public archive into my history using a list of run IDs, without downloading locally. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q013** — Which Galaxy tool runs fasterq-dump from SRA tools?
+- **introduction-galaxy-intro-ngs-data-managment-q013** — Which Galaxy tool can retrieve reads from a public sequencing archive given run accessions and output FASTQ datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q014** — Which Galaxy tool would you recommend to perform `fasterq_dump`?
+- **introduction-galaxy-intro-ngs-data-managment-q014** — In Galaxy, what tool should I run to download sequencing reads from a public repository into my history as FASTQ?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q015** — Which Galaxy tool would you recommend to perform `fastp`?
+- **introduction-galaxy-intro-ngs-data-managment-q015** — I have paired-end FASTQ reads and want to trim adapters and low-quality bases, producing cleaned reads and a QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.24.0+galaxy4
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q016** — Which Galaxy tool would you recommend to perform `fastp`?
+- **introduction-galaxy-intro-ngs-data-managment-q016** — Before mapping, I need to filter/trim sequencing reads (quality trimming + adapter removal) and get a report of what was removed. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.24.0+galaxy4
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q017** — Which Galaxy tool runs fastp?
+- **introduction-galaxy-intro-ngs-data-managment-q017** — Which Galaxy tool can perform read trimming and filtering on FASTQ files and output cleaned reads plus a quality report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.24.0+galaxy4
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q018** — Which Galaxy tool would you recommend to perform `fastp`?
+- **introduction-galaxy-intro-ngs-data-managment-q018** — In Galaxy, what tool should I run for combined adapter trimming and quality filtering of FASTQ reads?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.24.0+galaxy4
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q019** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **introduction-galaxy-intro-ngs-data-managment-q019** — I have DNA sequencing reads and a reference genome and want to align the reads to the reference, producing an alignment file for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q020** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **introduction-galaxy-intro-ngs-data-managment-q020** — I need to map short reads to a reference genome and output a SAM/BAM alignment suitable for variant calling and QC. What Galaxy tool can do this alignment?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q021** — Which Galaxy tool runs bwa_mem?
+- **introduction-galaxy-intro-ngs-data-managment-q021** — Which Galaxy tool can align sequencing reads to a reference genome and produce an alignment dataset for downstream processing?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q022** — Which Galaxy tool would you recommend to perform `bwa_mem`?
+- **introduction-galaxy-intro-ngs-data-managment-q022** — In Galaxy, what tool should I run to perform read mapping against a reference genome for subsequent variant analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q023** — Which Galaxy tool would you recommend to perform `samtools_view`?
+- **introduction-galaxy-intro-ngs-data-managment-q023** — I have an alignment file and want to filter reads (e.g., by mapping quality or flags) and output a filtered BAM for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.20+galaxy3
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q024** — Which Galaxy tool would you recommend to perform `samtools_view`?
+- **introduction-galaxy-intro-ngs-data-managment-q024** — I need to convert between SAM/BAM formats and optionally subset alignments to specific reads/regions. What Galaxy tool can do this alignment filtering/conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.20+galaxy3
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q025** — Which Galaxy tool runs samtools_view?
+- **introduction-galaxy-intro-ngs-data-managment-q025** — Which Galaxy tool can filter an alignment dataset and write out a new BAM with only reads that meet criteria?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.20+galaxy3
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q026** — Which Galaxy tool would you recommend to perform `samtools_view`?
+- **introduction-galaxy-intro-ngs-data-managment-q026** — In Galaxy, what tool should I run to subset or filter alignments from a BAM/SAM file for QC and variant calling?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.20+galaxy3
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q027** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **introduction-galaxy-intro-ngs-data-managment-q027** — I have a BAM alignment and want to mark PCR/optical duplicates so downstream variant calling is not biased, producing a deduplicated/marked BAM and metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q028** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **introduction-galaxy-intro-ngs-data-managment-q028** — Before variant calling, I need to identify duplicate reads in an alignment and generate duplicate metrics. What Galaxy tool can mark duplicates?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q029** — Which Galaxy tool runs picard MarkDuplicates?
+- **introduction-galaxy-intro-ngs-data-managment-q029** — Which Galaxy tool can mark duplicate alignments in a BAM file and output both the updated BAM and duplication statistics?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q030** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **introduction-galaxy-intro-ngs-data-managment-q030** — In Galaxy, what tool should I run to mark duplicates in a BAM and get a duplication metrics report?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q031** — Which Galaxy tool would you recommend to perform `lofreq_viterbi`?
+- **introduction-galaxy-intro-ngs-data-managment-q031** — I have an aligned sequencing dataset (BAM) and want to call sequence variants, including low-frequency variants, producing a VCF. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q032** — Which Galaxy tool would you recommend to perform `lofreq_viterbi`?
+- **introduction-galaxy-intro-ngs-data-managment-q032** — I need a variant calling step that uses base-quality information to detect variants from aligned reads and outputs a variant file. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q033** — Which Galaxy tool runs lofreq_viterbi?
+- **introduction-galaxy-intro-ngs-data-managment-q033** — Which Galaxy tool can call variants from a BAM alignment and output a VCF suitable for downstream filtering and annotation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q034** — Which Galaxy tool would you recommend to perform `lofreq_viterbi`?
+- **introduction-galaxy-intro-ngs-data-managment-q034** — In Galaxy, what tool should I run to call variants from aligned reads when I care about detecting low-frequency changes?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q035** — Which Galaxy tool would you recommend to perform `samtools_stats`?
+- **introduction-galaxy-intro-ngs-data-managment-q035** — I have a BAM alignment and want a QC report with alignment statistics (coverage/insert size/flags summary) to assess mapping quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.5
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q036** — Which Galaxy tool would you recommend to perform `samtools_stats`?
+- **introduction-galaxy-intro-ngs-data-managment-q036** — After mapping reads, I want a comprehensive alignment statistics report to compare samples and spot problems. What Galaxy tool can compute alignment stats from BAM?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8, toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.5
   - Datasets: 15354240
 - **introduction-galaxy-intro-ngs-data-managment-q037** — Which Galaxy tool runs samtools_stats?

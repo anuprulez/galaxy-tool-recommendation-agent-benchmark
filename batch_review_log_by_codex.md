@@ -595,3 +595,10 @@ Notes:
 - Integrity: Fixed templated placeholder tool id '{{version_wc}}' by replacing with core tool id wc_gnu; fixed metadata.tool_focus drift (0 mismatches remain); ensured metadata.ground_truth_alternatives=true with note for multi-version tools[] (70 items in this batch)
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like wc_gnu, Filter1, Cut1, join1); smell scan reports no hits/duplicates/near-duplicates
 
+## A0026 (lines 3751-3900)
+
+- Date: 2026-02-04
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (data manipulation + basic NGS prep + mapping/variant calling) to remove tool leakage/backticks and keep Galaxy-user perspective; preserved metadata.query_type (science_first 76, tool_first 74); rewrote one query to eliminate a near-duplicate pair flagged by smell scan
+- Integrity: Fixed metadata.tool_focus drift (0 mismatches remain); ensured metadata.ground_truth_alternatives=true with note for multi-version tools[] (86 items in this batch)
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Cut1, Paste1, join1, Grouping1); smell scan reports no hits/duplicates/near-duplicates
