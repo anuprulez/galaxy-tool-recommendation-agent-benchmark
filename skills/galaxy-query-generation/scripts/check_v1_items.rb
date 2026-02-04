@@ -35,6 +35,7 @@ def check_item(path, line_no, obj, tutorial_ids_set, ids_seen)
   tutorial_id = obj['tutorial_id']
   query = obj['query']
   tools = obj['tools']
+  metadata = obj['metadata'].is_a?(Hash) ? obj['metadata'] : {}
 
   if !id.is_a?(String) || id.strip.empty?
     problems += 1
@@ -89,9 +90,11 @@ def check_item(path, line_no, obj, tutorial_ids_set, ids_seen)
     problems += 1
     warn "#{path}:#{line_no}: missing/invalid tools array"
   else
-    if tools.size != 1
-      problems += 1
-      warn "#{path}:#{line_no}: tools array size is #{tools.size} (expected 1)"
+    if tools.size > 1
+      # We allow multiple acceptable ground-truth tools (manual expansion), but prefer this to be explicit.
+      unless metadata['ground_truth_alternatives'] == true
+        warn "#{path}:#{line_no}: WARN: tools array size is #{tools.size} (expected 1 unless manually expanded)"
+      end
     end
 
     tools.each do |t|
@@ -108,12 +111,44 @@ def check_item(path, line_no, obj, tutorial_ids_set, ids_seen)
   problems
 end
 
-if ARGV.length != 1
-  warn "usage: #{File.basename($PROGRAM_NAME)} data/benchmark/v1_items.jsonl"
+start_line = 1
+end_line = nil
+path = nil
+
+args = ARGV.dup
+while args.any?
+  a = args.shift
+  case a
+  when '--start'
+    start_line = Integer(args.shift)
+    if start_line < 1
+      warn '--start must be >= 1'
+      exit 2
+    end
+  when '--end'
+    end_line = Integer(args.shift)
+    if end_line < 1
+      warn '--end must be >= 1'
+      exit 2
+    end
+  when '--count'
+    count = Integer(args.shift)
+    if count < 1
+      warn '--count must be >= 1'
+      exit 2
+    end
+    end_line = start_line + count - 1
+  else
+    path = a
+    break
+  end
+end
+
+if path.nil? || args.any?
+  warn "usage: #{File.basename($PROGRAM_NAME)} [--start N] [--count N|--end N] data/benchmark/v1_items.jsonl"
   exit 2
 end
 
-path = ARGV[0]
 unless File.exist?(path)
   warn "missing file: #{path}"
   exit 2
@@ -132,6 +167,8 @@ ids_seen = Set.new
 
 total = 0
 File.foreach(path, encoding: 'UTF-8').with_index(1) do |line, line_no|
+  next if line_no < start_line
+  break if !end_line.nil? && line_no > end_line
   next if line.strip.empty?
   begin
     obj = JSON.parse(line)

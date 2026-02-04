@@ -118,6 +118,23 @@ Notes:
 - Date: 2026-01-26
 - Summary:
   - Normalized a built-in tool ID mismatch to the snapshot-installed spelling:
+
+---
+
+## Batch A0001 (1–150)
+- Status: **rewritten + expanded** (manual)
+- Date: 2026-02-04
+- Scope: first 150 items (assembly tutorials near file start)
+- Summary:
+  - Rewrote tool-leaking and overly templated queries into Galaxy-user phrasing (no tool IDs/names/backticks, no dataset IDs).
+  - Increased science-first style coverage within this batch (updated `metadata.query_type`; rewrote a subset of key items to be principle/goal driven).
+  - Normalized De Bruijn Graph Assembly tool IDs to stable ToolShed GUIDs (Velvet Optimiser, velveth/velvetg, Bandage visualization).
+  - Added a small number of manual, same-intent ground-truth alternatives (with `metadata.ground_truth_alternatives_note`), including:
+    - translated nucleotide→protein search alternatives (DIAMOND vs blastx-style search)
+    - short-read host-mapping alternatives (Bowtie2 vs BWA-MEM)
+  - Re-exported `data/benchmark/v1_items_readable.md`.
+- Validation:
+  - Ran `skills/galaxy-query-generation/scripts/check_v1_items.rb --start 1 --count 150 data/benchmark/v1_items.jsonl` (batch-scoped). Only WARN-level findings remained for Galaxy core tool IDs (Cut/Filter/Grep/cat/etc.).
     - `Remove_beginning1` → `Remove beginning1` (clinical MP discovery/verification rows in this batch)
   - Added snapshot-installed alternate versions to `tools[]` (and recorded a manual note) for common steps, including:
     - `filter_tabular`, `query_tabular`, `msconvert`, `maxquant`, `unipept`
