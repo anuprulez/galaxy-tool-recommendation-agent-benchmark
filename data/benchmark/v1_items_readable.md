@@ -3255,16 +3255,16 @@ Questions:
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q027** — I want a frequency table of how often each category appears in a column of my dataset. Which tool should I use?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q028** — I need to count occurrences of unique values in a column and get counts per value. Which tool should I run?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q029** — Which Galaxy tool counts the frequency of unique values in a dataset (value counts)?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q030** — What tool should I use in Galaxy to compute counts per unique value for a column?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q031** — I have a numeric column and want summary statistics like mean and standard deviation. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
@@ -3291,16 +3291,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q039** — I have a wide table and want to keep only a few columns for plotting. Which tool should I use?
-  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
+  - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q040** — I need to extract selected columns from a tabular dataset and drop the rest. Which tool should I run?
-  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
+  - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q041** — Which Galaxy tool selects specific columns from a table (cut fields) and outputs only those columns?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q042** — What tool should I use in Galaxy to choose and keep specific columns from a dataset?
-  - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
+  - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q043** — I have a column with messy strings and want to extract a clean numeric value using a pattern. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
@@ -3339,16 +3339,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q055** — I have two tables that share a key column and want to merge them into a single combined table. Which tool should I use?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q056** — I need to join two tabular datasets on an ID field to add columns from one table to the other. Which tool should I run?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q057** — Which Galaxy tool joins two tables on a shared key column (table merge/join)?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q058** — What tool should I use in Galaxy to perform a join between two tabular datasets by key?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q059** — I have a dataset with a long header section and want to drop the first N lines before processing. Which tool should I use?
   - Tools: Remove beginning1
@@ -3375,28 +3375,28 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q067** — I want to combine several intermediate text files into one final file in my history. Which tool should I use?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q068** — I need to merge multiple datasets by simple concatenation to create one dataset. Which tool should I run?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q069** — Which Galaxy tool concatenates multiple datasets into a single output?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q070** — What tool should I use in Galaxy to concatenate files end-to-end?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q071** — I want to preview the first few lines of a large dataset to confirm delimiter and header. Which tool should I use?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q072** — I need a quick peek at the top of a file in my Galaxy history without downloading it. Which tool should I run?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q073** — Which Galaxy tool shows the first N lines of a dataset (head preview)?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q074** — What tool should I use in Galaxy to display the beginning of a text dataset?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q075** — I want to concatenate a list of datasets (including many small outputs) into one combined dataset. Which tool should I use?
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
@@ -3422,13 +3422,13 @@ Questions:
 - **data-science-data-manipulation-olympics-q082** — What tool should I use to get basic line/word counts for a text dataset in Galaxy?
   - Tools: wc_gnu
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q083** — I’m about to join two tables and need them sorted consistently by a key column while keeping the header intact. Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q083** — I want to sort a table by a column while keeping the header line intact. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q084** — I need to sort a results table numerically by a score column and keep the header. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q085** — I have a metadata table and need to sort it by two columns (for example group then sample ID) without treating the header as data. Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q085** — Which Galaxy tool sorts a tabular dataset by one or more columns and preserves the header row?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q086** — What tool should I use in Galaxy to sort a table without losing the header line?
@@ -3440,23 +3440,23 @@ Questions:
 - **data-science-data-manipulation-olympics-q088** — I need to filter out rows that don't satisfy a criterion (like a threshold or exact match). Which tool should I run?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q089** — I need to filter a table by a numeric threshold in one column (for example keep rows where score exceeds a cutoff). Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q089** — Which Galaxy tool filters rows of a tabular dataset using a simple condition?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q090** — I have a tabular dataset and need to keep only rows that satisfy a simple rule (for example a column is not empty or a flag equals true). Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q090** — What tool should I use in Galaxy to apply row-level filtering to a table?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q091** — I want a frequency table showing how many times each category appears in a column. Which tool should I use?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q092** — I need counts per unique value in a column so I can see the most common categories. Which tool should I run?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q093** — Which Galaxy tool produces value counts (frequencies) for a column in a dataset?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q094** — What tool should I use in Galaxy to count occurrences of unique values in a table column?
-  - Tools: Count1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Count1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q095** — I need summary statistics (like mean, min, max) for a numeric column in a table. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
@@ -3471,21 +3471,21 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q099** — I want to group a tabular dataset by a key column so I can compute per-group summaries. Which tool should I use?
-  - Tools: Grouping1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Grouping1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q100** — I need to group rows by a category column as a preprocessing step for aggregation. Which tool should I run?
-  - Tools: Grouping1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Grouping1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q101** — Which Galaxy tool groups a dataset by a column to support group-wise operations?
-  - Tools: Grouping1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Grouping1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q102** — What tool should I use in Galaxy to group records by a chosen field?
-  - Tools: Grouping1, toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
+  - Tools: Grouping1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q103** — I have two numeric columns and need to compute a derived value (for example convert minutes and seconds into total seconds) as a new column. Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q103** — I want to compute a new column from existing columns (for example, a points total). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q104** — I have numeric columns in a table and need to compute a new column using a simple expression (for example a ratio or normalized score). Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q104** — I need to add a derived field to a table using arithmetic on other fields. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q105** — Which Galaxy tool creates a computed column in a tabular dataset using an expression?
@@ -3518,53 +3518,53 @@ Questions:
 - **data-science-data-manipulation-olympics-q114** — What tool should I use in Galaxy to apply a regex find/replace over a file?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q115** — I have one table of measurements and a separate table of sample metadata, and I want to merge them by a shared sample ID column. Which Galaxy tool should I use?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+- **data-science-data-manipulation-olympics-q115** — I have two tables with a shared key column and want to merge them into one combined table. Which tool should I use?
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q116** — I have a lookup table (IDs to labels) and a main data table, and I want to join them so the main table gains the label column. Which Galaxy tool should I use?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+- **data-science-data-manipulation-olympics-q116** — I need to join two tabular datasets by an ID field to add columns from one into the other. Which tool should I run?
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q117** — Which Galaxy tool joins two tabular datasets on a shared key column?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q118** — What tool should I use in Galaxy to perform a table join/merge by key?
-  - Tools: join1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
+  - Tools: join1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q119** — I want to combine multiple small text files into one dataset in my Galaxy history. Which tool should I use?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q120** — I need to concatenate several datasets end-to-end to create a single output file. Which tool should I run?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q121** — I have several intermediate text outputs and need to stitch them together end-to-end into one dataset for the next step. Which Galaxy tool should I use?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+- **data-science-data-manipulation-olympics-q121** — Which Galaxy tool concatenates multiple datasets into one output dataset?
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q122** — What tool should I use in Galaxy to join files by simple concatenation?
-  - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy3
+  - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q123** — I have a text file where the first few lines are a non-data preamble, and I need to drop exactly that many lines so the remaining lines start with the real data. Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q123** — I have a dataset with an extra header section and want to drop the first N lines before parsing it. Which tool should I use?
   - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q124** — I want to delete a fixed number of leading lines from a file to remove metadata or comments. Which tool should I run?
   - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q125** — I need to strip a fixed number of header or comment lines from the top of a file before downstream parsing. Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q125** — Which Galaxy tool removes the first N lines from a dataset (drop leading lines)?
   - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q126** — A file I downloaded has a fixed-length preamble (e.g., 5 lines of comments) that I need to remove before importing it as a table. Which Galaxy tool should I use?
+- **data-science-data-manipulation-olympics-q126** — What tool should I use in Galaxy to strip a set number of lines from the start of a file?
   - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q127** — I want to preview the first few lines of a large dataset to confirm the header and delimiter. Which tool should I use?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q128** — I want to quickly check whether a file has a header and what the first few rows look like, without downloading it. Which Galaxy tool should I use?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+- **data-science-data-manipulation-olympics-q128** — I need a quick peek at the top of a file in my history without downloading it. Which tool should I run?
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q129** — I want to quickly view the top N lines of a dataset in Galaxy to confirm the header and delimiter without downloading it. Which Galaxy tool should I use?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+- **data-science-data-manipulation-olympics-q129** — Which Galaxy tool shows the first N lines of a dataset (head preview)?
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q130** — I need a quick preview of the first few rows of a text file in my history to sanity-check formatting and column order. Which Galaxy tool should I use?
-  - Tools: Show beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy3
+- **data-science-data-manipulation-olympics-q130** — What tool should I use in Galaxy to display the beginning of a text dataset?
+  - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q131** — I have a table and want to drop one or more columns by their header names. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/column_remove_by_header/column_remove_by_header/0.0.1
