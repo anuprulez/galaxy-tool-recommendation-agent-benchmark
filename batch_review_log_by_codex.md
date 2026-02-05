@@ -1216,3 +1216,13 @@ Notes:
   - Fixed 4 metabolomics mfassignr items where the stored gold tool ID was a mismatched repo/tool_id path (replaced with the installed, in-catalog `mfassignr_kmdnoise` tool ID; intent preserved).
   - Query hygiene: Rewrote 2 Filter1 tool-first queries to eliminate exact duplicates within this slice while preserving the same row-filtering intent/tool focus.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 128 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
+
+## GTX0049 (ground-truth fix + expansion; lines 3921-4120)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on pruning missing gold tools (usegalaxy snapshot) and reducing cross-slice near-duplicates for the same tool focus.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` + the catalog index during review to confirm the missing tool IDs in this slice are absent from the snapshot (no helptext/IO entry to validate) and to validate representative kept tools/IO where needed.
+- Changes:
+  - Deleted 6 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent single-tool replacement in-catalog (xtb molecular optimization; Lotus2 end-to-end ITS2 pipeline).
+  - Query hygiene: Rewrote 2 `fasta_merge_files_and_filter_unique_sequences` queries to eliminate a high-similarity near-duplicate pair across slices while preserving the same “merge FASTA + deduplicate” intent/tool focus.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 194 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.

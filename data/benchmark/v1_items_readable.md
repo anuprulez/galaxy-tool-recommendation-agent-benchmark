@@ -12704,18 +12704,6 @@ Questions:
 - **metabolomics-qcxms-predictions-q034** — In Galaxy, what tool should I run to produce multiple conformations per molecule as a conformer ensemble?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_conformers/ctb_im_conformers/1.1.4+galaxy0
   - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q035** — I have a 3D small-molecule structure and want to perform geometry optimization to obtain a lower-energy conformation before simulation or property prediction. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
-  - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q036** — Before running further chemistry calculations, I need to optimize molecular geometry (energy minimization) for a set of structures. What Galaxy tool can do molecular optimization?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
-  - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q037** — Which Galaxy tool can perform molecular geometry optimization (energy minimization) for small-molecule structures?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
-  - Datasets: 13327051
-- **metabolomics-qcxms-predictions-q038** — In Galaxy, what tool should I run to optimize 3D molecular structures before downstream simulations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/xtb_molecular_optimization/xtb_molecular_optimization/6.6.1+galaxy1
-  - Datasets: 13327051
 - **metabolomics-qcxms-predictions-q039** — I want to simulate fragmentation of neutral molecules to predict mass spectra for comparison with experimental MS/MS data. Which Galaxy tool should I use to run the neutral fragmentation simulation?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/qcxms_neutral_run/qcxms_neutral_run/5.2.1+galaxy7
   - Datasets: 13327051
@@ -12996,10 +12984,10 @@ Questions:
 - **microbiome-clinical-mp-3-verification-q014** — In Galaxy, what tool should I run to keep only selected fields from a delimited table and discard the others?
   - Tools: Cut1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q015** — I have multiple FASTA files and want to merge them into one FASTA while removing duplicate sequences so the output is non-redundant. Which Galaxy tool should I use?
+- **microbiome-clinical-mp-3-verification-q015** — I'm building a 16S reference FASTA from several sources and want a non-redundant set (remove identical sequences) before running downstream searches. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q016** — My workflow produced several protein FASTA files and I need a combined FASTA with unique sequences only for downstream searches. What Galaxy tool can merge FASTA files and filter duplicates?
+- **microbiome-clinical-mp-3-verification-q016** — For metaproteomics database verification, I need to pool several protein FASTA files and keep only unique sequences so later searches aren't inflated by duplicates. What Galaxy tool can do that?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q017** — I have several FASTA files and want to build a single non-redundant sequence set by merging them and dropping duplicate sequences. Which Galaxy tool can do this?
@@ -13326,12 +13314,6 @@ Questions:
 - Datasets (1): 13710591
 
 Questions:
-- **microbiome-lotus2-identifying-fungi-q011** — I have fungal ITS2 amplicon reads and want an end-to-end analysis to generate OTU/ASV tables and taxonomic assignments. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
-  - Datasets: 13710591
-- **microbiome-lotus2-identifying-fungi-q012** — I need a turnkey ITS2 microbiome analysis pipeline (from reads to taxonomy/abundance outputs) for fungi. What Galaxy tool can run that workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
-  - Datasets: 13710591
 - **microbiome-lotus2-identifying-fungi-q013** — Which Galaxy tool can run an end-to-end ITS2 analysis pipeline for fungal community profiling?
   - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
   - Datasets: 13710591
