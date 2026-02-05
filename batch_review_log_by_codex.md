@@ -1226,3 +1226,13 @@ Notes:
   - Deleted 6 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent single-tool replacement in-catalog (xtb molecular optimization; Lotus2 end-to-end ITS2 pipeline).
   - Query hygiene: Rewrote 2 `fasta_merge_files_and_filter_unique_sequences` queries to eliminate a high-similarity near-duplicate pair across slices while preserving the same “merge FASTA + deduplicate” intent/tool focus.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 194 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
+
+## GTX0050 (ground-truth fix + expansion; lines 4115-4314)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on pruning remaining missing gold tools (usegalaxy snapshot) and ensuring the slice stays checker-clean.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` + the catalog index to confirm the remaining Lotus2 tool IDs in this slice are absent from the usegalaxy.org snapshot (no helptext/IO entry available to validate; no clear single-tool equivalent in-catalog).
+- Changes:
+  - Deleted 2 items whose gold tool (`toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0`) is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent replacement in-catalog.
+  - No other gold expansions/replacements were needed in this batch.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 198 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.

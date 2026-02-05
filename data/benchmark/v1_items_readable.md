@@ -13308,19 +13308,6 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.36.1.0
   - Datasets: zenodo.815875
 
-## Identifying Mycorrhizal Fungi from ITS2 sequencing using LotuS2 (topics/microbiome/tutorials/lotus2-identifying-fungi)
-- Topic: microbiome
-- Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
-- Datasets (1): 13710591
-
-Questions:
-- **microbiome-lotus2-identifying-fungi-q013** — Which Galaxy tool can run an end-to-end ITS2 analysis pipeline for fungal community profiling?
-  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
-  - Datasets: 13710591
-- **microbiome-lotus2-identifying-fungi-q014** — In Galaxy, what tool should I run to process ITS2 amplicon reads into abundance and taxonomy results?
-  - Tools: toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0
-  - Datasets: 13710591
-
 ## Assembly of metagenomic sequencing data (topics/microbiome/tutorials/metagenomics-assembly)
 - Topic: microbiome
 - Tools: toolshed.g2.bx.psu.edu/repos/iuc/megahit/megahit/1.2.9+galaxy2
