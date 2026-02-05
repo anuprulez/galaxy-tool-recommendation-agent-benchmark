@@ -978,3 +978,20 @@ Notes:
   - `Rules` → `__APPLY_RULES__` (rule-based mapping for collections/upload)
 - Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0028 (ground-truth fix + expansion; lines 201-400)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for the next 200 items, prioritizing replacing missing gold tools with catalog-present, semantically equivalent tools when possible; deleting only when no equivalent exists in the usegalaxy.org tool universe snapshot.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate tool existence and semantics/IO for each replacement (e.g., confirmed `Unique lines`, `pilon`, and NetCDF `xarray` tool families via helptext/IO).
+- Changes:
+  - Replaced 8 missing gold tool IDs with catalog-present equivalents:
+    - `bg_uniq` → `tp_uniq_tool` (unique lines/records)
+    - `polypolish` → `pilon` (short-read assembly polishing)
+    - `Convert_characters1` → `Convert characters1` (character cleanup)
+    - `sort1` → `tp_sort_header_tool` (tabular sorting)
+    - `timeseries_extraction` → `xarray_select` (extract time series at coordinate)
+    - `psy_maps` → `xarray_mapplot` (geographic map plot from gridded NetCDF)
+  - Deleted 5 items where no semantically equivalent tool could be found in the usegalaxy.org catalog snapshot (climate/ODV/Argo fetch + essential variability; and a generic bar-chart plotting item).
+- Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
+- Validation: check_v1_items passes for the kept subset in this reviewed range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.

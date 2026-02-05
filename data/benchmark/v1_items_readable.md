@@ -802,9 +802,6 @@ Questions:
 - **assembly-largegenome-q024** — I have an assembly graph output and want to render it as an image to inspect repeats and fragmentation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/2022.09+galaxy4
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q025** — I have a small summary table of QC/assembly metrics and want to turn selected columns into a simple bar chart for reporting. Which Galaxy tool should I use?
-  - Tools: barchart_gnuplot
-  - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
 
 ## Assembly of metagenomic sequencing data (topics/assembly/tutorials/metagenomics-assembly)
 - Topic: assembly
@@ -882,7 +879,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/3.3.1
   - Datasets: 7818827
 - **assembly-metagenomics-assembly-q034** — I have a list with possible duplicate entries and want to keep only unique lines/records to simplify downstream processing. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3
   - Datasets: 7818827
 - **assembly-metagenomics-assembly-q035** — I need to concatenate multiple text/tabular datasets (e.g., per-sample summaries) into one combined dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2, cat1
@@ -1017,7 +1014,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q021** — I have an assembly plus paired short reads and want to polish the consensus sequence using the read evidence. Which tool should I use for polishing?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/polypolish/polypolish/0.5.0+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q022** — I have sequencing data on my computer and need to import it into my Galaxy history as datasets. What tool should I use to upload the files?
   - Tools: upload1
@@ -1050,7 +1047,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
   - Datasets: 10669812
 - **assembly-mrsa-nanopore-q032** — I want to correct small errors in my draft assembly using paired short reads. Which tool should I use to polish the assembly with those reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/polypolish/polypolish/0.5.0+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
   - Datasets: 10669812
 
 ## Unicycler Assembly (topics/assembly/tutorials/unicycler-assembly)
@@ -1232,13 +1229,13 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy2
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q056** — I need to clean up a text or tabular file by converting or removing problematic characters before another step. Which tool should I use?
-  - Tools: Convert_characters1
+  - Tools: Convert characters1
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q057** — I have read alignments and need to convert them into genomic interval coordinates for downstream analyses. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q058** — I need to sort a tabular dataset by one or more columns (including numeric sorting) before downstream steps. Which tool should I use?
-  - Tools: sort1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q059** — I have contigs and Hi-C alignments and want to scaffold them using a graph-based Hi-C scaffolding approach. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/salsa/salsa/2.3+galaxy5
@@ -1265,27 +1262,18 @@ Questions:
 
 ## Analyse Argo data (topics/climate/tutorials/argo_pangeo)
 - Topic: climate
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
 - Datasets (1): (see source)
 
 Questions:
-- **climate-argo_pangeo-q011** — I want to fetch Argo float profile data for a region and time window and bring it into my history for analysis. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
-  - Datasets: (see source)
 - **climate-argo_pangeo-q012** — I have an ocean dataset and want to inspect global attributes and variable metadata before plotting. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
   - Datasets: (see source)
 - **climate-argo_pangeo-q013** — I need to list the coordinate variables and dimensions in a multi-dimensional ocean dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q014** — From a gridded dataset, I want to extract a time series at a specific latitude/longitude for downstream plotting. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/timeseries_extraction/timeseries_extraction/2022.3.0+galaxy0
-  - Datasets: (see source)
-- **climate-argo_pangeo-q015** — I want an interactive GUI to explore and plot ocean profile data stored in my Galaxy history (profiles, sections, QC flags). Which tool should I launch?
-  - Tools: interactive_tool_odv
-  - Datasets: (see source)
-- **climate-argo_pangeo-q016** — I need to download Argo observations for a specific float and a set of variables so I can analyze them in Galaxy. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+- **climate-argo_pangeo-q014** — From a gridded NetCDF dataset, I want to extract a time series at a specific latitude/longitude for downstream plotting. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/2022.3.0+galaxy0
   - Datasets: (see source)
 - **climate-argo_pangeo-q017** — Before plotting, I want a quick summary of what variables, units, and attributes are present in the dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
@@ -1293,8 +1281,8 @@ Questions:
 - **climate-argo_pangeo-q018** — I want to confirm the coordinate ranges (time, depth, latitude, longitude) available in my dataset. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_coords_info/xarray_coords_info/2022.3.0+galaxy0
   - Datasets: (see source)
-- **climate-argo_pangeo-q019** — I want to extract a temperature time series at one location from a multi-dimensional dataset. Which tool should I use for time-series extraction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/timeseries_extraction/timeseries_extraction/2022.3.0+galaxy0
+- **climate-argo_pangeo-q019** — I want to extract a temperature time series at one location from a multi-dimensional NetCDF dataset. Which Galaxy tool should I use for time-series extraction?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/2022.3.0+galaxy0
   - Datasets: (see source)
 
 ## Getting your hands-on climate data (topics/climate/tutorials/climate-101)
@@ -1321,9 +1309,6 @@ Questions:
 - **climate-climate-101-q016** — I have annual temperature anomalies and want a warming-stripes style visualization. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q017** — I want to compute essential variability metrics from a climate dataset to summarize changes over time. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability/0.1.4
-  - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 - **climate-climate-101-q018** — I need to generate climate stripes from a time series dataset as a quick communication graphic. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/climate_stripes/climate_stripes/1.0.2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
@@ -1336,8 +1321,8 @@ Questions:
 - **climate-climate-101-q021** — I need to create a new column in a table using a formula for unit conversion or scaling. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
-- **climate-climate-101-q022** — I want to make a geographic map from a gridded climate variable for one time slice with a colorbar and projection. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps/1.2.1
+- **climate-climate-101-q022** — I want to make a geographic map from a gridded NetCDF climate variable for one time slice with a colorbar and projection. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_mapplot/xarray_mapplot/2022.3.0+galaxy0
   - Datasets: 3776500, zenodo.3776500, tg_ens_mean_0.1deg_reg_v20.0e_Paris_daily.csv, 15349982
 - **climate-climate-101-q023** — I want a scatter plot showing the relationship between two climate variables, optionally colored by group. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
