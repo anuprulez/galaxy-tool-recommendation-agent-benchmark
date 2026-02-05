@@ -5027,7 +5027,7 @@ Questions:
 - **ecology-champs-blocs-q021** — I need to generate summary plots and an ecological status table from an indicator-analysis output. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-champs-blocs-q022** — What Galaxy tool should I use to run custom R code on an intermediate dataset and produce a final indicator table?
+- **ecology-champs-blocs-q022** — I need an interactive R environment inside Galaxy so I can transform an intermediate table and compute final indicator metrics. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
 - **ecology-champs-blocs-q023** — I need to compute an IVR indicator and produce both a results table and plots from survey inputs. Which Galaxy tool should I use?
@@ -5170,10 +5170,10 @@ Questions:
 - **ecology-eDNA-taxonomic-analysis-q024** — Which Galaxy tool should I use to tally unique values in one column of a TSV and report counts for each value?
   - Tools: Count1, Grouping1
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q025** — I have a tabular search result and want to count how many times each unique value appears in a specific column (for example, a top-hit scientific name). Which Galaxy tool should I use?
+- **ecology-eDNA-taxonomic-analysis-q025** — I have a table of per-read top hits and want a frequency table of how often each scientific name appears (one row per name with a count). Which Galaxy tool should I use?
   - Tools: Count1, Grouping1
   - Datasets: 15367390, zenodo.15367390, 15367390
-- **ecology-eDNA-taxonomic-analysis-q026** — Which Galaxy tool should I use to tally unique values in one column of a TSV and report counts for each value?
+- **ecology-eDNA-taxonomic-analysis-q026** — I want a summary table that lists each unique value in a chosen column (for example, taxon) and the number of rows matching it. Which Galaxy tool should I use?
   - Tools: Count1, Grouping1
   - Datasets: 15367390, zenodo.15367390, 15367390
 
@@ -5334,7 +5334,7 @@ Questions:
 - **ecology-gbif_cleaning-q014** — What Galaxy tool should I use to download occurrence records from GBIF and import them into my history?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: None
-- **ecology-gbif_cleaning-q015** — I need to filter rows in a tabular dataset using a boolean condition on one or more columns. Which Galaxy tool should I use?
+- **ecology-gbif_cleaning-q015** — I want to keep only rows that match a condition in one column (for example, non-empty coordinates or a quality flag) and drop the rest. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: None
 - **ecology-gbif_cleaning-q016** — Which Galaxy tool can keep or remove rows from a table based on an expression (for example, filtering by record type)?
@@ -5404,13 +5404,13 @@ Questions:
 - **ecology-genetic-map-rad-seq-q015** — I need to generate a genotype matrix or genotype table from RAD-seq variant outputs as input for genetic mapping. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1219888
-- **ecology-genetic-map-rad-seq-q016** — Which Galaxy tool provides an interactive environment where I can run custom scripts to format RAD-seq variants into a genotype table?
+- **ecology-genetic-map-rad-seq-q016** — I need an interactive notebook environment in Galaxy to explore a RAD-seq variant dataset (VCF) and reshape it into a genotype table for mapping. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1219888
 - **ecology-genetic-map-rad-seq-q017** — I need to turn RAD-seq variant results into a genotype table suitable for linkage map construction. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1219888
-- **ecology-genetic-map-rad-seq-q018** — What Galaxy tool should I use to run custom code and generate genotype matrices from variant call outputs?
+- **ecology-genetic-map-rad-seq-q018** — I want a notebook-style environment in Galaxy where I can turn variant calls into a genotype matrix (samples × markers) for downstream genetic mapping. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1219888
 
@@ -5493,7 +5493,7 @@ Questions:
 - **ecology-ndvi_openeo-q012** — I need an interactive notebook in Galaxy to run Python code for satellite data access and NDVI time-series extraction. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
-- **ecology-ndvi_openeo-q013** — Which Galaxy tool should I use if I need an interactive notebook environment to run custom code for NDVI time-series analysis using openEO?
+- **ecology-ndvi_openeo-q013** — I need a notebook environment in Galaxy to work with NDVI time series and an openEO workflow (fetch, aggregate, plot). Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 - **ecology-ndvi_openeo-q014** — Which Galaxy tool should I use to run notebook-based code that accesses openEO and processes NDVI into time-series outputs?
