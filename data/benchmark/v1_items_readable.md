@@ -12520,7 +12520,7 @@ Questions:
 - **introduction-galaxy-intro-ngs-data-managment-q032** — I need a variant calling step that uses base-quality information to detect variants from aligned reads and outputs a variant file. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: 15354240
-- **introduction-galaxy-intro-ngs-data-managment-q033** — Which Galaxy tool can call variants from a BAM alignment and output a VCF suitable for downstream filtering and annotation?
+- **introduction-galaxy-intro-ngs-data-managment-q033** — I have a BAM alignment and want to realign mapped reads against the reference to reduce alignment errors (especially around indels) before variant calling. Which Galaxy tool should I use for this realignment step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: 15354240
 - **introduction-galaxy-intro-ngs-data-managment-q034** — In Galaxy, what tool should I run to call variants from aligned reads when I care about detecting low-frequency changes?

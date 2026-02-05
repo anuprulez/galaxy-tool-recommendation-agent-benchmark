@@ -904,3 +904,12 @@ Notes:
 - Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review for tool existence/semantics (helptext) and IO shape (e.g., checked the tabular “Sort (keep header)” tool family via `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/...`).
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added and no query rewrites were needed in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0020 (ground-truth expansion; lines 3751-3950)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate tool semantics via helptext/IO (notably, confirmed that `lofreq_viterbi` is a read realignment step rather than a variant caller).
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Query hygiene: Rewrote 1 query to match the real intent of the gold tool while keeping the item’s step meaning consistent (`introduction-galaxy-intro-ngs-data-managment-q033`).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
