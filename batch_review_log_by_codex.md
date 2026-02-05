@@ -957,3 +957,11 @@ Notes:
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Query hygiene: Rewrote 2 queries to remove exact duplicates across nanopore microbiome tutorials while keeping intent unchanged (`microbiome-pathogen-detection-from-nanopore-foodborne-data-q029`, `microbiome-pathogen-detection-from-nanopore-foodborne-data-q030`).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0026 (ground-truth expansion; lines 4951-5150)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review for tool existence/semantics and IO shape (e.g., proteomics database construction + MaxQuant/MetaNovo-related tool families such as `toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/...`).
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added and no query rewrites were needed in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
