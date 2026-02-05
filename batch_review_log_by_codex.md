@@ -878,3 +878,12 @@ Notes:
 - Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool existence/semantics (helptext) and IO shape for any potential alternative additions, even when ultimately deciding not to expand.
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0017 (ground-truth expansion; lines 3151-3350)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool existence/semantics (helptext) and IO shape for any potential alternative additions, even when ultimately deciding not to expand. Noted that some tools referenced in v1 may be missing from this catalog snapshot (e.g., `toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0` not found; only `__UNZIP_COLLECTION__` present), so I avoided adding any new alternatives that I could not corroborate via the catalog.
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Query hygiene: Rewrote 4 queries to remove exact duplicates across imaging tutorials while keeping intent unchanged (`imaging-imaging-introduction-q021`, `imaging-imaging-introduction-q022`, `imaging-imaging-introduction-q033`, `imaging-imaging-introduction-q042`).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates (remaining near-duplicate pairs acceptable).

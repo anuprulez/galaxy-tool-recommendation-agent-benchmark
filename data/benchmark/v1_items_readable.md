@@ -10660,10 +10660,10 @@ Questions:
 - **imaging-imaging-introduction-q020** — My images are uneven in intensity and I want to normalize/enhance the intensity distribution to improve downstream detection. What Galaxy tool can do histogram equalization?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q021** — Which Galaxy tool can apply histogram equalization to 2D images to improve contrast and make features easier to detect?
+- **imaging-imaging-introduction-q021** — I have low-contrast microscopy images and want to normalize them by redistributing intensities (histogram equalization) as a preprocessing step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q022** — In Galaxy, what tool should I run to enhance image contrast by equalizing the intensity histogram?
+- **imaging-imaging-introduction-q022** — I want to improve visibility of faint structures in 2D images by equalizing the intensity histogram before segmentation. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/2d_histogram_equalization/ip_histogram_equalization/0.18.1+galaxy0
   - Datasets: 3362976
 - **imaging-imaging-introduction-q023** — I have grayscale images and want to automatically threshold them to create a binary mask separating foreground from background. Which Galaxy tool should I use?
@@ -10696,7 +10696,7 @@ Questions:
 - **imaging-imaging-introduction-q032** — I need to combine multiple image layers into an overlay so I can visually compare channels and segmentation results. What Galaxy tool can overlay images?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: 3362976
-- **imaging-imaging-introduction-q033** — Which Galaxy tool can create a composite overlay from two or more images for inspection and figure generation?
+- **imaging-imaging-introduction-q033** — I have two related images (for example, a fluorescence channel and a segmentation mask) and want a merged overlay image for quick QC and figure creation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/overlay_images/ip_overlay_images/0.0.4+galaxy4
   - Datasets: 3362976
 - **imaging-imaging-introduction-q034** — In Galaxy, what tool should I run to overlay images (channels or masks) into one combined view?
@@ -10723,7 +10723,7 @@ Questions:
 - **imaging-imaging-introduction-q041** — Which Galaxy tool can extract files from a ZIP archive and output the extracted datasets for downstream tools?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
-- **imaging-imaging-introduction-q042** — In Galaxy, what tool should I run to unpack a ZIP archive so its files can be used as inputs to other tools?
+- **imaging-imaging-introduction-q042** — I downloaded a ZIP bundle of image files and need each file extracted as its own dataset so other tools can use them as inputs. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
   - Datasets: 3362976
 
