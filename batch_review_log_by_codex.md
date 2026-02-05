@@ -1135,3 +1135,20 @@ Notes:
   - Replaced 8 missing BRAKER3 tool IDs (`toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0`) with the usegalaxy-present equivalent (`toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2`).
   - Deleted 2 PPanGGOLiN MSA items whose gold tool is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement.
 - Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0042 (ground-truth fix + expansion; lines 2893-3092)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on fixing invalid/missing tool IDs and swapping to usegalaxy-present, semantically/IO-compatible equivalents where available.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate replacements (BLAST+, k-mer histogram, RepeatMasker wrapper, GenBank→GFF3 conversion, Bowtie2) using helptext + IO fields.
+- Changes:
+  - Fixed 4 items that had a non-existent/typo tool ID (`toolshed.g2.bx.psu.edu/view/...`) by keeping only the correct catalog-present tool (`toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4`) and removing now-unneeded `ground_truth_alternatives*` metadata.
+  - Replaced 20 missing tools with usegalaxy-present equivalents where the intent remained satisfied:
+    - Parallel similarity search → `toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0` (rewrote 4 queries to be explicitly BLASTP/protein).
+    - K-mer spectrum/histogram → `toolshed.g2.bx.psu.edu/repos/iuc/khmer_abundance_distribution_single/khmer_abundance_distribution_single/3.0.0a3+galaxy3` (rewrote 4 queries accordingly).
+    - Repeat masking → `toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0`
+    - GenBank → GFF3 → `toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1`
+    - Short-read alignment → `toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0`
+    - ZIP extraction → `CONVERTER_archive_to_directory`
+  - Deleted 4 imaging items whose gold tool for downloading IDR images by IDs (`idr_download_by_ids/0.45`) is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement.
+- Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrites.

@@ -9467,16 +9467,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
   - Datasets: 7867921
 - **genome-annotation-helixer-q035** — I want to compare two annotation runs and need consistent summary metrics computed from each GFF3 file (feature counts and length summaries). Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q036** — I have a GFF3 annotation and want a statistics table describing gene and exon counts and lengths so I can benchmark annotation outputs. What Galaxy tool can do this?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q037** — Which Galaxy tool can summarize a GFF3 annotation into counts and basic length metrics for reporting and comparison?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 - **genome-annotation-helixer-q038** — In Galaxy, what tool should I run to compute QC statistics from a GFF3 gene annotation file?
-  - Tools: toolshed.g2.bx.psu.edu/view/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4, toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jcvi_gff_stats/jcvi_gff_stats/0.8.4
   - Datasets: 7867921
 
 ## From small to large-scale genome comparison (topics/genome-annotation/tutorials/hpc-for-lsgc)
@@ -9509,29 +9509,29 @@ Questions:
 - **genome-annotation-hpc-for-lsgc-q018** — In Galaxy, what tool should I run to taxonomically classify reads and generate an abundance report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q019** — I have many query sequences and want to run database similarity searches faster by using multiple CPU cores. Which Galaxy tool should I use to parallelize sequence database searches?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
+- **genome-annotation-hpc-for-lsgc-q019** — I have a large set of protein sequences and need to search them against a BLAST protein database (BLASTP), ideally using multiple CPU cores to finish faster. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q020** — I need to search a large set of sequences against a database and would like a multi-core accelerated run with the usual alignment outputs. What Galaxy tool can do this?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
+- **genome-annotation-hpc-for-lsgc-q020** — I need to run BLASTP for many protein queries against a reference database and keep the usual search outputs for downstream filtering. Which Galaxy tool can do this?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q021** — Which Galaxy tool can run sequence similarity searches using multiple cores to speed up large protein or nucleotide query sets?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
+- **genome-annotation-hpc-for-lsgc-q021** — Which Galaxy tool runs BLASTP for a batch of protein queries against a database and can take advantage of multi-core execution?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q022** — In Galaxy, what tool should I run for a parallelized database search when the single-core search is too slow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multicore_blast/multicore_blast/0.1.1+galaxy2
+- **genome-annotation-hpc-for-lsgc-q022** — My BLASTP search on a big protein FASTA is too slow; which Galaxy tool should I run to do the database search efficiently?
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.16.0+galaxy0
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q023** — I have sequencing reads and want a k-mer count/histogram to estimate genome size and heterozygosity. Which Galaxy tool should I use to compute k-mer spectra?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
+- **genome-annotation-hpc-for-lsgc-q023** — I have sequencing reads and want a k-mer abundance histogram to estimate genome size and heterozygosity (GenomeScope-style). Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/khmer_abundance_distribution_single/khmer_abundance_distribution_single/3.0.0a3+galaxy3
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q024** — For QC of my sequencing data, I need to count k-mers and export a k-mer frequency table or histogram. What Galaxy tool can do k-mer counting?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
+- **genome-annotation-hpc-for-lsgc-q024** — For read QC I need a k-mer frequency distribution (histogram) computed from my sequencing reads. What Galaxy tool can generate this k-mer spectrum?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/khmer_abundance_distribution_single/khmer_abundance_distribution_single/3.0.0a3+galaxy3
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q025** — Which Galaxy tool can compute k-mer statistics from reads and output a histogram for downstream genome profiling?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
+- **genome-annotation-hpc-for-lsgc-q025** — Which Galaxy tool can compute a k-mer abundance histogram from reads so I can inspect the k-mer spectrum for genome profiling?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/khmer_abundance_distribution_single/khmer_abundance_distribution_single/3.0.0a3+galaxy3
   - Datasets: zenodo.4485547
-- **genome-annotation-hpc-for-lsgc-q026** — In Galaxy, what tool should I run to generate k-mer frequency information from sequencing reads?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastk/fastk/1.0.0+galaxy0
+- **genome-annotation-hpc-for-lsgc-q026** — In Galaxy, what tool should I run to produce k-mer abundance information from sequencing reads for downstream genome profiling?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/khmer_abundance_distribution_single/khmer_abundance_distribution_single/3.0.0a3+galaxy3
   - Datasets: zenodo.4485547
 
 ## Long non-coding RNAs (lncRNAs) annotation with FEELnc (topics/genome-annotation/tutorials/lncrna)
@@ -9603,21 +9603,21 @@ Questions:
 
 ## Masking repeats with RepeatMasker (topics/genome-annotation/tutorials/repeatmasker)
 - Topic: genome-annotation
-- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
 - Datasets (1): 7085837
 
 Questions:
 - **genome-annotation-repeatmasker-q011** — I have a genome assembly and want to identify and mask repetitive elements so they do not confound downstream gene prediction. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 7085837
 - **genome-annotation-repeatmasker-q012** — Before annotation, I need a repeat annotation and masking step on my genome sequence and want outputs like masked FASTA and repeat coordinates. What Galaxy tool can do this?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 7085837
 - **genome-annotation-repeatmasker-q013** — Which Galaxy tool can scan a genome for repeats/transposable elements and produce masked sequence plus repeat annotations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 7085837
 - **genome-annotation-repeatmasker-q014** — In Galaxy, what tool should I run to detect repetitive DNA in a genome assembly and generate a masked genome for downstream analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeatmasker/repeatmasker/4.1.4+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/repeat_masker/repeatmasker_wrapper/4.1.5+galaxy0
   - Datasets: 7085837
 - **genome-annotation-repeatmasker-q015** — I have two sets of genomic intervals and want to find overlaps so I can annotate one set with the other. Which Galaxy tool should I use to compute interval intersections?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
@@ -9795,16 +9795,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/simsearch/ctb_simsearch/1.6.1+galaxy0
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q055** — I have an annotated GenBank-format file and need to convert the features into a GFF3 annotation for downstream tools. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q056** — My annotation is in GenBank format and I want a corresponding GFF3 output with feature coordinates and attributes. What Galaxy tool can convert it?
-  - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q057** — Which Galaxy tool can convert a GenBank annotation file into GFF3 so it can be used for visualization and interval operations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q058** — In Galaxy, what tool should I run to transform GenBank feature annotations into a GFF3 file?
-  - Tools: toolshed.g2.bx.psu.edu/repos/cpt/cpt_gbk_to_gff/edu.tamu.cpt.gff3.customGbkToGff/20.1.0.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
   - Datasets: 10652998
 - **genome-annotation-secondary-metabolite-discovery-q059** — I have a GenBank record for a genome and want to extract the annotated features as a GFF3 file for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bp_genbank2gff3/bp_genbank2gff3/1.1
@@ -9886,16 +9886,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q031** — I have short DNA sequencing reads and a reference genome and want to align the reads to the reference to find mapping locations. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q032** — I need to map short reads to a reference index and produce an alignment file for downstream counting or visualization. What Galaxy tool can do this alignment?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q033** — Which Galaxy tool can align short reads to a reference genome and output an alignment dataset suitable for downstream analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q034** — In Galaxy, what tool should I run to perform fast short-read alignment against a reference genome?
-  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.5.4+galaxy0
   - Datasets: zenodo.2579335
 - **genome-annotation-tnseq-q035** — I have a BAM alignment file and want a genome-wide coverage track I can visualize as a signal profile along the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
@@ -9960,27 +9960,15 @@ Questions:
 
 ## Quantification of single-molecule RNA fluorescence in situ hybridization (smFISH) in yeast cell lines (topics/imaging/tutorials/2D-spot-detection)
 - Topic: imaging
-- Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
+- Tools: CONVERTER_archive_to_directory
 - Datasets (1): None
 
 Questions:
-- **imaging-2D-spot-detection-q011** — I want to import public microscopy images from the Image Data Resource into Galaxy by providing a list of image identifiers. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
-  - Datasets: None
-- **imaging-2D-spot-detection-q012** — I need to download microscopy image datasets from an external public repository into my Galaxy history using a list of IDs. What Galaxy tool can do this import?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
-  - Datasets: None
-- **imaging-2D-spot-detection-q013** — Which Galaxy tool can fetch IDR microscopy images by identifier and add them as image datasets in Galaxy?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
-  - Datasets: None
-- **imaging-2D-spot-detection-q014** — In Galaxy, what tool should I run to download microscopy images from IDR given a list of image IDs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
-  - Datasets: None
 - **imaging-2D-spot-detection-q015** — I have a compressed ZIP archive containing image files and want to extract the contents into separate datasets in my Galaxy history. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: None
 - **imaging-2D-spot-detection-q016** — I downloaded an archive of images and need to unpack it into individual files before running image analysis steps. What Galaxy tool can extract ZIP archives?
-  - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
+  - Tools: CONVERTER_archive_to_directory
   - Datasets: None
 - **imaging-2D-spot-detection-q017** — Which Galaxy tool can extract files from a ZIP archive and output the individual extracted datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/imgteam/unzip/unzip/6.0+galaxy0
