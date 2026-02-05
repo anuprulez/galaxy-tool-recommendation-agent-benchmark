@@ -1152,3 +1152,15 @@ Notes:
     - ZIP extraction → `CONVERTER_archive_to_directory`
   - Deleted 4 imaging items whose gold tool for downloading IDR images by IDs (`idr_download_by_ids/0.45`) is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement.
 - Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrites.
+
+## GTX0043 (ground-truth fix + expansion; lines 3089-3288)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on usegalaxy catalog presence for imaging tools (many imaging tool IDs in this slice were not present in the snapshot).
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to verify which imaging tools/versions are present on the snapshot and to validate the few safe substitutions (archive extraction + bfconvert version bump).
+- Changes:
+  - Deleted 66 items whose gold imaging tools are not present on the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog (QuPath interactive, Palom, CellProfiler module wrappers, several imgteam image-info/feature-extraction helpers, GraphicsMagick convert, etc.).
+  - Replaced 14 missing unzip tool IDs (`imgteam/unzip`) with `CONVERTER_archive_to_directory` (archive extraction intent preserved).
+  - Updated 1 bfconvert tool version to a usegalaxy-present build (`ip_convertimage/6.7.0+galaxy3`).
+  - Query hygiene: Rewrote 3 imaging-introduction queries to reduce very high cross-tutorial near-duplication while preserving intent/tool focus.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 134 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
