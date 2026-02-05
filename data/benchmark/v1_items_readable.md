@@ -20929,34 +20929,34 @@ Questions:
 - **variant-analysis-sars-cov-2-q015** — I want to trim adapters and filter low-quality reads from my SARS-CoV-2 sequencing data and generate a QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q016** — Which Galaxy tool would you recommend to perform `BWA-MEM`?
+- **variant-analysis-sars-cov-2-q016** — I have SARS-CoV-2 sequencing reads and want to align them to a reference genome to produce a BAM file for variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q017** — What Galaxy tool should I run for `Map with BWA-MEM`?
+- **variant-analysis-sars-cov-2-q017** — I want to map my viral reads to the SARS-CoV-2 reference genome as the first step toward consensus and variant discovery. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q018** — What Galaxy tool should I run for `MarkDuplicates`?
+- **variant-analysis-sars-cov-2-q018** — I want to mark duplicate reads in my BAM file so downstream variant calling is not biased by PCR duplicates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q019** — What Galaxy tool should I run for `Samtools stats`?
+- **variant-analysis-sars-cov-2-q019** — I want a summary of alignment statistics (read counts, mapping rates, and basic metrics) from my BAM file as a QC step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q020** — Which Galaxy tool should I use to run `Realign reads`?
+- **variant-analysis-sars-cov-2-q020** — Before calling variants, I want to realign reads around candidate indels to improve small-variant accuracy in viral data. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q021** — Which Galaxy tool should I use to run `Insert indel qualities`?
+- **variant-analysis-sars-cov-2-q021** — I want to add indel-quality information to my BAM file so a sensitive variant caller can handle indels more accurately. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_indelqual/lofreq_indelqual/2.1.5+galaxy1
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q022** — Which Galaxy tool should I use to run `SnpEff eff:`?
+- **variant-analysis-sars-cov-2-q022** — I have called variants on SARS-CoV-2 and want to annotate them with gene and protein consequences specific to the SARS-CoV-2 genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snpeff_sars_cov_2/snpeff_sars_cov_2/4.5covid19
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q023** — Which Galaxy tool should I use to run `Call variants`?
+- **variant-analysis-sars-cov-2-q023** — I want to call low-frequency variants from my aligned SARS-CoV-2 reads and output a VCF for downstream filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy3
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q024** — Which Galaxy tool should I use to run `SnpSift Extract Fields`?
+- **variant-analysis-sars-cov-2-q024** — I have a VCF and want to extract selected fields (position, ref/alt, depth, allele frequency, annotations) into a clean tabular file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_extractFields/4.3+t.galaxy0
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
-- **variant-analysis-sars-cov-2-q025** — Which Galaxy tool should I use to run `MultiQC`?
+- **variant-analysis-sars-cov-2-q025** — I have QC outputs from multiple steps and samples and want a single consolidated report for my SARS-CoV-2 workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: GCF_009858895.2_ASM985889v3_genomic.fna.gz
 
@@ -20966,22 +20966,22 @@ Questions:
 - Datasets (3): SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
 
 Questions:
-- **variant-analysis-sars-cov-2-variant-discovery-q011** — Which Galaxy tool would you recommend to perform `upload1`?
+- **variant-analysis-sars-cov-2-variant-discovery-q011** — I need to upload my SARS-CoV-2 sequencing reads and reference files into Galaxy to start a variant discovery workflow. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
-- **variant-analysis-sars-cov-2-variant-discovery-q012** — What Galaxy tool should I run for `Filter data on any column using simple expressions`?
+- **variant-analysis-sars-cov-2-variant-discovery-q012** — I have a tabular dataset and want to filter rows using a simple expression on one or more columns (for example keep only high-coverage sites). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
-- **variant-analysis-sars-cov-2-variant-discovery-q013** — What Galaxy tool should I run for `Fasta regular expression finder`?
+- **variant-analysis-sars-cov-2-variant-discovery-q013** — I have consensus sequences and want to search for a motif or pattern in FASTA records (for example check for primer-binding sites). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/mbernt/fasta_regex_finder/fasta_regex_finder/0.1.0
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
-- **variant-analysis-sars-cov-2-variant-discovery-q014** — What Galaxy tool should I run for `Pangolin`?
+- **variant-analysis-sars-cov-2-variant-discovery-q014** — I have SARS-CoV-2 consensus genomes and want to assign lineages to each sample for reporting and downstream interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pangolin/pangolin/4.3+galaxy2
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
-- **variant-analysis-sars-cov-2-variant-discovery-q015** — Which Galaxy tool should I use to run `Datamash`?
+- **variant-analysis-sars-cov-2-variant-discovery-q015** — I have a tabular results file and want to compute summaries (counts, means, group-wise stats) across columns or groups. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
-- **variant-analysis-sars-cov-2-variant-discovery-q016** — Which Galaxy tool should I use to run `Nextclade`?
+- **variant-analysis-sars-cov-2-variant-discovery-q016** — I have SARS-CoV-2 sequences and want clade assignment plus QC summaries (mutation lists and quality flags) for each sequence. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/nextclade/nextclade/2.7.0+galaxy0
   - Datasets: SRR17054502_1.fastq.gz, SRR17054502_2.fastq.gz, SRR17054503_1.fastq.gz
 
@@ -20991,52 +20991,52 @@ Questions:
 - Datasets (3): zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 
 Questions:
-- **variant-analysis-somatic-variant-discovery-q011** — Which Galaxy tool should I use to run `Falco`?
+- **variant-analysis-somatic-variant-discovery-q011** — I have tumor and normal sequencing reads and want an initial read-quality report before trimming and mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q012** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **variant-analysis-somatic-variant-discovery-q012** — I have QC reports for multiple sequencing samples and want a single combined summary report to compare them. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q013** — Which Galaxy tool should I use to run `Trimmomatic`?
+- **variant-analysis-somatic-variant-discovery-q013** — I need to trim adapters and low-quality bases from sequencing reads before alignment for somatic variant discovery. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q014** — What Galaxy tool should I run for `Map with BWA-MEM`?
+- **variant-analysis-somatic-variant-discovery-q014** — I have paired tumor and normal FASTQ files and want to align them separately to the reference genome (one BAM per sample) as preparation for somatic variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q015** — Which Galaxy tool should I use to run `Build list`?
+- **variant-analysis-somatic-variant-discovery-q015** — I need to create a plain list of BAM files (tumor and normal) in the correct order for a downstream somatic calling step that expects a file-of-filenames. Which Galaxy tool should I use?
   - Tools: __BUILD_LIST__
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q016** — What Galaxy tool should I run for `Create text file`?
+- **variant-analysis-somatic-variant-discovery-q016** — I need to create a small text file containing repeated or structured lines (for example a two-column mapping of sample to group) for downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_text_file_with_recurring_lines/9.5+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q017** — Which Galaxy tool would you recommend to perform `__RELABEL_FROM_FILE__`?
+- **variant-analysis-somatic-variant-discovery-q017** — I have a mapping file for sample names and want to relabel datasets in my history or collection accordingly. Which Galaxy tool should I use?
   - Tools: __RELABEL_FROM_FILE__
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q018** — What Galaxy tool should I run for `Samtools view`?
+- **variant-analysis-somatic-variant-discovery-q018** — I need to filter or subset a BAM file (for example keep mapped reads or remove low-quality alignments) for downstream variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q019** — What Galaxy tool should I run for `RmDup`?
+- **variant-analysis-somatic-variant-discovery-q019** — I want to remove duplicate reads from a BAM file as part of preparing alignments for variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/samtools_rmdup/2.0.1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q020** — Which Galaxy tool would you recommend to perform `bamleftalign`?
+- **variant-analysis-somatic-variant-discovery-q020** — I want to left-align indels in my BAM file to make variant representation consistent before calling variants. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/bamleftalign/1.3.10+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q021** — Which Galaxy tool would you recommend to perform `samtools_calmd`?
+- **variant-analysis-somatic-variant-discovery-q021** — I want to recalculate alignment tags (for example MD and NM) for a BAM file after processing so downstream tools have consistent metadata. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_calmd/samtools_calmd/2.0.7
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q022** — Which Galaxy tool would you recommend to perform `Grep1`?
+- **variant-analysis-somatic-variant-discovery-q022** — I need to search within a text file and keep only lines matching a pattern (for example select specific chromosomes or sample IDs). Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q023** — Which Galaxy tool should I use to run `Replace Text in entire line`?
+- **variant-analysis-somatic-variant-discovery-q023** — I need to replace a pattern in a text file line-by-line (for example standardize chromosome names) as a cleanup step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q024** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **variant-analysis-somatic-variant-discovery-q024** — I have a dataset inside a collection and need to extract it as a standalone dataset for a specific downstream tool. Which Galaxy tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q025** — Which Galaxy tool would you recommend to perform `control_freec`?
+- **variant-analysis-somatic-variant-discovery-q025** — I have tumor and normal alignments and want to estimate copy-number changes across the genome from read-depth signals. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varscan_copynumber/varscan_copynumber/2.4.3.2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variant-discovery-q026** — Which Galaxy tool would you recommend to perform `circos`?
+- **variant-analysis-somatic-variant-discovery-q026** — I have genomic copy-number or structural summary data and want a circular genome visualization to summarize events across chromosomes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 
@@ -21046,58 +21046,58 @@ Questions:
 - Datasets (3): zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 
 Questions:
-- **variant-analysis-somatic-variants-q011** — What Galaxy tool should I run for `Falco`?
+- **variant-analysis-somatic-variants-q011** — I have sequencing reads and want a fast read-quality report before running a somatic variant calling workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q012** — Which Galaxy tool should I use to run `MultiQC`?
+- **variant-analysis-somatic-variants-q012** — I have QC outputs from multiple tumor and normal samples and want one combined report for quick review. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q013** — Which Galaxy tool should I use to run `Trimmomatic`?
+- **variant-analysis-somatic-variants-q013** — I need to trim adapters and low-quality bases from my reads before somatic variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q014** — Which Galaxy tool should I use to run `Map with BWA-MEM`?
+- **variant-analysis-somatic-variants-q014** — I want to align tumor and normal reads to the reference genome to produce BAM files for somatic variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q015** — Which Galaxy tool would you recommend to perform `bamFilter`?
+- **variant-analysis-somatic-variants-q015** — I need to filter my BAM file based on mapping quality or flags (for example keep properly paired reads) before variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.5.2+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q016** — Which Galaxy tool would you recommend to perform `samtools_rmdup`?
+- **variant-analysis-somatic-variants-q016** — I want to remove duplicate reads from a BAM file to reduce PCR bias before calling somatic variants. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/samtools_rmdup/2.0.1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q017** — Which Galaxy tool would you recommend to perform `bamleftalign`?
+- **variant-analysis-somatic-variants-q017** — I want to left-align indels in my BAM file so downstream variant calling and normalization behave consistently. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/freebayes/bamleftalign/1.3.10+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q018** — Which Galaxy tool would you recommend to perform `samtools_calmd`?
+- **variant-analysis-somatic-variants-q018** — I want to recalculate alignment tags in a BAM file after filtering so downstream steps have consistent mismatch information. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_calmd/samtools_calmd/2.0.7
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q019** — What Galaxy tool should I run for `VarScan somatic`?
+- **variant-analysis-somatic-variants-q019** — I have tumor and normal alignments and want to call somatic SNVs and indels, producing separate variant calls and somatic classifications. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varscan_somatic/varscan_somatic/2.4.3.6
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q020** — Which Galaxy tool would you recommend to perform `snpEff`?
+- **variant-analysis-somatic-variants-q020** — I want to annotate somatic variants with predicted functional consequences on genes and transcripts to help prioritize candidates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snpeff/snpEff/5.2+galaxy1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q021** — Which Galaxy tool would you recommend to perform `gemini_load`?
+- **variant-analysis-somatic-variants-q021** — I have an annotated VCF and want to load it into a queryable variant database for filtering and reporting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_load/gemini_load/0.20.1+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q022** — What Galaxy tool should I run for `GEMINI annotate`?
+- **variant-analysis-somatic-variants-q022** — I want to add additional annotations (for example gene panels or custom fields) to my variant database to support downstream filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_annotate/gemini_annotate/0.20.1+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q023** — What Galaxy tool should I run for `GEMINI query`?
+- **variant-analysis-somatic-variants-q023** — I want to query my variant database and export a table of somatic variants that match filters like gene list, impact, and genotype. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q024** — Which Galaxy tool should I use to run `Join two files`?
+- **variant-analysis-somatic-variants-q024** — I have two tabular datasets with a shared key column and want to join them to combine annotations and metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy3
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q025** — Which Galaxy tool should I use to run `Column arrange by header name`?
+- **variant-analysis-somatic-variants-q025** — I have a wide results table and want to reorder columns by header name so the table matches the expected format for a downstream report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/column_arrange_by_header/bg_column_arrange_by_header/0.2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q026** — What Galaxy tool should I run for `SnpEff Download`?
+- **variant-analysis-somatic-variants-q026** — I need to download or prepare the annotation database used for predicting variant effects for my genome build before annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snpeff/snpEff_download/5.2+galaxy1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q027** — Which Galaxy tool would you recommend to perform `GEMINI database info`?
+- **variant-analysis-somatic-variants-q027** — I want to run a second query against my variant database (for example a different gene panel or stricter filters) and export the results. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_query/gemini_query/0.20.1+galaxy2
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
-- **variant-analysis-somatic-variants-q028** — Which Galaxy tool should I use to run `Cut columns from a table`?
+- **variant-analysis-somatic-variants-q028** — I need to keep only a subset of columns from a somatic-variant results table for a report or plot. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 
@@ -21107,49 +21107,49 @@ Questions:
 - Datasets (3): zenodo.3496437, zenodo.3960260, 3497110
 
 Questions:
-- **variant-analysis-tb-variant-analysis-q011** — Which Galaxy tool should I use to run `Import`?
+- **variant-analysis-tb-variant-analysis-q011** — I need to upload my Mycobacterium tuberculosis sequencing reads and reference files into Galaxy to start a variant analysis. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q012** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **variant-analysis-tb-variant-analysis-q012** — I have tuberculosis sequencing reads and want an initial read-quality report before trimming and variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q013** — What Galaxy tool should I run for `MultiQC`?
+- **variant-analysis-tb-variant-analysis-q013** — I ran QC on multiple TB samples and want a single combined report to compare them side-by-side. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q014** — What Galaxy tool should I run for `fastp`?
+- **variant-analysis-tb-variant-analysis-q014** — I want to trim adapters and filter low-quality reads from my TB sequencing data and generate a QC summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q015** — Which Galaxy tool would you recommend to perform `kraken2`?
+- **variant-analysis-tb-variant-analysis-q015** — I want to check whether my sequencing reads contain contamination by classifying reads taxonomically against a reference database. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q016** — What Galaxy tool should I run for `Snippy`?
+- **variant-analysis-tb-variant-analysis-q016** — I have bacterial whole-genome reads and a reference genome and want a rapid workflow that maps reads and calls variants, producing a VCF. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.6.0+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q017** — Which Galaxy tool would you recommend to perform `tb_variant_filter`?
+- **variant-analysis-tb-variant-analysis-q017** — I want to filter TB variant calls to remove variants in problematic regions and keep a high-confidence set for interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.4.0+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q018** — Which Galaxy tool should I use to run `TB-Profiler profile`?
+- **variant-analysis-tb-variant-analysis-q018** — I have TB variant calls and want to predict lineage and drug-resistance profiles from the variants for clinical interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/6.6.4+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q019** — Which Galaxy tool would you recommend to perform `tp_sed_tool`?
+- **variant-analysis-tb-variant-analysis-q019** — I need to apply a simple text substitution to clean up sample identifiers or headers in a results file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/9.5+galaxy3
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q020** — Which Galaxy tool would you recommend to perform `tbvcfreport`?
+- **variant-analysis-tb-variant-analysis-q020** — I want a TB-focused report from my VCF that summarizes variants and highlights clinically relevant mutations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/tbvcfreport/tbvcfreport/1.0.1+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q021** — What Galaxy tool should I run for `seqret`?
+- **variant-analysis-tb-variant-analysis-q021** — I need to convert a sequence dataset from one format to another (for example FASTQ to FASTA or between FASTA variants) as a compatibility step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: seqret84/5.0.0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q022** — Which Galaxy tool should I use to run `JBrowse`?
+- **variant-analysis-tb-variant-analysis-q022** — I want to visualize TB alignments and variants interactively along the reference genome to inspect evidence for key mutations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q023** — What Galaxy tool should I run for `FastQC`?
+- **variant-analysis-tb-variant-analysis-q023** — After trimming, I want to re-check read quality for my TB reads to confirm adapter and quality issues are resolved. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q024** — Which Galaxy tool would you recommend to perform `samtools_stats`?
+- **variant-analysis-tb-variant-analysis-q024** — I want a detailed alignment-statistics report from my BAM file (coverage, mismatches, and other metrics) as a QC step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.8
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q025** — Which Galaxy tool should I use to run `BAM Coverage Plotter`?
+- **variant-analysis-tb-variant-analysis-q025** — I want a genome-wide coverage plot from my alignments to spot low-coverage regions that could affect variant calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jvarkit_wgscoverageplotter/jvarkit_wgscoverageplotter/20201223+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
 
@@ -21159,43 +21159,43 @@ Questions:
 - Datasets (3): zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 
 Questions:
-- **variant-analysis-trio-analysis-q011** — What Galaxy tool should I run for `EGA Download Client`?
+- **variant-analysis-trio-analysis-q011** — I need to download controlled-access sequencing data from a secure archive into Galaxy for a trio analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ega_download_client/pyega3/5.0.2+galaxy0
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q012** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **variant-analysis-trio-analysis-q012** — I have a text table and need to select lines matching a pattern (for example keep only the trio sample IDs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy3
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q013** — Which Galaxy tool should I use to run `Column Regex Find And Replace`?
+- **variant-analysis-trio-analysis-q013** — I need to clean up identifiers in a text file using a regular expression find-and-replace (for example standardize sample names). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q014** — Which Galaxy tool would you recommend to perform `bcftools_norm`?
+- **variant-analysis-trio-analysis-q014** — I have a VCF for a family and want to normalize it (split multiallelic sites and left-align indels) before annotation and filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bcftools_norm/bcftools_norm/1.22+galaxy0
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q015** — Which Galaxy tool should I use to run `Filter`?
+- **variant-analysis-trio-analysis-q015** — I want to filter a trio VCF by criteria like genotype quality, depth, and allele frequency to keep high-confidence candidate variants. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q016** — Which Galaxy tool would you recommend to perform `bcftools_merge`?
+- **variant-analysis-trio-analysis-q016** — I have separate VCFs for child and parents and want to merge them into a single multi-sample VCF for trio analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bcftools_merge/bcftools_merge/1.22+galaxy0
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q017** — Which Galaxy tool would you recommend to perform `snpEff`?
+- **variant-analysis-trio-analysis-q017** — I want to annotate trio variants with predicted functional consequences so I can prioritize candidate de novo or recessive variants. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snpeff/snpEff/5.2+galaxy1
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q018** — What Galaxy tool should I run for `GEMINI load`?
+- **variant-analysis-trio-analysis-q018** — I want to load my annotated trio VCF into a queryable variant database for downstream inheritance filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_load/gemini_load/0.20.1+galaxy2
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q019** — Which Galaxy tool should I use to run `GEMINI inheritance pattern`?
+- **variant-analysis-trio-analysis-q019** — I want to apply inheritance-model filtering on a trio to identify candidate de novo, dominant, or recessive variants. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gemini_inheritance/gemini_inheritance/0.20.1
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q020** — What Galaxy tool should I run for `gene.iobio visualisation`?
+- **variant-analysis-trio-analysis-q020** — I want to inspect variants and read evidence interactively in a genome browser within Galaxy during trio review. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q021** — What Galaxy tool should I run for `Convert compressed file to uncompressed.`?
+- **variant-analysis-trio-analysis-q021** — I have a compressed (gzipped) VCF and need to decompress it into plain text so another tool can read it. Which Galaxy tool should I use?
   - Tools: CONVERTER_gz_to_uncompressed
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q022** — Which Galaxy tool should I use to run `Text reformatting`?
+- **variant-analysis-trio-analysis-q022** — I need to edit a text file using a regex-based find-and-replace (for example fix chromosome prefixes in a VCF header). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
-- **variant-analysis-trio-analysis-q023** — Which Galaxy tool would you recommend to perform `Convert uncompressed file to compressed.`?
+- **variant-analysis-trio-analysis-q023** — I have an uncompressed VCF and need to compress it into gz format for compatibility and storage. Which Galaxy tool should I use?
   - Tools: CONVERTER_uncompressed_to_gz
   - Datasets: zenodo.6483454, 6483454, Case5_F.17.g.vcf.gz
 
@@ -21205,25 +21205,25 @@ Questions:
 - Datasets (3): 4494146, VCaP_B-allele-Frequency.tsv, VCaP_Copy-Number.tsv
 
 Questions:
-- **visualisation-circos-q011** — Which Galaxy tool should I use to run `Import Data`?
+- **visualisation-circos-q011** — I need to upload track files (coverage, variants, annotations) into Galaxy so I can make a circular genome visualization. Which Galaxy tool should I use?
   - Tools: upload1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
-- **visualisation-circos-q012** — Which Galaxy tool should I use to run `Circos`?
+- **visualisation-circos-q012** — I want to create a circular genome plot that combines multiple genomic tracks (coverage, features, and links) for an overview figure. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
-- **visualisation-circos-q013** — Which Galaxy tool should I use for selecting lines that match an expression?
+- **visualisation-circos-q013** — I need to search within a text track file and keep only lines matching a pattern (for example select a subset of contigs). Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
-- **visualisation-circos-q014** — What Galaxy tool should I run for `Cut`?
+- **visualisation-circos-q014** — I have a tabular track file and need to keep only the columns required by a plotting tool. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
-- **visualisation-circos-q015** — Which Galaxy tool should I use to run `Remove beginning`?
+- **visualisation-circos-q015** — I need to remove the first lines of a text file (for example a header block) before using it as a plotting track. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
-- **visualisation-circos-q016** — Which Galaxy tool should I use to run `Select random lines`?
+- **visualisation-circos-q016** — I have a very large text track file and want to randomly sample lines to do a quick sanity check or create a small test input. Which Galaxy tool should I use?
   - Tools: random_lines1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
-- **visualisation-circos-q017** — Which Galaxy tool should I use to run `Remove`?
+- **visualisation-circos-q017** — I need to remove comment or header lines from a track file so it can be parsed cleanly by downstream visualization steps. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 4494146, VCaP_Copy-Number.tsv, VCaP_B-allele-Frequency.tsv
 
@@ -21233,28 +21233,28 @@ Questions:
 - Datasets (3): zenodo.3591856, dna%20sequencing%20coverage.bw, genome.fa
 
 Questions:
-- **visualisation-circos-microbial-q011** — What Galaxy tool should I run for `GC Skew`?
+- **visualisation-circos-microbial-q011** — I want a GC-skew style track across a microbial genome to help interpret replication-related patterns in a circular plot. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_gc_skew/0.69.8+galaxy7
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q012** — Which Galaxy tool should I use to run `Circos: bigWig to Scatter`?
+- **visualisation-circos-microbial-q012** — I have a wiggle-like signal track and need to convert it into a scatter-style format suitable for circular genome plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_wiggle_to_scatter/0.69.8+galaxy7
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q013** — Which Galaxy tool would you recommend to perform `deeptools_bam_coverage`?
+- **visualisation-circos-microbial-q013** — I have a BAM file and want a genome-wide coverage track (bedGraph-like) to use in downstream visualizations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q014** — Which Galaxy tool should I use to run `Cut`?
+- **visualisation-circos-microbial-q014** — I need to select and reorder columns from a coverage or feature table so it matches the required format for plotting. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q015** — Which Galaxy tool would you recommend to perform `circos_interval_to_text`?
+- **visualisation-circos-microbial-q015** — I have genomic intervals and want to convert them into a plain text track format that a circular genome plotter can consume. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_interval_to_text/0.69.8+galaxy7
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q016** — Which Galaxy tool would you recommend to perform `gff2bed1`?
+- **visualisation-circos-microbial-q016** — I have genome annotations in GFF format and want to convert them into a BED-like format for visualization. Which Galaxy tool should I use?
   - Tools: gff2bed1
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q017** — What Galaxy tool should I run for `Circos: Interval to Tiles`?
+- **visualisation-circos-microbial-q017** — I want to convert genomic intervals into a tile track format suitable for a circular genome plot. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos_interval_to_tile/0.69.8+galaxy7
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
-- **visualisation-circos-microbial-q018** — What Galaxy tool should I run for `Circos`?
+- **visualisation-circos-microbial-q018** — I have prepared multiple microbial tracks (GC skew, coverage, annotations) and now want to render the final circular genome plot. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   - Datasets: zenodo.3591856, genome.fa, dna%20sequencing%20coverage.bw
 
@@ -21264,15 +21264,15 @@ Questions:
 - Datasets (1): zenodo.3591856
 
 Questions:
-- **visualisation-jbrowse-q011** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **visualisation-jbrowse-q011** — I want an interactive genome browser in Galaxy to explore my BAM, VCF, and annotation tracks along the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.3591856
-- **visualisation-jbrowse-q012** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **visualisation-jbrowse-q012** — I want to open an interactive genome browser focused on a region of interest so I can inspect read support for specific variants. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.3591856
-- **visualisation-jbrowse-q013** — Which Galaxy tool provides an interactive genome browser for visualizing tracks?
+- **visualisation-jbrowse-q013** — Which Galaxy tool provides an interactive genome browser for exploring tracks and annotations?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.3591856
-- **visualisation-jbrowse-q014** — Which Galaxy tool would you recommend to perform `jbrowse`?
+- **visualisation-jbrowse-q014** — Which Galaxy tool should I use to create an interactive genome browser session for my alignments and variant calls?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: zenodo.3591856
