@@ -19840,52 +19840,52 @@ Questions:
 - **transcriptomics-full-de-novo-q016** — I want to quantify transcript abundances by mapping reads back to my assembled transcriptome and estimating expression levels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_align_and_estimate_abundance/trinity_align_and_estimate_abundance/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q017** — Which Galaxy tool should I use to run `Build expression matrix`?
+- **transcriptomics-full-de-novo-q017** — I have per-sample transcript abundance estimates from a de novo assembly workflow and want to build a single expression matrix across all samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_abundance_estimates_to_matrix/trinity_abundance_estimates_to_matrix/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q018** — Which Galaxy tool should I use to run `Compute contig Ex90N50 statistic and Ex90 transcript count`?
+- **transcriptomics-full-de-novo-q018** — After de novo transcriptome assembly, I want an ExN50-style contig statistic to assess assembly quality at high expression levels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_contig_exn50_statistic/trinity_contig_exn50_statistic/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q019** — Which Galaxy tool would you recommend to perform `Busco`?
+- **transcriptomics-full-de-novo-q019** — I want to assess the completeness of my de novo transcriptome assembly by checking for conserved single-copy orthologs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q020** — What Galaxy tool should I run for `Filter low expression transcripts`?
+- **transcriptomics-full-de-novo-q020** — I have a transcriptome assembly with expression estimates and want to filter out very lowly expressed transcripts to reduce noise before downstream analyses. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_filter_low_expr_transcripts/trinity_filter_low_expr_transcripts/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q021** — Which Galaxy tool should I use to run `Generate gene to transcript map`?
+- **transcriptomics-full-de-novo-q021** — I need a gene-to-transcript mapping file derived from my transcriptome assembly so downstream tools can summarize expression at the gene level. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_gene_to_trans_map/trinity_gene_to_trans_map/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q022** — Which Galaxy tool should I use to run `TransDecoder`?
+- **transcriptomics-full-de-novo-q022** — I have assembled transcript sequences and want to predict coding regions and translate them into protein sequences for annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/transdecoder/transdecoder/5.5.0+galaxy2
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q023** — Which Galaxy tool should I use to run `Diamond`?
+- **transcriptomics-full-de-novo-q023** — I want to search my assembled transcripts or predicted proteins against a protein database to find homologs and functional hints. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.1.16+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q024** — Which Galaxy tool should I use to run `SignalP 3.0`?
+- **transcriptomics-full-de-novo-q024** — I have predicted protein sequences and want to annotate signal peptides and secretion-related features as part of functional annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/interproscan/interproscan/5.59-91.0+galaxy3
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q025** — Which Galaxy tool should I use to run `TMHMM 2.0`?
+- **transcriptomics-full-de-novo-q025** — I have predicted protein sequences and want to predict transmembrane helices to help classify membrane proteins. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/interproscan/interproscan/5.59-91.0+galaxy3
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q026** — What Galaxy tool should I run for `hmmscan`?
+- **transcriptomics-full-de-novo-q026** — I want protein domain annotations using profile HMM searches so I can assign families and functional domains to my predicted proteins. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/interproscan/interproscan/5.59-91.0+galaxy3
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q027** — Which Galaxy tool would you recommend to perform `Trinotate`?
+- **transcriptomics-full-de-novo-q027** — I have similarity and domain-annotation results for a de novo transcriptome and want an integrated functional annotation report I can filter and browse. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinotate/trinotate/3.2.2+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q028** — Which Galaxy tool would you recommend to perform `Describe samples and replicates`?
+- **transcriptomics-full-de-novo-q028** — I have a sample metadata table describing conditions and replicates and want to verify and visualize the grouping interactively in a Python notebook. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q029** — Which Galaxy tool should I use to run `RNASeq samples quality check`?
+- **transcriptomics-full-de-novo-q029** — I have an expression matrix from a de novo transcriptome workflow and want to run a sample-level QC check to spot outliers and replicate issues. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_samples_qccheck/trinity_samples_qccheck/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q030** — Which Galaxy tool would you recommend to perform `Differential expression analysis`?
+- **transcriptomics-full-de-novo-q030** — I have a transcript expression matrix and a sample design and want to run differential expression analysis between conditions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_run_de_analysis/trinity_run_de_analysis/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q031** — Which Galaxy tool would you recommend to perform `Extract and cluster differentially expressed transcripts`?
+- **transcriptomics-full-de-novo-q031** — After differential expression, I want to extract the significant transcripts and cluster them by expression pattern, exploring the clusters interactively in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q032** — What Galaxy tool should I run for `Partition genes into expression clusters`?
+- **transcriptomics-full-de-novo-q032** — I want to partition genes or transcripts into expression clusters and inspect cluster profiles interactively. Which Galaxy tool should I use in Galaxy?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 
@@ -19895,40 +19895,40 @@ Questions:
 - Datasets (1): 2565417
 
 Questions:
-- **transcriptomics-goenrichment-q011** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **transcriptomics-goenrichment-q011** — I have differential expression results and want to filter the table to keep only genes passing an adjusted p-value threshold. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q012** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **transcriptomics-goenrichment-q012** — Before enrichment analysis, I want to remove genes with very low counts or missing annotations from my gene list table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 2565417
 - **transcriptomics-goenrichment-q013** — Which Galaxy tool filters rows from a gene table by condition?
   - Tools: Filter1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q014** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **transcriptomics-goenrichment-q014** — Which Galaxy tool can filter rows from a tabular gene list using a simple rule (for example keep only rows where a column meets a threshold)?
   - Tools: Filter1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q015** — Which Galaxy tool would you recommend to perform `goenrichment`?
+- **transcriptomics-goenrichment-q015** — I have a list of significant genes and want GO enrichment analysis to find overrepresented biological process terms. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q016** — Which Galaxy tool would you recommend to perform `goenrichment`?
+- **transcriptomics-goenrichment-q016** — I have a selected gene list and a background gene set and want GO enrichment with multiple-testing correction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q017** — Which Galaxy tool runs GO enrichment analysis?
+- **transcriptomics-goenrichment-q017** — I have a gene list and want GO enrichment analysis to identify overrepresented biological processes, molecular functions, and cellular components. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q018** — Which Galaxy tool would you recommend to perform `goenrichment`?
+- **transcriptomics-goenrichment-q018** — Which Galaxy tool should I use to test a gene list for enriched GO terms and return a ranked table of significant categories?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/2.0.1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q019** — Which Galaxy tool would you recommend to perform `goslimmer`?
+- **transcriptomics-goenrichment-q019** — I have GO terms (from annotation or enrichment) and want to map them to a GO Slim so I can report a high-level functional summary. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q020** — Which Galaxy tool would you recommend to perform `goslimmer`?
+- **transcriptomics-goenrichment-q020** — I have a gene-to-GO annotation table and want to collapse detailed GO terms into GO Slim categories for reporting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
   - Datasets: 2565417
 - **transcriptomics-goenrichment-q021** — Which Galaxy tool maps GO terms to GO Slim categories?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
   - Datasets: 2565417
-- **transcriptomics-goenrichment-q022** — Which Galaxy tool would you recommend to perform `goslimmer`?
+- **transcriptomics-goenrichment-q022** — Which Galaxy tool can take GO terms and return their GO Slim categories for a simplified summary?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/1.0.1
   - Datasets: 2565417
 
@@ -19948,49 +19948,49 @@ Questions:
 - Datasets (3): 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
 
 Questions:
-- **transcriptomics-mirna-target-finder-q011** — What Galaxy tool should I run for `Sub-sample sequences files`?
+- **transcriptomics-mirna-target-finder-q011** — I have very large small RNA sequencing reads and want to randomly subsample them for a quick pilot run and QC. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/peterjc/sample_seqs/sample_seqs/0.2.6
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q012** — Which Galaxy tool should I use to run `Falco`?
+- **transcriptomics-mirna-target-finder-q012** — I want a fast per-sample read-quality report for my small RNA sequencing reads before trimming and mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q013** — Which Galaxy tool would you recommend to perform `__MERGE_COLLECTION__`?
+- **transcriptomics-mirna-target-finder-q013** — I have QC outputs in a dataset collection and need to merge the collection elements so a downstream summarization step can read them together. Which Galaxy tool should I use?
   - Tools: __MERGE_COLLECTION__
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q014** — Which Galaxy tool should I use to run `MultiQC`?
+- **transcriptomics-mirna-target-finder-q014** — I have many QC reports across samples and want a single consolidated summary report to compare them side-by-side. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q015** — Which Galaxy tool would you recommend to perform `trim_galore`?
+- **transcriptomics-mirna-target-finder-q015** — I need to trim adapters from small RNA sequencing reads and remove low-quality bases before miRNA analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.10+galaxy0
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q016** — What Galaxy tool should I run for `MiRDeep2 Mapper`?
+- **transcriptomics-mirna-target-finder-q016** — I need to map small RNA reads to a reference genome and prepare the alignments for miRNA discovery and quantification. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_mapper/rbc_mirdeep2_mapper/2.0.0.8.1
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q017** — Which Galaxy tool should I use to run `MiRDeep2 Quantifier`?
+- **transcriptomics-mirna-target-finder-q017** — I want to quantify known miRNAs from mapped small RNA reads and produce a count table for downstream differential analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_quantifier/rbc_mirdeep2_quantifier/2.0.0
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q018** — Which Galaxy tool should I use to run `Cut columns from a table`?
+- **transcriptomics-mirna-target-finder-q018** — I have a miRNA count or annotation table and want to keep only specific columns (for example miRNA ID and counts). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q019** — Which Galaxy tool should I use to run `DESeq2`?
+- **transcriptomics-mirna-target-finder-q019** — I have a miRNA count matrix with sample groups and want to run differential expression analysis to find miRNAs that change between conditions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q020** — What Galaxy tool should I run for `Filter`?
+- **transcriptomics-mirna-target-finder-q020** — I want to filter my differential miRNA results table to keep only significant miRNAs (for example by adjusted p-value and effect size). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q021** — Which Galaxy tool would you recommend to perform `sort1`?
+- **transcriptomics-mirna-target-finder-q021** — I need to sort a tabular results file by a column while keeping the header intact. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q022** — Which Galaxy tool would you recommend to perform `salmon`?
+- **transcriptomics-mirna-target-finder-q022** — I want to quantify transcript abundance from RNA-seq reads using lightweight mapping to a transcriptome, producing a table of abundances per transcript. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon/1.10.1+galaxy4
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q023** — Which Galaxy tool would you recommend to perform `filter_by_fasta_ids`?
+- **transcriptomics-mirna-target-finder-q023** — I have a FASTA file of sequences and a list of identifiers, and I want to keep only the sequences whose IDs are in the list. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/filter_by_fasta_ids/filter_by_fasta_ids/2.3
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q024** — Which Galaxy tool would you recommend to perform `cat1`?
+- **transcriptomics-mirna-target-finder-q024** — I have several small gene or transcript lists from intermediate steps and want to concatenate them into one combined list for downstream filtering. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
-- **transcriptomics-mirna-target-finder-q025** — Which Galaxy tool would you recommend to perform `targetfinder`?
+- **transcriptomics-mirna-target-finder-q025** — I have miRNA sequences and transcript sequences and want to predict potential miRNA target sites to generate candidate interactions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder/1.7.0+galaxy1
   - Datasets: 4710649, SRR11611349_MIRNASEQ_CTL.fastqsanger.gz, SRR11611350_MIRNASEQ_CTL.fastqsanger.gz
 
@@ -20000,16 +20000,16 @@ Questions:
 - Datasets (3): zenodo.1344105, zenodo.1344105, 2241_CP_DZ_PairTo_2242.txt
 
 Questions:
-- **transcriptomics-network-analysis-with-heinz-q011** — Which Galaxy tool should I use to run `DESeq2`?
+- **transcriptomics-network-analysis-with-heinz-q011** — I have RNA-seq counts and want differential expression results (p-values and fold changes) to use as input for downstream network analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2
   - Datasets: zenodo.1344105, zenodo.1344105, 2241_CP_DZ_PairTo_2242.txt
-- **transcriptomics-network-analysis-with-heinz-q012** — What Galaxy tool should I run for `Fit a BUM model`?
+- **transcriptomics-network-analysis-with-heinz-q012** — I have p-values from differential expression and want to fit a null distribution model so I can transform p-values into node scores for network search. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/heinz/heinz_bum/1.0
   - Datasets: zenodo.1344105, zenodo.1344105, 2241_CP_DZ_PairTo_2242.txt
-- **transcriptomics-network-analysis-with-heinz-q013** — What Galaxy tool should I run for `Calculate a Heinz score`?
+- **transcriptomics-network-analysis-with-heinz-q013** — I want to compute node scores from expression statistics so I can run a scoring-based subnetwork search on an interaction network. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/heinz/heinz_scoring/1.0
   - Datasets: zenodo.1344105, zenodo.1344105, 2241_CP_DZ_PairTo_2242.txt
-- **transcriptomics-network-analysis-with-heinz-q014** — Which Galaxy tool would you recommend to perform `Identify optimal scoring subnetwork`?
+- **transcriptomics-network-analysis-with-heinz-q014** — I have an interaction network plus node scores and want to identify the highest-scoring connected subnetwork associated with my condition. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/heinz/heinz/1.0
   - Datasets: zenodo.1344105, zenodo.1344105, 2241_CP_DZ_PairTo_2242.txt
 
@@ -20019,136 +20019,136 @@ Questions:
 - Datasets (1): 6457007
 
 Questions:
-- **transcriptomics-ref-based-q011** — Which Galaxy tool should I use to run `Flatten collection`?
+- **transcriptomics-ref-based-q011** — I have a nested dataset collection and need to flatten it into a simple list of datasets for a downstream workflow step. Which Galaxy tool should I use?
   - Tools: __FLATTEN__
   - Datasets: 6457007
-- **transcriptomics-ref-based-q012** — Which Galaxy tool should I use to run `Falco`?
+- **transcriptomics-ref-based-q012** — I want a fast QC report for my RNA-seq reads as part of a reference-based analysis workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q013** — What Galaxy tool should I run for `MultiQC`?
+- **transcriptomics-ref-based-q013** — I have QC outputs for multiple RNA-seq samples and want a single combined report to compare them side-by-side. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q014** — What Galaxy tool should I run for `Cutadapt`?
+- **transcriptomics-ref-based-q014** — I need to remove adapter contamination and trim low-quality bases from RNA-seq reads before alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q015** — Which Galaxy tool should I use to run `RNA STAR`?
+- **transcriptomics-ref-based-q015** — I want to align RNA-seq reads to a reference genome with a splice-aware aligner that is robust for junction discovery and produces a BAM file for downstream QC and visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q016** — Which Galaxy tool would you recommend to perform `jbrowse2`?
+- **transcriptomics-ref-based-q016** — I want to inspect my RNA-seq alignments and gene annotations interactively in a genome browser within Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q017** — What Galaxy tool should I run for `MarkDuplicates`?
+- **transcriptomics-ref-based-q017** — I have a BAM file and want to mark or remove PCR duplicates so downstream quantification is not biased. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q018** — What Galaxy tool should I run for `Samtools idxstats`?
+- **transcriptomics-ref-based-q018** — I want a quick summary of how many reads map to each chromosome or reference sequence from my BAM file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 6457007
-- **transcriptomics-ref-based-q019** — Which Galaxy tool should I use to run `Samtools view`?
+- **transcriptomics-ref-based-q019** — I need to filter a BAM file based on flags, mapping quality, or regions (for example keep properly paired reads). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.22+galaxy1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q020** — Which Galaxy tool should I use to run `Convert GTF to BED12`?
+- **transcriptomics-ref-based-q020** — I have a transcript annotation in GTF format and need a BED12-style file for visualization and interval operations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357
   - Datasets: 6457007
-- **transcriptomics-ref-based-q021** — Which Galaxy tool should I use to run `Gene Body Coverage (BAM)`?
+- **transcriptomics-ref-based-q021** — I want a gene-body coverage plot from RNA-seq alignments to check for coverage bias along transcripts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_geneBody_coverage/5.0.3+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q022** — Which Galaxy tool should I use to run `Read Distribution`?
+- **transcriptomics-ref-based-q022** — I want to summarize where my RNA-seq reads map (exonic, intronic, intergenic) to assess library quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q023** — What Galaxy tool should I run for `pyGenomeTracks`?
+- **transcriptomics-ref-based-q023** — I want to generate a multi-track genomic figure combining coverage tracks and annotations for a locus of interest. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.9+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q024** — What Galaxy tool should I run for `Infer Experiment`?
+- **transcriptomics-ref-based-q024** — From a BAM file, I want to infer whether my RNA-seq library is stranded and what the read orientation is. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q025** — Which Galaxy tool should I use to run `featureCounts`?
+- **transcriptomics-ref-based-q025** — I have RNA-seq alignments and a gene annotation and want to count reads per gene to create a count matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q026** — What Galaxy tool should I run for `Remove beginning`?
+- **transcriptomics-ref-based-q026** — I need to remove the first few lines of a text or tabular file (for example a comment block) before using it downstream. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q027** — What Galaxy tool should I run for `Cut`?
+- **transcriptomics-ref-based-q027** — I have a tabular dataset and only need a subset of columns (for example gene ID plus one statistic column). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q028** — Which Galaxy tool would you recommend to perform `length_and_gc_content`?
+- **transcriptomics-ref-based-q028** — I have nucleotide sequences in FASTA format and want to compute sequence length and GC content for each record. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/length_and_gc_content/length_and_gc_content/0.1.2
   - Datasets: 6457007
-- **transcriptomics-ref-based-q029** — What Galaxy tool should I run for `Sort`?
+- **transcriptomics-ref-based-q029** — I need to sort a tabular file by a column while preserving the header line. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 6457007
-- **transcriptomics-ref-based-q030** — Which Galaxy tool would you recommend to perform `deseq2`?
+- **transcriptomics-ref-based-q030** — I have a gene count matrix and a sample design and want differential expression results between conditions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2
   - Datasets: 6457007
-- **transcriptomics-ref-based-q031** — Which Galaxy tool would you recommend to perform `collection_element_identifiers`?
+- **transcriptomics-ref-based-q031** — I have a dataset collection and want a table listing the element names or identifiers for bookkeeping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
   - Datasets: 6457007
-- **transcriptomics-ref-based-q032** — Which Galaxy tool would you recommend to perform `tp_replace_in_line`?
+- **transcriptomics-ref-based-q032** — I need to replace a pattern in a text file line-by-line (for example standardize sample names) without editing manually. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6457007
-- **transcriptomics-ref-based-q033** — Which Galaxy tool would you recommend to perform `__TAG_FROM_FILE__`?
+- **transcriptomics-ref-based-q033** — I have a mapping of sample IDs to group labels and want to tag datasets in a collection with those labels for downstream steps. Which Galaxy tool should I use?
   - Tools: __TAG_FROM_FILE__
   - Datasets: 6457007
-- **transcriptomics-ref-based-q034** — What Galaxy tool should I run for `Search in textfiles`?
+- **transcriptomics-ref-based-q034** — I need to search a text file for lines matching a pattern and keep only the matching or non-matching lines. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy3
   - Datasets: 6457007
-- **transcriptomics-ref-based-q035** — What Galaxy tool should I run for `Filter collecion`?
+- **transcriptomics-ref-based-q035** — I have a collection and a list of element identifiers to keep or remove, and I want to filter the collection accordingly. Which Galaxy tool should I use?
   - Tools: __FILTER_FROM_FILE__
   - Datasets: 6457007
-- **transcriptomics-ref-based-q036** — Which Galaxy tool should I use to run `Filter data on any column using simple expressions`?
+- **transcriptomics-ref-based-q036** — I want to filter a tabular dataset using a simple expression on one or more columns (for example adjusted p-value threshold). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q037** — Which Galaxy tool should I use to run `Annotate DESeq2/DEXSeq output tables`?
+- **transcriptomics-ref-based-q037** — I have differential expression results and want to add gene symbols, descriptions, and other identifiers so the table is ready for interpretation and reporting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q038** — What Galaxy tool should I run for `Concatenate datasets`?
+- **transcriptomics-ref-based-q038** — I want to concatenate multiple text tables into one combined file as a quick preparation step. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q039** — Which Galaxy tool would you recommend to perform `join1`?
+- **transcriptomics-ref-based-q039** — I have two tabular datasets that share a gene identifier column and need to join them into one table. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q040** — Which Galaxy tool should I use to run `heatmap2`?
+- **transcriptomics-ref-based-q040** — I have an expression matrix and want a clustered heatmap to visualize sample-to-sample and gene-to-gene patterns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.3.0+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q041** — What Galaxy tool should I run for `Table Compute`?
+- **transcriptomics-ref-based-q041** — I need to compute a derived column in a tabular file (for example transform counts or create a label) based on existing columns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2
   - Datasets: 6457007
-- **transcriptomics-ref-based-q042** — Which Galaxy tool should I use to run `Compute`?
+- **transcriptomics-ref-based-q042** — I need to create a new column in a table by applying an expression to existing columns (for example compute a ratio). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q043** — What Galaxy tool should I run for `Change Case`?
+- **transcriptomics-ref-based-q043** — I need to convert text in a column to upper case or lower case to standardize identifiers. Which Galaxy tool should I use?
   - Tools: ChangeCase
   - Datasets: 6457007
-- **transcriptomics-ref-based-q044** — Which Galaxy tool would you recommend to perform `__EXTRACT_DATASET__`?
+- **transcriptomics-ref-based-q044** — I have a dataset inside a collection and need to extract it as a standalone dataset for reuse in multiple workflow branches. Which Galaxy tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 6457007
-- **transcriptomics-ref-based-q045** — Which Galaxy tool should I use to run `goseq`?
+- **transcriptomics-ref-based-q045** — I want GO enrichment analysis that accounts for gene-length bias when testing differential expression gene lists. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q046** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **transcriptomics-ref-based-q046** — I need to group rows in a tabular dataset by a key and compute aggregated summaries for each group. Which Galaxy tool should I use?
   - Tools: Grouping1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q047** — Which Galaxy tool should I use to run `Pathview`?
+- **transcriptomics-ref-based-q047** — I want to visualize differential expression results on pathway diagrams to see which genes in a pathway are up or down. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pathview/pathview/1.34.0+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q048** — What Galaxy tool should I run for `DEXSeq-Count`?
+- **transcriptomics-ref-based-q048** — I want to count reads over exon bins so I can test for differential exon usage between conditions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dexseq/dexseq_count/1.48.0+galaxy1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q049** — What Galaxy tool should I run for `DEXSeq`?
+- **transcriptomics-ref-based-q049** — I have exon-bin counts and an experimental design and want to test for differential exon usage (alternative splicing) between conditions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/dexseq/dexseq/1.48.0+galaxy1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q050** — Which Galaxy tool should I use to run `IGV`?
+- **transcriptomics-ref-based-q050** — I want to view alignments and alternative splicing results interactively alongside gene models in a genome browser. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: 6457007
-- **transcriptomics-ref-based-q051** — What Galaxy tool should I run for `Select last`?
+- **transcriptomics-ref-based-q051** — I want to quickly preview the last lines of a large text file to sanity-check its formatting. Which Galaxy tool should I use?
   - Tools: Show tail1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q052** — What Galaxy tool should I run for `Replace Text`?
+- **transcriptomics-ref-based-q052** — I need to edit text within a file by replacing a pattern in each line (for example normalize transcript IDs) as a cleanup step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 6457007
-- **transcriptomics-ref-based-q053** — What Galaxy tool should I run for `Annotate`?
+- **transcriptomics-ref-based-q053** — I want to add gene annotations to a differential expression or exon-usage results table so it is easier to interpret and share. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1
   - Datasets: 6457007
-- **transcriptomics-ref-based-q054** — Which Galaxy tool would you recommend to perform `Join two Datasets`?
+- **transcriptomics-ref-based-q054** — I have two tables keyed by gene ID and need to join them so each gene has statistics and annotations together. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 6457007
 
@@ -20158,28 +20158,28 @@ Questions:
 - Datasets (3): 3709188, Mus_musculus.GRCm38.dna.fa.gz, miRNA_mature.fa.gz
 
 Questions:
-- **transcriptomics-rna-interactome-q011** — Which Galaxy tool should I use to run `FastQC`?
+- **transcriptomics-rna-interactome-q011** — I have RNA interactome sequencing reads and want an initial read-quality report before trimming and mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q012** — Which Galaxy tool would you recommend to perform `cutadapt`?
+- **transcriptomics-rna-interactome-q012** — I need to trim adapters and low-quality bases from RNA interactome sequencing reads prior to mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q013** — What Galaxy tool should I run for `ChiRA collapse`?
+- **transcriptomics-rna-interactome-q013** — After mapping chimeric reads, I want to collapse redundant interaction records to get a cleaner interaction table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse/1.4.31
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q014** — Which Galaxy tool would you recommend to perform `ChiRA map`?
+- **transcriptomics-rna-interactome-q014** — I want to map chimeric reads to detect candidate RNA-RNA interactions and produce an interaction table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map/1.4.30
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q015** — What Galaxy tool should I run for `ChiRA merge`?
+- **transcriptomics-rna-interactome-q015** — I have interaction calls from multiple samples or replicates and want to merge them into a unified set of interactions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge/1.4.30
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q016** — What Galaxy tool should I run for `ChiRA qauntify`?
+- **transcriptomics-rna-interactome-q016** — I want to quantify interaction support (read counts) for each interacting pair across samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chira_quantify/chira_quantify/1.4.30
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q017** — Which Galaxy tool should I use to run `ChiRA extract`?
+- **transcriptomics-rna-interactome-q017** — I want to extract interaction pairs and export them in a table format suitable for downstream visualization and filtering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/chira_extract/chira_extract/1.4.31
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
-- **transcriptomics-rna-interactome-q018** — Which Galaxy tool would you recommend to perform `Query Tabular`?
+- **transcriptomics-rna-interactome-q018** — I have a large tabular interaction table and want to run SQL-like queries to filter and select subsets (for example top interactions per gene). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.3.2
   - Datasets: 3709188, miRNA_mature.fa.gz, Mus_musculus.GRCm38.dna.fa.gz
 
@@ -20189,37 +20189,37 @@ Questions:
 - Datasets (2): oncotarget.5232, questions:
 
 Questions:
-- **transcriptomics-rna-seq-analysis-clustering-viz-q011** — What Galaxy tool should I run for `DESeq2`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q011** — I have a gene count matrix and sample groups and want differential expression results between conditions with adjusted p-values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q012** — What Galaxy tool should I run for `Annotate DESeq2/DEXSeq output tables`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q012** — I have a list of significant genes from an RNA-seq analysis and want to attach gene symbols and brief descriptions so I can label clusters and heatmaps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q013** — What Galaxy tool should I run for `Concatenate datasets`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q013** — I have several gene lists or result tables and want to concatenate them into one combined file for downstream clustering or enrichment. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q014** — Which Galaxy tool should I use to run `Cut`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q014** — I need to keep only specific columns from a tabular results file (for example gene ID, log fold change, and adjusted p-value). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q015** — Which Galaxy tool should I use to run `goseq`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q015** — I want GO enrichment analysis on a differential expression gene list while accounting for gene-length bias. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q016** — Which Galaxy tool should I use to run `Filter data on any column using simple expressions`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q016** — I want to filter a differential expression results table to keep only significant genes for downstream plots and clustering. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q017** — Which Galaxy tool would you recommend to perform `Grouping1`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q017** — I have a table that assigns genes to clusters and want to group by cluster to compute summaries like counts or mean expression. Which Galaxy tool should I use?
   - Tools: Grouping1
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q018** — Which Galaxy tool should I use to run `Multivariate`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q018** — I have an expression matrix and want multivariate analysis (for example PCA and clustering) to explore sample relationships. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/Multivariate/2.3.10
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q019** — Which Galaxy tool should I use to run `heatmap2`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q019** — I want a clustered heatmap of expression values to visualize patterns across genes and samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.3.0+galaxy0
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q020** — Which Galaxy tool should I use to run `filter`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q020** — I want to filter an expression matrix down to a subset of genes (for example the most variable genes) before making a heatmap. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: questions:, oncotarget.5232
-- **transcriptomics-rna-seq-analysis-clustering-viz-q021** — What Galaxy tool should I run for `Annotate`?
+- **transcriptomics-rna-seq-analysis-clustering-viz-q021** — I have a gene list from clustering and want to add functional annotations and gene descriptions before reporting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1
   - Datasets: questions:, oncotarget.5232
 
@@ -20229,28 +20229,28 @@ Questions:
 - Datasets (3): 4273218, countdata.tsv, factordata.tsv
 
 Questions:
-- **transcriptomics-rna-seq-counts-to-genes-q011** — Which Galaxy tool should I use to run `Cut columns from a table (cut)`?
+- **transcriptomics-rna-seq-counts-to-genes-q011** — I have a wide count table and need to keep only selected columns (for example gene ID plus one sample) as a cleanup step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q012** — Which Galaxy tool would you recommend to perform `Replace Text in entire line`?
+- **transcriptomics-rna-seq-counts-to-genes-q012** — I need to edit text within a file by replacing a pattern in each line (for example standardize sample names in headers). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q013** — Which Galaxy tool would you recommend to perform `Cut`?
+- **transcriptomics-rna-seq-counts-to-genes-q013** — I want to extract a specific set of columns from a tabular file to create a simplified gene-by-sample table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q014** — What Galaxy tool should I run for `Replace Text`?
+- **transcriptomics-rna-seq-counts-to-genes-q014** — I need to replace or remove a pattern in a text file line-by-line (for example strip prefixes from gene IDs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy3
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q015** — Which Galaxy tool would you recommend to perform `Merge Columns together`?
+- **transcriptomics-rna-seq-counts-to-genes-q015** — I have two tabular files with matching rows and want to merge their columns into a single combined table. Which Galaxy tool should I use?
   - Tools: mergeCols1
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q016** — What Galaxy tool should I run for `Merge Columns`?
+- **transcriptomics-rna-seq-counts-to-genes-q016** — I have two tables describing the same genes and want to merge columns so each row contains values from both sources. Which Galaxy tool should I use?
   - Tools: mergeCols1
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q017** — Which Galaxy tool should I use to run `annotateMyIDs`?
+- **transcriptomics-rna-seq-counts-to-genes-q017** — I have gene identifiers in one namespace and need to map them to another (for example Ensembl to gene symbols) for interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0
   - Datasets: 4273218, countdata.tsv, factordata.tsv
-- **transcriptomics-rna-seq-counts-to-genes-q018** — Which Galaxy tool should I use to run `limma`?
+- **transcriptomics-rna-seq-counts-to-genes-q018** — I have a gene count matrix and want differential expression analysis using a voom-style model for RNA-seq counts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0
   - Datasets: 4273218, countdata.tsv, factordata.tsv
 
@@ -20260,43 +20260,43 @@ Questions:
 - Datasets (3): 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 
 Questions:
-- **transcriptomics-rna-seq-genes-to-pathways-q011** — Which Galaxy tool would you recommend to perform `featureCounts`?
+- **transcriptomics-rna-seq-genes-to-pathways-q011** — I have RNA-seq alignments and a gene annotation and want to count reads per gene to start a pathway analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q012** — Which Galaxy tool would you recommend to perform `Compute an expression on every row`?
+- **transcriptomics-rna-seq-genes-to-pathways-q012** — I need to compute a new column in a tabular dataset (for example transform counts or create a grouping label) before enrichment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q013** — Which Galaxy tool would you recommend to perform `Join two Datasets side by side on a specified field`?
+- **transcriptomics-rna-seq-genes-to-pathways-q013** — I have two tables keyed by gene ID and need to join them into a single table for downstream analysis. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q014** — Which Galaxy tool should I use to run `Compute`?
+- **transcriptomics-rna-seq-genes-to-pathways-q014** — I want to derive an additional column in a gene table (for example compute a statistic or add a constant label) for a pathway workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q015** — Which Galaxy tool should I use to run `Cut columns from a table`?
+- **transcriptomics-rna-seq-genes-to-pathways-q015** — I have a gene table and need to keep only the columns required by an enrichment tool (for example gene ID and a ranking score). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q016** — What Galaxy tool should I run for `Join`?
+- **transcriptomics-rna-seq-genes-to-pathways-q016** — I have enrichment results and a gene annotation table and want to join them to add gene names or descriptions. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q017** — Which Galaxy tool should I use to run `goseq`?
+- **transcriptomics-rna-seq-genes-to-pathways-q017** — I want GO enrichment analysis on a set of significant genes from RNA-seq to identify overrepresented functions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q018** — What Galaxy tool should I run for `Sort data in ascending or descending order`?
+- **transcriptomics-rna-seq-genes-to-pathways-q018** — I need to sort a tabular file by a score column while keeping the header intact so downstream steps behave predictably. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q019** — What Galaxy tool should I run for `Cut`?
+- **transcriptomics-rna-seq-genes-to-pathways-q019** — I want to select a subset of columns from a ranked gene list to match the required input format for gene set enrichment. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q020** — Which Galaxy tool would you recommend to perform `fgsea`?
+- **transcriptomics-rna-seq-genes-to-pathways-q020** — I have a ranked list of genes and want fast gene set enrichment analysis to find pathways enriched at the top or bottom of the ranking. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fgsea/fgsea/1.8.0+galaxy1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q021** — What Galaxy tool should I run for `Sort`?
+- **transcriptomics-rna-seq-genes-to-pathways-q021** — I want to sort a ranked gene list by the ranking metric (descending or ascending) while preserving the header. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q022** — Which Galaxy tool would you recommend to perform `Cut columns from a table (cut)`?
+- **transcriptomics-rna-seq-genes-to-pathways-q022** — I need to keep only the gene ID and ranking-score columns from a table for gene set enrichment input. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-genes-to-pathways-q023** — What Galaxy tool should I run for `EGSEA`?
+- **transcriptomics-rna-seq-genes-to-pathways-q023** — I want an ensemble gene set enrichment analysis that combines results across multiple gene set collections or methods. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/egsea/egsea/1.20.0
   - Datasets: 2596382, limma-voom_basalpregnant-basallactate, limma-voom_luminalpregnant-luminallactate
 
@@ -20306,37 +20306,37 @@ Questions:
 - Datasets (3): 4249555, SRR1552454.fastq.gz, SRR1552455.fastq.gz
 
 Questions:
-- **transcriptomics-rna-seq-reads-to-counts-q011** — Which Galaxy tool would you recommend to perform `fastqc`?
+- **transcriptomics-rna-seq-reads-to-counts-q011** — I have RNA-seq reads and want an initial read-quality report before trimming and alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q012** — What Galaxy tool should I run for `MultiQC`?
+- **transcriptomics-rna-seq-reads-to-counts-q012** — I have QC outputs from multiple samples and want a single combined report summarizing them. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q013** — What Galaxy tool should I run for `Cutadapt`?
+- **transcriptomics-rna-seq-reads-to-counts-q013** — I need to trim adapters and low-quality bases from RNA-seq reads prior to alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q014** — What Galaxy tool should I run for `HISAT2`?
+- **transcriptomics-rna-seq-reads-to-counts-q014** — I want to align RNA-seq reads efficiently to a reference genome to generate alignments suitable for gene counting, using a splice-aware aligner with known junction support. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q015** — What Galaxy tool should I run for `featureCounts`?
+- **transcriptomics-rna-seq-reads-to-counts-q015** — I have RNA-seq alignments and want to count reads per gene to produce a gene-level count table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q016** — Which Galaxy tool should I use to run `Column Join on multiple datasets`?
+- **transcriptomics-rna-seq-reads-to-counts-q016** — I have per-sample gene count tables in a collection and want to join them into one matrix with genes as rows and samples as columns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q017** — Which Galaxy tool should I use to run `Infer Experiment`?
+- **transcriptomics-rna-seq-reads-to-counts-q017** — I want to infer whether my RNA-seq library is stranded using an alignment file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q018** — Which Galaxy tool would you recommend to perform `picard_MarkDuplicates`?
+- **transcriptomics-rna-seq-reads-to-counts-q018** — I have a BAM file and want to mark duplicate reads so they can be handled appropriately downstream. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q019** — What Galaxy tool should I run for `IdxStats`?
+- **transcriptomics-rna-seq-reads-to-counts-q019** — I want a quick per-chromosome alignment summary (mapped read counts) from my BAM file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q020** — Which Galaxy tool should I use to run `Gene Body Coverage (BAM)`?
+- **transcriptomics-rna-seq-reads-to-counts-q020** — I want a gene-body coverage plot from alignments to assess coverage bias along transcripts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_geneBody_coverage/5.0.3+galaxy0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
-- **transcriptomics-rna-seq-reads-to-counts-q021** — What Galaxy tool should I run for `Read Distribution`?
+- **transcriptomics-rna-seq-reads-to-counts-q021** — I want a read-distribution summary showing how reads split across exons, introns, and intergenic regions as a QC check. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0
   - Datasets: 4249555, SRR1552455.fastq.gz, SRR1552454.fastq.gz
 
@@ -20346,25 +20346,25 @@ Questions:
 - Datasets (3): 2529926, limma-voom_luminalpregnant-luminallactate, limma-voom_normalised_counts
 
 Questions:
-- **transcriptomics-rna-seq-viz-with-heatmap2-q011** — Which Galaxy tool would you recommend to perform `Filter1`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q011** — I have an expression matrix and want to filter it down to a subset of genes before plotting a heatmap. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-viz-with-heatmap2-q012** — Which Galaxy tool should I use to run `Sort`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q012** — I need to sort a tabular file by one or more columns while keeping the header line intact. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-viz-with-heatmap2-q013** — Which Galaxy tool should I use to run `Select first`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q013** — I want to quickly preview the first lines of a text file to verify the header and column order. Which Galaxy tool should I use?
   - Tools: Show beginning1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-viz-with-heatmap2-q014** — Which Galaxy tool should I use to run `Join two Datasets side by side on a specified field`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q014** — I have an expression matrix and a gene-annotation table and want to join them so the heatmap can display gene names. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-viz-with-heatmap2-q015** — What Galaxy tool should I run for `Cut`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q015** — I need to keep only selected columns from a table (for example the expression columns plus gene name) for plotting. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-viz-with-heatmap2-q016** — What Galaxy tool should I run for `heatmap2`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q016** — I want to generate a clustered heatmap from an expression matrix with customizable labels and colors. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.3.0+galaxy0
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
-- **transcriptomics-rna-seq-viz-with-heatmap2-q017** — Which Galaxy tool should I use to run `Transpose`?
+- **transcriptomics-rna-seq-viz-with-heatmap2-q017** — I need to transpose an expression matrix (swap rows and columns) to match the orientation expected by my heatmap or clustering step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.9+galaxy0
   - Datasets: 2529926, limma-voom_normalised_counts, limma-voom_luminalpregnant-luminallactate
 - **transcriptomics-rna-seq-viz-with-heatmap2-q018** — Which Galaxy tool would you recommend to perform `Join two Datasets`?

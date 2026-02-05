@@ -714,3 +714,11 @@ Notes:
 - Changes: Rewrote the batch heavily to remove tool leakage/backticks and replace step-label queries with realistic Galaxy-user wording across mixed content (R-based survival/unsupervised modeling utilities, image-classification prep/modeling, synthetic biology notebook-based design/scoring/retrosynthesis tasks, and multiple transcriptomics workflows including CLIP-seq and isoform/de novo pipelines); preserved metadata.query_type mix (science_first 140, tool_first 10)
 - Integrity: Fixed metadata.tool_focus drift on four text-processing items; ensured metadata.tool_focus matches tools[] for all items; preserved intentional multi-tool entries and verified metadata.ground_truth_alternatives notes (10 items in this batch)
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like join1, Cut1, Filter1, addValue, cat1, gene2exon1); smell scan reports no hits/duplicates/near-duplicates
+
+## A0041 (lines 6001-6150)
+
+- Date: 2026-02-05
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (full de novo transcriptome annotation/evaluation steps, GO enrichment + GO Slim summarization, miRNA target finding workflow, reference-based RNA-seq QC/DE/visualization utilities, RNA interactome mapping/quantification, and several end-to-end RNA-seq pipelines) to remove tool leakage/backticks and replace step-label prompts with realistic Galaxy-user wording; preserved metadata.query_type mix (science_first 144, tool_first 6)
+- Integrity: Verified metadata.tool_focus matches tools[] for all items in the range; no multi-tool entries in this batch
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Cut1, join1, cat1, Grouping1, mergeCols1); smell scan reports no hits/duplicates/near-duplicates
