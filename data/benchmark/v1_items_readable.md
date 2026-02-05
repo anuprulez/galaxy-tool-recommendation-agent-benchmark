@@ -2759,7 +2759,7 @@ Questions:
 - **computational-chemistry-md-simulation-namd-q011** — I have a structure and need the usual run-ready input set to start a molecular dynamics simulation in Galaxy. Which tool should I use?
   - Tools: setup
   - Datasets: 3234841
-- **computational-chemistry-md-simulation-namd-q012** — Before I can run minimization or equilibration, I need a setup step that produces the standard MD run inputs. Which tool should I run?
+- **computational-chemistry-md-simulation-namd-q012** — Before I can run minimization or equilibration, I need an initial preparation step that produces the standard MD run inputs. Which tool should I run?
   - Tools: setup
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q013** — Which Galaxy tool prepares the run-ready inputs needed to start a molecular dynamics simulation from a structure?
