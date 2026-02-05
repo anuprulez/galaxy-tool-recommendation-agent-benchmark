@@ -722,3 +722,11 @@ Notes:
 - Changes: Rewrote all 150 queries (full de novo transcriptome annotation/evaluation steps, GO enrichment + GO Slim summarization, miRNA target finding workflow, reference-based RNA-seq QC/DE/visualization utilities, RNA interactome mapping/quantification, and several end-to-end RNA-seq pipelines) to remove tool leakage/backticks and replace step-label prompts with realistic Galaxy-user wording; preserved metadata.query_type mix (science_first 144, tool_first 6)
 - Integrity: Verified metadata.tool_focus matches tools[] for all items in the range; no multi-tool entries in this batch
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Cut1, join1, cat1, Grouping1, mergeCols1); smell scan reports no hits/duplicates/near-duplicates
+
+## A0042 (lines 6151-6300)
+
+- Date: 2026-02-05
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (RNA-seq volcano/heatmap visualization utilities, small ncRNA and sRNA processing steps, and multiple variant-analysis workflows including viral, microbial, exome, mapping-by-sequencing, non-diploid, and tiled-amplicon cases) to remove tool leakage/backticks and replace step-label prompts with realistic Galaxy-user wording; preserved metadata.query_type mix (science_first 140, tool_first 10)
+- Integrity: Verified metadata.tool_focus matches tools[] for all items in the range; no multi-tool entries in this batch
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like join1, Filter1, Cut1, Grep1); smell scan reports no hits/duplicates/near-duplicates
