@@ -85,7 +85,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/gfastats/gfastats/1.3.11+galaxy0
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q037** — Which Galaxy tool should I use to align Hi-C reads to a reference assembly when preparing a contact-map workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: hifi.fastq.gz, m64055_210602_211608.hifi_reads.fastq.gz, m54306Ue_211020_191957.hifi_reads.fastq.gz, 7781236, 7784764, 7786773, 7788734, 7831298, 7831762, 7831763, 7833514
 - **assembly-ERGA-post-assembly-QC-q038** — Which Galaxy tool can filter and merge two separately aligned Hi-C read sets (forward and reverse) into a single file for contact-map generation?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1

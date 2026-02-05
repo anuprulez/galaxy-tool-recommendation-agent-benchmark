@@ -738,3 +738,11 @@ Notes:
 - Changes: Rewrote all remaining queries (SARS-CoV-2 mapping/QC/variant calling + lineage/QC summaries, somatic variant discovery and reporting utilities, TB variant analysis and resistance profiling, trio analysis utilities, and circos/jbrowse visualization steps) to remove tool leakage/backticks and replace step-label prompts with realistic Galaxy-user wording; preserved metadata.query_type mix (science_first 95, tool_first 2)
 - Integrity: Verified metadata.tool_focus matches tools[] for all items in the range
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Grep1, Cut1, converters); smell scan reports no hits/duplicates/near-duplicates
+
+## GTX0001 (ground-truth expansion; lines 1-150)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 150 items in data/benchmark/v1_items.jsonl
+- Changes: Reviewed all 150 items and added one high-confidence alternative aligner where the intent is interchangeable for short-read mapping (Hi-C reads): BWA-MEM2 ↔ BWA-MEM (1 item expanded).
+- Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (110 items adjusted); ensured metadata.ground_truth_alternatives note is present for the new multi-tool item.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
