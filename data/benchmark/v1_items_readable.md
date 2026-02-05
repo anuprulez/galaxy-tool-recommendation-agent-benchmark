@@ -19319,7 +19319,7 @@ Questions:
 - **statistics-flexynesis_unsupervised-q013** — I need to do a few small but custom data transformations in R (reshaping tables, checking sample alignment) before running unsupervised modeling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
-- **statistics-flexynesis_unsupervised-q014** — I have an embedding/latent-space output and want to make exploratory plots (UMAP/cluster plots) in R and adjust parameters interactively. Which Galaxy tool should I use?
+- **statistics-flexynesis_unsupervised-q014** — I have an embedding or latent-space output and want to make exploratory plots (UMAP and cluster plots) in R and tweak plotting options interactively. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/enis/interactive_tool_rstudio_bioconductor/interactive_tool_rstudio_bioconductor/4.6.0+3.22.galaxy0
   - Datasets: 16287482
 
@@ -19335,7 +19335,7 @@ Questions:
 - **statistics-fruit_360-q012** — I have a labeled image dataset of fruits/vegetables for multi-class classification. I need to convert the class label column into a categorical/one-hot matrix before training. Also, I’d like the run to be reproducible (same results if I rerun it). What Galaxy tool should I run for this step?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_to_categorical/sklearn_to_categorical/1.0.11.0
   - Datasets: 5702887
-- **statistics-fruit_360-q013** — In my project I’m using a labeled image dataset of fruits/vegetables for multi-class classification. I want to define a Keras-style model using a configuration so I can reuse it across runs. Also, I want the result to be easy to plug into the next step. What’s the right Galaxy tool for this?
+- **statistics-fruit_360-q013** — In my project I’m using a labeled image dataset of fruits and vegetables for multi-class classification. I want to write a reusable neural-network architecture specification (layers and activations) without coding, and pass it to later training steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/1.0.11.0
   - Datasets: 5702887
 - **statistics-fruit_360-q014** — I have a labeled image dataset of fruits/vegetables for multi-class classification. I want to create a trainable neural network from an architecture definition (without writing code). Also, I want the result to be easy to plug into the next step. What’s the right Galaxy tool for this?
@@ -19376,7 +19376,7 @@ Questions:
 - **statistics-gpu_jupyter_lab-q013** — I have a clinical table and want to keep only the rows that satisfy multiple criteria at once (for example: tumor_stage is III/IV AND age_at_diagnosis > 50). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6091361
-- **statistics-gpu_jupyter_lab-q014** — Before running a heavy downstream step, I want to exclude rows with missing values in a key column (e.g., drop rows where the label column is empty/NA). Which Galaxy tool should I use?
+- **statistics-gpu_jupyter_lab-q014** — I’m preparing a training table for a classifier and need to remove samples where the label column is missing so the modeling step will run cleanly. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6091361
 - **statistics-gpu_jupyter_lab-q015** — I have a wide feature table and need to keep only an ID column plus a small set of feature columns to create a compact training matrix. Which Galaxy tool should I use?
@@ -19510,40 +19510,40 @@ Questions:
 - Datasets (1): 6123887
 
 Questions:
-- **synthetic-biology-basic_assembly_analysis-q011** — Which Galaxy tool would you recommend to perform `selenzy-wrapper`?
+- **synthetic-biology-basic_assembly_analysis-q011** — I’m designing a biosynthetic pathway and want to suggest candidate enzymes for a reaction step based on substrate and product structures, exploring results interactively in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q012** — Which Galaxy tool would you recommend to perform `selenzy-wrapper`?
+- **synthetic-biology-basic_assembly_analysis-q012** — I have a list of pathway reactions and want to shortlist enzyme candidates for each step with interactive filtering and ranking in a notebook. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q013** — Which Galaxy tool suggests enzymes for pathway steps?
+- **synthetic-biology-basic_assembly_analysis-q013** — Which Galaxy tool can suggest candidate enzymes for each step of a designed metabolic pathway?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q014** — Which Galaxy tool would you recommend to perform `selenzy-wrapper`?
+- **synthetic-biology-basic_assembly_analysis-q014** — I need an interactive Python environment to run enzyme-recommendation queries for designed pathway steps and inspect the ranked hits. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q015** — Which Galaxy tool would you recommend to perform `rpbasicdesign`?
+- **synthetic-biology-basic_assembly_analysis-q015** — I’m planning a BASIC DNA assembly for a set of parts and want to generate the required constructs and linker combinations from a design table, reviewing the plan in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q016** — Which Galaxy tool would you recommend to perform `rpbasicdesign`?
+- **synthetic-biology-basic_assembly_analysis-q016** — I have a list of DNA parts and want an automated design of BASIC assembly reactions and expected construct sequences that I can inspect in a notebook. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q017** — Which Galaxy tool designs BASIC assembly constructs?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q018** — Which Galaxy tool would you recommend to perform `rpbasicdesign`?
+- **synthetic-biology-basic_assembly_analysis-q018** — Which Galaxy tool should I use to design BASIC assembly constructs and produce a build plan that I can inspect in Python?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q019** — Which Galaxy tool would you recommend to perform `dnabot`?
+- **synthetic-biology-basic_assembly_analysis-q019** — I’m doing automated BASIC assembly and need robot-friendly pick-and-mix instructions (plates, volumes, and steps) generated from my construct design. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q020** — Which Galaxy tool would you recommend to perform `dnabot`?
+- **synthetic-biology-basic_assembly_analysis-q020** — I want to generate a liquid-handling protocol for assembling DNA constructs from a BASIC build plan and export the instructions for a lab robot. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 - **synthetic-biology-basic_assembly_analysis-q021** — Which Galaxy tool generates DNA-Bot instructions for BASIC assembly?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
-- **synthetic-biology-basic_assembly_analysis-q022** — Which Galaxy tool would you recommend to perform `dnabot`?
+- **synthetic-biology-basic_assembly_analysis-q022** — Which Galaxy tool can generate DNA assembly robot instructions for a BASIC build plan, suitable for a notebook-based workflow?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6123887
 
@@ -19553,16 +19553,16 @@ Questions:
 - Datasets (3): 6628296, rp_001_0001.xml, rp_001_0006.xml
 
 Questions:
-- **synthetic-biology-pathway_analysis-q011** — Which Galaxy tool would you recommend to perform `rpfba`?
+- **synthetic-biology-pathway_analysis-q011** — I have a metabolic model and want to run flux balance analysis to estimate pathway fluxes and compare scenarios in an interactive Python session. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
-- **synthetic-biology-pathway_analysis-q012** — Which Galaxy tool would you recommend to perform `rpthermo`?
+- **synthetic-biology-pathway_analysis-q012** — I want to assess thermodynamic feasibility of reactions in a proposed pathway and flag energetically impossible steps, working interactively in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
-- **synthetic-biology-pathway_analysis-q013** — Which Galaxy tool should I use to run `Score Pathway`?
+- **synthetic-biology-pathway_analysis-q013** — I generated several candidate pathways and want to compute a score for each based on criteria like yield or enzyme availability, in a Python notebook. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
-- **synthetic-biology-pathway_analysis-q014** — What Galaxy tool should I run for `Rank Pathways`?
+- **synthetic-biology-pathway_analysis-q014** — I have a table of candidate pathways with scores and want to rank them and explore tradeoffs interactively in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6628296, rp_001_0001.xml, rp_001_0006.xml
 
@@ -19572,22 +19572,22 @@ Questions:
 - Datasets (1): (see source)
 
 Questions:
-- **synthetic-biology-retrosynthesis_analysis-q011** — Which Galaxy tool should I use to run `Pick SBML Model`?
+- **synthetic-biology-retrosynthesis_analysis-q011** — I have multiple SBML metabolic models and need to select one as the starting chassis model for a retrosynthesis analysis. Which Galaxy tool should I use if I want to do this in a Python notebook?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
-- **synthetic-biology-retrosynthesis_analysis-q012** — Which Galaxy tool would you recommend to perform `rpextractsink`?
+- **synthetic-biology-retrosynthesis_analysis-q012** — I want to identify likely sink or target compounds in a metabolic network before running retrosynthesis, exploring results interactively in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
-- **synthetic-biology-retrosynthesis_analysis-q013** — What Galaxy tool should I run for `RRules Parser`?
+- **synthetic-biology-retrosynthesis_analysis-q013** — I have a set of reaction rules and need to parse them into a structured format that can be used for retrosynthesis steps. Which Galaxy tool should I use in Galaxy if I want to do this in Python?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
-- **synthetic-biology-retrosynthesis_analysis-q014** — What Galaxy tool should I run for `RetroPath2.0`?
+- **synthetic-biology-retrosynthesis_analysis-q014** — I want to run a retrosynthesis search to find candidate reaction routes that can produce a target compound from a chassis model, using an interactive notebook. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
-- **synthetic-biology-retrosynthesis_analysis-q015** — Which Galaxy tool would you recommend to perform `rp2paths`?
+- **synthetic-biology-retrosynthesis_analysis-q015** — From a retrosynthesis output, I need to extract and format the list of candidate pathways and their reactions for downstream scoring. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
-- **synthetic-biology-retrosynthesis_analysis-q016** — What Galaxy tool should I run for `Complete Reactions`?
+- **synthetic-biology-retrosynthesis_analysis-q016** — I have a set of draft pathways and want to complete or balance reactions before evaluation, working interactively in Python. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: (see source)
 
@@ -19597,58 +19597,58 @@ Questions:
 - Datasets (3): , 1327423, 2579279
 
 Questions:
-- **transcriptomics-clipseq-q011** — Which Galaxy tool should I use to run `FastQC`?
+- **transcriptomics-clipseq-q011** — I have CLIP-seq reads and want an initial read-quality report (per-base quality, adapters, and overrepresented sequences) before trimming. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q012** — Which Galaxy tool would you recommend to perform `Cutadapt (v. 4.0)`?
+- **transcriptomics-clipseq-q012** — I need to trim adapters and low-quality bases from CLIP-seq reads prior to alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q013** — Which Galaxy tool would you recommend to perform `UMI-tools extract`?
+- **transcriptomics-clipseq-q013** — My CLIP-seq reads contain UMIs that must be extracted into the read headers before alignment and deduplication. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/1.1.6+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q014** — What Galaxy tool should I run for `RNA STAR`?
+- **transcriptomics-clipseq-q014** — I want to align CLIP-seq reads to a reference genome with a splice-aware aligner to produce a BAM file for downstream peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy1
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q015** — What Galaxy tool should I run for `UMI-tools deduplicate`?
+- **transcriptomics-clipseq-q015** — After alignment, I need to remove PCR duplicates using UMIs so my CLIP-seq signal is not inflated by duplicates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup/umi_tools_dedup/1.1.6+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q016** — What Galaxy tool should I run for `plotFingerprint`?
+- **transcriptomics-clipseq-q016** — I have BAM files from CLIP-seq (and controls) and want a fingerprint-style QC plot to compare signal versus background across samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/deeptools_plot_fingerprint/3.5.4+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q017** — Which Galaxy tool should I use to run `multiBamSummary`?
+- **transcriptomics-clipseq-q017** — I want to summarize read coverage over genomic bins across multiple BAM files so I can compare samples and compute correlations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/deeptools_multi_bam_summary/3.5.4+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q018** — Which Galaxy tool should I use to run `plotCorrelation`?
+- **transcriptomics-clipseq-q018** — I have a coverage summary across samples and want correlation plots or a heatmap to assess similarity between replicates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/deeptools_plot_correlation/3.5.4+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q019** — Which Galaxy tool would you recommend to perform `PEAKachu`?
+- **transcriptomics-clipseq-q019** — I have aligned CLIP-seq reads (and optionally an input control) and want to call enriched binding peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q020** — Which Galaxy tool should I use to run `Text reformatting`?
+- **transcriptomics-clipseq-q020** — I need to reformat a tabular file (for example rearrange columns or compute a derived field) while preparing peak coordinates for downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q021** — What Galaxy tool should I run for `SlopBed`?
+- **transcriptomics-clipseq-q021** — I have peak intervals and want to expand each region upstream and downstream by a fixed number of bases. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_slopbed/2.31.1+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q022** — Which Galaxy tool should I use to run `Extract Genomic DNA`?
+- **transcriptomics-clipseq-q022** — I have genomic intervals and need to extract the corresponding reference genome sequences for motif discovery. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/extract_genomic_dna/Extract genomic DNA 1/3.0.3+galaxy3
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q023** — What Galaxy tool should I run for `MEME-ChIP`?
+- **transcriptomics-clipseq-q023** — I want to discover enriched sequence motifs in a set of peak sequences from CLIP-seq. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/meme_chip/meme_chip/4.11.2+galaxy1
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q024** — What Galaxy tool should I run for `RNA Centric Annotation System (v. 1.5.4)`?
+- **transcriptomics-clipseq-q024** — I want to annotate CLIP-seq peaks with nearby genes and transcript features to interpret binding sites. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q025** — Which Galaxy tool would you recommend to perform `Extract alignment ends`?
+- **transcriptomics-clipseq-q025** — I have an alignment file and need to convert it into a BED-like interval file for downstream genomic operations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q026** — Which Galaxy tool would you recommend to perform `SortBED`?
+- **transcriptomics-clipseq-q026** — I have a BED file of intervals and need to sort it by genomic coordinates to satisfy downstream tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q027** — Which Galaxy tool should I use to run `Create a BedGraph of genome coverage`?
+- **transcriptomics-clipseq-q027** — I want a genome-wide coverage track from aligned reads as a bedGraph-like coverage file for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed/2.31.1
   - Datasets: 1327423, , 2579279
-- **transcriptomics-clipseq-q028** — What Galaxy tool should I run for `Wig/BedGraph-to-bigWig`?
+- **transcriptomics-clipseq-q028** — I have a bedGraph-style coverage file and need to convert it into a bigWig track for genome browser visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 1327423, , 2579279
 
@@ -19658,40 +19658,40 @@ Questions:
 - Datasets (3): 583140, G1E_rep1_forward_read_%28SRR549355_1%29, 583140
 
 Questions:
-- **transcriptomics-de-novo-q011** — Which Galaxy tool should I use to run `FastQC`?
+- **transcriptomics-de-novo-q011** — I have bulk RNA-seq reads and want a detailed read-quality report before trimming and transcriptome assembly steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q012** — Which Galaxy tool would you recommend to perform `Trimmomatic`?
+- **transcriptomics-de-novo-q012** — I need to remove adapter sequences and trim low-quality bases from RNA-seq reads prior to alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q013** — Which Galaxy tool should I use to run `HISAT2`?
+- **transcriptomics-de-novo-q013** — I want to align RNA-seq reads to a reference genome and produce a BAM file for transcript assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q014** — What Galaxy tool should I run for `Stringtie`?
+- **transcriptomics-de-novo-q014** — I have RNA-seq alignments and want to assemble transcripts and estimate transcript abundances per sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie_merge/2.2.3+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q015** — Which Galaxy tool should I use to run `Stringtie-merge`?
+- **transcriptomics-de-novo-q015** — I assembled transcripts for multiple samples and want to merge them into a single unified transcriptome annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie_merge/2.2.3+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q016** — Which Galaxy tool would you recommend to perform `GFFCompare`?
+- **transcriptomics-de-novo-q016** — I want to compare my assembled transcripts against a reference annotation and classify novel isoforms versus known ones. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gffcompare/gffcompare/0.12.10+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q017** — Which Galaxy tool should I use to run `FeatureCounts`?
+- **transcriptomics-de-novo-q017** — I have RNA-seq alignments and a gene annotation and want to count reads per gene to create a gene-level count table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q018** — Which Galaxy tool should I use to run `DESeq2`?
+- **transcriptomics-de-novo-q018** — I have gene-level count tables for two conditions and want to run differential expression analysis to find upregulated and downregulated genes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q019** — I need a tool that can perform `Filter`.Which Galaxy tool would you recommend?
+- **transcriptomics-de-novo-q019** — I need to filter a tabular results table to keep only rows passing a threshold (for example adjusted p-value or minimum fold change). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q020** — What Galaxy tool should I run for `bamCoverage`?
+- **transcriptomics-de-novo-q020** — I want to compute a normalized coverage track from a BAM file so I can visualize RNA-seq signal across the genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.5.4+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q021** — What Galaxy tool should I run for `Rename`?
+- **transcriptomics-de-novo-q021** — I want to set or edit dataset metadata (for example rename datasets or update sample labels) to keep my history organized. Which Galaxy tool should I use?
   - Tools: __SET_METADATA__
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
-- **transcriptomics-de-novo-q022** — I need a tool that can perform `Viz`.Which Galaxy tool would you recommend?
+- **transcriptomics-de-novo-q022** — I want to explore my RNA-seq alignments and assembled transcripts in an interactive genome browser with multiple tracks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0
   - Datasets: 583140, 583140, G1E_rep1_forward_read_%28SRR549355_1%29
 
@@ -19701,118 +19701,118 @@ Questions:
 - Datasets (3): Pfam-A.hmm.dat.gz, active_site.dat.gz, 13692977
 
 Questions:
-- **transcriptomics-differential-isoform-expression-q011** — Which Galaxy tool should I use to run `Regex Find And Replace`?
+- **transcriptomics-differential-isoform-expression-q011** — I need to clean up identifiers in a text file by finding and replacing a pattern using regular expressions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.3
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q012** — Which Galaxy tool should I use to run `Flatten collection`?
+- **transcriptomics-differential-isoform-expression-q012** — I have a dataset collection and need to flatten it into a simple list so downstream tools can consume all elements. Which Galaxy tool should I use?
   - Tools: __FLATTEN__
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q013** — Which Galaxy tool should I use to run `FastQC`?
+- **transcriptomics-differential-isoform-expression-q013** — I have RNA-seq reads for an isoform analysis and want a read-quality report before trimming and alignment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q014** — Which Galaxy tool would you recommend to perform `multiqc`?
+- **transcriptomics-differential-isoform-expression-q014** — I ran QC for multiple samples and want a single aggregated report that summarizes them side-by-side. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q015** — What Galaxy tool should I run for `fastp`?
+- **transcriptomics-differential-isoform-expression-q015** — I need to trim adapters and low-quality bases and also get basic QC summaries for each RNA-seq sample in one step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q016** — Which Galaxy tool would you recommend to perform `gtftobed12`?
+- **transcriptomics-differential-isoform-expression-q016** — I have a transcript annotation in GTF format and need a BED12-style representation for visualization and isoform comparisons. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q017** — Which Galaxy tool should I use to run `Gene BED To Exon/Intron/Codon BED`?
+- **transcriptomics-differential-isoform-expression-q017** — I have a gene annotation and need separate interval files for features like exons, introns, and coding regions. Which Galaxy tool should I use?
   - Tools: gene2exon1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q018** — Which Galaxy tool would you recommend to perform `Add_a_column1`?
+- **transcriptomics-differential-isoform-expression-q018** — I need to create a new column in a tabular file using an expression based on existing columns (for example compute a flag or derived value). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q019** — Which Galaxy tool should I use to run `Sort`?
+- **transcriptomics-differential-isoform-expression-q019** — I need to sort a tabular file by one or more columns while keeping the header intact. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q020** — Which Galaxy tool would you recommend to perform `tp_awk_tool`?
+- **transcriptomics-differential-isoform-expression-q020** — I need to reformat a text table by rearranging columns and doing small calculations to prepare inputs for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/9.5+galaxy2
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q021** — What Galaxy tool should I run for `RNA STAR`?
+- **transcriptomics-differential-isoform-expression-q021** — I want to align RNA-seq reads to a reference genome with a splice-aware aligner to support transcript and isoform analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q022** — What Galaxy tool should I run for `Concatenate datasets`?
+- **transcriptomics-differential-isoform-expression-q022** — I need to concatenate multiple text tables into one combined file (stacking rows) to create a single input for the next step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q023** — What Galaxy tool should I run for `Filter`?
+- **transcriptomics-differential-isoform-expression-q023** — I want to filter rows from a tabular file based on a condition (for example keep only transcripts passing a length cutoff). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q024** — What Galaxy tool should I run for `Cut`?
+- **transcriptomics-differential-isoform-expression-q024** — I only need a subset of columns from a tabular file (for example transcript ID and a few numeric fields). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q025** — Which Galaxy tool would you recommend to perform `tp_uniq_tool`?
+- **transcriptomics-differential-isoform-expression-q025** — I need to deduplicate lines in a text file and keep only unique entries (for example a unique list of transcript IDs). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy2
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q026** — Which Galaxy tool should I use to run `Infer Experiment`?
+- **transcriptomics-differential-isoform-expression-q026** — From a BAM file, I want to infer library strandedness and read orientation for my RNA-seq experiment. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q027** — Which Galaxy tool would you recommend to perform `rseqc_geneBody_coverage`?
+- **transcriptomics-differential-isoform-expression-q027** — I want a gene-body coverage plot from RNA-seq alignments to check for 5-prime or 3-prime bias across transcripts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_geneBody_coverage/5.0.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q028** — Which Galaxy tool would you recommend to perform `rseqc_junction_saturation`?
+- **transcriptomics-differential-isoform-expression-q028** — I want to evaluate splice junction saturation to see whether sequencing depth is sufficient for isoform discovery. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_junction_saturation/5.0.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q029** — Which Galaxy tool would you recommend to perform `rseqc_junction_annotation`?
+- **transcriptomics-differential-isoform-expression-q029** — I want to categorize splice junctions as known or novel using a reference annotation to assess splicing quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_junction_annotation/5.0.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q030** — Which Galaxy tool should I use to run `Read Distribution`?
+- **transcriptomics-differential-isoform-expression-q030** — I want to summarize where reads map (exonic, intronic, intergenic regions) to assess RNA-seq library quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q031** — What Galaxy tool should I run for `Inner Distance`?
+- **transcriptomics-differential-isoform-expression-q031** — I want to estimate inner distance or fragment size for paired-end RNA-seq using alignments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_inner_distance/5.0.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q032** — Which Galaxy tool should I use to run `StringTie`?
+- **transcriptomics-differential-isoform-expression-q032** — I have RNA-seq alignments and want to assemble transcripts and estimate their expression levels per sample. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.2.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q033** — Which Galaxy tool should I use to run `StringTie merge`?
+- **transcriptomics-differential-isoform-expression-q033** — I need to merge per-sample transcript assemblies into a single annotation across all samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie_merge/2.2.3+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q034** — Which Galaxy tool would you recommend to perform `gffcompare`?
+- **transcriptomics-differential-isoform-expression-q034** — I want to compare a merged transcript assembly to a reference annotation and report matching, novel, and conflicting transcripts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gffcompare/gffcompare/0.12.10+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q035** — What Galaxy tool should I run for `pyGenomeTracks`?
+- **transcriptomics-differential-isoform-expression-q035** — I want to create a publication-ready multi-track genomic figure combining coverage tracks and annotations for a region of interest. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.8+galaxy2
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q036** — Which Galaxy tool would you recommend to perform `gffread`?
+- **transcriptomics-differential-isoform-expression-q036** — I need to process a GTF or GFF annotation (for example extract transcript sequences or convert between related annotation formats). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q037** — Which Galaxy tool should I use to run `rnaQUAST`?
+- **transcriptomics-differential-isoform-expression-q037** — I assembled transcripts and want to evaluate transcriptome assembly quality using read mappings and reference features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rnaquast/rna_quast/2.3.0+galaxy1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q038** — Which Galaxy tool would you recommend to perform `collection_element_identifiers`?
+- **transcriptomics-differential-isoform-expression-q038** — I have a collection of datasets and need a table listing the element names or identifiers for bookkeeping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q039** — Which Galaxy tool would you recommend to perform `tp_grep_tool`?
+- **transcriptomics-differential-isoform-expression-q039** — I need to search a text file for lines matching a pattern and keep only the matching (or non-matching) lines. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q040** — Which Galaxy tool should I use to run `Filter collecion`?
+- **transcriptomics-differential-isoform-expression-q040** — I have a collection and a list of element identifiers to keep or remove, and I want to filter the collection accordingly. Which Galaxy tool should I use?
   - Tools: __FILTER_FROM_FILE__
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q041** — Which Galaxy tool should I use to run `gffread`?
+- **transcriptomics-differential-isoform-expression-q041** — I want to extract transcript sequences in FASTA format from a transcript annotation and a reference genome. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/gffread/gffread/2.2.1.4+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q042** — What Galaxy tool should I run for `IsoformSwitchAnalyzeR`?
+- **transcriptomics-differential-isoform-expression-q042** — I have transcript-level expression for two conditions and want to detect isoform switching events and visualize the functional consequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/isoformswitchanalyzer/isoformswitchanalyzer/1.20.0+galaxy5
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q043** — What Galaxy tool should I run for `PfamScan`?
+- **transcriptomics-differential-isoform-expression-q043** — I have protein sequences and want to annotate them with Pfam domains to help interpret isoform changes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/pfamscan/pfamscan/1.6+galaxy0
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q044** — What Galaxy tool should I run for `CPAT`?
+- **transcriptomics-differential-isoform-expression-q044** — I have transcript sequences and want to estimate coding potential to separate coding from non-coding transcripts. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cpat/cpat/3.0.5+galaxy1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q045** — Which Galaxy tool should I use to run `Add column`?
+- **transcriptomics-differential-isoform-expression-q045** — I need to add a constant value as a new column in a tabular file (for example a sample label) before merging tables. Which Galaxy tool should I use?
   - Tools: addValue
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q046** — Which Galaxy tool would you recommend to perform `Remove beginning1`?
+- **transcriptomics-differential-isoform-expression-q046** — I need to remove the first few lines of a text or tabular file (for example comments or a header block) before parsing it downstream. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q047** — Which Galaxy tool should I use to run `Concatenate datasets`?
+- **transcriptomics-differential-isoform-expression-q047** — I want to concatenate several small text files into one combined file as a quick cleanup step. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
-- **transcriptomics-differential-isoform-expression-q048** — What Galaxy tool should I run for `Compute on rows`?
+- **transcriptomics-differential-isoform-expression-q048** — I need to compute a derived value for each row of a tabular dataset based on existing numeric columns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 13692977, active_site.dat.gz, Pfam-A.hmm.dat.gz
 
@@ -19822,22 +19822,22 @@ Questions:
 - Datasets (3): zenodo.3541678, 3541678, A1_left.fq.gz
 
 Questions:
-- **transcriptomics-full-de-novo-q011** — Which Galaxy tool would you recommend to perform `FastQC`?
+- **transcriptomics-full-de-novo-q011** — I have RNA-seq reads and want a detailed QC report before starting a full de novo transcriptome assembly workflow. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q012** — What Galaxy tool should I run for `MultiQC`?
+- **transcriptomics-full-de-novo-q012** — I have QC outputs from several samples and steps and want a single combined summary report for quick review. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q013** — Which Galaxy tool should I use to run `Trimmomatic`?
+- **transcriptomics-full-de-novo-q013** — I need to trim adapters and low-quality bases from RNA-seq reads to improve de novo transcriptome assembly. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q014** — What Galaxy tool should I run for `Trinity`?
+- **transcriptomics-full-de-novo-q014** — I want to assemble transcripts de novo from RNA-seq reads because I do not have a suitable reference genome annotation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity/2.15.1+galaxy1
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q015** — Which Galaxy tool would you recommend to perform `Trinity Statistics`?
+- **transcriptomics-full-de-novo-q015** — After de novo transcriptome assembly, I want summary statistics like contig length distribution and N50 to assess assembly quality. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity/2.15.1+galaxy1
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
-- **transcriptomics-full-de-novo-q016** — Which Galaxy tool should I use to run `Align reads and estimate abundance`?
+- **transcriptomics-full-de-novo-q016** — I want to quantify transcript abundances by mapping reads back to my assembled transcriptome and estimating expression levels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trinity_align_and_estimate_abundance/trinity_align_and_estimate_abundance/2.15.1+galaxy0
   - Datasets: 3541678, zenodo.3541678, A1_left.fq.gz
 - **transcriptomics-full-de-novo-q017** — Which Galaxy tool should I use to run `Build expression matrix`?

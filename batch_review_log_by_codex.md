@@ -706,3 +706,11 @@ Notes:
 - Changes: Rewrote all 150 queries (single-cell scRNA ingest/object creation + UMI/QC utilities + PBMC clustering pipelines + small ML blocks for CNN/FNN/RNN and pathway/classification examples) to remove tool leakage/backticks, dataset leakage, and configuration-help phrasing while keeping Galaxy-user perspective; preserved metadata.query_type mix (science_first 144, tool_first 6)
 - Integrity: Fixed metadata.tool_focus drift on three text-processing items; ensured metadata.tool_focus matches tools[] for all items; kept existing multi-tool entries and verified metadata.ground_truth_alternatives notes (3 items in this batch)
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Cut1, join1, csv_to_tabular); smell scan reports no hits/duplicates/near-duplicates
+
+## A0040 (lines 5851-6000)
+
+- Date: 2026-02-05
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote the batch heavily to remove tool leakage/backticks and replace step-label queries with realistic Galaxy-user wording across mixed content (R-based survival/unsupervised modeling utilities, image-classification prep/modeling, synthetic biology notebook-based design/scoring/retrosynthesis tasks, and multiple transcriptomics workflows including CLIP-seq and isoform/de novo pipelines); preserved metadata.query_type mix (science_first 140, tool_first 10)
+- Integrity: Fixed metadata.tool_focus drift on four text-processing items; ensured metadata.tool_focus matches tools[] for all items; preserved intentional multi-tool entries and verified metadata.ground_truth_alternatives notes (10 items in this batch)
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like join1, Cut1, Filter1, addValue, cat1, gene2exon1); smell scan reports no hits/duplicates/near-duplicates
