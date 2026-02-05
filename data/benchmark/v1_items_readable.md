@@ -6372,16 +6372,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q051** — I generated a genome-wide signal track and need to convert it into a compact BigWig file for visualization. Which Galaxy tool should I use?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q052** — I want to transform a coverage or signal track into BigWig so I can load it in a genome browser. Which Galaxy tool should I run?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q053** — Which Galaxy tool converts a WIG-style signal track into BigWig format?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q054** — What tool should I use in Galaxy to convert a signal/coverage track into BigWig for efficient viewing?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 3862793, zenodo.3862792, 3862792, zenodo.3862793
 - **epigenetics-atac-seq-q055** — I want a matrix of signal values around peak centers (or TSS) to summarize ATAC-seq coverage for plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.5.4+galaxy0
@@ -6576,7 +6576,7 @@ Questions:
 - **epigenetics-cut_and_run-q040** — I want to filter a log or text file to keep only lines containing specific keywords. Which Galaxy tool should I run?
   - Tools: Grep1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q041** — Which Galaxy tool performs grep-like pattern matching to select lines from a dataset?
+- **epigenetics-cut_and_run-q041** — I have a text dataset and need to keep only lines that match a pattern or regular expression (for example, select entries for one chromosome). Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q042** — What tool should I use in Galaxy to keep only lines matching a regular expression and discard the rest?
@@ -6603,7 +6603,7 @@ Questions:
 - **epigenetics-cut_and_run-q049** — From a CUT&RUN paired-end BAM, I want an insert-size (fragment length) histogram to QC nucleosome-sized fragments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q050** — What tool should I use in Galaxy to compute and plot paired-end fragment length distributions?
+- **epigenetics-cut_and_run-q050** — I have paired-end CUT&RUN BAM alignments and want an insert-size histogram to QC the fragment length distribution. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q051** — I have a matrix-like table and want to transpose it so features become rows and samples become columns. Which Galaxy tool should I use?
@@ -6624,23 +6624,23 @@ Questions:
 - **epigenetics-cut_and_run-q056** — I need a peak list and summit locations from my CUT&RUN/ChIP-seq experiment. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q057** — Which Galaxy tool performs peak calling on aligned reads and outputs peak intervals?
+- **epigenetics-cut_and_run-q057** — I need to call peaks from CUT&RUN aligned reads and produce a peak-interval dataset for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q058** — What tool should I use in Galaxy to identify enriched binding regions from my alignment data?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q059** — I generated a genome-wide signal track and need to convert it into a BigWig file for visualization. Which Galaxy tool should I use?
-  - Tools: wig_to_bigWig
+- **epigenetics-cut_and_run-q059** — After processing CUT&RUN data I generated a genome-wide signal track (WIG/bedGraph) and need to convert it to BigWig for genome-browser visualization. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q060** — I want to turn a coverage/signal dataset into a compact track format suitable for genome browsers. Which Galaxy tool should I run?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q061** — I produced a WIG-format coverage/signal track from CUT&RUN data and need it converted to BigWig for visualization. Which Galaxy tool should I use?
-  - Tools: wig_to_bigWig
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q062** — What tool should I use in Galaxy to convert a signal track into BigWig for efficient viewing?
-  - Tools: wig_to_bigWig
+- **epigenetics-cut_and_run-q062** — I want a browser-ready BigWig track from my CUT&RUN signal output so I can view it alongside peaks in a genome browser. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q063** — I want to intersect my peak regions with a blacklist or annotation features to filter or annotate peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.31.1+galaxy0
@@ -6699,7 +6699,7 @@ Questions:
 - **epigenetics-cut_and_run-q081** — I have a signal matrix (scores over genomic regions) from CUT&RUN data and want to plot a heatmap to compare enrichment patterns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q082** — What tool should I use in Galaxy to generate heatmaps and profiles from a deepTools-style matrix?
+- **epigenetics-cut_and_run-q082** — I have a deepTools matrix of signal over regions (computeMatrix output) and want to visualize it as a heatmap (optionally clustered). Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q083** — I have a wide table where each column is a sample, but I need samples as rows for a summary step. Which Galaxy tool should I use?

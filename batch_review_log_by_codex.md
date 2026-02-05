@@ -1078,3 +1078,13 @@ Notes:
   - Deleted 40 items whose gold tools are not present in the usegalaxy.org catalog snapshot and for which no clearly semantically/IO-equivalent replacement was available in-catalog (regionalGAM ecology tools, remote-sensing processing/report tool, occurrence fetching tool, interactive SDM workbench, and CDO operations).
   - Query hygiene: Rewrote 1 Count1 query (`ecology-regionalGAM-q028`) to remove a near-duplicate within-tool phrasing while preserving intent.
 - Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
+
+## GTX0037 (ground-truth fix + expansion; lines 1929-2128)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on ground-truth integrity and query diversity (avoid near-duplicates under the same tool).
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate the WIG→BigWig conversion replacement (confirmed `toolshed.g2.bx.psu.edu/repos/iuc/ucsc_wigtobigwig/ucsc_wigtobigwig/482+galaxy0` via helptext + IO fields).
+- Changes:
+  - Replaced 8 missing `wig_to_bigWig` gold tool IDs with the usegalaxy-present UCSC WIG-to-BigWig tool (`…/ucsc_wigtobigwig/482+galaxy0`) for both ATAC-seq and CUT&RUN items.
+  - Query hygiene: Rewrote 6 CUT&RUN-side queries to reduce very high similarity with the corresponding ATAC-seq items while preserving intent/tool focus (grep/peak calling/fragment-length QC/BigWig conversion/deepTools heatmap).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan shows no exact duplicates and only a small number of acceptable cross-tutorial near-duplicates remaining.
