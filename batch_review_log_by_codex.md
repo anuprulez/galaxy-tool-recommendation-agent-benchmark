@@ -1293,3 +1293,13 @@ Notes:
   - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
   - Query hygiene: Rewrote 1 `scanpy_normalize` query (`single-cell-scrna-scanpy-pbmc3k-q017`) to eliminate a high-similarity near-duplicate with another `scanpy_normalize` item while preserving intent/tool focus.
 - Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
+
+## GTX0056 (ground-truth fix + expansion; lines 5205-5404)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on confirming all gold tools are present in the usegalaxy snapshot and ensuring the queries remain non-duplicative and checker-clean.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to spot-check representative tools (helptext + IO fields present) and confirmed there were no missing tool IDs in this slice.
+- Changes:
+  - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
+  - No query rewrites were needed (smell scan found no duplicates/near-duplicates in this slice).
+- Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
