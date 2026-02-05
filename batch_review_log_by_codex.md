@@ -1236,3 +1236,13 @@ Notes:
   - Deleted 2 items whose gold tool (`toolshed.g2.bx.psu.edu/repos/earlhaminst/lotus2/lotus2/2.32+galaxy0`) is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent replacement in-catalog.
   - No other gold expansions/replacements were needed in this batch.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 198 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0051 (ground-truth fix + expansion; lines 4313-4512)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on (1) removing items whose gold tools are absent from the usegalaxy.org snapshot and (2) salvaging any items that already had a valid in-catalog alternative.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` + the catalog index to (a) confirm the OpenSwath / DiaPASEF / ProteoRE / BioconductorSCP tool IDs in this slice are absent from the snapshot, and (b) validate the kept Venn-diagram alternative (`toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1`) via helptext + IO fields.
+- Changes:
+  - Deleted 48 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent single-tool replacement in-catalog (OpenSwath DIA tooling, DiaPASEF, BioconductorSCP, and multiple ProteoRE data-retrieval/ID-mapping helpers).
+  - Ground-truth cleanup: For 4 proteomics biomarker-selection items that already included `venn_list` as an alternative alongside a missing `Jvenn` tool ID, dropped the missing `Jvenn` tool, kept `venn_list` as the sole gold tool, updated `metadata.tool_focus`, and removed now-unneeded multi-tool metadata.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 152 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
