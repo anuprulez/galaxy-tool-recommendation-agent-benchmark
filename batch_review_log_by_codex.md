@@ -1125,3 +1125,13 @@ Notes:
     - Deduplicate lines → `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3`
     - Pangenome (presence/absence matrix) → `toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3`
 - Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0041 (ground-truth fix + expansion; lines 2695-2894)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on replacing missing gold tools with usegalaxy-present, semantically/IO-compatible equivalents when available.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate the BRAKER3 tool replacement via helptext + IO fields.
+- Changes:
+  - Replaced 8 missing BRAKER3 tool IDs (`toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0`) with the usegalaxy-present equivalent (`toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2`).
+  - Deleted 2 PPanGGOLiN MSA items whose gold tool is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement.
+- Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.

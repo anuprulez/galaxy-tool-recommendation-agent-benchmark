@@ -8697,12 +8697,6 @@ Questions:
 - **genome-annotation-bacterial-pangenomics-q018** — In Galaxy I need a pangenome analysis step that outputs gene families and a matrix of which genomes contain each family. Which tool is appropriate?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3
   - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q021** — Which Galaxy tool can perform multiple sequence alignment across sequences in pangenome gene families and output alignment files?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
-  - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q022** — In Galaxy I need a step that produces MSAs for pangenome gene families so I can compare sequences within families. Which tool can do that?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
-  - Datasets: 1
 
 ## Genome annotation with Braker3 (topics/genome-annotation/tutorials/braker3)
 - Topic: genome-annotation
@@ -8783,16 +8777,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 14770765
 - **genome-annotation-braker3-q035** — I have a genome assembly plus RNA read evidence and I want to predict genes and produce a gene annotation file for downstream comparison. Which Galaxy tool can perform evidence supported gene prediction on eukaryotic genomes?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-braker3-q036** — I want to run an automated gene prediction step that uses RNA evidence to improve exon intron boundaries and outputs predicted gene models. What Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-braker3-q037** — Which Galaxy tool can generate eukaryotic gene models from a genome assembly using RNA evidence and produce standard annotation outputs?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-braker3-q038** — In Galaxy I need a gene prediction tool that integrates RNA evidence and returns a GFF3 of predicted genes. Which tool is suitable?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-braker3-q039** — I have a predicted proteome from my gene models and want to assess annotation completeness and quality by comparing to conserved ortholog sets and getting a summary report. Which Galaxy tool can do this assessment?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/omark/omark/0.3.1+galaxy1
@@ -8898,16 +8892,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0
   - Datasets: 14770765
 - **genome-annotation-comparison-braker-helixer-annotation-q039** — I have a eukaryotic genome assembly plus RNA read alignments and want to predict gene models using the evidence to refine exon-intron boundaries. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-comparison-braker-helixer-annotation-q040** — I want an automated gene prediction run that integrates RNA evidence and outputs predicted genes in a standard annotation format. What Galaxy tool can do this step?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-comparison-braker-helixer-annotation-q041** — Which Galaxy tool can generate eukaryotic gene models from a genome assembly using RNA-seq evidence and produce predicted annotations?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 - **genome-annotation-comparison-braker-helixer-annotation-q042** — In Galaxy, what tool should I run to perform evidence-supported gene prediction on a genome and output a gene annotation file?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/braker3/braker3/3.0.8+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/genouest/braker3/braker3/3.0.8+galaxy2
   - Datasets: 14770765
 
 ## CRISPR screen analysis (topics/genome-annotation/tutorials/crispr-screen)
