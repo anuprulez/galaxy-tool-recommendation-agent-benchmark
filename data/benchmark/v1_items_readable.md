@@ -8272,21 +8272,21 @@ Questions:
 
 ## Genome annotation with Maker (short) (topics/genome-annotation/tutorials/annotation-with-maker-short)
 - Topic: genome-annotation
-- Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
 - Datasets (1): zenodo.4406623
 
 Questions:
 - **genome-annotation-annotation-with-maker-short-q011** — Before running a quick annotation workflow, I want basic assembly statistics (contig counts, lengths, N50) from my genome FASTA. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q012** — I need a quick summary of my genome assembly to sanity-check it before annotation. Which Galaxy tool can compute FASTA sequence statistics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q013** — I need to compute basic statistics for a genome assembly FASTA (total length, N50, contig counts). Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q014** — Which Galaxy tool summarizes FASTA sequences with assembly metrics like N50 and length distribution?
-  - Tools: toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0, toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.4406623
 - **genome-annotation-annotation-with-maker-short-q015** — I want to check how complete my genome or predicted proteins are using conserved single-copy orthologs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
@@ -8394,34 +8394,10 @@ Questions:
 
 ## Refining Genome Annotations with Apollo (prokaryotes) (topics/genome-annotation/tutorials/apollo)
 - Topic: genome-annotation
-- Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
+- Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
 - Datasets (1): 4889110
 
 Questions:
-- **genome-annotation-apollo-q011** — I want to collaborate on manual genome annotation and need to create a user account on a shared annotation server from within Galaxy. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q012** — To start curating gene models collaboratively, I need to register a new user account on our genome annotation server via Galaxy. Which tool can create that account?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q013** — I need to create a user account on a genome annotation server using Galaxy. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q014** — Which Galaxy tool can register a new user on a collaborative genome annotation server?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q015** — I have access to a collaborative genome annotation server and want to see which genomes or organisms are available for annotation. Which Galaxy tool should I use to list them?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q016** — Before starting curation, I need to find the organism entry I should work on in our annotation server. Which Galaxy tool can list available organisms?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q017** — I need to list the available organisms or genomes on a genome annotation server from Galaxy. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q018** — Which Galaxy tool queries an annotation server and returns the list of available organism entries?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_list_organism/list_organism/3.1
-  - Datasets: 4889110
 - **genome-annotation-apollo-q019** — I want to inspect gene models and evidence tracks interactively in a genome browser while doing manual curation. Which Galaxy tool should I use for genome browsing?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
   - Datasets: 4889110
@@ -8433,30 +8409,6 @@ Questions:
   - Datasets: 4889110
 - **genome-annotation-apollo-q022** — Which Galaxy tool lets me explore genomic tracks in a browser-like interactive viewer?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
-  - Datasets: 4889110
-- **genome-annotation-apollo-q023** — I need to create a new organism entry (or update an existing one) on our collaborative genome annotation server so the team can start annotating. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q024** — To set up a genome for collaborative annotation, I want to create or update an organism record on the annotation server from within Galaxy. Which tool can do that?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q025** — I have gene models in GFF3 and want to publish them into our collaborative genome annotation workspace so they become editable features. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q026** — In Galaxy I need to synchronize a revised GFF3 with an existing annotation project by creating new features and updating matching ones. What Galaxy tool can do that?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q027** — I want to do interactive manual genome annotation and would like Galaxy to open the annotation editor inside the Galaxy interface for my project. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q028** — I am curating gene models and need a way to launch the annotation web interface from Galaxy so it stays linked to my analysis. What Galaxy tool provides an embedded editor view?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q029** — Which Galaxy tool can show an external genome annotation editor within Galaxy in an embedded panel?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
-  - Datasets: 4889110
-- **genome-annotation-apollo-q030** — In a workflow I need a step that opens an embedded web view for a genome annotation project so curators can edit features. Which Galaxy tool is that step?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 4889110
 
 ## Refining Genome Annotations with Apollo (eukaryotes) (topics/genome-annotation/tutorials/apollo-euk)
@@ -8476,30 +8428,6 @@ Questions:
   - Datasets: 6920962
 - **genome-annotation-apollo-euk-q014** — In Galaxy I need a tool that lets me browse a genome with multiple tracks such as alignments and gene models. Which tool should I choose?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy1
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q015** — I am curating gene structures and I want my updated annotations from a GFF3 to be reflected in the shared annotation project. Which Galaxy tool can send those updates to the curation platform?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q016** — After reviewing evidence tracks I produced a corrected GFF3 and want to apply it as updates to our team annotation project. Which Galaxy tool should I use to publish the changes?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q017** — Which Galaxy tool can upload or update genome feature annotations in a remote annotation project using a GFF3 file as input?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q018** — I have an existing annotation project and a new GFF3 export that should overwrite outdated gene models. Which Galaxy tool is appropriate to apply those updates?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_create_or_update/create_or_update/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q019** — I need to inspect and edit gene features interactively and want to launch the curation user interface directly from Galaxy. Which Galaxy tool can do this?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q020** — For collaborative annotation I want to open the genome curation interface from Galaxy for a selected genome so I can make manual edits. Which Galaxy tool should I run?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q021** — What Galaxy tool provides an embedded browser window for an annotation project so I can curate genome features without leaving Galaxy?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
-  - Datasets: 6920962
-- **genome-annotation-apollo-euk-q022** — Which Galaxy tool should I use to open an in Galaxy embedded view of a genome annotation workspace for interactive curation?
-  - Tools: toolshed.g2.bx.psu.edu/repos/gga/apollo_iframe/iframe/4.2.5
   - Datasets: 6920962
 
 ## Dataset construction for bacterial comparative genomics (topics/genome-annotation/tutorials/bacterial-comparative-genomics-dataset-construction)
@@ -8533,28 +8461,28 @@ Questions:
   - Tools: cat1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q019** — I have a TSV describing genomes and need it sorted consistently so later steps produce reproducible results. Which Galaxy tool can sort tabular rows by one or more columns?
-  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q020** — My table is unsorted and I want to order it by genome identifier so duplicates and grouping are easier. What Galaxy tool can sort a tabular dataset?
-  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q021** — Which Galaxy tool should I run to sort a TSV file on a chosen column and output a sorted table?
-  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q022** — In a Galaxy workflow I need a step that sorts rows of a tabular file by a key column. Which tool handles that?
-  - Tools: sort1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q023** — I have a list of genome identifiers with repeated entries and I want a unique list for downstream downloads. Which Galaxy tool can remove duplicate lines from a text file?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q024** — My table contains duplicate rows and I want to deduplicate it so each genome appears once. What Galaxy tool can keep only unique lines?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q025** — Which Galaxy tool can filter a text dataset down to unique entries and optionally report how many duplicates were removed?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q026** — In Galaxy which tool should I use to remove duplicated records from a list and output a non redundant list?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/unique/bg_uniq/0.3
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-comparative-genomics-dataset-construction-q027** — I have a text file where each line starts with the same prefix and I need to strip that prefix to get clean identifiers. Which Galaxy tool can remove leading characters from every line?
   - Tools: Remove beginning1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/9.5+galaxy2
@@ -8758,22 +8686,16 @@ Questions:
   - Tools: upload1
   - Datasets: 1
 - **genome-annotation-bacterial-pangenomics-q015** — I have a collection of bacterial genomes and want to build a pangenome to get a gene presence absence matrix across strains. Which Galaxy tool can compute the pangenome?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-pangenomics-q016** — I want to compare gene content across many bacterial isolates and produce outputs like core accessory gene partitions and a presence absence table. What Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-pangenomics-q017** — Which Galaxy tool can take multiple bacterial genomes and build a pangenome with gene family clustering and presence absence results?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-pangenomics-q018** — In Galaxy I need a pangenome analysis step that outputs gene families and a matrix of which genomes contain each family. Which tool is appropriate?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_all/ppanggolin_all/2.2.1+galaxy1
-  - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q019** — After defining pangenome gene families I want multiple sequence alignments for selected families to study sequence variation. Which Galaxy tool can generate these alignments from pangenome families?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
-  - Datasets: 1
-- **genome-annotation-bacterial-pangenomics-q020** — I want to align sequences within each gene family from a pangenome analysis so I can build phylogenies or detect conserved sites. What Galaxy tool should I use for the gene family alignments?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3
   - Datasets: 1
 - **genome-annotation-bacterial-pangenomics-q021** — Which Galaxy tool can perform multiple sequence alignment across sequences in pangenome gene families and output alignment files?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ppanggolin_msa/ppanggolin_msa/2.2.1+galaxy1

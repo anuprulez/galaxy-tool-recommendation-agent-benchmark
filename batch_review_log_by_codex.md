@@ -1110,3 +1110,18 @@ Notes:
   - Deleted 4 “cluster from distance matrix” items whose gold tool (`…/clustering_from_distmat/1.1.1`) is not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog.
   - Query hygiene: Rewrote 1 grep-style query to reduce near-duplicate phrasing within this tutorial range while preserving intent.
 - Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
+
+## GTX0040 (ground-truth fix + expansion; lines 2521-2720)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on replacing/removing gold tools that are missing from the usegalaxy.org catalog snapshot.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate replacements (e.g., confirmed `roary` pangenome IO/semantics and the tabular `tp_sort_header_tool`/`tp_uniq_tool` behavior via helptext + IO fields).
+- Changes:
+  - Deleted 26 items whose gold tools are not present on the usegalaxy.org snapshot and for which no clearly semantically/IO-equivalent replacement was available in-catalog (Apollo account/organism management + iframe helpers; PPanGGOLiN MSA helper).
+  - Ground-truth cleanup: Dropped missing tool IDs that were previously listed as alternatives and kept the usegalaxy-present equivalents as the sole gold tool (FASTA stats + table sorting cases), removing now-unneeded `ground_truth_alternatives*` metadata.
+  - Replaced 8 missing gold tools with usegalaxy-present equivalents where the intent remained satisfied:
+    - FASTA summary statistics → `toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0`
+    - Sort tabular rows → `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3`
+    - Deduplicate lines → `toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_uniq_tool/9.5+galaxy3`
+    - Pangenome (presence/absence matrix) → `toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.13.0+galaxy3`
+- Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
