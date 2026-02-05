@@ -1303,3 +1303,13 @@ Notes:
   - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
   - No query rewrites were needed (smell scan found no duplicates/near-duplicates in this slice).
 - Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0057 (ground-truth fix + expansion; lines 5405-5604)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on query hygiene (avoid near-duplicates) while confirming all gold tools are present on the usegalaxy snapshot.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to spot-check representative kept tools (helptext + IO present) and confirmed there were no missing tool IDs in this slice.
+- Changes:
+  - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
+  - Query hygiene: Rewrote 1 `fastqc` query (`transcriptomics-srna-q011`) to avoid a high-similarity near-duplicate with another FastQC item by adding small-RNA-specific QC context (adapter overrepresentation/length patterns) while preserving intent/tool focus.
+- Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.

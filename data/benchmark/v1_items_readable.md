@@ -18593,7 +18593,7 @@ Questions:
 - Datasets (3): zenodo.826906, 1324070, 826906
 
 Questions:
-- **transcriptomics-srna-q011** — I have small RNA sequencing reads and want an initial read-quality report before trimming and alignment. Which Galaxy tool should I use?
+- **transcriptomics-srna-q011** — I have small RNA-seq FASTQ reads and want a QC report that highlights things like adapter overrepresentation and unusual length/base-composition patterns typical of short reads. Which Galaxy tool should I run first?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1
   - Datasets: 826906, zenodo.826906, 1324070
 - **transcriptomics-srna-q012** — I need to standardize FASTQ formatting and quality encoding so my sequencing reads are compatible with downstream tools. Which Galaxy tool should I use?
