@@ -838,3 +838,11 @@ Notes:
 - Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (98 items adjusted).
 - Query hygiene: Rewrote 5 queries to remove exact-duplicate pairs between ATAC-seq and CUT&RUN variants while keeping intent unchanged (q038, q045, q049, q061, q081).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates (remaining near-duplicate pairs acceptable).
+
+## GTX0012 (ground-truth expansion; lines 2151-2350)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool existence/semantics (helptext) and IO shape for any potential alternative additions, even when ultimately deciding not to expand.
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
