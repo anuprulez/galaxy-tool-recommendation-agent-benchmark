@@ -19147,7 +19147,7 @@ Questions:
 - Datasets (3): zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 
 Questions:
-- **variant-analysis-somatic-variant-discovery-q011** — I have tumor and normal sequencing reads and want an initial read-quality report before trimming and mapping. Which Galaxy tool should I use?
+- **variant-analysis-somatic-variant-discovery-q011** — I have tumor/normal FASTQ files and want a fast, FastQC-style quality summary (per-base quality, GC content, overrepresented sequences) before I choose trimming settings. Which Galaxy tool can generate that QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0
   - Datasets: zenodo.2582555, 2582555):, SLGFSK-N_231335_r1_chr5_12_17.fastq.gz
 - **variant-analysis-somatic-variant-discovery-q012** — I have QC reports for multiple sequencing samples and want a single combined summary report to compare them. Which Galaxy tool should I use?
@@ -19272,7 +19272,7 @@ Questions:
 - **variant-analysis-tb-variant-analysis-q013** — I ran QC on multiple TB samples and want a single combined report to compare them side-by-side. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
-- **variant-analysis-tb-variant-analysis-q014** — I want to trim adapters and filter low-quality reads from my TB sequencing data and generate a QC summary. Which Galaxy tool should I use?
+- **variant-analysis-tb-variant-analysis-q014** — I have paired-end TB FASTQ reads and need a single step that trims adapters, removes low-quality bases/reads, and produces a concise QC report so I can decide if the data are ready for mapping. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/1.0.1+galaxy3
   - Datasets: zenodo.3496437, 3497110, zenodo.3960260
 - **variant-analysis-tb-variant-analysis-q015** — I want to check whether my sequencing reads contain contamination by classifying reads taxonomically against a reference database. Which Galaxy tool should I use?

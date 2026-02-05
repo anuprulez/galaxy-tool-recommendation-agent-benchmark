@@ -1313,3 +1313,15 @@ Notes:
   - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
   - Query hygiene: Rewrote 1 `fastqc` query (`transcriptomics-srna-q011`) to avoid a high-similarity near-duplicate with another FastQC item by adding small-RNA-specific QC context (adapter overrepresentation/length patterns) while preserving intent/tool focus.
 - Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
+
+## GTX0058 (ground-truth fix + expansion; lines 5605-5804)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for the final slice of the file, focusing on query hygiene (avoid near-duplicates) while confirming all referenced gold tools are present on the usegalaxy snapshot.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to spot-check representative kept tools (helptext + IO present) and confirmed there were no missing tool IDs in this slice.
+- Changes:
+  - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
+  - Query hygiene: Rewrote 2 QC-related queries to eliminate two high-similarity near-duplicate pairs while preserving intent/tool focus:
+    - `variant-analysis-tb-variant-analysis-q014` (fastp) now uses paired-end/QC-context wording distinct from the SARS-CoV-2 fastp item.
+    - `variant-analysis-somatic-variant-discovery-q011` (falco) now uses “fast FastQC-style summary” phrasing to avoid mirroring the exome FastQC item.
+- Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
