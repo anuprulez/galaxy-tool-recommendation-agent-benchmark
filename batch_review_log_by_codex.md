@@ -818,3 +818,13 @@ Notes:
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Query hygiene: Rewrote 7 queries to clear smell-scan “too generic (custom code)” and exact-duplicate flags while keeping intent unchanged (q022, q025, q026, q015, q016, q018, q013).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates (one remaining near-duplicate pair acceptable).
+
+## GTX0010 (ground-truth expansion; lines 1751-1950)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool existence/semantics (helptext) and IO shape for any potential alternative additions, even when ultimately deciding not to expand.
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (8 items adjusted).
+- Query hygiene: Rewrote 9 queries to clear smell-scan “too generic (custom code)” and an exact-duplicate pair while keeping intent unchanged (q026, q038, q050, q058, q062, q014, q058, q061, q027).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates (one remaining near-duplicate pair acceptable).

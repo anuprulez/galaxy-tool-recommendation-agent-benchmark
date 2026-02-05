@@ -5704,7 +5704,7 @@ Questions:
 - **ecology-phylogeny-data-prep-q025** — Which Galaxy tool should I use if I need a notebook environment to extract proteins from GenBank annotations and output FASTA sequences?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q026** — Which Galaxy tool should I use to run custom code that converts GenBank annotations into protein FASTA sequences?
+- **ecology-phylogeny-data-prep-q026** — I need an interactive notebook environment in Galaxy to transform GenBank annotations into a protein FASTA dataset (translated CDS/proteins) for downstream phylogeny. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
 - **ecology-phylogeny-data-prep-q027** — I need to rewrite FASTA headers by applying a regular-expression substitution (for example, adding a sample prefix to each identifier). Which Galaxy tool should I use?
@@ -5740,7 +5740,7 @@ Questions:
 - **ecology-phylogeny-data-prep-q037** — Which Galaxy tool should I use if I need a notebook environment to run orthology inference across multiple proteomes and produce an orthogroups table?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q038** — Which Galaxy tool should I use to run custom code for ortholog detection and generate orthogroup assignments across samples?
+- **ecology-phylogeny-data-prep-q038** — I want a notebook environment in Galaxy where I can run an ortholog/orthogroup detection workflow across multiple samples and output orthogroup assignments. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
 - **ecology-phylogeny-data-prep-q039** — I want to assess genome assembly completeness using conserved single-copy orthologs and get BUSCO scores. Which Galaxy tool should I use?
@@ -5776,7 +5776,7 @@ Questions:
 - **ecology-phylogeny-data-prep-q049** — Which Galaxy tool should I use if I need a notebook environment to extract ortholog-group sequences from a combined FASTA using an orthogroups table?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q050** — Which Galaxy tool should I use to run custom code that splits a multi-FASTA into per-orthogroup FASTA files based on a mapping table?
+- **ecology-phylogeny-data-prep-q050** — I need a notebook environment in Galaxy to split a multi-FASTA into one FASTA per orthogroup using a mapping table (sequence ID → orthogroup). Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
 - **ecology-phylogeny-data-prep-q051** — I need to perform multiple sequence alignment of orthologous protein sequences and output an aligned FASTA for phylogenetic analysis. Which Galaxy tool should I use?
@@ -5800,7 +5800,7 @@ Questions:
 - **ecology-phylogeny-data-prep-q057** — Which Galaxy tool should I use if I need a notebook environment to trim an MSA and output a filtered alignment for phylogenetic analysis?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q058** — Which Galaxy tool should I use to run custom code that trims a protein alignment for phylogeny reconstruction?
+- **ecology-phylogeny-data-prep-q058** — I want a notebook environment in Galaxy to trim a protein multiple-sequence alignment (remove poorly aligned columns) before phylogeny reconstruction. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
 - **ecology-phylogeny-data-prep-q059** — I want to compute alignment-based statistics (for example number of variable sites and alignment length) from a multiple sequence alignment. Which Galaxy tool should I use?
@@ -5812,7 +5812,7 @@ Questions:
 - **ecology-phylogeny-data-prep-q061** — Which Galaxy tool should I use if I need a notebook environment to compute alignment statistics on a multiple sequence alignment?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
-- **ecology-phylogeny-data-prep-q062** — Which Galaxy tool should I use to run custom scripts that compute alignment-based summary statistics for phylogenetics?
+- **ecology-phylogeny-data-prep-q062** — I need a notebook environment in Galaxy to compute summary statistics from a protein alignment (length, missing data, variable sites) for QC before phylogenetics. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 6610704, zenodo.6610704
 
@@ -5831,7 +5831,7 @@ Questions:
 - **ecology-ref-based-rad-seq-q013** — Which Galaxy tool should I use if I need a notebook environment to implement RAD-seq demultiplexing and quality filtering based on barcodes and cut sites?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q014** — Which Galaxy tool should I use to run custom code that performs RAD-seq demultiplexing and produces cleaned per-sample FASTQ outputs?
+- **ecology-ref-based-rad-seq-q014** — I want a notebook environment in Galaxy to demultiplex RAD-seq reads by barcode and produce per-sample cleaned FASTQ outputs for downstream processing. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
 - **ecology-ref-based-rad-seq-q015** — I need to replace a substring in each line of a log or text file to label different run settings. Which Galaxy tool should I use?
@@ -5963,7 +5963,7 @@ Questions:
 - **ecology-ref-based-rad-seq-q057** — Which Galaxy tool should I use if I need an interactive environment to run a reference-based RAD-seq SNP calling pipeline from mapped reads?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q058** — Which Galaxy tool should I use to run custom scripts for reference-based RAD-seq locus assembly and SNP calling?
+- **ecology-ref-based-rad-seq-q058** — I need a notebook environment in Galaxy to run a reference-based RAD-seq workflow that assembles loci and calls SNPs from aligned reads. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
 - **ecology-ref-based-rad-seq-q059** — I want to compute population genomics statistics and export variant outputs from reference-based RAD-seq loci/SNP calls. Which Galaxy tool should I use?
@@ -5972,7 +5972,7 @@ Questions:
 - **ecology-ref-based-rad-seq-q060** — I need to calculate per-population summary statistics from RAD-seq SNP data and produce tabular outputs for filtering and plotting. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
-- **ecology-ref-based-rad-seq-q061** — Which Galaxy tool should I use to run custom code to compute population genetics statistics from RAD-seq variant calls?
+- **ecology-ref-based-rad-seq-q061** — I want a notebook environment in Galaxy to compute population genetics summary statistics from RAD-seq variant calls (VCF), such as allele frequencies and diversity metrics. Which tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.1134547, 1134547
 - **ecology-ref-based-rad-seq-q062** — Which Galaxy tool should I use if I need an interactive environment to compute population-genetics summaries from RAD-seq data?
@@ -6093,7 +6093,7 @@ Questions:
 - **ecology-regionalGAM-q026** — Which Galaxy tool can apply regex transformations to values in one table column?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.3
   - Datasets: 1324204, zenodo.1324204
-- **ecology-regionalGAM-q027** — I need to count how many times each distinct value appears in a column (frequency table). Which Galaxy tool should I use?
+- **ecology-regionalGAM-q027** — I have a table of categorical labels and want a simple frequency table (counts per label) to summarize how many rows fall into each group. Which Galaxy tool should I use?
   - Tools: Count1
   - Datasets: 1324204, zenodo.1324204
 - **ecology-regionalGAM-q028** — I want to count occurrences of each unique value in a column of a table. Which Galaxy tool should I use?
