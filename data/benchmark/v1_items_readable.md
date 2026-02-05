@@ -3443,7 +3443,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q089** — Which Galaxy tool filters rows of a tabular dataset using a simple condition?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q090** — What tool should I use in Galaxy to apply row-level filtering to a table?
+- **data-science-data-manipulation-olympics-q090** — I need to keep only rows that satisfy a condition in one or more columns of a table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q091** — I want a frequency table showing how many times each category appears in a column. Which tool should I use?
@@ -3485,7 +3485,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q103** — I want to compute a new column from existing columns (for example, a points total). Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q104** — I need to add a derived field to a table using arithmetic on other fields. Which tool should I run?
+- **data-science-data-manipulation-olympics-q104** — I want to compute a new column from existing columns (e.g., sums or ratios) and append it to a table. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q105** — Which Galaxy tool creates a computed column in a tabular dataset using an expression?
@@ -3536,7 +3536,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q120** — I need to concatenate several datasets end-to-end to create a single output file. Which tool should I run?
   - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q121** — Which Galaxy tool concatenates multiple datasets into one output dataset?
+- **data-science-data-manipulation-olympics-q121** — I have several text outputs and need to combine them end-to-end into one dataset in my history. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q122** — What tool should I use in Galaxy to join files by simple concatenation?
@@ -3548,7 +3548,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q124** — I want to delete a fixed number of leading lines from a file to remove metadata or comments. Which tool should I run?
   - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q125** — Which Galaxy tool removes the first N lines from a dataset (drop leading lines)?
+- **data-science-data-manipulation-olympics-q125** — I need to drop the first few lines of a text dataset (for example, skipping a header block). Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q126** — What tool should I use in Galaxy to strip a set number of lines from the start of a file?
@@ -3560,10 +3560,10 @@ Questions:
 - **data-science-data-manipulation-olympics-q128** — I need a quick peek at the top of a file in my history without downloading it. Which tool should I run?
   - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q129** — Which Galaxy tool shows the first N lines of a dataset (head preview)?
+- **data-science-data-manipulation-olympics-q129** — I want a quick preview of the first N lines of a dataset to sanity-check formatting. Which Galaxy tool should I use?
   - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q130** — What tool should I use in Galaxy to display the beginning of a text dataset?
+- **data-science-data-manipulation-olympics-q130** — I need to view the beginning of a dataset (like a head view) for quick inspection. Which tool should I use in Galaxy?
   - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q131** — I have a table and want to drop one or more columns by their header names. Which tool should I use?
@@ -3644,7 +3644,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q156** — Before processing, I need to upload local datasets into my history. Which tool should I run?
   - Tools: upload1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q157** — Which Galaxy tool uploads local files into a history as datasets?
+- **data-science-data-manipulation-olympics-q157** — I want to bring a file from my computer into Galaxy so it appears as a dataset in my history. Which tool should I use?
   - Tools: upload1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q158** — What tool should I use in Galaxy to add my local files into a new history?

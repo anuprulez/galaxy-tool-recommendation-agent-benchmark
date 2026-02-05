@@ -780,3 +780,13 @@ Notes:
 - Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (132 items adjusted).
 - Query hygiene: Rewrote 1 query to avoid accidentally leaking a tool-id literal (“setup”) while keeping intent unchanged (q012).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0006 (ground-truth expansion; lines 951-1150)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool existence/semantics (helptext) and IO shape for any potential alternative additions, even when ultimately deciding not to expand.
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (111 items adjusted).
+- Query hygiene: Rewrote 7 queries to eliminate exact-duplicate pairs flagged by smell scan while keeping intent unchanged (q121, q157, q090, q104, q125, q129, q130).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no smell hits and no exact duplicates in this range.
