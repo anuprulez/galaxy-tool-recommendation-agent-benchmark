@@ -1185,3 +1185,13 @@ Notes:
   - Replaced 8 missing `imgteam/unzip` items with `CONVERTER_archive_to_directory` (archive extraction intent preserved).
   - Query hygiene: Rewrote 22 queries to eliminate a set of exact duplicates and reduce very high near-duplication within the “data manipulation olympics” slice while preserving intent/tool focus (Count1/Cut1/join1/Remove beginning1/cat1/Show beginning1/Add_a_column1/regexColumn1).
 - Validation: check_v1_items passes for the kept items in this batch (after deletions: 160 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrites.
+
+## GTX0046 (ground-truth fix + expansion; lines 3425-3624)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on query hygiene (avoid near-duplicates) and ground-truth integrity for tools present on the usegalaxy.org snapshot.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool semantics/IO for representative tools in this range (e.g., verified `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.9+galaxy0` via helptext + `input_params_flat`/`outputs_raw`).
+- Changes:
+  - No gold tool replacements, deletions, or alternative additions were needed in this batch (all referenced tools were present in the usegalaxy.org catalog snapshot).
+  - Query hygiene: Rewrote 1 `tp_sort_header_tool` query (`introduction-galaxy-intro-peaks2genes-q035`) to reduce a high-similarity cross-tutorial near-duplicate while preserving intent.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.

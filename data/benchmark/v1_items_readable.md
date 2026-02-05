@@ -11593,7 +11593,7 @@ Questions:
 - **introduction-galaxy-intro-peaks2genes-q034** — In Galaxy, what tool should I run to build a list or paired collection from multiple datasets for workflow execution?
   - Tools: Grouping1
   - Datasets: zenodo.1025586
-- **introduction-galaxy-intro-peaks2genes-q035** — I have a TSV with a header row and need to sort the data by a key column while keeping the header at the top. Which Galaxy tool should I use?
+- **introduction-galaxy-intro-peaks2genes-q035** — I have a table of peaks (or genes) with a numeric score column and want to sort the rows by that score while keeping the header row at the top. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: zenodo.1025586
 - **introduction-galaxy-intro-peaks2genes-q036** — My table should be sorted reproducibly for downstream joins, but I don't want the column header line moved. What Galaxy tool can sort while preserving the header?
