@@ -12281,22 +12281,10 @@ Questions:
 
 ## Mass spectrometry: LC-MS data processing (topics/metabolomics/tutorials/lcms-dataprocessing)
 - Topic: metabolomics
-- Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
+- Tools: toolshed.g2.bx.psu.edu/repos/melpetera/intensity_checks/intens_check/2.0.1, toolshed.g2.bx.psu.edu/repos/melpetera/intensity_checks/intens_check/1.2.8
 - Datasets (1): 5179809
 
 Questions:
-- **metabolomics-lcms-dataprocessing-q011** — Before statistical analysis, I want to apply rule-based filtering to a metabolomics feature table (for example removing features with high missingness or low signal) and keep a cleaned table. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q012** — My quantitative matrix contains noisy features; I want to apply generic feature-filtering rules to keep a cleaner dataset for statistics. What Galaxy tool can do this filtering?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q013** — Which Galaxy tool can apply generic filtering rules to a metabolomics feature table (e.g., missingness/quality-based filtering)?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q014** — In Galaxy, what tool should I run to filter a quantitative feature matrix using configurable quality thresholds?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
-  - Datasets: 5179809
 - **metabolomics-lcms-dataprocessing-q015** — I have a metabolomics intensity matrix and want to check for problematic intensity patterns (outlier samples, drift, saturation, or unusual distributions) before proceeding. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/intensity_checks/intens_check/2.0.1, toolshed.g2.bx.psu.edu/repos/melpetera/intensity_checks/intens_check/1.2.8
   - Datasets: 5179809
@@ -12309,18 +12297,6 @@ Questions:
 - **metabolomics-lcms-dataprocessing-q018** — In Galaxy, what tool should I run to evaluate intensity distributions across samples and flag problematic datasets?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/intensity_checks/intens_check/2.0.1, toolshed.g2.bx.psu.edu/repos/melpetera/intensity_checks/intens_check/1.2.8
   - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q019** — I have a metabolomics feature table with QC samples and want a quality-control report summarizing data quality (missingness, variability, drift indicators). Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q020** — Before doing statistics, I want to compute quality metrics for my metabolomics dataset to see whether QC samples look stable. What Galaxy tool can compute those QC metrics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q021** — After producing a metabolomics feature table, I need an automated QC summary with diagnostic metrics/plots to assess sample and feature quality. Which Galaxy tool should I run to generate a QC report?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q022** — My metabolomics intensity matrix includes pooled QC injections, and I want quality metrics (e.g., variability/CV and missingness) summarized to spot unstable features. What Galaxy tool can compute these quality metrics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
-  - Datasets: 5179809
 - **metabolomics-lcms-dataprocessing-q023** — I have a metabolomics feature matrix and want multivariate analysis (e.g., PCA/PLS-DA) to visualize sample separation and identify major sources of variation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/Multivariate/2.3.10
   - Datasets: 5179809
@@ -12332,30 +12308,6 @@ Questions:
   - Datasets: 5179809
 - **metabolomics-lcms-dataprocessing-q026** — In Galaxy, what tool should I run to perform multivariate analysis on a metabolomics intensity table for visualization?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/Multivariate/2.3.10
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q027** — I have metabolomics data collected in multiple batches and need to correct batch effects while keeping biological variation. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q028** — My intensity matrix shows systematic shifts between batches (e.g., run order effects) and I want a batch-corrected table for downstream analysis. What Galaxy tool can perform batch correction?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q029** — Which Galaxy tool can apply batch correction to a metabolomics feature table given batch labels/metadata?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q030** — In Galaxy, what tool should I run to correct batch effects in a quantitative matrix before statistical testing?
-  - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/3.0.0
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q031** — I have a metabolomics intensity matrix and want to normalize samples (e.g., median/quantile/PQN-style) to make them comparable before statistics. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/normalization/normalization/1.0.7
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q032** — Before differential analysis, I need to normalize feature intensities across samples to reduce technical variation. What Galaxy tool can normalize a feature table?
-  - Tools: toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/normalization/normalization/1.0.7
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q033** — Which Galaxy tool can normalize a quantitative feature matrix across samples for metabolomics/omics analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/normalization/normalization/1.0.7
-  - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q034** — In Galaxy, what tool should I run to apply sample-wise normalization to an intensity table before downstream statistics?
-  - Tools: toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/normalization/normalization/1.0.7
   - Datasets: 5179809
 
 ## Mass spectrometry: LC-MS preprocessing with XCMS (topics/metabolomics/tutorials/lcms-preprocessing)
@@ -12511,21 +12463,21 @@ Questions:
 
 ## Molecular formula assignment and mass recalibration with MFAssignR package (topics/metabolomics/tutorials/mfassignr)
 - Topic: metabolomics
-- Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_histnoise/mfassignr_kmdnoise/1.1.2+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_kmdnoise/mfassignr_kmdnoise/1.1.2+galaxy0
 - Datasets (1): 13768009
 
 Questions:
 - **metabolomics-mfassignr-q011** — I have a high-resolution MS peak list and want to filter out noise peaks using a Kendrick mass defect/noise-estimation approach before formula assignment. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_histnoise/mfassignr_kmdnoise/1.1.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_kmdnoise/mfassignr_kmdnoise/1.1.2+galaxy0
   - Datasets: 13768009
 - **metabolomics-mfassignr-q012** — Before molecular formula assignment, I need a step that removes likely noise from an exact-mass peak list based on mass-defect patterns. What Galaxy tool can do this noise filtering?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_histnoise/mfassignr_kmdnoise/1.1.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_kmdnoise/mfassignr_kmdnoise/1.1.2+galaxy0
   - Datasets: 13768009
 - **metabolomics-mfassignr-q013** — Which Galaxy tool can filter noise from a high-resolution mass peak list using Kendrick mass defect-based criteria?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_histnoise/mfassignr_kmdnoise/1.1.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_kmdnoise/mfassignr_kmdnoise/1.1.2+galaxy0
   - Datasets: 13768009
 - **metabolomics-mfassignr-q014** — In Galaxy, what tool should I run to perform KMD/noise filtering on an exact-mass peak list prior to formula assignment?
-  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_histnoise/mfassignr_kmdnoise/1.1.2+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_kmdnoise/mfassignr_kmdnoise/1.1.2+galaxy0
   - Datasets: 13768009
 - **metabolomics-mfassignr-q015** — I have a high-resolution MS peak list and want a signal-to-noise plot/report to choose sensible intensity thresholds for downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_snplot/mfassignr_snplot/1.1.2+galaxy1
@@ -12614,58 +12566,10 @@ Questions:
 
 ## Mass spectrometry imaging: Examining the spatial distribution of analytes (topics/metabolomics/tutorials/msi-analyte-distribution)
 - Topic: metabolomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/2.6.0.1
+- Tools: Filter1
 - Datasets (1): 484496
 
 Questions:
-- **metabolomics-msi-analyte-distribution-q011** — I have a mass spectrometry imaging (MSI) dataset and want a QC report summarizing data quality (signal, noise, m/z distribution, potential artifacts). Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/2.6.0.1
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q012** — Before doing MSI analysis, I want an automated quality-control report for my imaging dataset to spot issues like low signal regions or artifacts. What Galaxy tool can generate that MSI QC report?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/2.6.0.1
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q013** — Which Galaxy tool can generate a quality-control report for an MSI dataset?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/2.6.0.1
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q014** — In Galaxy, what tool should I run to produce a QC report for mass spectrometry imaging data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/2.6.0.1
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q015** — I have an MSI dataset and want to plot spectra for selected pixels/regions to compare signal profiles between areas. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/2.6.0.3
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q016** — For MSI QC, I want spectra plots (e.g., mean spectra per region) to inspect differences and noise patterns. What Galaxy tool can create those spectra plots?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/2.6.0.3
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q017** — Which Galaxy tool can generate spectra plots from an MSI dataset for selected regions/pixels?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/2.6.0.3
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q018** — In Galaxy, what tool should I run to plot MSI spectra to compare regions and inspect signal quality?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/2.6.0.3
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q019** — I have MSI data and want to filter/clean it (e.g., remove noise peaks, restrict m/z range, normalize) before generating ion images and running segmentation. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_filtering/cardinal_filtering/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q020** — Before MSI analysis, I need to apply preprocessing filters to my imaging spectra to reduce noise and improve downstream segmentation/classification. What Galaxy tool can do MSI filtering?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_filtering/cardinal_filtering/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q021** — Which Galaxy tool can filter/preprocess MSI spectra (noise reduction, normalization, m/z range filtering) prior to analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_filtering/cardinal_filtering/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q022** — In Galaxy, what tool should I run to apply filtering steps to an MSI dataset before visualization and modeling?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_filtering/cardinal_filtering/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q023** — I have processed MSI data and want to export it (spectra tables, feature matrices, or derived results) into files that I can use outside Galaxy or in other tools. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_data_exporter/cardinal_data_exporter/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q024** — After MSI preprocessing, I need to export data/feature matrices from the imaging dataset for downstream statistics and reporting. What Galaxy tool can export MSI data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_data_exporter/cardinal_data_exporter/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q025** — Which Galaxy tool can export MSI data or derived feature matrices into standard outputs for downstream analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_data_exporter/cardinal_data_exporter/2.6.0.0
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q026** — In Galaxy, what tool should I run to export mass spectrometry imaging data/results into tabular files or common formats?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_data_exporter/cardinal_data_exporter/2.6.0.0
-  - Datasets: 484496
 - **metabolomics-msi-analyte-distribution-q027** — I have a tabular dataset and want to keep only rows that meet a condition (e.g., remove features with too many missing values). Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 484496
@@ -12678,72 +12582,24 @@ Questions:
 - **metabolomics-msi-analyte-distribution-q030** — In Galaxy, what tool should I run to apply an expression-based row filter to a TSV and keep only rows that pass?
   - Tools: Filter1
   - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q031** — I have an MSI dataset and want ion images for specific m/z values to visualize spatial distribution of compounds across the tissue. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/2.6.0.2
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q032** — I want to generate m/z images (intensity maps) from an MSI dataset for a list of target m/z values as part of exploratory analysis. What Galaxy tool can create those images?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/2.6.0.2
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q033** — Which Galaxy tool can generate ion images (m/z intensity maps) from an MSI dataset for selected m/z values?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/2.6.0.2
-  - Datasets: 484496
-- **metabolomics-msi-analyte-distribution-q034** — In Galaxy, what tool should I run to create m/z images from mass spectrometry imaging data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/2.6.0.2
-  - Datasets: 484496
 
 ## Mass spectrometry imaging: Finding differential analytes (topics/metabolomics/tutorials/msi-finding-nglycans)
 - Topic: metabolomics
-- Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/1.12.1.3
+- Tools: Filter1
 - Datasets (1): 2628280
 
 Questions:
-- **metabolomics-msi-finding-nglycans-q011** — I have MSI data with labeled regions/classes and want to train/apply a classifier to predict tissue classes from spectra, producing class maps and performance metrics. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q012** — I want supervised classification on an MSI dataset to distinguish tissue types or conditions based on spectral features. What Galaxy tool can run MSI classification?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q013** — Which Galaxy tool can perform supervised classification on an MSI dataset and output predicted class labels/maps?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q014** — In Galaxy, what tool should I run to train/apply a classifier for mass spectrometry imaging data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q015** — I have an MSI dataset and want to segment the tissue into regions with similar spectral profiles (unsupervised), producing a segmentation map. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q016** — For exploratory MSI analysis, I want unsupervised segmentation/clustering of pixels based on spectra to identify distinct regions. What Galaxy tool can do MSI segmentation?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q017** — Which Galaxy tool can segment an MSI dataset into regions based on spectral similarity and output a segmentation map?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q018** — In Galaxy, what tool should I run to perform unsupervised segmentation/clustering on mass spectrometry imaging data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/1.12.1.3
-  - Datasets: 2628280
 - **metabolomics-msi-finding-nglycans-q019** — I have a tabular dataset and want to keep only rows that meet a condition (for example, score > threshold), producing a filtered table. Which Galaxy tool should I use?
   - Tools: Filter1
   - Datasets: 2628280
 - **metabolomics-msi-finding-nglycans-q020** — My results table includes a status column and I need to keep only rows marked as PASS for downstream analysis. What Galaxy tool can filter rows by an expression?
   - Tools: Filter1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q021** — Which Galaxy tool can filter rows in a tabular dataset using a boolean condition on columns and output the filtered table?
+- **metabolomics-msi-finding-nglycans-q021** — Which Galaxy tool can filter a TSV so I keep only rows that satisfy a column rule (for example, intensity > a threshold and an annotation column is not empty)?
   - Tools: Filter1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q022** — In Galaxy, what tool should I run to apply an expression-based row filter to a TSV and keep only rows that pass?
+- **metabolomics-msi-finding-nglycans-q022** — In Galaxy, what tool should I run to remove rows from a tabular results file based on an expression (for example, keep only a specific m/z range or p-value cutoff)?
   - Tools: Filter1
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q023** — I have two tables that should match on a name/ID column, but the strings differ slightly (typos, different capitalization). Which Galaxy tool should I use to join them with fuzzy matching?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q024** — My sample names don’t match exactly between two TSV files and I still need to merge them on an approximate key. What Galaxy tool can do a fuzzy join on a column?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q025** — Which Galaxy tool can join two tabular files on a key column using approximate/fuzzy matching rather than exact equality?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q026** — In Galaxy, what tool should I run to merge two tables when the join key has small string differences (fuzzy match)?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/join_files_on_column_fuzzy/join_files_on_column_fuzzy/1.0.1
   - Datasets: 2628280
 - **metabolomics-msi-finding-nglycans-q027** — I have a numeric column in a table and want descriptive summary statistics (mean, median, min/max, standard deviation). Which Galaxy tool should I use?
   - Tools: Summary_Statistics1
@@ -12757,18 +12613,6 @@ Questions:
 - **metabolomics-msi-finding-nglycans-q030** — In Galaxy, what tool should I run to generate a summary-statistics report (mean/median/stdev) from a table?
   - Tools: Summary_Statistics1
   - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q031** — I have a mass spectrometry imaging (MSI) dataset and want ion images for selected m/z values to visualize spatial distributions across the tissue. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q032** — I want to generate m/z intensity maps (ion images) from MSI data for a list of target m/z values for exploratory analysis. What Galaxy tool can create those images?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q033** — Which Galaxy tool can generate ion images (m/z intensity maps) from an MSI dataset for selected m/z values?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q034** — In Galaxy, what tool should I run to create m/z images from mass spectrometry imaging data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/1.12.1.2
-  - Datasets: 2628280
 - **metabolomics-msi-finding-nglycans-q035** — I have a text file and want to extract only the lines that match a pattern (for example, keep headers or rows containing a keyword). Which Galaxy tool should I use?
   - Tools: Grep1
   - Datasets: 2628280
@@ -12780,66 +12624,6 @@ Questions:
   - Datasets: 2628280
 - **metabolomics-msi-finding-nglycans-q038** — In Galaxy, what tool should I run to keep only lines matching an expression from a text file (grep-style filtering)?
   - Tools: Grep1
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q039** — I have multiple MSI datasets (e.g., technical replicates or different tissue sections) and want to combine them into a single dataset for joint analysis. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q040** — My MSI workflow produced separate imaging datasets that I want to merge/concatenate into one combined object before preprocessing and visualization. What Galaxy tool can combine MSI datasets?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q041** — Which Galaxy tool can combine multiple MSI datasets into a single dataset/object for downstream analysis?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q042** — In Galaxy, what tool should I run to merge/concatenate MSI datasets prior to preprocessing?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q043** — I have MSI data and need basic preprocessing (normalization, baseline correction, smoothing, peak processing) before generating ion images and segmentation. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q044** — Before analyzing MSI spectra, I want to apply preprocessing steps to reduce noise and normalize intensities across pixels. What Galaxy tool can preprocess MSI data?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q045** — Which Galaxy tool can preprocess MSI spectra (normalization/noise reduction) prior to visualization and modeling?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q046** — In Galaxy, what tool should I run to apply MSI preprocessing steps to an imaging dataset?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q047** — I have an MSI dataset and want a quality-control report to spot artifacts, low-signal regions, and general data-quality issues. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q048** — Before MSI analysis, I want an automated QC report summarizing signal/noise characteristics and other checks for my imaging dataset. What Galaxy tool can generate that MSI QC report?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q049** — Which Galaxy tool can generate a QC/quality report for a mass spectrometry imaging dataset?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q050** — In Galaxy, what tool should I run to produce an MSI quality-control report?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/1.12.1.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q051** — I have MALDI spectra and want preprocessing (baseline correction, smoothing, normalization) before peak picking. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q052** — Before detecting peaks in MALDI data, I need to denoise and correct baselines across spectra to improve peak detection. What Galaxy tool can preprocess MALDI spectra?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q053** — Which Galaxy tool can preprocess MALDI spectra (baseline correction, smoothing, normalization) prior to peak detection?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q054** — In Galaxy, what tool should I run for MALDI spectra preprocessing as a workflow step?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/1.18.0.3
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q055** — I have preprocessed MALDI spectra and want to detect peaks across spectra to generate a peak list/feature table. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q056** — My goal is peak picking on MALDI data to find m/z peaks and build a feature matrix for downstream analysis. What Galaxy tool can perform MALDI peak detection?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q057** — Which Galaxy tool can detect peaks in MALDI spectra and output a peak list or feature table?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
-  - Datasets: 2628280
-- **metabolomics-msi-finding-nglycans-q058** — In Galaxy, what tool should I run to perform MALDI peak detection after preprocessing?
-  - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/1.18.0.4
   - Datasets: 2628280
 
 ## Predicting EI+ mass spectra with QCxMS (topics/metabolomics/tutorials/qcxms-predictions)

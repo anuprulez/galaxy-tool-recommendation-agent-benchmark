@@ -1205,3 +1205,14 @@ Notes:
   - Deleted 32 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog (muon-spectroscopy project tools; metabolomics batch correction / QC metrics / generic filtering / HMDB WSDL search tools).
   - Ground-truth cleanup: For 4 metabolomics items that listed `matchms_similarity` plus `matchms`, dropped the missing `matchms_similarity` tool and kept `matchms` as the sole gold tool (updated `metadata.tool_focus` accordingly and removed now-unneeded multi-tool metadata).
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 168 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0048 (ground-truth fix + expansion; lines 3793-3992)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on metabolomics LC-MS / MSI / mfassignr items and enforcing usegalaxy snapshot presence for every gold tool ID.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate a representative kept substitution/correction (confirmed `toolshed.g2.bx.psu.edu/repos/recetox/mfassignr_kmdnoise/mfassignr_kmdnoise/1.1.2+galaxy0` semantics and IO via helptext + `input_params_flat`/`outputs_raw`) and used the catalog index to confirm a large set of MSI/Cardinal/MALDIquant-related tool IDs are absent from the snapshot.
+- Changes:
+  - Deleted 72 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog (generic metabolomics filtering/QC/batch-correction tools; Cardinal MSI suite; MALDIquant tools; fuzzy-join helper).
+  - Fixed 4 metabolomics mfassignr items where the stored gold tool ID was a mismatched repo/tool_id path (replaced with the installed, in-catalog `mfassignr_kmdnoise` tool ID; intent preserved).
+  - Query hygiene: Rewrote 2 Filter1 tool-first queries to eliminate exact duplicates within this slice while preserving the same row-filtering intent/tool focus.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 128 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
