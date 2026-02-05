@@ -762,3 +762,12 @@ Notes:
 - Changes: Reviewed all 200 items and added one high-confidence alternative short-read aligner where the intent is interchangeable: BWA-MEM2 ↔ BWA-MEM (1 item expanded). Also made one small query rewrite to remove a smell-scan “guide phrase” while keeping intent unchanged (q050).
 - Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (84 items adjusted).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0004 (ground-truth expansion; lines 551-750)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Changes: Reviewed all 200 items and expanded 4 Open Babel compound-format conversion items to include `ctb_compound_convert` as an acceptable alternative to `openbabel_compound_convert` (q059–q062). Also made two small query rewrites to remove a smell-scan “guide phrase” while keeping intent unchanged (q077, q060).
+  - Evidence (tool_catalog w/ helptext + IO): `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` shows both tools’ helptext describe an Open Babel “compound converter” that *interconverts various chemistry / molecular modeling file formats* and lets the user choose an output format; both expose a `infile` data input and emit a converted structure output (`outfile` / `file_outputs`), making them interchangeable for these “convert ligand library between formats” intents.
+- Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (124 items adjusted).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.

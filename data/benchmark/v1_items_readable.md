@@ -1865,16 +1865,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/9.5+galaxy2, Grep1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q059** — I need to convert a collection of small-molecule structures between common formats as part of a screening workflow. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q060** — I want to reformat my ligand library into a representation that docking tools can accept. Which tool should I run?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q061** — I have structure records with inconsistent encoding and want to standardize them by converting through a canonical representation. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q062** — I need a chemistry conversion step in Galaxy to transform my compound set into a compatible structure format. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: None
 - **computational-chemistry-cheminformatics-q063** — I want to query a public bioactivity database to retrieve compounds reported to bind a specific target. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl/0.10.1+galaxy4
@@ -1918,7 +1918,7 @@ Questions:
 - **computational-chemistry-cheminformatics-q076** — I need to identify and rank putative ligand-binding sites on a protein structure before docking. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/4.0.0+galaxy0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q077** — I want to compute pockets/cavities on a protein and get coordinates to guide docking. Which tool should I use?
+- **computational-chemistry-cheminformatics-q077** — I want to compute pockets/cavities on a protein and get coordinates I can use to define a docking site. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket/4.0.0+galaxy0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q078** — I have a protein structure and want pocket-finding output to pick a docking site. Which tool should I use in Galaxy?
@@ -2198,7 +2198,7 @@ Questions:
 - **computational-chemistry-covid19-docking-q059** — I want to assemble a representative ligand model from multiple fragment-derived ligands before scoring. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
-- **computational-chemistry-covid19-docking-q060** — I need to build a composite ligand reference from a set of related ligands/fragments to guide docking evaluation. Which tool should I run?
+- **computational-chemistry-covid19-docking-q060** — I need to build a composite ligand reference from a set of related ligands/fragments so I can use it as a reference in docking evaluation. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_frankenstein_ligand/ctb_frankenstein_ligand/2013.1-0+galaxy0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q061** — I want to merge ligand fragments into a single hybrid ligand structure to define a binding-site reference. Which tool should I use?
