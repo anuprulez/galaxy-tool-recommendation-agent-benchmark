@@ -1330,21 +1330,12 @@ Questions:
 
 ## Getting your hands-on earth data (topics/climate/tutorials/earth_system)
 - Topic: climate
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
+- Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.3.0
 - Datasets (0): N/A
 
 Questions:
-- **climate-earth_system-q011** — I need ocean profile data from the Argo program for a specific region and period. Which tool should I use to fetch it into my history?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0
-  - Datasets: N/A
 - **climate-earth_system-q012** — I want to download a reanalysis or climate dataset from a Copernicus climate service for a given region and date range. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.3.0
-  - Datasets: N/A
-- **climate-earth_system-q013** — I want marine species occurrence records from OBIS for a taxon and bounding box. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2
-  - Datasets: N/A
-- **climate-earth_system-q014** — I want species occurrence records aggregated from multiple biodiversity databases for a taxon and region. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/spocc_occ/spocc_occ/0.9.0
   - Datasets: N/A
 
 ## Functionally Assembled Terrestrial Ecosystem Simulator (FATES) (topics/climate/tutorials/fates)
@@ -1390,80 +1381,6 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1
   - Datasets: zenodo.4108341, zenodo.4126404, inputdata_version2.0.0_ALP1.tar, 4108341, 4126404
 
-## Ocean's variables study (topics/climate/tutorials/ocean-variables)
-- Topic: climate
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
-- Datasets (1): None
-
-Questions:
-- **climate-ocean-variables-q011** — I have scattered in-situ measurements of an ocean variable and want to interpolate them onto a regular grid using objective analysis. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
-  - Datasets: None
-- **climate-ocean-variables-q012** — I want to generate a gridded climatology from irregularly sampled ocean observations, including QC and gridding. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
-  - Datasets: None
-- **climate-ocean-variables-q013** — I need an end-to-end workflow that performs gridding/interpolation and outputs a map-ready field for an ocean variable. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
-  - Datasets: None
-- **climate-ocean-variables-q014** — I want to run a full DIVA-style analysis to reconstruct an ocean variable field from observations. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/divand_full_analysis/divand_full_analysis/0.1.0+galaxy0
-  - Datasets: None
-
-## Nitrate DMQC for autonomous platforms such as Argo floats (topics/climate/tutorials/ocean_qcv_analysis)
-- Topic: climate
-- Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
-- Datasets (1): None
-
-Questions:
-- **climate-ocean_qcv_analysis-q011** — I have in-situ ocean measurements from different sources and want to harmonize them into a consistent dataset suitable for quality control. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q012** — I need to convert float observations into a standardized NetCDF structure with proper metadata and units for downstream QC. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q013** — Which tool can harmonize in-situ profile data into a NetCDF dataset that downstream QC tools can read?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q014** — I want to standardize column names and units and produce a NetCDF output that my ocean QC workflow can ingest. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/harmonize_insitu_to_netcdf/harmonize_insitu_to_netcdf/3.0+galaxy1
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q015** — I want to visualize ocean profile data and interactively flag questionable points as part of delayed-mode QC. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q016** — I need section plots and scatter plots from float profile datasets stored in my history. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q017** — I want to interactively explore ocean profile data from my history in a dedicated profile-data viewer (plots, sections, QC flags). Which tool should I launch?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q018** — I need to create a project for delayed-mode QC in an interactive ocean profile viewer and export diagnostic plots. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv/tool_odv/1.3+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q019** — After using an interactive ocean profile viewer for QC, I want a saved record of edits, flags, and outputs for reproducibility. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q020** — I want to capture the outputs from my interactive profile-viewer session (history, logs) as datasets in my Galaxy history. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q021** — Which tool can collect the outputs from an interactive profile-viewer session into a single, shareable record in my history?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q022** — I need to extract the session-history output from a previous interactive profile-viewer run so I can reuse it later. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_odv_history/tool_odv_history/1.2+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q023** — I have float oxygen/nitrate/chlorophyll measurements and want to calibrate them using reference information for delayed-mode QC. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q024** — I want to apply biogeochemical sensor calibration to float data and generate calibrated variables and QC outputs. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q025** — Which tool can run biogeochemical calibration for profiling float measurements in a delayed-mode QC workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
-  - Datasets: None
-- **climate-ocean_qcv_analysis-q026** — I need to calibrate biogeochemical variables and output updated values and QC flags. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ecology/tool_biogeochemical_calibration/tool_biogeochemical_calibration/2.1+galaxy2
-  - Datasets: None
-
 ## Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools (topics/climate/tutorials/pangeo)
 - Topic: climate
 - Tools: toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/2022.3.0+galaxy0
@@ -1500,40 +1417,40 @@ Questions:
 
 ## Pangeo Notebook in Galaxy - Introduction to Xarray (topics/climate/tutorials/pangeo-notebook)
 - Topic: climate
-- Tools: interactive_tool_pangeo_notebook
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (2): zenodo.5805953, 5805953
 
 Questions:
 - **climate-pangeo-notebook-q011** — I want an interactive notebook environment connected to my Galaxy datasets so I can analyze climate data with Python and xarray. Which tool should I launch?
-  - Tools: interactive_tool_pangeo_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.5805953, 5805953
 - **climate-pangeo-notebook-q012** — I need a temporary interactive workspace to run Python on datasets in my history (xarray, pandas, plotting). Which tool should I use?
-  - Tools: interactive_tool_pangeo_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.5805953, 5805953
 - **climate-pangeo-notebook-q013** — I prefer to code my analysis in a notebook; which Galaxy tool lets me open a Jupyter-style notebook with xarray on my datasets?
-  - Tools: interactive_tool_pangeo_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.5805953, 5805953
 - **climate-pangeo-notebook-q014** — I want to explore multi-dimensional climate data interactively, iterating on plots and computations in a notebook without leaving Galaxy. Which tool should I use?
-  - Tools: interactive_tool_pangeo_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: zenodo.5805953, 5805953
 
 ## Sentinel 5P data visualisation (topics/climate/tutorials/sentinel5_data)
 - Topic: climate
-- Tools: interactive_tool_copernicus_notebook
+- Tools: interactive_tool_jupyter_notebook
 - Datasets (1): None
 
 Questions:
 - **climate-sentinel5_data-q011** — I have Sentinel-5P atmospheric products and want an interactive notebook workspace inside Galaxy to explore them and generate a few maps. Which tool should I launch?
-  - Tools: interactive_tool_copernicus_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 - **climate-sentinel5_data-q012** — I want to run custom Python analysis on Earth-observation datasets directly from my Galaxy history using a notebook session. Which tool should I use?
-  - Tools: interactive_tool_copernicus_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 - **climate-sentinel5_data-q013** — Which Galaxy tool provides an interactive notebook environment for working with Earth-observation datasets?
-  - Tools: interactive_tool_copernicus_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 - **climate-sentinel5_data-q014** — In Galaxy, what tool opens a notebook session so I can run code on datasets in my history?
-  - Tools: interactive_tool_copernicus_notebook
+  - Tools: interactive_tool_jupyter_notebook
   - Datasets: None
 - **climate-sentinel5_data-q015** — I downloaded a multi-dimensional satellite dataset and want a desktop-style viewer to browse variables and quickly plot them. Which tool should I use?
   - Tools: interactive_tool_panoply
@@ -1546,18 +1463,6 @@ Questions:
   - Datasets: None
 - **climate-sentinel5_data-q018** — What tool in Galaxy lets me interactively inspect variables in a gridded satellite product and make quick maps?
   - Tools: interactive_tool_panoply
-  - Datasets: None
-- **climate-sentinel5_data-q019** — I want to search for Sentinel-5P products by region and date and download the results into my Galaxy history. Which tool should I use?
-  - Tools: interactive_tool_copernicus
-  - Datasets: None
-- **climate-sentinel5_data-q020** — I need to retrieve Sentinel-5P measurements for a chosen time range and area and add them to my history for analysis. Which tool should I run?
-  - Tools: interactive_tool_copernicus
-  - Datasets: None
-- **climate-sentinel5_data-q021** — Which Galaxy tool can query a Sentinel-5P catalogue and download selected products into my history?
-  - Tools: interactive_tool_copernicus
-  - Datasets: None
-- **climate-sentinel5_data-q022** — In Galaxy, what tool can discover and retrieve Sentinel-5P datasets for a chosen region and period?
-  - Tools: interactive_tool_copernicus
   - Datasets: None
 
 ## Analysis of molecular dynamics simulations (topics/computational-chemistry/tutorials/analysis-md-simulations)

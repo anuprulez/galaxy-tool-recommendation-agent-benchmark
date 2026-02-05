@@ -995,3 +995,14 @@ Notes:
   - Deleted 5 items where no semantically equivalent tool could be found in the usegalaxy.org catalog snapshot (climate/ODV/Argo fetch + essential variability; and a generic bar-chart plotting item).
 - Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
 - Validation: check_v1_items passes for the kept subset in this reviewed range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0029 (ground-truth fix + expansion; lines 396-595)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items (accounting for prior deletions shifting line numbers). Goal: replace missing gold tools with catalog-present, semantically equivalent tools when available; otherwise delete.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate tool existence and semantics/IO for replacements (e.g., verified the Interactive JupyterLab Notebook tool entry before using it as a replacement notebook environment).
+- Changes:
+  - Replaced 8 missing interactive-notebook gold tools with `interactive_tool_jupyter_notebook` (JupyterLab notebook environment) because it satisfies the query intent (“interactive notebook connected to Galaxy datasets”).
+  - Deleted 27 items in this range where the gold tool was missing from the catalog and no clearly equivalent usegalaxy.org tool could be identified (notably: DIVA/DIVAnd-style objective analysis gridding, ODV interactive profile QC tools + history capture, biogeochemical calibration, and Copernicus/Sentinel discovery tools).
+- Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
+- Validation: check_v1_items passes for the kept subset in this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
