@@ -3881,7 +3881,7 @@ Questions:
 - **digital-humanities-open-refine-tutorial-q028** — I need to drop the first N rows of a table to remove a preamble section. Which tool should I run?
   - Tools: Remove beginning1
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q029** — Which Galaxy tool removes the first N lines from a dataset?
+- **digital-humanities-open-refine-tutorial-q029** — I need to drop a fixed number of header/comment lines from the start of a dataset before importing it into another step. Which Galaxy tool should I use?
   - Tools: Remove beginning1
   - Datasets: zenodo.17047254, 17047254, 17047254
 - **digital-humanities-open-refine-tutorial-q030** — What tool should I use in Galaxy to strip leading lines from a file?
@@ -3926,7 +3926,7 @@ Questions:
 - **digital-humanities-open-refine-tutorial-q043** — I have a small text dataset containing a single value (like a label or pattern) and I want to reuse that value as an input to another step. Which Galaxy tool should I use?
   - Tools: param_value_from_file
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q044** — I need to read one value from a dataset in my history and pass it into a downstream step. Which tool should I run in Galaxy?
+- **digital-humanities-open-refine-tutorial-q044** — I have a dataset that contains a single value (for example, a numeric threshold or a sample label) and I want to use that value as an input field in another tool run. Which Galaxy tool should I run?
   - Tools: param_value_from_file
   - Datasets: zenodo.17047254, 17047254, 17047254
 - **digital-humanities-open-refine-tutorial-q045** — Which Galaxy tool can take the contents of a small dataset and use it as an input value for another step?
@@ -4008,7 +4008,7 @@ Questions:
 - **digital-humanities-text_mining_chinese-q016** — I need a report of differences between two text datasets (added/removed/modified lines). Which tool should I run in Galaxy?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
   - Datasets: zenodo.14899614, 14899614, 14899614
-- **digital-humanities-text_mining_chinese-q017** — Which Galaxy tool compares two text datasets and outputs their differences?
+- **digital-humanities-text_mining_chinese-q017** — I want a line-by-line diff between two text datasets (for example, before/after editing) to see exactly what changed. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/diff/diff/3.10+galaxy1
   - Datasets: zenodo.14899614, 14899614, 14899614
 - **digital-humanities-text_mining_chinese-q018** — What tool should I use in Galaxy to compute a diff between two text datasets?
@@ -4204,7 +4204,7 @@ Questions:
 - **ecology-ENA_Biodiv_submission-q047** — I need to convert sequencing reads from FASTQ to FASTA in Galaxy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.2+galaxy0
   - Datasets: None
-- **ecology-ENA_Biodiv_submission-q048** — For a downstream step that requires FASTA, I want to convert my read dataset. Which Galaxy tool should I run?
+- **ecology-ENA_Biodiv_submission-q048** — I have sequencing reads in FASTQ format, but the next step requires FASTA sequences (no quality scores). Which Galaxy tool should I use to convert FASTQ to FASTA?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.2+galaxy0
   - Datasets: None
 - **ecology-ENA_Biodiv_submission-q049** — Which Galaxy tool converts FASTQ reads into FASTA sequences?
