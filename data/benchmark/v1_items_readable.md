@@ -1208,7 +1208,7 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/bionano_scaffold/bionano_scaffold/3.7.0+galaxy3
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q048** — I need a fast short-read aligner to map paired-end reads to my assembly for downstream conversion and filtering. Which tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.3+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: 5887339, HiFi_synthetic_50x_01.fasta, HiFi_synthetic_50x_02.fasta, 5550653, 6098306
 - **assembly-vgp_genome_assembly-q049** — My Hi-C library prep introduced chimeric pairs, and I want to filter and merge the alignments before scaffolding. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1
@@ -1837,7 +1837,7 @@ Questions:
 - **computational-chemistry-cheminformatics-q049** — I need to cluster a compound library based on fingerprint similarity using an all-vs-all approach. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.6.1+0
   - Datasets: None
-- **computational-chemistry-cheminformatics-q050** — I want to build a similarity table across my entire compound set from fingerprints to guide representative selection. Which tool should I use?
+- **computational-chemistry-cheminformatics-q050** — I want to build a similarity table across my entire compound set from fingerprints so I can choose representative molecules and reduce redundancy. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/1.6.1+0
   - Datasets: None
 - **computational-chemistry-cheminformatics-q051** — I want to start a docking workflow and need to retrieve a protein structure from a public structure archive into my Galaxy history. Which tool should I use?
