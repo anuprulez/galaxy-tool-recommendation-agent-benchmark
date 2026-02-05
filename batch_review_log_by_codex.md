@@ -1067,3 +1067,14 @@ Notes:
 - Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool semantics/IO for representative tools in this range (e.g., checked `Count1` / `Grouping1` helptext entries for the “frequency table / count values” intent, and validated that the tools are present on the usegalaxy.org snapshot).
 - Changes: No gold tool replacements, deletions, query rewrites, or alternative additions were needed in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0036 (ground-truth fix + expansion; lines 1769-1968)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on ground-truth integrity (tool must exist on the usegalaxy.org snapshot) and strict alternative additions only when they clearly satisfy the query.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate proposed replacements (e.g., confirmed `toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_pca/sklearn_pca/1.0.11.0` supports PCA on tabular feature matrices via helptext + `input_params_flat`).
+- Changes:
+  - Replaced 4 missing remote-sensing PCA gold tools (`srs_pca/0.0.1`) with a usegalaxy-present, IO-compatible PCA tool (`sklearn_pca/1.0.11.0`) and rewrote those 4 queries to match the tabular PCA intent.
+  - Deleted 40 items whose gold tools are not present in the usegalaxy.org catalog snapshot and for which no clearly semantically/IO-equivalent replacement was available in-catalog (regionalGAM ecology tools, remote-sensing processing/report tool, occurrence fetching tool, interactive SDM workbench, and CDO operations).
+  - Query hygiene: Rewrote 1 Count1 query (`ecology-regionalGAM-q028`) to remove a near-duplicate within-tool phrasing while preserving intent.
+- Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
