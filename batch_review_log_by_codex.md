@@ -1271,3 +1271,15 @@ Notes:
     - Replaced 1 missing ProteoRE `Jvenn` item with the in-catalog `venn_list` tool (Venn-diagram overlap intent preserved).
   - Query hygiene: Rewrote 9 queries to eliminate exact duplicates and high near-duplicates (notably across `Summary_Statistics1`, `query_tabular`, `SearchGUI`, `PeptideShaker`, and upload-intent items) while preserving the same tool focus and user intent.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 152 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
+
+## GTX0054 (ground-truth fix + expansion; lines 4809-5008)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on (1) pruning missing gold tools (usegalaxy snapshot) and (2) making only helptext+IO-validated replacements where a close semantic match exists.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` + the catalog index to confirm missing tool IDs (VarVAMP, HCA matrix downloader, trimAl, ete treeviewer) are absent from the snapshot and to validate the two safe phylogeny substitutions via helptext + IO (`rapidnj` for quick NJ trees; `newick_display` for rendering Newick trees).
+- Changes:
+  - Deleted 4 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent single-tool replacement in-catalog (viral primer-scheme design; HCA matrix downloader; alignment trimming helper).
+  - Gold-tool corrections (manual, intent-preserving):
+    - Replaced 1 missing quick-tree builder (`quicktree`) with `toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2` (quick neighbor-joining tree from an alignment).
+    - Replaced 1 missing tree viewer (`ete_treeviewer`) with `toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1` and rewrote the query to match the “display a Newick tree” intent.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 196 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.

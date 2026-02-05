@@ -15999,17 +15999,14 @@ Questions:
 - **sequence-analysis-tapscan-streptophyte-algae-q017** — I have a set of nucleotide or protein sequences and want to create a multiple sequence alignment for downstream phylogenetic analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2, toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q018** — I have a multiple sequence alignment and want to trim poorly aligned or gappy regions before building a phylogenetic tree. Which Galaxy tool can trim an alignment?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/trimal/trimal/1.5.0+galaxy1
-  - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q019** — I have a multiple sequence alignment and want a quick approximate phylogenetic tree for exploratory analysis. Which Galaxy tool can build a quick tree?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/quicktree/quicktree/2.5+galaxy0
+- **sequence-analysis-tapscan-streptophyte-algae-q019** — I have a multiple sequence alignment and want a quick neighbor-joining tree for exploratory phylogenetic analysis. Which Galaxy tool should I use?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 - **sequence-analysis-tapscan-streptophyte-algae-q020** — I have a multiple sequence alignment and want to infer a phylogenetic tree with model selection and branch support. Which Galaxy tool should I use for tree inference?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.4.0+galaxy1, toolshed.g2.bx.psu.edu/repos/iuc/iqtree/iqtree/2.3.6+galaxy0
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
-- **sequence-analysis-tapscan-streptophyte-algae-q021** — I have a phylogenetic tree file and want to visualize it interactively and annotate clades. Which Galaxy tool can view and explore trees?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/ete_treeviewer/ete_treeviewer/3.1.3+galaxy0
+- **sequence-analysis-tapscan-streptophyte-algae-q021** — I have a Newick tree file and want to render it so I can inspect topology and branch support/labels. Which Galaxy tool can display a phylogenetic tree?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1
   - Datasets:  (e.g. `ARATH.fa`, `CHABR.fa`, `MARPO.fa`, `PENMA.fa`, `SELMO.fa`, `PHYPAV6.fa`, `ORYSAJA.fa`)
 
 ## Primer and primer scheme design for pan-specific detection and sequencing of viral pathogens across genotypes (topics/sequence-analysis/tutorials/viral_primer_design)
@@ -16024,14 +16021,8 @@ Questions:
 - **sequence-analysis-viral_primer_design-q012** — Which Galaxy tool performs multiple sequence alignment for a set of sequences?
   - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy2, toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.526+galaxy1
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
-- **sequence-analysis-viral_primer_design-q013** — I have a viral genome alignment and want to design primer schemes that cover the genome while accounting for variation. Which Galaxy tool can design tiled amplicon primers?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varvamp/varvamp/1.2.2+galaxy0
-  - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 - **sequence-analysis-viral_primer_design-q014** — I have a FASTA reference database and need to build a BLAST database in Galaxy so I can run sequence similarity searches against it. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.16.0+galaxy0, toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.14.1+galaxy2
-  - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
-- **sequence-analysis-viral_primer_design-q015** — I’m designing primers for targeted sequencing of a virus and need a tool that proposes primer sets robust to observed mutations. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/varvamp/varvamp/1.2.2+galaxy0
   - Datasets: 14845698 (plus Polio alignments from GitHub raw links in the tutorial, and `entero_genomes.fasta` for off-target background)
 
 ## Importing files from public atlases (topics/single-cell/tutorials/EBI-retrieval)
@@ -16057,9 +16048,6 @@ Questions:
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q016** — Which Galaxy tool performs basic operations on AnnData objects (e.g., selecting layers/fields or modifying annotations) for single-cell workflows?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1, toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0
-  - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
-- **single-cell-EBI-retrieval-q017** — I want to download a single-cell count matrix from the Human Cell Atlas into Galaxy for analysis. Which Galaxy tool can download HCA matrices?
-  - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader/v0.0.4+galaxy0
   - Datasets: EBI Single Cell Expression Atlas `E-MTAB-6945`, and Human Cell Atlas project `Single cell transcriptome analysis of human pancreas`
 - **single-cell-EBI-retrieval-q018** — I need to convert a single-cell dataset between common formats (for example, AnnData to another single-cell file format) for compatibility with downstream tools. Which Galaxy tool can convert single-cell formats?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sceasy_convert/sceasy_convert/0.0.7+galaxy2
