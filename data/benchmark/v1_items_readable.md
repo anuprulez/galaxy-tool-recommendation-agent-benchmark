@@ -13544,7 +13544,7 @@ Questions:
 - Datasets (1): 5179809
 
 Questions:
-- **metabolomics-lcms-dataprocessing-q011** — I have a metabolomics feature table and want to filter out low-quality features (e.g., too many missing values or low reproducibility) before analysis. Which Galaxy tool should I use?
+- **metabolomics-lcms-dataprocessing-q011** — Before statistical analysis, I want to apply rule-based filtering to a metabolomics feature table (for example removing features with high missingness or low signal) and keep a cleaned table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/melpetera/generic_filter/generic_filter/2020.01
   - Datasets: 5179809
 - **metabolomics-lcms-dataprocessing-q012** — My quantitative matrix contains noisy features; I want to apply generic feature-filtering rules to keep a cleaner dataset for statistics. What Galaxy tool can do this filtering?
@@ -13574,10 +13574,10 @@ Questions:
 - **metabolomics-lcms-dataprocessing-q020** — Before doing statistics, I want to compute quality metrics for my metabolomics dataset to see whether QC samples look stable. What Galaxy tool can compute those QC metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q021** — Which Galaxy tool can compute quality-control metrics for a metabolomics dataset and output a QC report?
+- **metabolomics-lcms-dataprocessing-q021** — After producing a metabolomics feature table, I need an automated QC summary with diagnostic metrics/plots to assess sample and feature quality. Which Galaxy tool should I run to generate a QC report?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 5179809
-- **metabolomics-lcms-dataprocessing-q022** — In Galaxy, what tool should I run to calculate quality metrics on a metabolomics feature matrix (including QC samples)?
+- **metabolomics-lcms-dataprocessing-q022** — My metabolomics intensity matrix includes pooled QC injections, and I want quality metrics (e.g., variability/CV and missingness) summarized to spot unstable features. What Galaxy tool can compute these quality metrics?
   - Tools: toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.8
   - Datasets: 5179809
 - **metabolomics-lcms-dataprocessing-q023** — I have a metabolomics feature matrix and want multivariate analysis (e.g., PCA/PLS-DA) to visualize sample separation and identify major sources of variation. Which Galaxy tool should I use?
@@ -13656,7 +13656,7 @@ Questions:
 - **metabolomics-lcms-preprocessing-q021** — Which Galaxy tool can plot chromatograms from LC-MS data or preprocessing outputs for QC?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0
   - Datasets: 3757956
-- **metabolomics-lcms-preprocessing-q022** — In Galaxy, what tool should I run to generate chromatogram plots to inspect peak shapes and retention times?
+- **metabolomics-lcms-preprocessing-q022** — I want to visualize chromatograms from my LC-MS runs to sanity-check peak shapes and retention-time behavior before downstream processing. Which Galaxy tool can generate chromatogram plots for inspection?
   - Tools: toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy3, toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/3.12.0+galaxy0
   - Datasets: 3757956
 - **metabolomics-lcms-preprocessing-q023** — I have LC-MS data and want to detect chromatographic peaks/features in each sample to generate per-sample feature lists. Which Galaxy tool should I use?

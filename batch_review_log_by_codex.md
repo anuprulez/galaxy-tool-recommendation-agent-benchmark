@@ -921,3 +921,12 @@ Notes:
 - Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review for tool existence/semantics and IO shape (e.g., intersect/overlap operations and fastq QC/preprocessing tools such as `toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/...`).
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added and no query rewrites were needed in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0022 (ground-truth expansion; lines 4151-4350)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate tool semantics/IO where possible (e.g., confirmed metabolomics chromatogram plotting via `toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_plot_chromatogram/xcms_plot_chromatogram/...`). Several other metabolomics tools referenced in this range were not present in this catalog snapshot, so I did not add any new alternatives without catalog corroboration.
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Query hygiene: Rewrote 4 queries to remove exact duplicates across metabolomics tutorials while keeping intent unchanged (`metabolomics-lcms-preprocessing-q022`, `metabolomics-lcms-dataprocessing-q011`, `metabolomics-lcms-dataprocessing-q021`, `metabolomics-lcms-dataprocessing-q022`).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates (remaining near-duplicate pairs acceptable).
