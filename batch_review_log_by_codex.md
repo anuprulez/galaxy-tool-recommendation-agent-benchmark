@@ -913,3 +913,11 @@ Notes:
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Query hygiene: Rewrote 1 query to match the real intent of the gold tool while keeping the item’s step meaning consistent (`introduction-galaxy-intro-ngs-data-managment-q033`).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0021 (ground-truth expansion; lines 3951-4150)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review for tool existence/semantics and IO shape (e.g., intersect/overlap operations and fastq QC/preprocessing tools such as `toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/...`).
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added and no query rewrites were needed in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
