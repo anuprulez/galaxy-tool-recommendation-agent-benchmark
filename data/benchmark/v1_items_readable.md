@@ -11368,10 +11368,10 @@ Questions:
 - **imaging-tutorial-CP-q018** — In Galaxy, what tool should I run to download microscopy images from IDR given a list of image IDs?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.45
   - Datasets: None
-- **imaging-tutorial-CP-q019** — I have microscopy images and want to segment primary objects (e.g., nuclei) to produce labeled masks for measurement. Which Galaxy tool should I use?
+- **imaging-tutorial-CP-q019** — I have fluorescence microscopy images with a nuclei stain and need a first-pass nuclei segmentation step that outputs labeled primary objects for downstream measurements. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2
   - Datasets: None
-- **imaging-tutorial-CP-q020** — I need to identify individual nuclei/cells in an image and output an object label mask for downstream feature extraction. What Galaxy tool can detect primary objects?
+- **imaging-tutorial-CP-q020** — My microscopy images contain touching nuclei and I need to detect and separate primary objects, producing an object mask/labels that other steps can measure. What Galaxy tool in Galaxy can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/cp_identify_primary_objects/cp_identify_primary_objects/3.1.9+galaxy2
   - Datasets: None
 - **imaging-tutorial-CP-q021** — Which Galaxy tool can segment primary objects in an image and output a labeled object mask suitable for measurements?

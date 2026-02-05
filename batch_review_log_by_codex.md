@@ -887,3 +887,12 @@ Notes:
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Query hygiene: Rewrote 4 queries to remove exact duplicates across imaging tutorials while keeping intent unchanged (`imaging-imaging-introduction-q021`, `imaging-imaging-introduction-q022`, `imaging-imaging-introduction-q033`, `imaging-imaging-introduction-q042`).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates (remaining near-duplicate pairs acceptable).
+
+## GTX0018 (ground-truth expansion; lines 3351-3550)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review for tool existence/semantics (helptext) and IO shape. Many imaging-related Toolshed tools in this range (including the CellProfiler tool IDs in `imaging-tutorial-CP`) were not present in this catalog snapshot, so I did not add any new alternatives that could not be corroborated via catalog helptext/IO.
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Query hygiene: Rewrote 2 queries to remove exact duplicates across imaging tutorials while keeping intent unchanged (`imaging-tutorial-CP-q019`, `imaging-tutorial-CP-q020`).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates (remaining near-duplicate pairs acceptable).
