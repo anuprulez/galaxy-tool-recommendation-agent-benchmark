@@ -1246,3 +1246,13 @@ Notes:
   - Deleted 48 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent single-tool replacement in-catalog (OpenSwath DIA tooling, DiaPASEF, BioconductorSCP, and multiple ProteoRE data-retrieval/ID-mapping helpers).
   - Ground-truth cleanup: For 4 proteomics biomarker-selection items that already included `venn_list` as an alternative alongside a missing `Jvenn` tool ID, dropped the missing `Jvenn` tool, kept `venn_list` as the sole gold tool, updated `metadata.tool_focus`, and removed now-unneeded multi-tool metadata.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 152 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0052 (ground-truth fix + expansion; lines 4465-4664)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on removing remaining MSI-imaging items whose gold tools are not present in the usegalaxy.org snapshot (and avoiding non-stable placeholder tool IDs).
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` + the catalog index to confirm MSI/Cardinal tools are absent from this snapshot and that the placeholder `MSI mz images` tool ID is not resolvable to an installed tool entry.
+- Changes:
+  - Deleted 8 MSI imaging items whose gold tools were missing/unresolvable on the usegalaxy.org catalog snapshot (Cardinal MSI QC report + “MSI mz images” placeholder entries); no clearly equivalent single-tool replacement was available in-catalog.
+  - No other gold expansions/replacements were needed in this batch.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 192 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
