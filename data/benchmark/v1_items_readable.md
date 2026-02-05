@@ -18147,22 +18147,22 @@ Questions:
 - **single-cell-scanpy_parameter_iterator-q011** — I want to run the same single-cell analysis step multiple times with different run settings (for example, different filtering thresholds) and compare outcomes. Which Galaxy tool can automate those repeated runs?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_parameter_iterator/scanpy_parameter_iterator/0.0.1+galaxy9
   - Datasets: 8011681
-- **single-cell-scanpy_parameter_iterator-q012** — What Galaxy tool should I run for `Scanpy ComputeGraph`?
+- **single-cell-scanpy_parameter_iterator-q012** — I have a filtered single-cell expression AnnData object and want to build a k-nearest-neighbor graph to support clustering and UMAP. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+galaxy9
   - Datasets: 8011681
-- **single-cell-scanpy_parameter_iterator-q013** — What Galaxy tool should I run for `Scanpy RunTSNE`?
+- **single-cell-scanpy_parameter_iterator-q013** — I have a reduced single-cell dataset (for example, PCA coordinates) and want a t-SNE embedding to visualize cell populations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.8.1+galaxy9
   - Datasets: 8011681
-- **single-cell-scanpy_parameter_iterator-q014** — What Galaxy tool should I run for `Scanpy RunUMAP`?
+- **single-cell-scanpy_parameter_iterator-q014** — I have single-cell data with a neighbor graph computed and want a UMAP embedding for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.8.1+galaxy9
   - Datasets: 8011681
-- **single-cell-scanpy_parameter_iterator-q015** — Which Galaxy tool would you recommend to perform `scanpy_find_cluster`?
+- **single-cell-scanpy_parameter_iterator-q015** — I have a neighbor graph for single-cell data and want to assign cluster labels to cells using community detection. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.8.1+galaxy9
   - Datasets: 8011681
-- **single-cell-scanpy_parameter_iterator-q016** — Which Galaxy tool would you recommend to perform `scanpy_plot_embed`?
+- **single-cell-scanpy_parameter_iterator-q016** — I have single-cell coordinates (UMAP or t-SNE) plus cell annotations and want a colored embedding plot for QC and interpretation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.8.1+galaxy9
   - Datasets: 8011681
-- **single-cell-scanpy_parameter_iterator-q017** — Which Galaxy tool should I use to run `Scanpy RunPCA`?
+- **single-cell-scanpy_parameter_iterator-q017** — I have a normalized single-cell gene expression matrix and want to run PCA to reduce dimensionality before clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca/1.9.3+galaxy0
   - Datasets: 8011681
 
@@ -18172,76 +18172,76 @@ Questions:
 - Datasets (1): 12683310
 
 Questions:
-- **single-cell-scatac-batch-correction-snapatac2-q011** — Which Galaxy tool should I use to run `Compute sequence length`?
+- **single-cell-scatac-batch-correction-snapatac2-q011** — I have a FASTA reference sequence and need a table of sequence lengths to sanity-check it before downstream steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4, toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.3
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q012** — What Galaxy tool should I run for `SnapATAC2 Preprocessing`?
+- **single-cell-scatac-batch-correction-snapatac2-q012** — I have single-cell ATAC-seq fragments and want to create an analysis-ready object with per-cell QC metrics and a cell-by-feature matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.6.4+galaxy1
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q013** — Which Galaxy tool would you recommend to perform `snapatac2_plotting`?
+- **single-cell-scatac-batch-correction-snapatac2-q013** — I have a preprocessed single-cell ATAC dataset and want QC plots like fragment count distributions and other diagnostics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.6.4+galaxy1
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q014** — What Galaxy tool should I run for `Extract element from collection`?
+- **single-cell-scatac-batch-correction-snapatac2-q014** — I have a dataset collection of per-sample single-cell ATAC outputs and need to pull out one element as a standalone dataset. Which Galaxy tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q015** — Which Galaxy tool would you recommend to perform `collection_element_identifiers`?
+- **single-cell-scatac-batch-correction-snapatac2-q015** — I have a dataset collection and want a list of its element names/identifiers so I can match results back to samples. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q016** — Which Galaxy tool would you recommend to perform `Show beginning1`?
+- **single-cell-scatac-batch-correction-snapatac2-q016** — I have a large text or tabular dataset and want to preview the first lines to confirm the header and formatting. Which Galaxy tool should I use?
   - Tools: Show beginning1
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q017** — Which Galaxy tool would you recommend to perform `__FILTER_FROM_FILE__`?
+- **single-cell-scatac-batch-correction-snapatac2-q017** — I have a dataset and a separate file containing IDs of interest, and I want to keep only the matching rows or sequences. Which Galaxy tool should I use?
   - Tools: __FILTER_FROM_FILE__
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q018** — What Galaxy tool should I run for `Manipulate AnnData`?
+- **single-cell-scatac-batch-correction-snapatac2-q018** — I have an AnnData object and want to subset it to a set of cells (for example, one batch or cluster) and save the filtered AnnData. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.3+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q019** — Which Galaxy tool would you recommend to perform `anndata_inspect`?
+- **single-cell-scatac-batch-correction-snapatac2-q019** — I want to check an AnnData object to see how many cells and features it contains and what metadata fields are available. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.3+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q020** — Which Galaxy tool should I use to run `SnapATAC2 Clustering`?
+- **single-cell-scatac-batch-correction-snapatac2-q020** — I have a preprocessed single-cell ATAC dataset and want to compute an embedding and cluster labels to identify cell populations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.6.4+galaxy1
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q021** — Which Galaxy tool would you recommend to perform `snapatac2_peaks_and_motif`?
+- **single-cell-scatac-batch-correction-snapatac2-q021** — I have clustered single-cell ATAC cells and want to call peaks and perform motif enrichment to find cluster-specific regulatory signals. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.6.4+galaxy1
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q022** — Which Galaxy tool would you recommend to perform `pp.import_data`?
+- **single-cell-scatac-batch-correction-snapatac2-q022** — I have aligned single-cell ATAC fragments and want to filter low-quality barcodes and create an analysis-ready object for downstream integration. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q023** — Which Galaxy tool would you recommend to perform `metrics.tsse`?
+- **single-cell-scatac-batch-correction-snapatac2-q023** — I want to preprocess single-cell ATAC data and compute basic QC summaries so I can decide filtering thresholds. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q024** — Which Galaxy tool should I use to run `pp.filter_cells`?
+- **single-cell-scatac-batch-correction-snapatac2-q024** — I have single-cell ATAC fragments from multiple samples and need a consistent preprocessing step that outputs a combined object for downstream clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q025** — Which Galaxy tool should I use to run `pp.add_tile_matrix`?
+- **single-cell-scatac-batch-correction-snapatac2-q025** — I need to build a cell-by-bin accessibility representation from single-cell ATAC fragments for dimensionality reduction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q026** — Which Galaxy tool should I use to run `pp.select_features`?
+- **single-cell-scatac-batch-correction-snapatac2-q026** — I have single-cell ATAC data and want to remove barcodes with too few fragments and produce a cleaned dataset for downstream peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q027** — Which Galaxy tool should I use to run `pp.scrublet`?
+- **single-cell-scatac-batch-correction-snapatac2-q027** — I want to compute a low-dimensional representation of chromatin accessibility as part of preprocessing before clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q028** — What Galaxy tool should I run for `pp.filter_doublets`?
+- **single-cell-scatac-batch-correction-snapatac2-q028** — I have single-cell ATAC data and want an analysis object that stores cell metadata, an accessibility matrix, and QC metrics in one place. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q029** — Which Galaxy tool should I use to run `Extract dataset`?
+- **single-cell-scatac-batch-correction-snapatac2-q029** — My workflow produced a collection of single-cell ATAC outputs; I need to extract one dataset so I can run a tool that doesn't accept collections. Which Galaxy tool should I use?
   - Tools: __EXTRACT_DATASET__
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q030** — Which Galaxy tool would you recommend to perform `tl.spectral`?
+- **single-cell-scatac-batch-correction-snapatac2-q030** — I want to cluster single-cell ATAC cells and get cluster assignments for downstream marker peak analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q031** — Which Galaxy tool should I use to run `tl.umap`?
+- **single-cell-scatac-batch-correction-snapatac2-q031** — I have a single-cell ATAC object and need a neighbor graph and clustering to separate cell populations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q032** — What Galaxy tool should I run for `pp.harmony`?
+- **single-cell-scatac-batch-correction-snapatac2-q032** — I have fragments from a new single-cell ATAC batch and need to preprocess it in the same way as previous batches for integration. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q033** — What Galaxy tool should I run for `pp.knn`?
+- **single-cell-scatac-batch-correction-snapatac2-q033** — I want to preprocess single-cell ATAC and produce a matrix suitable for batch correction across donors. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12683310
-- **single-cell-scatac-batch-correction-snapatac2-q034** — What Galaxy tool should I run for `tl.leiden`?
+- **single-cell-scatac-batch-correction-snapatac2-q034** — I want an embedding from single-cell ATAC data and cluster labels to visualize batch effects and cell populations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12683310
 
@@ -18251,46 +18251,46 @@ Questions:
 - Datasets (3): 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 
 Questions:
-- **single-cell-scatac-preprocessing-tenx-q011** — Which Galaxy tool should I use to run `Sinto barcode`?
+- **single-cell-scatac-preprocessing-tenx-q011** — I have 10x single-cell ATAC reads and need to extract the cell barcodes from the reads so I can build a fragments-style file later. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.10.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/sinto_barcode/sinto_barcode/0.9.0+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q012** — Which Galaxy tool should I use to run `FastQC`?
+- **single-cell-scatac-preprocessing-tenx-q012** — I have raw single-cell ATAC FASTQ reads and want a QC report for base quality and adapter content. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1, toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q013** — Which Galaxy tool should I use to run `BWA-MEM`?
+- **single-cell-scatac-preprocessing-tenx-q013** — I have single-cell ATAC sequencing reads and need to align them to a reference genome to create alignments for downstream fragment generation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q014** — Which Galaxy tool would you recommend to perform `sinto_fragments`?
+- **single-cell-scatac-preprocessing-tenx-q014** — I have aligned single-cell ATAC reads and want to generate a fragments file with genomic coordinates and cell barcodes for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_fragments/sinto_fragments/0.10.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/sinto_fragments/sinto_fragments/0.9.0+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q015** — Which Galaxy tool should I use to run `bedtools SortBED`?
+- **single-cell-scatac-preprocessing-tenx-q015** — I have a BED-like fragments file and need it sorted by genomic coordinates before peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.31.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.30.0+galaxy2
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q016** — Which Galaxy tool would you recommend to perform `macs2_callpeak`?
+- **single-cell-scatac-preprocessing-tenx-q016** — I have single-cell ATAC fragments or pseudo-bulk signal and want to call accessible chromatin peaks. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.1.20160309.6
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q017** — What Galaxy tool should I run for `Unique occurrences of each record`?
+- **single-cell-scatac-preprocessing-tenx-q017** — I have a sorted text list and want to remove duplicates so I keep only unique entries. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q018** — Which Galaxy tool should I use to run `Build count matrix with EpiScanpy`?
+- **single-cell-scatac-preprocessing-tenx-q018** — I have single-cell ATAC fragments and want to build a cell-by-peak (or cell-by-bin) count matrix for downstream clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/episcanpy_build_matrix/episcanpy_build_matrix/0.3.2+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q019** — Which Galaxy tool should I use to run `Inspect AnnData`?
+- **single-cell-scatac-preprocessing-tenx-q019** — I built an AnnData object from single-cell ATAC counts and want to inspect its structure and annotations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q020** — What Galaxy tool should I run for `scATAC-seq Preprocessing with EpiScanpy`?
+- **single-cell-scatac-preprocessing-tenx-q020** — I have a single-cell ATAC count matrix and want basic preprocessing like filtering cells/features and computing QC metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/episcanpy_preprocess/episcanpy_preprocess/0.3.2+galaxy1
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q021** — What Galaxy tool should I run for `Plot with scanpy`?
+- **single-cell-scatac-preprocessing-tenx-q021** — I have single-cell QC metrics stored in AnnData and want diagnostic plots to choose filtering thresholds. Which Galaxy tool should I use to make those plots?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.7.1+galaxy0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q022** — What Galaxy tool should I run for `Map with BWA-MEM`?
+- **single-cell-scatac-preprocessing-tenx-q022** — I need to map trimmed single-cell ATAC reads to the genome to obtain BAM files for downstream processing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q023** — What Galaxy tool should I run for `Sinto fragment`?
+- **single-cell-scatac-preprocessing-tenx-q023** — I have BAM alignments from single-cell ATAC and need a fragments-style file per cell for downstream peak calling and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sinto_fragments/sinto_fragments/0.10.1+galaxy0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
-- **single-cell-scatac-preprocessing-tenx-q024** — What Galaxy tool should I run for `MACS2`?
+- **single-cell-scatac-preprocessing-tenx-q024** — I have a fragments or coverage signal dataset and need peak calling to get a BED of accessible regions. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.2.9.1+galaxy0
   - Datasets: 7855968, atac_pbmc_1k_nextgem_S1_R1_001_chr21.fastq.gz, atac_pbmc_1k_nextgem_S1_R2_001_chr21.fastq.gz
 
@@ -18300,94 +18300,94 @@ Questions:
 - Datasets (1): 12707159
 
 Questions:
-- **single-cell-scatac-standard-processing-snapatac2-q011** — What Galaxy tool should I run for `Compute sequence length`?
+- **single-cell-scatac-standard-processing-snapatac2-q011** — I have a reference FASTA and want to compute sequence lengths to verify contig sizes before building indices. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.4, toolshed.g2.bx.psu.edu/repos/devteam/fasta_compute_length/fasta_compute_length/1.0.3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q012** — What Galaxy tool should I run for `Map with BWA-MEM`?
+- **single-cell-scatac-standard-processing-snapatac2-q012** — I have single-cell ATAC reads and want to align them to a reference genome using a short-read aligner. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19, toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.18
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q013** — Which Galaxy tool should I use to run `SnapATAC2 Preprocessing`?
+- **single-cell-scatac-standard-processing-snapatac2-q013** — I have single-cell ATAC fragments and want to preprocess them into an analysis object ready for clustering and plotting. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.6.4+galaxy1
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q014** — Which Galaxy tool should I use to run `Inspect AnnData`?
+- **single-cell-scatac-standard-processing-snapatac2-q014** — I want to confirm my single-cell ATAC AnnData contains the expected number of cells and features before continuing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.3+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q015** — Which Galaxy tool would you recommend to perform `snapatac2_plotting`?
+- **single-cell-scatac-standard-processing-snapatac2-q015** — I want to visualize QC summaries and embeddings from my single-cell ATAC analysis object to assess batch effects. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_plotting/snapatac2_plotting/2.6.4+galaxy1
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q016** — What Galaxy tool should I run for `SnapATAC2 Clustering`?
+- **single-cell-scatac-standard-processing-snapatac2-q016** — I want to cluster my single-cell ATAC dataset and compute an embedding to visualize cell populations. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.6.4+galaxy1
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q017** — What Galaxy tool should I run for `Filter`?
+- **single-cell-scatac-standard-processing-snapatac2-q017** — I have a single-cell ATAC AnnData object and want to filter out low-quality cells and lowly accessible features based on QC thresholds. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.9.6+galaxy3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q018** — Which Galaxy tool would you recommend to perform `scanpy_normalize`?
+- **single-cell-scatac-standard-processing-snapatac2-q018** — I have single-cell counts and want to normalize per cell and optionally log-transform before dimensionality reduction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.9.6+galaxy3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q019** — Which Galaxy tool should I use to run `Inspect and manipulate`?
+- **single-cell-scatac-standard-processing-snapatac2-q019** — After filtering and normalization, I want to inspect key QC metrics and check that my AnnData has the expected fields. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.9.6+galaxy3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q020** — Which Galaxy tool should I use to run `AnnData Operations`?
+- **single-cell-scatac-standard-processing-snapatac2-q020** — I have an AnnData object and need simple operations like selecting a layer, renaming annotations, or writing a modified AnnData for downstream tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1, toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q021** — Which Galaxy tool would you recommend to perform `snapatac2_peaks_and_motif`?
+- **single-cell-scatac-standard-processing-snapatac2-q021** — From a single-cell ATAC dataset, I want to call peaks and analyze enriched motifs for each cluster. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.8.0+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_peaks_and_motif/snapatac2_peaks_and_motif/2.6.4+galaxy1
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q022** — Which Galaxy tool should I use to run `Plot with Scanpy`?
+- **single-cell-scatac-standard-processing-snapatac2-q022** — I want to visualize my single-cell ATAC clusters on an embedding and color cells by cluster or QC metrics. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.9.6+galaxy3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q023** — What Galaxy tool should I run for `Cut columns`?
+- **single-cell-scatac-standard-processing-snapatac2-q023** — I have a tabular file with many columns and only need a subset of columns for the next step. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q024** — Which Galaxy tool would you recommend to perform `replace_column_with_key_value_file`?
+- **single-cell-scatac-standard-processing-snapatac2-q024** — I have a table where one column contains IDs that I want to remap using a separate key-value mapping file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file/0.2
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q025** — What Galaxy tool should I run for `Manipulate AnnData`?
+- **single-cell-scatac-standard-processing-snapatac2-q025** — I have an AnnData object and want to add a new cell annotation column (for example, batch or sample label) before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.3+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q026** — Which Galaxy tool would you recommend to perform `pp.make_fragment_file`?
+- **single-cell-scatac-standard-processing-snapatac2-q026** — I need to preprocess another single-cell ATAC sample into the same analysis-ready format so it can be integrated with existing data. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q027** — Which Galaxy tool should I use to run `pp.import_data`?
+- **single-cell-scatac-standard-processing-snapatac2-q027** — I have a fragments file and want to build the main single-cell ATAC analysis object with QC metrics and a feature matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q028** — What Galaxy tool should I run for `metrics.tsse`?
+- **single-cell-scatac-standard-processing-snapatac2-q028** — I want preprocessing outputs for single-cell ATAC that will later support clustering and peak calling. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q029** — What Galaxy tool should I run for `pp.filter_cells`?
+- **single-cell-scatac-standard-processing-snapatac2-q029** — I have QC metrics in AnnData and want to apply filtering rules to remove outlier cells and features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.9.6+galaxy3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q030** — Which Galaxy tool would you recommend to perform `pp.add_tile_matrix`?
+- **single-cell-scatac-standard-processing-snapatac2-q030** — I want to preprocess single-cell ATAC and compute per-cell QC fields before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q031** — Which Galaxy tool would you recommend to perform `pp.select_features`?
+- **single-cell-scatac-standard-processing-snapatac2-q031** — I need an analysis-ready single-cell ATAC object that includes an accessibility matrix suitable for embedding and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q032** — Which Galaxy tool should I use to run `pp.scrublet`?
+- **single-cell-scatac-standard-processing-snapatac2-q032** — I have multiple single-cell ATAC runs and want to preprocess each into comparable objects for integration. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q033** — Which Galaxy tool would you recommend to perform `pp.filter_doublets`?
+- **single-cell-scatac-standard-processing-snapatac2-q033** — I need to filter a single-cell dataset to keep only cells with reasonable library size and complexity and remove low-quality features. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.9.6+galaxy3
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q034** — Which Galaxy tool would you recommend to perform `tl.spectral`?
+- **single-cell-scatac-standard-processing-snapatac2-q034** — I have a processed single-cell ATAC object and want to compute a low-dimensional embedding and cluster labels. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q035** — Which Galaxy tool should I use to run `tl.umap`?
+- **single-cell-scatac-standard-processing-snapatac2-q035** — I want to cluster single-cell ATAC and output cluster IDs I can use for differential accessibility. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q036** — Which Galaxy tool would you recommend to perform `pp.knn`?
+- **single-cell-scatac-standard-processing-snapatac2-q036** — I want to preprocess single-cell ATAC and generate a feature matrix suitable for computing neighbors and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q037** — Which Galaxy tool should I use to run `tl.leiden`?
+- **single-cell-scatac-standard-processing-snapatac2-q037** — I need to compute neighbors and clustering for single-cell ATAC to identify cell states. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_clustering/snapatac2_clustering/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q038** — Which Galaxy tool would you recommend to perform `pp.make_gene_matrix`?
+- **single-cell-scatac-standard-processing-snapatac2-q038** — I want to preprocess single-cell ATAC and filter out low-quality cells before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q039** — Which Galaxy tool should I use to run `log1p`?
+- **single-cell-scatac-standard-processing-snapatac2-q039** — I want to compute a reduced representation of chromatin accessibility as part of single-cell ATAC preprocessing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
-- **single-cell-scatac-standard-processing-snapatac2-q040** — Which Galaxy tool would you recommend to perform `external.pp.magic`?
+- **single-cell-scatac-standard-processing-snapatac2-q040** — I need to preprocess single-cell ATAC to create an object I can later use for peak calling and motif analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/snapatac2_preprocessing/snapatac2_preprocessing/2.8.0+galaxy0
   - Datasets: 12707159
 
@@ -18397,46 +18397,46 @@ Questions:
 - Datasets (1): 7053673
 
 Questions:
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q011** — Which Galaxy tool should I use to run `EBI SCXA Data Retrieval`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q011** — I want to download a published single-cell dataset from a public atlas into Galaxy for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q012** — What Galaxy tool should I run for `Seurat Read10x`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q012** — I have 10x single-cell gene expression matrix outputs and want to import them as a single-cell analysis object in Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_read10x/seurat_read10x/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q013** — Which Galaxy tool should I use to run `Seurat FilterCells`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q013** — I want to filter out low-quality cells from a single-cell gene expression dataset based on QC thresholds. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_filter_cells/seurat_filter_cells/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q014** — What Galaxy tool should I run for `Plot with Seurat`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q014** — I want QC plots for single-cell gene expression, like counts per cell and percent mitochondrial, to choose filtering cutoffs. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_plot/seurat_plot/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q015** — What Galaxy tool should I run for `Seurat NormaliseData`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q015** — I want to normalize single-cell gene expression counts per cell and prepare normalized values for downstream PCA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_normalise_data/seurat_normalise_data/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q016** — Which Galaxy tool would you recommend to perform `seurat_find_variable_genes`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q016** — I want to identify highly variable genes in my single-cell dataset to focus downstream dimensionality reduction. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_variable_genes/seurat_find_variable_genes/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q017** — Which Galaxy tool should I use to run `Seurat ScaleData`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q017** — I want to scale and center expression values across genes to prepare for PCA and clustering. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_scale_data/seurat_scale_data/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q018** — What Galaxy tool should I run for `Seurat RunPCA`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q018** — I want to run PCA on selected variable genes in my single-cell gene expression dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_pca/seurat_run_pca/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q019** — Which Galaxy tool would you recommend to perform `seurat_find_neighbours`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q019** — I have PCA coordinates for single-cell RNA-seq and want to compute a k-nearest-neighbor graph for clustering and UMAP. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_neighbours/seurat_find_neighbours/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q020** — Which Galaxy tool should I use to run `Seurat FindClusters`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q020** — I want to assign cluster labels to single-cell RNA-seq cells based on a neighbor graph. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_clusters/seurat_find_clusters/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q021** — Which Galaxy tool should I use to run `Seurat UMAP`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q021** — I want a UMAP embedding of my single-cell RNA-seq cells for visualization, using the neighbor graph. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_umap/seurat_run_umap/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q022** — Which Galaxy tool would you recommend to perform `seurat_find_markers`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q022** — I have clusters for single-cell RNA-seq and want to find marker genes for each cluster with statistical testing. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_markers/seurat_find_markers/4.0.4+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q023** — What Galaxy tool should I run for `SeuratFindVariableGenes`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q023** — I want an end-to-end preprocessing step for single-cell RNA-seq that performs filtering, normalization, and variable gene selection, producing an analysis-ready object. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seurat_preprocessing/seurat_preprocessing/5.0+galaxy0
   - Datasets: 7053673
-- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q024** — Which Galaxy tool would you recommend to perform `Seurat FindNeighbors`?
+- **single-cell-scrna-case_FilterPlotandExplore_SeuratTools-q024** — I have a preprocessed single-cell RNA-seq object and want clustering plus an embedding for visualization in one step. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/seurat_clustering/seurat_clustering/5.0+galaxy0
   - Datasets: 7053673
 
@@ -18446,37 +18446,37 @@ Questions:
 - Datasets (1): 4574153
 
 Questions:
-- **single-cell-scrna-case_alevin-q011** — Which Galaxy tool should I use to run `GTF2GeneList`?
+- **single-cell-scrna-case_alevin-q011** — I have a genome annotation GTF and need a list of gene identifiers for downstream single-cell workflows. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/gtf2gene_list/_ensembl_gtf2gene_list/1.52.0+galaxy0
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q012** — Which Galaxy tool should I use to run `Alevin`?
+- **single-cell-scrna-case_alevin-q012** — I have single-cell RNA-seq reads with cell barcodes and UMIs and want to generate a gene-by-cell count matrix. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.10.1+galaxy4, toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.10.1+galaxy2
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q013** — Which Galaxy tool should I use to run `Droplet barcode rank plot`?
+- **single-cell-scrna-case_alevin-q013** — I have per-barcode count totals and want a barcode rank plot to decide which barcodes are real cells versus background. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/droplet_barcode_plot/_dropletBarcodePlot/1.6.1+galaxy2
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q014** — Which Galaxy tool would you recommend to perform `_salmon_kallisto_mtx_to_10x`?
+- **single-cell-scrna-case_alevin-q014** — I have a sparse count matrix from a quantification step and want to convert it into the standard 10x-style matrix format. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/salmon_kallisto_mtx_to_10x/_salmon_kallisto_mtx_to_10x/0.0.1+galaxy6
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q015** — Which Galaxy tool would you recommend to perform `join1`?
+- **single-cell-scrna-case_alevin-q015** — I have two tabular files with a shared key column (like a barcode) and want to join them to combine annotations. Which Galaxy tool should I use?
   - Tools: join1
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q016** — Which Galaxy tool should I use to run `Cut columns from a table`?
+- **single-cell-scrna-case_alevin-q016** — I have a large table and need to keep only the barcode and count columns to feed into the next step. Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q017** — Which Galaxy tool should I use to run `DropletUtils Read10x`?
+- **single-cell-scrna-case_alevin-q017** — I have 10x matrix files and want to read them into a single-cell count object for downstream QC. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/dropletutils_read_10x/dropletutils_read_10x/1.0.4+galaxy0
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q018** — What Galaxy tool should I run for `DropletUtils emptyDrops`?
+- **single-cell-scrna-case_alevin-q018** — I have a droplet-based single-cell dataset and want to identify and remove empty droplets or background barcodes. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/dropletutils_empty_drops/dropletutils_empty_drops/1.0.4+galaxy0
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q019** — Which Galaxy tool would you recommend to perform `sceasy_convert`?
+- **single-cell-scrna-case_alevin-q019** — I have a single-cell analysis object in one format and need to convert it to another format for compatibility with downstream tools. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sceasy_convert/sceasy_convert/0.0.7+galaxy2
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q020** — Which Galaxy tool should I use to run `Inspect AnnData`?
+- **single-cell-scrna-case_alevin-q020** — I want to inspect the single-cell object I just created to confirm cells, genes, and metadata look correct. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 4574153
-- **single-cell-scrna-case_alevin-q021** — What Galaxy tool should I run for `Manipulate AnnData`?
+- **single-cell-scrna-case_alevin-q021** — I want to add QC annotations and filter out cells failing thresholds in an AnnData object. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 4574153
 
@@ -18486,28 +18486,28 @@ Questions:
 - Datasets (2): 10852529, 15090813
 
 Questions:
-- **single-cell-scrna-case_alevin-combine-datasets-q011** — Which Galaxy tool should I use to run `Manipulate AnnData`?
+- **single-cell-scrna-case_alevin-combine-datasets-q011** — I have two AnnData objects from different runs and want to concatenate them into one combined AnnData for joint analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q012** — Which Galaxy tool should I use to run `Inspect AnnData`?
+- **single-cell-scrna-case_alevin-combine-datasets-q012** — I have a single-cell dataset stored as an AnnData object and I want a quick overview (numbers of cells and genes, available layers, embeddings, and metadata). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q013** — Which Galaxy tool would you recommend to perform `tp_replace_in_column`?
+- **single-cell-scrna-case_alevin-combine-datasets-q013** — I’m cleaning up a small metadata table and need to replace specific values in one column (for example, standardizing batch labels across rows). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/9.5+galaxy0
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q014** — Which Galaxy tool should I use to run `Cut columns from a table`?
+- **single-cell-scrna-case_alevin-combine-datasets-q014** — I have a tabular file and only need a subset of columns (for example cell barcode plus one annotation column). Which Galaxy tool should I use?
   - Tools: Cut1
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q015** — Which Galaxy tool should I use to run `Paste two files side by side`?
+- **single-cell-scrna-case_alevin-combine-datasets-q015** — I have two tabular files with the same row order and want to combine their columns into a single table. Which Galaxy tool should I use?
   - Tools: Paste1
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q016** — Which Galaxy tool should I use to run `General information`?
+- **single-cell-scrna-case_alevin-combine-datasets-q016** — I have an AnnData single-cell dataset and want to see general summary information about its contents before downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q017** — What Galaxy tool should I run for `Inspect AnnData: Key-indexed observations annotation (obs)`?
+- **single-cell-scrna-case_alevin-combine-datasets-q017** — I need to inspect the per-cell metadata stored inside an AnnData object and export it as a readable table. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.3+galaxy0
   - Datasets: 15090813, 10852529
-- **single-cell-scrna-case_alevin-combine-datasets-q018** — Which Galaxy tool should I use to run `Manipulate AnnData - Add new annotations`?
+- **single-cell-scrna-case_alevin-combine-datasets-q018** — I have an AnnData object and a table of new per-cell annotations keyed by cell barcode. Which Galaxy tool should I use to add that annotation to the dataset?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.3+galaxy0
   - Datasets: 15090813, 10852529
 
@@ -18517,34 +18517,34 @@ Questions:
 - Datasets (1): 15092468
 
 Questions:
-- **single-cell-scrna-case_basic-pipeline-q011** — I need a tool that can perform `EBI SCXA Data Retrieval`.Which Galaxy tool would you recommend?
+- **single-cell-scrna-case_basic-pipeline-q011** — I want to import a published single-cell expression dataset from the Single Cell Expression Atlas into Galaxy for analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q012** — Which Galaxy tool would you recommend to perform `scanpy_inspect`?
+- **single-cell-scrna-case_basic-pipeline-q012** — Before clustering, I want to review basic QC summaries for my single-cell RNA-seq dataset (counts, detected genes, mitochondrial fraction). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy2
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q013** — Which Galaxy tool should I use to run `Inspect AnnData`?
+- **single-cell-scrna-case_basic-pipeline-q013** — I received an AnnData object from a collaborator and need to verify what assays, embeddings, and metadata fields it contains. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy1
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q014** — What Galaxy tool should I run for `Scanpy plot`?
+- **single-cell-scrna-case_basic-pipeline-q014** — I want to make standard single-cell QC plots (for example violin or scatter plots of counts and detected genes, plus mitochondrial fraction). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy2
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q015** — Which Galaxy tool would you recommend to perform `scanpy_filter`?
+- **single-cell-scrna-case_basic-pipeline-q015** — I need to filter out low-quality cells and lowly expressed genes from a single-cell count matrix using typical QC thresholds. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.10.2+galaxy3
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q016** — What Galaxy tool should I run for `Scanpy normalize`?
+- **single-cell-scrna-case_basic-pipeline-q016** — I want to normalize a single-cell count matrix and compute a log-transformed expression representation for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy0
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q017** — Which Galaxy tool should I use to run `Scanpy Inspect and manipulate`?
+- **single-cell-scrna-case_basic-pipeline-q017** — I’d like to edit or subset my single-cell dataset (for example keep certain cells or genes, or rename metadata fields) while staying in the AnnData format. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy1
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q018** — Which Galaxy tool would you recommend to perform `anndata_manipulate`?
+- **single-cell-scrna-case_basic-pipeline-q018** — I have an AnnData object and need to add or remove columns in the cell metadata and possibly rename category values. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy1
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q019** — Which Galaxy tool would you recommend to perform `scanpy_cluster_reduce_dimension`?
+- **single-cell-scrna-case_basic-pipeline-q019** — I want to run dimensionality reduction and clustering on my single-cell dataset and obtain cluster labels plus a low-dimensional embedding for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy2
   - Datasets: 15092468
-- **single-cell-scrna-case_basic-pipeline-q020** — What Galaxy tool should I run for `Interactive CELLxGENE VIP Environment`?
+- **single-cell-scrna-case_basic-pipeline-q020** — After clustering, I want an interactive way to explore my single-cell dataset (embedding view, gene search, metadata coloring) inside Galaxy. Which Galaxy tool should I use?
   - Tools: interactive_tool_jupyter_notebook
   - Datasets: 15092468
 
@@ -18554,37 +18554,37 @@ Questions:
 - Datasets (1): 
 
 Questions:
-- **single-cell-scrna-case_cell-cycle-q011** — What Galaxy tool should I run for `Inspect and manipulate`?
+- **single-cell-scrna-case_cell-cycle-q011** — I’m analyzing single-cell RNA-seq and want to inspect QC metrics and metadata to prepare for removing cell-cycle effects. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.7.1+galaxy0
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q012** — Which Galaxy tool would you recommend to perform `scanpy_regress_variable`?
+- **single-cell-scrna-case_cell-cycle-q012** — I want to regress out a confounding variable (such as a cell-cycle score or mitochondrial fraction) from my single-cell expression data. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_regress_variable/scanpy_regress_variable/1.9.3+galaxy0
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q013** — Which Galaxy tool would you recommend to perform `cat1`?
+- **single-cell-scrna-case_cell-cycle-q013** — I have two plain-text gene lists (for example for different cell-cycle phases) and need to combine them into one list for scoring. Which Galaxy tool should I use?
   - Tools: cat1
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q014** — What Galaxy tool should I run for `Add column`?
+- **single-cell-scrna-case_cell-cycle-q014** — I have a table and need to add a constant value or a new column (for example a sample or phase label) to every row. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.1, toolshed.g2.bx.psu.edu/repos/devteam/add_value/addValue/1.0.0
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q015** — Which Galaxy tool would you recommend to perform `anndata_inspect`?
+- **single-cell-scrna-case_cell-cycle-q015** — I have an AnnData object and want to inspect which metadata fields are present and how cell-cycle scores are stored. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q016** — What Galaxy tool should I run for `Table Compute`?
+- **single-cell-scrna-case_cell-cycle-q016** — I have a table of per-cell scores and need to compute a new column from existing columns (for example a ratio or a difference). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy0
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q017** — What Galaxy tool should I run for `Join`?
+- **single-cell-scrna-case_cell-cycle-q017** — I have two tables keyed by cell barcode and need to join them so each cell has both QC metrics and cell-cycle scores. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/9.5+galaxy2, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q018** — What Galaxy tool should I run for `Sort`?
+- **single-cell-scrna-case_cell-cycle-q018** — I need to sort a tabular file by one or more columns while keeping the header intact. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy3
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q019** — What Galaxy tool should I run for `Manipulate AnnData`?
+- **single-cell-scrna-case_cell-cycle-q019** — I want to write the computed cell-cycle scores back into my AnnData object as new per-cell metadata columns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q020** — Which Galaxy tool would you recommend to perform `scanpy_cluster_reduce_dimension`?
+- **single-cell-scrna-case_cell-cycle-q020** — After correcting for cell-cycle effects, I want to recompute PCA, build a neighbor graph, cluster cells, and create an embedding for visualization. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.7.1+galaxy0
   - Datasets: 
-- **single-cell-scrna-case_cell-cycle-q021** — What Galaxy tool should I run for `Plot`?
+- **single-cell-scrna-case_cell-cycle-q021** — I want to plot an embedding colored by cell-cycle score or by assigned phase to confirm the correction worked. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3, toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.7.1+galaxy1
   - Datasets: 
 
@@ -18594,31 +18594,31 @@ Questions:
 - Datasets (2): 10397366, CDS_input_for_Monocle3_tutorial.rdata
 
 Questions:
-- **single-cell-scrna-case_monocle3-trajectories-q011** — What Galaxy tool should I run for `Monocle3 preprocess`?
+- **single-cell-scrna-case_monocle3-trajectories-q011** — I have a single-cell count matrix and want to preprocess it for trajectory inference before learning a developmental path. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_preprocess/monocle3_preprocess/0.1.4+galaxy0
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q012** — Which Galaxy tool should I use to run `Monocle3 reduceDim`?
+- **single-cell-scrna-case_monocle3-trajectories-q012** — I want to compute a low-dimensional representation of my single-cell dataset that is suitable for ordering cells along a trajectory. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_reducedim/monocle3_reduceDim/0.1.4+galaxy0
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q013** — Which Galaxy tool should I use to run `Monocle3 plotCells`?
+- **single-cell-scrna-case_monocle3-trajectories-q013** — I need to visualize my single-cell dataset in the reduced space and color cells by cluster or metadata to interpret a trajectory. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_plotcells/monocle3_plotCells/0.1.5+galaxy1
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q014** — Which Galaxy tool should I use to run `Monocle3 partition`?
+- **single-cell-scrna-case_monocle3-trajectories-q014** — For trajectory inference, I want to partition cells into disconnected groups or lineages before learning a graph. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_partition/monocle3_partition/0.1.4+galaxy0
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q015** — Which Galaxy tool should I use to run `Monocle3 top markers`?
+- **single-cell-scrna-case_monocle3-trajectories-q015** — I want to find marker genes for clusters or partitions in my single-cell dataset to help interpret a trajectory. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_topmarkers/monocle3_topmarkers/0.1.5+galaxy0
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q016** — Which Galaxy tool should I use to run `Monocle3 learnGraph`?
+- **single-cell-scrna-case_monocle3-trajectories-q016** — I want to learn a principal graph representing developmental trajectories from my single-cell dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_learngraph/monocle3_learnGraph/0.1.4+galaxy0
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q017** — What Galaxy tool should I run for `Monocle3 orderCells`?
+- **single-cell-scrna-case_monocle3-trajectories-q017** — I want to order cells along the learned trajectory and compute pseudotime values for each cell. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_ordercells/monocle3_orderCells/0.1.4+galaxy0
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q018** — Which Galaxy tool would you recommend to perform `monocle3_diffExp`?
+- **single-cell-scrna-case_monocle3-trajectories-q018** — I want to test for genes whose expression changes along pseudotime or between branches of a trajectory. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_diffexp/monocle3_diffExp/0.1.4+galaxy1
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
-- **single-cell-scrna-case_monocle3-trajectories-q019** — Which Galaxy tool would you recommend to perform `Monocle3 create`?
+- **single-cell-scrna-case_monocle3-trajectories-q019** — I have a single-cell expression matrix plus cell and gene annotations and need to create the object used for trajectory analysis steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_create/monocle3_create/0.1.4+galaxy2
   - Datasets: 10397366, CDS_input_for_Monocle3_tutorial.rdata
 
@@ -18628,34 +18628,34 @@ Questions:
 - Datasets (1): 7075718
 
 Questions:
-- **single-cell-scrna-case_trajectories-q011** — Which Galaxy tool would you recommend to perform `anndata_manipulate`?
+- **single-cell-scrna-case_trajectories-q011** — I want to subset or adjust my AnnData dataset so it is ready for trajectory analysis and downstream graph-based methods. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.10.9+galaxy2, toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q012** — Which Galaxy tool should I use to run `Scanpy RunFDG`?
+- **single-cell-scrna-case_trajectories-q012** — For trajectory analysis, I want to compute a force-directed graph layout of cells based on a neighborhood graph. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_fdg/scanpy_run_fdg/1.9.3+galaxy0
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q013** — Which Galaxy tool should I use to run `Scanpy PlotEmbed`?
+- **single-cell-scrna-case_trajectories-q013** — I want to plot a two-dimensional embedding for my single-cell dataset and color cells by cluster or metadata. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_embed/scanpy_plot_embed/1.8.1+galaxy9
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q014** — Which Galaxy tool would you recommend to perform `scanpy_run_diffmap`?
+- **single-cell-scrna-case_trajectories-q014** — I want to compute a diffusion map embedding from my single-cell dataset as input for pseudotime analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_diffmap/scanpy_run_diffmap/1.9.3+galaxy0
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q015** — Which Galaxy tool should I use to run `Scanpy ComputeGraph`?
+- **single-cell-scrna-case_trajectories-q015** — I want to build a k-nearest-neighbor graph from reduced dimensions of my single-cell dataset for downstream clustering and trajectory steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0, toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+galaxy9
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q016** — What Galaxy tool should I run for `Scanpy ComputeGraph`?
+- **single-cell-scrna-case_trajectories-q016** — I already have PCA coordinates and want to compute a neighborhood connectivity graph to support clustering and trajectory analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q017** — What Galaxy tool should I run for `Scanpy FindCluster`?
+- **single-cell-scrna-case_trajectories-q017** — I want to cluster cells based on a neighbor graph and get cluster labels for my single-cell dataset. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.9.3+galaxy0
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q018** — Which Galaxy tool would you recommend to perform `scanpy_run_paga`?
+- **single-cell-scrna-case_trajectories-q018** — I want to infer connectivity between clusters to summarize potential trajectories as a graph of clusters. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_paga/scanpy_run_paga/1.9.3+galaxy0
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q019** — Which Galaxy tool should I use to run `Scanpy PlotTrajectory`?
+- **single-cell-scrna-case_trajectories-q019** — I want to visualize a trajectory graph on top of my embedding to see how clusters connect. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_trajectory/scanpy_plot_trajectory/1.9.3+galaxy0
   - Datasets: 7075718
-- **single-cell-scrna-case_trajectories-q020** — Which Galaxy tool should I use to run `Scanpy DPT`?
+- **single-cell-scrna-case_trajectories-q020** — I want to compute diffusion pseudotime for cells given a chosen root or start population. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_dpt/scanpy_run_dpt/1.9.3+galaxy0
   - Datasets: 7075718
 
@@ -18665,13 +18665,13 @@ Questions:
 - Datasets (3): , 4574153, 10397653
 
 Questions:
-- **single-cell-scrna-data-ingest-q011** — What Galaxy tool should I run for `SCEasy`?
+- **single-cell-scrna-data-ingest-q011** — I have a single-cell dataset in a common external format and need to convert it into an AnnData object for analysis in Galaxy. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/sceasy_convert/sceasy_convert/0.0.7+galaxy2
   - Datasets: 4574153, , 10397653
-- **single-cell-scrna-data-ingest-q012** — Which Galaxy tool should I use to run `SCEasy convert`?
+- **single-cell-scrna-data-ingest-q012** — I need to convert an existing AnnData dataset to another single-cell format for use outside Galaxy (or the reverse). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/sceasy_convert/sceasy_convert/0.0.5+galaxy1
   - Datasets: 4574153, , 10397653
-- **single-cell-scrna-data-ingest-q013** — Which Galaxy tool should I use to run `AnnData Operations`?
+- **single-cell-scrna-data-ingest-q013** — I need to do basic operations on an AnnData object (for example subset cells and genes, rename fields, or change layers) before analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy1
   - Datasets: 4574153, , 10397653
 - **single-cell-scrna-data-ingest-q014** — Which Galaxy tool should I use to run `Inspect AnnData`?

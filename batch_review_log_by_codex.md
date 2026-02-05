@@ -690,3 +690,11 @@ Notes:
 - Changes: Rewrote all 150 queries (bulk RNA deconvolution setup + assembly/read QC + contamination screening + genome browsing + functional enrichment + phylogenetics + single-cell imports/ops) to remove tool leakage/backticks, dataset leakage, and configuration-help phrasing while keeping Galaxy-user perspective; preserved metadata.query_type mix (science_first 105, tool_first 45)
 - Integrity: Fixed metadata.tool_focus drift for multi-version tools[] (78 items in this batch); ensured metadata.ground_truth_alternatives=true with note for all multi-version tools[] in the range
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Cut1, Filter1, Count1, join1); smell scan reports no hits/duplicates/near-duplicates
+
+## A0038 (lines 5551-5700)
+
+- Date: 2026-02-05
+- Scope: Manual line-by-line review of 150 items in data/benchmark/v1_items.jsonl
+- Changes: Rewrote all 150 queries (single-cell RNA-seq case study steps: importing/count-matrix inspection, QC/filtering/normalization, annotation edits, clustering/embeddings, cell-cycle regression checks, and trajectory/pseudotime workflows) to remove tool leakage/backticks, dataset leakage, and templated phrasing while keeping Galaxy-user perspective; preserved metadata.query_type mix (science_first 150, tool_first 0)
+- Integrity: Ensured metadata.tool_focus matches tools[] for all items; ensured metadata.ground_truth_alternatives=true with note for all multi-version tools[] in the range (62 items in this batch)
+- Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Cut1, Paste1, cat1, join1); smell scan reports no hits/duplicates/near-duplicates
