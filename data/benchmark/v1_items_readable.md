@@ -15222,52 +15222,52 @@ Questions:
 - Datasets (1): zenodo.800651
 
 Questions:
-- **microbiome-mothur-miseq-sop-q011** — I have multiple FASTA files from different samples and want to merge them into one combined FASTA for a multi-sample amplicon workflow. Which Galaxy tool should I use?
+- **microbiome-mothur-miseq-sop-q011** — I’m following a MiSeq amplicon SOP and have multiple per-sample sequence datasets that need to be combined into one file for the next mothur steps. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q012** — My amplicon pipeline requires concatenating several FASTA inputs into one file to process them together. What Galaxy tool can merge FASTA files?
+- **microbiome-mothur-miseq-sop-q012** — For a multi-sample 16S amplicon analysis, I need to merge several sequence files into a single dataset that can be processed together in subsequent steps. What Galaxy tool can do this merge step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q013** — Which Galaxy tool can merge multiple FASTA files into a single combined FASTA for downstream analysis?
+- **microbiome-mothur-miseq-sop-q013** — Which Galaxy tool can merge per-sample amplicon sequence files into one combined dataset to start a mothur-based workflow?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q014** — In Galaxy, what tool should I run to concatenate FASTA datasets from multiple samples into one file?
+- **microbiome-mothur-miseq-sop-q014** — In Galaxy, what tool should I run to combine sequence datasets from many samples into a single file for downstream mothur commands?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_merge_files/mothur_merge_files/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q015** — I have a FASTA file with duplicate sequences and want to dereplicate it to a unique set of sequences (tracking counts) for downstream steps. Which Galaxy tool should I use?
+- **microbiome-mothur-miseq-sop-q015** — I have an amplicon FASTA (optionally with a names/mapping file) and want to collapse identical sequences into unique representatives while preserving counts for downstream analysis. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q016** — Before alignment/clustering, I need to collapse identical sequences into unique representatives. What Galaxy tool can dereplicate sequences in a FASTA?
+- **microbiome-mothur-miseq-sop-q016** — Before OTU/ASV-style processing, I need to dereplicate 16S sequences so identical reads are represented once and occurrence information is retained. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q017** — Which Galaxy tool can dereplicate a FASTA by collapsing identical sequences into a unique set (with counts)?
+- **microbiome-mothur-miseq-sop-q017** — Which Galaxy tool can generate a unique set of amplicon sequences from a FASTA while keeping the mapping/count information needed for later steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q018** — In Galaxy, what tool should I run to compute unique sequences from a FASTA as a dereplication step?
+- **microbiome-mothur-miseq-sop-q018** — In Galaxy, what tool should I run to compute unique amplicon sequences and produce the associated names/count output for downstream mothur steps?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0, toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.36.1.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q019** — I have amplicon sequences and want to align them to a reference alignment to standardize positions for downstream screening and clustering. Which Galaxy tool should I use?
+- **microbiome-mothur-miseq-sop-q019** — I have 16S amplicon sequences and need to align them against a curated reference alignment template so I can screen and filter based on alignment coordinates. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q020** — My workflow needs to align sequences against a reference template alignment before filtering and analysis. What Galaxy tool can align FASTA sequences to a reference?
+- **microbiome-mothur-miseq-sop-q020** — To prepare sequences for downstream screening and distance calculations, I want to align my amplicon reads to a reference multiple-sequence alignment template. What Galaxy tool can do this alignment step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q021** — Which Galaxy tool can align FASTA sequences to a reference alignment/template as part of an amplicon workflow?
+- **microbiome-mothur-miseq-sop-q021** — Which Galaxy tool can align an amplicon FASTA to a reference alignment template (mothur-style) so sequences share the same coordinate space?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q022** — In Galaxy, what tool should I run to align my sequences against a reference template prior to screening?
+- **microbiome-mothur-miseq-sop-q022** — In Galaxy, what tool should I run to align my 16S sequences to a reference template so I can apply start/end coordinate filters afterward?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q023** — I have aligned amplicon sequences and want to screen/filter them based on length, ambiguous bases, or alignment coordinates to remove problematic sequences. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q024** — Before downstream analysis, I need to filter sequences to remove those outside expected bounds (too short/too long/too many Ns). What Galaxy tool can screen sequences?
+- **microbiome-mothur-miseq-sop-q024** — After aligning my amplicon sequences, I want to screen them using alignment start/end positions and basic quality constraints (length/ambiguous bases) to remove poorly aligned reads. What Galaxy tool can do this screening step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q025** — Which Galaxy tool can screen/filter FASTA sequences using criteria like length and ambiguous bases to remove bad sequences?
+- **microbiome-mothur-miseq-sop-q025** — Which Galaxy tool can screen aligned amplicon sequences using alignment-coordinate thresholds (start/end) in addition to length and ambiguous-base filters?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
-- **microbiome-mothur-miseq-sop-q026** — In Galaxy, what tool should I run to filter sequences based on screening rules (length/Ns/alignment bounds)?
+- **microbiome-mothur-miseq-sop-q026** — In Galaxy, what tool should I run to apply mothur-style screen-sequence filtering (alignment coordinates/length/ambiguity) before continuing the SOP?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1, toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
   - Datasets: zenodo.800651
 - **microbiome-mothur-miseq-sop-q027** — I have an alignment of sequences and want to filter the alignment to remove columns that are all gaps or overly variable, producing a masked/filtered alignment. Which Galaxy tool should I use?

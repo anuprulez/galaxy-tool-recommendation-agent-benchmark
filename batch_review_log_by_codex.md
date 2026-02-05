@@ -939,3 +939,12 @@ Notes:
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Query hygiene: Rewrote 8 queries to remove exact duplicates across metabolomics vs microbiome tutorials while keeping intent unchanged (`microbiome-clinical-mp-3-verification-q017`, `microbiome-clinical-mp-3-verification-q018`, `microbiome-clinical-mp-4-quantitation-q011`, `microbiome-clinical-mp-4-quantitation-q012`, `microbiome-clinical-mp-4-quantitation-q013`, `microbiome-clinical-mp-4-quantitation-q014`, `microbiome-clinical-mp-4-quantitation-q017`, `microbiome-clinical-mp-4-quantitation-q018`).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates (remaining near-duplicate pairs acceptable).
+
+## GTX0024 (ground-truth expansion; lines 4551-4750)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate tool semantics/IO for the mothur MiSeq SOP tool chain (merge files, unique sequences, alignment, screening).
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Query hygiene: Rewrote 15 queries to remove exact duplicates between the generic microbiome tutorial and the mothur MiSeq SOP tutorial while keeping intent unchanged (updated `microbiome-mothur-miseq-sop-q011`..`q022` and `microbiome-mothur-miseq-sop-q024`..`q026`).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no exact duplicates (one remaining near-duplicate pair acceptable).
