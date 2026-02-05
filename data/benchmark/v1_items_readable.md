@@ -14477,10 +14477,10 @@ Questions:
 - **microbiome-clinical-mp-3-verification-q016** — My workflow produced several protein FASTA files and I need a combined FASTA with unique sequences only for downstream searches. What Galaxy tool can merge FASTA files and filter duplicates?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q017** — Which Galaxy tool can merge multiple FASTA files and keep only unique sequences in the output?
+- **microbiome-clinical-mp-3-verification-q017** — I have several FASTA files and want to build a single non-redundant sequence set by merging them and dropping duplicate sequences. Which Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-3-verification-q018** — In Galaxy, what tool should I run to concatenate FASTA inputs and remove duplicate sequences?
+- **microbiome-clinical-mp-3-verification-q018** — I need to combine multiple FASTA inputs into one file for downstream searching, but I want identical sequences collapsed to unique entries. What Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-3-verification-q019** — I have a shortlist of peptides and MS/MS spectra and want to verify whether each peptide is supported by the spectra (peptide-centric validation), producing a ranked evidence report. Which Galaxy tool should I use?
@@ -14526,16 +14526,16 @@ Questions:
 - Datasets (1): zenodo.10105821
 
 Questions:
-- **microbiome-clinical-mp-4-quantitation-q011** — I have label-free proteomics RAW files plus an experimental design and want protein identification and quantification outputs (peptides, proteins, intensities). Which Galaxy tool should I use?
+- **microbiome-clinical-mp-4-quantitation-q011** — I have label-free proteomics raw LC-MS/MS runs plus an experimental design and want an end-to-end identification + quantification step that produces peptide and protein intensity tables. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q012** — My goal is a complete proteomics identification + quantification run from raw LC-MS/MS files using a provided design, producing standard peptide/protein reports. What Galaxy tool can run this workflow step?
+- **microbiome-clinical-mp-4-quantitation-q012** — For my clinical proteomics dataset, I want to process multiple raw MS files with a design file and obtain standard identification results along with label-free quantification outputs. What Galaxy tool can run this analysis?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q013** — Which Galaxy tool can run a full proteomics identification and quantification analysis from RAW files given an experimental design?
+- **microbiome-clinical-mp-4-quantitation-q013** — Which Galaxy tool can run a complete protein identification and label-free quantification analysis from raw LC-MS/MS files when I provide an experimental design?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q014** — In Galaxy, what tool should I run to perform protein identification/quantification from LC-MS/MS raw files and produce peptide/protein tables?
+- **microbiome-clinical-mp-4-quantitation-q014** — I want a single Galaxy step that takes my raw LC-MS/MS runs and design information and returns peptide/protein reports with quantitative intensities for downstream statistics. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/2.0.3.0+galaxy0, toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.17.0+galaxy4
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-4-quantitation-q015** — I have a text table and want to keep only lines that match a pattern (or drop lines that match a pattern) as a quick filtering step. Which Galaxy tool should I use?
@@ -14544,10 +14544,10 @@ Questions:
 - **microbiome-clinical-mp-4-quantitation-q016** — My results contain contaminant/decoy-style entries marked with a prefix, and I want to remove those lines from a tabular report. What Galaxy tool can filter lines by pattern?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q017** — Which Galaxy tool can select/extract lines from a text dataset that match a given pattern or regular expression?
+- **microbiome-clinical-mp-4-quantitation-q017** — I have a text or tabular report (for example a protein/peptide summary) and need to keep only lines that match a keyword or regular expression. Which Galaxy tool should I use for grep-style filtering?
   - Tools: Grep1
   - Datasets: zenodo.10105821
-- **microbiome-clinical-mp-4-quantitation-q018** — In Galaxy, what tool should I run to keep only lines matching an expression from a text file (grep-style filtering)?
+- **microbiome-clinical-mp-4-quantitation-q018** — I want to remove unwanted rows from a results table by selecting only lines that match (or do not match) a pattern/regex. What Galaxy tool can do this line-based filtering?
   - Tools: Grep1
   - Datasets: zenodo.10105821
 - **microbiome-clinical-mp-4-quantitation-q019** — I have a list of IDs and want to extract just the lines containing a specific keyword or regular expression for downstream processing. Which Galaxy tool should I use?
