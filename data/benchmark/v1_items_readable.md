@@ -2642,57 +2642,57 @@ Questions:
 
 ## Running molecular dynamics simulations using NAMD (topics/computational-chemistry/tutorials/md-simulation-namd)
 - Topic: computational-chemistry
-- Tools: setup
+- Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
 - Datasets (1): 3234841
 
 Questions:
 - **computational-chemistry-md-simulation-namd-q011** — I have a structure and need the usual run-ready input set to start a molecular dynamics simulation in Galaxy. Which tool should I use?
-  - Tools: setup
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q012** — Before I can run minimization or equilibration, I need an initial preparation step that produces the standard MD run inputs. Which tool should I run?
-  - Tools: setup
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q013** — Which Galaxy tool prepares the run-ready inputs needed to start a molecular dynamics simulation from a structure?
-  - Tools: setup
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q014** — I want a Galaxy tool that prepares the simulation run inputs (configs/topology coordinates) so I can proceed. Which tool should I use?
-  - Tools: setup
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q015** — I want to minimize the system energy to remove bad contacts before equilibration. Which tool should I use?
-  - Tools: minimizer
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q016** — I need an energy-minimization stage on my system prior to running dynamics. Which tool should I run?
-  - Tools: minimizer
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q017** — Which Galaxy tool performs the minimization step for an MD workflow?
-  - Tools: minimizer
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q018** — I want to relax my prepared system with an energy-minimization run. Which tool should I use?
-  - Tools: minimizer
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q019** — After minimization, I want constant-volume equilibration to stabilize temperature before pressure coupling. Which tool should I use?
-  - Tools: namd_nvt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q020** — I need an equilibration stage at fixed volume where temperature is controlled. Which tool should I run?
-  - Tools: namd_nvt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q021** — Which Galaxy tool runs the constant-volume equilibration stage for an MD system?
-  - Tools: namd_nvt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q022** — I want to equilibrate the system at constant volume before switching to constant pressure. Which tool should I use?
-  - Tools: namd_nvt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q023** — Next, I want constant-pressure equilibration so the system can reach the target density. Which tool should I use?
-  - Tools: namd_npt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q024** — I need an equilibration stage with pressure coupling to adjust the box density. Which tool should I run?
-  - Tools: namd_npt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q025** — Which Galaxy tool runs constant-pressure equilibration for an MD simulation workflow?
-  - Tools: namd_npt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 - **computational-chemistry-md-simulation-namd-q026** — I want to equilibrate at constant pressure and temperature before any production run. Which tool should I use?
-  - Tools: namd_npt
+  - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3234841
 
 ## Data management in Medicinal Chemistry (topics/computational-chemistry/tutorials/med-chem-data)
@@ -3126,7 +3126,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q020** — I need to sort my results table numerically by a score column. Which tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q021** — Which Galaxy tool sorts a tabular dataset by one or more columns and preserves the header?
+- **data-science-data-manipulation-olympics-q021** — I have a TSV with a header row and need to sort the rows by a key column (numeric sort) while keeping the header at the top. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/9.5+galaxy2
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q022** — What tool should I use to sort a table in Galaxy (with an option to keep the header line)?
@@ -3138,7 +3138,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q024** — I need to filter out rows that don't satisfy a criterion in one column. Which tool should I run?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q025** — Which Galaxy tool filters rows of a tabular dataset based on a simple condition?
+- **data-science-data-manipulation-olympics-q025** — I have a table and want to keep only rows that satisfy a simple threshold on a column (for example, retain entries with a count above a cutoff). Which Galaxy tool can do this filtering?
   - Tools: Filter1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q026** — What tool should I use in Galaxy to apply row-level filtering to a table?

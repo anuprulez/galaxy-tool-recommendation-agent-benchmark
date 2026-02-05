@@ -1019,3 +1019,17 @@ Notes:
   - Query hygiene: Rewrote 4 near-duplicate queries (same tools) to keep within-tool diversity while preserving intent (`computational-chemistry-htmd-analysis-q091`, `q094`, `q111`, `q083`).
 - Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0031 (ground-truth fix + expansion; lines 769-968)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, fixing non-catalog gold IDs and expanding only when alternatives clearly satisfy the query.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate GROMACS MD-step tool semantics/IO (setup vs energy minimization vs generic simulation) before replacing missing gold tools.
+- Changes:
+  - Replaced 16 missing NAMD-workflow placeholder gold IDs (`setup`, `minimizer`, `namd_nvt`, `namd_npt`) with catalog-present GROMACS tools that satisfy the same user intents:
+    - Setup → `toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0`
+    - Energy minimization → `toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2022+galaxy0`
+    - Equilibration/MD stages → `toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0`
+  - Query hygiene: Rewrote 2 overly-generic near-duplicate table-manipulation queries to keep within-tool diversity while preserving intent (`data-science-data-manipulation-olympics-q021`, `data-science-data-manipulation-olympics-q025`).
+- Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
