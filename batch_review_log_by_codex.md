@@ -1164,3 +1164,13 @@ Notes:
   - Updated 1 bfconvert tool version to a usegalaxy-present build (`ip_convertimage/6.7.0+galaxy3`).
   - Query hygiene: Rewrote 3 imaging-introduction queries to reduce very high cross-tutorial near-duplication while preserving intent/tool focus.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 134 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
+
+## GTX0044 (ground-truth fix + expansion; lines 3223-3422)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on usegalaxy catalog presence for imaging/CellProfiler-related tools.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate representative kept tools (e.g., verified `toolshed.g2.bx.psu.edu/repos/bgruening/split_file_on_column/tp_split_on_column/0.6` via helptext + `input_params_flat`/`outputs_raw`) and to confirm many imaging tool IDs in this slice are absent from the snapshot.
+- Changes:
+  - Deleted 158 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog (primarily CellProfiler module wrappers, OMERO bridge tools, image-math/splitting helpers, and other imgteam tools not installed on this snapshot).
+  - No ground-truth alternatives were added in this batch (strict “don’t add if unclear” rule).
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 42 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
