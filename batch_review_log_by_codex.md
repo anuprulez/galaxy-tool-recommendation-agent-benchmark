@@ -1174,3 +1174,14 @@ Notes:
   - Deleted 158 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog (primarily CellProfiler module wrappers, OMERO bridge tools, image-math/splitting helpers, and other imgteam tools not installed on this snapshot).
   - No ground-truth alternatives were added in this batch (strict “don’t add if unclear” rule).
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 42 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0045 (ground-truth fix + expansion; lines 3265-3464)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on (1) removing items whose gold tools are missing from the usegalaxy.org snapshot and (2) fixing exact duplicate queries for the same core tools.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate representative kept tools and their IO (e.g., confirmed `toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1` via helptext + `input_params_flat`/`outputs_raw`), and used the catalog index to confirm missing imaging tools are not installed in this snapshot.
+- Changes:
+  - Deleted 40 imaging/ML items whose gold tools are not present on the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement (voronoi helpers, feature extraction, image metadata tool, GraphicsMagick convert, AnyLabeling + YOLO training helpers, etc.).
+  - Replaced 8 missing `imgteam/unzip` items with `CONVERTER_archive_to_directory` (archive extraction intent preserved).
+  - Query hygiene: Rewrote 22 queries to eliminate a set of exact duplicates and reduce very high near-duplication within the “data manipulation olympics” slice while preserving intent/tool focus (Count1/Cut1/join1/Remove beginning1/cat1/Show beginning1/Add_a_column1/regexColumn1).
+- Validation: check_v1_items passes for the kept items in this batch (after deletions: 160 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrites.
