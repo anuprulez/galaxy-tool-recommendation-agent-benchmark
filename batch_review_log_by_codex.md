@@ -738,3 +738,11 @@ Notes:
 - Changes: Rewrote all remaining queries (SARS-CoV-2 mapping/QC/variant calling + lineage/QC summaries, somatic variant discovery and reporting utilities, TB variant analysis and resistance profiling, trio analysis utilities, and circos/jbrowse visualization steps) to remove tool leakage/backticks and replace step-label prompts with realistic Galaxy-user wording; preserved metadata.query_type mix (science_first 95, tool_first 2)
 - Integrity: Verified metadata.tool_focus matches tools[] for all items in the range
 - Validation: check_v1_items passes for this range (only WARNs for core/internal ids like Filter1, Grep1, Cut1, converters); smell scan reports no hits/duplicates/near-duplicates
+
+## GTX0001 (ground-truth expansion; lines 951-1100)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 150 items in data/benchmark/v1_items.jsonl
+- Changes: Added high-confidence tool alternatives for common tabular/text operations where the user intent is interchangeable in Galaxy (Cut columns, join tables, concatenate files, head preview, value-count summarization, and group-wise summarization). Also diversified several near-duplicate query strings in this range to satisfy within-tool diversity.
+- Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (90 items adjusted); ensured every new multi-tool item has metadata.ground_truth_alternatives=true with a brief manual note (39 items expanded).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after cleanup.
