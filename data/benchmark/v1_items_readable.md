@@ -3372,7 +3372,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q102** — What tool should I use in Galaxy to group records by a chosen field?
   - Tools: Grouping1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q103** — I want to compute a new column from existing columns (for example, a points total). Which tool should I use?
+- **data-science-data-manipulation-olympics-q103** — I have numeric columns in a table and need to add a derived column (for example, sum two columns or compute a percentage) for downstream ranking. Which Galaxy tool should I use to create that new column?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q104** — I want to compute a new column from existing columns (e.g., sums or ratios) and append it to a table. Which tool should I run?
@@ -3447,7 +3447,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q127** — I want to preview the first few lines of a large dataset to confirm the header and delimiter. Which tool should I use?
   - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q128** — I need a quick peek at the top of a file in my history without downloading it. Which tool should I run?
+- **data-science-data-manipulation-olympics-q128** — I uploaded a text/TSV file and want to quickly inspect the first few lines to confirm the header and delimiter before doing any processing. Which Galaxy tool should I run?
   - Tools: Show beginning1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q129** — I want a quick preview of the first N lines of a dataset to sanity-check formatting. Which Galaxy tool should I use?
@@ -3471,7 +3471,7 @@ Questions:
 - **data-science-data-manipulation-olympics-q135** — I have a wide table and want to keep only a few columns needed for the next step. Which tool should I use?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
-- **data-science-data-manipulation-olympics-q136** — I need to extract selected columns from a tabular dataset and discard the rest. Which tool should I run?
+- **data-science-data-manipulation-olympics-q136** — I have a wide results table and want to keep only the identifier columns and a couple of score columns so it’s easier to plot or share. Which Galaxy tool can extract selected columns?
   - Tools: Cut1
   - Datasets: 6803028, zenodo.6803028
 - **data-science-data-manipulation-olympics-q137** — I want to keep only the identifier and score columns from my table for plotting. Which tool should I use?
@@ -3723,7 +3723,7 @@ Questions:
 - **digital-humanities-open-refine-tutorial-q012** — I need to select specific columns from a tabular file and discard the rest. Which tool should I run?
   - Tools: Cut1
   - Datasets: zenodo.17047254, 17047254, 17047254
-- **digital-humanities-open-refine-tutorial-q013** — Which Galaxy tool extracts selected columns from a table (cut fields)?
+- **digital-humanities-open-refine-tutorial-q013** — Before cleaning a table in OpenRefine, I want to keep only a few relevant columns (e.g., title, author, date) from a larger tabular dataset. Which Galaxy tool should I use to extract those columns?
   - Tools: Cut1
   - Datasets: zenodo.17047254, 17047254, 17047254
 - **digital-humanities-open-refine-tutorial-q014** — What tool should I use in Galaxy to keep only chosen columns from a dataset?

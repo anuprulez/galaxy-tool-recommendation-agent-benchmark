@@ -1033,3 +1033,13 @@ Notes:
   - Query hygiene: Rewrote 2 overly-generic near-duplicate table-manipulation queries to keep within-tool diversity while preserving intent (`data-science-data-manipulation-olympics-q021`, `data-science-data-manipulation-olympics-q025`).
 - Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0032 (ground-truth fix + expansion; lines 969-1168)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on query quality (duplicates/near-duplicates) and adding ground-truth alternatives only when they clearly satisfy the query.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool semantics/IO for representative tools in this range (e.g., verified the `Compute`/column-creation tool entry `Add_a_column1` via helptext/IO fields).
+- Changes: No gold tool replacements or deletions were needed in this batch (all referenced tools were present in the usegalaxy.org catalog snapshot).
+- Query hygiene: Rewrote 4 queries to remove one exact-duplicate pair and reduce highly repetitive near-duplicates while preserving intent (`digital-humanities-open-refine-tutorial-q013`, `data-science-data-manipulation-olympics-q128`, `data-science-data-manipulation-olympics-q136`, `data-science-data-manipulation-olympics-q103`).
+- Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no exact duplicates (remaining near-duplicate pairs acceptable).
