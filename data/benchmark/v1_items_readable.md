@@ -2026,16 +2026,16 @@ Questions:
   - Tools: toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q039** — I want to score docked poses against a reference binding mode to prioritize the most plausible complexes. Which tool should I use?
-  - Tools: xchem_pose_scoring
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring/2020.03.4+galaxy1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q040** — I need a pose-scoring step that evaluates each docked pose relative to a known reference interaction pattern. Which tool should I run?
-  - Tools: xchem_pose_scoring
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring/2020.03.4+galaxy1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q041** — I want to compute a pose score for each docking result so I can rank poses beyond the docking engine score. Which tool should I use?
-  - Tools: xchem_pose_scoring
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q042** — I need to evaluate how well docked poses match a reference binding-site geometry and generate a score table. Which tool should I use?
-  - Tools: xchem_pose_scoring
+  - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring/2020.03.4+galaxy1
   - Datasets: 3730474, zenodo.3730474
 - **computational-chemistry-covid19-docking-q043** — I want a similarity score between each docked pose and a reference ligand pose to help filter false positives. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_max_score/sucos_max_score/2020.03.4+galaxy0
@@ -2368,7 +2368,7 @@ Questions:
 - **computational-chemistry-htmd-analysis-q082** — Before I add solvent, I need the initial system-prep step that generates topology/coordinate inputs from a structure. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2022+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q083** — Which Galaxy tool converts small-molecule structures between common chemical formats for simulation and docking workflows?
+- **computational-chemistry-htmd-analysis-q083** — I have a ligand structure file and need to convert it to the specific format required by my next MD/docking step (e.g., MOL2/SDF/PDB). Which Galaxy tool should I use for chemical format conversion?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/3.1.1+galaxy1, toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1
   - Datasets: 3813283
 - **computational-chemistry-htmd-analysis-q084** — What tool should I use in Galaxy to reformat a ligand library into a different chemical structure representation?
@@ -2392,7 +2392,7 @@ Questions:
 - **computational-chemistry-htmd-analysis-q090** — I need to parameterize a ligand so it can be simulated with a protein in an MD workflow. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype/21.10+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q091** — I have separate topology inputs for a protein and a ligand and need to merge them into one system topology. Which tool should I use?
+- **computational-chemistry-htmd-analysis-q091** — I have a protein topology and a ligand topology (with parameters) and need a single combined GROMACS system topology file that references both. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
 - **computational-chemistry-htmd-analysis-q092** — I need to combine multiple topology files into a single topology for a full simulation system. Which tool should I run?
@@ -2401,7 +2401,7 @@ Questions:
 - **computational-chemistry-htmd-analysis-q093** — Which Galaxy tool merges component topology files into one system topology for molecular dynamics?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q094** — I want to build a full system topology by merging the protein and ligand topology inputs. Which tool should I use?
+- **computational-chemistry-htmd-analysis-q094** — Before running MD, I need to assemble one complete system topology by combining the protein topology with the ligand topology so GROMACS sees a single system. What Galaxy tool can do this merge step?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_merge_topology_files/gmx_merge_topology_files/3.4.3+galaxy0
   - Datasets: 3813283
 - **computational-chemistry-htmd-analysis-q095** — I want to place and center my structure and define a simulation box geometry before solvation. Which tool should I use?
@@ -2452,7 +2452,7 @@ Questions:
 - **computational-chemistry-htmd-analysis-q110** — I need to pull out energy terms from an MD run into a simple tabular dataset. Which tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/2022+galaxy1
   - Datasets: 3813283
-- **computational-chemistry-htmd-analysis-q111** — I want to run a molecular dynamics simulation on my prepared system and produce trajectory outputs for analysis. Which tool should I use?
+- **computational-chemistry-htmd-analysis-q111** — My MD system is prepared and I want to run a GROMACS simulation step that outputs a trajectory and final coordinates for downstream analysis. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2022+galaxy0
   - Datasets: 3813283
 - **computational-chemistry-htmd-analysis-q112** — After minimization, I want to launch a dynamics run and save the trajectory and logs in my history. Which tool should I run?

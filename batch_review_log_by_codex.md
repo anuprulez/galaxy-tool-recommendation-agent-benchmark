@@ -1006,3 +1006,16 @@ Notes:
   - Deleted 27 items in this range where the gold tool was missing from the catalog and no clearly equivalent usegalaxy.org tool could be identified (notably: DIVA/DIVAnd-style objective analysis gridding, ODV interactive profile QC tools + history capture, biogeochemical calibration, and Copernicus/Sentinel discovery tools).
 - Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
 - Validation: check_v1_items passes for the kept subset in this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0030 (ground-truth fix + expansion; lines 569-768)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on replacing missing gold tools with catalog-present equivalents and adding alternatives only when they clearly satisfy the query.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate pose-scoring tool semantics/IO (e.g., confirmed SuCOS is reference-ligand overlap scoring and TransFS is deep-learning pose scoring).
+- Changes:
+  - Replaced 4 missing `xchem_pose_scoring` gold tools with catalog-present equivalents that match the query intent:
+    - Reference-ligand pose comparison queries → `toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring/2020.03.4+galaxy1`
+    - “score poses beyond docking engine score” query → `toolshed.g2.bx.psu.edu/repos/bgruening/xchem_transfs_scoring/xchem_transfs_scoring/0.4.0`
+  - Query hygiene: Rewrote 4 near-duplicate queries (same tools) to keep within-tool diversity while preserving intent (`computational-chemistry-htmd-analysis-q091`, `q094`, `q111`, `q083`).
+- Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
