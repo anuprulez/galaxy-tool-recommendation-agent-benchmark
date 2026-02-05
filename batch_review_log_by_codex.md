@@ -1099,3 +1099,14 @@ Notes:
   - Deleted 4 methylation-array EWAS items whose gold tool (`minfi_analysis/2.1.0`) is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement.
   - Query hygiene: Rewrote 2 queries to remove “clusterProfiler-style” phrasing after swapping to g:Profiler-based tools (intent unchanged).
 - Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrites.
+
+## GTX0039 (ground-truth fix + expansion; lines 2325-2524)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on ground-truth integrity (tool must exist on the usegalaxy.org snapshot) and query diversity.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during replacement decisions (e.g., verified the UCSC WIG→BigWig tool entry and its expected IO via helptext + `input_params_flat`/`outputs_raw`).
+- Changes:
+  - Ground-truth cleanup: For 4 methylation-seq track-conversion items, removed the missing `wig_to_bigWig` ID and kept the usegalaxy-present `…/ucsc_wigtobigwig/482+galaxy0` tool as the sole gold tool (also removed now-unneeded `ground_truth_alternatives*` metadata on those items).
+  - Deleted 4 “cluster from distance matrix” items whose gold tool (`…/clustering_from_distmat/1.1.1`) is not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog.
+  - Query hygiene: Rewrote 1 grep-style query to reduce near-duplicate phrasing within this tutorial range while preserving intent.
+- Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
