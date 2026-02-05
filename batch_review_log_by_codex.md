@@ -1088,3 +1088,14 @@ Notes:
   - Replaced 8 missing `wig_to_bigWig` gold tool IDs with the usegalaxy-present UCSC WIG-to-BigWig tool (`…/ucsc_wigtobigwig/482+galaxy0`) for both ATAC-seq and CUT&RUN items.
   - Query hygiene: Rewrote 6 CUT&RUN-side queries to reduce very high similarity with the corresponding ATAC-seq items while preserving intent/tool focus (grep/peak calling/fragment-length QC/BigWig conversion/deepTools heatmap).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan shows no exact duplicates and only a small number of acceptable cross-tutorial near-duplicates remaining.
+
+## GTX0038 (ground-truth fix + expansion; lines 2129-2328)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on replacing missing gold tools with usegalaxy-present, semantically/IO-compatible alternatives when available.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate replacements (e.g., `chipseeker` for peak annotation, `gprofiler_convert` for ID conversion, `gprofiler_gost` for GO enrichment) using helptext + IO fields.
+- Changes:
+  - Replaced 12 missing KPBIOTEAM R-wrapper tools with usegalaxy-present equivalents: peak annotation → `toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0`, gene ID conversion → `toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/0.1.7+galaxy11`, GO enrichment → `toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/0.1.7+galaxy11`.
+  - Deleted 4 methylation-array EWAS items whose gold tool (`minfi_analysis/2.1.0`) is not present in the usegalaxy.org catalog snapshot and had no clearly equivalent in-catalog replacement.
+  - Query hygiene: Rewrote 2 queries to remove “clusterProfiler-style” phrasing after swapping to g:Profiler-based tools (intent unchanged).
+- Validation: check_v1_items passes for the kept items in this batch (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrites.

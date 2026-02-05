@@ -6928,33 +6928,21 @@ Questions:
 
 ## Infinium Human Methylation BeadChip (topics/epigenetics/tutorials/ewas-suite)
 - Topic: epigenetics
-- Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
+- Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
 - Datasets (1): 1251211
 
 Questions:
-- **epigenetics-ewas-suite-q011** — I have DNA methylation array data and want to run an epigenome-wide association analysis to find differentially methylated sites. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
-  - Datasets: 1251211
-- **epigenetics-ewas-suite-q012** — I need normalization and differential methylation testing for methylation array samples with covariates. Which Galaxy tool should I run?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
-  - Datasets: 1251211
-- **epigenetics-ewas-suite-q013** — Which Galaxy tool performs a Minfi-based methylation array analysis and produces differential methylation results?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
-  - Datasets: 1251211
-- **epigenetics-ewas-suite-q014** — What tool should I use in Galaxy to run an EWAS workflow on methylation array data and get significant CpG sites?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/ewastools/minfi_analysis/2.1.0
-  - Datasets: 1251211
 - **epigenetics-ewas-suite-q015** — I have genomic regions (peaks) and want to annotate them with nearby genes and genomic features. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q016** — I need to map peak coordinates to genes/promoters and produce an annotated table. Which Galaxy tool should I run?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q017** — Which Galaxy tool annotates peak/region coordinates with gene features and distances to TSS?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q018** — What Galaxy tool should I use to add gene annotations to a list of genomic intervals?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/chipeakanno_annopeaks/chipeakanno_annopeaks/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/rnateam/chipseeker/chipseeker/1.28.3+galaxy0
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q019** — I have a wide EWAS results table and want to extract only a few columns (ID, effect size, p-value) for plotting. Which Galaxy tool should I use?
   - Tools: Cut1, toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.5+galaxy2
@@ -6981,28 +6969,28 @@ Questions:
   - Tools: Remove beginning1
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q027** — I have a list of genes in one identifier type and need to convert them to another type before enrichment analysis. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/0.1.7+galaxy11
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q028** — I need to translate gene identifiers (for example, symbols to Entrez IDs) for downstream functional analysis. Which Galaxy tool should I run?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/0.1.7+galaxy11
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q029** — Which Galaxy tool converts gene IDs between annotation systems using a clusterProfiler-style mapping?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
+- **epigenetics-ewas-suite-q029** — Which Galaxy tool can convert gene identifiers between common namespaces (for example, gene symbols, Ensembl IDs, and Entrez IDs) and output a mapped table?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/0.1.7+galaxy11
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q030** — What tool should I use in Galaxy to perform gene identifier conversion for enrichment workflows?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_bitr/clusterprofiler_bitr/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/0.1.7+galaxy11
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q031** — I have a gene list and want to run Gene Ontology enrichment analysis to see overrepresented functions. Which Galaxy tool should I use?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/0.1.7+galaxy11
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q032** — I need GO enrichment results and plots from a list of significant genes. Which Galaxy tool should I run?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/0.1.7+galaxy11
   - Datasets: 1251211
-- **epigenetics-ewas-suite-q033** — Which Galaxy tool performs GO enrichment analysis using a clusterProfiler-style workflow?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
+- **epigenetics-ewas-suite-q033** — Which Galaxy tool can test my gene list for enriched Gene Ontology terms (BP/MF/CC) and return an enrichment table with significance values?
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/0.1.7+galaxy11
   - Datasets: 1251211
 - **epigenetics-ewas-suite-q034** — What tool should I use in Galaxy to compute GO term enrichment for my gene set?
-  - Tools: toolshed.g2.bx.psu.edu/repos/kpbioteam/clusterprofiler_go/clusterprofiler_go/0.1.0
+  - Tools: toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/0.1.7+galaxy11
   - Datasets: 1251211
 
 ## Formation of the Super-Structures on the Inactive X (topics/epigenetics/tutorials/formation_of_super-structures_on_xi)
