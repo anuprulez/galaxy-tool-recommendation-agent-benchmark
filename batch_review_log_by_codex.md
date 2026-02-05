@@ -1256,3 +1256,18 @@ Notes:
   - Deleted 8 MSI imaging items whose gold tools were missing/unresolvable on the usegalaxy.org catalog snapshot (Cardinal MSI QC report + “MSI mz images” placeholder entries); no clearly equivalent single-tool replacement was available in-catalog.
   - No other gold expansions/replacements were needed in this batch.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 192 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0053 (ground-truth fix + expansion; lines 4657-4856)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on (1) resolving a large cluster of missing gold tools by replacement-or-delete decisions and (2) eliminating exact/near-duplicate queries across tutorials for the same tool focus.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` + the catalog index to validate representative in-catalog replacements via helptext + IO fields (e.g., `__BUILD_LIST__`, `toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0`, `Filter1`, `toolshed.g2.bx.psu.edu/repos/peterjc/venn_list/venn_list/0.1.1`) and to confirm many ProteoRE/OpenMS/MetaQuantome/PDAUG tool IDs are absent from the usegalaxy.org snapshot.
+- Changes:
+  - Deleted 48 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent single-tool replacement in-catalog (MultiGSEA, MetaQuantome suite, numerous OpenMS wrappers, PDAUG tools, AB1 converter/consensus helpers, and additional ProteoRE utilities).
+  - Gold-tool corrections (manual, intent-preserving):
+    - Replaced 1 non-catalog collection builder ID (`collections_build_list`) with the usegalaxy-present internal tool `__BUILD_LIST__`.
+    - Replaced 2 missing QIIME1 alignment items with the usegalaxy-present `mothur_align_seqs` tool and rewrote the queries to match the “align to reference/template” intent without naming QIIME.
+    - Replaced 2 missing ProteoRE “keyword + threshold table filtering” items with `Filter1` (row filtering intent preserved).
+    - Replaced 1 missing ProteoRE `Jvenn` item with the in-catalog `venn_list` tool (Venn-diagram overlap intent preserved).
+  - Query hygiene: Rewrote 9 queries to eliminate exact duplicates and high near-duplicates (notably across `Summary_Statistics1`, `query_tabular`, `SearchGUI`, `PeptideShaker`, and upload-intent items) while preserving the same tool focus and user intent.
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 152 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after rewrites.
