@@ -965,3 +965,16 @@ Notes:
 - Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review for tool existence/semantics and IO shape (e.g., proteomics database construction + MaxQuant/MetaNovo-related tool families such as `toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/...`).
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added and no query rewrites were needed in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0027 (ground-truth fix + expansion; lines 1-200)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items in data/benchmark/v1_items.jsonl, focusing on ground-truth integrity (tool existence on usegalaxy.org snapshot) and adding alternatives only when clearly equivalent.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to confirm tool presence and sanity-check semantics/IO for any replacements or potential alternative additions (e.g., confirmed `MUMmer dotplot` tool entry for whole-genome dotplot visualization).
+- Changes: Replaced 7 gold tool IDs that were not present in the usegalaxy.org catalog snapshot with catalog-present, semantically equivalent tools where available (no deletions needed in this batch).
+  - `chromeister` → `toolshed.g2.bx.psu.edu/repos/peterjc/mummer/mummerplot_wrapper/0.0.7` (whole-genome dotplot)
+  - Toolshed `mergeCols1` wrapper → core `mergeCols1` (merge columns side-by-side)
+  - `circos_interval_to_tiles` → `circos_interval_to_tile` (tile track formatting)
+  - `Rules` → `__APPLY_RULES__` (rule-based mapping for collections/upload)
+- Ground-truth alternatives: No new multi-tool alternatives were added in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
