@@ -6797,7 +6797,7 @@ Questions:
 - **epigenetics-cut_and_run-q037** — I’m concerned PCR duplicates may inflate my CUT&RUN signal and want to mark duplicates and report duplication metrics from my BAM file. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q038** — What tool should I use in Galaxy to identify and mark duplicate reads before downstream analysis?
+- **epigenetics-cut_and_run-q038** — In a CUT&RUN alignment BAM, I want to identify and mark PCR/optical duplicates before peak calling and coverage track generation. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/3.1.1.0, toolshed.g2.bx.psu.edu/repos/iuc/samtools_markdup/samtools_markdup/1.22+galaxy1
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q039** — I need to extract only the lines that match a pattern from a text dataset in my Galaxy history. Which Galaxy tool should I use?
@@ -6818,7 +6818,7 @@ Questions:
 - **epigenetics-cut_and_run-q044** — I need a BED-style interval dataset derived from my alignments. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q045** — Which Galaxy tool converts BAM alignments into BED intervals?
+- **epigenetics-cut_and_run-q045** — I have CUT&RUN read alignments in BAM format and need a BED interval representation for downstream peak/region operations. Which Galaxy tool converts BAM to BED?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.31.1+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q046** — What tool should I use in Galaxy to transform a BAM file into an interval dataset for bedtools-style operations?
@@ -6830,7 +6830,7 @@ Questions:
 - **epigenetics-cut_and_run-q048** — I need a histogram of paired-end template lengths to assess library quality. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q049** — Which Galaxy tool generates an insert-size histogram from a paired-end BAM file?
+- **epigenetics-cut_and_run-q049** — From a CUT&RUN paired-end BAM, I want an insert-size (fragment length) histogram to QC nucleosome-sized fragments. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.2
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q050** — What tool should I use in Galaxy to compute and plot paired-end fragment length distributions?
@@ -6866,7 +6866,7 @@ Questions:
 - **epigenetics-cut_and_run-q060** — I want to turn a coverage/signal dataset into a compact track format suitable for genome browsers. Which Galaxy tool should I run?
   - Tools: wig_to_bigWig
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q061** — Which Galaxy tool converts a WIG-style signal track into BigWig format?
+- **epigenetics-cut_and_run-q061** — I produced a WIG-format coverage/signal track from CUT&RUN data and need it converted to BigWig for visualization. Which Galaxy tool should I use?
   - Tools: wig_to_bigWig
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q062** — What tool should I use in Galaxy to convert a signal track into BigWig for efficient viewing?
@@ -6926,7 +6926,7 @@ Questions:
 - **epigenetics-cut_and_run-q080** — I need a heatmap of coverage around genomic regions to compare enrichment patterns between samples. Which Galaxy tool should I run?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
-- **epigenetics-cut_and_run-q081** — Which Galaxy tool plots a heatmap from a computed signal matrix over genomic regions?
+- **epigenetics-cut_and_run-q081** — I have a signal matrix (scores over genomic regions) from CUT&RUN data and want to plot a heatmap to compare enrichment patterns. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.5.4+galaxy0
   - Datasets: 6823059, zenodo.6823059
 - **epigenetics-cut_and_run-q082** — What tool should I use in Galaxy to generate heatmaps and profiles from a deepTools-style matrix?
