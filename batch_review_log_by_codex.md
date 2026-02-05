@@ -1048,6 +1048,14 @@ Notes:
 
 - Date: 2026-02-05
 - Scope: Manual per-item review for 200 items, focusing on ground-truth integrity and query hygiene; add alternatives only when they clearly satisfy the query.
-- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool semantics/IO for representative tools in this range (e.g., verified the `Datamash` tool entry via helptext/IO fields).
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool semantics/IO for representative tools in this range (e.g., verified the NCBI BLAST+ `ncbi_blastn_wrapper` entry via helptext + `input_params_flat`/`outputs_raw`).
 - Changes: No gold tool replacements, deletions, or alternative additions were needed in this batch.
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0034 (ground-truth fix + expansion; lines 1369-1568)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on ground-truth integrity and strict alternative additions only when they clearly satisfy the query.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to sanity-check tool semantics/IO for representative tools in this range (e.g., verified the `Datamash` tool entry via helptext/IO fields).
+- Changes: No gold tool replacements, deletions, query rewrites, or alternative additions were needed in this batch.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
