@@ -17061,7 +17061,7 @@ Questions:
 - **single-cell-scrna-scanpy-pbmc3k-q016** — I want to make plots for my single-cell dataset (QC plots and embeddings colored by metadata or gene expression). Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.10.2+galaxy3
   - Datasets: 3581213
-- **single-cell-scrna-scanpy-pbmc3k-q017** — I want to normalize a single-cell count matrix and create a log-transformed expression layer for downstream analysis. Which Galaxy tool should I use?
+- **single-cell-scrna-scanpy-pbmc3k-q017** — I have an AnnData single-cell dataset and need library-size normalization followed by a log1p transform so it's ready for PCA/UMAP and clustering. Which Galaxy tool can do this normalization step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.10.2+galaxy3
   - Datasets: 3581213
 - **single-cell-scrna-scanpy-pbmc3k-q018** — I want to regress out confounding effects (for example sequencing depth or mitochondrial fraction) from my single-cell expression data. Which Galaxy tool should I use?

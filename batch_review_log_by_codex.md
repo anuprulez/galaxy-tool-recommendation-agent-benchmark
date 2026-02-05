@@ -1283,3 +1283,13 @@ Notes:
     - Replaced 1 missing quick-tree builder (`quicktree`) with `toolshed.g2.bx.psu.edu/repos/iuc/rapidnj/rapidnj/2.3.2` (quick neighbor-joining tree from an alignment).
     - Replaced 1 missing tree viewer (`ete_treeviewer`) with `toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1` and rewrote the query to match the “display a Newick tree” intent.
 - Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 196 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0055 (ground-truth fix + expansion; lines 5005-5204)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on query hygiene (avoid near-duplicates) while confirming all gold tools are present on the usegalaxy snapshot.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to spot-check representative kept tools (helptext + IO present) and to confirm there were no missing tool IDs in this slice.
+- Changes:
+  - No gold deletions/replacements/alternative additions were needed in this batch (all referenced tools were present in the snapshot).
+  - Query hygiene: Rewrote 1 `scanpy_normalize` query (`single-cell-scrna-scanpy-pbmc3k-q017`) to eliminate a high-similarity near-duplicate with another `scanpy_normalize` item while preserving intent/tool focus.
+- Validation: check_v1_items passes for this slice (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
