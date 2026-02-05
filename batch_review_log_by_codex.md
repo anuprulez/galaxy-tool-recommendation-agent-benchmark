@@ -1195,3 +1195,13 @@ Notes:
   - No gold tool replacements, deletions, or alternative additions were needed in this batch (all referenced tools were present in the usegalaxy.org catalog snapshot).
   - Query hygiene: Rewrote 1 `tp_sort_header_tool` query (`introduction-galaxy-intro-peaks2genes-q035`) to reduce a high-similarity cross-tutorial near-duplicate while preserving intent.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates after the rewrite.
+
+## GTX0047 (ground-truth fix + expansion; lines 3625-3824)
+
+- Date: 2026-02-05
+- Scope: Manual per-item review for 200 items, focusing on removing missing gold tools (usegalaxy snapshot) while keeping only clearly in-catalog equivalents.
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` to validate the MatchMS replacement decision (confirmed `toolshed.g2.bx.psu.edu/repos/recetox/matchms/matchms/0.17.0+galaxy0` exposes similarity-metric choices and produces a similarity output via helptext + IO fields).
+- Changes:
+  - Deleted 32 items whose gold tools are not present in the usegalaxy.org catalog snapshot and had no clearly semantically/IO-equivalent replacement in-catalog (muon-spectroscopy project tools; metabolomics batch correction / QC metrics / generic filtering / HMDB WSDL search tools).
+  - Ground-truth cleanup: For 4 metabolomics items that listed `matchms_similarity` plus `matchms`, dropped the missing `matchms_similarity` tool and kept `matchms` as the sole gold tool (updated `metadata.tool_focus` accordingly and removed now-unneeded multi-tool metadata).
+- Validation: check_v1_items passes for the kept items reviewed in this batch (after deletions: 168 items kept from this slice; WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
