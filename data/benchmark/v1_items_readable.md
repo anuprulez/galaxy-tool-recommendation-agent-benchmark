@@ -15477,10 +15477,10 @@ Questions:
 - **microbiome-pathogen-detection-from-nanopore-foodborne-data-q028** — I want to classify long-read or short-read sequencing data taxonomically against a reference database and get a per-sample classification report. What Galaxy tool can do this?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — Which Galaxy tool can classify sequencing reads taxonomically against a reference database and produce a classification report?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q029** — I have nanopore metagenomic reads from a food sample and want to quickly screen for pathogen taxa by classifying reads against a reference database and summarizing assignments in a report. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
-- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q030** — In Galaxy, what tool should I run for taxonomic classification of metagenomic reads?
+- **microbiome-pathogen-detection-from-nanopore-foodborne-data-q030** — For rapid pathogen detection, I need taxonomic classification of long metagenomic reads and a per-taxon summary of read counts/abundance. What Galaxy tool can do this read classification step?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.17.1+galaxy0, toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.1.1+galaxy1
   - Datasets: 11222469
 

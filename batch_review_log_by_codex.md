@@ -948,3 +948,12 @@ Notes:
 - Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
 - Query hygiene: Rewrote 15 queries to remove exact duplicates between the generic microbiome tutorial and the mothur MiSeq SOP tutorial while keeping intent unchanged (updated `microbiome-mothur-miseq-sop-q011`..`q022` and `microbiome-mothur-miseq-sop-q024`..`q026`).
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no exact duplicates (one remaining near-duplicate pair acceptable).
+
+## GTX0025 (ground-truth expansion; lines 4751-4950)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Review note: Consulted `data/tool_catalog/usegalaxy_org_all_tools_with_helptext.jsonl` during review to validate taxonomy-classification tool semantics via helptext/IO (e.g., `toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/...`).
+- Changes: Reviewed all 200 items; no new ground-truth alternatives were added in this batch.
+- Query hygiene: Rewrote 2 queries to remove exact duplicates across nanopore microbiome tutorials while keeping intent unchanged (`microbiome-pathogen-detection-from-nanopore-foodborne-data-q029`, `microbiome-pathogen-detection-from-nanopore-foodborne-data-q030`).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
