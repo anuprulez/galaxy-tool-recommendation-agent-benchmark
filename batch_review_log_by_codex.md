@@ -746,3 +746,11 @@ Notes:
 - Changes: Reviewed all 150 items and added one high-confidence alternative aligner where the intent is interchangeable for short-read mapping (Hi-C reads): BWA-MEM2 ↔ BWA-MEM (1 item expanded).
 - Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (110 items adjusted); ensured metadata.ground_truth_alternatives note is present for the new multi-tool item.
 - Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.
+
+## GTX0002 (ground-truth expansion; lines 151-350)
+
+- Date: 2026-02-05
+- Scope: Manual per-item ground-truth expansion + integrity pass for 200 items in data/benchmark/v1_items.jsonl
+- Changes: Reviewed all 200 items and kept expansions conservative (no new alternatives added in this batch). Made two small query rewrites to eliminate a smell-scan “too generic step” flag and a near-duplicate BUSCO query pair while keeping intent unchanged.
+- Integrity: Fixed metadata.tool_focus drift so tool_focus is always one of tools[] in this range (123 items adjusted).
+- Validation: check_v1_items passes for this range (WARN-only for core/internal ids); smell scan reports no hits/duplicates/near-duplicates.

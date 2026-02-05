@@ -634,7 +634,7 @@ Questions:
 - **assembly-general-introduction-q012** — I have several per-sample read QC reports and want one combined summary report so I can quickly compare samples and identify outliers. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.33+galaxy0
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
-- **assembly-general-introduction-q013** — My paired-end reads are in two datasets (forward and reverse), but a downstream step expects mates interleaved in a single dataset. Which Galaxy tool should I use to interleave paired reads?
+- **assembly-general-introduction-q013** — I have paired-end reads as separate forward and reverse FASTQ datasets, but my next mapping step expects a single interleaved paired-end dataset. Which Galaxy tool should I use to interleave the mates while keeping read pairing intact?
   - Tools: toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.2.0.1+galaxy0
   - Datasets: zenodo.582600, mutant_R1.fastq, mutant_R2.fastq, 582600
 - **assembly-general-introduction-q014** — I want to run a de Bruijn-graph short-read assembly workflow and need the step that prepares an indexed assembly dataset from interleaved reads. Which Galaxy tool should I use?
@@ -772,7 +772,7 @@ Questions:
 - **assembly-largegenome-q014** — I want a quick table of basic assembly statistics (contig counts, total length, N50-style metrics) from a genome assembly FASTA. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/2.0
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
-- **assembly-largegenome-q015** — How complete is my large-genome assembly in terms of expected conserved genes? Which Galaxy tool should I use to compute a conserved gene completeness summary?
+- **assembly-largegenome-q015** — I assembled a very large genome and want a completeness report based on conserved single-copy genes, ideally with a clear summary table I can compare across assemblies. Which Galaxy tool should I use?
   - Tools: toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.8.0+galaxy2
   - Datasets: zenodo.7055935, 7055935, Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
 - **assembly-largegenome-q016** — I want an assembly QC report that highlights contiguity and potential misassemblies, optionally using a reference genome for comparison. Which Galaxy tool should I use?
