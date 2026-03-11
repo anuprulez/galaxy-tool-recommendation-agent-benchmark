@@ -65,7 +65,8 @@ This repo includes a `training-material/` checkout. To update it:
 For Codex CLI, install (or symlink) the repo-local skills into `~/.codex/skills/` and restart Codex:
 
 ```bash
-ln -sf "$(pwd)/skills/galaxy-query-guidelines" ~/.codex/skills/galaxy-query-guidelines
+ln -sf "$(pwd)/skills/galaxy-query-generation" ~/.codex/skills/galaxy-query-generation
+ln -sf "$(pwd)/skills/galaxy-query-rewrite" ~/.codex/skills/galaxy-query-rewrite
 ln -sf "$(pwd)/skills/galaxy-ground-truth-expansion" ~/.codex/skills/galaxy-ground-truth-expansion
 ```
 
@@ -102,8 +103,9 @@ This project addresses the challenge by:
 
 The workflow rules and review checks are documented as Codex skills:
 
-- Repo-local: `skills/galaxy-query-guidelines/SKILL.md`
-- Installed into Codex (if you ran the installer): `~/.codex/skills/galaxy-query-guidelines/SKILL.md`
+- Repo-local: `skills/galaxy-query-generation/SKILL.md`
+- Installed into Codex (if you ran the installer): `~/.codex/skills/galaxy-query-generation/SKILL.md`
+- Query rewrite/review (repo-local): `skills/galaxy-query-rewrite/SKILL.md`
 - Ground-truth expansion (repo-local): `skills/galaxy-ground-truth-expansion/SKILL.md`
 
 ## Tool catalog

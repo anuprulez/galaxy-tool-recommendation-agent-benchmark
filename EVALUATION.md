@@ -92,6 +92,18 @@ If you prefer a stricter definition based on the Galaxy tool panel section, you 
 
 `python3 -m scripts.eval.run_v1_agent_eval --filter-tool-section 'Machine Learning' --max-queries 100 --resume --run-name ml_section_100`
 
+### Candidate retrieval strategies
+
+The eval runner builds a candidate shortlist from the local tool catalog before asking the LLM to rank tools:
+
+- Default (`--candidate-strategy token`): local token matching directly on the user query.
+- Keyword-assisted (`--candidate-strategy llm_keywords`): the LLM first returns search keywords, then the runner retrieves candidates from the tool catalog using those keywords (more precise for short/ambiguous queries, but uses an extra LLM call per query).
+
+The `predictions.jsonl` output includes a `retrieved_tools` field by default (the retrieved `tool_id` shortlist used for ranking). Use `--no-write-candidates` to disable it.
+Candidates are de-duplicated by base tool ID by default (toolshed version differences are collapsed) to avoid wasting shortlist slots on multiple versions; disable with `--no-dedupe-candidates-by-base`.
+
+It also includes `gold` (ground truth tool IDs) and `query` by default, and writes a per-run Markdown report to `report.md` unless you pass `--no-markdown`.
+
 ### Other LLM providers
 
 If your provider supports the OpenAI-compatible `POST /v1/chat/completions` API, use:
